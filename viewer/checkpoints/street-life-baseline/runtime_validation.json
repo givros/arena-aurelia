@@ -1,0 +1,1093 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-10T13:50:22.146Z",
+  "backend": "webgpu",
+  "adapter": {
+    "vendor": "nvidia",
+    "architecture": "ampere",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": false
+  },
+  "adapterClass": "hardware",
+  "browser": "154.0.8037.99",
+  "viewport": {
+    "width": 1440,
+    "height": 1080,
+    "dpr": 1,
+    "framebufferWidth": 1440,
+    "framebufferHeight": 1080
+  },
+  "profileSHA256": "3eac181e978cb376fa1f914503679cb8c4ba5a6678c540200812d58d6a490314",
+  "source": {
+    "manifestSHA256": "651d977d06e49f36aa61a4eb9ea885116411fca26c2e7060ce53510670325b66",
+    "binarySHA256": "1fd532a133e9703abddb84f26f78e4f588f774cb46d621877088266d006c4d09",
+    "blendSHA256": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+    "characterManifestSHA256": "452b5fdfa341fd614e85d858ec9df8e6d7fba58283ea9f7bb176bfde461c890f",
+    "characterAssets": [
+      {
+        "asset": "characters/seated-spectator.glb",
+        "count": 12000,
+        "trianglesPerInstance": 5002,
+        "bytes": 325968,
+        "sha256": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+        "animations": []
+      },
+      {
+        "asset": "characters/gladiator.glb",
+        "count": 38,
+        "trianglesPerInstance": 5878,
+        "bytes": 376616,
+        "sha256": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4",
+        "animations": []
+      },
+      {
+        "asset": "characters/guard.glb",
+        "count": 24,
+        "trianglesPerInstance": 5890,
+        "bytes": 376876,
+        "sha256": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9",
+        "animations": []
+      },
+      {
+        "asset": "characters/merchant.glb",
+        "count": 28,
+        "trianglesPerInstance": 5002,
+        "bytes": 325888,
+        "sha256": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26",
+        "animations": []
+      },
+      {
+        "asset": "characters/noble.glb",
+        "count": 8,
+        "trianglesPerInstance": 5002,
+        "bytes": 325852,
+        "sha256": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae",
+        "animations": []
+      },
+      {
+        "asset": "characters/citizen.glb",
+        "count": 200,
+        "trianglesPerInstance": 5002,
+        "bytes": 325872,
+        "sha256": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb",
+        "animations": []
+      },
+      {
+        "asset": "characters/worker.glb",
+        "count": 16,
+        "trianglesPerInstance": 5002,
+        "bytes": 325860,
+        "sha256": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d",
+        "animations": []
+      },
+      {
+        "asset": "characters/animated-citizen.glb",
+        "count": 8,
+        "trianglesPerInstance": 5002,
+        "bytes": 821928,
+        "sha256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+        "animations": [
+          "Idle",
+          "Jump",
+          "Run",
+          "Walk"
+        ]
+      }
+    ]
+  },
+  "quality": {
+    "nativeDPR": true,
+    "MSAA": 4,
+    "shadows": 4096,
+    "compression": false,
+    "geometryReduction": false
+  },
+  "loads": {
+    "freshTemporaryContextMs": 9712.5,
+    "sameContextReloadMs": 9055.899999976158,
+    "driverShaderCache": "uncontrolled"
+  },
+  "performance": {
+    "warmupSeconds": 3,
+    "samplingSeconds": 12,
+    "frameIntervalMs": {
+      "p50": 33.30000000000291,
+      "p95": 33.400000000001455,
+      "samples": 393
+    },
+    "cpuCallbackMs": {
+      "p50": 7,
+      "p95": 8.300000011920929,
+      "samples": 393
+    },
+    "gpuExecutionMs": null,
+    "render": {
+      "calls": 3918,
+      "frameCalls": 3,
+      "drawCalls": 854,
+      "triangles": 128465039,
+      "points": 0,
+      "lines": 0,
+      "timestamp": 0
+    },
+    "rendererReportedAllocationBytes": 523086224,
+    "otherViews": [
+      {
+        "name": "plaza",
+        "samplingSeconds": 8,
+        "frameIntervalMs": {
+          "p50": 33.30000000000291,
+          "p95": 33.400000000001455,
+          "samples": 269
+        },
+        "cpuCallbackMs": {
+          "p50": 6.5,
+          "p95": 7.599999964237213,
+          "samples": 269
+        },
+        "render": {
+          "calls": 4926,
+          "frameCalls": 3,
+          "drawCalls": 833,
+          "triangles": 128389731,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        }
+      },
+      {
+        "name": "hypogeum",
+        "samplingSeconds": 8,
+        "frameIntervalMs": {
+          "p50": 16.69999999999709,
+          "p95": 33.39999999999418,
+          "samples": 391
+        },
+        "cpuCallbackMs": {
+          "p50": 5.899999976158142,
+          "p95": 7.5,
+          "samples": 391
+        },
+        "render": {
+          "calls": 6378,
+          "frameCalls": 3,
+          "drawCalls": 700,
+          "triangles": 106185445,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        }
+      }
+    ]
+  },
+  "transfer": {
+    "sourceInstances": 18120,
+    "sourceMeshes": 9022,
+    "sourceTriangles": 2840811,
+    "runtimeTriangles": 2840811,
+    "batches": 427,
+    "instancedObjects": 1510,
+    "mergedObjects": 16610,
+    "bytes": 36897380,
+    "collisionInstances": 14779,
+    "materialCount": 66
+  },
+  "characters": {
+    "count": 12322,
+    "animated": 8,
+    "triangles": 61689244
+  },
+  "checks": [
+    {
+      "name": "Production source loads on actual WebGPU",
+      "status": "passed",
+      "detail": {
+        "backend": "webgpu",
+        "loadMs": 9712.5,
+        "phases": {
+          "backendMs": 411.2999999523163,
+          "assetsAndCollisionMs": 1623.300000011921,
+          "charactersMs": 142.20000004768372,
+          "compileMs": 4895.600000023842
+        }
+      }
+    },
+    {
+      "name": "All validated full character primitives retained",
+      "status": "passed",
+      "detail": {
+        "runtime": {
+          "count": 12322,
+          "animated": 8,
+          "triangles": 61689244
+        },
+        "source": 61689244
+      }
+    },
+    {
+      "name": "Cluster light capacity retains every finite source light",
+      "status": "passed",
+      "detail": {
+        "sourceLights": 31
+      }
+    },
+    {
+      "name": "Every exported architecture instance and triangle retained",
+      "status": "passed",
+      "detail": {
+        "sourceInstances": 18120,
+        "sourceMeshes": 9022,
+        "sourceTriangles": 2840811,
+        "runtimeTriangles": 2840811,
+        "batches": 427,
+        "instancedObjects": 1510,
+        "mergedObjects": 16610,
+        "bytes": 36897380,
+        "collisionInstances": 14779,
+        "materialCount": 66
+      }
+    },
+    {
+      "name": "Character crowd and actual skeletal actors loaded",
+      "status": "passed",
+      "detail": {
+        "count": 12322,
+        "animated": 8,
+        "triangles": 61689244
+      }
+    },
+    {
+      "name": "Day/night cycle changes lighting and keeps local lights active",
+      "status": "passed",
+      "detail": {
+        "nightHour": 22,
+        "screenshot": "../renders/viewer_night.png"
+      }
+    },
+    {
+      "name": "Actual WASD key input moves on the authored plaza",
+      "status": "passed",
+      "detail": {
+        "start": [
+          0,
+          1.72,
+          119
+        ],
+        "moved": [
+          0,
+          1.72,
+          113.89028
+        ]
+      }
+    },
+    {
+      "name": "ZQSD input is accepted",
+      "status": "passed",
+      "detail": {
+        "moved": [
+          0,
+          1.72,
+          113.89028
+        ],
+        "azerty": [
+          0,
+          1.72,
+          111.30055999999998
+        ]
+      }
+    },
+    {
+      "name": "Space jump uses gravity and lands on the authored plaza",
+      "status": "passed",
+      "detail": {
+        "start": 1.72,
+        "airborne": 2.5436448149999995,
+        "landed": 1.72
+      }
+    },
+    {
+      "name": "Pointer lock and real mouse look",
+      "status": "passed",
+      "detail": {
+        "lock": "world",
+        "yawBefore": 0,
+        "yawAfter": -0.09
+      }
+    },
+    {
+      "name": "Escape pauses movement",
+      "status": "passed",
+      "detail": {
+        "scope": "Isolated Chromium application event handling"
+      }
+    },
+    {
+      "name": "Fullscreen API and pause state remain independent",
+      "status": "passed",
+      "detail": {
+        "entry": true,
+        "fullscreen": true,
+        "paused": true,
+        "scope": "API/application state only; native physical long-hold Escape is not tested"
+      }
+    },
+    {
+      "name": "Explicit fullscreen exit",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "Aerial mode returns after walking",
+      "status": "passed",
+      "detail": null
+    },
+    {
+      "name": "Desktop resize keeps native framebuffer and source lens framing",
+      "status": "passed",
+      "detail": {
+        "width": 1600,
+        "height": 1000,
+        "dpr": 1
+      }
+    },
+    {
+      "name": "Patrol actors move while camera is stationary",
+      "status": "passed",
+      "detail": {
+        "actorBefore": [
+          111.36761070191979,
+          0.015,
+          -16.449924581621865
+        ],
+        "actorAfter": [
+          111.36239944730931,
+          0.015,
+          -16.492103875420895
+        ]
+      }
+    },
+    {
+      "name": "Bundled Walk clip changes skeletal bone poses",
+      "status": "passed",
+      "detail": {
+        "quaternionComponents": 196,
+        "changed": 116
+      }
+    },
+    {
+      "name": "Animated human scale survives bundled root animation tracks",
+      "status": "passed",
+      "detail": {
+        "lowest": 0.009929014228266628,
+        "highest": 1.7701354528299449,
+        "height": 1.7602064386016782,
+        "rootHeight": 0.015
+      }
+    },
+    {
+      "name": "Reload recreates a working world",
+      "status": "passed",
+      "detail": {
+        "reloadLoadMs": 9055.899999976158
+      }
+    },
+    {
+      "name": "Disposal clears navigation listeners and frame loop",
+      "status": "passed",
+      "detail": null
+    }
+  ],
+  "routes": {
+    "timestamp": "2026-10-10T13:42:52.331Z",
+    "scope": "Production source scene and actual fixed-step first-person controller; each route starts once, then moves continuously with body collision and gravity, without destination teleport.",
+    "results": [
+      {
+        "id": "ceremonial",
+        "name": "Plaza through southern arcades and tunnel onto sand",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              0,
+              91
+            ],
+            "reached": true,
+            "foot": [
+              0,
+              0,
+              91.125
+            ],
+            "support": "PLAZA/Foundation",
+            "lastHit": "PLAZA/Foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              0,
+              77
+            ],
+            "reached": true,
+            "foot": [
+              0,
+              7.216449395365721e-17,
+              77.125
+            ],
+            "support": "CONCOURSE/Annular floor",
+            "lastHit": "CONCOURSE/Annular floor",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              0,
+              58
+            ],
+            "reached": true,
+            "foot": [
+              0,
+              5.551115123125783e-17,
+              58.125
+            ],
+            "support": "PLAZA/Foundation",
+            "lastHit": "PLAZA/Foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              0,
+              40
+            ],
+            "reached": true,
+            "foot": [
+              0,
+              0.4000000059604645,
+              40.125
+            ],
+            "support": "SANDS/Deck_0_-21",
+            "lastHit": "SANDS/Deck_0_-21",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      },
+      {
+        "id": "northeast_stands",
+        "name": "Arena sand through northeast radial stairs to upper terrace",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              51.9,
+              -35.637
+            ],
+            "reached": true,
+            "foot": [
+              51.808504678942,
+              7.006457787056775,
+              -35.545504678941995
+            ],
+            "support": "STAIRS/Lower2/19",
+            "lastHit": "STAIRS/Lower2/19",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              62,
+              -45.737
+            ],
+            "reached": true,
+            "foot": [
+              61.884776310850384,
+              20.087707927127667,
+              -45.62177631085038
+            ],
+            "support": "STAIRS/Cavea2/42",
+            "lastHit": "STAIRS/Cavea2/42",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              72.5,
+              -56.237
+            ],
+            "reached": true,
+            "foot": [
+              72.40298968100036,
+              31.355999940872152,
+              -56.13998968100036
+            ],
+            "support": "FACADE/Continuous cornice.003",
+            "lastHit": "FACADE/Continuous cornice.003",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      },
+      {
+        "id": "upper_stairs",
+        "name": "Northeast cavea staircase from lower landing to upper promenade",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              62,
+              -45.737
+            ],
+            "reached": true,
+            "foot": [
+              61.899494936611745,
+              20.087707927127667,
+              -45.63649493661175
+            ],
+            "support": "STAIRS/Cavea2/42",
+            "lastHit": "STAIRS/Cavea2/42",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              72.5,
+              -56.237
+            ],
+            "reached": true,
+            "foot": [
+              72.41770830676172,
+              31.355999940872152,
+              -56.15470830676173
+            ],
+            "support": "FACADE/Continuous cornice.003",
+            "lastHit": "FACADE/Continuous cornice.003",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      },
+      {
+        "id": "vip",
+        "name": "Middle seating into imperial loggia through side passage",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              17,
+              -59
+            ],
+            "reached": true,
+            "foot": [
+              17.125,
+              16.199248952388782,
+              -59
+            ],
+            "support": "CAVEA/Sector03/Row09",
+            "lastHit": "CAVEA/Sector03/Row09",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              15,
+              -59
+            ],
+            "reached": true,
+            "foot": [
+              15.125,
+              15.73994443681505,
+              -59
+            ],
+            "support": "CAVEA/Sector03/Row09",
+            "lastHit": "CAVEA/Sector03/Row09",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              10,
+              -59
+            ],
+            "reached": true,
+            "foot": [
+              10.125,
+              18.719999924898147,
+              -59
+            ],
+            "support": "VIP/Side access bridge.001",
+            "lastHit": "VIP/Side access bridge.001",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              0,
+              -59
+            ],
+            "reached": true,
+            "foot": [
+              0.125,
+              18.72000075161457,
+              -59
+            ],
+            "support": "VIP/Loggia floor",
+            "lastHit": "VIP/Loggia floor",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      },
+      {
+        "id": "hypogeum",
+        "name": "Arena service ramp into hypogeum and preparation passage",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              64,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              64.125,
+              0.4000000059604645,
+              0
+            ],
+            "support": "SANDS/Deck_32_0",
+            "lastHit": "SANDS/Deck_32_0",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              46,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              46.125,
+              -5.29679991146028,
+              0
+            ],
+            "support": "HYPOGEUM/Gladiator ramp",
+            "lastHit": "HYPOGEUM/Gladiator ramp",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              33,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              33.125,
+              -5.600000083446503,
+              0
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              20,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              20.125,
+              -5.600000083446503,
+              0
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              12,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              12.125,
+              -5.600000083446503,
+              0
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              12,
+              -14
+            ],
+            "reached": true,
+            "foot": [
+              12.001121009108822,
+              -5.600000083446503,
+              -13.87444697981207
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              7,
+              -17
+            ],
+            "reached": true,
+            "foot": [
+              7.125066079427637,
+              -5.600000083446503,
+              -16.921837391743544
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              7,
+              -23
+            ],
+            "reached": true,
+            "foot": [
+              7.001634423775726,
+              -5.600000083446503,
+              -22.920567642920254
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      },
+      {
+        "id": "river_bridge",
+        "name": "West quay across the real bridge ramps and deck into the city",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              -212.5,
+              -105
+            ],
+            "reached": true,
+            "foot": [
+              -212.625,
+              6.050000190734863,
+              -105
+            ],
+            "support": "Pons_Caelius/stone",
+            "lastHit": "Pons_Caelius/stone",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              -180,
+              -105
+            ],
+            "reached": true,
+            "foot": [
+              -180.125,
+              6.050000190734863,
+              -105
+            ],
+            "support": "Pons_Caelius/road",
+            "lastHit": "Pons_Caelius/road",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              -147.5,
+              -105
+            ],
+            "reached": true,
+            "foot": [
+              -147.625,
+              6.050000190734863,
+              -105
+            ],
+            "support": "Pons_Caelius/road",
+            "lastHit": "Pons_Caelius/road",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              -126,
+              -105
+            ],
+            "reached": true,
+            "foot": [
+              -126.125,
+              -0.035000000149011556,
+              -105
+            ],
+            "support": "District_ground/ground",
+            "lastHit": "District_ground/ground",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      },
+      {
+        "id": "temple",
+        "name": "City avenue up temple stairs into its colonnaded portico",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              10,
+              -133
+            ],
+            "reached": true,
+            "foot": [
+              10,
+              8.25,
+              -132.875
+            ],
+            "support": "Temple_of_Concordia/stone",
+            "lastHit": "Temple_of_Concordia/stone",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              10,
+              -145.8
+            ],
+            "reached": true,
+            "foot": [
+              10,
+              12,
+              -145.625
+            ],
+            "support": "Temple_of_Concordia/stone",
+            "lastHit": "Temple_of_Concordia/stone",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              10,
+              -150
+            ],
+            "reached": true,
+            "foot": [
+              10,
+              12.260000228881836,
+              -149.875
+            ],
+            "support": "Temple_of_Concordia/marble",
+            "lastHit": "Temple_of_Concordia/marble",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              10,
+              -154
+            ],
+            "reached": true,
+            "foot": [
+              10,
+              12.260000228881836,
+              -153.875
+            ],
+            "support": "Temple_of_Concordia/marble",
+            "lastHit": "Temple_of_Concordia/marble",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              10,
+              -158
+            ],
+            "reached": true,
+            "foot": [
+              10,
+              12.65999984741211,
+              -157.875
+            ],
+            "support": "Temple_of_Concordia/marble",
+            "lastHit": "Temple_of_Concordia/marble",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      },
+      {
+        "id": "northeast_descent",
+        "name": "Upper promenade down radial stairs onto the arena sand",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              62,
+              -45.737
+            ],
+            "reached": true,
+            "foot": [
+              62.07017497749834,
+              22.013958639403143,
+              -45.80717497749834
+            ],
+            "lastHit": "STAIRS/Cavea2/45",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              51.9,
+              -35.637
+            ],
+            "reached": true,
+            "foot": [
+              51.993903345589956,
+              8.87104160318771,
+              -35.73090334558996
+            ],
+            "lastHit": "STAIRS/Cavea2/6",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              43.5,
+              -27.237
+            ],
+            "reached": true,
+            "foot": [
+              43.59701031899964,
+              0.7383332874377573,
+              -27.33401031899964
+            ],
+            "support": "SANDS/Deck_21_13",
+            "lastHit": "SANDS/Deck_21_13",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      },
+      {
+        "id": "hypogeum_exit",
+        "name": "Preparation passage back through service ramp to the arena",
+        "status": "passed",
+        "samples": [
+          {
+            "target": [
+              7,
+              -17
+            ],
+            "reached": true,
+            "foot": [
+              7,
+              -5.600000083446503,
+              -17.125
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              12,
+              -14
+            ],
+            "reached": true,
+            "foot": [
+              11.875990248029256,
+              -5.600000083446503,
+              -14.077506094981716
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              12,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              11.999312458506832,
+              -5.600000083446503,
+              -0.07804926150409376
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              46,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              45.87422320818543,
+              -5.558725502519129,
+              -0.00028872315312748455
+            ],
+            "support": "HYPOGEUM/Continuous foundation",
+            "lastHit": "HYPOGEUM/Continuous foundation",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              64,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              63.874223142545475,
+              0.4000000059604645,
+              -0.00003225745110599982
+            ],
+            "support": "HYPOGEUM/Gladiator ramp",
+            "lastHit": "HYPOGEUM/Gladiator ramp",
+            "lastObstacle": ""
+          },
+          {
+            "target": [
+              66,
+              0
+            ],
+            "reached": true,
+            "foot": [
+              65.87422314010924,
+              0.4000000059604645,
+              -0.00003225745110599982
+            ],
+            "support": "SANDS/Deck_32_0",
+            "lastHit": "SANDS/Deck_32_0",
+            "lastObstacle": ""
+          }
+        ],
+        "collisions": 0
+      }
+    ],
+    "errors": []
+  },
+  "failurePaths": {
+    "timestamp": "2026-10-10T12:47:43.901Z",
+    "results": [
+      {
+        "name": "Missing WebGPU stops loading with recovery action",
+        "status": "passed",
+        "scope": "Safe mocked capability/resource failure",
+        "message": "This world needs WebGPU. Open the localhost link in a current Chrome or Edge browser with hardware acceleration enabled."
+      },
+      {
+        "name": "Unavailable adapter stops loading",
+        "status": "passed",
+        "scope": "Safe mocked capability/resource failure",
+        "message": "No WebGPU graphics adapter is available. Enable hardware acceleration and reload."
+      },
+      {
+        "name": "Missing source resource stops loading",
+        "status": "passed",
+        "scope": "Safe mocked capability/resource failure",
+        "message": "The district layout could not be loaded (404)."
+      }
+    ]
+  },
+  "errors": [],
+  "resources": [],
+  "limitations": [
+    "GPU execution timestamps are unavailable; CPU callback and frame interval are measured separately.",
+    "Native physical long-hold Escape and the user’s browser integration were not exercised; fullscreen/pointer-lock API state was tested in isolated headless Chromium.",
+    "Lighting uses forward PBR, full-detail direct shadows and hemisphere fill; it does not reproduce Cycles global illumination."
+  ]
+}

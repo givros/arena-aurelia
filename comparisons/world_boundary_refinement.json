@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "sourceSHA256": "81e2f8eaf9fe89316d1e2bf35e16815db0b5f4767df361fc433cf11cc822c86d",
+  "corrections": [
+    "Continuous seamless soil instead of discrete face color patches",
+    "Broad river valleys replacing narrow excavated gorges",
+    "River continuation extends beyond the outer landscape"
+  ],
+  "scope": [
+    "World_Boundary",
+    "Outer_Landscape"
+  ]
+}

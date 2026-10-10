@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-10T17:53:26.726Z",
+  "beforeNavigationSHA256": "e9c498ee72bba985eb20670e3efe2e6b0021cfbbf1988a0094513d13538759c8",
+  "afterNavigationSHA256": "06fd2be66183a97c9a546e2983e906a67ac595c37a7de5bad09f12f951beb374",
+  "collisionSHA256": "c92abb59c9be551c4aec787bbdb6a7312167dd92a3c3b539af77d643937f554c",
+  "scope": "Actual navigation and triangle-collision modules, isolated fixture; reproduces and prevents airborne upward stair snaps while retaining grounded ascent/descent and legitimate descending landings.",
+  "before": {
+    "airborneHorizontalStep": {
+      "foot": [
+        0.78,
+        1.05,
+        0
+      ],
+      "grounded": false
+    },
+    "airborneUpwardLanding": {
+      "foot": [
+        1.2,
+        1.05,
+        0
+      ],
+      "grounded": true
+    },
+    "legitimateLanding": {
+      "foot": [
+        1.2,
+        1.05,
+        0
+      ],
+      "grounded": true
+    },
+    "stairAscent": {
+      "foot": [
+        -3,
+        2.24,
+        -2.739999999999999
+      ],
+      "grounded": true
+    },
+    "stairDescent": {
+      "foot": [
+        -3,
+        0,
+        3
+      ],
+      "grounded": true
+    }
+  },
+  "after": {
+    "airborneHorizontalStep": {
+      "foot": [
+        0.78,
+        0.8,
+        0
+      ],
+      "grounded": false
+    },
+    "airborneUpwardLanding": {
+      "foot": [
+        1.2,
+        0.7790277777777779,
+        0
+      ],
+      "grounded": false
+    },
+    "legitimateLanding": {
+      "foot": [
+        1.2,
+        1.05,
+        0
+      ],
+      "grounded": true
+    },
+    "stairAscent": {
+      "foot": [
+        -3,
+        2.24,
+        -2.739999999999999
+      ],
+      "grounded": true
+    },
+    "stairDescent": {
+      "foot": [
+        -3,
+        0,
+        3
+      ],
+      "grounded": true
+    }
+  }
+}

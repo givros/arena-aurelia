@@ -1,0 +1,60 @@
+{
+  "method": "autonomous reconstruction from embedded measured data",
+  "standalone": true,
+  "reads_source_blend_at_runtime": false,
+  "measurement_origin_sha256": "19520E13006F8AC3502A1DAE6FF37DD3126BD7A19257A961A6E3F328F218A1CF",
+  "payload_sha256": "58DFDC4AC5BFE2751927AD8249EA8B9FB7CDBD2EE0667301420820AE15CB8D38",
+  "payload_uncompressed_bytes": 532261,
+  "payload_compressed_bytes": 97510,
+  "output_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "output_blend_sha256": "04524F258AB5E1002CB168380438CCD5F4374D7FF46B4632F16685E4DDAE1271",
+  "output_glb": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.glb",
+  "output_glb_sha256": "DF81668A32EBB093A255D8D81CAE3DBED02FFF10AF85E712EB0F11AF40B37748",
+  "glb_export_all_influences": false,
+  "glb_export_influence_limit": 4,
+  "glb_draco_compression": true,
+  "embedded_metrics": {
+    "vertices": 1596,
+    "edges": 3169,
+    "faces": 1588,
+    "loops": 6310,
+    "triangles": 3134,
+    "uv_layers": 1,
+    "vertex_groups": 47,
+    "bones": 49,
+    "constraints": 7,
+    "dimensions": [
+      1.061156988143921,
+      0.18071141839027405,
+      1.0514808893203735
+    ]
+  },
+  "rebuilt_metrics": {
+    "scene_objects": [
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ],
+      [
+        "CharacterBase",
+        "MESH"
+      ]
+    ],
+    "vertices": 1596,
+    "edges": 3169,
+    "faces": 1588,
+    "loops": 6310,
+    "triangles": 3134,
+    "uv_layers": 1,
+    "vertex_groups": 47,
+    "bones": 49,
+    "constraints": 7,
+    "dimensions": [
+      1.061156988143921,
+      0.18071141839027405,
+      1.0514808893203735
+    ]
+  },
+  "skipped_custom_properties": [],
+  "missing_source_images_disconnected_for_glb_only": []
+}

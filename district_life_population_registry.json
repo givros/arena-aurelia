@@ -1,0 +1,524 @@
+{
+  "passed": true,
+  "sourceSaveResponsibility": "Caller",
+  "canonicalUnchanged": true,
+  "runtimeAssetsUnchanged": true,
+  "oldInstancesPreserved": 13265,
+  "districtLife": {
+    "layouts": [
+      {
+        "path": "district_life_layout.json",
+        "sha256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96"
+      },
+      {
+        "path": "arena_interior_life_layout.json",
+        "sha256": "0d855926706173df6b39468f2d4fbeaabca19c30a756057740ec3ab097a8207c"
+      },
+      {
+        "path": "master_spine_life_layout.json",
+        "sha256": "ceab70ff3bd669b13750aed2a079e61164a957474e96d709efe58f0742bcb716"
+      },
+      {
+        "path": "civic_court_layout.json",
+        "sha256": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144"
+      }
+    ],
+    "staticAdded": 2299,
+    "animatedAdded": 124,
+    "seatedAdded": 44,
+    "walkingAdded": 110,
+    "fixedIdleAdded": 14,
+    "protectedInstances": 13265,
+    "zoneCounts": {
+      "district_south_residential": 166,
+      "district_west_quay": 376,
+      "district_eastern_backstreets": 225,
+      "district_aqueduct_ward": 188,
+      "district_north_insulae": 280,
+      "district_upper_city": 377,
+      "district_eastern_trades": 280,
+      "district_rear_precinct": 148,
+      "district_temple_civic": 115,
+      "district_east_quay": 140,
+      "district_arena_lower_gallery": 38,
+      "district_arena_upper_gallery": 8,
+      "district_arena_backstage": 10,
+      "district_city_gate_porta_spectaculorum": 2,
+      "district_city_gate_porta_orientalis": 2,
+      "district_city_gate_porta_pontis": 2,
+      "district_city_gate_porta_collina": 2,
+      "district_civic_court": 14,
+      "district_arrival_avenue": 6,
+      "district_quarter_southern_west": 2,
+      "district_quarter_southern_east": 3,
+      "district_quarter_southern_courts": 6,
+      "district_quarter_western_quay": 6,
+      "district_quarter_eastern_trades": 4,
+      "district_quarter_eastern_lanes": 4,
+      "district_quarter_aqueduct_courts": 3,
+      "district_quarter_western_civic": 3,
+      "district_quarter_temple_residential": 4,
+      "district_quarter_archive_quarter": 3,
+      "district_quarter_upper_courts": 4,
+      "district_quarter_northern_hillside": 2
+    },
+    "activityCounts": {
+      "bread": 41,
+      "produce": 39,
+      "cookshop": 40,
+      "cloth": 42,
+      "pottery": 37,
+      "cargo": 26,
+      "conversation": 779,
+      "customer": 768,
+      "porter": 40,
+      "resting": 44,
+      "resident": 446,
+      "watch": 4,
+      "steward": 5,
+      "gate_watch": 8,
+      "gardening": 2,
+      "walking": 61,
+      "hawker": 29,
+      "active_vendor": 10,
+      "preparing_supplies": 2
+    },
+    "regionCoverage": {
+      "district_aqueduct_ward": {
+        "static": 177,
+        "walking": 10,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "pottery": 5,
+          "cookshop": 4,
+          "cargo": 5,
+          "produce": 1,
+          "cloth": 2,
+          "bread": 3,
+          "conversation": 48,
+          "customer": 72,
+          "resting": 4,
+          "resident": 33,
+          "walking": 5,
+          "porter": 3,
+          "hawker": 2,
+          "active_vendor": 1
+        }
+      },
+      "district_arena_backstage": {
+        "static": 6,
+        "walking": 2,
+        "fixedIdle": 2,
+        "seated": 0,
+        "activities": {
+          "conversation": 6,
+          "porter": 2,
+          "preparing_supplies": 2
+        }
+      },
+      "district_arena_lower_gallery": {
+        "static": 30,
+        "walking": 6,
+        "fixedIdle": 2,
+        "seated": 0,
+        "activities": {
+          "conversation": 27,
+          "steward": 5,
+          "walking": 3,
+          "porter": 3
+        }
+      },
+      "district_arena_upper_gallery": {
+        "static": 8,
+        "walking": 0,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "conversation": 8
+        }
+      },
+      "district_arrival_avenue": {
+        "static": 0,
+        "walking": 6,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 4,
+          "hawker": 2
+        }
+      },
+      "district_city_gate_porta_collina": {
+        "static": 2,
+        "walking": 0,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "gate_watch": 2
+        }
+      },
+      "district_city_gate_porta_orientalis": {
+        "static": 2,
+        "walking": 0,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "gate_watch": 2
+        }
+      },
+      "district_city_gate_porta_pontis": {
+        "static": 2,
+        "walking": 0,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "gate_watch": 2
+        }
+      },
+      "district_city_gate_porta_spectaculorum": {
+        "static": 2,
+        "walking": 0,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "gate_watch": 2
+        }
+      },
+      "district_civic_court": {
+        "static": 10,
+        "walking": 4,
+        "fixedIdle": 0,
+        "seated": 4,
+        "activities": {
+          "resting": 4,
+          "gardening": 2,
+          "conversation": 4,
+          "walking": 2,
+          "hawker": 1,
+          "porter": 1
+        }
+      },
+      "district_east_quay": {
+        "static": 135,
+        "walking": 4,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "cookshop": 2,
+          "pottery": 2,
+          "produce": 2,
+          "bread": 3,
+          "cloth": 1,
+          "customer": 60,
+          "conversation": 60,
+          "resting": 4,
+          "watch": 1,
+          "walking": 2,
+          "porter": 1,
+          "hawker": 1,
+          "active_vendor": 1
+        }
+      },
+      "district_eastern_backstreets": {
+        "static": 220,
+        "walking": 4,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "cloth": 6,
+          "produce": 2,
+          "bread": 2,
+          "pottery": 3,
+          "cookshop": 4,
+          "cargo": 5,
+          "conversation": 64,
+          "customer": 67,
+          "porter": 9,
+          "resting": 4,
+          "resident": 55,
+          "walking": 2,
+          "hawker": 1,
+          "active_vendor": 1
+        }
+      },
+      "district_eastern_trades": {
+        "static": 275,
+        "walking": 4,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "bread": 6,
+          "cloth": 3,
+          "pottery": 4,
+          "produce": 4,
+          "cookshop": 1,
+          "cargo": 3,
+          "conversation": 89,
+          "customer": 91,
+          "porter": 5,
+          "resting": 4,
+          "resident": 66,
+          "walking": 2,
+          "hawker": 1,
+          "active_vendor": 1
+        }
+      },
+      "district_north_insulae": {
+        "static": 275,
+        "walking": 4,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "produce": 7,
+          "cookshop": 6,
+          "cloth": 5,
+          "pottery": 4,
+          "cargo": 1,
+          "bread": 4,
+          "conversation": 89,
+          "customer": 92,
+          "resting": 4,
+          "resident": 63,
+          "walking": 2,
+          "porter": 1,
+          "hawker": 1,
+          "active_vendor": 1
+        }
+      },
+      "district_quarter_aqueduct_courts": {
+        "static": 0,
+        "walking": 3,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "hawker": 1,
+          "walking": 2
+        }
+      },
+      "district_quarter_archive_quarter": {
+        "static": 0,
+        "walking": 3,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 2,
+          "hawker": 1
+        }
+      },
+      "district_quarter_eastern_lanes": {
+        "static": 0,
+        "walking": 4,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 3,
+          "hawker": 1
+        }
+      },
+      "district_quarter_eastern_trades": {
+        "static": 0,
+        "walking": 4,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 3,
+          "hawker": 1
+        }
+      },
+      "district_quarter_northern_hillside": {
+        "static": 0,
+        "walking": 2,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 1,
+          "hawker": 1
+        }
+      },
+      "district_quarter_southern_courts": {
+        "static": 0,
+        "walking": 6,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 4,
+          "hawker": 2
+        }
+      },
+      "district_quarter_southern_east": {
+        "static": 0,
+        "walking": 3,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 2,
+          "hawker": 1
+        }
+      },
+      "district_quarter_southern_west": {
+        "static": 0,
+        "walking": 2,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 1,
+          "hawker": 1
+        }
+      },
+      "district_quarter_temple_residential": {
+        "static": 0,
+        "walking": 4,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "hawker": 2,
+          "walking": 2
+        }
+      },
+      "district_quarter_upper_courts": {
+        "static": 0,
+        "walking": 4,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "walking": 3,
+          "hawker": 1
+        }
+      },
+      "district_quarter_western_civic": {
+        "static": 0,
+        "walking": 3,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "hawker": 1,
+          "walking": 2
+        }
+      },
+      "district_quarter_western_quay": {
+        "static": 0,
+        "walking": 6,
+        "fixedIdle": 0,
+        "seated": 0,
+        "activities": {
+          "porter": 2,
+          "walking": 3,
+          "hawker": 1
+        }
+      },
+      "district_rear_precinct": {
+        "static": 142,
+        "walking": 5,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "bread": 3,
+          "cookshop": 2,
+          "cloth": 4,
+          "pottery": 3,
+          "produce": 2,
+          "conversation": 58,
+          "customer": 66,
+          "resting": 4,
+          "walking": 3,
+          "hawker": 1,
+          "porter": 1,
+          "active_vendor": 1
+        }
+      },
+      "district_south_residential": {
+        "static": 161,
+        "walking": 4,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "bread": 3,
+          "produce": 4,
+          "cookshop": 3,
+          "cloth": 4,
+          "pottery": 3,
+          "conversation": 47,
+          "customer": 40,
+          "resting": 4,
+          "resident": 53,
+          "walking": 2,
+          "hawker": 1,
+          "porter": 1,
+          "active_vendor": 1
+        }
+      },
+      "district_temple_civic": {
+        "static": 109,
+        "walking": 5,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "pottery": 3,
+          "produce": 1,
+          "cloth": 2,
+          "cookshop": 2,
+          "customer": 51,
+          "conversation": 44,
+          "resting": 4,
+          "watch": 2,
+          "porter": 1,
+          "walking": 2,
+          "hawker": 2,
+          "active_vendor": 1
+        }
+      },
+      "district_upper_city": {
+        "static": 372,
+        "walking": 4,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "cookshop": 12,
+          "produce": 12,
+          "bread": 10,
+          "cloth": 10,
+          "pottery": 3,
+          "cargo": 2,
+          "conversation": 134,
+          "customer": 120,
+          "resting": 4,
+          "resident": 65,
+          "walking": 2,
+          "hawker": 1,
+          "porter": 1,
+          "active_vendor": 1
+        }
+      },
+      "district_west_quay": {
+        "static": 371,
+        "walking": 4,
+        "fixedIdle": 1,
+        "seated": 4,
+        "activities": {
+          "cloth": 5,
+          "cookshop": 4,
+          "pottery": 7,
+          "cargo": 10,
+          "bread": 7,
+          "produce": 4,
+          "conversation": 101,
+          "customer": 109,
+          "porter": 9,
+          "resting": 4,
+          "resident": 111,
+          "watch": 1,
+          "walking": 2,
+          "hawker": 1,
+          "active_vendor": 1
+        }
+      }
+    },
+    "previousPopulationFingerprint": "fb30173057a4e3848d94c066dc1fd343754497d2561c5bd016ff00df126beb40",
+    "fullCanonicalGeometry": true,
+    "oldPlacementsPreserved": true
+  },
+  "totalPopulation": 15688,
+  "characterTriangleInstances": 78613716,
+  "rejectedAnchors": [],
+  "crowdManifestSHA256": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0"
+}

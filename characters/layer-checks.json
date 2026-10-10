@@ -1,0 +1,58 @@
+{
+  "checks": [
+    {
+      "outer": "BronzeArmor",
+      "inner": "RomanTunic",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    },
+    {
+      "outer": "GladiatorSword",
+      "inner": "CharacterBase",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    },
+    {
+      "outer": "GuardShield",
+      "inner": "CharacterBase",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    },
+    {
+      "outer": "GuardSpear",
+      "inner": "CharacterBase",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    },
+    {
+      "outer": "HairCap",
+      "inner": "CharacterBase",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    },
+    {
+      "outer": "LeatherBelt",
+      "inner": "RomanTunic",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    },
+    {
+      "outer": "RomanHelmet",
+      "inner": "HairCap",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    },
+    {
+      "outer": "RomanSandals",
+      "inner": "CharacterBase",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    },
+    {
+      "outer": "RomanTunic",
+      "inner": "CharacterBase",
+      "kind": "surface",
+      "minimum_clearance": 0.0008
+    }
+  ]
+}

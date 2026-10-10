@@ -1,0 +1,612 @@
+{
+  "timestamp": "2026-10-10T16:30:57.181Z",
+  "status": "passed",
+  "sourceHash": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+  "manifestSHA256": "f6675bfb4752732492dc925c7dc15ab6b68fa7a2281d694ce035d624e9e9beda",
+  "binarySHA256": "26ba62696a823cb72ee52edee4537b2c6ea8727861e0ddbc392ceb8c9bf4c2cc",
+  "instances": 25184,
+  "uniqueMeshes": 10850,
+  "uniqueVertices": 3025987,
+  "sourceVisibleTriangles": 6689001,
+  "normalMagnitude": {
+    "min": 0.9999998452925005,
+    "max": 1.0000001527264402
+  },
+  "textures": [
+    {
+      "material": "Travertine • weathered warm limestone",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "Travertine • weathered warm limestone",
+      "slot": "bumpMap",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/bank",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/marble",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/stone",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/Event_stone",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/road",
+      "slot": "map",
+      "file": "paving.png",
+      "bytes": 1381640,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c741d1a980c3716bab84fb371b93084256d33c6e3fcc73b613a520ddab1874f9"
+    },
+    {
+      "material": "City/ground",
+      "slot": "map",
+      "file": "paving.png",
+      "bytes": 1381640,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c741d1a980c3716bab84fb371b93084256d33c6e3fcc73b613a520ddab1874f9"
+    },
+    {
+      "material": "Worn plaza slabs",
+      "slot": "map",
+      "file": "paving.png",
+      "bytes": 1381640,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c741d1a980c3716bab84fb371b93084256d33c6e3fcc73b613a520ddab1874f9"
+    },
+    {
+      "material": "Worn plaza slabs",
+      "slot": "bumpMap",
+      "file": "paving.png",
+      "bytes": 1381640,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c741d1a980c3716bab84fb371b93084256d33c6e3fcc73b613a520ddab1874f9"
+    },
+    {
+      "material": "Continuous Mediterranean earth",
+      "slot": "map",
+      "file": "mediterranean_earth.png",
+      "bytes": 3796551,
+      "width": 2048,
+      "height": 2048,
+      "sha256": "a4cde971e966ded07732b06a81f37890c2a6c2ced3eca514602230d26e58f8a9"
+    },
+    {
+      "material": "Compacted ochre arena sand",
+      "slot": "map",
+      "file": "arena_sand_atlas.png",
+      "bytes": 19660526,
+      "width": 4096,
+      "height": 4096,
+      "sha256": "96ede16858f3e1e07b1f719eb7267ce8ecc0b15f6c22bd6122f2488af56cd3a7"
+    }
+  ],
+  "characters": {
+    "count": 15688,
+    "animated": 164,
+    "triangles": 78613716,
+    "assets": [
+      {
+        "asset": "characters/seated-spectator.glb",
+        "count": 12044,
+        "trianglesPerInstance": 5002,
+        "bytes": 325968,
+        "sha256": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+        "animations": []
+      },
+      {
+        "asset": "characters/guard.glb",
+        "count": 39,
+        "trianglesPerInstance": 5890,
+        "bytes": 376876,
+        "sha256": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9",
+        "animations": []
+      },
+      {
+        "asset": "characters/citizen-idle-1.glb",
+        "count": 421,
+        "trianglesPerInstance": 5002,
+        "bytes": 337780,
+        "sha256": "c2f8681ec7c6f14d2508da41750126b3f8bebe859a40aa49c75a34c801e5b361",
+        "animations": []
+      },
+      {
+        "asset": "characters/citizen-idle-2.glb",
+        "count": 431,
+        "trianglesPerInstance": 5002,
+        "bytes": 337472,
+        "sha256": "e327e0cef41dd67a3bbb42a64763a73b1d8234bd86feb282b6efc8fc0e8aa2f7",
+        "animations": []
+      },
+      {
+        "asset": "characters/citizen-idle-3.glb",
+        "count": 420,
+        "trianglesPerInstance": 5002,
+        "bytes": 338004,
+        "sha256": "05d124028f8a413d04f39dbe390038703049720f7ce58963c3b1d9e64fb4db1f",
+        "animations": []
+      },
+      {
+        "asset": "characters/citizen-idle-0.glb",
+        "count": 960,
+        "trianglesPerInstance": 5002,
+        "bytes": 337596,
+        "sha256": "6d80cb361e3857d301c9efa7e0c281dd88700ad4060d82adf043127d3b607d8b",
+        "animations": []
+      },
+      {
+        "asset": "characters/citizen.glb",
+        "count": 995,
+        "trianglesPerInstance": 5002,
+        "bytes": 325872,
+        "sha256": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb",
+        "animations": []
+      },
+      {
+        "asset": "characters/gladiator.glb",
+        "count": 38,
+        "trianglesPerInstance": 5878,
+        "bytes": 376616,
+        "sha256": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4",
+        "animations": []
+      },
+      {
+        "asset": "characters/noble.glb",
+        "count": 8,
+        "trianglesPerInstance": 5002,
+        "bytes": 325852,
+        "sha256": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae",
+        "animations": []
+      },
+      {
+        "asset": "characters/worker.glb",
+        "count": 72,
+        "trianglesPerInstance": 5002,
+        "bytes": 325860,
+        "sha256": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d",
+        "animations": []
+      },
+      {
+        "asset": "characters/merchant.glb",
+        "count": 96,
+        "trianglesPerInstance": 5002,
+        "bytes": 325888,
+        "sha256": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26",
+        "animations": []
+      },
+      {
+        "asset": "characters/animated-merchant.glb",
+        "count": 37,
+        "trianglesPerInstance": 5742,
+        "bytes": 879920,
+        "sha256": "792ddd4e2722d251469b38a6a417d90c00a26829bba159b06a79839f24b50dc2",
+        "animations": [
+          "Idle",
+          "Jump",
+          "Run",
+          "Walk"
+        ]
+      },
+      {
+        "asset": "characters/animated-citizen.glb",
+        "count": 99,
+        "trianglesPerInstance": 5002,
+        "bytes": 821928,
+        "sha256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+        "animations": [
+          "Idle",
+          "Jump",
+          "Run",
+          "Walk"
+        ]
+      },
+      {
+        "asset": "characters/animated-porter.glb",
+        "count": 28,
+        "trianglesPerInstance": 6682,
+        "bytes": 946628,
+        "sha256": "2aa2b977d3d787c62f24df0eae9dd0e1520db886f64aa38c877477c3ed2b43a1",
+        "animations": [
+          "Idle",
+          "Jump",
+          "Run",
+          "Walk"
+        ]
+      }
+    ],
+    "manifestSHA256": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0",
+    "regions": {
+      "seating_lower": {
+        "total": 3435,
+        "static": 3435,
+        "animated": 0,
+        "walking": 0
+      },
+      "seating_middle": {
+        "total": 4003,
+        "static": 4003,
+        "animated": 0,
+        "walking": 0
+      },
+      "seating_upper": {
+        "total": 4562,
+        "static": 4562,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_city_gate_porta_collina": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_city_gate_porta_orientalis": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_city_gate_porta_pontis": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_city_gate_porta_spectaculorum": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_civic_court": {
+        "total": 14,
+        "static": 10,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_south_residential": {
+        "total": 166,
+        "static": 161,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_west_quay": {
+        "total": 376,
+        "static": 371,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_eastern_backstreets": {
+        "total": 225,
+        "static": 220,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_aqueduct_ward": {
+        "total": 188,
+        "static": 177,
+        "animated": 11,
+        "walking": 10
+      },
+      "district_north_insulae": {
+        "total": 280,
+        "static": 275,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_upper_city": {
+        "total": 377,
+        "static": 372,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_eastern_trades": {
+        "total": 280,
+        "static": 275,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_rear_precinct": {
+        "total": 148,
+        "static": 142,
+        "animated": 6,
+        "walking": 5
+      },
+      "district_temple_civic": {
+        "total": 115,
+        "static": 109,
+        "animated": 6,
+        "walking": 5
+      },
+      "district_east_quay": {
+        "total": 140,
+        "static": 135,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_arena_lower_gallery": {
+        "total": 38,
+        "static": 30,
+        "animated": 8,
+        "walking": 6
+      },
+      "district_arena_backstage": {
+        "total": 10,
+        "static": 6,
+        "animated": 4,
+        "walking": 2
+      },
+      "district_arena_upper_gallery": {
+        "total": 8,
+        "static": 8,
+        "animated": 0,
+        "walking": 0
+      },
+      "arena_training": {
+        "total": 6,
+        "static": 6,
+        "animated": 0,
+        "walking": 0
+      },
+      "gladiator_preparation": {
+        "total": 6,
+        "static": 6,
+        "animated": 0,
+        "walking": 0
+      },
+      "gate_guard": {
+        "total": 24,
+        "static": 24,
+        "animated": 0,
+        "walking": 0
+      },
+      "imperial_loggia": {
+        "total": 8,
+        "static": 8,
+        "animated": 0,
+        "walking": 0
+      },
+      "facade_statue": {
+        "total": 24,
+        "static": 24,
+        "animated": 0,
+        "walking": 0
+      },
+      "ceremonial_statue": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_entry_gathering": {
+        "total": 103,
+        "static": 103,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_customer": {
+        "total": 604,
+        "static": 604,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_conversation": {
+        "total": 280,
+        "static": 280,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_porter": {
+        "total": 64,
+        "static": 56,
+        "animated": 8,
+        "walking": 8
+      },
+      "street_vendor": {
+        "total": 96,
+        "static": 96,
+        "animated": 0,
+        "walking": 0
+      },
+      "hypogeum_work": {
+        "total": 16,
+        "static": 16,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_itinerant_merchant": {
+        "total": 8,
+        "static": 0,
+        "animated": 8,
+        "walking": 8
+      },
+      "street_passerby": {
+        "total": 16,
+        "static": 0,
+        "animated": 16,
+        "walking": 16
+      },
+      "street_active_vendor": {
+        "total": 8,
+        "static": 0,
+        "animated": 8,
+        "walking": 0
+      },
+      "district_arrival_avenue": {
+        "total": 6,
+        "static": 0,
+        "animated": 6,
+        "walking": 6
+      },
+      "district_quarter_southern_west": {
+        "total": 2,
+        "static": 0,
+        "animated": 2,
+        "walking": 2
+      },
+      "district_quarter_southern_east": {
+        "total": 3,
+        "static": 0,
+        "animated": 3,
+        "walking": 3
+      },
+      "district_quarter_southern_courts": {
+        "total": 6,
+        "static": 0,
+        "animated": 6,
+        "walking": 6
+      },
+      "district_quarter_western_quay": {
+        "total": 6,
+        "static": 0,
+        "animated": 6,
+        "walking": 6
+      },
+      "district_quarter_eastern_trades": {
+        "total": 4,
+        "static": 0,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_quarter_eastern_lanes": {
+        "total": 4,
+        "static": 0,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_quarter_aqueduct_courts": {
+        "total": 3,
+        "static": 0,
+        "animated": 3,
+        "walking": 3
+      },
+      "district_quarter_western_civic": {
+        "total": 3,
+        "static": 0,
+        "animated": 3,
+        "walking": 3
+      },
+      "district_quarter_temple_residential": {
+        "total": 4,
+        "static": 0,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_quarter_archive_quarter": {
+        "total": 3,
+        "static": 0,
+        "animated": 3,
+        "walking": 3
+      },
+      "district_quarter_upper_courts": {
+        "total": 4,
+        "static": 0,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_quarter_northern_hillside": {
+        "total": 2,
+        "static": 0,
+        "animated": 2,
+        "walking": 2
+      }
+    },
+    "districtCoverage": {
+      "district_south_residential": 166,
+      "district_west_quay": 376,
+      "district_eastern_backstreets": 225,
+      "district_aqueduct_ward": 188,
+      "district_north_insulae": 280,
+      "district_upper_city": 377,
+      "district_eastern_trades": 280,
+      "district_rear_precinct": 148,
+      "district_temple_civic": 115,
+      "district_east_quay": 140,
+      "district_arena_lower_gallery": 38,
+      "district_arena_upper_gallery": 8,
+      "district_arena_backstage": 10,
+      "district_city_gate_porta_spectaculorum": 2,
+      "district_city_gate_porta_orientalis": 2,
+      "district_city_gate_porta_pontis": 2,
+      "district_city_gate_porta_collina": 2,
+      "district_civic_court": 14,
+      "district_arrival_avenue": 6,
+      "district_quarter_southern_west": 2,
+      "district_quarter_southern_east": 3,
+      "district_quarter_southern_courts": 6,
+      "district_quarter_western_quay": 6,
+      "district_quarter_eastern_trades": 4,
+      "district_quarter_eastern_lanes": 4,
+      "district_quarter_aqueduct_courts": 3,
+      "district_quarter_western_civic": 3,
+      "district_quarter_temple_residential": 4,
+      "district_quarter_archive_quarter": 3,
+      "district_quarter_upper_courts": 4,
+      "district_quarter_northern_hillside": 2
+    },
+    "layoutProvenance": [
+      {
+        "path": "district_life_layout.json",
+        "declared": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+        "actual": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96"
+      },
+      {
+        "path": "arena_interior_life_layout.json",
+        "declared": "0d855926706173df6b39468f2d4fbeaabca19c30a756057740ec3ab097a8207c",
+        "actual": "0d855926706173df6b39468f2d4fbeaabca19c30a756057740ec3ab097a8207c"
+      },
+      {
+        "path": "master_spine_life_layout.json",
+        "declared": "ceab70ff3bd669b13750aed2a079e61164a957474e96d709efe58f0742bcb716",
+        "actual": "ceab70ff3bd669b13750aed2a079e61164a957474e96d709efe58f0742bcb716"
+      },
+      {
+        "path": "civic_court_layout.json",
+        "declared": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144",
+        "actual": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144"
+      }
+    ]
+  },
+  "issues": []
+}

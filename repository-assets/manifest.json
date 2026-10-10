@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "chunkSize": 50331648,
+  "files": [
+    {
+      "path": "viewer/public/assets/environment.bin",
+      "runtime": true,
+      "bytes": 116050676,
+      "sha256": "792a5dc7304bba72121d31590aad09a945ffe252268b1dfa5337c240b2011756",
+      "parts": [
+        {
+          "path": "repository-assets/244a95b53d9a7961295f529e8ec5af246d46837f98b297160bc5c7444ee44c86.chunk",
+          "bytes": 50331648,
+          "sha256": "244a95b53d9a7961295f529e8ec5af246d46837f98b297160bc5c7444ee44c86"
+        },
+        {
+          "path": "repository-assets/6f564c6fcc045bfab8f7d92ef97a90f5383a67d2f00d6ee54554eb2f2fecb1cf.chunk",
+          "bytes": 50331648,
+          "sha256": "6f564c6fcc045bfab8f7d92ef97a90f5383a67d2f00d6ee54554eb2f2fecb1cf"
+        },
+        {
+          "path": "repository-assets/d55f9cba129b475e8e52e5a8ded2afe3e7c359eb838f5bc2779e50d254b08998.chunk",
+          "bytes": 15387380,
+          "sha256": "d55f9cba129b475e8e52e5a8ded2afe3e7c359eb838f5bc2779e50d254b08998"
+        }
+      ]
+    },
+    {
+      "path": "viewer/checkpoints/pre-bank-boundary/environment.bin",
+      "runtime": false,
+      "bytes": 116049764,
+      "sha256": "26ba62696a823cb72ee52edee4537b2c6ea8727861e0ddbc392ceb8c9bf4c2cc",
+      "parts": [
+        {
+          "path": "repository-assets/244a95b53d9a7961295f529e8ec5af246d46837f98b297160bc5c7444ee44c86.chunk",
+          "bytes": 50331648,
+          "sha256": "244a95b53d9a7961295f529e8ec5af246d46837f98b297160bc5c7444ee44c86"
+        },
+        {
+          "path": "repository-assets/6f564c6fcc045bfab8f7d92ef97a90f5383a67d2f00d6ee54554eb2f2fecb1cf.chunk",
+          "bytes": 50331648,
+          "sha256": "6f564c6fcc045bfab8f7d92ef97a90f5383a67d2f00d6ee54554eb2f2fecb1cf"
+        },
+        {
+          "path": "repository-assets/5fb210952814cfea5c426beb1d606de453d66d26862518d1e53f0eca62d9c9f4.chunk",
+          "bytes": 15386468,
+          "sha256": "5fb210952814cfea5c426beb1d606de453d66d26862518d1e53f0eca62d9c9f4"
+        }
+      ]
+    }
+  ]
+}

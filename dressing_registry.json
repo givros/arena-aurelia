@@ -1,0 +1,8 @@
+{
+  "exteriorStandards": 16,
+  "upperShadePanels": 32,
+  "rimMasts": 64,
+  "tierBenches": 384,
+  "imperialCanopy": true,
+  "braziers": 4
+}

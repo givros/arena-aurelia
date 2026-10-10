@@ -1,0 +1,209 @@
+{
+  "passed": true,
+  "working_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "working_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "initialized_this_run": false,
+  "saved_in_place": true,
+  "additional_blend_files_created": [],
+  "standalone_animation_package": true,
+  "reads_source_fbx_at_runtime": false,
+  "selected_clips": [
+    "idle",
+    "walk",
+    "run",
+    "jump"
+  ],
+  "selected_actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "anim_dir": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim",
+  "animations": [
+    {
+      "clip": "idle",
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\idle.fbx",
+      "filename": "idle.fbx",
+      "sha256": "502883ff97e83724e25f14372177b5407d8120cbb2a0acc5a7bda0b4f5a21376",
+      "size": 948736
+    },
+    {
+      "clip": "walk",
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\walk.fbx",
+      "filename": "walk.fbx",
+      "sha256": "202c6c7e2e640193f61754516f13e258123dfd57d171fa8b98fd495913e42ef2",
+      "size": 617808
+    },
+    {
+      "clip": "run",
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\run.fbx",
+      "filename": "run.fbx",
+      "sha256": "8238a6dd1892b8cc5328f623fcbf9773e75aeedee29db09b2e96a09723207088",
+      "size": 591024
+    },
+    {
+      "clip": "jump",
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\jump.fbx",
+      "filename": "jump.fbx",
+      "sha256": "967c37db7cfd69d382b64f382dc2f0ff012bf930feea36f6d3c0e756c95cc737",
+      "size": 685888
+    }
+  ],
+  "animation_library": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "install_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_install.json",
+  "validation_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_validation.json",
+  "qc_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc.json",
+  "qc_dir": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc",
+  "animation_revision": 2,
+  "core_integrity_before": {
+    "objects": [
+      [
+        "BronzeArmor",
+        "MESH"
+      ],
+      [
+        "CharacterBase",
+        "MESH"
+      ],
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ],
+      [
+        "GladiatorSword",
+        "MESH"
+      ],
+      [
+        "GuardShield",
+        "MESH"
+      ],
+      [
+        "GuardSpear",
+        "MESH"
+      ],
+      [
+        "HairCap",
+        "MESH"
+      ],
+      [
+        "LeatherBelt",
+        "MESH"
+      ],
+      [
+        "RomanHelmet",
+        "MESH"
+      ],
+      [
+        "RomanSandals",
+        "MESH"
+      ],
+      [
+        "RomanTunic",
+        "MESH"
+      ]
+    ],
+    "meshes": {
+      "BronzeArmor": "1115e36b2f584ebb834bbe02fde336ca50995ce09ef667a790ad012cd260b54c",
+      "CharacterBase": "20053e4d7ea355413a50dea99aa9e3291bdd71cf2937ee8c281028c5187e6250",
+      "GladiatorSword": "a7b34f2016bcf8299cfbb13187dba431d3070eb26c9a9451dd56d174492d109c",
+      "GuardShield": "40ff240e5cf81e38c9619391314013155d8c50af810586a89d4f09f933ccb95c",
+      "GuardSpear": "8ef3d95a3925b5370531426a3d1cc91dfda11c8a0b094b6c86f972870b1f4eff",
+      "HairCap": "61a8b1cb5acc819de0e9c57b95213dadb931a0f5637d2582d7b9b24ecaeb7356",
+      "LeatherBelt": "a58bc5411fd9fc9ab912b17a01fb36fe51f3e080c9ae3d567e808258f95591a9",
+      "RomanHelmet": "9877f4f7f740f6d4e626c8c82c8cab882515d16606b8e9c8e6838f0710d78568",
+      "RomanSandals": "8003d7f2c4fccdede58654939e2296dd1423cba72655b2453cf8ab1d3d7ec6c6",
+      "RomanTunic": "3e98d465cfcf6cc28760e4f318fdec11487f49d03cde339587269548cb38f4c3"
+    },
+    "armature_rest": "e60ff1ca4f7acf254831687aa767ee5b7e11a85d4b4672a9ad61057f70666ef7"
+  },
+  "core_integrity_after": {
+    "objects": [
+      [
+        "BronzeArmor",
+        "MESH"
+      ],
+      [
+        "CharacterBase",
+        "MESH"
+      ],
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ],
+      [
+        "GladiatorSword",
+        "MESH"
+      ],
+      [
+        "GuardShield",
+        "MESH"
+      ],
+      [
+        "GuardSpear",
+        "MESH"
+      ],
+      [
+        "HairCap",
+        "MESH"
+      ],
+      [
+        "LeatherBelt",
+        "MESH"
+      ],
+      [
+        "RomanHelmet",
+        "MESH"
+      ],
+      [
+        "RomanSandals",
+        "MESH"
+      ],
+      [
+        "RomanTunic",
+        "MESH"
+      ]
+    ],
+    "meshes": {
+      "BronzeArmor": "1115e36b2f584ebb834bbe02fde336ca50995ce09ef667a790ad012cd260b54c",
+      "CharacterBase": "20053e4d7ea355413a50dea99aa9e3291bdd71cf2937ee8c281028c5187e6250",
+      "GladiatorSword": "a7b34f2016bcf8299cfbb13187dba431d3070eb26c9a9451dd56d174492d109c",
+      "GuardShield": "40ff240e5cf81e38c9619391314013155d8c50af810586a89d4f09f933ccb95c",
+      "GuardSpear": "8ef3d95a3925b5370531426a3d1cc91dfda11c8a0b094b6c86f972870b1f4eff",
+      "HairCap": "61a8b1cb5acc819de0e9c57b95213dadb931a0f5637d2582d7b9b24ecaeb7356",
+      "LeatherBelt": "a58bc5411fd9fc9ab912b17a01fb36fe51f3e080c9ae3d567e808258f95591a9",
+      "RomanHelmet": "9877f4f7f740f6d4e626c8c82c8cab882515d16606b8e9c8e6838f0710d78568",
+      "RomanSandals": "8003d7f2c4fccdede58654939e2296dd1423cba72655b2453cf8ab1d3d7ec6c6",
+      "RomanTunic": "3e98d465cfcf6cc28760e4f318fdec11487f49d03cde339587269548cb38f4c3"
+    },
+    "armature_rest": "e60ff1ca4f7acf254831687aa767ee5b7e11a85d4b4672a9ad61057f70666ef7"
+  },
+  "protected_action_signatures_before": {},
+  "protected_action_signatures_after": {},
+  "component_guard": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_component_guard.json",
+  "component_changed_scopes": [
+    "animations"
+  ],
+  "component_unchanged_scopes": [
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:gladiator_sword",
+    "garment:guard_shield",
+    "garment:guard_spear",
+    "garment:hair_cap",
+    "garment:leather_belt",
+    "garment:roman_helmet",
+    "garment:roman_sandals",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "basis_matrix_max_delta": 4.172325134277344e-07,
+  "evaluated_pose_matrix_max_delta": 1.963973045349121e-05
+}

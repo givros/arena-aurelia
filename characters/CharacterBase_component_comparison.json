@@ -1,0 +1,40 @@
+{
+  "after_blend_sha256": "B3C7C59930EF869EB21FDBC3B7DCCE2E8DC8525BCE1CA26963786C2DB16F7733",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_components_after.json",
+  "after_semantic_digest": "58F0CDBA451B394C364253475C441503055006FCB1263E3FEFFEDDF368802578",
+  "allowed_scopes": [
+    "skin_material"
+  ],
+  "before_blend_sha256": "04524F258AB5E1002CB168380438CCD5F4374D7FF46B4632F16685E4DDAE1271",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_components_before.json",
+  "before_semantic_digest": "58297EBCB739C8805699DC8DFD7082FEC6BBFA290B474FA6AFC184443B5C2FDC",
+  "changed_scopes": [
+    "skin_material"
+  ],
+  "changes": [
+    {
+      "after": "C885229AAA74ED3997BE4E63FFAEFB06FCC47F9A1CC174A3ED7253C63AD5789E",
+      "allowed": true,
+      "before": "BBCEE876F5D865FE5D63DC23A322C454FA8315A607CBC1E9A463C2846AA71C59",
+      "change": "modified",
+      "members": [
+        {
+          "after": "41E25D2531E2203B173C05F773AEE4C25683E27C183B36BBCAC073B0CCE10EA1",
+          "before": "B769F95CA7B6A6913243E237CC9109D219FBC9E5E8F037B513E3A7A2C6E56807",
+          "change": "modified",
+          "member": "material"
+        }
+      ],
+      "scope": "skin_material"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "animations",
+    "body_geometry",
+    "other_objects",
+    "rig_rest"
+  ],
+  "violations": []
+}

@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "assets": [
+    {
+      "asset": "animated-merchant.glb",
+      "sha256": "792ddd4e2722d251469b38a6a417d90c00a26829bba159b06a79839f24b50dc2",
+      "bytes": 879920,
+      "canonicalAsset": "animated-citizen.glb",
+      "canonicalAssetSHA256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+      "originalBinaryPayloadUnchanged": true,
+      "bodyGarmentGeometryAndSkinAccessorsUnchanged": true,
+      "animationsUnchanged": true,
+      "originalVisibleTriangles": 5002,
+      "accessoryTriangles": 740,
+      "totalTriangles": 5742,
+      "attachmentBone": "spine1",
+      "attachment": "Torso straps support front basket",
+      "compression": false,
+      "clips": [
+        "Idle",
+        "Jump",
+        "Run",
+        "Walk"
+      ]
+    },
+    {
+      "asset": "animated-porter.glb",
+      "sha256": "2aa2b977d3d787c62f24df0eae9dd0e1520db886f64aa38c877477c3ed2b43a1",
+      "bytes": 946628,
+      "canonicalAsset": "animated-citizen.glb",
+      "canonicalAssetSHA256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+      "originalBinaryPayloadUnchanged": true,
+      "bodyGarmentGeometryAndSkinAccessorsUnchanged": true,
+      "animationsUnchanged": true,
+      "originalVisibleTriangles": 5002,
+      "accessoryTriangles": 1680,
+      "totalTriangles": 6682,
+      "attachmentBone": "spine1",
+      "attachment": "Two shoulder straps support back basket",
+      "compression": false,
+      "clips": [
+        "Idle",
+        "Jump",
+        "Run",
+        "Walk"
+      ]
+    }
+  ]
+}

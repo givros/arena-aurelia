@@ -1,0 +1,19 @@
+{
+  "stage": "geometry",
+  "protectedArenaComponents": 8346,
+  "protectedArenaChanges": [],
+  "sourceSHA256": "434b07926a339b82a0d811738c448a9e135bf66d21a6d4d55e090cf6330165e9",
+  "result": {
+    "counts": {
+      "stalls": 84,
+      "shop_houses": 20,
+      "vendors": 104,
+      "static_patrons": 940,
+      "roaming_routes": 26
+    },
+    "created_mesh_objects": 998,
+    "retired_objects": 424,
+    "actual_projection_violations": [],
+    "source_saved": false
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "status": "failed",
+  "sourceSHA256": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+  "checks": [
+    {
+      "name": "reference initial 15",
+      "left": "performance/bundle-images/reference_15_normal.png",
+      "right": "performance/bundle-images/reference_15_bundle.png",
+      "maximumChannelDelta": 168,
+      "meanChannelDelta": 0.6510238768861454,
+      "pixelsOverTwoLevels": 84347,
+      "pixelFractionOverTwoLevels": 0.054235468106995886,
+      "identical": false,
+      "status": "failed"
+    },
+    {
+      "name": "reference reuse 15",
+      "left": "performance/bundle-images/reference_15_normal.png",
+      "right": "performance/bundle-images/reference_15_reuse.png",
+      "maximumChannelDelta": 168,
+      "meanChannelDelta": 0.6510238768861454,
+      "pixelsOverTwoLevels": 84347,
+      "pixelFractionOverTwoLevels": 0.054235468106995886,
+      "identical": false,
+      "status": "failed"
+    },
+    {
+      "name": "street_market_lane initial 15",
+      "left": "performance/bundle-images/street_market_lane_15_normal.png",
+      "right": "performance/bundle-images/street_market_lane_15_bundle.png",
+      "maximumChannelDelta": 73,
+      "meanChannelDelta": 0.0004888974622770919,
+      "pixelsOverTwoLevels": 46,
+      "pixelFractionOverTwoLevels": 2.957818930041152e-05,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "street_market_lane reuse 15",
+      "left": "performance/bundle-images/street_market_lane_15_normal.png",
+      "right": "performance/bundle-images/street_market_lane_15_reuse.png",
+      "maximumChannelDelta": 73,
+      "meanChannelDelta": 0.0004888974622770919,
+      "pixelsOverTwoLevels": 46,
+      "pixelFractionOverTwoLevels": 2.957818930041152e-05,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "street_district_east_quay initial 15",
+      "left": "performance/bundle-images/street_district_east_quay_15_normal.png",
+      "right": "performance/bundle-images/street_district_east_quay_15_bundle.png",
+      "maximumChannelDelta": 55,
+      "meanChannelDelta": 0.0024588477366255146,
+      "pixelsOverTwoLevels": 392,
+      "pixelFractionOverTwoLevels": 0.00025205761316872427,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "street_district_east_quay reuse 15",
+      "left": "performance/bundle-images/street_district_east_quay_15_normal.png",
+      "right": "performance/bundle-images/street_district_east_quay_15_reuse.png",
+      "maximumChannelDelta": 55,
+      "meanChannelDelta": 0.0024588477366255146,
+      "pixelsOverTwoLevels": 392,
+      "pixelFractionOverTwoLevels": 0.00025205761316872427,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "street_district_upper_city initial 17.5",
+      "left": "performance/bundle-images/street_district_upper_city_17.5_normal.png",
+      "right": "performance/bundle-images/street_district_upper_city_17.5_bundle.png",
+      "maximumChannelDelta": 111,
+      "meanChannelDelta": 0.008158650548696845,
+      "pixelsOverTwoLevels": 1181,
+      "pixelFractionOverTwoLevels": 0.0007593878600823046,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "street_district_upper_city reuse 17.5",
+      "left": "performance/bundle-images/street_district_upper_city_17.5_normal.png",
+      "right": "performance/bundle-images/street_district_upper_city_17.5_reuse.png",
+      "maximumChannelDelta": 111,
+      "meanChannelDelta": 0.008158650548696845,
+      "pixelsOverTwoLevels": 1181,
+      "pixelFractionOverTwoLevels": 0.0007593878600823046,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "hypogeum initial 15",
+      "left": "performance/bundle-images/hypogeum_15_normal.png",
+      "right": "performance/bundle-images/hypogeum_15_bundle.png",
+      "maximumChannelDelta": 7,
+      "meanChannelDelta": 2.1433470507544583e-06,
+      "pixelsOverTwoLevels": 1,
+      "pixelFractionOverTwoLevels": 6.430041152263375e-07,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "hypogeum reuse 15",
+      "left": "performance/bundle-images/hypogeum_15_normal.png",
+      "right": "performance/bundle-images/hypogeum_15_reuse.png",
+      "maximumChannelDelta": 7,
+      "meanChannelDelta": 2.1433470507544583e-06,
+      "pixelsOverTwoLevels": 1,
+      "pixelFractionOverTwoLevels": 6.430041152263375e-07,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "reference initial 22",
+      "left": "performance/bundle-images/reference_22_normal.png",
+      "right": "performance/bundle-images/reference_22_bundle.png",
+      "maximumChannelDelta": 238,
+      "meanChannelDelta": 0.32323623971193416,
+      "pixelsOverTwoLevels": 74197,
+      "pixelFractionOverTwoLevels": 0.04770897633744856,
+      "identical": false,
+      "status": "failed"
+    },
+    {
+      "name": "reference reuse 22",
+      "left": "performance/bundle-images/reference_22_normal.png",
+      "right": "performance/bundle-images/reference_22_reuse.png",
+      "maximumChannelDelta": 238,
+      "meanChannelDelta": 0.32323623971193416,
+      "pixelsOverTwoLevels": 74197,
+      "pixelFractionOverTwoLevels": 0.04770897633744856,
+      "identical": false,
+      "status": "failed"
+    },
+    {
+      "name": "street_market_lane initial 22",
+      "left": "performance/bundle-images/street_market_lane_22_normal.png",
+      "right": "performance/bundle-images/street_market_lane_22_bundle.png",
+      "maximumChannelDelta": 14,
+      "meanChannelDelta": 0.00015496399176954733,
+      "pixelsOverTwoLevels": 46,
+      "pixelFractionOverTwoLevels": 2.957818930041152e-05,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "street_market_lane reuse 22",
+      "left": "performance/bundle-images/street_market_lane_22_normal.png",
+      "right": "performance/bundle-images/street_market_lane_22_reuse.png",
+      "maximumChannelDelta": 14,
+      "meanChannelDelta": 0.00015496399176954733,
+      "pixelsOverTwoLevels": 46,
+      "pixelFractionOverTwoLevels": 2.957818930041152e-05,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "Cached camera uniform update",
+      "left": "performance/bundle-images/reuse_camera_normal.png",
+      "right": "performance/bundle-images/reuse_camera_cached.png",
+      "maximumChannelDelta": 57,
+      "meanChannelDelta": 0.00033093278463648836,
+      "pixelsOverTwoLevels": 43,
+      "pixelFractionOverTwoLevels": 2.764917695473251e-05,
+      "identical": false,
+      "status": "passed"
+    },
+    {
+      "name": "Cached night uniform update",
+      "left": "performance/bundle-images/reuse_night_normal.png",
+      "right": "performance/bundle-images/reuse_night_cached.png",
+      "maximumChannelDelta": 10,
+      "meanChannelDelta": 0.00012238511659807955,
+      "pixelsOverTwoLevels": 44,
+      "pixelFractionOverTwoLevels": 2.8292181069958848e-05,
+      "identical": false,
+      "status": "passed"
+    }
+  ],
+  "temporalMembership": [
+    {
+      "change": "camera",
+      "base": "performance/bundle-images/reuse_camera",
+      "unchangedGroups": 144,
+      "totalGroups": 145
+    },
+    {
+      "change": "night",
+      "base": "performance/bundle-images/reuse_night",
+      "unchangedGroups": 110,
+      "totalGroups": 145
+    }
+  ],
+  "errors": [],
+  "threshold": "Mean absolute 8-bit RGB error <0.025 and <0.1% pixels exceeding 2 channel levels; exact counts retained.",
+  "build": {
+    "index-2GNG-R3a.js": "35ab36ef6ee00c2273ddebf91798ecd115786abd054b2bc2b0295c7e91d2c9e5"
+  }
+}

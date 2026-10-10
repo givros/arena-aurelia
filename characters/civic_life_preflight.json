@@ -1,0 +1,1981 @@
+{
+  "passed": true,
+  "accepted": [
+    {
+      "id": "district_CivicBench_0-0.6",
+      "role": "seated-citizen",
+      "position": [
+        166.55,
+        -0.03474,
+        -137.92
+      ],
+      "sourcePosition": [
+        166.55,
+        137.92,
+        -0.03474
+      ],
+      "rotationY": 0.0,
+      "scale": 1.0,
+      "colorIndex": 6,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "resting",
+      "groupId": "CivicBench_0",
+      "seatTop": 0.405,
+      "feetZ": -0.035,
+      "benchId": "CivicBench_0",
+      "sourcePrototype": "seated-spectator",
+      "seatObject": "CivicBench_0/woodLight"
+    },
+    {
+      "id": "district_CivicBench_00.6",
+      "role": "seated-citizen",
+      "position": [
+        167.75,
+        -0.03474,
+        -137.92
+      ],
+      "sourcePosition": [
+        167.75,
+        137.92,
+        -0.03474
+      ],
+      "rotationY": 0.0,
+      "scale": 1.0,
+      "colorIndex": 1,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "resting",
+      "groupId": "CivicBench_0",
+      "seatTop": 0.405,
+      "feetZ": -0.035,
+      "benchId": "CivicBench_0",
+      "sourcePrototype": "seated-spectator",
+      "seatObject": "CivicBench_0/woodLight"
+    },
+    {
+      "id": "district_CivicBench_1-0.6",
+      "role": "seated-citizen",
+      "position": [
+        176.05,
+        -0.03474,
+        -137.92
+      ],
+      "sourcePosition": [
+        176.05,
+        137.92,
+        -0.03474
+      ],
+      "rotationY": 0.0,
+      "scale": 1.0,
+      "colorIndex": 7,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "resting",
+      "groupId": "CivicBench_1",
+      "seatTop": 0.405,
+      "feetZ": -0.035,
+      "benchId": "CivicBench_1",
+      "sourcePrototype": "seated-spectator",
+      "seatObject": "CivicBench_1/woodLight"
+    },
+    {
+      "id": "district_CivicBench_10.6",
+      "role": "seated-citizen",
+      "position": [
+        177.25,
+        -0.03474,
+        -137.92
+      ],
+      "sourcePosition": [
+        177.25,
+        137.92,
+        -0.03474
+      ],
+      "rotationY": 0.0,
+      "scale": 1.0,
+      "colorIndex": 2,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "resting",
+      "groupId": "CivicBench_1",
+      "seatTop": 0.405,
+      "feetZ": -0.035,
+      "benchId": "CivicBench_1",
+      "sourcePrototype": "seated-spectator",
+      "seatObject": "CivicBench_1/woodLight"
+    },
+    {
+      "id": "district_CivicGardenResident_0",
+      "role": "citizen-idle-1",
+      "position": [
+        155.8,
+        -0.03634,
+        -119.6
+      ],
+      "sourcePosition": [
+        155.8,
+        119.6,
+        -0.03634
+      ],
+      "rotationY": -0.7,
+      "scale": 1.0,
+      "colorIndex": 3,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "gardening",
+      "groupId": "CivicGardenGroup_0",
+      "originalRole": "worker",
+      "sourcePrototype": "citizen-idle-1",
+      "pose": "Idle-derived relaxed or conversational pose"
+    },
+    {
+      "id": "district_CivicGardenResident_1",
+      "role": "citizen-idle-2",
+      "position": [
+        157.1,
+        -0.03638,
+        -119.7
+      ],
+      "sourcePosition": [
+        157.1,
+        119.7,
+        -0.03638
+      ],
+      "rotationY": 0.7,
+      "scale": 1.0,
+      "colorIndex": 5,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "conversation",
+      "groupId": "CivicGardenGroup_0",
+      "originalRole": "citizen",
+      "sourcePrototype": "citizen-idle-2",
+      "pose": "Idle-derived relaxed or conversational pose"
+    },
+    {
+      "id": "district_CivicGardenResident_2",
+      "role": "citizen-idle-3",
+      "position": [
+        157.0,
+        -0.00139,
+        -116.0
+      ],
+      "sourcePosition": [
+        157.0,
+        116.0,
+        -0.00139
+      ],
+      "rotationY": 2.4,
+      "scale": 1.0,
+      "colorIndex": 3,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "gardening",
+      "groupId": "CivicGardenGroup_1",
+      "originalRole": "worker",
+      "sourcePrototype": "citizen-idle-3",
+      "pose": "Idle-derived relaxed or conversational pose"
+    },
+    {
+      "id": "district_CivicGardenResident_3",
+      "role": "citizen-idle-0",
+      "position": [
+        178.8,
+        -0.03627,
+        -137.8
+      ],
+      "sourcePosition": [
+        178.8,
+        137.8,
+        -0.03627
+      ],
+      "rotationY": -0.8,
+      "scale": 1.0,
+      "colorIndex": 7,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "conversation",
+      "groupId": "CivicGardenGroup_1",
+      "originalRole": "citizen",
+      "sourcePrototype": "citizen-idle-0",
+      "pose": "Idle-derived relaxed or conversational pose"
+    },
+    {
+      "id": "district_CivicGardenResident_4",
+      "role": "citizen-idle-0",
+      "position": [
+        179.9,
+        -0.03627,
+        -138.15
+      ],
+      "sourcePosition": [
+        179.9,
+        138.15,
+        -0.03627
+      ],
+      "rotationY": 2.1,
+      "scale": 1.0,
+      "colorIndex": 0,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "conversation",
+      "groupId": "CivicGardenGroup_2",
+      "originalRole": "citizen",
+      "sourcePrototype": "citizen-idle-0",
+      "pose": "Idle-derived relaxed or conversational pose",
+      "poseSpaceFallback": true
+    },
+    {
+      "id": "district_CivicGardenResident_5",
+      "role": "citizen-idle-2",
+      "position": [
+        164.7,
+        -0.03638,
+        -136.8
+      ],
+      "sourcePosition": [
+        164.7,
+        136.8,
+        -0.03638
+      ],
+      "rotationY": -0.6,
+      "scale": 1.0,
+      "colorIndex": 1,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "conversation",
+      "groupId": "CivicGardenGroup_2",
+      "originalRole": "citizen",
+      "sourcePrototype": "citizen-idle-2",
+      "pose": "Idle-derived relaxed or conversational pose"
+    }
+  ],
+  "npcs": [
+    {
+      "id": "district_CivicCourtGardenLoop_0",
+      "role": "citizen",
+      "position": [
+        155.8,
+        -0.02,
+        -122.0
+      ],
+      "sourcePosition": [
+        155.8,
+        122.0,
+        -0.02
+      ],
+      "rotationY": 1.5707963267948966,
+      "scale": 1.0,
+      "colorIndex": 0,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "walking",
+      "purpose": "District circulation",
+      "animated": true,
+      "asset": "characters/animated-citizen.glb",
+      "sourcePrototype": "animated-citizen",
+      "clip": "Walk",
+      "path": [
+        [
+          155.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          156.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          157.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          157.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          158.2,
+          -0.02,
+          -122.0
+        ],
+        [
+          158.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          159.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          160.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          160.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          161.2,
+          -0.02,
+          -122.0
+        ],
+        [
+          161.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          162.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.6,
+          -0.02,
+          -122.59545
+        ],
+        [
+          163.6,
+          -0.02,
+          -123.19091
+        ],
+        [
+          163.6,
+          -0.02,
+          -123.78636
+        ],
+        [
+          163.6,
+          -0.02,
+          -124.38182
+        ],
+        [
+          163.6,
+          -0.02,
+          -124.97727
+        ],
+        [
+          163.6,
+          -0.02,
+          -125.57273
+        ],
+        [
+          163.6,
+          -0.02,
+          -126.16818
+        ],
+        [
+          163.6,
+          -0.02,
+          -126.76364
+        ],
+        [
+          163.6,
+          -0.02,
+          -127.35909
+        ],
+        [
+          163.6,
+          -0.02,
+          -127.95455
+        ],
+        [
+          163.6,
+          -0.02,
+          -128.55
+        ],
+        [
+          163.6,
+          -0.02,
+          -129.14545
+        ],
+        [
+          163.6,
+          -0.02,
+          -129.74091
+        ],
+        [
+          163.6,
+          -0.02,
+          -130.33636
+        ],
+        [
+          163.6,
+          -0.02,
+          -130.93182
+        ],
+        [
+          163.6,
+          -0.02,
+          -131.52727
+        ],
+        [
+          163.6,
+          -0.02,
+          -132.12273
+        ],
+        [
+          163.6,
+          -0.02,
+          -132.71818
+        ],
+        [
+          163.6,
+          -0.02,
+          -133.31364
+        ],
+        [
+          163.6,
+          -0.02,
+          -133.90909
+        ],
+        [
+          163.6,
+          -0.02,
+          -134.50455
+        ],
+        [
+          163.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          163.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          162.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          161.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          161.2,
+          -0.02,
+          -135.1
+        ],
+        [
+          160.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          160.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          159.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          158.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          158.2,
+          -0.02,
+          -135.1
+        ],
+        [
+          157.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          157.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          156.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          155.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          155.8,
+          -0.02,
+          -134.50455
+        ],
+        [
+          155.8,
+          -0.02,
+          -133.90909
+        ],
+        [
+          155.8,
+          -0.02,
+          -133.31364
+        ],
+        [
+          155.8,
+          -0.02,
+          -132.71818
+        ],
+        [
+          155.8,
+          -0.02,
+          -132.12273
+        ],
+        [
+          155.8,
+          -0.02,
+          -131.52727
+        ],
+        [
+          155.8,
+          -0.02,
+          -130.93182
+        ],
+        [
+          155.8,
+          -0.02,
+          -130.33636
+        ],
+        [
+          155.8,
+          -0.02,
+          -129.74091
+        ],
+        [
+          155.8,
+          -0.02,
+          -129.14545
+        ],
+        [
+          155.8,
+          -0.02,
+          -128.55
+        ],
+        [
+          155.8,
+          -0.02,
+          -127.95455
+        ],
+        [
+          155.8,
+          -0.02,
+          -127.35909
+        ],
+        [
+          155.8,
+          -0.02,
+          -126.76364
+        ],
+        [
+          155.8,
+          -0.02,
+          -126.16818
+        ],
+        [
+          155.8,
+          -0.02,
+          -125.57273
+        ],
+        [
+          155.8,
+          -0.02,
+          -124.97727
+        ],
+        [
+          155.8,
+          -0.02,
+          -124.38182
+        ],
+        [
+          155.8,
+          -0.02,
+          -123.78636
+        ],
+        [
+          155.8,
+          -0.02,
+          -123.19091
+        ],
+        [
+          155.8,
+          -0.02,
+          -122.59545
+        ],
+        [
+          155.8,
+          -0.02,
+          -122.0
+        ]
+      ],
+      "routeId": "CivicCourtGardenLoop",
+      "speed": 0.85,
+      "loop": true,
+      "animationPhase": 0.0,
+      "patrolPathPhase": 0.0,
+      "personalSpace": 0.62,
+      "sourceCollection": "DistrictLifeAnimated/district_CivicCourtGardenLoop_0"
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_1",
+      "role": "merchant",
+      "position": [
+        163.6,
+        -0.02,
+        -124.65
+      ],
+      "sourcePosition": [
+        163.6,
+        124.65,
+        -0.02
+      ],
+      "rotationY": 3.141592653589793,
+      "scale": 1.0,
+      "colorIndex": 2,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "hawker",
+      "purpose": "District circulation",
+      "animated": true,
+      "asset": "characters/animated-merchant.glb",
+      "sourcePrototype": "animated-merchant",
+      "clip": "Walk",
+      "path": [
+        [
+          163.6,
+          -0.02,
+          -124.65
+        ],
+        [
+          163.6,
+          -0.02,
+          -125.23056
+        ],
+        [
+          163.6,
+          -0.02,
+          -125.81111
+        ],
+        [
+          163.6,
+          -0.02,
+          -126.39167
+        ],
+        [
+          163.6,
+          -0.02,
+          -126.97222
+        ],
+        [
+          163.6,
+          -0.02,
+          -127.55278
+        ],
+        [
+          163.6,
+          -0.02,
+          -128.13333
+        ],
+        [
+          163.6,
+          -0.02,
+          -128.71389
+        ],
+        [
+          163.6,
+          -0.02,
+          -129.29444
+        ],
+        [
+          163.6,
+          -0.02,
+          -129.875
+        ],
+        [
+          163.6,
+          -0.02,
+          -130.45556
+        ],
+        [
+          163.6,
+          -0.02,
+          -131.03611
+        ],
+        [
+          163.6,
+          -0.02,
+          -131.61667
+        ],
+        [
+          163.6,
+          -0.02,
+          -132.19722
+        ],
+        [
+          163.6,
+          -0.02,
+          -132.77778
+        ],
+        [
+          163.6,
+          -0.02,
+          -133.35833
+        ],
+        [
+          163.6,
+          -0.02,
+          -133.93889
+        ],
+        [
+          163.6,
+          -0.02,
+          -134.51944
+        ],
+        [
+          163.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          163.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          162.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          161.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          161.2,
+          -0.02,
+          -135.1
+        ],
+        [
+          160.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          160.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          159.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          158.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          158.2,
+          -0.02,
+          -135.1
+        ],
+        [
+          157.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          157.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          156.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          155.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          155.8,
+          -0.02,
+          -134.50455
+        ],
+        [
+          155.8,
+          -0.02,
+          -133.90909
+        ],
+        [
+          155.8,
+          -0.02,
+          -133.31364
+        ],
+        [
+          155.8,
+          -0.02,
+          -132.71818
+        ],
+        [
+          155.8,
+          -0.02,
+          -132.12273
+        ],
+        [
+          155.8,
+          -0.02,
+          -131.52727
+        ],
+        [
+          155.8,
+          -0.02,
+          -130.93182
+        ],
+        [
+          155.8,
+          -0.02,
+          -130.33636
+        ],
+        [
+          155.8,
+          -0.02,
+          -129.74091
+        ],
+        [
+          155.8,
+          -0.02,
+          -129.14545
+        ],
+        [
+          155.8,
+          -0.02,
+          -128.55
+        ],
+        [
+          155.8,
+          -0.02,
+          -127.95455
+        ],
+        [
+          155.8,
+          -0.02,
+          -127.35909
+        ],
+        [
+          155.8,
+          -0.02,
+          -126.76364
+        ],
+        [
+          155.8,
+          -0.02,
+          -126.16818
+        ],
+        [
+          155.8,
+          -0.02,
+          -125.57273
+        ],
+        [
+          155.8,
+          -0.02,
+          -124.97727
+        ],
+        [
+          155.8,
+          -0.02,
+          -124.38182
+        ],
+        [
+          155.8,
+          -0.02,
+          -123.78636
+        ],
+        [
+          155.8,
+          -0.02,
+          -123.19091
+        ],
+        [
+          155.8,
+          -0.02,
+          -122.59545
+        ],
+        [
+          155.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          156.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          157.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          157.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          158.2,
+          -0.02,
+          -122.0
+        ],
+        [
+          158.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          159.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          160.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          160.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          161.2,
+          -0.02,
+          -122.0
+        ],
+        [
+          161.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          162.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.6,
+          -0.02,
+          -122.53
+        ],
+        [
+          163.6,
+          -0.02,
+          -123.06
+        ],
+        [
+          163.6,
+          -0.02,
+          -123.59
+        ],
+        [
+          163.6,
+          -0.02,
+          -124.12
+        ],
+        [
+          163.6,
+          -0.02,
+          -124.65
+        ]
+      ],
+      "routeId": "CivicCourtGardenLoop",
+      "speed": 0.85,
+      "loop": true,
+      "animationPhase": 0.137,
+      "patrolPathPhase": 0.25,
+      "personalSpace": 0.62,
+      "sourceCollection": "DistrictLifeAnimated/district_CivicCourtGardenLoop_1"
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_2",
+      "role": "citizen",
+      "position": [
+        163.6,
+        -0.02,
+        -135.1
+      ],
+      "sourcePosition": [
+        163.6,
+        135.1,
+        -0.02
+      ],
+      "rotationY": 4.71238898038469,
+      "scale": 1.0,
+      "colorIndex": 6,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "walking",
+      "purpose": "District circulation",
+      "animated": true,
+      "asset": "characters/animated-citizen.glb",
+      "sourcePrototype": "animated-citizen",
+      "clip": "Walk",
+      "path": [
+        [
+          163.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          163.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          162.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          161.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          161.2,
+          -0.02,
+          -135.1
+        ],
+        [
+          160.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          160.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          159.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          158.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          158.2,
+          -0.02,
+          -135.1
+        ],
+        [
+          157.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          157.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          156.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          155.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          155.8,
+          -0.02,
+          -134.50455
+        ],
+        [
+          155.8,
+          -0.02,
+          -133.90909
+        ],
+        [
+          155.8,
+          -0.02,
+          -133.31364
+        ],
+        [
+          155.8,
+          -0.02,
+          -132.71818
+        ],
+        [
+          155.8,
+          -0.02,
+          -132.12273
+        ],
+        [
+          155.8,
+          -0.02,
+          -131.52727
+        ],
+        [
+          155.8,
+          -0.02,
+          -130.93182
+        ],
+        [
+          155.8,
+          -0.02,
+          -130.33636
+        ],
+        [
+          155.8,
+          -0.02,
+          -129.74091
+        ],
+        [
+          155.8,
+          -0.02,
+          -129.14545
+        ],
+        [
+          155.8,
+          -0.02,
+          -128.55
+        ],
+        [
+          155.8,
+          -0.02,
+          -127.95455
+        ],
+        [
+          155.8,
+          -0.02,
+          -127.35909
+        ],
+        [
+          155.8,
+          -0.02,
+          -126.76364
+        ],
+        [
+          155.8,
+          -0.02,
+          -126.16818
+        ],
+        [
+          155.8,
+          -0.02,
+          -125.57273
+        ],
+        [
+          155.8,
+          -0.02,
+          -124.97727
+        ],
+        [
+          155.8,
+          -0.02,
+          -124.38182
+        ],
+        [
+          155.8,
+          -0.02,
+          -123.78636
+        ],
+        [
+          155.8,
+          -0.02,
+          -123.19091
+        ],
+        [
+          155.8,
+          -0.02,
+          -122.59545
+        ],
+        [
+          155.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          156.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          157.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          157.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          158.2,
+          -0.02,
+          -122.0
+        ],
+        [
+          158.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          159.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          160.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          160.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          161.2,
+          -0.02,
+          -122.0
+        ],
+        [
+          161.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          162.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.6,
+          -0.02,
+          -122.59545
+        ],
+        [
+          163.6,
+          -0.02,
+          -123.19091
+        ],
+        [
+          163.6,
+          -0.02,
+          -123.78636
+        ],
+        [
+          163.6,
+          -0.02,
+          -124.38182
+        ],
+        [
+          163.6,
+          -0.02,
+          -124.97727
+        ],
+        [
+          163.6,
+          -0.02,
+          -125.57273
+        ],
+        [
+          163.6,
+          -0.02,
+          -126.16818
+        ],
+        [
+          163.6,
+          -0.02,
+          -126.76364
+        ],
+        [
+          163.6,
+          -0.02,
+          -127.35909
+        ],
+        [
+          163.6,
+          -0.02,
+          -127.95455
+        ],
+        [
+          163.6,
+          -0.02,
+          -128.55
+        ],
+        [
+          163.6,
+          -0.02,
+          -129.14545
+        ],
+        [
+          163.6,
+          -0.02,
+          -129.74091
+        ],
+        [
+          163.6,
+          -0.02,
+          -130.33636
+        ],
+        [
+          163.6,
+          -0.02,
+          -130.93182
+        ],
+        [
+          163.6,
+          -0.02,
+          -131.52727
+        ],
+        [
+          163.6,
+          -0.02,
+          -132.12273
+        ],
+        [
+          163.6,
+          -0.02,
+          -132.71818
+        ],
+        [
+          163.6,
+          -0.02,
+          -133.31364
+        ],
+        [
+          163.6,
+          -0.02,
+          -133.90909
+        ],
+        [
+          163.6,
+          -0.02,
+          -134.50455
+        ],
+        [
+          163.6,
+          -0.02,
+          -135.1
+        ]
+      ],
+      "routeId": "CivicCourtGardenLoop",
+      "speed": 0.85,
+      "loop": true,
+      "animationPhase": 0.274,
+      "patrolPathPhase": 0.5,
+      "personalSpace": 0.62,
+      "sourceCollection": "DistrictLifeAnimated/district_CivicCourtGardenLoop_2"
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_3",
+      "role": "worker",
+      "position": [
+        155.8,
+        -0.02,
+        -132.45
+      ],
+      "sourcePosition": [
+        155.8,
+        132.45,
+        -0.02
+      ],
+      "rotationY": 0.0,
+      "scale": 1.0,
+      "colorIndex": 3,
+      "zone": "district_civic_court",
+      "districtLife": true,
+      "activity": "porter",
+      "purpose": "District circulation",
+      "animated": true,
+      "asset": "characters/animated-porter.glb",
+      "sourcePrototype": "animated-porter",
+      "clip": "Walk",
+      "path": [
+        [
+          155.8,
+          -0.02,
+          -132.45
+        ],
+        [
+          155.8,
+          -0.02,
+          -131.86944
+        ],
+        [
+          155.8,
+          -0.02,
+          -131.28889
+        ],
+        [
+          155.8,
+          -0.02,
+          -130.70833
+        ],
+        [
+          155.8,
+          -0.02,
+          -130.12778
+        ],
+        [
+          155.8,
+          -0.02,
+          -129.54722
+        ],
+        [
+          155.8,
+          -0.02,
+          -128.96667
+        ],
+        [
+          155.8,
+          -0.02,
+          -128.38611
+        ],
+        [
+          155.8,
+          -0.02,
+          -127.80556
+        ],
+        [
+          155.8,
+          -0.02,
+          -127.225
+        ],
+        [
+          155.8,
+          -0.02,
+          -126.64444
+        ],
+        [
+          155.8,
+          -0.02,
+          -126.06389
+        ],
+        [
+          155.8,
+          -0.02,
+          -125.48333
+        ],
+        [
+          155.8,
+          -0.02,
+          -124.90278
+        ],
+        [
+          155.8,
+          -0.02,
+          -124.32222
+        ],
+        [
+          155.8,
+          -0.02,
+          -123.74167
+        ],
+        [
+          155.8,
+          -0.02,
+          -123.16111
+        ],
+        [
+          155.8,
+          -0.02,
+          -122.58056
+        ],
+        [
+          155.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          156.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          157.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          157.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          158.2,
+          -0.02,
+          -122.0
+        ],
+        [
+          158.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          159.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          160.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          160.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          161.2,
+          -0.02,
+          -122.0
+        ],
+        [
+          161.8,
+          -0.02,
+          -122.0
+        ],
+        [
+          162.4,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.0,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.6,
+          -0.02,
+          -122.0
+        ],
+        [
+          163.6,
+          -0.02,
+          -122.59545
+        ],
+        [
+          163.6,
+          -0.02,
+          -123.19091
+        ],
+        [
+          163.6,
+          -0.02,
+          -123.78636
+        ],
+        [
+          163.6,
+          -0.02,
+          -124.38182
+        ],
+        [
+          163.6,
+          -0.02,
+          -124.97727
+        ],
+        [
+          163.6,
+          -0.02,
+          -125.57273
+        ],
+        [
+          163.6,
+          -0.02,
+          -126.16818
+        ],
+        [
+          163.6,
+          -0.02,
+          -126.76364
+        ],
+        [
+          163.6,
+          -0.02,
+          -127.35909
+        ],
+        [
+          163.6,
+          -0.02,
+          -127.95455
+        ],
+        [
+          163.6,
+          -0.02,
+          -128.55
+        ],
+        [
+          163.6,
+          -0.02,
+          -129.14545
+        ],
+        [
+          163.6,
+          -0.02,
+          -129.74091
+        ],
+        [
+          163.6,
+          -0.02,
+          -130.33636
+        ],
+        [
+          163.6,
+          -0.02,
+          -130.93182
+        ],
+        [
+          163.6,
+          -0.02,
+          -131.52727
+        ],
+        [
+          163.6,
+          -0.02,
+          -132.12273
+        ],
+        [
+          163.6,
+          -0.02,
+          -132.71818
+        ],
+        [
+          163.6,
+          -0.02,
+          -133.31364
+        ],
+        [
+          163.6,
+          -0.02,
+          -133.90909
+        ],
+        [
+          163.6,
+          -0.02,
+          -134.50455
+        ],
+        [
+          163.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          163.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          162.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          161.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          161.2,
+          -0.02,
+          -135.1
+        ],
+        [
+          160.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          160.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          159.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          158.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          158.2,
+          -0.02,
+          -135.1
+        ],
+        [
+          157.6,
+          -0.02,
+          -135.1
+        ],
+        [
+          157.0,
+          -0.02,
+          -135.1
+        ],
+        [
+          156.4,
+          -0.02,
+          -135.1
+        ],
+        [
+          155.8,
+          -0.02,
+          -135.1
+        ],
+        [
+          155.8,
+          -0.02,
+          -134.57
+        ],
+        [
+          155.8,
+          -0.02,
+          -134.04
+        ],
+        [
+          155.8,
+          -0.02,
+          -133.51
+        ],
+        [
+          155.8,
+          -0.02,
+          -132.98
+        ],
+        [
+          155.8,
+          -0.02,
+          -132.45
+        ]
+      ],
+      "routeId": "CivicCourtGardenLoop",
+      "speed": 0.85,
+      "loop": true,
+      "animationPhase": 0.411,
+      "patrolPathPhase": 0.75,
+      "personalSpace": 0.62,
+      "sourceCollection": "DistrictLifeAnimated/district_CivicCourtGardenLoop_3"
+    }
+  ],
+  "rejectedAnchors": [],
+  "contacts": [
+    {
+      "id": "district_CivicBench_0-0.6",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.0010968641464039752,
+      "seated": true,
+      "seatObject": "CivicBench_0/woodLight",
+      "seatTop": 0.405
+    },
+    {
+      "id": "district_CivicBench_00.6",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.001096861003190286,
+      "seated": true,
+      "seatObject": "CivicBench_0/woodLight",
+      "seatTop": 0.405
+    },
+    {
+      "id": "district_CivicBench_1-0.6",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.001096893948726363,
+      "seated": true,
+      "seatObject": "CivicBench_1/woodLight",
+      "seatTop": 0.405
+    },
+    {
+      "id": "district_CivicBench_10.6",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.001096861003190286,
+      "seated": true,
+      "seatObject": "CivicBench_1/woodLight",
+      "seatTop": 0.405
+    },
+    {
+      "id": "district_CivicGardenResident_0",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.00046597441541962326,
+      "seated": false,
+      "seatObject": null,
+      "seatTop": null
+    },
+    {
+      "id": "district_CivicGardenResident_1",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.0004927482223138213,
+      "seated": false,
+      "seatObject": null,
+      "seatTop": null
+    },
+    {
+      "id": "district_CivicGardenResident_2",
+      "supportObjects": [
+        "CivicSouthPaving/paving",
+        "CivicSouthPaving/paving"
+      ],
+      "maximumFootGap": 0.000505162839544937,
+      "seated": false,
+      "seatObject": null,
+      "seatTop": null
+    },
+    {
+      "id": "district_CivicGardenResident_3",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.0004033838049508631,
+      "seated": false,
+      "seatObject": null,
+      "seatTop": null
+    },
+    {
+      "id": "district_CivicGardenResident_4",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.0004033689037896693,
+      "seated": false,
+      "seatObject": null,
+      "seatTop": null
+    },
+    {
+      "id": "district_CivicGardenResident_5",
+      "supportObjects": [
+        "District_ground/ground",
+        "District_ground/ground"
+      ],
+      "maximumFootGap": 0.0004927631234750152,
+      "seated": false,
+      "seatObject": null,
+      "seatTop": null
+    }
+  ],
+  "routeChecks": [
+    {
+      "id": "district_CivicCourtGardenLoop_0",
+      "routeId": "CivicCourtGardenLoop",
+      "samples": 70,
+      "passed": true
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_1",
+      "routeId": "CivicCourtGardenLoop",
+      "samples": 71,
+      "passed": true
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_2",
+      "routeId": "CivicCourtGardenLoop",
+      "samples": 70,
+      "passed": true
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_3",
+      "routeId": "CivicCourtGardenLoop",
+      "samples": 71,
+      "passed": true
+    }
+  ],
+  "regionCoverage": {
+    "district_civic_court": {
+      "static": 10,
+      "walking": 4,
+      "fixedIdle": 0,
+      "seated": 4,
+      "activities": {
+        "resting": 4,
+        "gardening": 2,
+        "conversation": 4,
+        "walking": 2,
+        "hawker": 1,
+        "porter": 1
+      }
+    }
+  },
+  "sourceUnmodified": true,
+  "sourceSHA256": "dece421077aae5f76b8cc5cabdd490ebe5951083a15134a2c14451f27e938fc0",
+  "sourceUnchanged": true,
+  "layoutSHA256": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144"
+}

@@ -1,0 +1,124 @@
+{
+  "savedSource": {
+    "passed": true,
+    "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+    "layoutSHA256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+    "assembliesTested": 275,
+    "camerasTested": 13,
+    "failures": [],
+    "reviewCameraAuthoritySHA256": "7523777a6f3d99dd0cbe5d5084dd149008413a3475bfc83b4263b2d1f81f7c83",
+    "uniqueDistrictMeshes": 496,
+    "fullMeshInstances": 2442,
+    "sourceUnchanged": true
+  },
+  "integration": {
+    "stage": "geometry",
+    "preservedComponents": 33313,
+    "changedExistingComponents": [],
+    "newComponents": 2442,
+    "sourceSHA256": "43f5d27fb2d1602b5c17e32beca207cab8b9ebe0c62315a050b2bf0f14ab91e5",
+    "result": {
+      "passed": true,
+      "layoutSHA256": "08192a1ecafb51e20a5e67c6feedf3b7d66ef0c17cf61ae7b7289412a7ec4a5e",
+      "counts": {
+        "infill_shop": 90,
+        "frontage": 64,
+        "stall": 71,
+        "cargo": 10,
+        "bench": 20,
+        "brazier": 20
+      },
+      "regions": {
+        "rear_precinct": {
+          "assemblies": 15,
+          "patrons": 128,
+          "loops": 2
+        },
+        "temple_civic": {
+          "assemblies": 9,
+          "patrons": 101,
+          "loops": 2
+        },
+        "east_quay": {
+          "assemblies": 11,
+          "patrons": 125,
+          "loops": 2
+        },
+        "west_quay": {
+          "assemblies": 38,
+          "patrons": 334,
+          "loops": 2
+        },
+        "eastern_trades": {
+          "assemblies": 22,
+          "patrons": 254,
+          "loops": 2
+        },
+        "eastern_backstreets": {
+          "assemblies": 23,
+          "patrons": 198,
+          "loops": 2
+        },
+        "aqueduct_ward": {
+          "assemblies": 21,
+          "patrons": 157,
+          "loops": 4
+        },
+        "north_insulae": {
+          "assemblies": 28,
+          "patrons": 248,
+          "loops": 2
+        },
+        "upper_city": {
+          "assemblies": 50,
+          "patrons": 323,
+          "loops": 2
+        },
+        "south_residential": {
+          "assemblies": 18,
+          "patrons": 144,
+          "loops": 2
+        }
+      },
+      "createdMeshObjects": 2442,
+      "actualProjectionViolations": [],
+      "benchSeatHeight": 0.44,
+      "lights": 20,
+      "cameras": [
+        "street_district_rear_precinct",
+        "street_district_temple_civic",
+        "street_district_east_quay",
+        "street_district_eastern_trades",
+        "street_district_eastern_backstreets",
+        "street_district_aqueduct_ward",
+        "street_district_north_insulae",
+        "street_district_upper_city",
+        "street_district_south_residential",
+        "district_aerial_north",
+        "district_aerial_reverse",
+        "district_feedback_southern_ward"
+      ],
+      "allSourceComponentsPreserved": true,
+      "sourceSaved": false
+    }
+  },
+  "civicCourtIntegration": {
+    "passed": true,
+    "preservedComponents": 35755,
+    "changedExistingComponents": [],
+    "newComponents": 68,
+    "sourceSHA256": "dece421077aae5f76b8cc5cabdd490ebe5951083a15134a2c14451f27e938fc0",
+    "result": {
+      "passed": true,
+      "layoutSHA256": "80fd14854372845e0c8fedcacb31a9c85a47e8495ff2c8fe3ca9022701e3a0cd",
+      "createdMeshObjects": 68,
+      "parts": 40,
+      "sharedColumnMeshUsers": 23,
+      "actualProjectionViolations": [],
+      "existingGeometryModified": false,
+      "sourceSaved": false,
+      "seatedAnchors": 4,
+      "lights": 2
+    }
+  }
+}

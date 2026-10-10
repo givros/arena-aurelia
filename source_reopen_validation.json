@@ -1,0 +1,541 @@
+{
+  "passed": true,
+  "source": "Aurelia_Arena.blend",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "reopenedFreshProcess": true,
+  "counts": {
+    "sceneObjects": 38480,
+    "meshObjects": 22706,
+    "materials": 205,
+    "cameras": 32,
+    "pointLights": 53,
+    "characterInstances": 15688,
+    "characterTriangleInstances": 78613716,
+    "actions": 330
+  },
+  "missingDependencies": [],
+  "nonfiniteTransforms": [],
+  "images": [
+    {
+      "name": "arena_sand_atlas.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\arena_sand_atlas.png"
+    },
+    {
+      "name": "mediterranean_earth.png.001",
+      "size": [
+        2048,
+        2048
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\mediterranean_earth.png"
+    },
+    {
+      "name": "paving.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\paving.png"
+    },
+    {
+      "name": "sand.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\sand.png"
+    },
+    {
+      "name": "travertine.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\travertine.png"
+    }
+  ],
+  "cameras": {
+    "street_market_lane": {
+      "position": [
+        34.0,
+        -107.5999984741211,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.5876623392105103,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "street_west_souk": {
+      "position": [
+        -119.5,
+        -61.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.581972360610962,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "street_shop_approach": {
+      "position": [
+        0.0,
+        -154.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.6220015287399292,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "reference": {
+      "position": [
+        38.0,
+        -266.0,
+        163.0
+      ],
+      "rotationEuler": [
+        1.0394896268844604,
+        5.665766078521983e-09,
+        0.1445780098438263
+      ],
+      "lens": 41.5
+    },
+    "top": {
+      "position": [
+        0.0,
+        0.0,
+        330.0
+      ],
+      "rotationEuler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 38.0
+    },
+    "approach": {
+      "position": [
+        7.0,
+        -116.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.8232653141021729,
+        2.615347050038963e-09,
+        0.13640260696411133
+      ],
+      "lens": 38.0
+    },
+    "floor": {
+      "position": [
+        30.0,
+        -25.0,
+        2.119999885559082
+      ],
+      "rotationEuler": [
+        1.7793852090835571,
+        7.577601657260402e-09,
+        0.34302395582199097
+      ],
+      "lens": 24.0
+    },
+    "facade": {
+      "position": [
+        39.0,
+        -89.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        2.0175750255584717,
+        9.254536337266472e-08,
+        1.212025761604309
+      ],
+      "lens": 24.0
+    },
+    "seating": {
+      "position": [
+        68.0999984741211,
+        -51.79999923706055,
+        29.299999237060547
+      ],
+      "rotationEuler": [
+        1.3713321685791016,
+        2.158547118824572e-08,
+        0.7452505826950073
+      ],
+      "lens": 30.0
+    },
+    "hypogeum": {
+      "position": [
+        20.0,
+        -11.0,
+        -3.880000114440918
+      ],
+      "rotationEuler": [
+        1.5779961347579956,
+        -3.783274848956353e-08,
+        0.9272952675819397
+      ],
+      "lens": 24.0
+    },
+    "market": {
+      "position": [
+        34.0,
+        -107.5999984741211,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.5876623392105103,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "reverse": {
+      "position": [
+        0.0,
+        133.0,
+        85.0
+      ],
+      "rotationEuler": [
+        1.0573368072509766,
+        7.61496252721372e-08,
+        3.141592502593994
+      ],
+      "lens": 36.0
+    },
+    "vip": {
+      "position": [
+        7.0,
+        54.0,
+        20.440000534057617
+      ],
+      "rotationEuler": [
+        1.7172229290008545,
+        -2.3654557423924416e-08,
+        0.7853981852531433
+      ],
+      "lens": 28.0
+    },
+    "district_feedback_southern_ward": {
+      "position": [
+        240.0,
+        150.0,
+        165.0
+      ],
+      "rotationEuler": [
+        1.041627287864685,
+        -5.685421911039157e-08,
+        2.195431709289551
+      ],
+      "lens": 39.20000076293945
+    },
+    "district_entire_world": {
+      "position": [
+        460.0,
+        -510.0,
+        520.0
+      ],
+      "rotationEuler": [
+        0.9803828001022339,
+        -5.810108505421852e-10,
+        0.6461188793182373
+      ],
+      "lens": 36.0
+    },
+    "district_south_gate": {
+      "position": [
+        0.0,
+        -207.0,
+        1.684999942779541
+      ],
+      "rotationEuler": [
+        -1.399094581604004,
+        3.141592502593994,
+        1.4936981429514162e-08
+      ],
+      "lens": 25.0
+    },
+    "street_district_rear_precinct": {
+      "position": [
+        -66.0,
+        106.53569793701172,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.578895926475525,
+        -2.4640236517825542e-08,
+        -1.4288973808288574
+      ],
+      "lens": 26.0
+    },
+    "street_district_temple_civic": {
+      "position": [
+        -98.55750274658203,
+        114.91999816894531,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5804353952407837,
+        1.6189739326932795e-08,
+        0.4346701204776764
+      ],
+      "lens": 26.0
+    },
+    "street_district_east_quay": {
+      "position": [
+        -133.58599853515625,
+        -1.4620000123977661,
+        1.7400000095367432
+      ],
+      "rotationEuler": [
+        1.577884554862976,
+        1.0474446554553651e-07,
+        1.8925468921661377
+      ],
+      "lens": 26.0
+    },
+    "street_district_eastern_trades": {
+      "position": [
+        162.52000427246094,
+        13.047499656677246,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5780235528945923,
+        2.8270662255636125e-08,
+        -1.2598196268081665
+      ],
+      "lens": 26.0
+    },
+    "street_district_eastern_backstreets": {
+      "position": [
+        207.05999755859375,
+        -55.7599983215332,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.579482078552246,
+        -7.319975026121028e-08,
+        -1.8490961790084839
+      ],
+      "lens": 26.0
+    },
+    "street_district_aqueduct_ward": {
+      "position": [
+        199.8000030517578,
+        142.8000030517578,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5809375047683716,
+        -0.0,
+        0.0
+      ],
+      "lens": 26.0
+    },
+    "street_district_north_insulae": {
+      "position": [
+        -19.0,
+        227.1136016845703,
+        1.7079999446868896
+      ],
+      "rotationEuler": [
+        1.5784705877304077,
+        -2.3233415191725726e-09,
+        -0.3743997812271118
+      ],
+      "lens": 26.0
+    },
+    "street_district_upper_city": {
+      "position": [
+        80.32499694824219,
+        359.54998779296875,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5824780464172363,
+        -1.618013056869927e-09,
+        -2.931675434112549
+      ],
+      "lens": 26.0
+    },
+    "street_district_south_residential": {
+      "position": [
+        32.470001220703125,
+        -181.2624969482422,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5787591934204102,
+        5.0963038233931e-08,
+        -2.062605619430542
+      ],
+      "lens": 26.0
+    },
+    "district_aerial_north": {
+      "position": [
+        -135.0,
+        400.0,
+        230.0
+      ],
+      "rotationEuler": [
+        0.9606481194496155,
+        7.116868516732211e-08,
+        -2.7187387943267822
+      ],
+      "lens": 43.0
+    },
+    "district_aerial_reverse": {
+      "position": [
+        315.0,
+        280.0,
+        225.0
+      ],
+      "rotationEuler": [
+        1.058740258216858,
+        7.965004300558576e-08,
+        2.0512022972106934
+      ],
+      "lens": 42.0
+    },
+    "street_district_civic_court": {
+      "position": [
+        151.5,
+        120.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.5932526588439941,
+        -5.2651270010528606e-08,
+        -0.5961991548538208
+      ],
+      "lens": 28.0
+    },
+    "district_civic_court_aerial": {
+      "position": [
+        207.0,
+        73.0,
+        61.0
+      ],
+      "rotationEuler": [
+        0.8885272145271301,
+        2.02092262924225e-08,
+        0.657389223575592
+      ],
+      "lens": 44.0
+    },
+    "street_district_west_quay": {
+      "position": [
+        -242.0,
+        104.7699966430664,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5799624919891357,
+        -2.8958517805932615e-09,
+        1.768191933631897
+      ],
+      "lens": 26.0
+    },
+    "street_district_gallery": {
+      "position": [
+        71.13490295410156,
+        54.871498107910156,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.577755093574524,
+        1.7503525739925863e-08,
+        1.0442627668380737
+      ],
+      "lens": 25.0
+    },
+    "street_district_backstage": {
+      "position": [
+        -30.0,
+        2.0,
+        -3.880000114440918
+      ],
+      "rotationEuler": [
+        1.5763435363769531,
+        -1.3890357308810053e-07,
+        -2.5535900592803955
+      ],
+      "lens": 25.0
+    }
+  },
+  "renderEvidence": [
+    "renders/pass3_reference.png",
+    "renders/pass3_top.png",
+    "renders/pass3_approach.png",
+    "renders/pass3_floor.png",
+    "renders/pass3_facade.png",
+    "renders/pass3_seating.png",
+    "renders/pass3_hypogeum.png",
+    "renders/pass3_market.png",
+    "renders/pass3_reverse.png",
+    "renders/pass3_vip.png"
+  ],
+  "sourceUnchangedDuringAudit": true,
+  "currentRevisionRenderEvidence": [
+    "renders/street_life_final_reference.png",
+    "renders/street_life_final_street_market_lane.png",
+    "renders/street_life_final_street_shop_approach.png",
+    "renders/street_life_final_street_west_souk.png",
+    "renders/street_life_layout_reference.png",
+    "renders/street_life_layout_street_market_lane.png"
+  ],
+  "districtRevisionRenderEvidence": [
+    "renders/district_life_baseline_reverse.png",
+    "renders/district_life_baseline_world.png",
+    "renders/district_life_camera_preview_street_district_eastern_trades.png",
+    "renders/district_life_camera_preview_street_district_rear_precinct.png",
+    "renders/district_life_camera_preview_street_district_temple_civic.png",
+    "renders/district_life_civic_geometry_district_civic_court_aerial.png",
+    "renders/district_life_civic_geometry_street_district_civic_court.png",
+    "renders/district_life_district_geometry_district_entire_world.png",
+    "renders/district_life_district_geometry_district_feedback_southern_ward.png",
+    "renders/district_life_district_geometry_district_south_gate.png",
+    "renders/district_life_district_geometry_street_district_eastern_trades.png",
+    "renders/district_life_final_district_civic_court_aerial.png",
+    "renders/district_life_final_district_entire_world.png",
+    "renders/district_life_final_district_feedback_southern_ward.png",
+    "renders/district_life_final_district_south_gate.png",
+    "renders/district_life_final_reference.png",
+    "renders/district_life_final_reverse.png",
+    "renders/district_life_final_street_district_aqueduct_ward.png",
+    "renders/district_life_final_street_district_backstage.png",
+    "renders/district_life_final_street_district_civic_court.png",
+    "renders/district_life_final_street_district_east_quay.png",
+    "renders/district_life_final_street_district_eastern_backstreets.png",
+    "renders/district_life_final_street_district_eastern_trades.png",
+    "renders/district_life_final_street_district_gallery.png",
+    "renders/district_life_final_street_district_north_insulae.png",
+    "renders/district_life_final_street_district_rear_precinct.png",
+    "renders/district_life_final_street_district_south_residential.png",
+    "renders/district_life_final_street_district_temple_civic.png",
+    "renders/district_life_final_street_district_upper_city.png",
+    "renders/district_life_final_street_district_west_quay.png",
+    "renders/district_life_final_world.png",
+    "renders/district_life_master_geometry_district_entire_world.png",
+    "renders/district_life_master_geometry_district_feedback_southern_ward.png",
+    "renders/district_life_master_geometry_district_south_gate.png",
+    "renders/district_life_terrain_refined_district_entire_world.png"
+  ]
+}

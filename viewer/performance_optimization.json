@@ -1,0 +1,1057 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-10T19:18:43.933Z",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "source": {
+    "manifestSHA256": "740c4b06ec047280e5bf9669a7e01f77ca86c82a47ba068608f572e8892ac966",
+    "binarySHA256": "792a5dc7304bba72121d31590aad09a945ffe252268b1dfa5337c240b2011756",
+    "characterManifestSHA256": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0"
+  },
+  "finalBuild": {
+    "index-Bp4WHLxJ.js": "892162f1842bad37bf1057eb8142072666f9393163365d46f9e795e2cdbf4710",
+    "index-Cj9FlUBs.css": "828f2211e57f5636f17e63e33aadb05973cb00497c61b63cf43d7fa0319fc55b"
+  },
+  "profileSHA256": "f1532751cadfa6f3b0d8d726711c9ab816fe19c00e51eb21de441681de1cd57a",
+  "runtimeValidationSHA256": "f6fc5b7f19ab903bd11a2a960703e7835728514e9bfa0bce6e1ae53acc5a2c54",
+  "code": {
+    "src/main.ts": "c45cb42e8ae9eeb1b29075d47360d771122c2ca11bcfbad57fc0359b435d3757",
+    "src/prewarm.ts": "371bb17fc2ebebea6a1a327ac6208b876c9a7d4d0e894a12309c77d916dd562a",
+    "src/characters.ts": "e1adb639cbf084099fcbe80ab32f054728f7399634c9ab0f1e5846b61863e968",
+    "src/character-merge.ts": "4e7774a4f4ae1cfdf298f54aa945110e4aa59d88e7b27b0d62a56449fc251690",
+    "src/performance.ts": "d6470209de355f78a6294a1b1a64561c85454ccd3555721d469f994017f597b8",
+    "src/stable-clustered-lighting.js": "47a0d97ea564d4e1068b6b33b2be7429430e97f4fbf5f9e27804718dbf9266eb",
+    "src/atmosphere.ts": "f191fbe17699ec5307dbd6675084ffd854411708a7555c0c7a2d994e30a3d705"
+  },
+  "hardware": {
+    "reportedOperatingSystemGPU": "NVIDIA GeForce RTX 3080",
+    "driver": "32.0.16.1656",
+    "browser": "154.0.8037.99",
+    "backend": "webgpu",
+    "adapter": {
+      "vendor": "nvidia",
+      "architecture": "ampere",
+      "device": "",
+      "description": "",
+      "isFallbackAdapter": false
+    }
+  },
+  "measurement": {
+    "hostConditions": {
+      "classification": "Shared GPU with active non-test browser workload; no exclusive-host throughput claim.",
+      "before": [
+        {
+          "phase": "before paired scenarios",
+          "timestamp": "2026-10-10T18:50:07.162Z",
+          "scope": "Read-only GPU engine sample outside timed intervals. Other applications are neither controlled nor closed.",
+          "testProcessIds": [
+            31208,
+            13440,
+            32196,
+            55248,
+            57372,
+            52688,
+            28544
+          ],
+          "engines": [
+            {
+              "instance": "pid_1956_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 0.11243861436727708,
+              "pid": 1956,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_47860_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 41.854550270249966,
+              "pid": 47860,
+              "ownedByTest": false
+            }
+          ],
+          "background3dEngines": [
+            {
+              "instance": "pid_1956_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 0.11243861436727708,
+              "pid": 1956,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_47860_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 41.854550270249966,
+              "pid": 47860,
+              "ownedByTest": false
+            }
+          ]
+        },
+        {
+          "phase": "after paired scenarios and reload",
+          "timestamp": "2026-10-10T18:53:57.022Z",
+          "scope": "Read-only GPU engine sample outside timed intervals. Other applications are neither controlled nor closed.",
+          "testProcessIds": [
+            31208,
+            13440,
+            32196,
+            55248,
+            57372,
+            52688,
+            28544,
+            17372
+          ],
+          "engines": [
+            {
+              "instance": "pid_1956_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 0.1244334346902018,
+              "pid": 1956,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_47860_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 42.6192624737347,
+              "pid": 47860,
+              "ownedByTest": false
+            }
+          ],
+          "background3dEngines": [
+            {
+              "instance": "pid_1956_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 0.1244334346902018,
+              "pid": 1956,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_47860_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 42.6192624737347,
+              "pid": 47860,
+              "ownedByTest": false
+            }
+          ]
+        }
+      ],
+      "after": [
+        {
+          "phase": "before paired scenarios",
+          "timestamp": "2026-10-10T19:14:54.408Z",
+          "scope": "Read-only GPU engine sample outside timed intervals. Other applications are neither controlled nor closed.",
+          "testProcessIds": [
+            57708,
+            13600,
+            23212,
+            56360,
+            58540,
+            41196,
+            58820
+          ],
+          "engines": [
+            {
+              "instance": "pid_1956_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 0.1783099669793433,
+              "pid": 1956,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_47860_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 49.0243439249355,
+              "pid": 47860,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_58540_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 39.75446623777518,
+              "pid": 58540,
+              "ownedByTest": true
+            }
+          ],
+          "background3dEngines": [
+            {
+              "instance": "pid_1956_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 0.1783099669793433,
+              "pid": 1956,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_47860_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 49.0243439249355,
+              "pid": 47860,
+              "ownedByTest": false
+            }
+          ]
+        },
+        {
+          "phase": "after paired scenarios",
+          "timestamp": "2026-10-10T19:16:49.392Z",
+          "scope": "Read-only GPU engine sample outside timed intervals. Other applications are neither controlled nor closed.",
+          "testProcessIds": [
+            57708,
+            13600,
+            23212,
+            56360,
+            58540,
+            41196,
+            58820,
+            44624
+          ],
+          "engines": [
+            {
+              "instance": "pid_1956_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 0.16172483260603843,
+              "pid": 1956,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_47860_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 55.24845532939197,
+              "pid": 47860,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_58540_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 34.386872445242055,
+              "pid": 58540,
+              "ownedByTest": true
+            }
+          ],
+          "background3dEngines": [
+            {
+              "instance": "pid_1956_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 0.16172483260603843,
+              "pid": 1956,
+              "ownedByTest": false
+            },
+            {
+              "instance": "pid_47860_luid_0x00000000_0x0000ff3b_phys_0_eng_0_engtype_3d",
+              "utilizationPercent": 55.24845532939197,
+              "pid": 47860,
+              "ownedByTest": false
+            }
+          ]
+        }
+      ],
+      "interpretation": "Large compilation stalls and exact-work reductions are evidenced; small steady-throughput differences cannot be attributed confidently under uncontrolled background GPU activity."
+    },
+    "viewport": {
+      "width": 1440,
+      "height": 1080,
+      "dpr": 1
+    },
+    "scenarioSeconds": 18,
+    "setupSeconds": 3.5,
+    "gpuScope": "Scene, full-detail shadow and output render passes; clustered-light compute excluded.",
+    "frameBoundary": "Only the first RAF interval straddling each reset is excluded from summary; original samples remain in raw evidence.",
+    "input": "Same authored route and input script in both arms. Simulation dt is capped at .05s, so actual travel is reported instead of claiming identical positions under long stalls.",
+    "driverShaderCache": "Uncontrolled. Fresh isolated contexts and same-context reload are reported separately.",
+    "commonControllerSHA256": "06fd2be66183a97c9a546e2983e906a67ac595c37a7de5bad09f12f951beb374",
+    "requestedFog": "User-requested1200/4500m distance haze is identical in both final arms; prior420/1350m measurements are historical.",
+    "controllerRepair": "Grounded-only stair stepping and airborne landing at or below current feet; shared by both measured builds.",
+    "sourceRevisions": "Earlier source633ad profiles are historical; this comparison reruns both implementations on the same final source including the four bank closures."
+  },
+  "applied": [
+    {
+      "change": "Prepare every complete source main and shadow pipeline before entering the world",
+      "reason": "Baseline program inventory grows when new streets, orbit angles and shadow contributors first appear; synchronous shader work caused multi-second walking stalls.",
+      "implementation": "Retains every original mesh visibility/frustum flag; prepares full shadow pipelines in batches with UI yields, restores all flags, and renders the complete normal scene before readiness.",
+      "observedFixedViewportProgramInventory": 2997,
+      "lifecycleEvidence": "program_lifecycle_validation.json"
+    },
+    {
+      "change": "Merge only exactly compatible full character primitives",
+      "reason": "Reduces repeated render-object submission and shader preparation while retaining every original triangle, attribute, material parameter and skin weight.",
+      "beforeCharacterObjects": 3562,
+      "afterCharacterObjects": 2048,
+      "stoneOverride": "Original uniform-stone prototypes retained; garment vertex colors never alter statues."
+    },
+    {
+      "change": "Consolidate duplicate skeleton wrappers within each actor",
+      "reason": "The five skinned parts reference the same 49 bones and inverse matrices. One wrapper per actor avoids duplicate bone-array evaluation.",
+      "beforeSkeletonWrappers": 820,
+      "afterSkeletonWrappers": 164,
+      "independentActorsPreserved": true
+    },
+    {
+      "change": "Keep the clustered-light grid stable across native framebuffer resizing",
+      "reason": "The stock addon embedded dimensions in shader code and caused replacement of1721 stages during resize/restore. Uniform grid dimensions and persistent storage eliminate that replacement within the reserve.",
+      "evidence": "stable_grid_validation.json",
+      "reservedBytes": 50135040,
+      "additionalReservationAt1440x1080": 40734720
+    },
+    {
+      "change": "Use a numeric clustered storage element count",
+      "reason": "Avoids stringifying12.5million integers in each shader uniform declaration while preserving the identical zeroedInt32 storage and GPU results.",
+      "evidence": "startup_regression_diagnosis.json"
+    }
+  ],
+  "rejected": [
+    {
+      "change": "Static WebGPU command bundles",
+      "reason": "Dense seating pixels changed beyond the visual-equivalence threshold; some benefit was offset by increased GPU time.",
+      "evidence": "bundle_visual_validation.json",
+      "productionCodeIncluded": false
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "reference",
+      "before": {
+        "frameIntervalMs": {
+          "samples": 264,
+          "p50": 66.60000000000582,
+          "p95": 66.80000000000291,
+          "p99": 66.80000000001746,
+          "max": 100,
+          "mean": 61.996212121212125,
+          "over50ms": 194,
+          "over100ms": 0
+        },
+        "cpuSubmissionMs": {
+          "samples": 265,
+          "p50": 56.5,
+          "p95": 59.69999998807907,
+          "p99": 63.90000003576279,
+          "max": 93.29999995231628,
+          "mean": 56.983773586660064,
+          "over50ms": 265,
+          "over100ms": 0
+        },
+        "cpuCallbackMs": {
+          "samples": 265,
+          "p50": 61.200000047683716,
+          "p95": 64.89999997615814,
+          "p99": 70.5,
+          "max": 98.29999995231628,
+          "mean": 61.66905660561795,
+          "over50ms": 265,
+          "over100ms": 0
+        },
+        "gpuRenderMs": {
+          "samples": 252,
+          "p50": 45.56288,
+          "p95": 54.454271999999996,
+          "p99": 55.856128000000005,
+          "max": 57.205760000000005,
+          "mean": 44.696080253968255,
+          "over50ms": 43,
+          "over100ms": 0
+        },
+        "programs": 2990,
+        "travelMeters": 0,
+        "collisions": 0
+      },
+      "after": {
+        "frameIntervalMs": {
+          "samples": 289,
+          "p50": 66.60000000000582,
+          "p95": 66.80000000000291,
+          "p99": 66.90000000000873,
+          "max": 83.5,
+          "mean": 62.11211072664363,
+          "over50ms": 225,
+          "over100ms": 0
+        },
+        "cpuSubmissionMs": {
+          "samples": 290,
+          "p50": 41.5,
+          "p95": 48.19999998807907,
+          "p99": 49.200000047683716,
+          "max": 50.10000002384186,
+          "mean": 42.49862069014845,
+          "over50ms": 1,
+          "over100ms": 0
+        },
+        "cpuCallbackMs": {
+          "samples": 290,
+          "p50": 46.30000001192093,
+          "p95": 58.5,
+          "p99": 59.90000003576279,
+          "max": 60.30000001192093,
+          "mean": 48.30655172508338,
+          "over50ms": 64,
+          "over100ms": 0
+        },
+        "gpuRenderMs": {
+          "samples": 271,
+          "p50": 59.78624,
+          "p95": 61.864959999999996,
+          "p99": 68.38271999999999,
+          "max": 68.497408,
+          "mean": 59.416742258302605,
+          "over50ms": 269,
+          "over100ms": 0
+        },
+        "programs": 2997,
+        "travelMeters": 0,
+        "collisions": 0
+      },
+      "p95ReductionPercent": 0,
+      "maximumFrameReductionPercent": 16.500000000000004
+    },
+    {
+      "name": "market_still",
+      "before": {
+        "frameIntervalMs": {
+          "samples": 258,
+          "p50": 66.5,
+          "p95": 66.80000000001746,
+          "p99": 83.29999999998836,
+          "max": 2983.3000000000175,
+          "mean": 69.89767441860468,
+          "over50ms": 153,
+          "over100ms": 2
+        },
+        "cpuSubmissionMs": {
+          "samples": 259,
+          "p50": 52.69999998807907,
+          "p95": 57.700000047683716,
+          "p99": 69.39999997615814,
+          "max": 78.60000002384186,
+          "mean": 53.44594594709662,
+          "over50ms": 259,
+          "over100ms": 0
+        },
+        "cpuCallbackMs": {
+          "samples": 259,
+          "p50": 57.40000003576279,
+          "p95": 64.5,
+          "p99": 74.5,
+          "max": 87.60000002384186,
+          "mean": 58.2366795376461,
+          "over50ms": 259,
+          "over100ms": 0
+        },
+        "gpuRenderMs": {
+          "samples": 237,
+          "p50": 36.590591999999994,
+          "p95": 50.983936,
+          "p99": 51.949568,
+          "max": 52.15744,
+          "mean": 38.03178774683542,
+          "over50ms": 14,
+          "over100ms": 0
+        },
+        "programs": 3299,
+        "travelMeters": 0,
+        "collisions": 0
+      },
+      "after": {
+        "frameIntervalMs": {
+          "samples": 330,
+          "p50": 50,
+          "p95": 66.70000000001164,
+          "p99": 66.80000000001746,
+          "max": 66.90000000002328,
+          "mean": 54.5463636363636,
+          "over50ms": 154,
+          "over100ms": 0
+        },
+        "cpuSubmissionMs": {
+          "samples": 331,
+          "p50": 38.5,
+          "p95": 45.30000001192093,
+          "p99": 49.60000002384186,
+          "max": 52.80000001192093,
+          "mean": 39.489425980432515,
+          "over50ms": 3,
+          "over100ms": 0
+        },
+        "cpuCallbackMs": {
+          "samples": 331,
+          "p50": 43.39999997615814,
+          "p95": 55.30000001192093,
+          "p99": 57.19999998807907,
+          "max": 67.69999998807907,
+          "mean": 45.18821752197433,
+          "over50ms": 54,
+          "over100ms": 0
+        },
+        "gpuRenderMs": {
+          "samples": 313,
+          "p50": 54.280192,
+          "p95": 55.140352,
+          "p99": 55.550976,
+          "max": 55.73017599999999,
+          "mean": 52.09153758466452,
+          "over50ms": 236,
+          "over100ms": 0
+        },
+        "programs": 2997,
+        "travelMeters": 0,
+        "collisions": 0
+      },
+      "p95ReductionPercent": 0.14970059881106446,
+      "maximumFrameReductionPercent": 97.75751684376284
+    },
+    {
+      "name": "market_walking",
+      "before": {
+        "frameIntervalMs": {
+          "samples": 235,
+          "p50": 50,
+          "p95": 66.70000000001164,
+          "p99": 83.39999999999418,
+          "max": 3549.899999999994,
+          "mean": 76.88042553191487,
+          "over50ms": 85,
+          "over100ms": 2
+        },
+        "cpuSubmissionMs": {
+          "samples": 236,
+          "p50": 37.10000002384186,
+          "p95": 60.30000001192093,
+          "p99": 65.39999997615814,
+          "max": 3550.399999976158,
+          "mean": 59.262288135239636,
+          "over50ms": 93,
+          "over100ms": 1
+        },
+        "cpuCallbackMs": {
+          "samples": 236,
+          "p50": 42.59999996423721,
+          "p95": 65.80000001192093,
+          "p99": 70.69999998807907,
+          "max": 3555.5,
+          "mean": 64.60847457814015,
+          "over50ms": 94,
+          "over100ms": 1
+        },
+        "gpuRenderMs": {
+          "samples": 224,
+          "p50": 25.385984000000004,
+          "p95": 43.334656,
+          "p99": 50.536448,
+          "max": 50.94912,
+          "mean": 26.108891428571418,
+          "over50ms": 3,
+          "over100ms": 0
+        },
+        "programs": 3452,
+        "travelMeters": 55.80705645265292,
+        "collisions": 0
+      },
+      "after": {
+        "frameIntervalMs": {
+          "samples": 426,
+          "p50": 33.40000000002328,
+          "p95": 66.69999999998254,
+          "p99": 66.79999999998836,
+          "max": 66.80000000001746,
+          "mean": 42.253990610328664,
+          "over50ms": 75,
+          "over100ms": 0
+        },
+        "cpuSubmissionMs": {
+          "samples": 427,
+          "p50": 29.100000023841858,
+          "p95": 43.10000002384186,
+          "p99": 47,
+          "max": 67.5,
+          "mean": 33.54473068046905,
+          "over50ms": 1,
+          "over100ms": 0
+        },
+        "cpuCallbackMs": {
+          "samples": 427,
+          "p50": 34.60000002384186,
+          "p95": 50.39999997615814,
+          "p99": 59.69999998807907,
+          "max": 80.30000001192093,
+          "mean": 39.38899297583019,
+          "over50ms": 24,
+          "over100ms": 0
+        },
+        "gpuRenderMs": {
+          "samples": 410,
+          "p50": 37.416959999999996,
+          "p95": 55.570432000000004,
+          "p99": 56.393728,
+          "max": 65.965056,
+          "mean": 40.435434692682946,
+          "over50ms": 151,
+          "over100ms": 0
+        },
+        "programs": 2997,
+        "travelMeters": 85.8287505297737,
+        "collisions": 0
+      },
+      "p95ReductionPercent": 4.363176486776865e-11,
+      "maximumFrameReductionPercent": 98.11825685230521
+    },
+    {
+      "name": "aerial_orbit",
+      "before": {
+        "frameIntervalMs": {
+          "samples": 166,
+          "p50": 66.70000000001164,
+          "p95": 283.30000000001746,
+          "p99": 350,
+          "max": 383.3999999999942,
+          "mean": 108.63614457831329,
+          "over50ms": 147,
+          "over100ms": 51
+        },
+        "cpuSubmissionMs": {
+          "samples": 167,
+          "p50": 58.299999952316284,
+          "p95": 269.89999997615814,
+          "p99": 332.30000001192093,
+          "max": 376.5999999642372,
+          "mean": 95.95029940219696,
+          "over50ms": 167,
+          "over100ms": 45
+        },
+        "cpuCallbackMs": {
+          "samples": 167,
+          "p50": 63.19999998807907,
+          "p95": 274.7999999523163,
+          "p99": 336.9000000357628,
+          "max": 381.5,
+          "mean": 100.88502993555126,
+          "over50ms": 167,
+          "over100ms": 45
+        },
+        "gpuRenderMs": {
+          "samples": 159,
+          "p50": 44.284928,
+          "p95": 55.168,
+          "p99": 56.983551999999996,
+          "max": 57.597952,
+          "mean": 44.156135849056604,
+          "over50ms": 38,
+          "over100ms": 0
+        },
+        "programs": 3844,
+        "travelMeters": 0,
+        "collisions": 0
+      },
+      "after": {
+        "frameIntervalMs": {
+          "samples": 284,
+          "p50": 66.60000000000582,
+          "p95": 66.80000000001746,
+          "p99": 83.40000000002328,
+          "max": 83.60000000000582,
+          "mean": 63.14647887323935,
+          "over50ms": 227,
+          "over100ms": 0
+        },
+        "cpuSubmissionMs": {
+          "samples": 285,
+          "p50": 41.5,
+          "p95": 47.09999996423721,
+          "p99": 48.799999952316284,
+          "max": 51.59999996423721,
+          "mean": 42.19333333299871,
+          "over50ms": 1,
+          "over100ms": 0
+        },
+        "cpuCallbackMs": {
+          "samples": 285,
+          "p50": 47,
+          "p95": 58.19999998807907,
+          "p99": 60.299999952316284,
+          "max": 64.30000001192093,
+          "mean": 48.70842105045653,
+          "over50ms": 84,
+          "over100ms": 0
+        },
+        "gpuRenderMs": {
+          "samples": 270,
+          "p50": 59.730944,
+          "p95": 66.491392,
+          "p99": 69.42310400000001,
+          "max": 73.1136,
+          "mean": 60.04863431111107,
+          "over50ms": 270,
+          "over100ms": 0
+        },
+        "programs": 2997,
+        "travelMeters": 0,
+        "collisions": 0
+      },
+      "p95ReductionPercent": 76.42075538298153,
+      "maximumFrameReductionPercent": 78.19509650495381
+    },
+    {
+      "name": "walking_daynight",
+      "before": {
+        "frameIntervalMs": {
+          "samples": 294,
+          "p50": 50.10000000000582,
+          "p95": 83.30000000001746,
+          "p99": 233.40000000002328,
+          "max": 550.1000000000058,
+          "mean": 60.77244897959186,
+          "over50ms": 164,
+          "over100ms": 8
+        },
+        "cpuSubmissionMs": {
+          "samples": 295,
+          "p50": 58,
+          "p95": 64.19999998807907,
+          "p99": 75.80000001192093,
+          "max": 94.90000003576279,
+          "mean": 50.23389830468064,
+          "over50ms": 158,
+          "over100ms": 0
+        },
+        "cpuCallbackMs": {
+          "samples": 295,
+          "p50": 63.10000002384186,
+          "p95": 69.69999998807907,
+          "p99": 81.19999998807907,
+          "max": 101,
+          "mean": 55.525762708712435,
+          "over50ms": 160,
+          "over100ms": 1
+        },
+        "gpuRenderMs": {
+          "samples": 278,
+          "p50": 29.819904,
+          "p95": 49.21344,
+          "p99": 50.577408,
+          "max": 51.91168,
+          "mean": 30.344206733812936,
+          "over50ms": 5,
+          "over100ms": 0
+        },
+        "programs": 4203,
+        "travelMeters": 66.31181483287763,
+        "collisions": 0
+      },
+      "after": {
+        "frameIntervalMs": {
+          "samples": 413,
+          "p50": 49.89999999999418,
+          "p95": 66.70000000001164,
+          "p99": 66.80000000001746,
+          "max": 83.30000000001746,
+          "mean": 43.70532687651329,
+          "over50ms": 84,
+          "over100ms": 0
+        },
+        "cpuSubmissionMs": {
+          "samples": 414,
+          "p50": 29.900000035762787,
+          "p95": 44.10000002384186,
+          "p99": 49.19999998807907,
+          "max": 61.89999997615814,
+          "mean": 34.61787439731584,
+          "over50ms": 4,
+          "over100ms": 0
+        },
+        "cpuCallbackMs": {
+          "samples": 414,
+          "p50": 35.299999952316284,
+          "p95": 50.80000001192093,
+          "p99": 62.10000002384186,
+          "max": 68.69999998807907,
+          "mean": 40.24806763238953,
+          "over50ms": 23,
+          "over100ms": 0
+        },
+        "gpuRenderMs": {
+          "samples": 399,
+          "p50": 40.087551999999995,
+          "p95": 55.257088,
+          "p99": 55.652352,
+          "max": 56.215551999999995,
+          "mean": 41.128464681704266,
+          "over50ms": 155,
+          "over100ms": 0
+        },
+        "programs": 2997,
+        "travelMeters": 85.06527263309486,
+        "collisions": 0
+      },
+      "p95ReductionPercent": 19.9279711884782,
+      "maximumFrameReductionPercent": 84.85729867296554
+    }
+  ],
+  "qualityPreserved": {
+    "nativeDPR": true,
+    "MSAA": 4,
+    "shadowResolution": [
+      4096,
+      4096
+    ],
+    "fullArchitectureTriangles": 6690777,
+    "fullHumanTriangles": 78613716,
+    "characterDerivedInstances": 15688,
+    "livingPeople": 15662,
+    "statues": 26,
+    "fog": [
+      1200,
+      4500
+    ],
+    "animated": 164,
+    "geometryReduction": false,
+    "LOD": false,
+    "billboards": false,
+    "sourceTextureResolutionPreserved": true,
+    "allShadowContributors": true,
+    "sourceGLBsUnchanged": true,
+    "correctnessEvidence": [
+      {
+        "file": "character_merge_equivalence_validation.json",
+        "sha256": "5732d6b77b0d22ed960dac24df371e148c0f6a46d284f264ac486aea5966c102",
+        "status": "passed"
+      },
+      {
+        "file": "primitive_visual_validation.json",
+        "sha256": "fd7dd420451aab4aeeb1ebeb86fc0ad999199c90eb403facfee6acc68d7a708f",
+        "status": "passed"
+      },
+      {
+        "file": "skeleton_equivalence_validation.json",
+        "sha256": "9d386979f9391fff9566e2dce3b1935cd5e6245c84f113e56e0e9de0026d724c",
+        "status": "passed"
+      },
+      {
+        "file": "watergate_boundary_revision_validation.json",
+        "sha256": "16de6e70a36ff423f0a2e3aeb38eeb2c13ad08c2ece6a0cb79640746cab4ed61",
+        "status": "passed"
+      },
+      {
+        "file": "navigation_airborne_validation.json",
+        "sha256": "705159aa9b04265586ae6ea71de516c565fe15fbbe6b92f25682423270a67129",
+        "status": "passed"
+      },
+      {
+        "file": "active_animation_validation.json",
+        "sha256": "0e1090d6c2a745c5bf8dd24b62213bd7715f03a6561960f10e4887a6890a9a4c",
+        "status": "passed"
+      },
+      {
+        "file": "program_lifecycle_validation.json",
+        "sha256": "fe58b14f4f00491c92d5d62fcba3a7327d8a3b9bd000786b16634de660f2e22b",
+        "status": "passed"
+      },
+      {
+        "file": "stable_grid_validation.json",
+        "sha256": "140fe9dee5a2378719f7c90807ec6d8f7788f9dd9ae52218cb1aa40e84f5c9a5",
+        "status": "passed"
+      }
+    ]
+  },
+  "startupTradeoff": {
+    "before": {
+      "freshContextMs": 105891.39999997616,
+      "sameContextReloadMs": 103301,
+      "phases": {
+        "backendMs": 391.0999999642372,
+        "assetsAndCollisionMs": 4669.199999988079,
+        "charactersMs": 331.5,
+        "compileMs": 65014.69999998808
+      }
+    },
+    "after": {
+      "freshTemporaryContextMs": 104232.5,
+      "coldPhases": {
+        "backendMs": 431.39999997615814,
+        "assetsAndCollisionMs": 4627,
+        "charactersMs": 359.5,
+        "compileMs": 44669.5,
+        "fullShadowWarmupMs": 53285,
+        "shadowBatches": 48
+      },
+      "sameContextReloadMs": 102982.69999998808,
+      "warmPhases": {
+        "backendMs": 94.19999998807907,
+        "assetsAndCollisionMs": 4510.899999976158,
+        "charactersMs": 247.10000002384186,
+        "compileMs": 44226.69999998808,
+        "fullShadowWarmupMs": 53037.5,
+        "shadowBatches": 48
+      },
+      "resources": [
+        {
+          "name": "http://127.0.0.1:4178/assets/index-Bp4WHLxJ.js",
+          "duration": 27.400000035762787,
+          "transferSize": 295496,
+          "encodedBodySize": 295196,
+          "decodedBodySize": 1061749
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/index-Cj9FlUBs.css",
+          "duration": 5.699999988079071,
+          "transferSize": 2156,
+          "encodedBodySize": 1856,
+          "decodedBodySize": 5179
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/environment.json",
+          "duration": 65.5,
+          "transferSize": 629073,
+          "encodedBodySize": 628773,
+          "decodedBodySize": 8769328
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/environment.bin",
+          "duration": 172.70000004768372,
+          "transferSize": 116050976,
+          "encodedBodySize": 116050676,
+          "decodedBodySize": 116050676
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/travertine.png",
+          "duration": 15.600000023841858,
+          "transferSize": 1463384,
+          "encodedBodySize": 1463084,
+          "decodedBodySize": 1463084
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/paving.png",
+          "duration": 15.099999964237213,
+          "transferSize": 1381940,
+          "encodedBodySize": 1381640,
+          "decodedBodySize": 1381640
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/mediterranean_earth.png",
+          "duration": 25.399999976158142,
+          "transferSize": 3796851,
+          "encodedBodySize": 3796551,
+          "decodedBodySize": 3796551
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/arena_sand_atlas.png",
+          "duration": 49.80000001192093,
+          "transferSize": 19660826,
+          "encodedBodySize": 19660526,
+          "decodedBodySize": 19660526
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/crowd_manifest.json",
+          "duration": 70.90000003576279,
+          "transferSize": 694047,
+          "encodedBodySize": 693747,
+          "decodedBodySize": 5570600
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/animated-merchant.glb",
+          "duration": 11.400000035762787,
+          "transferSize": 880220,
+          "encodedBodySize": 879920,
+          "decodedBodySize": 879920
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/animated-citizen.glb",
+          "duration": 11.100000023841858,
+          "transferSize": 822228,
+          "encodedBodySize": 821928,
+          "decodedBodySize": 821928
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/animated-porter.glb",
+          "duration": 13.100000023841858,
+          "transferSize": 946928,
+          "encodedBodySize": 946628,
+          "decodedBodySize": 946628
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/seated-spectator.glb",
+          "duration": 7.600000023841858,
+          "transferSize": 326268,
+          "encodedBodySize": 325968,
+          "decodedBodySize": 325968
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/guard.glb",
+          "duration": 7.800000011920929,
+          "transferSize": 377176,
+          "encodedBodySize": 376876,
+          "decodedBodySize": 376876
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/citizen-idle-1.glb",
+          "duration": 8.800000011920929,
+          "transferSize": 338080,
+          "encodedBodySize": 337780,
+          "decodedBodySize": 337780
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/citizen-idle-2.glb",
+          "duration": 17.399999976158142,
+          "transferSize": 337772,
+          "encodedBodySize": 337472,
+          "decodedBodySize": 337472
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/citizen-idle-3.glb",
+          "duration": 17.400000035762787,
+          "transferSize": 338304,
+          "encodedBodySize": 338004,
+          "decodedBodySize": 338004
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/citizen-idle-0.glb",
+          "duration": 17.599999964237213,
+          "transferSize": 337896,
+          "encodedBodySize": 337596,
+          "decodedBodySize": 337596
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/citizen.glb",
+          "duration": 18.5,
+          "transferSize": 326172,
+          "encodedBodySize": 325872,
+          "decodedBodySize": 325872
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/gladiator.glb",
+          "duration": 19.099999964237213,
+          "transferSize": 376916,
+          "encodedBodySize": 376616,
+          "decodedBodySize": 376616
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/noble.glb",
+          "duration": 19.399999976158142,
+          "transferSize": 326152,
+          "encodedBodySize": 325852,
+          "decodedBodySize": 325852
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/worker.glb",
+          "duration": 20.899999976158142,
+          "transferSize": 326160,
+          "encodedBodySize": 325860,
+          "decodedBodySize": 325860
+        },
+        {
+          "name": "http://127.0.0.1:4178/assets/characters/merchant.glb",
+          "duration": 20.900000035762787,
+          "transferSize": 326188,
+          "encodedBodySize": 325888,
+          "decodedBodySize": 325888
+        }
+      ],
+      "driverShaderCache": "uncontrolled"
+    },
+    "explanation": "Complete preparation moves pipeline work before exploration. Startup and reload durations are reported as measured, alongside shader work avoided during exploration. The numeric storage count also eliminates repeated TypedArray-to-string conversion in the pinned shader builder. Driver cache state is not controlled.",
+    "coldDifferenceMs": -1658.8999999761581,
+    "rejectedIntermediate": {
+      "coldMs": 341045.7,
+      "instrumentedReloadMs": 354500.3,
+      "evidence": "startup_regression_diagnosis.json",
+      "sha256": "3b7ffc2d1a40096a590d726a40be3adcffd7c00d19fb68ccd908206dda4415a8",
+      "interpretation": "The initial reserved-grid allocation magnified a TypedArray numeric-coercion bug. These are historical diagnostic results, not final release timings."
+    }
+  },
+  "garbageCollection": {
+    "maximumObservedGCEventMs": {
+      "before": 65.562,
+      "after": 66.663
+    },
+    "interpretation": "Events can be nested/concurrent; these maxima are diagnostic, not summed exclusive pause times."
+  },
+  "evidence": {
+    "before": "performance/baseline_final.json",
+    "after": "performance/final.json",
+    "runtime": "runtime_validation.json",
+    "images": "primitive_visual_validation.json",
+    "baselineBuild": "performance/baseline-build-provenance.json"
+  },
+  "remainingLimits": [
+    "The stable clustered-light buffer reserves50.1MB, about40.7MB more than the prior1440x1080 active grid. Oversized grids grow geometrically and may recompile once; superseded standalone storage may remain until renderer teardown.",
+    "The GPU was shared with an active non-test Chrome workload. Background engine utilization is recorded at both arms; small throughput differences may reflect this uncontrolled load.",
+    "The complete scene contains more than 85 million source triangle instances. It remains expensive on the measured GPU; improved stutter does not imply a locked 60 FPS.",
+    "Headless Chromium timings characterize this hardware/backend/viewport. The user’s browser integration and other GPUs were not measured.",
+    "Direct shadows update with every frame and all animated actors continue to update; no stale lighting cache, animation throttling or quality reduction is used."
+  ]
+}

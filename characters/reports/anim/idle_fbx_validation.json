@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "kind": "animation-fbx",
+  "source_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\idle.fbx",
+  "asset_sha256": "6dffe7383dde22fe460693f807a30c34204a0818923232187b83f1400c89e00e",
+  "export_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_export.json",
+  "export_report_sha256": "012ab598fc3bce0297d9f878aeae8e5ce6b82c5b54bdf45dc481b3947abe28f7",
+  "action_name": "Idle",
+  "blender_version": "5.1.2",
+  "details": {
+    "objects": [
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ]
+    ],
+    "action_name_requested": "Idle",
+    "action_name_imported": "CharacterRig|Idle",
+    "frame_range": [
+      1,
+      251
+    ],
+    "fps": 30.0,
+    "bone_count": 49,
+    "pose_matrix_max_delta": 2.771615982055664e-06,
+    "worst_pose_delta": {
+      "frame": 119,
+      "bone": "f_index.03.R",
+      "delta": 2.771615982055664e-06
+    },
+    "raw_texture_contract": {}
+  },
+  "failures": {}
+}

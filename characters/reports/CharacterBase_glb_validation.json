@@ -1,0 +1,690 @@
+{
+  "passed": true,
+  "kind": "tpose-glb",
+  "source_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.glb",
+  "asset_sha256": "6de7a6b0daf004421992a355c4dfffb30266aeeda467814f147f947ea02d7768",
+  "export_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_export.json",
+  "export_report_sha256": "e2a4d0555cf3c0d2ae7027f798053cdd206442b0a11ae88e33638887e3aaf6ac",
+  "action_name": null,
+  "blender_version": "5.1.2",
+  "details": {
+    "objects": [
+      [
+        "BronzeArmor",
+        "MESH"
+      ],
+      [
+        "CharacterBase",
+        "MESH"
+      ],
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ],
+      [
+        "GladiatorSword",
+        "MESH"
+      ],
+      [
+        "GuardShield",
+        "MESH"
+      ],
+      [
+        "GuardSpear",
+        "MESH"
+      ],
+      [
+        "HairCap",
+        "MESH"
+      ],
+      [
+        "LeatherBelt",
+        "MESH"
+      ],
+      [
+        "RomanHelmet",
+        "MESH"
+      ],
+      [
+        "RomanSandals",
+        "MESH"
+      ],
+      [
+        "RomanTunic",
+        "MESH"
+      ]
+    ],
+    "meshes": {
+      "CharacterBase": {
+        "vertices": 6284,
+        "polygons": 3134,
+        "triangles": 3134,
+        "materials": [
+          "CharacterMaterial"
+        ],
+        "material_base_colors": {
+          "CharacterMaterial": [
+            0.47353148460388184,
+            0.22696587443351746,
+            0.11953842639923096,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "CharacterMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [
+            "UVMap"
+          ],
+          "active": "UVMap",
+          "active_render": "UVMap",
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": false,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "CharacterMaterial": 3134
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 4,
+        "maximum_weight_sum_delta": 1.1548399925231934e-07,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "BronzeArmor": {
+        "vertices": 1080,
+        "polygons": 540,
+        "triangles": 540,
+        "materials": [
+          "BronzeArmorMaterial"
+        ],
+        "material_base_colors": {
+          "BronzeArmorMaterial": [
+            0.33716362714767456,
+            0.18782077729701996,
+            0.04817182570695877,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "BronzeArmorMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": true,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "BronzeArmorMaterial": 540
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 4,
+        "maximum_weight_sum_delta": 1.2479722499847412e-07,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "GladiatorSword": {
+        "vertices": 108,
+        "polygons": 60,
+        "triangles": 60,
+        "materials": [
+          "GladiatorSwordMaterial"
+        ],
+        "material_base_colors": {
+          "GladiatorSwordMaterial": [
+            0.3915724754333496,
+            0.3967552185058594,
+            0.33716362714767456,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "GladiatorSwordMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": false,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "GladiatorSwordMaterial": 60
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 1,
+        "maximum_weight_sum_delta": 0.0,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "GuardShield": {
+        "vertices": 48,
+        "polygons": 24,
+        "triangles": 24,
+        "materials": [
+          "GuardShieldMaterial"
+        ],
+        "material_base_colors": {
+          "GuardShieldMaterial": [
+            0.22696587443351746,
+            0.02955683507025242,
+            0.023153366521000862,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "GuardShieldMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": false,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "GuardShieldMaterial": 24
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 1,
+        "maximum_weight_sum_delta": 0.0,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "GuardSpear": {
+        "vertices": 120,
+        "polygons": 72,
+        "triangles": 72,
+        "materials": [
+          "GuardSpearMaterial"
+        ],
+        "material_base_colors": {
+          "GuardSpearMaterial": [
+            0.18116424977779388,
+            0.11697066575288773,
+            0.05780543014407158,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "GuardSpearMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": false,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "GuardSpearMaterial": 72
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 1,
+        "maximum_weight_sum_delta": 0.0,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "HairCap": {
+        "vertices": 480,
+        "polygons": 252,
+        "triangles": 252,
+        "materials": [
+          "HairCapMaterial"
+        ],
+        "material_base_colors": {
+          "HairCapMaterial": [
+            0.03688944876194,
+            0.023153366521000862,
+            0.014443843625485897,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "HairCapMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": true,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "HairCapMaterial": 252
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 1,
+        "maximum_weight_sum_delta": 0.0,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "LeatherBelt": {
+        "vertices": 320,
+        "polygons": 160,
+        "triangles": 160,
+        "materials": [
+          "LeatherBeltMaterial"
+        ],
+        "material_base_colors": {
+          "LeatherBeltMaterial": [
+            0.08650045841932297,
+            0.03688944876194,
+            0.014443843625485897,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "LeatherBeltMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": true,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "LeatherBeltMaterial": 160
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 4,
+        "maximum_weight_sum_delta": 1.1175870895385742e-07,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "RomanHelmet": {
+        "vertices": 480,
+        "polygons": 252,
+        "triangles": 252,
+        "materials": [
+          "RomanHelmetMaterial"
+        ],
+        "material_base_colors": {
+          "RomanHelmetMaterial": [
+            0.3613067865371704,
+            0.2541520893573761,
+            0.08437620848417282,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "RomanHelmetMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": true,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "RomanHelmetMaterial": 252
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 1,
+        "maximum_weight_sum_delta": 0.0,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "RomanSandals": {
+        "vertices": 704,
+        "polygons": 352,
+        "triangles": 352,
+        "materials": [
+          "RomanSandalsMaterial"
+        ],
+        "material_base_colors": {
+          "RomanSandalsMaterial": [
+            0.09305896610021591,
+            0.05126945674419403,
+            0.023153366521000862,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "RomanSandalsMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": true,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "RomanSandalsMaterial": 352
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 3,
+        "maximum_weight_sum_delta": 5.3551048040390015e-08,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      },
+      "RomanTunic": {
+        "vertices": 2208,
+        "polygons": 1104,
+        "triangles": 1104,
+        "materials": [
+          "RomanTunicMaterial"
+        ],
+        "material_base_colors": {
+          "RomanTunicMaterial": [
+            0.577580451965332,
+            0.4793201684951782,
+            0.26635560393333435,
+            1.0
+          ]
+        },
+        "material_texture_contracts": {
+          "RomanTunicMaterial": {
+            "uses_textures": false,
+            "roles": {
+              "base_color": [],
+              "metallic_roughness": [],
+              "normal": [],
+              "occlusion": [],
+              "emission": [],
+              "alpha": []
+            },
+            "images": {},
+            "errors": []
+          }
+        },
+        "uv_contract": {
+          "required": false,
+          "layers": [],
+          "active": null,
+          "active_render": null,
+          "textured_polygons": 0,
+          "textured_triangles": 0,
+          "finite": true,
+          "inside_unit_square": true,
+          "bounds": null,
+          "degenerate_textured_triangles": [],
+          "generated_rim_degenerate_allowed": true,
+          "errors": []
+        },
+        "material_triangle_counts": {
+          "RomanTunicMaterial": 1104
+        },
+        "invalid_material_triangles": {
+          "total": 0,
+          "by_reason": {},
+          "by_material_index": {},
+          "samples": []
+        },
+        "maximum_influences": 4,
+        "maximum_weight_sum_delta": 1.2665987014770508e-07,
+        "non_normalized_vertices": [],
+        "unweighted_vertices": [],
+        "degenerate_faces": [],
+        "coordinates_finite": true,
+        "armature_target": "CharacterRig"
+      }
+    },
+    "bone_count": 49,
+    "rest_head_max_delta": 4.172325134277344e-07,
+    "rest_tail_max_delta": 0.2404766082763672,
+    "bone_deform_flag_mismatches": [
+      "IkTarget.L",
+      "IkTarget.R"
+    ],
+    "raw_texture_contract": {
+      "materials": {},
+      "meshes": {},
+      "embedded_image_count": 0,
+      "image_count": 0,
+      "texture_count": 0,
+      "extensions_used": []
+    }
+  },
+  "failures": {}
+}

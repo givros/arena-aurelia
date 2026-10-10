@@ -1,0 +1,301 @@
+{
+  "status": "ok",
+  "working_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "working_blend_sha256_before": "542BDF991989A8D1A2D080B6B4862530C3498BB701E848073691B98379FD94F9",
+  "working_blend_sha256_after": "7894103626C325B2CAE3084DA589E7618D1C3DC08204C500C4A8A668334CF7FD",
+  "action": "update",
+  "garment_id": "roman_tunic",
+  "revision_before": 1,
+  "revision_after": 2,
+  "updated_in_place": true,
+  "builder": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\scripts\\character_garment_builder.py",
+  "builder_sha256": "48F9D850DB6E5BE8674800EF9ACC4CCB646CCAE0C71791163D473024EFFE86F8",
+  "spec": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\specs\\roman_tunic.json",
+  "spec_sha256": "4A1FAD288C4F2173DDE8BFA942670211A44D592ACF0B6E4670D9DBA25367156C",
+  "spec_contract": {
+    "status": "ok",
+    "schema": "C:\\Users\\limou\\.codex\\skills\\blender-lowpoly-character\\references\\garment-spec.schema.json",
+    "schema_sha256": "63E068DB83F81DBBA5313383E6DA5B46351CAAB2FC4E17BFA2A1872C84F0EC4D",
+    "object_name": "RomanTunic",
+    "construction_strategy": "cross_section",
+    "visibility_property": "show_roman_tunic",
+    "checked_assets": [
+      {
+        "copied_path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\references\\arena-primary.png",
+        "expected_sha256": "F5F3E63ECD19205FDA0D3366D3F1B9CFB3A7201876194BCFDA2F014797820AC1",
+        "actual_sha256": "F5F3E63ECD19205FDA0D3366D3F1B9CFB3A7201876194BCFDA2F014797820AC1"
+      }
+    ]
+  },
+  "garment_spec": {
+    "garment_id": "roman_tunic",
+    "object_name": "RomanTunic",
+    "mesh_name": "RomanTunicMesh",
+    "garment_type": "Loose short sleeved Roman tunic with a knee-length flared hem",
+    "garment_slot": "roman_tunic",
+    "construction_strategy": "cross_section",
+    "reference_images": [
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\references\\arena-primary.png"
+    ],
+    "reference_assets": [
+      {
+        "original_path": "C:\\Users\\limou\\AppData\\Local\\Temp\\codex-clipboard-618db799-bf8a-4459-92d1-01ea1dde98ce.png",
+        "copied_path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\references\\arena-primary.png",
+        "sha256": "F5F3E63ECD19205FDA0D3366D3F1B9CFB3A7201876194BCFDA2F014797820AC1"
+      }
+    ],
+    "image_interpretation": {
+      "primary_view": "elevated arena district",
+      "available_views": [
+        "aerial oblique"
+      ],
+      "body_coverage": [
+        "Loose short sleeved Roman tunic with a knee-length flared hem"
+      ],
+      "start_landmarks": [
+        "body fitted local anatomical coordinates"
+      ],
+      "end_landmarks": [
+        "role appropriate silhouette"
+      ],
+      "fit": "loose",
+      "silhouette_by_view": {
+        "front": "Loose short sleeved Roman tunic with a knee-length flared hem",
+        "back": "Plain symmetric continuation"
+      },
+      "openings": [
+        "neck, sleeve and hem openings"
+      ],
+      "visible_details": [
+        "Earth coloured clothing, bronze/red guard group, crowd diversity"
+      ],
+      "symmetry": "symmetric",
+      "colors": [
+        "#C8B88D"
+      ],
+      "material_appearance": "Matte stylized low polygon materials",
+      "direct_under": "CharacterBase",
+      "direct_above": "None",
+      "visible_evidence": [
+        "Reference shows dense spectators, red and bronze guards and warm neutral citizens; user explicitly requests role clothing and accessories"
+      ],
+      "assumptions": [
+        "Character-scale seam and fastening details cannot be resolved in the aerial reference; use plain garments and explicitly requested role accessories."
+      ],
+      "confidence": "medium"
+    },
+    "material": {
+      "name": "RomanTunicMaterial",
+      "color": "#C8B88D",
+      "roughness": 0.83,
+      "metallic": 0
+    },
+    "visibility_property": "show_roman_tunic",
+    "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+    "max_influences": 4,
+    "open_surface": true,
+    "thickness": 0.002,
+    "builder_script": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\scripts\\character_garment_builder.py",
+    "geometry_method": "Deterministic body-derived surface shell and measured cross-section or rigid accessory geometry"
+  },
+  "object": "RomanTunic",
+  "mesh": "RomanTunicMesh",
+  "vertices": 274,
+  "faces": 252,
+  "weight_transfer": {
+    "method": "Blender Data Transfer POLYINTERP_NEAREST",
+    "maximum_influences": 8,
+    "unweighted_vertices": []
+  },
+  "modifiers": [
+    [
+      "Garment Thickness",
+      "SOLIDIFY"
+    ],
+    [
+      "Armature",
+      "ARMATURE"
+    ]
+  ],
+  "visibility_property": "CharacterRig[\"show_roman_tunic\"]",
+  "visibility_value_after": true,
+  "exact_character_contract_before": {
+    "mesh_signature": "E9BA39BFE5446C997403367F3A31B46F8D63332FF6868FAD5C2DD76E858B22C1",
+    "uv_signature": "B10303DB81DAB9CFE83EC9B73A7687E3058E5BCC47E92784D1EC839939E6F596",
+    "weight_signature": "C9C79CFB57491D8648036084D3C2957A8AD08AB79A5E64B718BE7D8FBEAE1790",
+    "rig_signature": "3F8A6A796F956DC8B058FB6BFD9A5813B62ECE2B6807D6C93B6E0FDB808A3E64",
+    "transform_signature": "8654EF34F3003EF139CD205230E778ED1F5A6B14B80937D8FE35FBADBA5D8DD2",
+    "vertices": 1596,
+    "edges": 3169,
+    "faces": 1588,
+    "loops": 6310,
+    "triangles": 3134,
+    "uv_layers": 1,
+    "vertex_groups": 47,
+    "bones": 49,
+    "constraints": 7,
+    "mesh_parent": "CharacterRig",
+    "object_names": [
+      "CharacterBase",
+      "CharacterRig"
+    ],
+    "mesh_data_name": "CharacterMesh",
+    "armature_data_name": "CharacterSkeleton",
+    "shape_keys": null,
+    "materials": [
+      "CharacterMaterial"
+    ],
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE",
+        "CharacterRig"
+      ]
+    ],
+    "armature_modifiers": [
+      [
+        "Armature",
+        "CharacterRig"
+      ]
+    ]
+  },
+  "exact_character_contract_after": {
+    "mesh_signature": "E9BA39BFE5446C997403367F3A31B46F8D63332FF6868FAD5C2DD76E858B22C1",
+    "uv_signature": "B10303DB81DAB9CFE83EC9B73A7687E3058E5BCC47E92784D1EC839939E6F596",
+    "weight_signature": "C9C79CFB57491D8648036084D3C2957A8AD08AB79A5E64B718BE7D8FBEAE1790",
+    "rig_signature": "3F8A6A796F956DC8B058FB6BFD9A5813B62ECE2B6807D6C93B6E0FDB808A3E64",
+    "transform_signature": "8654EF34F3003EF139CD205230E778ED1F5A6B14B80937D8FE35FBADBA5D8DD2",
+    "vertices": 1596,
+    "edges": 3169,
+    "faces": 1588,
+    "loops": 6310,
+    "triangles": 3134,
+    "uv_layers": 1,
+    "vertex_groups": 47,
+    "bones": 49,
+    "constraints": 7,
+    "mesh_parent": "CharacterRig",
+    "object_names": [
+      "CharacterBase",
+      "CharacterRig"
+    ],
+    "mesh_data_name": "CharacterMesh",
+    "armature_data_name": "CharacterSkeleton",
+    "shape_keys": null,
+    "materials": [
+      "CharacterMaterial"
+    ],
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE",
+        "CharacterRig"
+      ]
+    ],
+    "armature_modifiers": [
+      [
+        "Armature",
+        "CharacterRig"
+      ]
+    ]
+  },
+  "managed_garments": [
+    {
+      "object": "BronzeArmor",
+      "mesh": "BronzeArmorMesh",
+      "garment_id": "bronze_armor",
+      "revision": 2,
+      "garment_type": "Bronze torso cuirass for explicitly requested guards and gladiators",
+      "garment_slot": "bronze_armor",
+      "visibility_property": "show_bronze_armor",
+      "visible": true
+    },
+    {
+      "object": "GladiatorSword",
+      "mesh": "GladiatorSwordMesh",
+      "garment_id": "gladiator_sword",
+      "revision": 2,
+      "garment_type": "Short gladiator sword",
+      "garment_slot": "gladiator_sword",
+      "visibility_property": "show_gladiator_sword",
+      "visible": true
+    },
+    {
+      "object": "GuardShield",
+      "mesh": "GuardShieldMesh",
+      "garment_id": "guard_shield",
+      "revision": 2,
+      "garment_type": "Deep red rectangular curved scutum",
+      "garment_slot": "guard_shield",
+      "visibility_property": "show_guard_shield",
+      "visible": true
+    },
+    {
+      "object": "GuardSpear",
+      "mesh": "GuardSpearMesh",
+      "garment_id": "guard_spear",
+      "revision": 2,
+      "garment_type": "Long spear carried by a guard",
+      "garment_slot": "guard_spear",
+      "visibility_property": "show_guard_spear",
+      "visible": true
+    },
+    {
+      "object": "HairCap",
+      "mesh": "HairCapMesh",
+      "garment_id": "hair_cap",
+      "revision": 2,
+      "garment_type": "Simple close cropped dark hair",
+      "garment_slot": "hair_cap",
+      "visibility_property": "show_hair_cap",
+      "visible": true
+    },
+    {
+      "object": "LeatherBelt",
+      "mesh": "LeatherBeltMesh",
+      "garment_id": "leather_belt",
+      "revision": 2,
+      "garment_type": "Plain leather waist belt",
+      "garment_slot": "leather_belt",
+      "visibility_property": "show_leather_belt",
+      "visible": true
+    },
+    {
+      "object": "RomanHelmet",
+      "mesh": "RomanHelmetMesh",
+      "garment_id": "roman_helmet",
+      "revision": 2,
+      "garment_type": "Open-faced bronze helmet",
+      "garment_slot": "roman_helmet",
+      "visibility_property": "show_roman_helmet",
+      "visible": true
+    },
+    {
+      "object": "RomanSandals",
+      "mesh": "RomanSandalsMesh",
+      "garment_id": "roman_sandals",
+      "revision": 2,
+      "garment_type": "Simple leather foot covering",
+      "garment_slot": "roman_sandals",
+      "visibility_property": "show_roman_sandals",
+      "visible": true
+    },
+    {
+      "object": "RomanTunic",
+      "mesh": "RomanTunicMesh",
+      "garment_id": "roman_tunic",
+      "revision": 2,
+      "garment_type": "Loose short sleeved Roman tunic with a knee-length flared hem",
+      "garment_slot": "roman_tunic",
+      "visibility_property": "show_roman_tunic",
+      "visible": true
+    }
+  ],
+  "save": {
+    "working_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+    "sha256": "7894103626C325B2CAE3084DA589E7618D1C3DC08204C500C4A8A668334CF7FD",
+    "pending_removed": true,
+    "updated_in_place": true
+  },
+  "external_3d_services": []
+}

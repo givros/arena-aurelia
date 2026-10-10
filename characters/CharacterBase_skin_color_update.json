@@ -1,0 +1,61 @@
+{
+  "base_color_after": [
+    0.47353149614800955,
+    0.22696587351009836,
+    0.11953842798834562,
+    1.0
+  ],
+  "base_color_before": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+  ],
+  "diffuse_color_after": [
+    0.47353149614800955,
+    0.22696587351009836,
+    0.11953842798834562,
+    1.0
+  ],
+  "diffuse_color_before": [
+    0.800000011920929,
+    0.800000011920929,
+    0.800000011920929,
+    1.0
+  ],
+  "input": {
+    "hex_srgb": "#B78361",
+    "linear": [
+      0.47353149614800955,
+      0.22696587351009836,
+      0.11953842798834562
+    ],
+    "srgb": [
+      0.7176470588235294,
+      0.5137254901960784,
+      0.3803921568627451
+    ]
+  },
+  "material": "CharacterMaterial",
+  "metadata_after": {
+    "codex_managed_skin": true,
+    "codex_skin_color_srgb": "#B78361",
+    "codex_skin_revision": 1
+  },
+  "metadata_before": {
+    "codex_managed_skin": true,
+    "codex_skin_color_srgb": "#E7E7E7",
+    "codex_skin_revision": 0
+  },
+  "no_op": false,
+  "passed": true,
+  "principled_node": "Principled BSDF",
+  "removed_base_color_link_count": 0,
+  "removed_base_color_links": [],
+  "saved_in_place": true,
+  "schema": "codex.blender.skin-color-update/v1",
+  "source_nodes_preserved": true,
+  "working_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "working_blend_sha256_after": "B3C7C59930EF869EB21FDBC3B7DCCE2E8DC8525BCE1CA26963786C2DB16F7733",
+  "working_blend_sha256_before": "04524F258AB5E1002CB168380438CCD5F4374D7FF46B4632F16685E4DDAE1271"
+}

@@ -1,0 +1,162 @@
+{
+  "status": "passed",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "moduleSHA256": "b10604716cce00f2b100a059faa2d214afe4e0d40225ea9a433db3c736ce5efe",
+  "pixelUnits": "8-bit RGB",
+  "scope": "17 paired original/stable native-resolution WebGPU captures with all53lights,4MSAA,4096PCFshadows and actual day/night/camera/resize through4K.",
+  "results": [
+    {
+      "id": "0_800_600_above_day",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "b6eb33eb7d495558093398b627708b345609996f3877e9a599546c40d869e334",
+      "stableSHA256": "b6eb33eb7d495558093398b627708b345609996f3877e9a599546c40d869e334"
+    },
+    {
+      "id": "10_1600_1000_ground_day",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "29f72feccf4e8fd12882f4fcaeed2f346658eefe2eb7c156f029d3b0e592ced0",
+      "stableSHA256": "29f72feccf4e8fd12882f4fcaeed2f346658eefe2eb7c156f029d3b0e592ced0"
+    },
+    {
+      "id": "11_1600_1000_ground_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "3ae234942e5c743d0eee7d110da2d9a17b114ae9352cc80da25531419a2fe328",
+      "stableSHA256": "3ae234942e5c743d0eee7d110da2d9a17b114ae9352cc80da25531419a2fe328"
+    },
+    {
+      "id": "12_1440_1080_above_day",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "75dd2975c7f6020c1ac007e211020d0604136fdf304a2bd75b0338812dc82139",
+      "stableSHA256": "75dd2975c7f6020c1ac007e211020d0604136fdf304a2bd75b0338812dc82139"
+    },
+    {
+      "id": "13_1440_1080_above_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "fbb298b10ff43efb3908e6bd8e9a1865510ce044aafe477706a42ebadf19db58",
+      "stableSHA256": "fbb298b10ff43efb3908e6bd8e9a1865510ce044aafe477706a42ebadf19db58"
+    },
+    {
+      "id": "14_1440_1080_ground_day",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "382e09b3b5623937754e932341f8c39191b7d63d6dbc1314ed06636f0dff4c0e",
+      "stableSHA256": "382e09b3b5623937754e932341f8c39191b7d63d6dbc1314ed06636f0dff4c0e"
+    },
+    {
+      "id": "15_1440_1080_ground_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "145bc0b3c2d73c8b3333d0d45158d15b464a6d3b5d221dd8d29a6eae9121c8b4",
+      "stableSHA256": "145bc0b3c2d73c8b3333d0d45158d15b464a6d3b5d221dd8d29a6eae9121c8b4"
+    },
+    {
+      "id": "16_3840_2160_above_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "96760a08e2db5ef70c67feaef1c291dc7ebf4f43ec8c806d16dd2a87ab420a3b",
+      "stableSHA256": "96760a08e2db5ef70c67feaef1c291dc7ebf4f43ec8c806d16dd2a87ab420a3b"
+    },
+    {
+      "id": "1_800_600_above_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "3aaf56b1bb4510c060df6dcacb7de853deb93c011ed5f943f43c05ada1a4b209",
+      "stableSHA256": "3aaf56b1bb4510c060df6dcacb7de853deb93c011ed5f943f43c05ada1a4b209"
+    },
+    {
+      "id": "2_800_600_ground_day",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "e90b4a5c769f978eb297905a85207dd8f50601eb9e591b71b28a0fdf5121dde2",
+      "stableSHA256": "e90b4a5c769f978eb297905a85207dd8f50601eb9e591b71b28a0fdf5121dde2"
+    },
+    {
+      "id": "3_800_600_ground_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "9590e34cb9d0b1b456d78be0e249f3c1b317190de45d5188f01bb0b46a2b3e29",
+      "stableSHA256": "9590e34cb9d0b1b456d78be0e249f3c1b317190de45d5188f01bb0b46a2b3e29"
+    },
+    {
+      "id": "4_1440_1080_above_day",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "75dd2975c7f6020c1ac007e211020d0604136fdf304a2bd75b0338812dc82139",
+      "stableSHA256": "75dd2975c7f6020c1ac007e211020d0604136fdf304a2bd75b0338812dc82139"
+    },
+    {
+      "id": "5_1440_1080_above_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "fbb298b10ff43efb3908e6bd8e9a1865510ce044aafe477706a42ebadf19db58",
+      "stableSHA256": "fbb298b10ff43efb3908e6bd8e9a1865510ce044aafe477706a42ebadf19db58"
+    },
+    {
+      "id": "6_1440_1080_ground_day",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "382e09b3b5623937754e932341f8c39191b7d63d6dbc1314ed06636f0dff4c0e",
+      "stableSHA256": "382e09b3b5623937754e932341f8c39191b7d63d6dbc1314ed06636f0dff4c0e"
+    },
+    {
+      "id": "7_1440_1080_ground_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "145bc0b3c2d73c8b3333d0d45158d15b464a6d3b5d221dd8d29a6eae9121c8b4",
+      "stableSHA256": "145bc0b3c2d73c8b3333d0d45158d15b464a6d3b5d221dd8d29a6eae9121c8b4"
+    },
+    {
+      "id": "8_1600_1000_above_day",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "c5f07f2d7635a88b1caa59b6baa849d237f959ef7e7bc77ef817bd5079e0a208",
+      "stableSHA256": "c5f07f2d7635a88b1caa59b6baa849d237f959ef7e7bc77ef817bd5079e0a208"
+    },
+    {
+      "id": "9_1600_1000_above_night",
+      "status": "passed",
+      "meanRGBError": 0.0,
+      "maxChannelError": 0,
+      "pixelsOver1": 0,
+      "originalSHA256": "9627a19c011546bb80917d80ab66fbeb87dbd9375a053404f3ae83fbb4736932",
+      "stableSHA256": "9627a19c011546bb80917d80ab66fbeb87dbd9375a053404f3ae83fbb4736932"
+    }
+  ]
+}

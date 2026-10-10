@@ -1,0 +1,11 @@
+{
+  "camera": "street_district_west_quay",
+  "foot": [
+    -255,
+    102.17,
+    -0.035
+  ],
+  "minimumSourceAndAddedProjectionDistance": 7.329688275716486,
+  "route": "DistrictQuarter_western_quay",
+  "layout_sha256": "a58481acb3621e1609065f8ec95e706439213e97e5c7766cee21de671e0ee6a5"
+}

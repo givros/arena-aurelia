@@ -1,0 +1,73 @@
+{
+  "after_blend_sha256": "60F5FF56A962C3AFFBC64ECDA3494D5B20230F63AF9ACB1A568B5AD64AA8CC16",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_roman_helmet_after.json",
+  "after_semantic_digest": "837BAA0F01EA77CB367519556CCB4B7F428594DA83CB8B0E8282BE8BDED2C30A",
+  "allowed_scopes": [
+    "garment:roman_helmet"
+  ],
+  "before_blend_sha256": "531269D3310F347B7D4D690E5440B10DA3A546E3B98AC56DD0607B87FA702F68",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_roman_helmet_before.json",
+  "before_semantic_digest": "66E9A935EFC3B14A5B21877D9B872C901F714534E132E85081A532428C105B2A",
+  "changed_scopes": [
+    "garment:roman_helmet"
+  ],
+  "changes": [
+    {
+      "after": "8B7171027988790F0D32914C8376CCAD411D3C7083016B1B944ABB56ACA95CFB",
+      "allowed": true,
+      "before": "D2423BBBB0B41117C54ECBFF1AA9FCE934552A515A12933AC4FF0C5826BFBAFF",
+      "change": "modified",
+      "members": [
+        {
+          "after": "1DA5977DFF863D1F27CC9778C3F9E820DC8C2671E6A987058821DD11DAD287F8",
+          "before": "9EB342400B4AAEE57CFA997201E3A9C9DFBCA9B2DACC8343BA5FC5DB900E48A4",
+          "change": "modified",
+          "member": "object:RomanHelmet:geometry"
+        },
+        {
+          "after": "B2E81539328B874BB7B6D0EE80714D93E0EAB5A428C0C8C9D7773CBEFBF2C3D4",
+          "before": "788446B92AD85E2C67D268A3CB1209B252F4FE99AFC059566D69652CF5AA66DF",
+          "change": "modified",
+          "member": "object:RomanHelmet:metadata"
+        },
+        {
+          "after": "F638E1B73A2D9656438FFDF77987301E61FE1817BC1FAED40238143171B23420",
+          "before": "8381374059FF9F3E6C2BD9EA2E1B89966E4F348BA24E3452432B9A91062AED65",
+          "change": "modified",
+          "member": "object:RomanHelmet:transform_and_parent"
+        },
+        {
+          "after": "AFF3A4B0DA7F46575EB249FC61C31EC9E5E550209053141822DA3CB0C47A4623",
+          "before": "12DB9274BA85A0EE989FB5B7D5074751A500EDB0AC3205ECE583C6B2FD63B9CD",
+          "change": "modified",
+          "member": "object:RomanHelmet:uv_and_attributes"
+        },
+        {
+          "after": "203BABD4CCEA7A292BBA7C0769B594E7832658618542F39E895A771E6D131304",
+          "before": "C206B3774117157331C3716B17DC96B928F188D091C1198F95950F1A32F975A4",
+          "change": "modified",
+          "member": "object:RomanHelmet:weights"
+        }
+      ],
+      "scope": "garment:roman_helmet"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "animations",
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:gladiator_sword",
+    "garment:guard_shield",
+    "garment:guard_spear",
+    "garment:hair_cap",
+    "garment:leather_belt",
+    "garment:roman_sandals",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "violations": []
+}

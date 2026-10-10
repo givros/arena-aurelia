@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\animated-citizen.glb",
+  "sha256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+  "normalizationParent": "CanonicalHumanScale",
+  "scale": 1.7118713409650586,
+  "binaryMeshSkinAnimationPayloadUnchanged": true,
+  "binaryChunkSHA256": "b904322e655e9aee98e2ce62272847e2050896abd3c3319775f855b7ecc05cc6",
+  "animationChannelDataUnchanged": true,
+  "reason": "Rig-root scale tracks override object scale; the unanimated parent keeps all clips at human scale"
+}

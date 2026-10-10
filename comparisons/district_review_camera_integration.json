@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "previousSourceSHA256": "3a82b97b8e0ddab16cae6be46c661bf91d52eb4f657b61e7c9ada5f6a03ffaa8",
+  "sourceSHA256": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+  "protectedNonCameraObjects": 38300,
+  "changedNonCameraObjects": [],
+  "cameraAuthority": "district_review_views.json",
+  "cameraAuthoritySHA256": "7523777a6f3d99dd0cbe5d5084dd149008413a3475bfc83b4263b2d1f81f7c83",
+  "changedCameras": [
+    "street_district_rear_precinct",
+    "street_district_temple_civic",
+    "street_district_east_quay",
+    "street_district_west_quay",
+    "street_district_eastern_trades",
+    "street_district_eastern_backstreets",
+    "street_district_aqueduct_ward",
+    "street_district_north_insulae",
+    "street_district_upper_city",
+    "street_district_south_residential"
+  ],
+  "reason": "Review views follow active lanes instead of looking directly into shaded shop entrances."
+}

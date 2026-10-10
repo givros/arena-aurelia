@@ -1,0 +1,10 @@
+{
+  "name": "lightIndexes",
+  "type": "storageBuffer",
+  "nodeType": "ivec4",
+  "bufferCountType": "Int32Array",
+  "bufferCountScalarLength": 12533760,
+  "compressedRaw": "performance/startup_uniform_observation.json.gz",
+  "rawSHA256": "880d72dd322a21b971eb33135ef5d69fed69937560011ed9e7237f74430a3cd6",
+  "rawBytes": 402509393
+}

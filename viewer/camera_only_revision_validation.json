@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-10T16:43:16.393Z",
+  "testedSourceHash": "3a82b97b8e0ddab16cae6be46c661bf91d52eb4f657b61e7c9ada5f6a03ffaa8",
+  "finalSourceHash": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+  "binarySHA256": "26ba62696a823cb72ee52edee4537b2c6ea8727861e0ddbc392ceb8c9bf4c2cc",
+  "characterManifestSHA256": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0",
+  "oldManifestSHA256": "a741279e8470e203e1a28468a8e9d77529e8377f3359099bc05e5173cd109eec",
+  "finalManifestSHA256": "f6675bfb4752732492dc925c7dc15ab6b68fa7a2281d694ce035d624e9e9beda",
+  "allowedChanges": [
+    "sourceHash",
+    "cameras",
+    "reviewed destination positions/look targets",
+    "review camera authority metadata"
+  ],
+  "changedCameras": [
+    "street_district_rear_precinct",
+    "street_district_temple_civic",
+    "street_district_east_quay",
+    "street_district_eastern_trades",
+    "street_district_eastern_backstreets",
+    "street_district_aqueduct_ward",
+    "street_district_north_insulae",
+    "street_district_upper_city",
+    "street_district_south_residential",
+    "street_district_west_quay"
+  ],
+  "reviewedDestinations": [
+    "street_district_rear_precinct",
+    "street_district_temple_civic",
+    "street_district_east_quay",
+    "street_district_west_quay",
+    "street_district_eastern_trades",
+    "street_district_eastern_backstreets",
+    "street_district_aqueduct_ward",
+    "street_district_north_insulae",
+    "street_district_upper_city",
+    "street_district_south_residential"
+  ],
+  "unchanged": "Binary geometry, materials, textures, instances, collision, routes, bounds, lighting, population, character assets and all layout authorities."
+}

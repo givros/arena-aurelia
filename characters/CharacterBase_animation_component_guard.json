@@ -1,0 +1,73 @@
+{
+  "after_blend_sha256": "3AF7AE6D2DAC7FA45FC26D1A9AAF68BDFD9488C420A6535A5B06DC6F4A868EAD",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_components_after.json",
+  "after_semantic_digest": "6B9CF2B11CF3AC250E1918307AA17FE17E867FEACC695B8BB813169FC194971B",
+  "allowed_scopes": [
+    "animations"
+  ],
+  "before_blend_sha256": "CF504BB0EC05F706619C4031B5E2E602F649465D7CC6D067D62AAC3C6DA9EEE1",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_components_before.json",
+  "before_semantic_digest": "8472D40EF443FFEA03E02F160D1623774C76E8A6476E029C60530F2B7A4FB644",
+  "changed_scopes": [
+    "animations"
+  ],
+  "changes": [
+    {
+      "after": "D2357AC6D0EF6CCA424CF11BE51DE50E0D9D05DFC1A433F56813403E6D15C835",
+      "allowed": true,
+      "before": "4F47DBBB04B06CFDC6C60F20C3F4F6BCBC64AED6F5C706FB387BF14C0BC33DAA",
+      "change": "modified",
+      "members": [
+        {
+          "after": "2D0C7AE820DC79680F98885B63216F11960C0E70E75CB9FA98EC37B7424FD473",
+          "before": "ED25FCDD94889C7E6B98BB8013CF018D95F48E871B126BC5EBCBA193504FFA2C",
+          "change": "modified",
+          "member": "action:Idle"
+        },
+        {
+          "after": "0AC6A525697F1CEB042EA9867F44E05E9F04CFC32EC70817D414022D9B416079",
+          "before": "80D84702FAFC214A6E99169CAB3C09C5E701CAC5030D6D6632673044161288D4",
+          "change": "modified",
+          "member": "action:Jump"
+        },
+        {
+          "after": "B030B4307E63B4C350774D91372CF25F4349663D7A4FDB6E83079F08202EF165",
+          "before": "60AD9CC31D700CB781EFDD45A3F1DC14F3D5AB1B30CDDCC8858A1D1646750B17",
+          "change": "modified",
+          "member": "action:Run"
+        },
+        {
+          "after": "94748725996AAC893790056BD5202483487E5018DCCD3E2DB9B30BEB13B0D2C8",
+          "before": "4D69D46D81D238CA506300E0D0B99B2E4F890BCB35C48AC8BD60AEB59E919745",
+          "change": "modified",
+          "member": "action:Walk"
+        },
+        {
+          "after": "10B15AC0563F5EDFB06B4995896EB439B5B803A1A47DC3D2B9C484F8692A86AA",
+          "before": "0C1E3FEEFC2FD69E701AF779E24FF0B5F9E15F0D86C7B788298652B1B88307AF",
+          "change": "modified",
+          "member": "library_metadata"
+        }
+      ],
+      "scope": "animations"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:gladiator_sword",
+    "garment:guard_shield",
+    "garment:guard_spear",
+    "garment:hair_cap",
+    "garment:leather_belt",
+    "garment:roman_helmet",
+    "garment:roman_sandals",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "violations": []
+}

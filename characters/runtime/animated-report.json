@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\animated-citizen.glb",
+  "clips": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "scale": 1.7118713409650586,
+  "source_unchanged": true
+}

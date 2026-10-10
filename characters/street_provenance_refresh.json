@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "sourceUnchanged": true,
+  "sourceSHA256": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+  "beforeLayoutSHA256": "12e0f77c4fa734265dece8cc25f58da54b344c6bd1b9da8e1d9bef818f9022dd",
+  "currentLayoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+  "beforeManifestSHA256": "8aa81a3dd81a84316283087b1028ef23df64f47ff32444ee9ceb473b759e9046",
+  "currentManifestSHA256": "ec30a70b792191a41ca949f47d8f0acaba4f06d133d956a8117497809ad5742b",
+  "geometryAndAllPlacementsAndMotionUnchanged": true,
+  "updatedReports": [
+    "street_life_population_validation.json",
+    "street_entry_crowd_validation.json",
+    "street_empty_variant_repair.json",
+    "street_life_plan.json",
+    "population-source-qc.json",
+    "standing-ground-qc.json",
+    "street_activity_qc.json"
+  ]
+}

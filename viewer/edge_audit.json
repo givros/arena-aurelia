@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-10-10T15:16:00.662Z",
+  "sourceHash": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+  "bounds": {
+    "min": [
+      -315,
+      -435
+    ],
+    "max": [
+      355,
+      235
+    ]
+  },
+  "scope": "Exact production triangle collision, CPU only. Upward-facing support sampled every 5m at the controller boundary, from 2m down to −7m. Roofs above 2m are intentionally excluded.",
+  "edgeSamples": 536,
+  "missingCount": 14,
+  "missing": [
+    {
+      "edge": "north",
+      "x": -194.68,
+      "z": -434.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "north",
+      "x": -189.68,
+      "z": -434.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "north",
+      "x": -184.68,
+      "z": -434.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "north",
+      "x": -179.68,
+      "z": -434.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "north",
+      "x": -174.68,
+      "z": -434.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "north",
+      "x": -169.68,
+      "z": -434.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "north",
+      "x": -164.68,
+      "z": -434.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "south",
+      "x": -194.68,
+      "z": 234.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "south",
+      "x": -189.68,
+      "z": 234.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "south",
+      "x": -184.68,
+      "z": 234.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "south",
+      "x": -179.68,
+      "z": 234.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "south",
+      "x": -174.68,
+      "z": 234.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "south",
+      "x": -169.68,
+      "z": 234.68,
+      "support": null,
+      "height": null
+    },
+    {
+      "edge": "south",
+      "x": -164.68,
+      "z": 234.68,
+      "support": null,
+      "height": null
+    }
+  ],
+  "heights": [
+    -0.035,
+    0.2,
+    0.039
+  ],
+  "supports": [
+    "District_ground/ground",
+    "River_quay_walls/stone",
+    null,
+    "District_routes/road"
+  ]
+}

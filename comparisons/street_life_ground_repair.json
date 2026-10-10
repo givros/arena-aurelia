@@ -1,0 +1,6 @@
+{
+  "object": "District_ground/ground",
+  "downwardFacesReversed": 82,
+  "positionsAndTopologyCountsPreserved": true,
+  "reason": "Actual city ground was present but its one-sided floor normals faced down; strict upward support tests retained."
+}

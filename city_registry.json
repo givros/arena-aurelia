@@ -1,0 +1,4267 @@
+{
+  "building_count": 159,
+  "tree_count": 180,
+  "temple": {
+    "center": [
+      10,
+      166
+    ],
+    "footprint": [
+      56,
+      45
+    ],
+    "height": 39.6,
+    "portico_walkable": true,
+    "stair_start": [
+      10,
+      112.2,
+      0
+    ],
+    "stair_end": [
+      10,
+      145.8,
+      12.0
+    ],
+    "stair_rise": 0.25,
+    "stair_run": 0.65,
+    "upper_stair_run": 0.8,
+    "raised_precinct": 8
+  },
+  "bridge": {
+    "center": [
+      -180,
+      105
+    ],
+    "deck_z": 6.05,
+    "width": 13,
+    "length": 65,
+    "open_arches": 3,
+    "approach_ramps": [
+      [
+        -232.5,
+        -212.5
+      ],
+      [
+        -147.5,
+        -127.5
+      ]
+    ],
+    "approach_run": 20,
+    "approach_rise": 6.05
+  },
+  "aqueduct": {
+    "y": 170,
+    "x_range": [
+      66,
+      338
+    ],
+    "height": 37.18,
+    "open_arches": 16
+  },
+  "civic_landmarks": [
+    {
+      "id": "Basilica_Aemilia",
+      "center": [
+        -86,
+        169
+      ],
+      "footprint": [
+        61.2,
+        21.2
+      ],
+      "height": 19.9
+    },
+    {
+      "id": "Basilica_Mercatoria",
+      "center": [
+        112,
+        215
+      ],
+      "footprint": [
+        61.2,
+        22.2
+      ],
+      "height": 19.9
+    },
+    {
+      "id": "Tower_of_the_Watch",
+      "center": [
+        -135,
+        247
+      ],
+      "footprint": [
+        15,
+        15
+      ],
+      "height": 34.7
+    },
+    {
+      "id": "Civic_Archive_Tower",
+      "center": [
+        114,
+        325
+      ],
+      "footprint": [
+        15,
+        15
+      ],
+      "height": 35.7
+    }
+  ],
+  "protected_arena_plaza": {
+    "rx": 128,
+    "ry": 105
+  },
+  "parcels": [
+    {
+      "id": "North_00_00",
+      "center": [
+        283.24242,
+        -109.01639
+      ],
+      "family": 0,
+      "rotation": 4.2545006,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -135,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_01",
+      "center": [
+        312.60402,
+        23.49201
+      ],
+      "family": 1,
+      "rotation": 4.5973481,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -111,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_02",
+      "center": [
+        61.02863,
+        260.15426
+      ],
+      "family": 2,
+      "rotation": 1.1758369,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -86,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_03",
+      "center": [
+        200.03696,
+        -94.90557
+      ],
+      "family": 3,
+      "rotation": 4.3478593,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -61,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_04",
+      "center": [
+        11.21404,
+        237.76164
+      ],
+      "family": 4,
+      "rotation": 3.7910035,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -36,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_05",
+      "center": [
+        230.76237,
+        102.98804
+      ],
+      "family": 5,
+      "rotation": 1.8637729,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -11,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_06",
+      "center": [
+        260.62046,
+        -142.10901
+      ],
+      "family": 0,
+      "rotation": 3.9820289,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        14,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_07",
+      "center": [
+        87.86634,
+        292.63183
+      ],
+      "family": 1,
+      "rotation": 0.4709195,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        39,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_08",
+      "center": [
+        -226.3154,
+        -148.98112
+      ],
+      "family": 2,
+      "rotation": 4.9187326,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        64,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_12",
+      "center": [
+        -136.21928,
+        333.25077
+      ],
+      "family": 0,
+      "rotation": 1.541684,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "upper_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_13",
+      "center": [
+        -104.95388,
+        310.95369
+      ],
+      "family": 1,
+      "rotation": 4.8047412,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        229,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "upper_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_14",
+      "center": [
+        -100.71361,
+        194.25082
+      ],
+      "family": 2,
+      "rotation": 4.1011413,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_00_15",
+      "center": [
+        -229.30335,
+        52.18452
+      ],
+      "family": 3,
+      "rotation": 5.0638003,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        311,
+        208
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_01",
+      "center": [
+        105.77505,
+        372.30405
+      ],
+      "family": 4,
+      "rotation": 3.3774039,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -111,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "northern_hillside",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_02",
+      "center": [
+        177.35676,
+        188.93153
+      ],
+      "family": 5,
+      "rotation": 3.5101066,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -86,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_03",
+      "center": [
+        -136.0239,
+        351.14324
+      ],
+      "family": 0,
+      "rotation": 1.5408807,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -61,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "upper_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_04",
+      "center": [
+        264.43338,
+        73.52213
+      ],
+      "family": 1,
+      "rotation": 4.6196216,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -36,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_05",
+      "center": [
+        172.5186,
+        -75.19295
+      ],
+      "family": 2,
+      "rotation": 1.2417624,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -11,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_06",
+      "center": [
+        300.02305,
+        99.39457
+      ],
+      "family": 3,
+      "rotation": 4.9675708,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        14,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_07",
+      "center": [
+        156.28453,
+        309.52503
+      ],
+      "family": 4,
+      "rotation": 3.8922173,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        39,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_08",
+      "center": [
+        -236.74572,
+        -85.92414
+      ],
+      "family": 5,
+      "rotation": 4.6458708,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        64,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_09",
+      "center": [
+        242.77659,
+        12.47345
+      ],
+      "family": 0,
+      "rotation": 4.1124215,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        89,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_10",
+      "center": [
+        -230.79905,
+        -41.3588
+      ],
+      "family": 1,
+      "rotation": 4.4875197,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        114,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_11",
+      "center": [
+        89.9159,
+        251.84633
+      ],
+      "family": 2,
+      "rotation": 4.3004561,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        139,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_12",
+      "center": [
+        -265.1401,
+        328.97661
+      ],
+      "family": 3,
+      "rotation": 1.2547521,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_13",
+      "center": [
+        171.75756,
+        322.70404
+      ],
+      "family": 4,
+      "rotation": 3.7845852,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        229,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_14",
+      "center": [
+        -8.4676,
+        360.23971
+      ],
+      "family": 5,
+      "rotation": 2.371698,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_01_15",
+      "center": [
+        -256.57372,
+        20.86079
+      ],
+      "family": 0,
+      "rotation": 1.6925656,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        311,
+        247
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_00",
+      "center": [
+        -117.52597,
+        -175.58735
+      ],
+      "family": 0,
+      "rotation": 0.3638,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -135,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_west",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_01",
+      "center": [
+        -265.98454,
+        -103.8429
+      ],
+      "family": 1,
+      "rotation": 1.6778534,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -111,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_02",
+      "center": [
+        -57.48637,
+        -205.30102
+      ],
+      "family": 2,
+      "rotation": 3.1491549,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -86,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_03",
+      "center": [
+        -227.9286,
+        207.264
+      ],
+      "family": 3,
+      "rotation": 4.8704537,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -61,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_04",
+      "center": [
+        274.95011,
+        -1.64691
+      ],
+      "family": 4,
+      "rotation": 1.3972469,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -36,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_05",
+      "center": [
+        -58.90747,
+        386.17407
+      ],
+      "family": 5,
+      "rotation": 3.2562288,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -11,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "upper_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_06",
+      "center": [
+        272.97075,
+        -126.45335
+      ],
+      "family": 0,
+      "rotation": 4.1090251,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        14,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_07",
+      "center": [
+        185.1483,
+        -116.98557
+      ],
+      "family": 1,
+      "rotation": 4.0185178,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        39,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_08",
+      "center": [
+        66.56825,
+        -166.09963
+      ],
+      "family": 2,
+      "rotation": -0.1971888,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        64,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_east",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_09",
+      "center": [
+        224.73603,
+        -170.74775
+      ],
+      "family": 3,
+      "rotation": 3.68258,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        89,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_10",
+      "center": [
+        246.65142,
+        -103.08341
+      ],
+      "family": 4,
+      "rotation": 1.005152,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        114,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_11",
+      "center": [
+        219.3824,
+        35.55569
+      ],
+      "family": 5,
+      "rotation": 0.9889493,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        139,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_12",
+      "center": [
+        203.76851,
+        199.99058
+      ],
+      "family": 0,
+      "rotation": 3.7412215,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_13",
+      "center": [
+        -54.75353,
+        -157.44867
+      ],
+      "family": 1,
+      "rotation": 0.204547,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        229,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_west",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_14",
+      "center": [
+        219.98051,
+        -136.72686
+      ],
+      "family": 2,
+      "rotation": 0.5911817,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_02_15",
+      "center": [
+        -227.38662,
+        179.31894
+      ],
+      "family": 3,
+      "rotation": 4.6213758,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        311,
+        286
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_00",
+      "center": [
+        -231.21671,
+        154.11124
+      ],
+      "family": 3,
+      "rotation": 4.520016,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -135,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_01",
+      "center": [
+        174.28414,
+        -54.75584
+      ],
+      "family": 4,
+      "rotation": 1.3549275,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -111,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_02",
+      "center": [
+        152.15015,
+        381.61721
+      ],
+      "family": 5,
+      "rotation": 3.0357787,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -86,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "northern_hillside",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_03",
+      "center": [
+        300.06132,
+        -52.01701
+      ],
+      "family": 0,
+      "rotation": 4.4721772,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -61,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_04",
+      "center": [
+        -98.94069,
+        240.48652
+      ],
+      "family": 1,
+      "rotation": 0.6786718,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -36,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_05",
+      "center": [
+        -114.78708,
+        225.15934
+      ],
+      "family": 2,
+      "rotation": 0.9035619,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -11,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_06",
+      "center": [
+        48.97429,
+        303.1376
+      ],
+      "family": 3,
+      "rotation": 4.7186278,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        14,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_07",
+      "center": [
+        292.72247,
+        -90.4439
+      ],
+      "family": 4,
+      "rotation": 4.4208092,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        39,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_08",
+      "center": [
+        -27.82546,
+        243.08204
+      ],
+      "family": 5,
+      "rotation": 1.1416907,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        64,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_09",
+      "center": [
+        50.48348,
+        -160.40776
+      ],
+      "family": 0,
+      "rotation": -0.2558398,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        89,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "southern_east",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_11",
+      "center": [
+        94.39489,
+        403.86795
+      ],
+      "family": 2,
+      "rotation": 0.2351918,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        139,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "northern_hillside",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_12",
+      "center": [
+        34.01241,
+        356.88445
+      ],
+      "family": 3,
+      "rotation": 5.2112889,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_13",
+      "center": [
+        -230.11928,
+        -63.06715
+      ],
+      "family": 4,
+      "rotation": 4.5572832,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        229,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_14",
+      "center": [
+        163.16399,
+        215.58412
+      ],
+      "family": 5,
+      "rotation": 0.3644354,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_03_15",
+      "center": [
+        204.5595,
+        -144.30948
+      ],
+      "family": 0,
+      "rotation": 0.5397678,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        311,
+        325
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_00",
+      "center": [
+        264.78418,
+        -58.94688
+      ],
+      "family": 0,
+      "rotation": 1.3410184,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -135,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_01",
+      "center": [
+        39.2321,
+        275.50234
+      ],
+      "family": 1,
+      "rotation": 4.1982941,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -111,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_02",
+      "center": [
+        -88.32188,
+        210.68835
+      ],
+      "family": 2,
+      "rotation": 3.9980326,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -86,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_03",
+      "center": [
+        307.59465,
+        74.8516
+      ],
+      "family": 3,
+      "rotation": 5.0502477,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -61,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_04",
+      "center": [
+        239.09372,
+        230.23725
+      ],
+      "family": 4,
+      "rotation": 3.6999845,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -36,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_05",
+      "center": [
+        -56.77654,
+        245.03655
+      ],
+      "family": 5,
+      "rotation": 4.2349908,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -11,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_06",
+      "center": [
+        189.423,
+        -14.76049
+      ],
+      "family": 0,
+      "rotation": 1.1519069,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        14,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_07",
+      "center": [
+        15.62574,
+        -205.53159
+      ],
+      "family": 1,
+      "rotation": 3.2107531,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        39,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_08",
+      "center": [
+        -5.99248,
+        213.84112
+      ],
+      "family": 2,
+      "rotation": 4.4716873,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        64,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_09",
+      "center": [
+        87.64186,
+        -166.59877
+      ],
+      "family": 3,
+      "rotation": -0.1211982,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        89,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_east",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_10",
+      "center": [
+        255.28756,
+        28.56455
+      ],
+      "family": 4,
+      "rotation": 4.2431992,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        114,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_11",
+      "center": [
+        286.60511,
+        212.31168
+      ],
+      "family": 5,
+      "rotation": 2.0498863,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        139,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_12",
+      "center": [
+        269.03281,
+        -41.47496
+      ],
+      "family": 0,
+      "rotation": 1.3349087,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_13",
+      "center": [
+        -32.73591,
+        -153.5351
+      ],
+      "family": 1,
+      "rotation": 0.1392748,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        229,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_west",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_14",
+      "center": [
+        -255.31077,
+        -17.27264
+      ],
+      "family": 2,
+      "rotation": 1.3707272,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_04_15",
+      "center": [
+        314.82547,
+        49.2075
+      ],
+      "family": 3,
+      "rotation": 4.8770051,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        311,
+        362
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_00",
+      "center": [
+        115.8835,
+        -174.47643
+      ],
+      "family": 3,
+      "rotation": -0.4562905,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -135,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "southern_east",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_01",
+      "center": [
+        297.78055,
+        -70.89671
+      ],
+      "family": 4,
+      "rotation": 4.481939,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -111,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_02",
+      "center": [
+        -267.27314,
+        61.15078
+      ],
+      "family": 5,
+      "rotation": 1.8969215,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -86,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_03",
+      "center": [
+        -255.35804,
+        1.69599
+      ],
+      "family": 0,
+      "rotation": 1.5742028,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -61,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_04",
+      "center": [
+        25.16392,
+        256.14702
+      ],
+      "family": 1,
+      "rotation": 4.0216653,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -36,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_05",
+      "center": [
+        35.47073,
+        -205.37698
+      ],
+      "family": 2,
+      "rotation": 3.0998735,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -11,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "southern_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_06",
+      "center": [
+        305.28505,
+        -30.91819
+      ],
+      "family": 3,
+      "rotation": 4.5055397,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        14,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_07",
+      "center": [
+        -8.59627,
+        269.73855
+      ],
+      "family": 4,
+      "rotation": 0.6463527,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        39,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_08",
+      "center": [
+        260.34001,
+        -82.42284
+      ],
+      "family": 5,
+      "rotation": 1.2680155,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        64,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_09",
+      "center": [
+        235.35682,
+        -121.38453
+      ],
+      "family": 0,
+      "rotation": 0.8297507,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        89,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_10",
+      "center": [
+        -73.51554,
+        224.14334
+      ],
+      "family": 1,
+      "rotation": 3.8566415,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        114,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_11",
+      "center": [
+        166.39328,
+        -90.8489
+      ],
+      "family": 2,
+      "rotation": 1.1104693,
+      "full_dimensions": [
+        11.799999999999999,
+        16.32
+      ],
+      "projection_envelope": [
+        14.1216,
+        22.76
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        139,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_12",
+      "center": [
+        110.15977,
+        268.29861
+      ],
+      "family": 3,
+      "rotation": 3.5798646,
+      "full_dimensions": [
+        20.06,
+        23.12
+      ],
+      "projection_envelope": [
+        22.3816,
+        27.656
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_13",
+      "center": [
+        144.55248,
+        -107.26268
+      ],
+      "family": 4,
+      "rotation": 0.6180914,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        229,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_14",
+      "center": [
+        206.20247,
+        -69.89901
+      ],
+      "family": 5,
+      "rotation": 4.4662162,
+      "full_dimensions": [
+        21.24,
+        16.32
+      ],
+      "projection_envelope": [
+        23.5616,
+        23.0864
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "North_05_15",
+      "center": [
+        -220.96617,
+        -166.07727
+      ],
+      "family": 0,
+      "rotation": 4.9218697,
+      "full_dimensions": [
+        14.16,
+        20.400000000000002
+      ],
+      "projection_envelope": [
+        16.4816,
+        26.84
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        311,
+        399
+      ],
+      "original_grid_rotation": 3.141592653589793,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_00_00",
+      "center": [
+        -129.23054,
+        209.64357
+      ],
+      "family": 0,
+      "rotation": 0.9629996,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        -157
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_00_01",
+      "center": [
+        198.32269,
+        1.66543
+      ],
+      "family": 2,
+      "rotation": 1.1047479,
+      "full_dimensions": [
+        13.5,
+        17.4
+      ],
+      "projection_envelope": [
+        16.012,
+        24.2
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        230,
+        -157
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_00_02",
+      "center": [
+        -78.37912,
+        -157.80885
+      ],
+      "family": 4,
+      "rotation": 0.2958485,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        -157
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "southern_west",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_00_03",
+      "center": [
+        180.56216,
+        -35.05206
+      ],
+      "family": 0,
+      "rotation": 1.268029,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        313,
+        -157
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_01_00",
+      "center": [
+        -35.91923,
+        217.28765
+      ],
+      "family": 1,
+      "rotation": 1.3358587,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        -119
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_01_01",
+      "center": [
+        -66.41592,
+        334.99719
+      ],
+      "family": 3,
+      "rotation": 5.2396743,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        230,
+        -119
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_01_02",
+      "center": [
+        -251.92096,
+        -176.443
+      ],
+      "family": 5,
+      "rotation": 1.7804042,
+      "full_dimensions": [
+        24.3,
+        17.4
+      ],
+      "projection_envelope": [
+        26.812,
+        24.548
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        -119
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_01_03",
+      "center": [
+        -241.34248,
+        81.4311
+      ],
+      "family": 1,
+      "rotation": 4.9313873,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        313,
+        -119
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_02_00",
+      "center": [
+        68.38522,
+        276.66424
+      ],
+      "family": 2,
+      "rotation": 1.0091642,
+      "full_dimensions": [
+        13.5,
+        17.4
+      ],
+      "projection_envelope": [
+        16.012,
+        24.2
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        -75
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_02_01",
+      "center": [
+        -32.81338,
+        382.55018
+      ],
+      "family": 4,
+      "rotation": 3.1187451,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        230,
+        -75
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "upper_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_02_02",
+      "center": [
+        -262.35664,
+        -36.06233
+      ],
+      "family": 0,
+      "rotation": 1.3543519,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        -75
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_02_03",
+      "center": [
+        122.99298,
+        379.42954
+      ],
+      "family": 2,
+      "rotation": 3.3351861,
+      "full_dimensions": [
+        13.5,
+        17.4
+      ],
+      "projection_envelope": [
+        16.012,
+        24.2
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        313,
+        -75
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "northern_hillside",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_03_00",
+      "center": [
+        135.34786,
+        286.26083
+      ],
+      "family": 3,
+      "rotation": 4.0054125,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        -34
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_03_01",
+      "center": [
+        -262.49304,
+        165.56172
+      ],
+      "family": 5,
+      "rotation": 1.3925506,
+      "full_dimensions": [
+        24.3,
+        17.4
+      ],
+      "projection_envelope": [
+        26.812,
+        24.548
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        230,
+        -34
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_03_02",
+      "center": [
+        -240.62796,
+        129.34431
+      ],
+      "family": 1,
+      "rotation": 4.3810761,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        -34
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_03_03",
+      "center": [
+        255.18651,
+        273.80631
+      ],
+      "family": 3,
+      "rotation": -0.0142288,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        313,
+        -34
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_04_00",
+      "center": [
+        -231.04529,
+        232.54536
+      ],
+      "family": 4,
+      "rotation": 4.959087,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        8
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_04_01",
+      "center": [
+        -264.82071,
+        -126.19976
+      ],
+      "family": 0,
+      "rotation": 1.8110848,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        230,
+        8
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_04_02",
+      "center": [
+        245.38323,
+        -155.3346
+      ],
+      "family": 2,
+      "rotation": 3.80637,
+      "full_dimensions": [
+        13.5,
+        17.4
+      ],
+      "projection_envelope": [
+        16.012,
+        24.2
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        8
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_04_03",
+      "center": [
+        296.89733,
+        122.97103
+      ],
+      "family": 4,
+      "rotation": 4.9583933,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        313,
+        8
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_05_00",
+      "center": [
+        -262.7281,
+        212.86991
+      ],
+      "family": 5,
+      "rotation": 1.8234198,
+      "full_dimensions": [
+        24.3,
+        17.4
+      ],
+      "projection_envelope": [
+        26.812,
+        24.548
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        50
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_05_01",
+      "center": [
+        263.50147,
+        99.20293
+      ],
+      "family": 1,
+      "rotation": 4.9084368,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        230,
+        50
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_05_02",
+      "center": [
+        -53.51818,
+        310.57655
+      ],
+      "family": 3,
+      "rotation": 5.1969015,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        50
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_05_03",
+      "center": [
+        220.57831,
+        259.28392
+      ],
+      "family": 5,
+      "rotation": 0.5604195,
+      "full_dimensions": [
+        24.3,
+        17.4
+      ],
+      "projection_envelope": [
+        26.812,
+        24.548
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        313,
+        50
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_06_00",
+      "center": [
+        169.08516,
+        -135.08329
+      ],
+      "family": 0,
+      "rotation": 3.7693799,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        95
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_06_01",
+      "center": [
+        -260.09454,
+        41.27039
+      ],
+      "family": 2,
+      "rotation": 1.9254884,
+      "full_dimensions": [
+        13.5,
+        17.4
+      ],
+      "projection_envelope": [
+        16.012,
+        24.2
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        230,
+        95
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_06_02",
+      "center": [
+        -235.06606,
+        255.01584
+      ],
+      "family": 4,
+      "rotation": 4.8621802,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        95
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_06_03",
+      "center": [
+        220.49956,
+        215.52681
+      ],
+      "family": 0,
+      "rotation": 4.0399741,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        313,
+        95
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_07_00",
+      "center": [
+        310.44592,
+        231.39984
+      ],
+      "family": 1,
+      "rotation": -1.0523565,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        183,
+        130
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_07_01",
+      "center": [
+        134.5568,
+        339.46054
+      ],
+      "family": 3,
+      "rotation": 0.7372049,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        230,
+        130
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_07_02",
+      "center": [
+        288.67905,
+        257.37301
+      ],
+      "family": 5,
+      "rotation": -0.6669898,
+      "full_dimensions": [
+        24.3,
+        17.4
+      ],
+      "projection_envelope": [
+        26.812,
+        24.548
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        278,
+        130
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "East_07_03",
+      "center": [
+        176.83542,
+        378.16896
+      ],
+      "family": 1,
+      "rotation": 3.0332562,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        313,
+        130
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "northern_hillside",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_00_00",
+      "center": [
+        -99.03297,
+        -167.7149
+      ],
+      "family": 0,
+      "rotation": 0.3653942,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        -165
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "southern_west",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_00_01",
+      "center": [
+        -273.42141,
+        300.8828
+      ],
+      "family": 3,
+      "rotation": 1.3937759,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        -165
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_01_00",
+      "center": [
+        -257.13548,
+        -148.61913
+      ],
+      "family": 1,
+      "rotation": 1.7746082,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        -122
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_01_01",
+      "center": [
+        -271.2138,
+        -79.10284
+      ],
+      "family": 4,
+      "rotation": 1.479414,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        -122
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_02_00",
+      "center": [
+        -80.27564,
+        359.28608
+      ],
+      "family": 2,
+      "rotation": 4.9045253,
+      "full_dimensions": [
+        13.5,
+        17.4
+      ],
+      "projection_envelope": [
+        16.012,
+        24.2
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        -77
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_02_01",
+      "center": [
+        195.56481,
+        237.33146
+      ],
+      "family": 5,
+      "rotation": 0.8978385,
+      "full_dimensions": [
+        24.3,
+        17.4
+      ],
+      "projection_envelope": [
+        26.812,
+        24.548
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        -77
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "aqueduct_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_03_00",
+      "center": [
+        -136.04936,
+        304.28292
+      ],
+      "family": 3,
+      "rotation": 1.6674151,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        -34
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "upper_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_03_01",
+      "center": [
+        -265.90634,
+        -56.93501
+      ],
+      "family": 0,
+      "rotation": 1.4153049,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        -34
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_04_00",
+      "center": [
+        191.42276,
+        333.43527
+      ],
+      "family": 4,
+      "rotation": 3.6156261,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        11
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "archive_quarter",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_04_01",
+      "center": [
+        255.60457,
+        125.18308
+      ],
+      "family": 1,
+      "rotation": 5.1043541,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        11
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_05_00",
+      "center": [
+        -273.76942,
+        126.85461
+      ],
+      "family": 5,
+      "rotation": 1.3267875,
+      "full_dimensions": [
+        24.3,
+        17.4
+      ],
+      "projection_envelope": [
+        26.812,
+        24.548
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        54
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_05_01",
+      "center": [
+        212.34962,
+        -46.40571
+      ],
+      "family": 2,
+      "rotation": 4.424062,
+      "full_dimensions": [
+        13.5,
+        17.4
+      ],
+      "projection_envelope": [
+        16.012,
+        24.2
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        54
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_06_00",
+      "center": [
+        272.68107,
+        -21.17093
+      ],
+      "family": 0,
+      "rotation": 1.3688745,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        151
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "eastern_lanes",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_06_01",
+      "center": [
+        -271.20419,
+        241.69446
+      ],
+      "family": 3,
+      "rotation": 1.7194535,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        151
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_07_00",
+      "center": [
+        229.85917,
+        -5.69491
+      ],
+      "family": 1,
+      "rotation": 4.2305407,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        198
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_07_01",
+      "center": [
+        -220.60505,
+        -20.68304
+      ],
+      "family": 4,
+      "rotation": 4.5385279,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        198
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_08_00",
+      "center": [
+        207.13849,
+        18.10848
+      ],
+      "family": 2,
+      "rotation": 1.0263355,
+      "full_dimensions": [
+        13.5,
+        17.4
+      ],
+      "projection_envelope": [
+        16.012,
+        24.2
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        244
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_08_01",
+      "center": [
+        -46.60694,
+        273.73908
+      ],
+      "family": 5,
+      "rotation": 4.6019475,
+      "full_dimensions": [
+        24.3,
+        17.4
+      ],
+      "projection_envelope": [
+        26.812,
+        24.548
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        244
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_civic",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_09_00",
+      "center": [
+        -274.84147,
+        269.60288
+      ],
+      "family": 3,
+      "rotation": 1.6474468,
+      "full_dimensions": [
+        22.950000000000003,
+        24.65
+      ],
+      "projection_envelope": [
+        25.462,
+        29.42
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        287
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_09_01",
+      "center": [
+        222.01219,
+        -26.88437
+      ],
+      "family": 0,
+      "rotation": 4.2861587,
+      "full_dimensions": [
+        16.200000000000003,
+        21.75
+      ],
+      "projection_envelope": [
+        18.712,
+        28.55
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        287
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_10_00",
+      "center": [
+        -218.94492,
+        4.47485
+      ],
+      "family": 4,
+      "rotation": 4.7298472,
+      "full_dimensions": [
+        17.55,
+        26.099999999999998
+      ],
+      "projection_envelope": [
+        20.062,
+        32.9
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -249,
+        329
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "West_10_01",
+      "center": [
+        42.67999,
+        330.49412
+      ],
+      "family": 1,
+      "rotation": 4.9857291,
+      "full_dimensions": [
+        20.25,
+        18.849999999999998
+      ],
+      "projection_envelope": [
+        22.762,
+        23.62
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -284,
+        329
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "temple_residential",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "SouthEast_01",
+      "center": [
+        258.41858,
+        50.58721
+      ],
+      "family": 3,
+      "rotation": 4.3948704,
+      "full_dimensions": [
+        17,
+        17
+      ],
+      "projection_envelope": [
+        19.12,
+        20.6
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        169,
+        -185
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "eastern_trades",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "SouthEast_02",
+      "center": [
+        113.78747,
+        405.01445
+      ],
+      "family": 1,
+      "rotation": 0.2085485,
+      "full_dimensions": [
+        15,
+        13
+      ],
+      "projection_envelope": [
+        17.12,
+        16.6
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        205,
+        -190
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "northern_hillside",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "SouthWest_01",
+      "center": [
+        -39.47814,
+        -202.46757
+      ],
+      "family": 1,
+      "rotation": 3.0787463,
+      "full_dimensions": [
+        15,
+        13
+      ],
+      "projection_envelope": [
+        17.12,
+        16.6
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -137,
+        -160
+      ],
+      "original_grid_rotation": -1.5707963267948966,
+      "quarter": "southern_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "SouthWest_02",
+      "center": [
+        -129.53585,
+        372.63093
+      ],
+      "family": 3,
+      "rotation": 1.2317294,
+      "full_dimensions": [
+        17,
+        17
+      ],
+      "projection_envelope": [
+        19.12,
+        20.6
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -135,
+        -199
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "upper_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "Precinct_01",
+      "center": [
+        -110.25658,
+        -204.96219
+      ],
+      "family": 1,
+      "rotation": 3.2407112,
+      "full_dimensions": [
+        15,
+        13
+      ],
+      "projection_envelope": [
+        17.12,
+        16.6
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -113,
+        120
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "Precinct_02",
+      "center": [
+        -12.5995,
+        -177.77113
+      ],
+      "family": 2,
+      "rotation": -3.0289189,
+      "full_dimensions": [
+        10,
+        12
+      ],
+      "projection_envelope": [
+        12.12,
+        17.0
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        -134,
+        156
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "southern_west",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "Precinct_06",
+      "center": [
+        -105.5872,
+        330.7598
+      ],
+      "family": 4,
+      "rotation": 4.6930989,
+      "full_dimensions": [
+        13,
+        18
+      ],
+      "projection_envelope": [
+        15.12,
+        23.0
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        57,
+        189
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "upper_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "Precinct_07",
+      "center": [
+        -20.89968,
+        -203.75298
+      ],
+      "family": 1,
+      "rotation": 3.0880677,
+      "full_dimensions": [
+        15,
+        13
+      ],
+      "projection_envelope": [
+        17.12,
+        16.6
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        123,
+        128
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "southern_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "Precinct_08",
+      "center": [
+        -92.08776,
+        -203.72478
+      ],
+      "family": 2,
+      "rotation": 3.2130663,
+      "full_dimensions": [
+        10,
+        12
+      ],
+      "projection_envelope": [
+        12.12,
+        17.0
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        148,
+        144
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "southern_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "Precinct_09",
+      "center": [
+        30.28867,
+        -159.44292
+      ],
+      "family": 0,
+      "rotation": -0.1814156,
+      "full_dimensions": [
+        12,
+        15
+      ],
+      "projection_envelope": [
+        14.12,
+        20.0
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "original_grid_center": [
+        146,
+        109
+      ],
+      "original_grid_rotation": 1.5707963267948966,
+      "quarter": "southern_east",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "ForegroundHouse_0",
+      "center": [
+        -231.8197,
+        -130.40072
+      ],
+      "family": 3,
+      "rotation": 4.9553861,
+      "full_dimensions": [
+        17,
+        17
+      ],
+      "projection_envelope": [
+        19.12,
+        20.6
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "prototype": "SouthEast_01",
+      "ground_support_z": -0.035,
+      "original_grid_center": [
+        -114,
+        -147
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "ForegroundHouse_1",
+      "center": [
+        -75.6714,
+        -202.49763
+      ],
+      "family": 1,
+      "rotation": 3.1810686,
+      "full_dimensions": [
+        15,
+        13
+      ],
+      "projection_envelope": [
+        17.12,
+        16.6
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "prototype": "SouthEast_02",
+      "ground_support_z": -0.035,
+      "original_grid_center": [
+        116,
+        -145
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "southern_courts",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "ForegroundHouse_2",
+      "center": [
+        -231.3088,
+        -109.90295
+      ],
+      "family": 4,
+      "rotation": 4.9157969,
+      "full_dimensions": [
+        15.34,
+        24.48
+      ],
+      "projection_envelope": [
+        17.6616,
+        30.92
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "prototype": "North_00_04",
+      "ground_support_z": -0.035,
+      "original_grid_center": [
+        -116,
+        -174
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    },
+    {
+      "id": "ForegroundHouse_3",
+      "center": [
+        -226.07781,
+        27.48898
+      ],
+      "family": 1,
+      "rotation": 4.8492254,
+      "full_dimensions": [
+        17.7,
+        17.68
+      ],
+      "projection_envelope": [
+        20.0216,
+        22.216
+      ],
+      "enterable": false,
+      "frontage": "organic-street",
+      "prototype": "North_00_01",
+      "ground_support_z": -0.035,
+      "original_grid_center": [
+        141,
+        -181
+      ],
+      "original_grid_rotation": 0,
+      "quarter": "western_quay",
+      "master_reflow": "master-organic-quarters-1"
+    }
+  ],
+  "collections": [
+    "City_Architecture",
+    "City_Infrastructure",
+    "City_Landscape"
+  ],
+  "master_world_layout": "master_world_layout.json",
+  "courtyard_count": 132,
+  "city_grid_retired": true
+}

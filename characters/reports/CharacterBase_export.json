@@ -1,0 +1,1152 @@
+{
+  "passed": true,
+  "source_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "source_blend_sha256_before": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "blender_version": "5.1.2",
+  "targets": "all",
+  "output_dir": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters",
+  "character": "CharacterBase",
+  "rig": "CharacterRig",
+  "bone_count": 49,
+  "bone_names": [
+    "IKPole.L",
+    "IKPole.R",
+    "IkTarget.L",
+    "IkTarget.R",
+    "f_index.01.L",
+    "f_index.01.R",
+    "f_index.02.L",
+    "f_index.02.R",
+    "f_index.03.L",
+    "f_index.03.R",
+    "f_pinky.01.L",
+    "f_pinky.01.R",
+    "f_pinky.02.L",
+    "f_pinky.02.R",
+    "f_pinky.03.L",
+    "f_pinky.03.R",
+    "foot.L",
+    "foot.R",
+    "forearm.L",
+    "forearm.R",
+    "hand.L",
+    "hand.R",
+    "head",
+    "palm.01.L",
+    "palm.01.R",
+    "palm.04.L",
+    "palm.04.R",
+    "pelvis",
+    "shin.L",
+    "shin.R",
+    "shoulder.L",
+    "shoulder.R",
+    "spine1",
+    "spine2",
+    "spine3",
+    "spine4",
+    "spine5",
+    "thigh.L",
+    "thigh.R",
+    "thumb.01.L",
+    "thumb.01.R",
+    "thumb.02.L",
+    "thumb.02.R",
+    "thumb.03.L",
+    "thumb.03.R",
+    "toe.L",
+    "toe.R",
+    "upper_arm.L",
+    "upper_arm.R"
+  ],
+  "garments": [
+    "BronzeArmor",
+    "GladiatorSword",
+    "GuardShield",
+    "GuardSpear",
+    "HairCap",
+    "LeatherBelt",
+    "RomanHelmet",
+    "RomanSandals",
+    "RomanTunic"
+  ],
+  "mesh_objects": [
+    "CharacterBase",
+    "BronzeArmor",
+    "GladiatorSword",
+    "GuardShield",
+    "GuardSpear",
+    "HairCap",
+    "LeatherBelt",
+    "RomanHelmet",
+    "RomanSandals",
+    "RomanTunic"
+  ],
+  "materials": {
+    "CharacterBase": [
+      "CharacterMaterial"
+    ],
+    "BronzeArmor": [
+      "BronzeArmorMaterial"
+    ],
+    "GladiatorSword": [
+      "GladiatorSwordMaterial"
+    ],
+    "GuardShield": [
+      "GuardShieldMaterial"
+    ],
+    "GuardSpear": [
+      "GuardSpearMaterial"
+    ],
+    "HairCap": [
+      "HairCapMaterial"
+    ],
+    "LeatherBelt": [
+      "LeatherBeltMaterial"
+    ],
+    "RomanHelmet": [
+      "RomanHelmetMaterial"
+    ],
+    "RomanSandals": [
+      "RomanSandalsMaterial"
+    ],
+    "RomanTunic": [
+      "RomanTunicMaterial"
+    ]
+  },
+  "fps": 30.0,
+  "files": {
+    "tpose_fbx": {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.fbx",
+      "sha256": "154f487fba472a6da45df56febf5b49d6ed516a00e54f8f92e91d6dee96d29a3",
+      "bytes": 800284,
+      "options": {
+        "check_existing": false,
+        "use_selection": true,
+        "global_scale": 1.0,
+        "apply_unit_scale": true,
+        "apply_scale_options": "FBX_SCALE_UNITS",
+        "use_space_transform": true,
+        "bake_space_transform": false,
+        "axis_forward": "-Z",
+        "axis_up": "Y",
+        "primary_bone_axis": "Y",
+        "secondary_bone_axis": "X",
+        "armature_nodetype": "NULL",
+        "use_armature_deform_only": false,
+        "add_leaf_bones": false,
+        "use_custom_props": true,
+        "use_metadata": false,
+        "filepath": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.fbx",
+        "object_types": [
+          "ARMATURE",
+          "MESH"
+        ],
+        "use_mesh_modifiers": true,
+        "use_mesh_modifiers_render": true,
+        "mesh_smooth_type": "FACE",
+        "use_subsurf": false,
+        "use_mesh_edges": false,
+        "use_tspace": false,
+        "use_triangles": true,
+        "colors_type": "SRGB",
+        "prioritize_active_color": true,
+        "bake_anim": false,
+        "path_mode": "COPY",
+        "embed_textures": true
+      },
+      "texture_staging": []
+    },
+    "tpose_glb": {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.glb",
+      "sha256": "6de7a6b0daf004421992a355c4dfffb30266aeeda467814f147f947ea02d7768",
+      "bytes": 638444,
+      "draco": false,
+      "options": {
+        "filepath": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.glb",
+        "check_existing": false,
+        "export_format": "GLB",
+        "use_selection": true,
+        "export_yup": true,
+        "export_animations": false,
+        "export_skins": true,
+        "export_all_influences": false,
+        "export_influence_nb": 4,
+        "export_apply": true,
+        "export_extras": true,
+        "export_cameras": false,
+        "export_lights": false,
+        "export_materials": "EXPORT",
+        "export_texcoords": true,
+        "export_normals": true,
+        "export_tangents": false,
+        "export_morph": false,
+        "export_rest_position_armature": true,
+        "export_current_frame": false,
+        "export_armature_object_remove": false,
+        "export_def_bones": false,
+        "export_leaf_bone": false,
+        "export_draco_mesh_compression_enable": false
+      }
+    }
+  },
+  "actions": [
+    {
+      "name": "Idle",
+      "slug": "idle",
+      "managed_kind": "basic",
+      "frame_start": 1,
+      "frame_end": 251,
+      "fps": 30.0,
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\idle.fbx",
+      "sha256": "6dffe7383dde22fe460693f807a30c34204a0818923232187b83f1400c89e00e",
+      "bytes": 1060188,
+      "payload": "skeleton_only",
+      "options": {
+        "check_existing": false,
+        "use_selection": true,
+        "global_scale": 1.0,
+        "apply_unit_scale": true,
+        "apply_scale_options": "FBX_SCALE_UNITS",
+        "use_space_transform": true,
+        "bake_space_transform": false,
+        "axis_forward": "-Z",
+        "axis_up": "Y",
+        "primary_bone_axis": "Y",
+        "secondary_bone_axis": "X",
+        "armature_nodetype": "NULL",
+        "use_armature_deform_only": false,
+        "add_leaf_bones": false,
+        "use_custom_props": true,
+        "use_metadata": false,
+        "filepath": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\idle.fbx",
+        "object_types": [
+          "ARMATURE"
+        ],
+        "use_mesh_modifiers": false,
+        "bake_anim": true,
+        "bake_anim_use_all_bones": true,
+        "bake_anim_use_nla_strips": false,
+        "bake_anim_use_all_actions": false,
+        "bake_anim_force_startend_keying": true,
+        "bake_anim_step": 1.0,
+        "bake_anim_simplify_factor": 0.0,
+        "path_mode": "STRIP",
+        "embed_textures": false
+      }
+    },
+    {
+      "name": "Jump",
+      "slug": "jump",
+      "managed_kind": "basic",
+      "frame_start": 1,
+      "frame_end": 58,
+      "fps": 30.0,
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\jump.fbx",
+      "sha256": "ba2fdc844258e2b4721acc78326045301c761974c1098c9d70be8bbd1c7451c0",
+      "bytes": 513260,
+      "payload": "skeleton_only",
+      "options": {
+        "check_existing": false,
+        "use_selection": true,
+        "global_scale": 1.0,
+        "apply_unit_scale": true,
+        "apply_scale_options": "FBX_SCALE_UNITS",
+        "use_space_transform": true,
+        "bake_space_transform": false,
+        "axis_forward": "-Z",
+        "axis_up": "Y",
+        "primary_bone_axis": "Y",
+        "secondary_bone_axis": "X",
+        "armature_nodetype": "NULL",
+        "use_armature_deform_only": false,
+        "add_leaf_bones": false,
+        "use_custom_props": true,
+        "use_metadata": false,
+        "filepath": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\jump.fbx",
+        "object_types": [
+          "ARMATURE"
+        ],
+        "use_mesh_modifiers": false,
+        "bake_anim": true,
+        "bake_anim_use_all_bones": true,
+        "bake_anim_use_nla_strips": false,
+        "bake_anim_use_all_actions": false,
+        "bake_anim_force_startend_keying": true,
+        "bake_anim_step": 1.0,
+        "bake_anim_simplify_factor": 0.0,
+        "path_mode": "STRIP",
+        "embed_textures": false
+      }
+    },
+    {
+      "name": "Run",
+      "slug": "run",
+      "managed_kind": "basic",
+      "frame_start": 1,
+      "frame_end": 20,
+      "fps": 30.0,
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\run.fbx",
+      "sha256": "f22cbc10251a047fba36861190be19250450437399befc992db723c6b0080b82",
+      "bytes": 393180,
+      "payload": "skeleton_only",
+      "options": {
+        "check_existing": false,
+        "use_selection": true,
+        "global_scale": 1.0,
+        "apply_unit_scale": true,
+        "apply_scale_options": "FBX_SCALE_UNITS",
+        "use_space_transform": true,
+        "bake_space_transform": false,
+        "axis_forward": "-Z",
+        "axis_up": "Y",
+        "primary_bone_axis": "Y",
+        "secondary_bone_axis": "X",
+        "armature_nodetype": "NULL",
+        "use_armature_deform_only": false,
+        "add_leaf_bones": false,
+        "use_custom_props": true,
+        "use_metadata": false,
+        "filepath": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\run.fbx",
+        "object_types": [
+          "ARMATURE"
+        ],
+        "use_mesh_modifiers": false,
+        "bake_anim": true,
+        "bake_anim_use_all_bones": true,
+        "bake_anim_use_nla_strips": false,
+        "bake_anim_use_all_actions": false,
+        "bake_anim_force_startend_keying": true,
+        "bake_anim_step": 1.0,
+        "bake_anim_simplify_factor": 0.0,
+        "path_mode": "STRIP",
+        "embed_textures": false
+      }
+    },
+    {
+      "name": "Walk",
+      "slug": "walk",
+      "managed_kind": "basic",
+      "frame_start": 1,
+      "frame_end": 32,
+      "fps": 30.0,
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\walk.fbx",
+      "sha256": "ca7146b66042797cebaf4ce4bf1caa9a9d0425cfccc3f00537ee8236a42671b9",
+      "bytes": 448092,
+      "payload": "skeleton_only",
+      "options": {
+        "check_existing": false,
+        "use_selection": true,
+        "global_scale": 1.0,
+        "apply_unit_scale": true,
+        "apply_scale_options": "FBX_SCALE_UNITS",
+        "use_space_transform": true,
+        "bake_space_transform": false,
+        "axis_forward": "-Z",
+        "axis_up": "Y",
+        "primary_bone_axis": "Y",
+        "secondary_bone_axis": "X",
+        "armature_nodetype": "NULL",
+        "use_armature_deform_only": false,
+        "add_leaf_bones": false,
+        "use_custom_props": true,
+        "use_metadata": false,
+        "filepath": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\walk.fbx",
+        "object_types": [
+          "ARMATURE"
+        ],
+        "use_mesh_modifiers": false,
+        "bake_anim": true,
+        "bake_anim_use_all_bones": true,
+        "bake_anim_use_nla_strips": false,
+        "bake_anim_use_all_actions": false,
+        "bake_anim_force_startend_keying": true,
+        "bake_anim_step": 1.0,
+        "bake_anim_simplify_factor": 0.0,
+        "path_mode": "STRIP",
+        "embed_textures": false
+      }
+    }
+  ],
+  "source_saved": false,
+  "texture_contract": {
+    "materials": {
+      "BronzeArmorMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "CharacterMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "GladiatorSwordMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "GuardShieldMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "GuardSpearMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "HairCapMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "LeatherBeltMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "RomanHelmetMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "RomanSandalsMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      },
+      "RomanTunicMaterial": {
+        "uses_textures": false,
+        "roles": {
+          "base_color": [],
+          "metallic_roughness": [],
+          "normal": [],
+          "occlusion": [],
+          "emission": [],
+          "alpha": []
+        },
+        "images": {},
+        "errors": []
+      }
+    },
+    "meshes": {
+      "CharacterBase": {
+        "required": false,
+        "layers": [
+          "UVMap"
+        ],
+        "active": "UVMap",
+        "active_render": "UVMap",
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "BronzeArmor": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "GladiatorSword": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "GuardShield": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "GuardSpear": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "HairCap": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "LeatherBelt": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "RomanHelmet": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "RomanSandals": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "RomanTunic": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      }
+    },
+    "used_images": [],
+    "errors": {},
+    "passed": true
+  },
+  "missing_images_using_fallback": [],
+  "weight_normalization": {
+    "CharacterBase": {
+      "vertices": 1596,
+      "maximum_influences_before": 7,
+      "vertices_over_four_before": 90,
+      "non_normalized_before": 1363,
+      "maximum_influences_after": 4,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.15715602040290833
+    },
+    "BronzeArmor": {
+      "vertices": 133,
+      "maximum_influences_before": 4,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 4,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    },
+    "GladiatorSword": {
+      "vertices": 36,
+      "maximum_influences_before": 1,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 1,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    },
+    "GuardShield": {
+      "vertices": 16,
+      "maximum_influences_before": 1,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 1,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    },
+    "GuardSpear": {
+      "vertices": 40,
+      "maximum_influences_before": 1,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 1,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    },
+    "HairCap": {
+      "vertices": 64,
+      "maximum_influences_before": 1,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 1,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    },
+    "LeatherBelt": {
+      "vertices": 40,
+      "maximum_influences_before": 4,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 4,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    },
+    "RomanHelmet": {
+      "vertices": 64,
+      "maximum_influences_before": 1,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 1,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    },
+    "RomanSandals": {
+      "vertices": 90,
+      "maximum_influences_before": 3,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 3,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    },
+    "RomanTunic": {
+      "vertices": 274,
+      "maximum_influences_before": 4,
+      "vertices_over_four_before": 0,
+      "non_normalized_before": 0,
+      "maximum_influences_after": 4,
+      "non_normalized_after": 0,
+      "maximum_dropped_raw_weight_sum": 0.0
+    }
+  },
+  "tpose_evaluated_meshes": {
+    "CharacterBase": {
+      "vertices": 1596,
+      "polygons": 1588,
+      "triangles": 3134,
+      "materials": [
+        "CharacterMaterial"
+      ],
+      "material_base_colors": {
+        "CharacterMaterial": [
+          0.47353148460388184,
+          0.22696587443351746,
+          0.11953842639923096,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [
+          "UVMap"
+        ],
+        "active": "UVMap",
+        "active_render": "UVMap",
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "CharacterMaterial": 3134
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "BronzeArmor": {
+      "vertices": 266,
+      "polygons": 270,
+      "triangles": 540,
+      "materials": [
+        "BronzeArmorMaterial"
+      ],
+      "material_base_colors": {
+        "BronzeArmorMaterial": [
+          0.33716362714767456,
+          0.18782077729701996,
+          0.04817182570695877,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": true,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "BronzeArmorMaterial": 540
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "GladiatorSword": {
+      "vertices": 36,
+      "polygons": 24,
+      "triangles": 60,
+      "materials": [
+        "GladiatorSwordMaterial"
+      ],
+      "material_base_colors": {
+        "GladiatorSwordMaterial": [
+          0.3915724754333496,
+          0.3967552185058594,
+          0.33716362714767456,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "GladiatorSwordMaterial": 60
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "GuardShield": {
+      "vertices": 16,
+      "polygons": 12,
+      "triangles": 24,
+      "materials": [
+        "GuardShieldMaterial"
+      ],
+      "material_base_colors": {
+        "GuardShieldMaterial": [
+          0.22696587443351746,
+          0.02955683507025242,
+          0.023153366521000862,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "GuardShieldMaterial": 24
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "GuardSpear": {
+      "vertices": 40,
+      "polygons": 24,
+      "triangles": 72,
+      "materials": [
+        "GuardSpearMaterial"
+      ],
+      "material_base_colors": {
+        "GuardSpearMaterial": [
+          0.18116424977779388,
+          0.11697066575288773,
+          0.05780543014407158,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "GuardSpearMaterial": 72
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "HairCap": {
+      "vertices": 128,
+      "polygons": 114,
+      "triangles": 252,
+      "materials": [
+        "HairCapMaterial"
+      ],
+      "material_base_colors": {
+        "HairCapMaterial": [
+          0.03688944876194,
+          0.023153366521000862,
+          0.014443843625485897,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": true,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "HairCapMaterial": 252
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "LeatherBelt": {
+      "vertices": 80,
+      "polygons": 80,
+      "triangles": 160,
+      "materials": [
+        "LeatherBeltMaterial"
+      ],
+      "material_base_colors": {
+        "LeatherBeltMaterial": [
+          0.08650045841932297,
+          0.03688944876194,
+          0.014443843625485897,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": true,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "LeatherBeltMaterial": 160
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "RomanHelmet": {
+      "vertices": 128,
+      "polygons": 114,
+      "triangles": 252,
+      "materials": [
+        "RomanHelmetMaterial"
+      ],
+      "material_base_colors": {
+        "RomanHelmetMaterial": [
+          0.3613067865371704,
+          0.2541520893573761,
+          0.08437620848417282,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": true,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "RomanHelmetMaterial": 252
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "RomanSandals": {
+      "vertices": 180,
+      "polygons": 176,
+      "triangles": 352,
+      "materials": [
+        "RomanSandalsMaterial"
+      ],
+      "material_base_colors": {
+        "RomanSandalsMaterial": [
+          0.09305896610021591,
+          0.05126945674419403,
+          0.023153366521000862,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": true,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "RomanSandalsMaterial": 352
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    },
+    "RomanTunic": {
+      "vertices": 548,
+      "polygons": 552,
+      "triangles": 1104,
+      "materials": [
+        "RomanTunicMaterial"
+      ],
+      "material_base_colors": {
+        "RomanTunicMaterial": [
+          0.577580451965332,
+          0.4793201684951782,
+          0.26635560393333435,
+          1.0
+        ]
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": true,
+        "errors": []
+      },
+      "material_triangle_counts": {
+        "RomanTunicMaterial": 1104
+      },
+      "invalid_material_triangles": {
+        "total": 0,
+        "by_reason": {},
+        "by_material_index": {},
+        "samples": []
+      }
+    }
+  },
+  "evaluated_uv_validation": {
+    "passed": true,
+    "invalid_meshes": {}
+  },
+  "material_assignment_validation": {
+    "passed": true,
+    "invalid_meshes": {}
+  },
+  "state_restored": true,
+  "source_blend_sha256_after": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "source_blend_unchanged": true,
+  "report_path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_export.json"
+}

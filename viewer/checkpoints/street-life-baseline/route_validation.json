@@ -1,0 +1,662 @@
+{
+  "timestamp": "2026-10-10T13:42:52.331Z",
+  "scope": "Production source scene and actual fixed-step first-person controller; each route starts once, then moves continuously with body collision and gravity, without destination teleport.",
+  "results": [
+    {
+      "id": "ceremonial",
+      "name": "Plaza through southern arcades and tunnel onto sand",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            0,
+            91
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            0,
+            91.125
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            77
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            7.216449395365721e-17,
+            77.125
+          ],
+          "support": "CONCOURSE/Annular floor",
+          "lastHit": "CONCOURSE/Annular floor",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            58
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            5.551115123125783e-17,
+            58.125
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            40
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            0.4000000059604645,
+            40.125
+          ],
+          "support": "SANDS/Deck_0_-21",
+          "lastHit": "SANDS/Deck_0_-21",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "northeast_stands",
+      "name": "Arena sand through northeast radial stairs to upper terrace",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            51.9,
+            -35.637
+          ],
+          "reached": true,
+          "foot": [
+            51.808504678942,
+            7.006457787056775,
+            -35.545504678941995
+          ],
+          "support": "STAIRS/Lower2/19",
+          "lastHit": "STAIRS/Lower2/19",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            62,
+            -45.737
+          ],
+          "reached": true,
+          "foot": [
+            61.884776310850384,
+            20.087707927127667,
+            -45.62177631085038
+          ],
+          "support": "STAIRS/Cavea2/42",
+          "lastHit": "STAIRS/Cavea2/42",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            72.5,
+            -56.237
+          ],
+          "reached": true,
+          "foot": [
+            72.40298968100036,
+            31.355999940872152,
+            -56.13998968100036
+          ],
+          "support": "FACADE/Continuous cornice.003",
+          "lastHit": "FACADE/Continuous cornice.003",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "upper_stairs",
+      "name": "Northeast cavea staircase from lower landing to upper promenade",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            62,
+            -45.737
+          ],
+          "reached": true,
+          "foot": [
+            61.899494936611745,
+            20.087707927127667,
+            -45.63649493661175
+          ],
+          "support": "STAIRS/Cavea2/42",
+          "lastHit": "STAIRS/Cavea2/42",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            72.5,
+            -56.237
+          ],
+          "reached": true,
+          "foot": [
+            72.41770830676172,
+            31.355999940872152,
+            -56.15470830676173
+          ],
+          "support": "FACADE/Continuous cornice.003",
+          "lastHit": "FACADE/Continuous cornice.003",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "vip",
+      "name": "Middle seating into imperial loggia through side passage",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            17,
+            -59
+          ],
+          "reached": true,
+          "foot": [
+            17.125,
+            16.199248952388782,
+            -59
+          ],
+          "support": "CAVEA/Sector03/Row09",
+          "lastHit": "CAVEA/Sector03/Row09",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            15,
+            -59
+          ],
+          "reached": true,
+          "foot": [
+            15.125,
+            15.73994443681505,
+            -59
+          ],
+          "support": "CAVEA/Sector03/Row09",
+          "lastHit": "CAVEA/Sector03/Row09",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -59
+          ],
+          "reached": true,
+          "foot": [
+            10.125,
+            18.719999924898147,
+            -59
+          ],
+          "support": "VIP/Side access bridge.001",
+          "lastHit": "VIP/Side access bridge.001",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            -59
+          ],
+          "reached": true,
+          "foot": [
+            0.125,
+            18.72000075161457,
+            -59
+          ],
+          "support": "VIP/Loggia floor",
+          "lastHit": "VIP/Loggia floor",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "hypogeum",
+      "name": "Arena service ramp into hypogeum and preparation passage",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            64,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            64.125,
+            0.4000000059604645,
+            0
+          ],
+          "support": "SANDS/Deck_32_0",
+          "lastHit": "SANDS/Deck_32_0",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            46,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            46.125,
+            -5.29679991146028,
+            0
+          ],
+          "support": "HYPOGEUM/Gladiator ramp",
+          "lastHit": "HYPOGEUM/Gladiator ramp",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            33,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            33.125,
+            -5.600000083446503,
+            0
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            20,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            20.125,
+            -5.600000083446503,
+            0
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            12,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            12.125,
+            -5.600000083446503,
+            0
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            12,
+            -14
+          ],
+          "reached": true,
+          "foot": [
+            12.001121009108822,
+            -5.600000083446503,
+            -13.87444697981207
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            7,
+            -17
+          ],
+          "reached": true,
+          "foot": [
+            7.125066079427637,
+            -5.600000083446503,
+            -16.921837391743544
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            7,
+            -23
+          ],
+          "reached": true,
+          "foot": [
+            7.001634423775726,
+            -5.600000083446503,
+            -22.920567642920254
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "river_bridge",
+      "name": "West quay across the real bridge ramps and deck into the city",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -212.5,
+            -105
+          ],
+          "reached": true,
+          "foot": [
+            -212.625,
+            6.050000190734863,
+            -105
+          ],
+          "support": "Pons_Caelius/stone",
+          "lastHit": "Pons_Caelius/stone",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -180,
+            -105
+          ],
+          "reached": true,
+          "foot": [
+            -180.125,
+            6.050000190734863,
+            -105
+          ],
+          "support": "Pons_Caelius/road",
+          "lastHit": "Pons_Caelius/road",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -147.5,
+            -105
+          ],
+          "reached": true,
+          "foot": [
+            -147.625,
+            6.050000190734863,
+            -105
+          ],
+          "support": "Pons_Caelius/road",
+          "lastHit": "Pons_Caelius/road",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -126,
+            -105
+          ],
+          "reached": true,
+          "foot": [
+            -126.125,
+            -0.035000000149011556,
+            -105
+          ],
+          "support": "District_ground/ground",
+          "lastHit": "District_ground/ground",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "temple",
+      "name": "City avenue up temple stairs into its colonnaded portico",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            10,
+            -133
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            8.25,
+            -132.875
+          ],
+          "support": "Temple_of_Concordia/stone",
+          "lastHit": "Temple_of_Concordia/stone",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -145.8
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            12,
+            -145.625
+          ],
+          "support": "Temple_of_Concordia/stone",
+          "lastHit": "Temple_of_Concordia/stone",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -150
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            12.260000228881836,
+            -149.875
+          ],
+          "support": "Temple_of_Concordia/marble",
+          "lastHit": "Temple_of_Concordia/marble",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -154
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            12.260000228881836,
+            -153.875
+          ],
+          "support": "Temple_of_Concordia/marble",
+          "lastHit": "Temple_of_Concordia/marble",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -158
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            12.65999984741211,
+            -157.875
+          ],
+          "support": "Temple_of_Concordia/marble",
+          "lastHit": "Temple_of_Concordia/marble",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "northeast_descent",
+      "name": "Upper promenade down radial stairs onto the arena sand",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            62,
+            -45.737
+          ],
+          "reached": true,
+          "foot": [
+            62.07017497749834,
+            22.013958639403143,
+            -45.80717497749834
+          ],
+          "lastHit": "STAIRS/Cavea2/45",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            51.9,
+            -35.637
+          ],
+          "reached": true,
+          "foot": [
+            51.993903345589956,
+            8.87104160318771,
+            -35.73090334558996
+          ],
+          "lastHit": "STAIRS/Cavea2/6",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            43.5,
+            -27.237
+          ],
+          "reached": true,
+          "foot": [
+            43.59701031899964,
+            0.7383332874377573,
+            -27.33401031899964
+          ],
+          "support": "SANDS/Deck_21_13",
+          "lastHit": "SANDS/Deck_21_13",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "hypogeum_exit",
+      "name": "Preparation passage back through service ramp to the arena",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            7,
+            -17
+          ],
+          "reached": true,
+          "foot": [
+            7,
+            -5.600000083446503,
+            -17.125
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            12,
+            -14
+          ],
+          "reached": true,
+          "foot": [
+            11.875990248029256,
+            -5.600000083446503,
+            -14.077506094981716
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            12,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            11.999312458506832,
+            -5.600000083446503,
+            -0.07804926150409376
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            46,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            45.87422320818543,
+            -5.558725502519129,
+            -0.00028872315312748455
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            64,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            63.874223142545475,
+            0.4000000059604645,
+            -0.00003225745110599982
+          ],
+          "support": "HYPOGEUM/Gladiator ramp",
+          "lastHit": "HYPOGEUM/Gladiator ramp",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            66,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            65.87422314010924,
+            0.4000000059604645,
+            -0.00003225745110599982
+          ],
+          "support": "SANDS/Deck_32_0",
+          "lastHit": "SANDS/Deck_32_0",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    }
+  ],
+  "errors": []
+}

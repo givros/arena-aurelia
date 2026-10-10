@@ -1,0 +1,21 @@
+**/node_modules/
+**/dist/
+**/__pycache__/
+*.py[cod]
+*.log
+*.blend[1-9]
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+/viewer/performance/baseline-app/
+/viewer/performance/baseline-dist/
+/viewer/performance/pre-grid-dist/
+/viewer/.pages-check/
+/checkpoints/current.blend
+
+# Byte-identical files restored from repository-assets/manifest.json.
+/viewer/public/assets/environment.bin
+/viewer/checkpoints/pre-bank-boundary/environment.bin
+*.restore-tmp

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-10-10T18:00:56.050Z",
+  "purpose": "Original pre-optimization rendering modules rebuilt against the final unchanged-quality source, with the same corrected controller as the optimized build.",
+  "source": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "commonController": {
+    "file": "src/navigation.ts",
+    "sha256": "06fd2be66183a97c9a546e2983e906a67ac595c37a7de5bad09f12f951beb374",
+    "reason": "Grounded-only stair stepping; identical in both performance arms."
+  },
+  "originalModules": {
+    "atmosphere.ts": "96bacfb78c3dc9d91ae795df022d94479f4a4b433b3676befbfb5ca97a1330ba",
+    "characters.ts": "b16127ec055c4ef555362a979fa230eee1b804f13b9e8e37d62b2233d45c01af",
+    "collision.ts": "c92abb59c9be551c4aec787bbdb6a7312167dd92a3c3b539af77d643937f554c",
+    "main.ts": "2c3f01458aa33202c03b035a0e72178c5c201eb1d337d21c05f8ca85fd1a670c",
+    "navigation.ts": "e9c498ee72bba985eb20670e3efe2e6b0021cfbbf1988a0094513d13538759c8",
+    "performance.ts": "d6470209de355f78a6294a1b1a64561c85454ccd3555721d469f994017f597b8",
+    "scene.ts": "80f91fce378ac37fd6059d8cbde19b4203b277ac343033b2729c6c2137711df0"
+  },
+  "build": {
+    "index-Cj9FlUBs.css": "828f2211e57f5636f17e63e33aadb05973cb00497c61b63cf43d7fa0319fc55b",
+    "index-DFRJ3bRJ.js": "c63c11b94b517c5e3e96c49b5f5268c2e34637ee3269bdee8cae277e788d165b"
+  },
+  "effectiveModules": {
+    "atmosphere.ts": "96bacfb78c3dc9d91ae795df022d94479f4a4b433b3676befbfb5ca97a1330ba",
+    "character-merge.ts": "4e7774a4f4ae1cfdf298f54aa945110e4aa59d88e7b27b0d62a56449fc251690",
+    "characters.ts": "b16127ec055c4ef555362a979fa230eee1b804f13b9e8e37d62b2233d45c01af",
+    "collision.ts": "c92abb59c9be551c4aec787bbdb6a7312167dd92a3c3b539af77d643937f554c",
+    "main.ts": "2c3f01458aa33202c03b035a0e72178c5c201eb1d337d21c05f8ca85fd1a670c",
+    "navigation.ts": "06fd2be66183a97c9a546e2983e906a67ac595c37a7de5bad09f12f951beb374",
+    "performance.ts": "d6470209de355f78a6294a1b1a64561c85454ccd3555721d469f994017f597b8",
+    "prewarm.ts": "371bb17fc2ebebea6a1a327ac6208b876c9a7d4d0e894a12309c77d916dd562a",
+    "scene.ts": "80f91fce378ac37fd6059d8cbde19b4203b277ac343033b2729c6c2137711df0",
+    "ui.ts": "4d0dc7d0495389a9814afb4a1b35584834adf7c59fe35db3d79af14757dcd694"
+  }
+}

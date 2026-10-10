@@ -1,0 +1,47 @@
+{
+  "phase": "Desktop WebGPU stutter profiling and quality-preserving optimization",
+  "references": [
+    {
+      "used": true,
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/debug-profile-checklists.md",
+      "application": "Production reproduction, correct served build, loop ownership, frame pacing, CPU/GPU classification and exact-path retest.",
+      "failureReason": null
+    },
+    {
+      "used": true,
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/checklists/scene-debugging.md",
+      "application": "Frame-aware actor-state verification and focused program lifecycle tracing on the unchanged production build.",
+      "failureReason": null
+    },
+    {
+      "used": true,
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/checklists/performance-profile.md",
+      "application": "Fixed desktop viewport and quality, baseline/post frame-time distributions, allocation and draw-work inspection.",
+      "failureReason": null
+    },
+    {
+      "used": true,
+      "path": "C:/Users/limou/.codex/skills/givros-environment-builder/references/threejs-viewer.md",
+      "application": "Preserve complete source assets, native pixel ratio, material/shadow detail, animation sampling and walking behavior while reducing redundant work.",
+      "failureReason": null
+    },
+    {
+      "used": true,
+      "path": "C:/Users/limou/.codex/skills/givros-environment-builder/references/renderer-validation.md",
+      "application": "Actual WebGPU/backend verification; separate startup, CPU callback, frame interval and GPU timing; source/build-bound repeatable comparisons with no competing Blender render.",
+      "failureReason": null
+    }
+  ],
+  "scope": "Desktop production preview at localhost only; isolated headless testing does not control the user's browser.",
+  "qualityContract": "No mesh simplification, LOD substitutions, crowd billboards, reduced animation rate, texture compression/downsampling, adaptive resolution or reduced lighting features. Correct per-pass culling and shared resources are allowed.",
+  "performanceEvidence": "performance_optimization.json",
+  "completion": "Reference review complete; measured results are owned by the linked performance evidence.",
+  "correctnessEvidence": [
+    "skeleton_equivalence_validation.json",
+    "character_merge_equivalence_validation.json",
+    "primitive_visual_validation.json",
+    "stable_grid_validation.json",
+    "performance_optimization.json"
+  ],
+  "rejectedExperiment": "Static command bundles were rejected after visible seating differences; failed comparison evidence is retained separately and does not establish production correctness."
+}

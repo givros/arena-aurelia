@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "added": 103,
+  "alreadyPresent": 0,
+  "groups": 19,
+  "rejected": [
+    {
+      "id": "street_EntryGathering_00_01",
+      "reason": "uneven_sandal_support"
+    },
+    {
+      "id": "street_EntryGathering_03_02",
+      "reason": "animated_route_clearance"
+    },
+    {
+      "id": "street_EntryGathering_05_03",
+      "reason": "animated_route_clearance"
+    },
+    {
+      "id": "street_EntryGathering_07_03",
+      "reason": "animated_route_clearance"
+    },
+    {
+      "id": "street_EntryGathering_07_04",
+      "reason": "animated_route_clearance"
+    },
+    {
+      "id": "street_EntryGathering_12_02",
+      "reason": "animated_route_clearance"
+    },
+    {
+      "id": "street_EntryGathering_16_01",
+      "reason": "animated_route_clearance"
+    },
+    {
+      "id": "street_EntryGathering_18_00",
+      "reason": "animated_route_clearance"
+    }
+  ],
+  "centralAxisClearWidth": 6,
+  "minimumActorCenterSeparation": 1.0,
+  "sourceAndRuntimePositionsIdentical": true,
+  "meshGroundAndTwoFootChecks": true,
+  "sourceInstancesVisible": true,
+  "layoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+  "crowdManifestSHA256": "ec30a70b792191a41ca949f47d8f0acaba4f06d133d956a8117497809ad5742b",
+  "sourceSaveResponsibility": "Caller",
+  "totalPopulation": 13265,
+  "characterTriangleInstances": 66425490,
+  "generationLayoutSHA256": "12e0f77c4fa734265dece8cc25f58da54b344c6bd1b9da8e1d9bef818f9022dd",
+  "generationCrowdManifestSHA256": "8aa81a3dd81a84316283087b1028ef23df64f47ff32444ee9ceb473b759e9046",
+  "currentLayoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+  "provenanceRefresh": {
+    "scope": "Navigation metadata only; measured transforms, geometry and motion unchanged",
+    "measuredManifestSHA256": "8aa81a3dd81a84316283087b1028ef23df64f47ff32444ee9ceb473b759e9046",
+    "sourceSHA256": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b"
+  }
+}

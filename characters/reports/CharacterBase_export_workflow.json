@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "source_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "source_blend_sha256_before": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "source_blend_sha256_after": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "source_blend_unchanged": true,
+  "source_blend_saved": false,
+  "canonical_blend_in_output_directory": true,
+  "additional_blend_files_created": [],
+  "blender": "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+  "targets": "all",
+  "actions_requested": "auto",
+  "output_dir": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters",
+  "outputs": [
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.fbx",
+      "sha256": "154f487fba472a6da45df56febf5b49d6ed516a00e54f8f92e91d6dee96d29a3",
+      "bytes": 800284
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.glb",
+      "sha256": "6de7a6b0daf004421992a355c4dfffb30266aeeda467814f147f947ea02d7768",
+      "bytes": 638444
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\idle.fbx",
+      "sha256": "6dffe7383dde22fe460693f807a30c34204a0818923232187b83f1400c89e00e",
+      "bytes": 1060188
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\jump.fbx",
+      "sha256": "ba2fdc844258e2b4721acc78326045301c761974c1098c9d70be8bbd1c7451c0",
+      "bytes": 513260
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\run.fbx",
+      "sha256": "f22cbc10251a047fba36861190be19250450437399befc992db723c6b0080b82",
+      "bytes": 393180
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\walk.fbx",
+      "sha256": "ca7146b66042797cebaf4ce4bf1caa9a9d0425cfccc3f00537ee8236a42671b9",
+      "bytes": 448092
+    }
+  ],
+  "export_report": {
+    "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_export.json",
+    "sha256": "e2a4d0555cf3c0d2ae7027f798053cdd206442b0a11ae88e33638887e3aaf6ac"
+  },
+  "validation_reports": [
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_fbx_validation.json",
+      "sha256": "3caf7ddb4b3a610fa042c70293102ec63e0983ab0760956057ab413a9f11f495"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_glb_validation.json",
+      "sha256": "724a87cda65284cdcbfd1003c6ae39a1869fd7be7a247f55effc3eeb12a48376"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\anim\\idle_fbx_validation.json",
+      "sha256": "8b16d55688e5173eb926cdba37fa22ddea0a5e78f1836c569e4a805b28c7240d"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\anim\\jump_fbx_validation.json",
+      "sha256": "9c20f257e059479f77868086004e74d0280ab3a6e7929e6d649095d97b4cb2b4"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\anim\\run_fbx_validation.json",
+      "sha256": "022e27dbe237ec00f841be43f15cdd6b3dc3075882ff0dfde6aaa96958db2c06"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\anim\\walk_fbx_validation.json",
+      "sha256": "48cac76b637fd2afc4697f1a50532b1456dc5887409208ed0a7da6ad4480bbef"
+    }
+  ],
+  "all_reimports_passed": true,
+  "glb_draco": false,
+  "animation_payload": "skeleton_only",
+  "neutral_glb_compression": "none"
+}

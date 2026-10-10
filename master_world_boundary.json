@@ -1,0 +1,514 @@
+{
+  "revision": "organic-city-envelope-1",
+  "coordinateSystem": "blender_xyz_z_up",
+  "wall": {
+    "id": "Aurelia_city_enclosure",
+    "closed": true,
+    "centerline": [
+      [
+        -311,
+        -145
+      ],
+      [
+        -297,
+        -199
+      ],
+      [
+        -253,
+        -222
+      ],
+      [
+        -202,
+        -227
+      ],
+      [
+        -157,
+        -229
+      ],
+      [
+        -107,
+        -230
+      ],
+      [
+        -40,
+        -227
+      ],
+      [
+        0,
+        -229
+      ],
+      [
+        64,
+        -226
+      ],
+      [
+        126,
+        -228
+      ],
+      [
+        181,
+        -218
+      ],
+      [
+        241,
+        -202
+      ],
+      [
+        291,
+        -160
+      ],
+      [
+        326,
+        -111
+      ],
+      [
+        341,
+        -40
+      ],
+      [
+        341,
+        45
+      ],
+      [
+        332,
+        113
+      ],
+      [
+        342,
+        174
+      ],
+      [
+        340,
+        251
+      ],
+      [
+        321,
+        315
+      ],
+      [
+        286,
+        370
+      ],
+      [
+        220,
+        414
+      ],
+      [
+        141,
+        428
+      ],
+      [
+        56,
+        422
+      ],
+      [
+        -25,
+        427
+      ],
+      [
+        -109,
+        419
+      ],
+      [
+        -165,
+        424
+      ],
+      [
+        -201,
+        425
+      ],
+      [
+        -247,
+        411
+      ],
+      [
+        -290,
+        371
+      ],
+      [
+        -306,
+        306
+      ],
+      [
+        -303,
+        241
+      ],
+      [
+        -315,
+        181
+      ],
+      [
+        -310,
+        116
+      ],
+      [
+        -307,
+        57
+      ],
+      [
+        -314,
+        -18
+      ]
+    ],
+    "thickness": 3.0,
+    "height": 8.5,
+    "interiorWalkReservation": 5.0,
+    "housingInset": 8.0
+  },
+  "gates": [
+    {
+      "id": "Porta_Spectaculorum",
+      "label": "Southern arena gate",
+      "center": [
+        0,
+        -229,
+        0
+      ],
+      "width": 9,
+      "height": 9,
+      "approach": [
+        [
+          0,
+          -174,
+          0
+        ],
+        [
+          0,
+          -198,
+          0
+        ],
+        [
+          0,
+          -217,
+          0
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "id": "Porta_Orientalis",
+      "label": "Eastern trade gate",
+      "center": [
+        341,
+        -10,
+        0
+      ],
+      "width": 8,
+      "height": 8,
+      "approach": [
+        [
+          289,
+          12,
+          0
+        ],
+        [
+          310,
+          8,
+          0
+        ],
+        [
+          329,
+          -10,
+          0
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "id": "Porta_Pontis",
+      "label": "Western bridge gate",
+      "center": [
+        -310,
+        116,
+        0
+      ],
+      "width": 8,
+      "height": 8,
+      "approach": [
+        [
+          -238.5,
+          105,
+          0
+        ],
+        [
+          -268,
+          97,
+          0
+        ],
+        [
+          -292,
+          112,
+          0
+        ]
+      ],
+      "closed": true
+    },
+    {
+      "id": "Porta_Collina",
+      "label": "Northern hill gate",
+      "center": [
+        56,
+        422,
+        0
+      ],
+      "width": 8,
+      "height": 8,
+      "approach": [
+        [
+          91,
+          370,
+          0
+        ],
+        [
+          75,
+          393,
+          0
+        ],
+        [
+          57,
+          411,
+          0
+        ]
+      ],
+      "closed": true
+    }
+  ],
+  "watergates": [
+    {
+      "id": "Southern_river_gate",
+      "center": [
+        -179.5,
+        -228,
+        0
+      ],
+      "waterRangeX": [
+        -197,
+        -160
+      ],
+      "bankRangeX": [
+        -202,
+        -157
+      ],
+      "archClearance": 8,
+      "riverContinuation": [
+        [
+          -179.5,
+          -228,
+          -3.5
+        ],
+        [
+          -184,
+          -300,
+          -3.5
+        ],
+        [
+          -213,
+          -390,
+          -3.5
+        ],
+        [
+          -280,
+          -500,
+          -3.5
+        ]
+      ]
+    },
+    {
+      "id": "Northern_river_gate",
+      "center": [
+        -179.5,
+        424.4,
+        0
+      ],
+      "waterRangeX": [
+        -197,
+        -160
+      ],
+      "bankRangeX": [
+        -201,
+        -158
+      ],
+      "archClearance": 8,
+      "riverContinuation": [
+        [
+          -179.5,
+          424.4,
+          -3.5
+        ],
+        [
+          -171,
+          496,
+          -3.5
+        ],
+        [
+          -139,
+          570,
+          -3.5
+        ],
+        [
+          -95,
+          680,
+          -3.5
+        ]
+      ]
+    }
+  ],
+  "landformBands": [
+    {
+      "id": "South_olive_terraces",
+      "polyline": [
+        [
+          -320,
+          -247
+        ],
+        [
+          -228,
+          -255
+        ],
+        [
+          -109,
+          -252
+        ],
+        [
+          7,
+          -252
+        ],
+        [
+          141,
+          -255
+        ],
+        [
+          246,
+          -229
+        ],
+        [
+          320,
+          -192
+        ]
+      ],
+      "width": 125,
+      "heightRange": [
+        4,
+        22
+      ],
+      "theme": "layered stone terraces, groves and distant rooftops"
+    },
+    {
+      "id": "East_cypress_ridge",
+      "polyline": [
+        [
+          357,
+          -170
+        ],
+        [
+          370,
+          -70
+        ],
+        [
+          370,
+          58
+        ],
+        [
+          366,
+          174
+        ],
+        [
+          365,
+          292
+        ],
+        [
+          321,
+          377
+        ]
+      ],
+      "width": 150,
+      "heightRange": [
+        12,
+        58
+      ],
+      "theme": "rolling cypress ridge with terraced villas"
+    },
+    {
+      "id": "North_urban_hills",
+      "polyline": [
+        [
+          -296,
+          433
+        ],
+        [
+          -145,
+          459
+        ],
+        [
+          -3,
+          452
+        ],
+        [
+          146,
+          453
+        ],
+        [
+          275,
+          437
+        ],
+        [
+          355,
+          390
+        ]
+      ],
+      "width": 210,
+      "heightRange": [
+        22,
+        105
+      ],
+      "theme": "layered urban roofs, olives and varied hills"
+    },
+    {
+      "id": "West_river_hills",
+      "polyline": [
+        [
+          -334,
+          -222
+        ],
+        [
+          -348,
+          -69
+        ],
+        [
+          -345,
+          85
+        ],
+        [
+          -348,
+          249
+        ],
+        [
+          -334,
+          398
+        ]
+      ],
+      "width": 135,
+      "heightRange": [
+        10,
+        48
+      ],
+      "theme": "river terraces and wooded shoulder"
+    }
+  ],
+  "protectedLandmarks": [
+    "arena",
+    "current street markets and all current people",
+    "Pons_Caelius",
+    "Temple_of_Concordia",
+    "Aqua_Aurelia",
+    "Basilica_Aemilia",
+    "Basilica_Mercatoria",
+    "Tower_of_the_Watch",
+    "Civic_Archive_Tower"
+  ],
+  "notes": [
+    "The wall replaces the exposed rectangular pavement edge; gatehouse doors close the walkable world physically.",
+    "Water continues under dedicated arched river gates and beyond the ground cutoffs.",
+    "Housing envelopes stay at least8m inside the wall centerline. Existing arena and street layout coordinates remain fixed."
+  ]
+}

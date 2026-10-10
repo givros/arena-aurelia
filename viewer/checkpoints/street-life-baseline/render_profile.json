@@ -1,0 +1,136 @@
+{
+  "profileVersion": 2,
+  "name": "Arena Aurelia desktop WebGPU",
+  "versions": {
+    "three": "0.186.1",
+    "threeTypes": "0.183.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
+  },
+  "backend": {
+    "required": "WebGPU",
+    "fallback": false,
+    "checks": [
+      "secure context",
+      "navigator.gpu",
+      "adapter acquisition",
+      "actual renderer.backend.isWebGPUBackend",
+      "device loss"
+    ]
+  },
+  "source": {
+    "manifest": "public/assets/environment.json",
+    "binary": "public/assets/environment.bin",
+    "coordinateTransform": "Blender [x,y,z] to Three [x,z,-y]",
+    "units": "meters",
+    "precision": "Float32 source vertex positions/normals/UVs; Uint32 indices; full transforms"
+  },
+  "quality": {
+    "pixelRatio": "native devicePixelRatio",
+    "antialiasing": "4x hardware MSAA",
+    "shadowResolution": [
+      4096,
+      4096
+    ],
+    "shadowAlgorithm": "PCFShadowMap",
+    "compression": "none",
+    "geometrySimplification": false,
+    "automaticQualityReduction": false,
+    "textures": "source resolution, base color sRGB, data maps linear, anisotropy 8",
+    "shadowBias": -0.00035,
+    "normalBiasMeters": 0.06
+  },
+  "passes": [
+    {
+      "ownership": "GPU screen/depth cluster lists for every authored finite point light",
+      "resolution": "32 px tiles, 24 depth slices",
+      "name": "Cluster light assignment"
+    },
+    {
+      "name": "simulation",
+      "ownership": "single bounded frame update for navigation, day/night, actors"
+    },
+    {
+      "name": "direct shadows",
+      "contributors": "every complete visible source mesh including instances and characters",
+      "resolution": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "Forward+ clustered PBR",
+      "output": "scene-linear radiance",
+      "resolution": "native full drawing buffer"
+    },
+    {
+      "name": "output",
+      "toneMapping": "ACESFilmic",
+      "exposure": 0.94,
+      "outputColor": "sRGB",
+      "applications": 1
+    }
+  ],
+  "lighting": {
+    "direct": "single sun + readable moon fill; full-detail sun shadows",
+    "indirectDiffuse": "hemisphere sky/ground fill",
+    "localized": "Source-authored finite point lights evaluated by native Three.js 0.186.1 ClusteredLighting plus emissive materials",
+    "bakedContributions": false,
+    "reflections": "material BRDF; no planar or ray-traced reflection pass",
+    "timeCycleSeconds": 1080,
+    "clusters": {
+      "capacity": "At least 64 lights and never lower than the entire authored light count; no list truncation",
+      "depthSlices": 24,
+      "tilePixels": 32
+    },
+    "fog": {
+      "nearMeters": 420,
+      "farMeters": 1350,
+      "dayColor": "#c1c6c5",
+      "type": "linear"
+    },
+    "fill": {
+      "dayHemisphere": 0.94,
+      "daySun": "up to 3.2",
+      "nightHemisphere": 1.12,
+      "nightMoon": 0.77
+    }
+  },
+  "temporal": {
+    "TAA": false,
+    "historyBuffers": false,
+    "animationDtMaxSeconds": 0.05
+  },
+  "cache": {
+    "persistentLightingCache": "not used",
+    "geometrySharing": "Exact source geometry, large repeated groups instanced; smaller components merged by material within 150m cells; unchanged spectators shared in eight angular instance groups",
+    "collision": "prototype triangle BVH with exact transformed instances and spatial hash; separate from beauty geometry"
+  },
+  "navigation": {
+    "eyeHeightMeters": 1.72,
+    "bodyHeightMeters": 1.84,
+    "radiusMeters": 0.32,
+    "stepHeightMeters": 0.38,
+    "walkSpeedMetersPerSecond": 4.2,
+    "runSpeedMetersPerSecond": 7.5,
+    "walkingFovDegrees": 67,
+    "controls": [
+      "WASD",
+      "ZQSD",
+      "mouse look",
+      "Shift run",
+      "Space jump",
+      "M aerial/walk",
+      "Escape pause"
+    ],
+    "support": "Layer-aware five-sample footprint support using downward exact-triangle rays",
+    "blocking": "multiheight, body-width swept rays with axis sliding",
+    "bounds": "Source-authored XZ bounds clamp the body radius before the world edge"
+  },
+  "validation": {
+    "scope": "desktop only",
+    "sourceHashes": "recorded by scripts/validate.mjs after final source export",
+    "status": "Resolved profile; final evidence and hashes in runtime_validation.json and source_validation.json",
+    "reproducibleInstall": "npm ci --ignore-scripts --no-audit --no-fund passed on Node 22.15.0 / npm 10.9.2"
+  }
+}

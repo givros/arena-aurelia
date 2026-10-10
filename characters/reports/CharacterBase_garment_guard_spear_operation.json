@@ -1,0 +1,67 @@
+{
+  "after_blend_sha256": "CF504BB0EC05F706619C4031B5E2E602F649465D7CC6D067D62AAC3C6DA9EEE1",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_guard_spear_after.json",
+  "after_semantic_digest": "8472D40EF443FFEA03E02F160D1623774C76E8A6476E029C60530F2B7A4FB644",
+  "allowed_scopes": [
+    "garment:guard_spear"
+  ],
+  "before_blend_sha256": "00CAA6F86A6A1C985698D799E91CC41E4C14CA05FD38C87971794D8EA1BB7F7F",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_guard_spear_before.json",
+  "before_semantic_digest": "EC63BDF12CBFC6B7AAB266E57528A295C231AA8B3B8101D03DAD270536C582AB",
+  "changed_scopes": [
+    "garment:guard_spear"
+  ],
+  "changes": [
+    {
+      "after": "8B515715E86E174C6297206C137772FFD7184CDC8772FAD6706D2A415D084907",
+      "allowed": true,
+      "before": "9AC34A4A3FCC4FD7387E9A530A2C9AF054E02916AE1988586036A7BF3798281C",
+      "change": "modified",
+      "members": [
+        {
+          "after": "BBFA0A444828C21A995C40FC607F231A6A9E408CE57A76BDA8F3337CFFC32784",
+          "before": "A0F016AADB68CC588364E5EC5F015671AF1933BBEFAC9103674C54E3B5920EB0",
+          "change": "modified",
+          "member": "object:GuardSpear:geometry"
+        },
+        {
+          "after": "67378FC5B275DA69FFE5A9AA1B5137E5A04E6E8526C850D5A043B91A0D4D7223",
+          "before": "90A29B121D6A2496546CD4FD721B03B04B237C57C2CD755EF31A4CB2BE8A9F10",
+          "change": "modified",
+          "member": "object:GuardSpear:metadata"
+        },
+        {
+          "after": "5918E5856DA7CA8D7A596B0FD1823AA4824A00C078DA8B44D60E0D9ACACCB414",
+          "before": "0EBDCFD4EC615EBB336B78DE0887CE17B160A64DF44DF1AEC325A6DF84EF2B37",
+          "change": "modified",
+          "member": "object:GuardSpear:transform_and_parent"
+        },
+        {
+          "after": "6C8DDBA598C3C1337C1559D83C1C0F377F63C27604D981641613C3D0486A5C0A",
+          "before": "7D8206037D4A4FE6A0ED1FC46709A963F68AC27A91717402E47947142E8C3505",
+          "change": "modified",
+          "member": "object:GuardSpear:uv_and_attributes"
+        }
+      ],
+      "scope": "garment:guard_spear"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "animations",
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:gladiator_sword",
+    "garment:guard_shield",
+    "garment:hair_cap",
+    "garment:leather_belt",
+    "garment:roman_helmet",
+    "garment:roman_sandals",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "violations": []
+}

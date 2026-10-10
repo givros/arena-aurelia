@@ -1,0 +1,61 @@
+{
+  "after_blend_sha256": "542BDF991989A8D1A2D080B6B4862530C3498BB701E848073691B98379FD94F9",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_roman_sandals_after.json",
+  "after_semantic_digest": "D53DAA306383C755996FBAE409C76E51C55AF935A9FDFB376A9569165AD4AEB4",
+  "allowed_scopes": [
+    "garment:roman_sandals"
+  ],
+  "before_blend_sha256": "60F5FF56A962C3AFFBC64ECDA3494D5B20230F63AF9ACB1A568B5AD64AA8CC16",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_roman_sandals_before.json",
+  "before_semantic_digest": "837BAA0F01EA77CB367519556CCB4B7F428594DA83CB8B0E8282BE8BDED2C30A",
+  "changed_scopes": [
+    "garment:roman_sandals"
+  ],
+  "changes": [
+    {
+      "after": "C5D73C52C4E930742CBCF8F14EA59BE2ABE1D082755A4B331715A5F23CB2D209",
+      "allowed": true,
+      "before": "1DF781FF0BDF7E31DF7502FFB7879F95CC18E2FC14BEA64D24427E9CC0C2173F",
+      "change": "modified",
+      "members": [
+        {
+          "after": "B3B93C65F498CC425C6EDC2AC09724A4E51D50BBDA640656C69370E0C8763792",
+          "before": "E90EB77FCEE1D9FA6497B98430F73C19BB05EF417EF84D38EDEB2DE0AFA0889B",
+          "change": "modified",
+          "member": "object:RomanSandals:metadata"
+        },
+        {
+          "after": "48D6453796738E547677A8051385BCC937026A2475D0DF93DAD89FA7BBC70E5C",
+          "before": "AFF0F52E30EB96F7DD35FCF7441C5DBF19C204059E5A768F46FD910C6815A079",
+          "change": "modified",
+          "member": "object:RomanSandals:transform_and_parent"
+        },
+        {
+          "after": "4CA9BF33A8F79FD46061AB67CFC3FCB15259034F1F175A49673F38AD82A8234E",
+          "before": "A25C4F33D6BD2346FFDDF54FF9A96AC9BDD939C7B568A8DCCC081344077AE624",
+          "change": "modified",
+          "member": "object:RomanSandals:weights"
+        }
+      ],
+      "scope": "garment:roman_sandals"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "animations",
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:gladiator_sword",
+    "garment:guard_shield",
+    "garment:guard_spear",
+    "garment:hair_cap",
+    "garment:leather_belt",
+    "garment:roman_helmet",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "violations": []
+}

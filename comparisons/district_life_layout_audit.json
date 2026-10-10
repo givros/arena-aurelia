@@ -1,0 +1,5092 @@
+{
+  "layout_sha256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+  "counts": {
+    "commercial_assemblies": 235,
+    "stalls_and_cargo": 81,
+    "shopfronts": 64,
+    "complete_infill_shops": 90,
+    "vendors": 235,
+    "static_patrons": 2012,
+    "seated": 40,
+    "routes": 22,
+    "access_routes": 31,
+    "benches": 20,
+    "supported_lights": 20
+  },
+  "coverage": {
+    "rear_precinct": {
+      "assemblies": 15,
+      "patrons": 128,
+      "loops": 2
+    },
+    "temple_civic": {
+      "assemblies": 9,
+      "patrons": 101,
+      "loops": 2
+    },
+    "east_quay": {
+      "assemblies": 11,
+      "patrons": 125,
+      "loops": 2
+    },
+    "west_quay": {
+      "assemblies": 38,
+      "patrons": 334,
+      "loops": 2
+    },
+    "eastern_trades": {
+      "assemblies": 22,
+      "patrons": 254,
+      "loops": 2
+    },
+    "eastern_backstreets": {
+      "assemblies": 23,
+      "patrons": 198,
+      "loops": 2
+    },
+    "aqueduct_ward": {
+      "assemblies": 21,
+      "patrons": 157,
+      "loops": 4
+    },
+    "north_insulae": {
+      "assemblies": 28,
+      "patrons": 248,
+      "loops": 2
+    },
+    "upper_city": {
+      "assemblies": 50,
+      "patrons": 323,
+      "loops": 2
+    },
+    "south_residential": {
+      "assemblies": 18,
+      "patrons": 144,
+      "loops": 2
+    }
+  },
+  "unintended_projection_overlaps": [],
+  "minimum_new_to_existing_projection_gap": [
+    0.17348330684331098,
+    "District_frontage_129",
+    "East_02_01"
+  ],
+  "neighbor_relations": [
+    {
+      "new": "District_infill_shop_000",
+      "existing": "Precinct_02/stone",
+      "full_projection_gap": 2.3469
+    },
+    {
+      "new": "District_infill_shop_000",
+      "existing": "Precinct_02/shadow",
+      "full_projection_gap": 3.0353
+    },
+    {
+      "new": "District_infill_shop_000",
+      "existing": "Precinct_02/plasterPale",
+      "full_projection_gap": 2.5606
+    },
+    {
+      "new": "District_infill_shop_000",
+      "existing": "Precinct_02/wood",
+      "full_projection_gap": 2.9459
+    },
+    {
+      "new": "District_infill_shop_000",
+      "existing": "Precinct_02",
+      "full_projection_gap": 1.8256
+    },
+    {
+      "new": "District_infill_shop_000",
+      "newNeighbor": "District_infill_shop_001",
+      "full_projection_gap": 1.1519
+    },
+    {
+      "new": "District_infill_shop_001",
+      "newNeighbor": "District_bench_271",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_001",
+      "newNeighbor": "District_bench_272",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_002",
+      "newNeighbor": "District_brazier_273",
+      "full_projection_gap": 0.244
+    },
+    {
+      "new": "District_infill_shop_002",
+      "newNeighbor": "District_brazier_274",
+      "full_projection_gap": 0.244
+    },
+    {
+      "new": "District_infill_shop_003",
+      "existing": "North_05_00",
+      "full_projection_gap": 0.8849
+    },
+    {
+      "new": "District_infill_shop_003",
+      "existing": "North_05_00/stone",
+      "full_projection_gap": 1.3849
+    },
+    {
+      "new": "District_infill_shop_003",
+      "existing": "North_05_00/shadow",
+      "full_projection_gap": 2.1932
+    },
+    {
+      "new": "District_infill_shop_003",
+      "existing": "North_05_00/plaster",
+      "full_projection_gap": 1.6622
+    },
+    {
+      "new": "District_infill_shop_003",
+      "existing": "North_05_00/wood",
+      "full_projection_gap": 2.087
+    },
+    {
+      "new": "District_infill_shop_003",
+      "newNeighbor": "District_frontage_123",
+      "full_projection_gap": 1.2017
+    },
+    {
+      "new": "District_infill_shop_004",
+      "existing": "North_05_05",
+      "full_projection_gap": 1.3297
+    },
+    {
+      "new": "District_infill_shop_004",
+      "existing": "North_05_05/stone",
+      "full_projection_gap": 1.8296
+    },
+    {
+      "new": "District_infill_shop_004",
+      "existing": "North_05_05/shadow",
+      "full_projection_gap": 2.638
+    },
+    {
+      "new": "District_infill_shop_004",
+      "existing": "North_05_05/plasterPale",
+      "full_projection_gap": 2.1069
+    },
+    {
+      "new": "District_infill_shop_004",
+      "existing": "North_05_05/wood",
+      "full_projection_gap": 2.5317
+    },
+    {
+      "new": "District_infill_shop_004",
+      "newNeighbor": "District_infill_shop_005",
+      "full_projection_gap": 2.1174
+    },
+    {
+      "new": "District_infill_shop_005",
+      "newNeighbor": "District_infill_shop_006",
+      "full_projection_gap": 2.1304
+    },
+    {
+      "new": "District_infill_shop_006",
+      "newNeighbor": "District_infill_shop_007",
+      "full_projection_gap": 2.1093
+    },
+    {
+      "new": "District_infill_shop_007",
+      "existing": "Tree_092/bark",
+      "full_projection_gap": 2.3525
+    },
+    {
+      "new": "District_infill_shop_008",
+      "newNeighbor": "District_bench_247",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_008",
+      "newNeighbor": "District_bench_248",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_008",
+      "newNeighbor": "District_brazier_249",
+      "full_projection_gap": 0.4381
+    },
+    {
+      "new": "District_infill_shop_008",
+      "newNeighbor": "District_brazier_250",
+      "full_projection_gap": 0.4381
+    },
+    {
+      "new": "District_infill_shop_009",
+      "existing": "North_01_12/stone",
+      "full_projection_gap": 1.2049
+    },
+    {
+      "new": "District_infill_shop_009",
+      "existing": "North_01_12/shadow",
+      "full_projection_gap": 2.025
+    },
+    {
+      "new": "District_infill_shop_009",
+      "existing": "North_01_12/plaster",
+      "full_projection_gap": 1.376
+    },
+    {
+      "new": "District_infill_shop_009",
+      "existing": "North_01_12/wood",
+      "full_projection_gap": 1.9213
+    },
+    {
+      "new": "District_infill_shop_009",
+      "existing": "North_01_12",
+      "full_projection_gap": 0.4715
+    },
+    {
+      "new": "District_infill_shop_009",
+      "newNeighbor": "District_infill_shop_010",
+      "full_projection_gap": 2.1931
+    },
+    {
+      "new": "District_infill_shop_009",
+      "newNeighbor": "District_infill_shop_013",
+      "full_projection_gap": 3.8468
+    },
+    {
+      "new": "District_infill_shop_010",
+      "newNeighbor": "District_infill_shop_011",
+      "full_projection_gap": 2.1137
+    },
+    {
+      "new": "District_infill_shop_011",
+      "newNeighbor": "District_infill_shop_014",
+      "full_projection_gap": 3.7532
+    },
+    {
+      "new": "District_infill_shop_012",
+      "existing": "Tree_068/bark",
+      "full_projection_gap": 2.1936
+    },
+    {
+      "new": "District_infill_shop_012",
+      "existing": "Tree_012/bark",
+      "full_projection_gap": 2.9905
+    },
+    {
+      "new": "District_infill_shop_012",
+      "newNeighbor": "District_infill_shop_013",
+      "full_projection_gap": 1.1558
+    },
+    {
+      "new": "District_infill_shop_013",
+      "existing": "Tree_173/bark",
+      "full_projection_gap": 1.9807
+    },
+    {
+      "new": "District_infill_shop_014",
+      "existing": "Tree_111/bark",
+      "full_projection_gap": 3.0153
+    },
+    {
+      "new": "District_infill_shop_015",
+      "existing": "Courtyard_North_04_10/bank",
+      "full_projection_gap": 3.9129
+    },
+    {
+      "new": "District_infill_shop_015",
+      "newNeighbor": "District_bench_255",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_015",
+      "newNeighbor": "District_bench_256",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_015",
+      "newNeighbor": "District_brazier_257",
+      "full_projection_gap": 0.4613
+    },
+    {
+      "new": "District_infill_shop_015",
+      "newNeighbor": "District_brazier_258",
+      "full_projection_gap": 0.4613
+    },
+    {
+      "new": "District_infill_shop_016",
+      "newNeighbor": "District_frontage_100",
+      "full_projection_gap": 3.0427
+    },
+    {
+      "new": "District_infill_shop_017",
+      "existing": "East_07_00/stone",
+      "full_projection_gap": 3.6599
+    },
+    {
+      "new": "District_infill_shop_017",
+      "existing": "East_07_00/plasterWarm",
+      "full_projection_gap": 3.8077
+    },
+    {
+      "new": "District_infill_shop_017",
+      "existing": "East_07_00",
+      "full_projection_gap": 2.619
+    },
+    {
+      "new": "District_infill_shop_017",
+      "newNeighbor": "District_infill_shop_018",
+      "full_projection_gap": 2.2621
+    },
+    {
+      "new": "District_infill_shop_017",
+      "newNeighbor": "District_bench_259",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_017",
+      "newNeighbor": "District_bench_260",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_017",
+      "newNeighbor": "District_brazier_261",
+      "full_projection_gap": 0.3349
+    },
+    {
+      "new": "District_infill_shop_017",
+      "newNeighbor": "District_brazier_262",
+      "full_projection_gap": 0.3349
+    },
+    {
+      "new": "District_infill_shop_018",
+      "newNeighbor": "District_brazier_261",
+      "full_projection_gap": 0.8964
+    },
+    {
+      "new": "District_infill_shop_018",
+      "newNeighbor": "District_brazier_262",
+      "full_projection_gap": 1.3692
+    },
+    {
+      "new": "District_infill_shop_019",
+      "newNeighbor": "District_bench_263",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_019",
+      "newNeighbor": "District_bench_264",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_019",
+      "newNeighbor": "District_brazier_265",
+      "full_projection_gap": 0.2943
+    },
+    {
+      "new": "District_infill_shop_019",
+      "newNeighbor": "District_brazier_266",
+      "full_projection_gap": 0.2943
+    },
+    {
+      "new": "District_infill_shop_022",
+      "newNeighbor": "District_infill_shop_023",
+      "full_projection_gap": 2.5781
+    },
+    {
+      "new": "District_infill_shop_022",
+      "newNeighbor": "District_bench_267",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_022",
+      "newNeighbor": "District_bench_268",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_022",
+      "newNeighbor": "District_brazier_269",
+      "full_projection_gap": 0.5407
+    },
+    {
+      "new": "District_infill_shop_022",
+      "newNeighbor": "District_brazier_270",
+      "full_projection_gap": 0.5407
+    },
+    {
+      "new": "District_infill_shop_023",
+      "newNeighbor": "District_bench_268",
+      "full_projection_gap": 1.5274
+    },
+    {
+      "new": "District_infill_shop_023",
+      "newNeighbor": "District_brazier_270",
+      "full_projection_gap": 3.4309
+    },
+    {
+      "new": "District_infill_shop_024",
+      "newNeighbor": "District_infill_shop_025",
+      "full_projection_gap": 2.496
+    },
+    {
+      "new": "District_infill_shop_025",
+      "newNeighbor": "District_infill_shop_026",
+      "full_projection_gap": 3.6641
+    },
+    {
+      "new": "District_infill_shop_026",
+      "newNeighbor": "District_infill_shop_089",
+      "full_projection_gap": 0.5644
+    },
+    {
+      "new": "District_infill_shop_027",
+      "newNeighbor": "District_infill_shop_028",
+      "full_projection_gap": 2.1969
+    },
+    {
+      "new": "District_infill_shop_028",
+      "newNeighbor": "District_infill_shop_029",
+      "full_projection_gap": 2.196
+    },
+    {
+      "new": "District_infill_shop_029",
+      "newNeighbor": "District_infill_shop_030",
+      "full_projection_gap": 2.1854
+    },
+    {
+      "new": "District_infill_shop_030",
+      "newNeighbor": "District_infill_shop_031",
+      "full_projection_gap": 2.1737
+    },
+    {
+      "new": "District_infill_shop_031",
+      "newNeighbor": "District_infill_shop_032",
+      "full_projection_gap": 2.2327
+    },
+    {
+      "new": "District_infill_shop_032",
+      "newNeighbor": "District_infill_shop_033",
+      "full_projection_gap": 2.1345
+    },
+    {
+      "new": "District_infill_shop_033",
+      "newNeighbor": "District_infill_shop_034",
+      "full_projection_gap": 3.741
+    },
+    {
+      "new": "District_infill_shop_033",
+      "newNeighbor": "District_frontage_136",
+      "full_projection_gap": 3.5439
+    },
+    {
+      "new": "District_infill_shop_035",
+      "newNeighbor": "District_infill_shop_036",
+      "full_projection_gap": 2.2809
+    },
+    {
+      "new": "District_infill_shop_036",
+      "newNeighbor": "District_infill_shop_037",
+      "full_projection_gap": 2.0868
+    },
+    {
+      "new": "District_infill_shop_037",
+      "newNeighbor": "District_infill_shop_038",
+      "full_projection_gap": 0.6197
+    },
+    {
+      "new": "District_infill_shop_039",
+      "existing": "Courtyard_North_04_06/bank",
+      "full_projection_gap": 2.4886
+    },
+    {
+      "new": "District_infill_shop_039",
+      "existing": "Courtyard_North_04_06/stone",
+      "full_projection_gap": 2.6486
+    },
+    {
+      "new": "District_infill_shop_039",
+      "newNeighbor": "District_stall_201",
+      "full_projection_gap": 2.6209
+    },
+    {
+      "new": "District_infill_shop_039",
+      "newNeighbor": "District_bench_251",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_039",
+      "newNeighbor": "District_bench_252",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_039",
+      "newNeighbor": "District_brazier_253",
+      "full_projection_gap": 0.3804
+    },
+    {
+      "new": "District_infill_shop_039",
+      "newNeighbor": "District_brazier_254",
+      "full_projection_gap": 1.1804
+    },
+    {
+      "new": "District_infill_shop_040",
+      "newNeighbor": "District_infill_shop_041",
+      "full_projection_gap": 0.3875
+    },
+    {
+      "new": "District_infill_shop_040",
+      "newNeighbor": "District_infill_shop_042",
+      "full_projection_gap": 3.8743
+    },
+    {
+      "new": "District_infill_shop_041",
+      "newNeighbor": "District_infill_shop_042",
+      "full_projection_gap": 3.9029
+    },
+    {
+      "new": "District_infill_shop_041",
+      "newNeighbor": "District_infill_shop_043",
+      "full_projection_gap": 3.8103
+    },
+    {
+      "new": "District_infill_shop_042",
+      "newNeighbor": "District_infill_shop_043",
+      "full_projection_gap": 2.2702
+    },
+    {
+      "new": "District_infill_shop_043",
+      "newNeighbor": "District_infill_shop_074",
+      "full_projection_gap": 0.7291
+    },
+    {
+      "new": "District_infill_shop_044",
+      "existing": "Pons_Caelius/stone/part1080",
+      "full_projection_gap": 3.71
+    },
+    {
+      "new": "District_infill_shop_044",
+      "newNeighbor": "District_bench_235",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_044",
+      "newNeighbor": "District_bench_236",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_044",
+      "newNeighbor": "District_brazier_237",
+      "full_projection_gap": 0.3572
+    },
+    {
+      "new": "District_infill_shop_044",
+      "newNeighbor": "District_brazier_238",
+      "full_projection_gap": 0.3571
+    },
+    {
+      "new": "District_infill_shop_045",
+      "existing": "Sacred_courtyards/stone/part0",
+      "full_projection_gap": 0.9156
+    },
+    {
+      "new": "District_infill_shop_045",
+      "newNeighbor": "District_infill_shop_048",
+      "full_projection_gap": 3.8721
+    },
+    {
+      "new": "District_infill_shop_046",
+      "existing": "Sacred_courtyards/stone/part0",
+      "full_projection_gap": 2.7222
+    },
+    {
+      "new": "District_infill_shop_046",
+      "newNeighbor": "District_infill_shop_049",
+      "full_projection_gap": 3.6292
+    },
+    {
+      "new": "District_infill_shop_046",
+      "newNeighbor": "District_infill_shop_050",
+      "full_projection_gap": 3.4005
+    },
+    {
+      "new": "District_infill_shop_048",
+      "newNeighbor": "District_infill_shop_049",
+      "full_projection_gap": 2.8803
+    },
+    {
+      "new": "District_infill_shop_049",
+      "newNeighbor": "District_infill_shop_050",
+      "full_projection_gap": 2.8653
+    },
+    {
+      "new": "District_infill_shop_054",
+      "existing": "East_01_00",
+      "full_projection_gap": 3.6424
+    },
+    {
+      "new": "District_infill_shop_054",
+      "newNeighbor": "District_stall_198",
+      "full_projection_gap": 0.3836
+    },
+    {
+      "new": "District_infill_shop_054",
+      "newNeighbor": "District_bench_239",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_054",
+      "newNeighbor": "District_bench_240",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_054",
+      "newNeighbor": "District_brazier_241",
+      "full_projection_gap": 0.4624
+    },
+    {
+      "new": "District_infill_shop_054",
+      "newNeighbor": "District_brazier_242",
+      "full_projection_gap": 0.4624
+    },
+    {
+      "new": "District_infill_shop_055",
+      "newNeighbor": "District_infill_shop_056",
+      "full_projection_gap": 2.1276
+    },
+    {
+      "new": "District_infill_shop_056",
+      "existing": "Aqua_Aurelia/stone/part56",
+      "full_projection_gap": 2.2401
+    },
+    {
+      "new": "District_infill_shop_056",
+      "existing": "Aqua_Aurelia/stone/part32",
+      "full_projection_gap": 2.0401
+    },
+    {
+      "new": "District_infill_shop_056",
+      "existing": "Aqua_Aurelia/bank/part8",
+      "full_projection_gap": 2.4401
+    },
+    {
+      "new": "District_infill_shop_057",
+      "existing": "Courtyard_North_02_00/bank",
+      "full_projection_gap": 3.6353
+    },
+    {
+      "new": "District_infill_shop_057",
+      "existing": "Courtyard_North_02_00/stone",
+      "full_projection_gap": 3.7953
+    },
+    {
+      "new": "District_infill_shop_057",
+      "newNeighbor": "District_infill_shop_058",
+      "full_projection_gap": 2.2223
+    },
+    {
+      "new": "District_infill_shop_057",
+      "newNeighbor": "District_bench_243",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_057",
+      "newNeighbor": "District_bench_244",
+      "full_projection_gap": 0.3
+    },
+    {
+      "new": "District_infill_shop_057",
+      "newNeighbor": "District_brazier_245",
+      "full_projection_gap": 0.4948
+    },
+    {
+      "new": "District_infill_shop_057",
+      "newNeighbor": "District_brazier_246",
+      "full_projection_gap": 0.4949
+    },
+    {
+      "new": "District_infill_shop_058",
+      "newNeighbor": "District_infill_shop_059",
+      "full_projection_gap": 2.117
+    },
+    {
+      "new": "District_infill_shop_058",
+      "newNeighbor": "District_bench_244",
+      "full_projection_gap": 0.2988
+    },
+    {
+      "new": "District_infill_shop_058",
+      "newNeighbor": "District_brazier_245",
+      "full_projection_gap": 0.8648
+    },
+    {
+      "new": "District_infill_shop_059",
+      "newNeighbor": "District_infill_shop_060",
+      "full_projection_gap": 1.5179
+    },
+    {
+      "new": "District_infill_shop_060",
+      "newNeighbor": "District_infill_shop_061",
+      "full_projection_gap": 1.7064
+    },
+    {
+      "new": "District_infill_shop_063",
+      "newNeighbor": "District_infill_shop_064",
+      "full_projection_gap": 2.1516
+    },
+    {
+      "new": "District_infill_shop_064",
+      "newNeighbor": "District_infill_shop_065",
+      "full_projection_gap": 2.0674
+    },
+    {
+      "new": "District_infill_shop_065",
+      "newNeighbor": "District_infill_shop_066",
+      "full_projection_gap": 1.252
+    },
+    {
+      "new": "District_infill_shop_066",
+      "existing": "East_00_00/shadow",
+      "full_projection_gap": 1.9365
+    },
+    {
+      "new": "District_infill_shop_066",
+      "existing": "East_00_00/plaster",
+      "full_projection_gap": 1.329
+    },
+    {
+      "new": "District_infill_shop_066",
+      "existing": "East_00_00/stone",
+      "full_projection_gap": 1.0118
+    },
+    {
+      "new": "District_infill_shop_066",
+      "existing": "East_00_00/wood",
+      "full_projection_gap": 1.815
+    },
+    {
+      "new": "District_infill_shop_066",
+      "existing": "East_00_00",
+      "full_projection_gap": 0.5118
+    },
+    {
+      "new": "District_infill_shop_069",
+      "newNeighbor": "District_infill_shop_079",
+      "full_projection_gap": 1.8036
+    },
+    {
+      "new": "District_infill_shop_070",
+      "existing": "Tree_098/bark",
+      "full_projection_gap": 2.3219
+    },
+    {
+      "new": "District_infill_shop_070",
+      "existing": "Courtyard_East_03_03/bank",
+      "full_projection_gap": 2.9802
+    },
+    {
+      "new": "District_infill_shop_070",
+      "existing": "Courtyard_East_03_03/stone",
+      "full_projection_gap": 3.0631
+    },
+    {
+      "new": "District_infill_shop_071",
+      "existing": "Courtyard_North_01_14/bank",
+      "full_projection_gap": 2.3837
+    },
+    {
+      "new": "District_infill_shop_071",
+      "existing": "Courtyard_North_01_14/stone",
+      "full_projection_gap": 2.5429
+    },
+    {
+      "new": "District_infill_shop_071",
+      "newNeighbor": "District_infill_shop_072",
+      "full_projection_gap": 3.9234
+    },
+    {
+      "new": "District_infill_shop_071",
+      "newNeighbor": "District_stall_166",
+      "full_projection_gap": 3.9164
+    },
+    {
+      "new": "District_infill_shop_073",
+      "existing": "Courtyard_East_00_03/bank",
+      "full_projection_gap": 3.1289
+    },
+    {
+      "new": "District_infill_shop_073",
+      "existing": "ShopHouse_17/plaster",
+      "full_projection_gap": 1.468
+    },
+    {
+      "new": "District_infill_shop_073",
+      "existing": "ShopHouse_17/wood",
+      "full_projection_gap": 2.8154
+    },
+    {
+      "new": "District_infill_shop_073",
+      "existing": "ShopHouse_17/woodLight",
+      "full_projection_gap": 2.8154
+    },
+    {
+      "new": "District_infill_shop_073",
+      "existing": "ShopHouse_17",
+      "full_projection_gap": 0.8815
+    },
+    {
+      "new": "District_infill_shop_073",
+      "existing": "Courtyard_East_00_03/stone",
+      "full_projection_gap": 3.2889
+    },
+    {
+      "new": "District_infill_shop_074",
+      "existing": "Tree_026/bark",
+      "full_projection_gap": 0.3566
+    },
+    {
+      "new": "District_infill_shop_074",
+      "existing": "Tree_066/bark",
+      "full_projection_gap": 3.1029
+    },
+    {
+      "new": "District_infill_shop_074",
+      "newNeighbor": "District_infill_shop_075",
+      "full_projection_gap": 3.6217
+    },
+    {
+      "new": "District_infill_shop_074",
+      "newNeighbor": "District_infill_shop_076",
+      "full_projection_gap": 3.546
+    },
+    {
+      "new": "District_infill_shop_075",
+      "newNeighbor": "District_infill_shop_076",
+      "full_projection_gap": 2.3132
+    },
+    {
+      "new": "District_infill_shop_075",
+      "newNeighbor": "District_infill_shop_083",
+      "full_projection_gap": 3.9536
+    },
+    {
+      "new": "District_infill_shop_076",
+      "newNeighbor": "District_cargo_156",
+      "full_projection_gap": 3.5191
+    },
+    {
+      "new": "District_infill_shop_078",
+      "existing": "Courtyard_East_05_03/bank",
+      "full_projection_gap": 0.5514
+    },
+    {
+      "new": "District_infill_shop_078",
+      "existing": "Courtyard_East_05_03/stone",
+      "full_projection_gap": 0.6748
+    },
+    {
+      "new": "District_infill_shop_080",
+      "existing": "Tree_141/bark",
+      "full_projection_gap": 2.7818
+    },
+    {
+      "new": "District_infill_shop_080",
+      "existing": "Courtyard_East_07_02/bank",
+      "full_projection_gap": 2.9853
+    },
+    {
+      "new": "District_infill_shop_080",
+      "existing": "Courtyard_East_07_02/stone",
+      "full_projection_gap": 3.1453
+    },
+    {
+      "new": "District_infill_shop_080",
+      "existing": "Tree_024/bark",
+      "full_projection_gap": 3.3162
+    },
+    {
+      "new": "District_infill_shop_082",
+      "existing": "ShopHouse_18/plasterLight",
+      "full_projection_gap": 2.3964
+    },
+    {
+      "new": "District_infill_shop_082",
+      "existing": "ShopHouse_18/wood",
+      "full_projection_gap": 3.5362
+    },
+    {
+      "new": "District_infill_shop_082",
+      "existing": "ShopHouse_18/woodLight",
+      "full_projection_gap": 3.5349
+    },
+    {
+      "new": "District_infill_shop_082",
+      "existing": "ShopHouse_18/iron",
+      "full_projection_gap": 3.5123
+    },
+    {
+      "new": "District_infill_shop_082",
+      "existing": "ShopHouse_18",
+      "full_projection_gap": 1.2071
+    },
+    {
+      "new": "District_infill_shop_084",
+      "existing": "Basilica_Aemilia/stone",
+      "full_projection_gap": 0.314
+    },
+    {
+      "new": "District_infill_shop_084",
+      "existing": "Basilica_Aemilia/marble",
+      "full_projection_gap": 0.9709
+    },
+    {
+      "new": "District_infill_shop_084",
+      "existing": "Basilica_Aemilia/marbleLight",
+      "full_projection_gap": 0.919
+    },
+    {
+      "new": "District_infill_shop_084",
+      "existing": "Basilica_Aemilia/plasterPale",
+      "full_projection_gap": 2.9109
+    },
+    {
+      "new": "District_infill_shop_085",
+      "existing": "Basilica_Aemilia/stone",
+      "full_projection_gap": 1.1745
+    },
+    {
+      "new": "District_infill_shop_085",
+      "existing": "Basilica_Aemilia/marble",
+      "full_projection_gap": 1.7745
+    },
+    {
+      "new": "District_infill_shop_085",
+      "existing": "Basilica_Aemilia/marbleLight",
+      "full_projection_gap": 1.7259
+    },
+    {
+      "new": "District_infill_shop_085",
+      "existing": "Basilica_Aemilia/plasterPale",
+      "full_projection_gap": 3.7745
+    },
+    {
+      "new": "District_infill_shop_086",
+      "existing": "Basilica_Mercatoria/stone",
+      "full_projection_gap": 0.3823
+    },
+    {
+      "new": "District_infill_shop_086",
+      "existing": "Basilica_Mercatoria/marble",
+      "full_projection_gap": 0.9823
+    },
+    {
+      "new": "District_infill_shop_086",
+      "existing": "Basilica_Mercatoria/marbleLight",
+      "full_projection_gap": 0.9337
+    },
+    {
+      "new": "District_infill_shop_086",
+      "existing": "Basilica_Mercatoria/plasterPale",
+      "full_projection_gap": 2.9823
+    },
+    {
+      "new": "District_infill_shop_086",
+      "newNeighbor": "District_infill_shop_087",
+      "full_projection_gap": 3.1113
+    },
+    {
+      "new": "District_infill_shop_087",
+      "existing": "Aqua_Aurelia/stone/part96",
+      "full_projection_gap": 1.0613
+    },
+    {
+      "new": "District_infill_shop_087",
+      "existing": "Aqua_Aurelia/stone/part120",
+      "full_projection_gap": 1.2613
+    },
+    {
+      "new": "District_infill_shop_087",
+      "existing": "Aqua_Aurelia/bank/part24",
+      "full_projection_gap": 1.4613
+    },
+    {
+      "new": "District_infill_shop_088",
+      "existing": "Courtyard_East_03_00/bank",
+      "full_projection_gap": 1.6576
+    },
+    {
+      "new": "District_infill_shop_088",
+      "existing": "Courtyard_East_03_00/stone",
+      "full_projection_gap": 1.7837
+    },
+    {
+      "new": "District_infill_shop_088",
+      "newNeighbor": "District_stall_206",
+      "full_projection_gap": 0.2995
+    },
+    {
+      "new": "District_frontage_090",
+      "existing": "North_04_04",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_090",
+      "existing": "North_04_04/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_090",
+      "existing": "North_04_04/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_090",
+      "existing": "North_04_04/plasterWarm",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_090",
+      "existing": "North_04_04/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_091",
+      "existing": "North_03_14/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_091",
+      "existing": "North_03_14/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_091",
+      "existing": "North_03_14",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_091",
+      "existing": "North_03_14/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_091",
+      "existing": "North_03_14/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_091",
+      "existing": "North_03_14/marble",
+      "full_projection_gap": 2.2054
+    },
+    {
+      "new": "District_frontage_091",
+      "existing": "North_03_14/marbleLight",
+      "full_projection_gap": 2.1339
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_03_03/stone",
+      "full_projection_gap": 1.7921
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_03_03/shadow",
+      "full_projection_gap": 3.127
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_03_03/plaster",
+      "full_projection_gap": 1.9408
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_03_03/wood",
+      "full_projection_gap": 3.3975
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_03_03",
+      "full_projection_gap": 1.1183
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_07_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_07_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_07_02/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_07_02/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_07_02/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_07_02/marble",
+      "full_projection_gap": 2.4952
+    },
+    {
+      "new": "District_frontage_092",
+      "existing": "East_07_02/marbleLight",
+      "full_projection_gap": 2.4156
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_02_12",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_01_02/stone",
+      "full_projection_gap": 2.7669
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_01_02/shadow",
+      "full_projection_gap": 3.6834
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_01_02/plasterPale",
+      "full_projection_gap": 2.9708
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_01_02/wood",
+      "full_projection_gap": 3.5894
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_02_12/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_02_12/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_02_12/plaster",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_02_12/wood",
+      "full_projection_gap": 1.702
+    },
+    {
+      "new": "District_frontage_093",
+      "existing": "North_01_02",
+      "full_projection_gap": 2.1936
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "North_04_04",
+      "full_projection_gap": 2.4641
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "North_04_04/stone",
+      "full_projection_gap": 2.9641
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "North_04_04/shadow",
+      "full_projection_gap": 3.7724
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "North_04_04/plasterWarm",
+      "full_projection_gap": 3.2414
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "North_04_04/wood",
+      "full_projection_gap": 3.6662
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "East_06_03",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "East_06_03/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "East_06_03/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "East_06_03/plaster",
+      "full_projection_gap": 1.3173
+    },
+    {
+      "new": "District_frontage_094",
+      "existing": "East_06_03/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_095",
+      "existing": "North_01_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_095",
+      "existing": "North_01_02/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_095",
+      "existing": "North_01_02/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_095",
+      "existing": "North_01_02/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_095",
+      "existing": "North_01_02/marble",
+      "full_projection_gap": 2.2054
+    },
+    {
+      "new": "District_frontage_095",
+      "existing": "North_01_02/marbleLight",
+      "full_projection_gap": 2.134
+    },
+    {
+      "new": "District_frontage_095",
+      "existing": "North_01_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_096",
+      "existing": "North_04_11/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_096",
+      "existing": "North_04_11/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_096",
+      "existing": "North_04_11/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_096",
+      "existing": "North_04_11/marble",
+      "full_projection_gap": 2.2053
+    },
+    {
+      "new": "District_frontage_096",
+      "existing": "North_04_11/marbleLight",
+      "full_projection_gap": 2.1339
+    },
+    {
+      "new": "District_frontage_096",
+      "existing": "North_04_11",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_096",
+      "existing": "North_04_11/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_097",
+      "existing": "West_02_01/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_097",
+      "existing": "West_02_01/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_097",
+      "existing": "West_02_01/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_097",
+      "existing": "West_02_01/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_097",
+      "existing": "West_02_01/marble",
+      "full_projection_gap": 2.4952
+    },
+    {
+      "new": "District_frontage_097",
+      "existing": "West_02_01/marbleLight",
+      "full_projection_gap": 2.4156
+    },
+    {
+      "new": "District_frontage_097",
+      "existing": "West_02_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_00",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_02",
+      "full_projection_gap": 1.6279
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_00/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_00/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_00/plasterWarm",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_00/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_02/stone",
+      "full_projection_gap": 2.3992
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_02/shadow",
+      "full_projection_gap": 3.7892
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_02/plasterPale",
+      "full_projection_gap": 2.5437
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_02/wood",
+      "full_projection_gap": 3.77
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_02/marble",
+      "full_projection_gap": 3.4553
+    },
+    {
+      "new": "District_frontage_098",
+      "existing": "East_07_02/marbleLight",
+      "full_projection_gap": 3.3783
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "North_02_09",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "East_04_02/stone",
+      "full_projection_gap": 1.5988
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "East_04_02/shadow",
+      "full_projection_gap": 2.5946
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "North_02_09/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "North_02_09/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "North_02_09/plaster",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "North_02_09/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "East_04_02/plasterPale",
+      "full_projection_gap": 1.7663
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "East_04_02/wood",
+      "full_projection_gap": 2.4794
+    },
+    {
+      "new": "District_frontage_099",
+      "existing": "East_04_02",
+      "full_projection_gap": 0.9491
+    },
+    {
+      "new": "District_frontage_100",
+      "existing": "North_05_06/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_100",
+      "existing": "North_05_06/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_100",
+      "existing": "North_05_06/plaster",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_100",
+      "existing": "North_05_06/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_100",
+      "existing": "North_05_06",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_101",
+      "existing": "North_00_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_101",
+      "existing": "North_00_01/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_101",
+      "existing": "North_00_01/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_101",
+      "existing": "North_00_01/plasterWarm",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_101",
+      "existing": "North_00_01/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_02_14",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_05_09/stone",
+      "full_projection_gap": 2.9864
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_05_09/shadow",
+      "full_projection_gap": 3.7947
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_05_09/plaster",
+      "full_projection_gap": 3.2637
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_05_09",
+      "full_projection_gap": 2.4864
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_02_14/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_02_14/shadow",
+      "full_projection_gap": 1.8082
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_02_14/plasterPale",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_02_14/wood",
+      "full_projection_gap": 1.702
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_02_14/iron",
+      "full_projection_gap": 3.8438
+    },
+    {
+      "new": "District_frontage_102",
+      "existing": "North_05_09/wood",
+      "full_projection_gap": 3.6885
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_02_10",
+      "full_projection_gap": 0.4778
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_05_09/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_05_09/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_05_09/plaster",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_05_09/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_02_10/stone",
+      "full_projection_gap": 0.9777
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_02_10/shadow",
+      "full_projection_gap": 1.786
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_05_09",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_02_10/wood",
+      "full_projection_gap": 1.6798
+    },
+    {
+      "new": "District_frontage_103",
+      "existing": "North_02_10/plasterWarm",
+      "full_projection_gap": 1.255
+    },
+    {
+      "new": "District_frontage_104",
+      "existing": "East_04_03/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_104",
+      "existing": "East_04_03/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_104",
+      "existing": "East_04_03/plasterWarm",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_104",
+      "existing": "East_04_03/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_104",
+      "existing": "East_04_03",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_105",
+      "existing": "North_02_04",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_105",
+      "existing": "North_02_04/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_105",
+      "existing": "North_02_04/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_105",
+      "existing": "North_02_04/plasterWarm",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_105",
+      "existing": "North_02_04/wood",
+      "full_projection_gap": 1.702
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_02_10",
+      "full_projection_gap": 0.5331
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_05_08/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_05_08/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_05_08/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_05_08/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_05_08/marble",
+      "full_projection_gap": 2.2054
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_05_08/marbleLight",
+      "full_projection_gap": 2.1339
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_02_10/stone",
+      "full_projection_gap": 1.0331
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_02_10/shadow",
+      "full_projection_gap": 1.8413
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_02_10/plasterWarm",
+      "full_projection_gap": 1.3104
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_02_10/wood",
+      "full_projection_gap": 1.7352
+    },
+    {
+      "new": "District_frontage_106",
+      "existing": "North_05_08",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_05_01/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_05_01/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_05_01/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_05_01/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_09_01/stone",
+      "full_projection_gap": 0.7221
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_09_01/shadow",
+      "full_projection_gap": 1.6469
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_09_01/plaster",
+      "full_projection_gap": 1.0394
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_09_01/wood",
+      "full_projection_gap": 1.5254
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_05_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_107",
+      "existing": "West_09_01",
+      "full_projection_gap": 0.2222
+    },
+    {
+      "new": "District_frontage_108",
+      "existing": "North_05_11/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_108",
+      "existing": "North_05_11/shadow",
+      "full_projection_gap": 1.8082
+    },
+    {
+      "new": "District_frontage_108",
+      "existing": "North_05_11/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_108",
+      "existing": "North_05_11/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_108",
+      "existing": "North_05_11",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_109",
+      "existing": "North_05_13",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_109",
+      "existing": "North_05_13/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_109",
+      "existing": "North_05_13/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_109",
+      "existing": "North_05_13/plasterWarm",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_109",
+      "existing": "North_05_13/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_110",
+      "existing": "North_00_05/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_110",
+      "existing": "North_00_05/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_110",
+      "existing": "North_00_05/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_110",
+      "existing": "North_00_05/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_110",
+      "existing": "North_00_05/marble",
+      "full_projection_gap": 2.2053
+    },
+    {
+      "new": "District_frontage_110",
+      "existing": "North_00_05/marbleLight",
+      "full_projection_gap": 2.134
+    },
+    {
+      "new": "District_frontage_110",
+      "existing": "North_00_05",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_111",
+      "existing": "East_02_01",
+      "full_projection_gap": 3.674
+    },
+    {
+      "new": "District_frontage_111",
+      "existing": "North_01_14/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_111",
+      "existing": "North_01_14/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_111",
+      "existing": "North_01_14/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_111",
+      "existing": "North_01_14/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_111",
+      "existing": "North_01_14/marble",
+      "full_projection_gap": 2.2054
+    },
+    {
+      "new": "District_frontage_111",
+      "existing": "North_01_14/marbleLight",
+      "full_projection_gap": 2.134
+    },
+    {
+      "new": "District_frontage_111",
+      "existing": "North_01_14",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_112",
+      "existing": "North_00_14/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_112",
+      "existing": "North_00_14/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_112",
+      "existing": "North_00_14/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_112",
+      "existing": "North_00_14/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_112",
+      "existing": "North_00_14/iron",
+      "full_projection_gap": 3.8438
+    },
+    {
+      "new": "District_frontage_112",
+      "existing": "North_00_14",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "East_05_02/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "East_05_02/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "East_05_02/plaster",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "East_05_02/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "West_08_01/stone",
+      "full_projection_gap": 3.2381
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "East_05_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "West_08_01/plasterPale",
+      "full_projection_gap": 3.3846
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "West_08_01/marbleLight",
+      "full_projection_gap": 3.9405
+    },
+    {
+      "new": "District_frontage_113",
+      "existing": "West_08_01",
+      "full_projection_gap": 2.3616
+    },
+    {
+      "new": "District_frontage_114",
+      "existing": "North_04_08",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_114",
+      "existing": "North_04_08/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_114",
+      "existing": "North_04_08/shadow",
+      "full_projection_gap": 1.8082
+    },
+    {
+      "new": "District_frontage_114",
+      "existing": "North_04_08/plasterPale",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_114",
+      "existing": "North_04_08/wood",
+      "full_projection_gap": 1.702
+    },
+    {
+      "new": "District_frontage_115",
+      "existing": "West_02_00/stone",
+      "full_projection_gap": 3.5563
+    },
+    {
+      "new": "District_frontage_115",
+      "existing": "West_02_00/plasterPale",
+      "full_projection_gap": 3.8735
+    },
+    {
+      "new": "District_frontage_115",
+      "existing": "East_01_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_115",
+      "existing": "West_02_00",
+      "full_projection_gap": 3.0563
+    },
+    {
+      "new": "District_frontage_115",
+      "existing": "East_01_01/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_115",
+      "existing": "East_01_01/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_115",
+      "existing": "East_01_01/plaster",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_115",
+      "existing": "East_01_01/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_116",
+      "existing": "North_00_04/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_116",
+      "existing": "North_00_04/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_116",
+      "existing": "North_00_04/plasterWarm",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_116",
+      "existing": "North_00_04/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_116",
+      "existing": "North_00_04",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_117",
+      "existing": "East_01_00",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_117",
+      "existing": "East_01_00/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_117",
+      "existing": "East_01_00/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_117",
+      "existing": "East_01_00/plasterWarm",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_117",
+      "existing": "East_01_00/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_118",
+      "existing": "North_03_12/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_118",
+      "existing": "North_03_12/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_118",
+      "existing": "North_03_12/plaster",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_118",
+      "existing": "North_03_12/wood",
+      "full_projection_gap": 1.702
+    },
+    {
+      "new": "District_frontage_118",
+      "existing": "North_03_12",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_03_06",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_04_01",
+      "full_projection_gap": 0.2649
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_04_01/stone",
+      "full_projection_gap": 0.7649
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_04_01/shadow",
+      "full_projection_gap": 1.5732
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_04_01/plasterWarm",
+      "full_projection_gap": 1.0422
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_04_01/wood",
+      "full_projection_gap": 1.467
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_03_06/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_03_06/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_03_06/plaster",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_119",
+      "existing": "North_03_06/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_120",
+      "existing": "North_03_08",
+      "full_projection_gap": 3.6437
+    },
+    {
+      "new": "District_frontage_120",
+      "existing": "North_05_07/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_120",
+      "existing": "North_05_07/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_120",
+      "existing": "North_05_07/plasterWarm",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_120",
+      "existing": "North_05_07/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_120",
+      "existing": "North_05_07",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_121",
+      "existing": "West_02_00/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_121",
+      "existing": "West_02_00/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_121",
+      "existing": "West_02_00/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_121",
+      "existing": "West_02_00/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_121",
+      "existing": "West_02_00",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_122",
+      "existing": "North_02_00/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_122",
+      "existing": "North_02_00/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_122",
+      "existing": "North_02_00/plaster",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_122",
+      "existing": "North_02_00/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_122",
+      "existing": "North_02_00",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_123",
+      "existing": "North_05_00",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_123",
+      "existing": "North_05_00/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_123",
+      "existing": "North_05_00/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_123",
+      "existing": "North_05_00/plaster",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_123",
+      "existing": "North_05_00/wood",
+      "full_projection_gap": 1.702
+    },
+    {
+      "new": "District_frontage_124",
+      "existing": "Precinct_01/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_124",
+      "existing": "Precinct_01/shadow",
+      "full_projection_gap": 1.685
+    },
+    {
+      "new": "District_frontage_124",
+      "existing": "Precinct_01/plasterWarm",
+      "full_projection_gap": 1.235
+    },
+    {
+      "new": "District_frontage_124",
+      "existing": "Precinct_01/wood",
+      "full_projection_gap": 1.595
+    },
+    {
+      "new": "District_frontage_124",
+      "existing": "Precinct_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_125",
+      "existing": "Precinct_07/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_125",
+      "existing": "Precinct_07/shadow",
+      "full_projection_gap": 1.685
+    },
+    {
+      "new": "District_frontage_125",
+      "existing": "Precinct_07/plasterWarm",
+      "full_projection_gap": 1.235
+    },
+    {
+      "new": "District_frontage_125",
+      "existing": "Precinct_07/wood",
+      "full_projection_gap": 1.595
+    },
+    {
+      "new": "District_frontage_125",
+      "existing": "Precinct_07",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_126",
+      "existing": "East_03_00/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_126",
+      "existing": "East_03_00/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_126",
+      "existing": "East_03_00/plaster",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_126",
+      "existing": "East_03_00/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_126",
+      "existing": "East_03_00",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_126",
+      "newNeighbor": "District_frontage_132",
+      "full_projection_gap": 1.139
+    },
+    {
+      "new": "District_frontage_127",
+      "existing": "North_00_07/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_127",
+      "existing": "North_00_07/shadow",
+      "full_projection_gap": 1.8082
+    },
+    {
+      "new": "District_frontage_127",
+      "existing": "North_00_07/plasterWarm",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_127",
+      "existing": "North_00_07/wood",
+      "full_projection_gap": 1.702
+    },
+    {
+      "new": "District_frontage_127",
+      "existing": "North_00_07",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_128",
+      "existing": "East_02_03/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_128",
+      "existing": "East_02_03/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_128",
+      "existing": "East_02_03/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_128",
+      "existing": "East_02_03/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_128",
+      "existing": "East_02_03",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_128",
+      "newNeighbor": "District_frontage_141",
+      "full_projection_gap": 1.3186
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "East_02_01/shadow",
+      "full_projection_gap": 1.5982
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "East_02_01/plasterWarm",
+      "full_projection_gap": 0.9907
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "East_02_01/wood",
+      "full_projection_gap": 1.4767
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "North_02_05",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "North_02_05/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "North_02_05/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "North_02_05/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "North_02_05/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "North_02_05/marble",
+      "full_projection_gap": 2.2054
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "North_02_05/marbleLight",
+      "full_projection_gap": 2.1339
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "East_02_01",
+      "full_projection_gap": 0.1735
+    },
+    {
+      "new": "District_frontage_129",
+      "existing": "East_02_01/stone",
+      "full_projection_gap": 0.6735
+    },
+    {
+      "new": "District_frontage_130",
+      "existing": "North_00_13/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_130",
+      "existing": "North_00_13/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_130",
+      "existing": "North_00_13/plasterWarm",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_130",
+      "existing": "North_00_13/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_130",
+      "existing": "North_00_13",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "West_03_00/stone",
+      "full_projection_gap": 2.7743
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "West_03_00/shadow",
+      "full_projection_gap": 3.7282
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "North_00_12/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "North_00_12/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "West_03_00/plaster",
+      "full_projection_gap": 3.0656
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "West_03_00/wood",
+      "full_projection_gap": 3.6131
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "North_00_12/plaster",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "North_00_12/wood",
+      "full_projection_gap": 1.702
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "West_03_00",
+      "full_projection_gap": 2.2484
+    },
+    {
+      "new": "District_frontage_131",
+      "existing": "North_00_12",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_132",
+      "existing": "North_01_07/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_132",
+      "existing": "North_01_07/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_132",
+      "existing": "North_01_07/plasterWarm",
+      "full_projection_gap": 1.2772
+    },
+    {
+      "new": "District_frontage_132",
+      "existing": "North_01_07/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_132",
+      "existing": "North_01_07",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_133",
+      "existing": "North_03_11/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_133",
+      "existing": "North_03_11/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_133",
+      "existing": "North_03_11/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_133",
+      "existing": "North_03_11/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_133",
+      "existing": "North_03_11",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_134",
+      "existing": "SouthEast_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_134",
+      "existing": "SouthEast_02/shadow",
+      "full_projection_gap": 1.685
+    },
+    {
+      "new": "District_frontage_134",
+      "existing": "SouthEast_02/plasterWarm",
+      "full_projection_gap": 1.235
+    },
+    {
+      "new": "District_frontage_134",
+      "existing": "SouthEast_02/wood",
+      "full_projection_gap": 1.595
+    },
+    {
+      "new": "District_frontage_134",
+      "existing": "SouthEast_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_135",
+      "existing": "Tree_049/bark",
+      "full_projection_gap": 3.7292
+    },
+    {
+      "new": "District_frontage_135",
+      "existing": "North_00_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_135",
+      "existing": "North_00_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_135",
+      "existing": "North_00_02/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_135",
+      "existing": "North_00_02/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_135",
+      "existing": "North_00_02/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_135",
+      "existing": "Tree_151/bark",
+      "full_projection_gap": 1.8976
+    },
+    {
+      "new": "District_frontage_136",
+      "existing": "North_01_01/stone",
+      "full_projection_gap": 0.9999
+    },
+    {
+      "new": "District_frontage_136",
+      "existing": "North_01_01/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_136",
+      "existing": "North_01_01/plasterWarm",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_136",
+      "existing": "North_01_01/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_136",
+      "existing": "North_01_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_137",
+      "existing": "North_01_11/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_137",
+      "existing": "North_01_11/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_137",
+      "existing": "North_01_11/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_137",
+      "existing": "North_01_11/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_137",
+      "existing": "North_01_11",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_137",
+      "newNeighbor": "District_frontage_138",
+      "full_projection_gap": 1.6656
+    },
+    {
+      "new": "District_frontage_138",
+      "existing": "North_05_12",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_138",
+      "existing": "North_05_12/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_138",
+      "existing": "North_05_12/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_138",
+      "existing": "North_05_12/plaster",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_138",
+      "existing": "North_05_12/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "Civic_Archive_Tower/stone",
+      "full_projection_gap": 2.029
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "Civic_Archive_Tower/shadow",
+      "full_projection_gap": 3.654
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "Civic_Archive_Tower/plasterWarm",
+      "full_projection_gap": 3.204
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "Civic_Archive_Tower/wood",
+      "full_projection_gap": 3.564
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "Civic_Archive_Tower/marble",
+      "full_projection_gap": 3.379
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "East_07_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "East_07_01/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "East_07_01/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "East_07_01/plaster",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_139",
+      "existing": "East_07_01/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_140",
+      "existing": "SouthWest_02/wood",
+      "full_projection_gap": 1.595
+    },
+    {
+      "new": "District_frontage_140",
+      "existing": "SouthWest_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_140",
+      "existing": "SouthWest_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_140",
+      "existing": "SouthWest_02/shadow",
+      "full_projection_gap": 1.685
+    },
+    {
+      "new": "District_frontage_140",
+      "existing": "SouthWest_02/plaster",
+      "full_projection_gap": 1.235
+    },
+    {
+      "new": "District_frontage_141",
+      "existing": "North_03_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_141",
+      "existing": "North_03_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_141",
+      "existing": "North_03_02/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_141",
+      "existing": "North_03_02/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_141",
+      "existing": "North_03_02/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_141",
+      "existing": "North_03_02/marble",
+      "full_projection_gap": 2.2053
+    },
+    {
+      "new": "District_frontage_141",
+      "existing": "North_03_02/marbleLight",
+      "full_projection_gap": 2.134
+    },
+    {
+      "new": "District_frontage_142",
+      "existing": "East_03_01/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_142",
+      "existing": "East_03_01/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_142",
+      "existing": "East_03_01/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_142",
+      "existing": "East_03_01/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_142",
+      "existing": "East_03_01/marble",
+      "full_projection_gap": 2.4952
+    },
+    {
+      "new": "District_frontage_142",
+      "existing": "East_03_01/marbleLight",
+      "full_projection_gap": 2.4155
+    },
+    {
+      "new": "District_frontage_142",
+      "existing": "East_03_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "North_01_15/wood",
+      "full_projection_gap": 1.8078
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "East_06_01/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "East_06_01/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "East_06_01/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "East_06_01/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "East_06_01",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "North_01_15/plaster",
+      "full_projection_gap": 1.383
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "North_01_15/stone",
+      "full_projection_gap": 1.1058
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "North_01_15/shadow",
+      "full_projection_gap": 1.914
+    },
+    {
+      "new": "District_frontage_143",
+      "existing": "North_01_15",
+      "full_projection_gap": 0.6058
+    },
+    {
+      "new": "District_frontage_144",
+      "existing": "North_00_15/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_144",
+      "existing": "North_00_15/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_144",
+      "existing": "North_00_15/plaster",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_144",
+      "existing": "North_00_15/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_144",
+      "existing": "North_00_15",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_145",
+      "existing": "East_06_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_145",
+      "existing": "East_06_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_145",
+      "existing": "East_06_02/shadow",
+      "full_projection_gap": 1.9248
+    },
+    {
+      "new": "District_frontage_145",
+      "existing": "East_06_02/plasterWarm",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_145",
+      "existing": "East_06_02/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_146",
+      "existing": "North_05_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_146",
+      "existing": "North_05_02/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_146",
+      "existing": "North_05_02/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_146",
+      "existing": "North_05_02/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_146",
+      "existing": "North_05_02/marble",
+      "full_projection_gap": 2.2054
+    },
+    {
+      "new": "District_frontage_146",
+      "existing": "North_05_02/marbleLight",
+      "full_projection_gap": 2.134
+    },
+    {
+      "new": "District_frontage_146",
+      "existing": "North_05_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_146",
+      "newNeighbor": "District_bench_247",
+      "full_projection_gap": 1.4859
+    },
+    {
+      "new": "District_frontage_146",
+      "newNeighbor": "District_brazier_249",
+      "full_projection_gap": 2.9612
+    },
+    {
+      "new": "District_frontage_147",
+      "existing": "North_05_15",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_147",
+      "existing": "North_05_15/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_147",
+      "existing": "North_05_15/shadow",
+      "full_projection_gap": 1.8083
+    },
+    {
+      "new": "District_frontage_147",
+      "existing": "North_05_15/plaster",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_147",
+      "existing": "North_05_15/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_148",
+      "existing": "West_05_00/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_148",
+      "existing": "West_05_00/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_148",
+      "existing": "West_05_00/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_148",
+      "existing": "West_05_00/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_148",
+      "existing": "West_05_00/marble",
+      "full_projection_gap": 2.4952
+    },
+    {
+      "new": "District_frontage_148",
+      "existing": "West_05_00/marbleLight",
+      "full_projection_gap": 2.4156
+    },
+    {
+      "new": "District_frontage_148",
+      "existing": "West_05_00",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_149",
+      "existing": "East_05_00/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_149",
+      "existing": "East_05_00/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_149",
+      "existing": "East_05_00/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_149",
+      "existing": "East_05_00/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_149",
+      "existing": "East_05_00/marble",
+      "full_projection_gap": 2.4952
+    },
+    {
+      "new": "District_frontage_149",
+      "existing": "East_05_00/marbleLight",
+      "full_projection_gap": 2.4156
+    },
+    {
+      "new": "District_frontage_149",
+      "existing": "East_05_00",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "ForegroundHouse_2",
+      "full_projection_gap": 0.3751
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "ForegroundHouse_2/City/stone",
+      "full_projection_gap": 0.875
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "ForegroundHouse_2/City/shadow",
+      "full_projection_gap": 1.6833
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "ForegroundHouse_2/City/plasterWarm",
+      "full_projection_gap": 1.1523
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "ForegroundHouse_2/City/wood",
+      "full_projection_gap": 1.5771
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "North_01_08/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "North_01_08/shadow",
+      "full_projection_gap": 1.8082
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "North_01_08/plasterPale",
+      "full_projection_gap": 1.2773
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "North_01_08/wood",
+      "full_projection_gap": 1.7021
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "North_01_08/marble",
+      "full_projection_gap": 2.2053
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "North_01_08/marbleLight",
+      "full_projection_gap": 2.1339
+    },
+    {
+      "new": "District_frontage_150",
+      "existing": "North_01_08",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_151",
+      "existing": "East_01_03",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_151",
+      "existing": "East_01_03/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_151",
+      "existing": "East_01_03/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_151",
+      "existing": "East_01_03/plasterWarm",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_151",
+      "existing": "East_01_03/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_152",
+      "existing": "East_01_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_152",
+      "existing": "East_01_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_152",
+      "existing": "East_01_02/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_152",
+      "existing": "East_01_02/plasterPale",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_152",
+      "existing": "East_01_02/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_frontage_152",
+      "existing": "East_01_02/marble",
+      "full_projection_gap": 2.4952
+    },
+    {
+      "new": "District_frontage_152",
+      "existing": "East_01_02/marbleLight",
+      "full_projection_gap": 2.4156
+    },
+    {
+      "new": "District_frontage_153",
+      "existing": "East_03_02",
+      "full_projection_gap": 0.5
+    },
+    {
+      "new": "District_frontage_153",
+      "existing": "East_03_02/stone",
+      "full_projection_gap": 1.0
+    },
+    {
+      "new": "District_frontage_153",
+      "existing": "East_03_02/shadow",
+      "full_projection_gap": 1.9247
+    },
+    {
+      "new": "District_frontage_153",
+      "existing": "East_03_02/plasterWarm",
+      "full_projection_gap": 1.3172
+    },
+    {
+      "new": "District_frontage_153",
+      "existing": "East_03_02/wood",
+      "full_projection_gap": 1.8032
+    },
+    {
+      "new": "District_stall_154",
+      "existing": "Courtyard_North_00_00/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_154",
+      "existing": "Courtyard_North_00_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_155",
+      "existing": "Courtyard_North_00_04/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_155",
+      "existing": "Courtyard_North_00_04/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_cargo_156",
+      "existing": "Courtyard_North_00_05/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_156",
+      "existing": "Courtyard_North_00_05/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_157",
+      "existing": "Courtyard_North_00_07/bank",
+      "full_projection_gap": 1.2499
+    },
+    {
+      "new": "District_stall_157",
+      "existing": "Courtyard_North_00_07/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_158",
+      "existing": "River_quay_walls/stone/part688",
+      "full_projection_gap": 1.9965
+    },
+    {
+      "new": "District_stall_158",
+      "existing": "Courtyard_North_00_08/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_158",
+      "existing": "Courtyard_North_00_08/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_159",
+      "existing": "Courtyard_North_00_13/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_159",
+      "existing": "Courtyard_North_00_13/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_160",
+      "existing": "Courtyard_North_00_15/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_160",
+      "existing": "Courtyard_North_00_15/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_160",
+      "existing": "River_quay_walls/stone/part688",
+      "full_projection_gap": 3.0247
+    },
+    {
+      "new": "District_stall_161",
+      "existing": "Courtyard_North_01_07/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_161",
+      "existing": "Courtyard_North_01_07/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_161",
+      "existing": "Tree_169/bark",
+      "full_projection_gap": 0.4106
+    },
+    {
+      "new": "District_stall_161",
+      "existing": "Tree_087/bark",
+      "full_projection_gap": 3.2192
+    },
+    {
+      "new": "District_stall_161",
+      "existing": "Tree_022/bark",
+      "full_projection_gap": 2.9673
+    },
+    {
+      "new": "District_stall_162",
+      "existing": "Courtyard_North_01_08/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_162",
+      "existing": "Courtyard_North_01_08/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_163",
+      "existing": "Courtyard_North_01_10/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_163",
+      "existing": "Courtyard_North_01_10/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_164",
+      "existing": "Courtyard_North_01_12/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_164",
+      "existing": "Courtyard_North_01_12/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_165",
+      "existing": "Courtyard_North_01_13/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_165",
+      "existing": "Courtyard_North_01_13/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_165",
+      "existing": "Tree_063/bark",
+      "full_projection_gap": 0.846
+    },
+    {
+      "new": "District_stall_166",
+      "existing": "Courtyard_North_01_14/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_166",
+      "existing": "Courtyard_North_01_14/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_167",
+      "existing": "Courtyard_North_01_15/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_167",
+      "existing": "Courtyard_North_01_15/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_168",
+      "existing": "Courtyard_North_02_01/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_168",
+      "existing": "Courtyard_North_02_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_169",
+      "existing": "Courtyard_North_02_03/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_169",
+      "existing": "Courtyard_North_02_03/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_169",
+      "existing": "River_quay_walls/stone/part688",
+      "full_projection_gap": 1.1916
+    },
+    {
+      "new": "District_stall_170",
+      "existing": "Courtyard_West_02_00/bank",
+      "full_projection_gap": 3.3764
+    },
+    {
+      "new": "District_stall_170",
+      "existing": "Courtyard_West_02_00/stone",
+      "full_projection_gap": 3.5365
+    },
+    {
+      "new": "District_stall_171",
+      "existing": "Courtyard_North_02_06/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_171",
+      "existing": "Courtyard_North_02_06/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_172",
+      "existing": "North_03_09",
+      "full_projection_gap": 3.9291
+    },
+    {
+      "new": "District_stall_172",
+      "existing": "Courtyard_North_02_08/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_172",
+      "existing": "Courtyard_North_02_08/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_173",
+      "existing": "Courtyard_North_02_09/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_173",
+      "existing": "Courtyard_North_02_09/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_174",
+      "existing": "Aqua_Aurelia/stone/part288",
+      "full_projection_gap": 3.5576
+    },
+    {
+      "new": "District_stall_174",
+      "existing": "Aqua_Aurelia/stone/part312",
+      "full_projection_gap": 3.89
+    },
+    {
+      "new": "District_stall_174",
+      "existing": "Courtyard_North_02_12/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_174",
+      "existing": "Courtyard_North_02_12/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_175",
+      "existing": "Courtyard_North_02_14/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_175",
+      "existing": "Courtyard_North_02_14/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_176",
+      "existing": "Courtyard_North_03_00/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_176",
+      "existing": "Courtyard_North_03_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_177",
+      "existing": "ShopHouse_16",
+      "full_projection_gap": 1.4585
+    },
+    {
+      "new": "District_stall_177",
+      "existing": "ShopHouse_16/plasterLight",
+      "full_projection_gap": 2.6731
+    },
+    {
+      "new": "District_stall_177",
+      "existing": "Courtyard_North_03_01/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_177",
+      "existing": "Courtyard_North_03_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_178",
+      "existing": "Courtyard_North_03_02/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_178",
+      "existing": "Courtyard_North_03_02/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_cargo_179",
+      "existing": "Courtyard_North_03_03/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_179",
+      "existing": "Courtyard_North_03_03/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_180",
+      "existing": "Courtyard_North_03_04/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_180",
+      "existing": "Courtyard_North_03_04/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_181",
+      "existing": "Courtyard_North_03_07/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_181",
+      "existing": "Courtyard_North_03_07/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_182",
+      "existing": "Courtyard_North_03_12/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_182",
+      "existing": "Courtyard_North_03_12/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_183",
+      "existing": "River_quay_walls/stone/part688",
+      "full_projection_gap": 1.7705
+    },
+    {
+      "new": "District_stall_183",
+      "existing": "Courtyard_North_03_13/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_183",
+      "existing": "Courtyard_North_03_13/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_184",
+      "existing": "Courtyard_North_03_14/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_184",
+      "existing": "Courtyard_North_03_14/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_cargo_185",
+      "existing": "Courtyard_North_04_00/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_185",
+      "existing": "Courtyard_North_04_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_cargo_185",
+      "newNeighbor": "District_stall_217",
+      "full_projection_gap": 3.5801
+    },
+    {
+      "new": "District_stall_186",
+      "existing": "Courtyard_North_04_08/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_186",
+      "existing": "Courtyard_North_04_08/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_187",
+      "existing": "Courtyard_North_04_09/bank",
+      "full_projection_gap": 1.2499
+    },
+    {
+      "new": "District_stall_187",
+      "existing": "Courtyard_North_04_09/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_188",
+      "existing": "Courtyard_North_04_11/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_188",
+      "existing": "Courtyard_North_04_11/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_cargo_189",
+      "existing": "Courtyard_North_04_12/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_189",
+      "existing": "Courtyard_North_04_12/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_190",
+      "existing": "North_05_03",
+      "full_projection_gap": 3.8833
+    },
+    {
+      "new": "District_stall_190",
+      "existing": "Courtyard_North_04_14/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_190",
+      "existing": "Courtyard_North_04_14/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_190",
+      "existing": "Courtyard_North_05_03/bank",
+      "full_projection_gap": 3.0877
+    },
+    {
+      "new": "District_stall_190",
+      "existing": "Courtyard_North_05_03/stone",
+      "full_projection_gap": 3.12
+    },
+    {
+      "new": "District_stall_191",
+      "existing": "Courtyard_North_05_00/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_191",
+      "existing": "Courtyard_North_05_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_192",
+      "existing": "Courtyard_North_05_01/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_192",
+      "existing": "Courtyard_North_05_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_cargo_193",
+      "existing": "Courtyard_North_05_02/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_193",
+      "existing": "Courtyard_North_05_02/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_194",
+      "existing": "Courtyard_North_05_03/bank",
+      "full_projection_gap": 1.2499
+    },
+    {
+      "new": "District_stall_194",
+      "existing": "Courtyard_North_05_03/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_195",
+      "existing": "Courtyard_North_05_06/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_195",
+      "existing": "Courtyard_North_05_06/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_196",
+      "existing": "Courtyard_North_05_07/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_196",
+      "existing": "Courtyard_North_05_07/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_196",
+      "existing": "Courtyard_West_08_01/bank",
+      "full_projection_gap": 2.5981
+    },
+    {
+      "new": "District_stall_196",
+      "existing": "Courtyard_West_08_01/stone",
+      "full_projection_gap": 2.7144
+    },
+    {
+      "new": "District_cargo_197",
+      "existing": "Courtyard_North_05_08/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_197",
+      "existing": "Courtyard_North_05_08/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_198",
+      "existing": "Courtyard_North_05_10/bank",
+      "full_projection_gap": 1.2499
+    },
+    {
+      "new": "District_stall_198",
+      "existing": "Courtyard_North_05_10/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_198",
+      "existing": "Courtyard_East_01_00/bank",
+      "full_projection_gap": 1.2742
+    },
+    {
+      "new": "District_stall_198",
+      "existing": "Courtyard_East_01_00/stone",
+      "full_projection_gap": 1.3673
+    },
+    {
+      "new": "District_stall_198",
+      "newNeighbor": "District_brazier_241",
+      "full_projection_gap": 0.6938
+    },
+    {
+      "new": "District_cargo_199",
+      "existing": "Courtyard_North_05_14/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_199",
+      "existing": "Courtyard_North_05_14/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_200",
+      "existing": "Courtyard_East_00_00/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_200",
+      "existing": "Courtyard_East_00_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_201",
+      "existing": "Courtyard_East_00_01/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_201",
+      "existing": "Courtyard_East_00_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_201",
+      "newNeighbor": "District_brazier_254",
+      "full_projection_gap": 3.6413
+    },
+    {
+      "new": "District_stall_202",
+      "existing": "Courtyard_East_01_01/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_202",
+      "existing": "Courtyard_East_01_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_203",
+      "existing": "Courtyard_East_01_03/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_203",
+      "existing": "Courtyard_East_01_03/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_204",
+      "existing": "Courtyard_North_01_14/bank",
+      "full_projection_gap": 1.3921
+    },
+    {
+      "new": "District_stall_204",
+      "existing": "Courtyard_North_01_14/stone",
+      "full_projection_gap": 1.5008
+    },
+    {
+      "new": "District_cargo_205",
+      "existing": "Courtyard_East_02_02/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_205",
+      "existing": "Courtyard_East_02_02/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_206",
+      "existing": "Courtyard_East_03_00/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_206",
+      "existing": "Courtyard_East_03_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_207",
+      "existing": "Courtyard_East_03_01/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_207",
+      "existing": "Courtyard_East_03_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_208",
+      "existing": "Courtyard_East_03_02/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_208",
+      "existing": "Courtyard_East_03_02/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_209",
+      "existing": "Courtyard_East_03_03/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_209",
+      "existing": "Courtyard_East_03_03/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_cargo_210",
+      "existing": "Courtyard_East_04_00/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_cargo_210",
+      "existing": "Courtyard_East_04_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_cargo_210",
+      "existing": "River_quay_walls/stone/part688",
+      "full_projection_gap": 1.8534
+    },
+    {
+      "new": "District_stall_211",
+      "existing": "Courtyard_East_04_03/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_211",
+      "existing": "Courtyard_East_04_03/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_212",
+      "existing": "East_07_01",
+      "full_projection_gap": 0.85
+    },
+    {
+      "new": "District_stall_212",
+      "existing": "East_07_01/stone",
+      "full_projection_gap": 1.35
+    },
+    {
+      "new": "District_stall_212",
+      "existing": "East_07_01/shadow",
+      "full_projection_gap": 2.2747
+    },
+    {
+      "new": "District_stall_212",
+      "existing": "East_07_01/plaster",
+      "full_projection_gap": 1.6672
+    },
+    {
+      "new": "District_stall_212",
+      "existing": "East_07_01/wood",
+      "full_projection_gap": 2.1532
+    },
+    {
+      "new": "District_stall_213",
+      "existing": "Courtyard_East_07_03/bank",
+      "full_projection_gap": 1.2499
+    },
+    {
+      "new": "District_stall_213",
+      "existing": "Courtyard_East_07_03/stone",
+      "full_projection_gap": 1.4099
+    },
+    {
+      "new": "District_stall_214",
+      "existing": "Courtyard_West_00_00/bank",
+      "full_projection_gap": 1.2499
+    },
+    {
+      "new": "District_stall_214",
+      "existing": "Courtyard_West_00_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_215",
+      "existing": "Courtyard_West_02_01/bank",
+      "full_projection_gap": 1.2499
+    },
+    {
+      "new": "District_stall_215",
+      "existing": "Courtyard_West_02_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_216",
+      "existing": "West_03_00/stone",
+      "full_projection_gap": 1.35
+    },
+    {
+      "new": "District_stall_216",
+      "existing": "West_03_00/shadow",
+      "full_projection_gap": 2.2748
+    },
+    {
+      "new": "District_stall_216",
+      "existing": "West_03_00/plaster",
+      "full_projection_gap": 1.6672
+    },
+    {
+      "new": "District_stall_216",
+      "existing": "West_03_00/wood",
+      "full_projection_gap": 2.1532
+    },
+    {
+      "new": "District_stall_216",
+      "existing": "Tree_083/bark",
+      "full_projection_gap": 0.2584
+    },
+    {
+      "new": "District_stall_216",
+      "existing": "West_03_00",
+      "full_projection_gap": 0.85
+    },
+    {
+      "new": "District_stall_216",
+      "existing": "Tree_139/bark",
+      "full_projection_gap": 0.2183
+    },
+    {
+      "new": "District_stall_217",
+      "existing": "Courtyard_West_05_01/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_217",
+      "existing": "Courtyard_West_05_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_218",
+      "existing": "Courtyard_West_06_00/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_218",
+      "existing": "Courtyard_West_06_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_218",
+      "existing": "Courtyard_West_07_00/bank",
+      "full_projection_gap": 2.1156
+    },
+    {
+      "new": "District_stall_218",
+      "existing": "Courtyard_West_07_00/stone",
+      "full_projection_gap": 2.2756
+    },
+    {
+      "new": "District_stall_219",
+      "existing": "Courtyard_West_08_00/bank",
+      "full_projection_gap": 1.2499
+    },
+    {
+      "new": "District_stall_219",
+      "existing": "Courtyard_West_08_00/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_220",
+      "existing": "Courtyard_SouthEast_01/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_220",
+      "existing": "Courtyard_SouthEast_01/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_221",
+      "existing": "Courtyard_SouthWest_02/stone",
+      "full_projection_gap": 1.41
+    },
+    {
+      "new": "District_stall_221",
+      "existing": "Courtyard_SouthWest_02/bank",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_222",
+      "newNeighbor": "District_stall_223",
+      "full_projection_gap": 2.3
+    },
+    {
+      "new": "District_stall_223",
+      "newNeighbor": "District_stall_224",
+      "full_projection_gap": 1.4
+    },
+    {
+      "new": "District_stall_225",
+      "newNeighbor": "District_stall_226",
+      "full_projection_gap": 2.9
+    },
+    {
+      "new": "District_stall_226",
+      "existing": "Sacred_courtyards/stone/part1232",
+      "full_projection_gap": 0.9158
+    },
+    {
+      "new": "District_stall_227",
+      "newNeighbor": "District_stall_228",
+      "full_projection_gap": 2.9
+    },
+    {
+      "new": "District_stall_229",
+      "existing": "ShopHouse_06/plasterLight",
+      "full_projection_gap": 1.96
+    },
+    {
+      "new": "District_stall_229",
+      "existing": "ShopHouse_06/woodLight",
+      "full_projection_gap": 2.65
+    },
+    {
+      "new": "District_stall_229",
+      "existing": "ShopHouse_06",
+      "full_projection_gap": 1.25
+    },
+    {
+      "new": "District_stall_233",
+      "existing": "Tree_025/bark",
+      "full_projection_gap": 1.6079
+    },
+    {
+      "new": "District_bench_235",
+      "newNeighbor": "District_brazier_237",
+      "full_projection_gap": 2.8321
+    },
+    {
+      "new": "District_bench_236",
+      "existing": "Pons_Caelius/marble/part1245",
+      "full_projection_gap": 3.3648
+    },
+    {
+      "new": "District_bench_236",
+      "existing": "Pons_Caelius/stone/part1080",
+      "full_projection_gap": 3.1648
+    },
+    {
+      "new": "District_bench_236",
+      "newNeighbor": "District_brazier_238",
+      "full_projection_gap": 2.8321
+    },
+    {
+      "new": "District_brazier_238",
+      "existing": "Pons_Caelius/marble/part1245",
+      "full_projection_gap": 3.2376
+    },
+    {
+      "new": "District_brazier_238",
+      "existing": "Pons_Caelius/stone/part1080",
+      "full_projection_gap": 2.7884
+    },
+    {
+      "new": "District_bench_239",
+      "newNeighbor": "District_brazier_241",
+      "full_projection_gap": 2.9374
+    },
+    {
+      "new": "District_bench_240",
+      "newNeighbor": "District_brazier_242",
+      "full_projection_gap": 2.9374
+    },
+    {
+      "new": "District_bench_243",
+      "newNeighbor": "District_brazier_246",
+      "full_projection_gap": 2.9699
+    },
+    {
+      "new": "District_bench_244",
+      "newNeighbor": "District_brazier_245",
+      "full_projection_gap": 2.2698
+    },
+    {
+      "new": "District_brazier_246",
+      "existing": "Courtyard_North_02_00/bank",
+      "full_projection_gap": 2.9834
+    },
+    {
+      "new": "District_brazier_246",
+      "existing": "Courtyard_North_02_00/stone",
+      "full_projection_gap": 3.1434
+    },
+    {
+      "new": "District_bench_247",
+      "newNeighbor": "District_brazier_249",
+      "full_projection_gap": 2.9131
+    },
+    {
+      "new": "District_bench_248",
+      "newNeighbor": "District_brazier_250",
+      "full_projection_gap": 2.9131
+    },
+    {
+      "new": "District_bench_251",
+      "newNeighbor": "District_brazier_253",
+      "full_projection_gap": 2.8554
+    },
+    {
+      "new": "District_brazier_254",
+      "existing": "Courtyard_North_04_06/bank",
+      "full_projection_gap": 2.7585
+    },
+    {
+      "new": "District_brazier_254",
+      "existing": "Courtyard_North_04_06/stone",
+      "full_projection_gap": 2.8242
+    },
+    {
+      "new": "District_brazier_254",
+      "existing": "Courtyard_East_00_01/bank",
+      "full_projection_gap": 3.8767
+    },
+    {
+      "new": "District_bench_255",
+      "newNeighbor": "District_brazier_257",
+      "full_projection_gap": 2.9363
+    },
+    {
+      "new": "District_bench_256",
+      "newNeighbor": "District_brazier_258",
+      "full_projection_gap": 2.9363
+    },
+    {
+      "new": "District_bench_259",
+      "existing": "East_07_00",
+      "full_projection_gap": 0.6938
+    },
+    {
+      "new": "District_bench_259",
+      "existing": "East_07_00/stone",
+      "full_projection_gap": 1.1938
+    },
+    {
+      "new": "District_bench_259",
+      "existing": "East_07_00/shadow",
+      "full_projection_gap": 2.1185
+    },
+    {
+      "new": "District_bench_259",
+      "existing": "East_07_00/plasterWarm",
+      "full_projection_gap": 1.511
+    },
+    {
+      "new": "District_bench_259",
+      "existing": "East_07_00/wood",
+      "full_projection_gap": 1.997
+    },
+    {
+      "new": "District_bench_259",
+      "newNeighbor": "District_bench_260",
+      "full_projection_gap": 2.35
+    },
+    {
+      "new": "District_bench_260",
+      "existing": "East_07_00/stone",
+      "full_projection_gap": 1.8024
+    },
+    {
+      "new": "District_bench_260",
+      "existing": "East_07_00/shadow",
+      "full_projection_gap": 2.7271
+    },
+    {
+      "new": "District_bench_260",
+      "existing": "East_07_00/plasterWarm",
+      "full_projection_gap": 2.1196
+    },
+    {
+      "new": "District_bench_260",
+      "existing": "East_07_00/wood",
+      "full_projection_gap": 2.6056
+    },
+    {
+      "new": "District_bench_260",
+      "existing": "East_07_00",
+      "full_projection_gap": 1.3024
+    },
+    {
+      "new": "District_brazier_261",
+      "newNeighbor": "District_brazier_262",
+      "full_projection_gap": 2.7164
+    },
+    {
+      "new": "District_bench_263",
+      "newNeighbor": "District_brazier_265",
+      "full_projection_gap": 2.7693
+    },
+    {
+      "new": "District_bench_264",
+      "newNeighbor": "District_brazier_266",
+      "full_projection_gap": 2.7693
+    },
+    {
+      "new": "District_bench_267",
+      "newNeighbor": "District_brazier_269",
+      "full_projection_gap": 3.0157
+    },
+    {
+      "new": "District_bench_268",
+      "newNeighbor": "District_brazier_270",
+      "full_projection_gap": 3.0157
+    },
+    {
+      "new": "District_bench_271",
+      "newNeighbor": "District_bench_272",
+      "full_projection_gap": 2.35
+    }
+  ],
+  "routes": [
+    {
+      "id": "DistrictLoop_00",
+      "declared_width": 2.45,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.35,
+      "limiting_point": [
+        61.7328725,
+        119.78367750000001
+      ],
+      "limiting_object": "District_stall_226",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_01",
+      "declared_width": 2.45,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.35,
+      "limiting_point": [
+        126.25810363636363,
+        159.78070363636363
+      ],
+      "limiting_object": "District_stall_228",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_02",
+      "declared_width": 2.45,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.5,
+      "limiting_point": [
+        219.13,
+        150.8
+      ],
+      "limiting_object": "District_stall_230",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_03",
+      "declared_width": 2.45,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.5,
+      "limiting_point": [
+        198.03,
+        150.8
+      ],
+      "limiting_object": "District_stall_231",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_04",
+      "declared_width": 2.45,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.5,
+      "limiting_point": [
+        214.53,
+        139.6
+      ],
+      "limiting_object": "District_stall_232",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_05",
+      "declared_width": 2.45,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.5,
+      "limiting_point": [
+        277.03000000000003,
+        151.8
+      ],
+      "limiting_object": "District_stall_234",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_06",
+      "declared_width": 2.45,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.5,
+      "limiting_point": [
+        -61.209537499999996,
+        370.06178250000005
+      ],
+      "limiting_object": "District_stall_170",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_07",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.6349,
+      "limiting_point": [
+        -55.38479184719829,
+        107.19354293038802
+      ],
+      "limiting_object": "District_infill_shop_049",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_08",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 6.6306,
+      "limiting_point": [
+        -106.62654237741384,
+        134.31794461048642
+      ],
+      "limiting_object": "District_infill_shop_085",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_09",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 3.0556,
+      "limiting_point": [
+        -138.36620639888568,
+        -3.951380803342937
+      ],
+      "limiting_object": "District_infill_shop_062",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_10",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 0.7127,
+      "limiting_point": [
+        -145.18166094434022,
+        -6.223198985161119
+      ],
+      "limiting_object": "District_infill_shop_062",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_11",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 7.8991,
+      "limiting_point": [
+        -245.98999999999998,
+        104.55
+      ],
+      "limiting_object": "District_frontage_151",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_12",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 5.8885,
+      "limiting_point": [
+        -261.46,
+        106.24999999999999
+      ],
+      "limiting_object": "West_05_00",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_13",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 0.7361,
+      "limiting_point": [
+        178.18010780335118,
+        17.188275722907527
+      ],
+      "limiting_object": "District_stall_201",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_14",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.6853,
+      "limiting_point": [
+        160.40010780335115,
+        11.473275722907525
+      ],
+      "limiting_object": "District_infill_shop_039",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_15",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.4318,
+      "limiting_point": [
+        225.7819663152967,
+        -62.377796491501826
+      ],
+      "limiting_object": "Courtyard_North_05_14/bank",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_16",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 0.8938,
+      "limiting_point": [
+        218.7264870412872,
+        -59.9772953554947
+      ],
+      "limiting_object": "North_05_14",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_17",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.1569,
+      "limiting_point": [
+        -12.308638769424295,
+        246.47080451655953
+      ],
+      "limiting_object": "North_03_08",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_18",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.161,
+      "limiting_point": [
+        -20.723638769424298,
+        225.05080451655957
+      ],
+      "limiting_object": "East_01_00",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_19",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 6.6434,
+      "limiting_point": [
+        80.47872672448464,
+        352.9251685962077
+      ],
+      "limiting_object": "District_infill_shop_034",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_20",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 2.1431,
+      "limiting_point": [
+        51.10861179936189,
+        -192.21175797452446
+      ],
+      "limiting_object": "District_infill_shop_004",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLoop_21",
+      "declared_width": 1.2,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 8.2991,
+      "limiting_point": [
+        39.20861179936188,
+        -185.83675797452446
+      ],
+      "limiting_object": "North_05_05",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLink_0",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.5175,
+      "limiting_point": [
+        278.73780487804873,
+        143.4012195121951
+      ],
+      "limiting_object": "District_stall_234",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLink_1",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 7.4416,
+      "limiting_point": [
+        241.225,
+        355.24999999999994
+      ],
+      "limiting_object": "District_infill_shop_023",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLink_2",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.5884,
+      "limiting_point": [
+        206.60862068965517,
+        -163.93275862068964
+      ],
+      "limiting_object": "North_02_09",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLink_3",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.2829,
+      "limiting_point": [
+        239.09285714285713,
+        130.9
+      ],
+      "limiting_object": "West_04_01",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictLink_4",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": null,
+      "minimum_source_and_added_projection_distance": 1.6826,
+      "limiting_point": [
+        -17.0,
+        401.2
+      ],
+      "limiting_object": "District_infill_shop_027",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_southern_west",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.4881,
+      "limiting_point": [
+        -45.05,
+        -168.29999999999998
+      ],
+      "limiting_object": "North_02_13",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_southern_east",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.5078,
+      "limiting_point": [
+        4.533333333333333,
+        -153.85
+      ],
+      "limiting_object": "ShopHouse_10",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_southern_courts",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 2.3727,
+      "limiting_point": [
+        14.45,
+        -192.1
+      ],
+      "limiting_object": "North_04_07",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_western_quay",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 4.3021,
+      "limiting_point": [
+        -260.09999999999997,
+        101.14999999999999
+      ],
+      "limiting_object": "District_infill_shop_008",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_eastern_trades",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2751,
+      "limiting_point": [
+        236.75333333333333,
+        38.81666666666666
+      ],
+      "limiting_object": "North_02_11",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_eastern_lanes",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2633,
+      "limiting_point": [
+        268.9642857142857,
+        -97.69603174603175
+      ],
+      "limiting_object": "North_05_08",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_aqueduct_courts",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2986,
+      "limiting_point": [
+        110.568,
+        1.87
+      ],
+      "limiting_object": "guard_gate0_0_1",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_western_civic",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2645,
+      "limiting_point": [
+        -80.75,
+        194.14
+      ],
+      "limiting_object": "Courtyard_North_04_02/bank",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_temple_residential",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.3582,
+      "limiting_point": [
+        -39.86707317073171,
+        167.15975609756097
+      ],
+      "limiting_object": "Temple_of_Concordia/stone/part4072",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_archive_quarter",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2789,
+      "limiting_point": [
+        102.49827586206897,
+        286.1862068965517
+      ],
+      "limiting_object": "North_00_07",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_upper_courts",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.3247,
+      "limiting_point": [
+        9.35,
+        360.29999999999995
+      ],
+      "limiting_object": "North_01_14",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictQuarter_northern_hillside",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.265,
+      "limiting_point": [
+        210.58749999999998,
+        319.6
+      ],
+      "limiting_object": "Courtyard_West_04_00/bank",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_rear_precinct",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2609,
+      "limiting_point": [
+        -69.18260869565218,
+        106.32391304347826
+      ],
+      "limiting_object": "District_infill_shop_045",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_temple_civic",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2754,
+      "limiting_point": [
+        -28.560000000000002,
+        98.88333333333333
+      ],
+      "limiting_object": "District_infill_shop_050",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_east_quay",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.5681,
+      "limiting_point": [
+        -145.35,
+        -5.383333333333333
+      ],
+      "limiting_object": "District_infill_shop_062",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_eastern_trades",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2898,
+      "limiting_point": [
+        188.7,
+        22.099999999999998
+      ],
+      "limiting_object": "Courtyard_West_08_00/bank",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_eastern_backstreets",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2542,
+      "limiting_point": [
+        231.43050847457627,
+        -70.79491525423728
+      ],
+      "limiting_object": "District_cargo_199",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_aqueduct_ward",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2986,
+      "limiting_point": [
+        110.568,
+        1.87
+      ],
+      "limiting_object": "guard_gate0_0_1",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_north_insulae",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.3582,
+      "limiting_point": [
+        -39.86707317073171,
+        167.15975609756097
+      ],
+      "limiting_object": "Temple_of_Concordia/stone/part4072",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_upper_city",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2508,
+      "limiting_point": [
+        106.02232142857143,
+        291.56517857142853
+      ],
+      "limiting_object": "District_frontage_127",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictAccess_south_residential",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.5078,
+      "limiting_point": [
+        4.533333333333333,
+        -153.85
+      ],
+      "limiting_object": "ShopHouse_10",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictBridgeTrunk",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.3284,
+      "limiting_point": [
+        -118.43867924528301,
+        16.486792452830187
+      ],
+      "limiting_object": "EventStall_066",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictGate_Porta_Spectaculorum",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 4.8713,
+      "limiting_point": [
+        0.0,
+        -195.16
+      ],
+      "limiting_object": "North_04_07",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictGate_Porta_Orientalis",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2574,
+      "limiting_point": [
+        263.21666666666664,
+        140.9111111111111
+      ],
+      "limiting_object": "West_04_01",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictGate_Porta_Pontis",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2433,
+      "limiting_point": [
+        -269.1801587301587,
+        105.99365079365079
+      ],
+      "limiting_object": "District_frontage_148",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    },
+    {
+      "id": "DistrictGate_Porta_Collina",
+      "declared_width": 2.5,
+      "existing_route_entry_transition_width": 0.8,
+      "minimum_source_and_added_projection_distance": 1.2649,
+      "limiting_point": [
+        63.66604938271605,
+        230.61234567901232
+      ],
+      "limiting_object": "Tree_178/bark",
+      "capsule_radius_032_pass": true,
+      "nominal_width_pass": true,
+      "width_failures": []
+    }
+  ],
+  "minimum_independent_loop_spacing": [
+    1.5999999999999943,
+    "DistrictLoop_02",
+    "DistrictLoop_04"
+  ],
+  "ground_source": "Existing plaza0, outer city\u22120.035; character source grounding remains authoritative.",
+  "scope": "Actual source low-geometry hull components at0.2\u20132.3m, existing full house projections and all added full parcels. Existing bridge deck/ramp route retained from prior actual-controller test. Source integration geometry validation and runtime body traversal remain separate gates."
+}

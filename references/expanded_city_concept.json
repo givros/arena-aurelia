@@ -1,0 +1,27 @@
+{
+  "mode": "Built-in image_gen",
+  "role": "Creative layout reference for unseen adjoining city regions; not a runtime screenshot or completed environment.",
+  "sourceReference": "references/primary_reference.png",
+  "image": "references/expanded_city_concept.png",
+  "prompt": "Create a single coherent expanded Roman city environment concept using the attached amphitheater image as the primary architectural and atmosphere reference. This is a WORLD DESIGN REFERENCE for building a real explorable 3D map, not a finished game screenshot. Imagine the attached view is the central part of a larger 3 by 3 extent, and reveal the surrounding areas beyond its crop in one continuous high oblique aerial composition, no tile borders or panels. Preserve a massive elegant oval amphitheater, two deep open arched exterior tiers, real stepped full seating bowl, large sand arena floor, red imperial box on the rear/north interior axis, banners and busy markets tightly packed around it. Preserve geographic order: river/canal running north-south on the left/west, bridge west/northwest of arena, grand raised temple behind/north, long aqueduct behind/right/east. Expand creatively: densely interlocking Roman neighborhoods wrap all around the amphitheater, especially the foreground/south which should continue as real city streets. Distinct quarters, curved and kinked lanes, attached shop rows, irregular courtyards, small squares, shaded arcades, loading alleys, pottery workshops, bakers, textiles, docks, cargo, boats, travelers. Buildings have varied heights, footprints and orientations responding to curved streets and topography. Crowded goods and people in layered everyday activity, no parade lines. Avoid any Cartesian grid or repetitive houses all facing the same direction. Shape the playable city's outer limits naturally: a winding old Roman city wall with towers and gates where roads bend through; terraced groves and low rocky hills rise beyond the north/east wall; continuing rooftops and vegetation conceal the transition, canal bends and harbor structures support the western boundary. Southern edge should end as dense low city blocks around a bent gate approach, not a naked square slab. Do not use a floating diorama platform, visible rectangular ground edge, empty paved corners or mountain curtain. Preserve a clear hierarchy: arena dominant, crowded intimate streets below, monumental civic silhouettes behind, soft layered hills far away. Style detailed warm stylized PBR architectural concept, sunny dusty limestone, terracotta roof variety, deep crimson and faded flax canopies, cypress and olive shade, coherent physically supported architecture, high material and architectural detail. Wide whole-city aerial framed tightly enough to read quarters and routes. No labels, no text, no UI. Attached image is a reference to preserve and extend, not an exact pixel-edit target.",
+  "acceptance": {
+    "preserved": [
+      "oval arena as primary central landmark",
+      "river and bridge west",
+      "temple behind arena",
+      "aqueduct east",
+      "warm Roman stone and market atmosphere"
+    ],
+    "adopt": [
+      "irregular dense perimeter blocks and shaded passages",
+      "foreground city continuity",
+      "regional waterfront cargo and civic spaces",
+      "winding city walls and gateways",
+      "landform and roof layers concealing map limits"
+    ],
+    "limits": [
+      "Concept adds larger harbor and monuments; existing playable landmark positions remain authoritative.",
+      "Do not copy every generated structure indiscriminately; translate coherent spatial relationships into real geometry."
+    ]
+  }
+}

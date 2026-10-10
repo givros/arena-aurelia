@@ -1,0 +1,67 @@
+{
+  "after_blend_sha256": "BFFDC2A5E9DFFBB882CDB281278659DE98FAFA5431F75EA7228D3C5442F6A276",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_hair_cap_after.json",
+  "after_semantic_digest": "AA18CBD813DC90A8A5FFF25A61DB9466C79197C6085EB0CDBC260BB53A2E2B50",
+  "allowed_scopes": [
+    "garment:hair_cap"
+  ],
+  "before_blend_sha256": "7894103626C325B2CAE3084DA589E7618D1C3DC08204C500C4A8A668334CF7FD",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_hair_cap_before.json",
+  "before_semantic_digest": "64A85BCFF78994A3EC081593A41F27DC30B1B90D988578461B911B558832E8B8",
+  "changed_scopes": [
+    "garment:hair_cap"
+  ],
+  "changes": [
+    {
+      "after": "A2DA034B975B62DD06FEDC5A297F62E34E0AF3F4B194C6E3C69F6C30D8A4780E",
+      "allowed": true,
+      "before": "584120AE28DBC6029556C0A1DE0D8A140BD8C30BCE43160E029ED77FF02DCBCB",
+      "change": "modified",
+      "members": [
+        {
+          "after": "859614A905A886EAD7AE994FD31BCDBDCF343E90A11413EDD370988925560AFE",
+          "before": "28D227CD4B0C127D36982023025534FA4A2F118332F382170E93C3B0DF6FDD57",
+          "change": "modified",
+          "member": "object:HairCap:geometry"
+        },
+        {
+          "after": "C9C22547EF9D0ABAAA17E0C25F1C7F6987F5D21B180ED7B6D05020DE70B9B3B4",
+          "before": "FCC74187190E96DFF91B9EA6D238C72D761C1048882ABB5BF0ED7047A4190171",
+          "change": "modified",
+          "member": "object:HairCap:metadata"
+        },
+        {
+          "after": "A201F125FD5DE9D528A513DA43E6F8B8C906AF9CE54F0E40D3C896AEA8636C2B",
+          "before": "1E9C6F0A4F487AEAECFD8020F2C2ECC1B18B89DC393862901B70940117E8C9C5",
+          "change": "modified",
+          "member": "object:HairCap:transform_and_parent"
+        },
+        {
+          "after": "50B8BD931731F89C7CE0BC92D7F3AD2C8867C9E3F06A2B4290FA2AE17FF433C3",
+          "before": "4B724E8B77CF17992D0087B5DB0D75E4AF55D433C655E1DD559CDC9637D8B72B",
+          "change": "modified",
+          "member": "object:HairCap:uv_and_attributes"
+        }
+      ],
+      "scope": "garment:hair_cap"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "animations",
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:gladiator_sword",
+    "garment:guard_shield",
+    "garment:guard_spear",
+    "garment:leather_belt",
+    "garment:roman_helmet",
+    "garment:roman_sandals",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "violations": []
+}

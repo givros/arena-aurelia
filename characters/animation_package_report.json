@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "standalone": true,
+  "reads_source_fbx_at_runtime": false,
+  "animations": [
+    {
+      "clip": "idle",
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\idle.fbx",
+      "filename": "idle.fbx",
+      "sha256": "502883ff97e83724e25f14372177b5407d8120cbb2a0acc5a7bda0b4f5a21376",
+      "size": 948736
+    },
+    {
+      "clip": "walk",
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\walk.fbx",
+      "filename": "walk.fbx",
+      "sha256": "202c6c7e2e640193f61754516f13e258123dfd57d171fa8b98fd495913e42ef2",
+      "size": 617808
+    },
+    {
+      "clip": "run",
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\run.fbx",
+      "filename": "run.fbx",
+      "sha256": "8238a6dd1892b8cc5328f623fcbf9773e75aeedee29db09b2e96a09723207088",
+      "size": 591024
+    },
+    {
+      "clip": "jump",
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\jump.fbx",
+      "filename": "jump.fbx",
+      "sha256": "967c37db7cfd69d382b64f382dc2f0ff012bf930feea36f6d3c0e756c95cc737",
+      "size": 685888
+    }
+  ]
+}

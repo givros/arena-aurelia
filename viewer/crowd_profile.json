@@ -1,0 +1,70 @@
+{
+  "scope": "Representative architecture source plus actual full-detail crowd prototypes and placements; crowdManifest injected in isolated browser only.",
+  "timestamp": "2026-10-10T13:24:23.181Z",
+  "backend": "webgpu",
+  "adapter": {
+    "vendor": "nvidia",
+    "architecture": "ampere",
+    "device": "",
+    "description": ""
+  },
+  "characters": {
+    "count": 12322,
+    "animated": 8,
+    "triangles": 61689244
+  },
+  "transfer": {
+    "sourceInstances": 17302,
+    "sourceMeshes": 9014,
+    "sourceTriangles": 2550193,
+    "runtimeTriangles": 2550193,
+    "batches": 376,
+    "instancedObjects": 1510,
+    "mergedObjects": 15792,
+    "bytes": 32218628,
+    "collisionInstances": 14555,
+    "materialCount": 55
+  },
+  "loadMs": 5671.399999976158,
+  "frameIntervalMs": {
+    "p50": 33.399999999999636,
+    "p95": 50,
+    "samples": 280
+  },
+  "cpuCallbackMs": {
+    "p50": 5.800000011920929,
+    "p95": 7.100000023841858,
+    "samples": 280
+  },
+  "render": {
+    "calls": 1038,
+    "frameCalls": 3,
+    "drawCalls": 697,
+    "triangles": 127866709,
+    "points": 0,
+    "lines": 0,
+    "timestamp": 0
+  },
+  "memory": {
+    "attributes": 745,
+    "attributesSize": 114203572,
+    "geometries": 361,
+    "indexAttributes": 360,
+    "indexAttributesSize": 20996676,
+    "indirectStorageAttributes": 0,
+    "indirectStorageAttributesSize": 0,
+    "programs": 139,
+    "programsSize": 857909,
+    "readbackBuffers": 0,
+    "readbackBuffersSize": 0,
+    "renderTargets": 2,
+    "storageAttributes": 0,
+    "storageAttributesSize": 0,
+    "textures": 14,
+    "texturesSize": 203200215,
+    "uniformBuffers": 950,
+    "uniformBuffersSize": 819456,
+    "total": 340077828
+  },
+  "errors": []
+}

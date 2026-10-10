@@ -1,0 +1,1834 @@
+{
+  "timestamp": "2026-10-10T17:29:03.969Z",
+  "sourceHash": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+  "cases": [
+    {
+      "id": "static_0",
+      "asset": "characters/citizen.glb",
+      "position": [
+        -12.5,
+        0,
+        -12
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_1",
+      "asset": "characters/merchant.glb",
+      "position": [
+        -7.5,
+        0,
+        -12
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_2",
+      "asset": "characters/worker.glb",
+      "position": [
+        -2.5,
+        0,
+        -12
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_3",
+      "asset": "characters/noble.glb",
+      "position": [
+        2.5,
+        0,
+        -12
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_4",
+      "asset": "characters/seated-spectator.glb",
+      "position": [
+        7.5,
+        0,
+        -12
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_5",
+      "asset": "characters/guard.glb",
+      "position": [
+        12.5,
+        0,
+        -12
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_6",
+      "asset": "characters/gladiator.glb",
+      "position": [
+        -12.5,
+        0,
+        -6
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_7",
+      "asset": "characters/citizen-idle-2.glb",
+      "position": [
+        -7.5,
+        0,
+        -6
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_8",
+      "asset": "characters/citizen-idle-3.glb",
+      "position": [
+        -2.5,
+        0,
+        -6
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_9",
+      "asset": "characters/citizen-idle-0.glb",
+      "position": [
+        2.5,
+        0,
+        -6
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_10",
+      "asset": "characters/citizen-idle-1.glb",
+      "position": [
+        7.5,
+        0,
+        -6
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_11",
+      "asset": "characters/animated-merchant.glb",
+      "position": [
+        12.5,
+        0,
+        -6
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_12",
+      "asset": "characters/animated-citizen.glb",
+      "position": [
+        -12.5,
+        0,
+        0
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "static_13",
+      "asset": "characters/animated-porter.glb",
+      "position": [
+        -7.5,
+        0,
+        0
+      ],
+      "kind": "static"
+    },
+    {
+      "id": "animated-merchant_Idle",
+      "asset": "characters/animated-merchant.glb",
+      "position": [
+        -2.5,
+        0,
+        0
+      ],
+      "kind": "animated",
+      "clip": "Idle"
+    },
+    {
+      "id": "animated-merchant_Walk",
+      "asset": "characters/animated-merchant.glb",
+      "position": [
+        2.5,
+        0,
+        0
+      ],
+      "kind": "animated",
+      "clip": "Walk"
+    },
+    {
+      "id": "animated-merchant_Run",
+      "asset": "characters/animated-merchant.glb",
+      "position": [
+        7.5,
+        0,
+        0
+      ],
+      "kind": "animated",
+      "clip": "Run"
+    },
+    {
+      "id": "animated-merchant_Jump",
+      "asset": "characters/animated-merchant.glb",
+      "position": [
+        12.5,
+        0,
+        0
+      ],
+      "kind": "animated",
+      "clip": "Jump"
+    },
+    {
+      "id": "animated-citizen_Idle",
+      "asset": "characters/animated-citizen.glb",
+      "position": [
+        -12.5,
+        0,
+        6
+      ],
+      "kind": "animated",
+      "clip": "Idle"
+    },
+    {
+      "id": "animated-citizen_Walk",
+      "asset": "characters/animated-citizen.glb",
+      "position": [
+        -7.5,
+        0,
+        6
+      ],
+      "kind": "animated",
+      "clip": "Walk"
+    },
+    {
+      "id": "animated-citizen_Run",
+      "asset": "characters/animated-citizen.glb",
+      "position": [
+        -2.5,
+        0,
+        6
+      ],
+      "kind": "animated",
+      "clip": "Run"
+    },
+    {
+      "id": "animated-citizen_Jump",
+      "asset": "characters/animated-citizen.glb",
+      "position": [
+        2.5,
+        0,
+        6
+      ],
+      "kind": "animated",
+      "clip": "Jump"
+    },
+    {
+      "id": "animated-porter_Idle",
+      "asset": "characters/animated-porter.glb",
+      "position": [
+        7.5,
+        0,
+        6
+      ],
+      "kind": "animated",
+      "clip": "Idle"
+    },
+    {
+      "id": "animated-porter_Walk",
+      "asset": "characters/animated-porter.glb",
+      "position": [
+        12.5,
+        0,
+        6
+      ],
+      "kind": "animated",
+      "clip": "Walk"
+    },
+    {
+      "id": "animated-porter_Run",
+      "asset": "characters/animated-porter.glb",
+      "position": [
+        -12.5,
+        0,
+        12
+      ],
+      "kind": "animated",
+      "clip": "Run"
+    },
+    {
+      "id": "animated-porter_Jump",
+      "asset": "characters/animated-porter.glb",
+      "position": [
+        -7.5,
+        0,
+        12
+      ],
+      "kind": "animated",
+      "clip": "Jump"
+    },
+    {
+      "id": "stone",
+      "asset": "characters/guard.glb",
+      "position": [
+        -2.5,
+        0,
+        12
+      ],
+      "kind": "override"
+    }
+  ],
+  "assets": {
+    "characters/citizen.glb": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb",
+    "characters/merchant.glb": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26",
+    "characters/worker.glb": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d",
+    "characters/noble.glb": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae",
+    "characters/seated-spectator.glb": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+    "characters/guard.glb": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9",
+    "characters/gladiator.glb": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4",
+    "characters/citizen-idle-2.glb": "e327e0cef41dd67a3bbb42a64763a73b1d8234bd86feb282b6efc8fc0e8aa2f7",
+    "characters/citizen-idle-3.glb": "05d124028f8a413d04f39dbe390038703049720f7ce58963c3b1d9e64fb4db1f",
+    "characters/citizen-idle-0.glb": "6d80cb361e3857d301c9efa7e0c281dd88700ad4060d82adf043127d3b607d8b",
+    "characters/citizen-idle-1.glb": "c2f8681ec7c6f14d2508da41750126b3f8bebe859a40aa49c75a34c801e5b361",
+    "characters/animated-merchant.glb": "792ddd4e2722d251469b38a6a417d90c00a26829bba159b06a79839f24b50dc2",
+    "characters/animated-citizen.glb": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+    "characters/animated-porter.glb": "2aa2b977d3d787c62f24df0eae9dd0e1520db886f64aa38c877477c3ed2b43a1"
+  },
+  "metrics": [
+    {
+      "arm": "original",
+      "stats": {
+        "backend": "webgpu",
+        "loadMs": 9197.800000011921,
+        "loadPhases": {
+          "backendMs": 332.80000001192093,
+          "assetsAndCollisionMs": 9.600000023841858,
+          "charactersMs": 113.70000004768372,
+          "compileMs": 4565.5,
+          "fullShadowWarmupMs": 4103.300000011921,
+          "shadowBatches": 4
+        },
+        "profiling": {
+          "enabled": false,
+          "gpuTimestampSupported": false,
+          "samples": {
+            "frame": [],
+            "navigation": [],
+            "atmosphere": [],
+            "characters": [],
+            "interface": [],
+            "submission": [],
+            "callback": []
+          },
+          "gpuRenderMs": [],
+          "longTasks": [],
+          "heap": {
+            "used": 43898485,
+            "total": 146783085,
+            "limit": 4395630592
+          }
+        },
+        "frames": [
+          7.599999988078707
+        ],
+        "cpuTimes": [
+          9.099999964237213
+        ],
+        "render": {
+          "calls": 17,
+          "frameCalls": 3,
+          "drawCalls": 375,
+          "triangles": 293431,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "memory": {
+          "attributes": 253,
+          "attributesSize": 5354676,
+          "geometries": 105,
+          "indexAttributes": 95,
+          "indexAttributesSize": 1056312,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 213,
+          "programsSize": 815408,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 6291456,
+          "textures": 7,
+          "texturesSize": 146221184,
+          "uniformBuffers": 805,
+          "uniformBuffersSize": 499232,
+          "total": 160238268
+        },
+        "transfer": {
+          "sourceInstances": 1,
+          "sourceMeshes": 1,
+          "sourceTriangles": 12,
+          "runtimeTriangles": 12,
+          "batches": 1,
+          "instancedObjects": 0,
+          "mergedObjects": 1,
+          "bytes": 912,
+          "collisionInstances": 1,
+          "materialCount": 1
+        },
+        "characters": {
+          "primitiveMerge": {
+            "enabled": false,
+            "prototypes": {},
+            "originalOverrideInstances": 1
+          },
+          "count": 27,
+          "animated": 12,
+          "uniqueSkeletons": 12,
+          "triangles": 149806,
+          "sourceTriangles": 149806,
+          "staticBatches": 96,
+          "allCastAndReceiveShadows": true,
+          "activity": {
+            "walking": 0,
+            "stationary": 12,
+            "waiting": 0,
+            "playerWaits": 0,
+            "pedestrianWaits": 0,
+            "actors": [
+              {
+                "id": "animated-merchant_Idle",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-merchant_Walk",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-merchant_Run",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-merchant_Jump",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-citizen_Idle",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-citizen_Walk",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-citizen_Run",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-citizen_Jump",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-porter_Idle",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-porter_Walk",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-porter_Run",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-porter_Jump",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              }
+            ]
+          }
+        },
+        "navigation": {
+          "mode": "aerial",
+          "position": [
+            0,
+            7.999999999999999,
+            35
+          ],
+          "foot": [
+            0,
+            0,
+            0
+          ],
+          "collisions": 0,
+          "grounded": false
+        },
+        "collision": {
+          "prototypes": 1,
+          "solids": 1,
+          "triangles": 12,
+          "queries": 5
+        }
+      }
+    },
+    {
+      "arm": "merged",
+      "stats": {
+        "backend": "webgpu",
+        "loadMs": 6461.600000023842,
+        "loadPhases": {
+          "backendMs": 134.5,
+          "assetsAndCollisionMs": 7.5,
+          "charactersMs": 124.59999996423721,
+          "compileMs": 3402.5,
+          "fullShadowWarmupMs": 2717.300000011921,
+          "shadowBatches": 2
+        },
+        "profiling": {
+          "enabled": false,
+          "gpuTimestampSupported": false,
+          "samples": {
+            "frame": [],
+            "navigation": [],
+            "atmosphere": [],
+            "characters": [],
+            "interface": [],
+            "submission": [],
+            "callback": []
+          },
+          "gpuRenderMs": [],
+          "longTasks": [],
+          "heap": {
+            "used": 55402276,
+            "total": 147521036,
+            "limit": 4395630592
+          }
+        },
+        "frames": [
+          7.900000035762787
+        ],
+        "cpuTimes": [
+          7.100000023841858
+        ],
+        "render": {
+          "calls": 12,
+          "frameCalls": 3,
+          "drawCalls": 204,
+          "triangles": 294171,
+          "points": 0,
+          "lines": 0,
+          "timestamp": 0
+        },
+        "memory": {
+          "attributes": 189,
+          "attributesSize": 5873700,
+          "geometries": 68,
+          "indexAttributes": 65,
+          "indexAttributesSize": 1076136,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 142,
+          "programsSize": 640224,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 6291456,
+          "textures": 7,
+          "texturesSize": 146221184,
+          "uniformBuffers": 464,
+          "uniformBuffersSize": 298336,
+          "total": 160401036
+        },
+        "transfer": {
+          "sourceInstances": 1,
+          "sourceMeshes": 1,
+          "sourceTriangles": 12,
+          "runtimeTriangles": 12,
+          "batches": 1,
+          "instancedObjects": 0,
+          "mergedObjects": 1,
+          "bytes": 912,
+          "collisionInstances": 1,
+          "materialCount": 1
+        },
+        "characters": {
+          "primitiveMerge": {
+            "enabled": true,
+            "prototypes": {
+              "characters/animated-citizen.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "HairCap__CompatibleParts",
+                    "skinned": true,
+                    "parent": "CharacterRig",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "HairCap",
+                        "sourceUUID": "63276707-7009-4ccd-827b-7577e9244800",
+                        "firstVertex": 0,
+                        "vertexCount": 480,
+                        "firstIndex": 0,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "LeatherBelt",
+                        "sourceUUID": "1a549052-2293-45f4-b85b-a4aee4ffa5ca",
+                        "firstVertex": 480,
+                        "vertexCount": 320,
+                        "firstIndex": 756,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "RomanSandals",
+                        "sourceUUID": "5497dd33-fa77-4c12-a7ce-8958cb914649",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/animated-merchant.glb": {
+                "beforeMeshes": 10,
+                "afterMeshes": 4,
+                "beforeTriangles": 5742,
+                "afterTriangles": 5742,
+                "groups": [
+                  {
+                    "name": "HairCap__CompatibleParts",
+                    "skinned": true,
+                    "parent": "CharacterRig",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "HairCap",
+                        "sourceUUID": "a175501a-c84d-4d64-907a-0d18821fcf0e",
+                        "firstVertex": 0,
+                        "vertexCount": 480,
+                        "firstIndex": 0,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "LeatherBelt",
+                        "sourceUUID": "a1fb918d-bcfb-4fb9-b820-7bbd766bf9a4",
+                        "firstVertex": 480,
+                        "vertexCount": 320,
+                        "firstIndex": 756,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "RomanSandals",
+                        "sourceUUID": "5484884a-b0c0-4566-aa58-a75d7db6835e",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "StreetWares_merchant_reed__CompatibleParts",
+                    "skinned": false,
+                    "parent": "spine1",
+                    "triangles": 740,
+                    "components": [
+                      {
+                        "name": "StreetWares_merchant_reed",
+                        "sourceUUID": "2f0c86cd-0c1f-4f39-bc33-41640dc9d8a2",
+                        "firstVertex": 0,
+                        "vertexCount": 1116,
+                        "firstIndex": 0,
+                        "indexCount": 1116,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.29,
+                          0.15,
+                          0.045
+                        ]
+                      },
+                      {
+                        "name": "StreetWares_merchant_leather",
+                        "sourceUUID": "00df9508-0981-47d3-9fff-644b6ca18a01",
+                        "firstVertex": 1116,
+                        "vertexCount": 216,
+                        "firstIndex": 1116,
+                        "indexCount": 216,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.08,
+                          0.031,
+                          0.01
+                        ]
+                      },
+                      {
+                        "name": "StreetWares_merchant_bread",
+                        "sourceUUID": "bc55446f-2b7e-48b7-86f7-96ead3d61909",
+                        "firstVertex": 1332,
+                        "vertexCount": 396,
+                        "firstIndex": 1332,
+                        "indexCount": 396,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.55,
+                          0.27,
+                          0.08
+                        ]
+                      },
+                      {
+                        "name": "StreetWares_merchant_fruit",
+                        "sourceUUID": "5108f079-8d7e-4047-922d-c3f29320ab52",
+                        "firstVertex": 1728,
+                        "vertexCount": 264,
+                        "firstIndex": 1728,
+                        "indexCount": 264,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.28,
+                          0.045,
+                          0.025
+                        ]
+                      },
+                      {
+                        "name": "StreetWares_merchant_pottery",
+                        "sourceUUID": "576009fd-b126-4f4e-8a3f-632564cd202c",
+                        "firstVertex": 1992,
+                        "vertexCount": 228,
+                        "firstIndex": 1992,
+                        "indexCount": 228,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.43,
+                          0.17,
+                          0.07
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/animated-porter.glb": {
+                "beforeMeshes": 9,
+                "afterMeshes": 4,
+                "beforeTriangles": 6682,
+                "afterTriangles": 6682,
+                "groups": [
+                  {
+                    "name": "HairCap__CompatibleParts",
+                    "skinned": true,
+                    "parent": "CharacterRig",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "HairCap",
+                        "sourceUUID": "f401c5bc-9695-414f-8e97-039925044ffc",
+                        "firstVertex": 0,
+                        "vertexCount": 480,
+                        "firstIndex": 0,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "LeatherBelt",
+                        "sourceUUID": "e59202b0-dfc3-464b-be06-9d10cda2bab4",
+                        "firstVertex": 480,
+                        "vertexCount": 320,
+                        "firstIndex": 756,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "RomanSandals",
+                        "sourceUUID": "aaa83085-43c2-47d5-9a0b-a467e9bb0cb0",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "StreetWares_porter_reed__CompatibleParts",
+                    "skinned": false,
+                    "parent": "spine1",
+                    "triangles": 1680,
+                    "components": [
+                      {
+                        "name": "StreetWares_porter_reed",
+                        "sourceUUID": "abffb1e0-70a4-40f1-8eb0-f3d989116a40",
+                        "firstVertex": 0,
+                        "vertexCount": 4356,
+                        "firstIndex": 0,
+                        "indexCount": 4356,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.29,
+                          0.15,
+                          0.045
+                        ]
+                      },
+                      {
+                        "name": "StreetWares_porter_leather",
+                        "sourceUUID": "4363c13e-3104-4cc0-a00e-2260342c5e86",
+                        "firstVertex": 4356,
+                        "vertexCount": 288,
+                        "firstIndex": 4356,
+                        "indexCount": 288,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.08,
+                          0.031,
+                          0.01
+                        ]
+                      },
+                      {
+                        "name": "StreetWares_porter_canvas",
+                        "sourceUUID": "a1505ec4-f398-4ee9-8a43-ea00928a229d",
+                        "firstVertex": 4644,
+                        "vertexCount": 168,
+                        "firstIndex": 4644,
+                        "indexCount": 168,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.31,
+                          0.36,
+                          0.27
+                        ]
+                      },
+                      {
+                        "name": "StreetWares_porter_pottery",
+                        "sourceUUID": "d3f9fd5d-fce5-4ff9-abf0-62a6b7c53ead",
+                        "firstVertex": 4812,
+                        "vertexCount": 228,
+                        "firstIndex": 4812,
+                        "indexCount": 228,
+                        "indexed": false,
+                        "colorLinear": [
+                          0.43,
+                          0.17,
+                          0.07
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/citizen.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "citizen_LeatherBelt__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "citizen_LeatherBelt",
+                        "sourceUUID": "2d58c59b-b997-45e5-917f-526e67459f6a",
+                        "firstVertex": 0,
+                        "vertexCount": 320,
+                        "firstIndex": 0,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "citizen_HairCap",
+                        "sourceUUID": "5347b0ee-2eb8-4e60-a905-9707a1574dc0",
+                        "firstVertex": 320,
+                        "vertexCount": 480,
+                        "firstIndex": 480,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "citizen_RomanSandals",
+                        "sourceUUID": "b85ccbd1-132d-4479-900d-cc0cc2c1c21a",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/merchant.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "merchant_LeatherBelt__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "merchant_LeatherBelt",
+                        "sourceUUID": "179c7429-eafe-44ff-8470-cdcada8a8441",
+                        "firstVertex": 0,
+                        "vertexCount": 320,
+                        "firstIndex": 0,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "merchant_HairCap",
+                        "sourceUUID": "c611d930-9b9a-42af-b4d4-c69b58d2dda5",
+                        "firstVertex": 320,
+                        "vertexCount": 480,
+                        "firstIndex": 480,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "merchant_RomanSandals",
+                        "sourceUUID": "3ed3adaf-7e6a-46c2-8c96-df7263ad6d70",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/worker.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "worker_LeatherBelt__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "worker_LeatherBelt",
+                        "sourceUUID": "79cdd646-1e81-4bf2-bf2c-9d27ac49eca4",
+                        "firstVertex": 0,
+                        "vertexCount": 320,
+                        "firstIndex": 0,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "worker_HairCap",
+                        "sourceUUID": "b7632586-2fd8-484d-9032-ec8b36b1f345",
+                        "firstVertex": 320,
+                        "vertexCount": 480,
+                        "firstIndex": 480,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "worker_RomanSandals",
+                        "sourceUUID": "fc2d0c1c-95f8-4ad2-8448-8fb845390cb9",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/noble.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "noble_LeatherBelt__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "noble_LeatherBelt",
+                        "sourceUUID": "ebcc21da-cb57-4afe-8d90-f0ae03abdc49",
+                        "firstVertex": 0,
+                        "vertexCount": 320,
+                        "firstIndex": 0,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "noble_HairCap",
+                        "sourceUUID": "c858fb8a-90b3-44d8-8b75-8dd890fc61e8",
+                        "firstVertex": 320,
+                        "vertexCount": 480,
+                        "firstIndex": 480,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "noble_RomanSandals",
+                        "sourceUUID": "0abc55b6-5d25-4817-b99f-a50bb5f68125",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/seated-spectator.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "seated-spectator_LeatherBelt__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "seated-spectator_LeatherBelt",
+                        "sourceUUID": "39845486-8dbf-44cd-b8f8-7d2379d71b3d",
+                        "firstVertex": 0,
+                        "vertexCount": 320,
+                        "firstIndex": 0,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "seated-spectator_HairCap",
+                        "sourceUUID": "56b18d3b-e2ef-4fd1-aac1-720855c5ff74",
+                        "firstVertex": 320,
+                        "vertexCount": 480,
+                        "firstIndex": 480,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "seated-spectator_RomanSandals",
+                        "sourceUUID": "4eaf5774-b6fe-4c41-88d1-01336cae0248",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/guard.glb": {
+                "beforeMeshes": 9,
+                "afterMeshes": 5,
+                "beforeTriangles": 5890,
+                "afterTriangles": 5890,
+                "groups": [
+                  {
+                    "name": "guard_LeatherBelt__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "guard_LeatherBelt",
+                        "sourceUUID": "63baa8e2-9471-460f-af08-211b96ffd74c",
+                        "firstVertex": 0,
+                        "vertexCount": 320,
+                        "firstIndex": 0,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "guard_HairCap",
+                        "sourceUUID": "ae393424-8a1c-4456-bec0-d2eb1777294a",
+                        "firstVertex": 320,
+                        "vertexCount": 480,
+                        "firstIndex": 480,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "guard_RomanSandals",
+                        "sourceUUID": "89cacd8f-8c1f-417e-b63a-a6ab9e84dd16",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "guard_BronzeArmor__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 792,
+                    "components": [
+                      {
+                        "name": "guard_BronzeArmor",
+                        "sourceUUID": "60c63e84-09df-4891-8936-8cbe88ab4cb0",
+                        "firstVertex": 0,
+                        "vertexCount": 1080,
+                        "firstIndex": 0,
+                        "indexCount": 1620,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.33716362714767456,
+                          0.18782077729701996,
+                          0.04817182570695877
+                        ]
+                      },
+                      {
+                        "name": "guard_RomanHelmet",
+                        "sourceUUID": "652cd4a0-aeeb-4492-87f5-079534de0af9",
+                        "firstVertex": 1080,
+                        "vertexCount": 480,
+                        "firstIndex": 1620,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.3613067865371704,
+                          0.2541520893573761,
+                          0.08437620848417282
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "guard_GuardShield__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 96,
+                    "components": [
+                      {
+                        "name": "guard_GuardShield",
+                        "sourceUUID": "c1057f14-9271-43f4-b91f-7f06ea62a33b",
+                        "firstVertex": 0,
+                        "vertexCount": 48,
+                        "firstIndex": 0,
+                        "indexCount": 72,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.22696587443351746,
+                          0.02955683507025242,
+                          0.023153366521000862
+                        ]
+                      },
+                      {
+                        "name": "guard_GuardSpear",
+                        "sourceUUID": "71fdf25e-c33c-4f62-9928-c67c1882eab7",
+                        "firstVertex": 48,
+                        "vertexCount": 120,
+                        "firstIndex": 72,
+                        "indexCount": 216,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.18116424977779388,
+                          0.11697066575288773,
+                          0.05780543014407158
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/gladiator.glb": {
+                "beforeMeshes": 9,
+                "afterMeshes": 6,
+                "beforeTriangles": 5878,
+                "afterTriangles": 5878,
+                "groups": [
+                  {
+                    "name": "gladiator_LeatherBelt__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "gladiator_LeatherBelt",
+                        "sourceUUID": "e999d6da-d1f1-4043-a076-c15de0d555f3",
+                        "firstVertex": 0,
+                        "vertexCount": 320,
+                        "firstIndex": 0,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "gladiator_HairCap",
+                        "sourceUUID": "39a869d2-ad68-438d-96ae-ce9b6f080268",
+                        "firstVertex": 320,
+                        "vertexCount": 480,
+                        "firstIndex": 480,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "gladiator_RomanSandals",
+                        "sourceUUID": "3e506715-a036-494f-9c3c-0d6194102043",
+                        "firstVertex": 800,
+                        "vertexCount": 704,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "gladiator_BronzeArmor__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 792,
+                    "components": [
+                      {
+                        "name": "gladiator_BronzeArmor",
+                        "sourceUUID": "b5ea80bc-6767-4535-9951-540ed6882004",
+                        "firstVertex": 0,
+                        "vertexCount": 1080,
+                        "firstIndex": 0,
+                        "indexCount": 1620,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.33716362714767456,
+                          0.18782077729701996,
+                          0.04817182570695877
+                        ]
+                      },
+                      {
+                        "name": "gladiator_RomanHelmet",
+                        "sourceUUID": "a2916328-34ae-47ac-877f-f8d65602585d",
+                        "firstVertex": 1080,
+                        "vertexCount": 480,
+                        "firstIndex": 1620,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.3613067865371704,
+                          0.2541520893573761,
+                          0.08437620848417282
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/citizen-idle-2.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "Ambient_HairCap__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "Ambient_HairCap",
+                        "sourceUUID": "9537173d-9a74-4363-84aa-dee022996bba",
+                        "firstVertex": 0,
+                        "vertexCount": 584,
+                        "firstIndex": 0,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "Ambient_LeatherBelt",
+                        "sourceUUID": "d257da67-873b-4a01-beb6-6bac3de478ee",
+                        "firstVertex": 584,
+                        "vertexCount": 384,
+                        "firstIndex": 756,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "Ambient_RomanSandals",
+                        "sourceUUID": "f5effdb8-24c4-4e65-8458-23a68a429352",
+                        "firstVertex": 968,
+                        "vertexCount": 706,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/citizen-idle-3.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "Ambient_HairCap__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "Ambient_HairCap",
+                        "sourceUUID": "e8473f54-24a1-4ad1-905d-25b2a91a2072",
+                        "firstVertex": 0,
+                        "vertexCount": 583,
+                        "firstIndex": 0,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "Ambient_LeatherBelt",
+                        "sourceUUID": "f7747064-0150-44cb-8d17-8ff32bd04420",
+                        "firstVertex": 583,
+                        "vertexCount": 384,
+                        "firstIndex": 756,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "Ambient_RomanSandals",
+                        "sourceUUID": "b9d8b57a-5ba9-4403-b327-ed25d4264048",
+                        "firstVertex": 967,
+                        "vertexCount": 706,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/citizen-idle-0.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "Ambient_HairCap__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "Ambient_HairCap",
+                        "sourceUUID": "8146ea1c-868d-45b1-82f0-945356ac9965",
+                        "firstVertex": 0,
+                        "vertexCount": 582,
+                        "firstIndex": 0,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "Ambient_LeatherBelt",
+                        "sourceUUID": "46140e5c-c412-4849-993c-c191eaaa32a9",
+                        "firstVertex": 582,
+                        "vertexCount": 384,
+                        "firstIndex": 756,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "Ambient_RomanSandals",
+                        "sourceUUID": "b82d719a-1f35-4940-aedd-32493de5c659",
+                        "firstVertex": 966,
+                        "vertexCount": 706,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              },
+              "characters/citizen-idle-1.glb": {
+                "beforeMeshes": 5,
+                "afterMeshes": 3,
+                "beforeTriangles": 5002,
+                "afterTriangles": 5002,
+                "groups": [
+                  {
+                    "name": "Ambient_HairCap__CompatibleParts",
+                    "skinned": false,
+                    "parent": "Scene",
+                    "triangles": 764,
+                    "components": [
+                      {
+                        "name": "Ambient_HairCap",
+                        "sourceUUID": "72b01316-d50a-4af0-9e3e-8ea39748940d",
+                        "firstVertex": 0,
+                        "vertexCount": 579,
+                        "firstIndex": 0,
+                        "indexCount": 756,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.03688944876194,
+                          0.023153366521000862,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "Ambient_LeatherBelt",
+                        "sourceUUID": "7f8297a2-8717-401a-87ff-2db7512ad658",
+                        "firstVertex": 579,
+                        "vertexCount": 384,
+                        "firstIndex": 756,
+                        "indexCount": 480,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.08650045841932297,
+                          0.03688944876194,
+                          0.014443843625485897
+                        ]
+                      },
+                      {
+                        "name": "Ambient_RomanSandals",
+                        "sourceUUID": "0ee18048-2c1b-4496-8d5a-49d6f42576d5",
+                        "firstVertex": 963,
+                        "vertexCount": 706,
+                        "firstIndex": 1236,
+                        "indexCount": 1056,
+                        "indexed": true,
+                        "colorLinear": [
+                          0.09305896610021591,
+                          0.05126945674419403,
+                          0.023153366521000862
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "skipped": {
+                  "paletteTintedTunic": 1
+                }
+              }
+            },
+            "originalOverrideInstances": 1
+          },
+          "count": 27,
+          "animated": 12,
+          "uniqueSkeletons": 12,
+          "triangles": 149806,
+          "sourceTriangles": 149806,
+          "staticBatches": 58,
+          "allCastAndReceiveShadows": true,
+          "activity": {
+            "walking": 0,
+            "stationary": 12,
+            "waiting": 0,
+            "playerWaits": 0,
+            "pedestrianWaits": 0,
+            "actors": [
+              {
+                "id": "animated-merchant_Idle",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-merchant_Walk",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-merchant_Run",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-merchant_Jump",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-citizen_Idle",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-citizen_Walk",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-citizen_Run",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-citizen_Jump",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-porter_Idle",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-porter_Walk",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-porter_Run",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              },
+              {
+                "id": "animated-porter_Jump",
+                "role": "animated",
+                "pathIndex": 1,
+                "waiting": "",
+                "stoppedSeconds": 0
+              }
+            ]
+          }
+        },
+        "navigation": {
+          "mode": "aerial",
+          "position": [
+            0,
+            7.999999999999999,
+            35
+          ],
+          "foot": [
+            0,
+            0,
+            0
+          ],
+          "collisions": 0,
+          "grounded": false
+        },
+        "collision": {
+          "prototypes": 1,
+          "solids": 1,
+          "triangles": 12,
+          "queries": 5
+        }
+      }
+    }
+  ],
+  "errors": []
+}

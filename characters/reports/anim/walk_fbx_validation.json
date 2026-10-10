@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "kind": "animation-fbx",
+  "source_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\walk.fbx",
+  "asset_sha256": "ca7146b66042797cebaf4ce4bf1caa9a9d0425cfccc3f00537ee8236a42671b9",
+  "export_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_export.json",
+  "export_report_sha256": "012ab598fc3bce0297d9f878aeae8e5ce6b82c5b54bdf45dc481b3947abe28f7",
+  "action_name": "Walk",
+  "blender_version": "5.1.2",
+  "details": {
+    "objects": [
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ]
+    ],
+    "action_name_requested": "Walk",
+    "action_name_imported": "CharacterRig|Walk",
+    "frame_range": [
+      1,
+      32
+    ],
+    "fps": 30.0,
+    "bone_count": 49,
+    "pose_matrix_max_delta": 6.22868537902832e-06,
+    "worst_pose_delta": {
+      "frame": 17,
+      "bone": "f_index.03.R",
+      "delta": 6.22868537902832e-06
+    },
+    "raw_texture_contract": {}
+  },
+  "failures": {}
+}

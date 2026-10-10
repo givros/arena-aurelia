@@ -1,0 +1,338 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-10T19:18:43.768Z",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "finalBuild": {
+    "index-Bp4WHLxJ.js": "892162f1842bad37bf1057eb8142072666f9393163365d46f9e795e2cdbf4710",
+    "index-Cj9FlUBs.css": "828f2211e57f5636f17e63e33aadb05973cb00497c61b63cf43d7fa0319fc55b"
+  },
+  "moduleSHA256": "47a0d97ea564d4e1068b6b33b2be7429430e97f4fbf5f9e27804718dbf9266eb",
+  "pinnedAddonSHA256": "b1fb1034d84a3c3a6a68e416a58b3fb16817d8e9f903e67d4d1b9f72e8ae2d80",
+  "profileSHA256": "f1532751cadfa6f3b0d8d726711c9ab816fe19c00e51eb21de441681de1cd57a",
+  "implementation": "Local pinned-addon derivative through public Lighting/TSL APIs. Grid NX/NY are uniform data; compute/storage identities remain stable while active count changes. No renderer internals or installed modules are patched.",
+  "capacity": {
+    "nativeReserve": [
+      3840,
+      2160
+    ],
+    "clusterCount": 195840,
+    "bytes": 50135040,
+    "previousActiveAllocationAt1440x1080": 9400320,
+    "additionalReservedBytesAt1440x1080": 40734720,
+    "lights": 53,
+    "perClusterCapacity": 64,
+    "depthSlices": 24,
+    "tilePixels": 32,
+    "growth": "Double capacity or fit the requested grid, capped by actual maxStorageBufferBindingSize/maxBufferSize. Unsupported size throws before changing the existing grid. Native DPR/light count are never clamped.",
+    "storageLimitation": "The pinned engine may retain superseded standalone storage buffers until renderer teardown. Growth is geometric, and ordinary resizing within reserved capacity does not allocate another buffer."
+  },
+  "proofs": [
+    {
+      "file": "stable_grid_cpu_validation.json",
+      "sha256": "b35b49707241a6f690864e6ee99db2bedfbffea01b21874eaff059991f1a59a4",
+      "status": "passed"
+    },
+    {
+      "file": "stable_grid_gpu_validation.json",
+      "sha256": "d12d05c6eee5fabff6edbeb6a25d687bc97ae2e547be1da258698ba198ebfb37",
+      "status": "passed"
+    },
+    {
+      "file": "stable_grid_pixel_validation.json",
+      "sha256": "5a91fbe42aa2678334f01cd685225a5c9210fc9b20e28ce167b93ac2911bd6be",
+      "status": "passed"
+    },
+    {
+      "file": "program_lifecycle_validation.json",
+      "sha256": "fe58b14f4f00491c92d5d62fcba3a7327d8a3b9bd000786b16634de660f2e22b",
+      "status": "passed"
+    }
+  ],
+  "equivalence": {
+    "gpuCases": 17,
+    "allActiveIndexBuffersIdentical": true,
+    "pixelCases": 17,
+    "maximumRGBChannelDifference": 0,
+    "cpuEvidence": "stable_grid_cpu_validation.json"
+  },
+  "lifecycle": {
+    "before": {
+      "file": "performance/resize-before-lifecycle.json",
+      "sha256": "716dd298ea91b6a9f99a55455ff29f2a6f1a0012b1f13b4f908cf454f24b270c",
+      "status": "failed",
+      "eventCounts": {
+        "createProgram": 1721,
+        "destroyProgram": 1718
+      },
+      "snapshots": [
+        {
+          "phase": "original",
+          "time": 140617,
+          "programs": 2997,
+          "renderCalls": 194,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "stageCounts": {
+            "vertex": 2975,
+            "fragment": 21,
+            "compute": 1
+          }
+        },
+        {
+          "phase": "wide",
+          "time": 161498,
+          "programs": 3009,
+          "renderCalls": 200,
+          "viewport": [
+            1600,
+            1000
+          ],
+          "stageCounts": {
+            "vertex": 2978,
+            "fragment": 30,
+            "compute": 1
+          }
+        },
+        {
+          "phase": "restored",
+          "time": 163076.59999996424,
+          "programs": 3009,
+          "renderCalls": 203,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "stageCounts": {
+            "vertex": 2978,
+            "fragment": 30,
+            "compute": 1
+          }
+        },
+        {
+          "phase": "reference_day",
+          "time": 164887.09999996424,
+          "programs": 3009,
+          "renderCalls": 203,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "stageCounts": {
+            "vertex": 2978,
+            "fragment": 30,
+            "compute": 1
+          }
+        },
+        {
+          "phase": "market_day",
+          "time": 166701,
+          "programs": 3009,
+          "renderCalls": 203,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "stageCounts": {
+            "vertex": 2978,
+            "fragment": 30,
+            "compute": 1
+          }
+        },
+        {
+          "phase": "reference_night",
+          "time": 190171.19999998808,
+          "programs": 3001,
+          "renderCalls": 206,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "stageCounts": {
+            "vertex": 2978,
+            "fragment": 22,
+            "compute": 1
+          }
+        },
+        {
+          "phase": "reference_day_again",
+          "time": 192048,
+          "programs": 3000,
+          "renderCalls": 209,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "stageCounts": {
+            "vertex": 2978,
+            "fragment": 21,
+            "compute": 1
+          }
+        }
+      ]
+    },
+    "after": {
+      "file": "program_lifecycle_validation.json",
+      "eventCounts": {
+        "createProgram": 0,
+        "destroyProgram": 0
+      },
+      "newSceneShaderCreations": 0,
+      "snapshots": [
+        {
+          "phase": "before_resize",
+          "time": 105245.30000001192,
+          "programs": 2997,
+          "calls": 201,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "nativeFramebuffer": [
+            1440,
+            1080
+          ],
+          "grid": [
+            45,
+            34
+          ],
+          "activeCount": 36720,
+          "capacityClusters": 195840,
+          "capacityBytes": 50135040,
+          "computeID": 1116,
+          "storageID": 1111,
+          "gridReallocations": 1
+        },
+        {
+          "phase": "settled_1600_1000",
+          "time": 105647.10000002384,
+          "programs": 2997,
+          "calls": 216,
+          "viewport": [
+            1600,
+            1000
+          ],
+          "nativeFramebuffer": [
+            1600,
+            1000
+          ],
+          "grid": [
+            50,
+            32
+          ],
+          "activeCount": 38400,
+          "capacityClusters": 195840,
+          "capacityBytes": 50135040,
+          "computeID": 1116,
+          "storageID": 1111,
+          "gridReallocations": 1,
+          "wallMs": 402
+        },
+        {
+          "phase": "settled_1440_1080",
+          "time": 106208.10000002384,
+          "programs": 2997,
+          "calls": 243,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "nativeFramebuffer": [
+            1440,
+            1080
+          ],
+          "grid": [
+            45,
+            34
+          ],
+          "activeCount": 36720,
+          "capacityClusters": 195840,
+          "capacityBytes": 50135040,
+          "computeID": 1116,
+          "storageID": 1111,
+          "gridReallocations": 1,
+          "wallMs": 466
+        },
+        {
+          "phase": "fullscreen_return",
+          "time": 107114.30000001192,
+          "programs": 2997,
+          "calls": 288,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "nativeFramebuffer": [
+            1440,
+            1080
+          ],
+          "grid": [
+            45,
+            34
+          ],
+          "activeCount": 36720,
+          "capacityClusters": 195840,
+          "capacityBytes": 50135040,
+          "computeID": 1116,
+          "storageID": 1111,
+          "gridReallocations": 1
+        },
+        {
+          "phase": "views_complete",
+          "time": 115865.60000002384,
+          "programs": 2997,
+          "calls": 867,
+          "viewport": [
+            1440,
+            1080
+          ],
+          "nativeFramebuffer": [
+            1440,
+            1080
+          ],
+          "grid": [
+            45,
+            34
+          ],
+          "activeCount": 36720,
+          "capacityClusters": 195840,
+          "capacityBytes": 50135040,
+          "computeID": 1116,
+          "storageID": 1111,
+          "gridReallocations": 1
+        }
+      ]
+    }
+  },
+  "requestedVisualChange": {
+    "fogBefore": [
+      420,
+      1350
+    ],
+    "fogAfter": [
+      1200,
+      4500
+    ],
+    "reason": "User requested strongly reduced fog across the complete project. This change is separate from exact clustered-light equivalence and is applied identically to both final performance arms."
+  },
+  "runtimeErrorPath": {
+    "name": "Unsupported display-size error stops rendering and offers reload",
+    "status": "passed",
+    "detail": {
+      "message": "This display size exceeds the GPU lighting-buffer limit. Use a smaller window.",
+      "visible": true,
+      "reload": true,
+      "scope": "Mocked capacity exception through the real render-loop error handler; CPU proof separately exercises actual device-limit validation.",
+      "expectedErrors": [
+        "This display size exceeds the GPU lighting-buffer limit. Use a smaller window."
+      ]
+    }
+  },
+  "startupAllocationCorrection": {
+    "evidence": "startup_regression_diagnosis.json",
+    "sha256": "3b7ffc2d1a40096a590d726a40be3adcffd7c00d19fb68ccd908206dda4415a8",
+    "numericIvec4Count": 3133440,
+    "reason": "Avoid TypedArray numeric coercion while generating uniform declarations; identical allocation and shaders."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "visual_acceptance_required": true,
+  "selected_clips": [
+    "idle",
+    "walk",
+    "run",
+    "jump"
+  ],
+  "selected_actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "working_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "working_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "actions": [
+    {
+      "action": "Idle",
+      "frame_start": 1,
+      "frame_end": 251,
+      "sample_frames": [
+        1,
+        64,
+        126,
+        188,
+        251
+      ],
+      "renders": [
+        {
+          "frame": 1,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\idle\\idle_001.png",
+          "sha256": "af2958360b8c6730b36f1ef3b55b516b34075c9e521f30ce1bd25036ecac146a"
+        },
+        {
+          "frame": 64,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\idle\\idle_064.png",
+          "sha256": "a6ba4ae49f0906f3b7f956d75bc92e73a2c47634962721632a7934ae3d73e91f"
+        },
+        {
+          "frame": 126,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\idle\\idle_126.png",
+          "sha256": "8b03c08c29f3d07c710bfbeeb74bf5f0d0f0b6ee644141724c631df6eb910771"
+        },
+        {
+          "frame": 188,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\idle\\idle_188.png",
+          "sha256": "6735a22c8b029a4739b240c9447dd151fa9b8dd84bccbc4c664825ea1ec73a7d"
+        },
+        {
+          "frame": 251,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\idle\\idle_251.png",
+          "sha256": "18609fc720ad82b64d1339ed1bf15e5f2b40981d9c833d95dded78e63ddf264c"
+        }
+      ]
+    },
+    {
+      "action": "Walk",
+      "frame_start": 1,
+      "frame_end": 32,
+      "sample_frames": [
+        1,
+        9,
+        16,
+        24,
+        32
+      ],
+      "renders": [
+        {
+          "frame": 1,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\walk\\walk_001.png",
+          "sha256": "30aea1185f9f3157c624d969d1f212581de61a733758898ea45c3eafd66ee108"
+        },
+        {
+          "frame": 9,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\walk\\walk_009.png",
+          "sha256": "2a4091120bb293b08d8bdb3d7f387b3fdf0ba5e6f353bb1a2fb450d19a247cbd"
+        },
+        {
+          "frame": 16,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\walk\\walk_016.png",
+          "sha256": "151148dc79af6cbebc82e308ea13de7fcbc93999c69fed02d9969e3e38922db5"
+        },
+        {
+          "frame": 24,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\walk\\walk_024.png",
+          "sha256": "270f731e65c3fdc19ab6fb05fdd8f51962ccc91e5bae64827065312e265925d9"
+        },
+        {
+          "frame": 32,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\walk\\walk_032.png",
+          "sha256": "5e593fff135cd6694e24730cc47756a4508fd32220048bbf9cfdad6c19ac1dd5"
+        }
+      ]
+    },
+    {
+      "action": "Run",
+      "frame_start": 1,
+      "frame_end": 20,
+      "sample_frames": [
+        1,
+        6,
+        10,
+        15,
+        20
+      ],
+      "renders": [
+        {
+          "frame": 1,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\run\\run_001.png",
+          "sha256": "c6fbac3a7396c6e0ced292aed38f5eed9c81ac3d0302d87f49f223c8d4a6c145"
+        },
+        {
+          "frame": 6,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\run\\run_006.png",
+          "sha256": "7e67b3fbbbbf87d76b5eff4b52b9a1200ca7c4a9e70168dbd1c20cbc09c5387a"
+        },
+        {
+          "frame": 10,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\run\\run_010.png",
+          "sha256": "acac63b4f6666cc5cac43aa27987b7c52d30121ff0bbdc7af15caabdd8695555"
+        },
+        {
+          "frame": 15,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\run\\run_015.png",
+          "sha256": "ae11f96ddd0334867ccedb3efa341b4a06ff729fe89832820606c252e8904976"
+        },
+        {
+          "frame": 20,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\run\\run_020.png",
+          "sha256": "28f6a6e47eb904ddc23432ce4f7bdeeec6903312226ad5128b9d68d13776b9cf"
+        }
+      ]
+    },
+    {
+      "action": "Jump",
+      "frame_start": 1,
+      "frame_end": 58,
+      "sample_frames": [
+        1,
+        15,
+        30,
+        44,
+        58
+      ],
+      "renders": [
+        {
+          "frame": 1,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\jump\\jump_001.png",
+          "sha256": "d2dc9cd89dbd4bd76c021cdcf25c388fdf001f720677534e2176e9c52a5cd837"
+        },
+        {
+          "frame": 15,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\jump\\jump_015.png",
+          "sha256": "9b9130497086c43dc31c5957e3a3d59b45f3a7113dfbfb4d074b5eb063d12e88"
+        },
+        {
+          "frame": 30,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\jump\\jump_030.png",
+          "sha256": "92cbc5fcb4f9b2e06b8fc54265f43f871395b05f33eaa5e064d26bcf8544f1e8"
+        },
+        {
+          "frame": 44,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\jump\\jump_044.png",
+          "sha256": "4da0cf7ade306e6130a38190b8f3e7f264adbaefbd638e62eff299009e359740"
+        },
+        {
+          "frame": 58,
+          "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_animation_qc\\jump\\jump_058.png",
+          "sha256": "221ab583d030a80daad97ad7c987263573c1c280ba43599b3fccd7fa7cadd758"
+        }
+      ]
+    }
+  ]
+}

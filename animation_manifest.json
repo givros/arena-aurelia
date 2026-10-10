@@ -1,0 +1,85 @@
+{
+  "scene": "Aurelia Arena District",
+  "source": "Aurelia_Arena.blend",
+  "characters": "characters/animation_manifest.json",
+  "systems": [
+    {
+      "id": "day_night",
+      "owner": "viewer/src/atmosphere.ts",
+      "durationSeconds": 1080,
+      "loop": true,
+      "defaultHour": 15,
+      "pauseAndManualTimeSelection": true,
+      "changes": [
+        "Sun direction and intensity",
+        "Moon and sky fill",
+        "Sky gradient and distant atmospheric color",
+        "Brazier light and emissive intensity"
+      ]
+    },
+    {
+      "id": "brazier_light",
+      "owner": "viewer/src/atmosphere.ts",
+      "contributors": 53,
+      "phaseOffsetPerLamp": true,
+      "amplitude": 0.06,
+      "angularFrequency": 3.7,
+      "geometry": "Static modeled bowl/coals/flames; light intensity flickers"
+    },
+    {
+      "id": "spectator_population",
+      "instances": 12000,
+      "motion": "Static seated poses; full geometry shared and instanced",
+      "placement": "Distinct lower/middle/upper density zones, eight garment palettes and open aisles"
+    },
+    {
+      "id": "fabric_and_water",
+      "motion": "Static authored geometry/materials; no cloth or fluid simulation"
+    },
+    {
+      "id": "district_life",
+      "animatedActors": 164,
+      "clips": {
+        "Walk": 142,
+        "Idle": 22
+      },
+      "regions": {
+        "district_south_residential": 166,
+        "district_west_quay": 376,
+        "district_eastern_backstreets": 225,
+        "district_aqueduct_ward": 188,
+        "district_north_insulae": 280,
+        "district_upper_city": 377,
+        "district_eastern_trades": 280,
+        "district_rear_precinct": 148,
+        "district_temple_civic": 115,
+        "district_east_quay": 140,
+        "district_arena_lower_gallery": 38,
+        "district_arena_upper_gallery": 8,
+        "district_arena_backstage": 10,
+        "district_city_gate_porta_spectaculorum": 2,
+        "district_city_gate_porta_orientalis": 2,
+        "district_city_gate_porta_pontis": 2,
+        "district_city_gate_porta_collina": 2,
+        "district_civic_court": 14,
+        "district_arrival_avenue": 6,
+        "district_quarter_southern_west": 2,
+        "district_quarter_southern_east": 3,
+        "district_quarter_southern_courts": 6,
+        "district_quarter_western_quay": 6,
+        "district_quarter_eastern_trades": 4,
+        "district_quarter_eastern_lanes": 4,
+        "district_quarter_aqueduct_courts": 3,
+        "district_quarter_western_civic": 3,
+        "district_quarter_temple_residential": 4,
+        "district_quarter_archive_quarter": 3,
+        "district_quarter_upper_courts": 4,
+        "district_quarter_northern_hillside": 2
+      },
+      "source": "Full canonical role geometry, real skeletal actions, cyclic authored walking paths and varied frozen Idle poses",
+      "runtime": "The same complete assets and placements with individual phases, constant walking speed and player/actor yielding",
+      "limits": "Ambient social, working and commercial activity; no simulated transactions or dialogue economy"
+    }
+  ],
+  "interaction": "First-person exploration, collision, aerial orbit, destination selection, day/night controls and fullscreen. No scripted gladiator combat or interactive gates."
+}

@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "source": "Aurelia_Arena.blend",
+  "sourceSHA256": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+  "reopenedFreshProcess": true,
+  "counts": {
+    "sceneObjects": 29504,
+    "meshObjects": 16194,
+    "materials": 155,
+    "cameras": 13,
+    "pointLights": 31,
+    "characterInstances": 13265,
+    "characterTriangleInstances": 66425490,
+    "actions": 84
+  },
+  "missingDependencies": [],
+  "nonfiniteTransforms": [],
+  "images": [
+    {
+      "name": "arena_sand_atlas.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\arena_sand_atlas.png"
+    },
+    {
+      "name": "paving.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\paving.png"
+    },
+    {
+      "name": "sand.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\sand.png"
+    },
+    {
+      "name": "travertine.png",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true,
+      "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\textures\\travertine.png"
+    }
+  ],
+  "cameras": {
+    "street_market_lane": {
+      "position": [
+        34.0,
+        -107.5999984741211,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.5876623392105103,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "street_west_souk": {
+      "position": [
+        -119.5,
+        -61.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.581972360610962,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "street_shop_approach": {
+      "position": [
+        0.0,
+        -154.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.6220015287399292,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "reference": {
+      "position": [
+        38.0,
+        -266.0,
+        163.0
+      ],
+      "rotationEuler": [
+        1.0394896268844604,
+        5.665766078521983e-09,
+        0.1445780098438263
+      ],
+      "lens": 41.5
+    },
+    "top": {
+      "position": [
+        0.0,
+        0.0,
+        330.0
+      ],
+      "rotationEuler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 38.0
+    },
+    "approach": {
+      "position": [
+        7.0,
+        -116.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.8232653141021729,
+        2.615347050038963e-09,
+        0.13640260696411133
+      ],
+      "lens": 38.0
+    },
+    "floor": {
+      "position": [
+        30.0,
+        -25.0,
+        2.119999885559082
+      ],
+      "rotationEuler": [
+        1.7793852090835571,
+        7.577601657260402e-09,
+        0.34302395582199097
+      ],
+      "lens": 24.0
+    },
+    "facade": {
+      "position": [
+        39.0,
+        -89.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        2.0175750255584717,
+        9.254536337266472e-08,
+        1.212025761604309
+      ],
+      "lens": 24.0
+    },
+    "seating": {
+      "position": [
+        68.0999984741211,
+        -51.79999923706055,
+        29.299999237060547
+      ],
+      "rotationEuler": [
+        1.3713321685791016,
+        2.158547118824572e-08,
+        0.7452505826950073
+      ],
+      "lens": 30.0
+    },
+    "hypogeum": {
+      "position": [
+        20.0,
+        -11.0,
+        -3.880000114440918
+      ],
+      "rotationEuler": [
+        1.5779961347579956,
+        -3.783274848956353e-08,
+        0.9272952675819397
+      ],
+      "lens": 24.0
+    },
+    "market": {
+      "position": [
+        34.0,
+        -107.5999984741211,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.5876623392105103,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "reverse": {
+      "position": [
+        0.0,
+        133.0,
+        85.0
+      ],
+      "rotationEuler": [
+        1.0573368072509766,
+        7.61496252721372e-08,
+        3.141592502593994
+      ],
+      "lens": 36.0
+    },
+    "vip": {
+      "position": [
+        7.0,
+        54.0,
+        20.440000534057617
+      ],
+      "rotationEuler": [
+        1.7172229290008545,
+        -2.3654557423924416e-08,
+        0.7853981852531433
+      ],
+      "lens": 28.0
+    }
+  },
+  "renderEvidence": [
+    "renders/pass3_reference.png",
+    "renders/pass3_top.png",
+    "renders/pass3_approach.png",
+    "renders/pass3_floor.png",
+    "renders/pass3_facade.png",
+    "renders/pass3_seating.png",
+    "renders/pass3_hypogeum.png",
+    "renders/pass3_market.png",
+    "renders/pass3_reverse.png",
+    "renders/pass3_vip.png"
+  ],
+  "sourceUnchangedDuringAudit": true,
+  "currentRevisionRenderEvidence": [
+    "renders/street_life_final_reference.png",
+    "renders/street_life_final_street_market_lane.png",
+    "renders/street_life_final_street_shop_approach.png",
+    "renders/street_life_final_street_west_souk.png",
+    "renders/street_life_layout_reference.png",
+    "renders/street_life_layout_street_market_lane.png"
+  ]
+}

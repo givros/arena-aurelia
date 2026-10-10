@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "kind": "animation-fbx",
+  "source_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\jump.fbx",
+  "asset_sha256": "ba2fdc844258e2b4721acc78326045301c761974c1098c9d70be8bbd1c7451c0",
+  "export_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_export.json",
+  "export_report_sha256": "012ab598fc3bce0297d9f878aeae8e5ce6b82c5b54bdf45dc481b3947abe28f7",
+  "action_name": "Jump",
+  "blender_version": "5.1.2",
+  "details": {
+    "objects": [
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ]
+    ],
+    "action_name_requested": "Jump",
+    "action_name_imported": "CharacterRig|Jump",
+    "frame_range": [
+      1,
+      58
+    ],
+    "fps": 30.0,
+    "bone_count": 49,
+    "pose_matrix_max_delta": 5.550682544708252e-06,
+    "worst_pose_delta": {
+      "frame": 9,
+      "bone": "thumb.02.L",
+      "delta": 5.550682544708252e-06
+    },
+    "raw_texture_contract": {}
+  },
+  "failures": {}
+}

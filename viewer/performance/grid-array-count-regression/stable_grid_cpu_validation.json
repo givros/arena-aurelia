@@ -1,0 +1,226 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-10T18:48:16.573Z",
+  "scope": "CPU-only lifecycle, source-token preservation, actual 53-light texture/Z-range equivalence, integer indexing and Float32 arithmetic reference checks. Does not claim GPU image equivalence or actual GPU storage reclamation.",
+  "threeRevision": "186",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "environmentManifestSHA256": "740c4b06ec047280e5bf9669a7e01f77ca86c82a47ba068608f572e8892ac966",
+  "moduleSHA256": "b10604716cce00f2b100a059faa2d214afe4e0d40225ea9a433db3c736ce5efe",
+  "pinnedOriginalSHA256": "b1fb1034d84a3c3a6a68e416a58b3fb16817d8e9f903e67d4d1b9f72e8ae2d80",
+  "unchangedMethods": [
+    "type",
+    "customCacheKey",
+    "updateLightsTexture",
+    "updateBefore",
+    "setLights",
+    "getBuiltinLights",
+    "getBlock",
+    "getTile",
+    "getClusterLightCount",
+    "getLightData",
+    "setupLights",
+    "getBufferFitSize",
+    "setSize"
+  ],
+  "kernelChangedOnlyByDeclaredUniformSubstitutions": true,
+  "parameters": {
+    "maxLights": 64,
+    "tileSize": 32,
+    "zSlices": 24,
+    "maxLightsPerCluster": 64,
+    "actualPointLights": 53
+  },
+  "identityRecords": [
+    {
+      "width": 1440,
+      "height": 1080,
+      "grid": [
+        45,
+        34,
+        24
+      ],
+      "activeCount": 36720,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1600,
+      "height": 1080,
+      "grid": [
+        50,
+        34,
+        24
+      ],
+      "activeCount": 40800,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1080,
+      "grid": [
+        45,
+        34,
+        24
+      ],
+      "activeCount": 36720,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "grid": [
+        60,
+        34,
+        24
+      ],
+      "activeCount": 48960,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "grid": [
+        120,
+        68,
+        24
+      ],
+      "activeCount": 195840,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1080,
+      "height": 1920,
+      "grid": [
+        34,
+        60,
+        24
+      ],
+      "activeCount": 48960,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1017,
+      "height": 733,
+      "grid": [
+        32,
+        23,
+        24
+      ],
+      "activeCount": 17664,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    }
+  ],
+  "growth": {
+    "size": [
+      4096,
+      2160
+    ],
+    "bufferBytes": 100270080,
+    "computeDisposeEvents": 1,
+    "storageDisposeEvents": 1,
+    "shrinkingReusesGrownAllocation": true,
+    "gpuStorageReclamationVerified": false,
+    "geometricCapacityDoubled": true,
+    "adjacentLargerSizeReusesAllocation": [
+      4128,
+      2160
+    ],
+    "storageAllocationCaveat": "Installed r186 does not reclaim standalone storage allocations from BufferAttribute.dispose events; above-capacity growth retains prior GPU allocation until renderer teardown."
+  },
+  "arithmetic": {
+    "arithmeticComparisons": 885,
+    "clusterIndicesCompared": 634560,
+    "maxFloat32Delta": 0,
+    "boundsCompared": 3584,
+    "lightMembershipComparisons": 189952,
+    "textureValuesCompared": 2048,
+    "zRangeValuesCompared": 384
+  },
+  "cameraRecords": [
+    {
+      "name": "reference",
+      "lights": 53,
+      "textureAndZSliceValuesExact": true
+    },
+    {
+      "name": "street_district_gallery",
+      "lights": 53,
+      "textureAndZSliceValuesExact": true
+    },
+    {
+      "name": "street_district_civic_court",
+      "lights": 53,
+      "textureAndZSliceValuesExact": true
+    },
+    {
+      "name": "district_entire_world",
+      "lights": 53,
+      "textureAndZSliceValuesExact": true
+    }
+  ],
+  "limitations": [
+    "CPU Float32 reference arithmetic is not proof of GPU compiler division/constant-folding behavior. Actual storage-list and pixel comparisons remain required.",
+    "Dispose events are observed; standalone storage GPU-buffer reclamation must be verified separately.",
+    "Only active clusters dispatch or index the reserved storage. Capacity growth can recreate shaders; resize stability is bounded to allocated capacity."
+  ],
+  "pinnedAddonSHA256": "b1fb1034d84a3c3a6a68e416a58b3fb16817d8e9f903e67d4d1b9f72e8ae2d80",
+  "sizeLimits": {
+    "defaultBytes": 134217728,
+    "preDeviceSetSizeSupported": true,
+    "unsupportedInitialSizePreservesEmptyState": true,
+    "unsupportedExistingSizePreservesGridState": true,
+    "deviceMinimumOfStorageBindingAndBufferLimitsEnforced": true,
+    "rejectedSize": [
+      16384,
+      16384
+    ]
+  }
+}

@@ -1,0 +1,2829 @@
+{
+  "passed": true,
+  "source": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\Aurelia_Arena.blend",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "sourceUnchanged": true,
+  "populationSourceInstances": 15688,
+  "populationManifestInstances": 15688,
+  "sourceRuntimeTransformsIdentical": true,
+  "spectatorsContactTested": 12000,
+  "seatContact": {
+    "minimumGap": -0.0002613067626953125,
+    "maximumGap": -0.0002593994140625,
+    "meanGap": -0.000260609229405721
+  },
+  "footTreadContact": {
+    "minimumGap": -0.00916290283203125,
+    "maximumGap": -0.009160995483398438
+  },
+  "crowdSpacing": {
+    "minimumAdjacentCenterDistance": 0.684861462725427,
+    "maximumSeatedCharacterWidth": 0.5364593863487244,
+    "clearanceMinimum": 0.14840207637670266
+  },
+  "triangleInstances": {
+    "source": 78613716,
+    "runtimeAuthoredAssets": 78613716,
+    "identical": true
+  },
+  "sharedGeometry": {
+    "CharacterVariants/seated-spectator/3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5,
+      "widthMeters": 0.5364593863487244,
+      "heightMeters": 1.4080724716186523
+    },
+    "CharacterVariants/seated-spectator/6": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5,
+      "widthMeters": 0.5364593863487244,
+      "heightMeters": 1.4080724716186523
+    },
+    "CharacterVariants/seated-spectator/0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5,
+      "widthMeters": 0.5364593863487244,
+      "heightMeters": 1.4080724716186523
+    },
+    "CharacterVariants/seated-spectator/1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5,
+      "widthMeters": 0.5364593863487244,
+      "heightMeters": 1.4080724716186523
+    },
+    "CharacterVariants/seated-spectator/5": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5,
+      "widthMeters": 0.5364593863487244,
+      "heightMeters": 1.4080724716186523
+    },
+    "CharacterVariants/seated-spectator/7": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5,
+      "widthMeters": 0.5364593863487244,
+      "heightMeters": 1.4080724716186523
+    },
+    "CharacterVariants/seated-spectator/2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5,
+      "widthMeters": 0.5364593863487244,
+      "heightMeters": 1.4080724716186523
+    },
+    "CharacterVariants/seated-spectator/4": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5,
+      "widthMeters": 0.5364593863487244,
+      "heightMeters": 1.4080724716186523
+    },
+    "CharacterVariants/guard/1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5890,
+      "meshCount": 9
+    },
+    "CharacterVariants/citizen-idle-1/3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-2/5": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-3/3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-0/7": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-0/0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-2/1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-3/2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-0/3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-1/4": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-3/6": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-1/0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-0/4": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-0/5": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-0/6": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-0/1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-0/2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-2/3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-2/2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen-idle-1/2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen/6": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen/7": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen/0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen/1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen/2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen/3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen/4": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/citizen/5": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/gladiator/1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5878,
+      "meshCount": 9
+    },
+    "CharacterVariants/noble/0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/noble/6": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/gladiator/stone": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5878,
+      "meshCount": 9
+    },
+    "CharacterVariants/worker/1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/worker/6": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/worker/3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/worker/0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/worker/5": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/worker/2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/worker/7": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/worker/4": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/merchant/2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/merchant/7": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/merchant/4": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/merchant/1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/merchant/6": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/merchant/3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/merchant/0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "CharacterVariants/merchant/5": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_000": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "StreetLifeAnimated/street_walker_001": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_002": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "StreetLifeAnimated/street_walker_003": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_004": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "StreetLifeAnimated/street_walker_005": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_006": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "StreetLifeAnimated/street_walker_007": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_008": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "StreetLifeAnimated/street_walker_009": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_010": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "StreetLifeAnimated/street_walker_011": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_012": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "StreetLifeAnimated/street_walker_013": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_014": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "StreetLifeAnimated/street_walker_015": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_016": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "StreetLifeAnimated/street_walker_017": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_018": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "StreetLifeAnimated/street_walker_019": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_020": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "StreetLifeAnimated/street_walker_021": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_022": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "StreetLifeAnimated/street_walker_023": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_024": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "StreetLifeAnimated/street_walker_025": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_026": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "StreetLifeAnimated/street_walker_027": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_028": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "StreetLifeAnimated/street_walker_029": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_walker_030": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "StreetLifeAnimated/street_walker_031": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_Vendor_EventStall_000_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_Vendor_EventStall_015_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_Vendor_EventStall_029_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_Vendor_EventStall_044_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_Vendor_EventStall_059_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_Vendor_EventStall_074_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_Vendor_ShopHouse_04_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "StreetLifeAnimated/street_Vendor_ShopHouse_19_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_00_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_00_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_00_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_01_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_01_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_01_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_02_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_02_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_02_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_03_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_03_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_03_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_04_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_04_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_05_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_05_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_06_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_06_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_07_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_07_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_08_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_08_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_09_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_09_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_10_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_10_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_11_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_11_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_12_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_12_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_13_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_13_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_14_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_14_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_15_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_15_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_16_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_16_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_17_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_17_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_18_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_18_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_19_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_19_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_20_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_20_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_21_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_DistrictLoop_21_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_GalleryWalk_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_GalleryWalk_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_GalleryWalk_1_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_GalleryWalk_1_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_GalleryWalk_2_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_GalleryWalk_2_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_BackstagePorters_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_BackstagePorters_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_MainAvenueFlow_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_MainAvenueFlow_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_MainAvenueFlow_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_MainAvenueFlow_3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_MainAvenueFlow_4": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_MainAvenueFlow_5": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_west_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_west_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_east_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_east_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_east_0_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_courts_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_courts_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_courts_1_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_courts_1_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_courts_2_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_southern_courts_2_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_quay_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_quay_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_quay_0_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_quay_1_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_quay_1_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_quay_1_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_eastern_trades_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_eastern_trades_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_eastern_trades_0_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_eastern_trades_0_3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_eastern_lanes_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_eastern_lanes_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_eastern_lanes_0_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_eastern_lanes_0_3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_aqueduct_courts_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_aqueduct_courts_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_aqueduct_courts_0_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_civic_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_civic_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_western_civic_0_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_temple_residential_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_temple_residential_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_temple_residential_1_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_temple_residential_1_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_archive_quarter_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_archive_quarter_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_archive_quarter_0_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_upper_courts_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_upper_courts_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_upper_courts_1_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_upper_courts_1_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_northern_hillside_0_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_QuarterWalk_northern_hillside_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_CivicCourtGardenLoop_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_CivicCourtGardenLoop_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5742,
+      "meshCount": 10
+    },
+    "DistrictLifeAnimated/district_CivicCourtGardenLoop_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_CivicCourtGardenLoop_3": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 6682,
+      "meshCount": 9
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_000_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_008_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_015_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_017_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_019_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_022_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_039_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_044_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_054_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_Vendor_District_infill_shop_057_idle": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_lower_gallery_group_0_1": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_lower_gallery_group_11_2": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_prep_worker_0": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    },
+    "DistrictLifeAnimated/district_prep_worker_7": {
+      "bodyTriangles": 3134,
+      "totalTriangles": 5002,
+      "meshCount": 5
+    }
+  },
+  "patrols": [
+    {
+      "id": "street_walker_000",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.924999423063916,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.924999423063916
+    },
+    {
+      "id": "street_walker_001",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.168750746386438,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.168750746386438
+    },
+    {
+      "id": "street_walker_002",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4125029321873566,
+      "expectedTravelDistance": 3.4125,
+      "expectedDisplacement": 3.4125029627111716
+    },
+    {
+      "id": "street_walker_003",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.6562449995187167,
+      "expectedTravelDistance": 3.6562500000000004,
+      "expectedDisplacement": 3.6562526941241753
+    },
+    {
+      "id": "street_walker_004",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.9249997388479843,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.9249997388479843
+    },
+    {
+      "id": "street_walker_005",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1687494814410178,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.1687494509204512
+    },
+    {
+      "id": "street_walker_006",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4124932165429014,
+      "expectedTravelDistance": 3.4125,
+      "expectedDisplacement": 3.412500901837056
+    },
+    {
+      "id": "street_walker_007",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.656248704108188,
+      "expectedTravelDistance": 3.6562500000000004,
+      "expectedDisplacement": 3.6562487346189627
+    },
+    {
+      "id": "street_walker_008",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.9250001565003965,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.9250001565003965
+    },
+    {
+      "id": "street_walker_009",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1687492371019697,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.1687492371019697
+    },
+    {
+      "id": "street_walker_010",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4125029321873566,
+      "expectedTravelDistance": 3.4125,
+      "expectedDisplacement": 3.4125029321873566
+    },
+    {
+      "id": "street_walker_011",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.6562487346189627,
+      "expectedTravelDistance": 3.6562500000000004,
+      "expectedDisplacement": 3.6562506908741246
+    },
+    {
+      "id": "street_walker_012",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.925001379318656,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.925001379318656
+    },
+    {
+      "id": "street_walker_013",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1687545084121806,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.1687469843562295
+    },
+    {
+      "id": "street_walker_014",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.412498945582004,
+      "expectedTravelDistance": 3.4125,
+      "expectedDisplacement": 3.412500901837056
+    },
+    {
+      "id": "street_walker_015",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.656248704108188,
+      "expectedTravelDistance": 3.6562500000000004,
+      "expectedDisplacement": 3.656248704108188
+    },
+    {
+      "id": "street_walker_016",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.9249997693647214,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.9249997693647214
+    },
+    {
+      "id": "street_walker_017",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.168749298152291,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.1687530601797524
+    },
+    {
+      "id": "street_walker_018",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.412498412638424,
+      "expectedTravelDistance": 3.4125,
+      "expectedDisplacement": 3.412498412638424
+    },
+    {
+      "id": "street_walker_019",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.656252633078811,
+      "expectedTravelDistance": 3.6562500000000004,
+      "expectedDisplacement": 3.656252633078811
+    },
+    {
+      "id": "street_walker_020",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.92500512880325,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.92500512880325
+    },
+    {
+      "id": "street_walker_021",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1687545084121806,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.1687545084121806
+    },
+    {
+      "id": "street_walker_022",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.412502947447132,
+      "expectedTravelDistance": 3.4125,
+      "expectedDisplacement": 3.4125029627111716
+    },
+    {
+      "id": "street_walker_023",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.656244938473224,
+      "expectedTravelDistance": 3.6562500000000004,
+      "expectedDisplacement": 3.656252633078811
+    },
+    {
+      "id": "street_walker_024",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.9250034883346814,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.924995989356481
+    },
+    {
+      "id": "street_walker_025",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1687494814410178,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.1687494814410178
+    },
+    {
+      "id": "street_walker_026",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.925001379318656,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.925001379318656
+    },
+    {
+      "id": "street_walker_027",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.168750746386438,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.168750746386438
+    },
+    {
+      "id": "street_walker_028",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4125029321873566,
+      "expectedTravelDistance": 3.4125,
+      "expectedDisplacement": 3.4125029627111716
+    },
+    {
+      "id": "street_walker_029",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.6562449995187167,
+      "expectedTravelDistance": 3.6562500000000004,
+      "expectedDisplacement": 3.6562449995187167
+    },
+    {
+      "id": "street_walker_030",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.9249997388479843,
+      "expectedTravelDistance": 2.9250000000000003,
+      "expectedDisplacement": 2.9249997388479843
+    },
+    {
+      "id": "street_walker_031",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1687494814410178,
+      "expectedTravelDistance": 3.1687499999999997,
+      "expectedDisplacement": 3.1687494814410178
+    },
+    {
+      "id": "street_Vendor_EventStall_000_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "street_Vendor_EventStall_015_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "street_Vendor_EventStall_029_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "street_Vendor_EventStall_044_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "street_Vendor_EventStall_059_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "street_Vendor_EventStall_074_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "street_Vendor_ShopHouse_04_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "street_Vendor_ShopHouse_19_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_DistrictLoop_00_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874975737394187,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875013136393515
+    },
+    {
+      "id": "district_DistrictLoop_00_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187497040803321,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187496510204574
+    },
+    {
+      "id": "district_DistrictLoop_00_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875002501057543,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187496510204574
+    },
+    {
+      "id": "district_DistrictLoop_01_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874984292419155,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187505759439688
+    },
+    {
+      "id": "district_DistrictLoop_01_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187487396514509,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875022065398113
+    },
+    {
+      "id": "district_DistrictLoop_01_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874984292419155,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875022065398113
+    },
+    {
+      "id": "district_DistrictLoop_02_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_02_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_02_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_03_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_03_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_03_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_04_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_04_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_05_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187469482275784,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_05_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_06_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875003833396534,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875003833396534
+    },
+    {
+      "id": "district_DistrictLoop_06_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875003833396534,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875001332339092
+    },
+    {
+      "id": "district_DistrictLoop_07_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875041886844415,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875015286834643
+    },
+    {
+      "id": "district_DistrictLoop_07_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874993712293715,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875031111271954
+    },
+    {
+      "id": "district_DistrictLoop_08_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874995138130564,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1874894160674656
+    },
+    {
+      "id": "district_DistrictLoop_08_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187506544817021,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187503328508621
+    },
+    {
+      "id": "district_DistrictLoop_09_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875122668460345,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187497176374793
+    },
+    {
+      "id": "district_DistrictLoop_09_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874977186606226,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187497943054732
+    },
+    {
+      "id": "district_DistrictLoop_10_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187497793458661,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187498017852765
+    },
+    {
+      "id": "district_DistrictLoop_10_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1872223834729168,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187222682690906
+    },
+    {
+      "id": "district_DistrictLoop_11_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.18751525875254
+    },
+    {
+      "id": "district_DistrictLoop_11_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874847411744147,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_12_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874847411744147,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_12_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_DistrictLoop_13_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875010845706067,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187500504886363
+    },
+    {
+      "id": "district_DistrictLoop_13_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187500794728498,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187500794728498
+    },
+    {
+      "id": "district_DistrictLoop_14_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187500504886363,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187501374412689
+    },
+    {
+      "id": "district_DistrictLoop_14_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187500504886363,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875002150442016
+    },
+    {
+      "id": "district_DistrictLoop_15_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187501533358336,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187501533358336
+    },
+    {
+      "id": "district_DistrictLoop_15_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187501533358336,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187501533358336
+    },
+    {
+      "id": "district_DistrictLoop_16_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187491996605493,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187508751352302
+    },
+    {
+      "id": "district_DistrictLoop_16_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187506657013767,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1874930437797486
+    },
+    {
+      "id": "district_DistrictLoop_17_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875114627706824,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1874965592908056
+    },
+    {
+      "id": "district_DistrictLoop_17_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874975877640517,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187497943054732
+    },
+    {
+      "id": "district_DistrictLoop_18_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187497251172844,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187497943054732
+    },
+    {
+      "id": "district_DistrictLoop_18_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187497251172844,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187497943054732
+    },
+    {
+      "id": "district_DistrictLoop_19_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.18750299191802,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.18750299191802
+    },
+    {
+      "id": "district_DistrictLoop_19_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.18750299191802,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.18750299191802
+    },
+    {
+      "id": "district_DistrictLoop_20_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875007479797683,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875007479797683
+    },
+    {
+      "id": "district_DistrictLoop_20_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1871158438247518,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187112477507915
+    },
+    {
+      "id": "district_DistrictLoop_21_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187504113886553,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187504113886553
+    },
+    {
+      "id": "district_DistrictLoop_21_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.187504113886553,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.187496933281115
+    },
+    {
+      "id": "district_GalleryWalk_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.699873363209498,
+      "expectedTravelDistance": 2.6999999999999997,
+      "expectedDisplacement": 2.699876144888622
+    },
+    {
+      "id": "district_GalleryWalk_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.6998973385402296,
+      "expectedTravelDistance": 2.6999999999999997,
+      "expectedDisplacement": 2.6998993695897733
+    },
+    {
+      "id": "district_GalleryWalk_1_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.69981035520197,
+      "expectedTravelDistance": 2.6999999999999997,
+      "expectedDisplacement": 2.699809516262728
+    },
+    {
+      "id": "district_GalleryWalk_1_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.6997398088838467,
+      "expectedTravelDistance": 2.6999999999999997,
+      "expectedDisplacement": 2.6997398088838467
+    },
+    {
+      "id": "district_GalleryWalk_2_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.699934222824166,
+      "expectedTravelDistance": 2.6999999999999997,
+      "expectedDisplacement": 2.699934222824166
+    },
+    {
+      "id": "district_GalleryWalk_2_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.6999240683821517,
+      "expectedTravelDistance": 2.6999999999999997,
+      "expectedDisplacement": 2.6999247187739623
+    },
+    {
+      "id": "district_BackstagePorters_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.25,
+      "expectedTravelDistance": 2.25,
+      "expectedDisplacement": 2.25
+    },
+    {
+      "id": "district_BackstagePorters_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.25,
+      "expectedTravelDistance": 2.25,
+      "expectedDisplacement": 2.25
+    },
+    {
+      "id": "district_MainAvenueFlow_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.450012184895545,
+      "expectedTravelDistance": 3.4499999999999997,
+      "expectedDisplacement": 3.4499969814121476
+    },
+    {
+      "id": "district_MainAvenueFlow_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4499969814121476,
+      "expectedTravelDistance": 3.4499999999999997,
+      "expectedDisplacement": 3.4499969814121476
+    },
+    {
+      "id": "district_MainAvenueFlow_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4500045831622215,
+      "expectedTravelDistance": 3.4499999999999997,
+      "expectedDisplacement": 3.4499969814121476
+    },
+    {
+      "id": "district_MainAvenueFlow_3",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4499969814121476,
+      "expectedTravelDistance": 3.4499999999999997,
+      "expectedDisplacement": 3.4499969814121476
+    },
+    {
+      "id": "district_MainAvenueFlow_4",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4499969814121476,
+      "expectedTravelDistance": 3.4499999999999997,
+      "expectedDisplacement": 3.4499969814121476
+    },
+    {
+      "id": "district_MainAvenueFlow_5",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.4499816396473486,
+      "expectedTravelDistance": 3.4499999999999997,
+      "expectedDisplacement": 3.4499969814121476
+    },
+    {
+      "id": "district_QuarterWalk_southern_west_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9891895924829037,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9891912255357906
+    },
+    {
+      "id": "district_QuarterWalk_southern_west_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.2088605044914407,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.208862422144387
+    },
+    {
+      "id": "district_QuarterWalk_southern_east_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9702558964608525,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.970261735133594
+    },
+    {
+      "id": "district_QuarterWalk_southern_east_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.299764081440378,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2997792545816282
+    },
+    {
+      "id": "district_QuarterWalk_southern_east_0_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.299688675876881,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.299673502319116
+    },
+    {
+      "id": "district_QuarterWalk_southern_courts_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.021497719356126,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.021485394426333
+    },
+    {
+      "id": "district_QuarterWalk_southern_courts_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.1966584447534157,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.1966736127379853
+    },
+    {
+      "id": "district_QuarterWalk_southern_courts_1_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.906969749828949,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.906959575905828
+    },
+    {
+      "id": "district_QuarterWalk_southern_courts_1_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.0422261130105404,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.042229411038794
+    },
+    {
+      "id": "district_QuarterWalk_southern_courts_2_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.8770549063818078,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.8770576441995463
+    },
+    {
+      "id": "district_QuarterWalk_southern_courts_2_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.8909846152994039,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.890986413932982
+    },
+    {
+      "id": "district_QuarterWalk_western_quay_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9445917559297843,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9445890212276182
+    },
+    {
+      "id": "district_QuarterWalk_western_quay_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.2846691896570444,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2846700606800923
+    },
+    {
+      "id": "district_QuarterWalk_western_quay_0_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.299918215408306,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.299917637409497
+    },
+    {
+      "id": "district_QuarterWalk_western_quay_1_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9353895845219085,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9353838254306919
+    },
+    {
+      "id": "district_QuarterWalk_western_quay_1_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.299840750247436,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.29981216109198
+    },
+    {
+      "id": "district_QuarterWalk_western_quay_1_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.286664086030772,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2866944081153355
+    },
+    {
+      "id": "district_QuarterWalk_eastern_trades_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9675048947788412,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9675122260425144
+    },
+    {
+      "id": "district_QuarterWalk_eastern_trades_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.299900962326033,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2998945681751377
+    },
+    {
+      "id": "district_QuarterWalk_eastern_trades_0_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.675293414343365,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.675284769818838
+    },
+    {
+      "id": "district_QuarterWalk_eastern_trades_0_3",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.2885972371248053,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2885988320928385
+    },
+    {
+      "id": "district_QuarterWalk_eastern_lanes_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9347787205494458,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.934778719724931
+    },
+    {
+      "id": "district_QuarterWalk_eastern_lanes_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.2999904791376733,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2999923575919694
+    },
+    {
+      "id": "district_QuarterWalk_eastern_lanes_0_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.4554069763160817,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.455406976770198
+    },
+    {
+      "id": "district_QuarterWalk_eastern_lanes_0_3",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.2999890838428048,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.299994719204868
+    },
+    {
+      "id": "district_QuarterWalk_aqueduct_courts_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9464384497023954,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9464234872143604
+    },
+    {
+      "id": "district_QuarterWalk_aqueduct_courts_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.299821955761823,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.299821955761823
+    },
+    {
+      "id": "district_QuarterWalk_aqueduct_courts_0_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.2880837622041366,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2880931159661393
+    },
+    {
+      "id": "district_QuarterWalk_western_civic_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.987561408479755,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.987565097102644
+    },
+    {
+      "id": "district_QuarterWalk_western_civic_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.267714201743868,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.26774495503256
+    },
+    {
+      "id": "district_QuarterWalk_western_civic_0_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.2998210164863075,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2998445344197234
+    },
+    {
+      "id": "district_QuarterWalk_temple_residential_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9850867931471174,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9850766734526823
+    },
+    {
+      "id": "district_QuarterWalk_temple_residential_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.01246223414272,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.0124708528955066
+    },
+    {
+      "id": "district_QuarterWalk_temple_residential_1_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.054733118449553,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.05472831754371
+    },
+    {
+      "id": "district_QuarterWalk_temple_residential_1_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.340282373749147,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.3402804384419014
+    },
+    {
+      "id": "district_QuarterWalk_archive_quarter_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9991967257038976,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9991967257038976
+    },
+    {
+      "id": "district_QuarterWalk_archive_quarter_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.2992354164723317,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2992354164723317
+    },
+    {
+      "id": "district_QuarterWalk_archive_quarter_0_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.2989844587339383,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 3.2989780541477898
+    },
+    {
+      "id": "district_QuarterWalk_upper_courts_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.9324283363013726,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9324283363013726
+    },
+    {
+      "id": "district_QuarterWalk_upper_courts_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.135400522372618,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.1353863985351076
+    },
+    {
+      "id": "district_QuarterWalk_upper_courts_1_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.0879368147990935,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.0879303060388215
+    },
+    {
+      "id": "district_QuarterWalk_upper_courts_1_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 2.466363574321278,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 2.466367658543382
+    },
+    {
+      "id": "district_QuarterWalk_northern_hillside_0_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.935907857973748,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.9359065378352813
+    },
+    {
+      "id": "district_QuarterWalk_northern_hillside_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 1.8655631210058758,
+      "expectedTravelDistance": 3.3000000000000003,
+      "expectedDisplacement": 1.8655960451367992
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1875,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_CivicCourtGardenLoop_3",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Walk",
+      "moving": true,
+      "movementOver90Frames": 3.1874847411744147,
+      "expectedTravelDistance": 3.1875,
+      "expectedDisplacement": 3.1875
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_000_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_008_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_015_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_017_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_019_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_022_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_039_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_044_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_054_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_Vendor_District_infill_shop_057_idle",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_lower_gallery_group_0_1",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_lower_gallery_group_11_2",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_prep_worker_0",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    },
+    {
+      "id": "district_prep_worker_7",
+      "keyframes": true,
+      "cyclic": true,
+      "clip": "Idle",
+      "moving": false,
+      "movementOver90Frames": 0.0,
+      "expectedTravelDistance": 0,
+      "expectedDisplacement": 0.0
+    }
+  ],
+  "failureCount": 0,
+  "failures": [],
+  "images": [],
+  "actualSourcePatrolPoseSamples": [
+    {
+      "frame": 1,
+      "height": 1.821484032087028,
+      "lowestPointRelativePlaza": -0.004541592672467232,
+      "normalizationApplied": true
+    },
+    {
+      "frame": 7,
+      "height": 1.7866783514618874,
+      "lowestPointRelativePlaza": -0.032333544455468655,
+      "normalizationApplied": true
+    },
+    {
+      "frame": 13,
+      "height": 1.821704818867147,
+      "lowestPointRelativePlaza": -0.0044018905609846115,
+      "normalizationApplied": true
+    },
+    {
+      "frame": 19,
+      "height": 1.7796541601419449,
+      "lowestPointRelativePlaza": -0.03296044375747442,
+      "normalizationApplied": true
+    },
+    {
+      "frame": 25,
+      "height": 1.8140370165929198,
+      "lowestPointRelativePlaza": -0.004673784598708153,
+      "normalizationApplied": true
+    }
+  ],
+  "contactToleranceMeters": {
+    "foot": 0.025,
+    "seatedBody": 0.04
+  },
+  "supportChecksUseActualSourceMeshRaycasts": true
+}

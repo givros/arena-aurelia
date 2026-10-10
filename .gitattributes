@@ -1,0 +1,9 @@
+# Preserve source and evidence hashes across Windows and Linux checkouts.
+* -text
+*.blend binary
+*.glb binary
+*.fbx binary
+*.bin binary
+*.chunk binary
+*.png binary
+*.jpg binary

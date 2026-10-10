@@ -1,0 +1,145 @@
+{
+  "passed": true,
+  "sourceSaveResponsibility": "Caller",
+  "repairedCollections": [
+    {
+      "collection": "CharacterVariants/worker/1",
+      "sourceTemplate": "CharacterVariants/worker/3",
+      "instanceCount": 7,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/worker/6",
+      "sourceTemplate": "CharacterVariants/worker/1",
+      "instanceCount": 7,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/worker/0",
+      "sourceTemplate": "CharacterVariants/worker/1",
+      "instanceCount": 7,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/worker/5",
+      "sourceTemplate": "CharacterVariants/worker/0",
+      "instanceCount": 7,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/worker/2",
+      "sourceTemplate": "CharacterVariants/worker/0",
+      "instanceCount": 7,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/worker/7",
+      "sourceTemplate": "CharacterVariants/worker/0",
+      "instanceCount": 7,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/merchant/1",
+      "sourceTemplate": "CharacterVariants/merchant/2",
+      "instanceCount": 12,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/merchant/6",
+      "sourceTemplate": "CharacterVariants/merchant/1",
+      "instanceCount": 11,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/merchant/0",
+      "sourceTemplate": "CharacterVariants/merchant/1",
+      "instanceCount": 11,
+      "meshCount": 5
+    },
+    {
+      "collection": "CharacterVariants/merchant/5",
+      "sourceTemplate": "CharacterVariants/merchant/0",
+      "instanceCount": 12,
+      "meshCount": 5
+    }
+  ],
+  "repairedInstanceCount": 88,
+  "previousSourceTriangleInstances": 65470108,
+  "sourceTriangleInstances": 66425490,
+  "runtimeTriangleInstances": 66425490,
+  "allBodiesExact3134Triangles": true,
+  "actorTransformsUnchanged": true,
+  "canonicalUnchanged": true,
+  "crowdManifestSHA256": "ec30a70b792191a41ca949f47d8f0acaba4f06d133d956a8117497809ad5742b",
+  "entryGatherings": {
+    "passed": true,
+    "added": 103,
+    "alreadyPresent": 0,
+    "groups": 19,
+    "rejected": [
+      {
+        "id": "street_EntryGathering_00_01",
+        "reason": "uneven_sandal_support"
+      },
+      {
+        "id": "street_EntryGathering_03_02",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_05_03",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_07_03",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_07_04",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_12_02",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_16_01",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_18_00",
+        "reason": "animated_route_clearance"
+      }
+    ],
+    "centralAxisClearWidth": 6,
+    "minimumActorCenterSeparation": 1.0,
+    "sourceAndRuntimePositionsIdentical": true,
+    "meshGroundAndTwoFootChecks": true,
+    "sourceInstancesVisible": true,
+    "layoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+    "crowdManifestSHA256": "ec30a70b792191a41ca949f47d8f0acaba4f06d133d956a8117497809ad5742b",
+    "sourceSaveResponsibility": "Caller",
+    "totalPopulation": 13265,
+    "characterTriangleInstances": 66425490,
+    "generationLayoutSHA256": "12e0f77c4fa734265dece8cc25f58da54b344c6bd1b9da8e1d9bef818f9022dd",
+    "generationCrowdManifestSHA256": "8aa81a3dd81a84316283087b1028ef23df64f47ff32444ee9ceb473b759e9046"
+  },
+  "sourceSHA256Before": "0eab159533e22a6cb11b0094c7291dd42b2982614d8ec0fd731fadeabe1d7c72",
+  "sourceSHA256": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+  "architectureSignature": {
+    "sha256": "f389d983991f8bd289d4c15423a7c61ba7506927bc6fe44d98900e9077ae1403",
+    "meshObjects": 16194
+  },
+  "architectureUnchanged": true,
+  "originalPlacementCount": 13162,
+  "placementCount": 13265,
+  "allExistingPlacementsUnchanged": true,
+  "currentCheckpointIdentical": true,
+  "repairOnlyTriangleInstances": 65910284,
+  "generationCrowdManifestSHA256": "8aa81a3dd81a84316283087b1028ef23df64f47ff32444ee9ceb473b759e9046",
+  "currentLayoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+  "provenanceRefresh": {
+    "scope": "Navigation metadata only; measured transforms, geometry and motion unchanged",
+    "measuredManifestSHA256": "8aa81a3dd81a84316283087b1028ef23df64f47ff32444ee9ceb473b759e9046",
+    "sourceSHA256": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b"
+  }
+}

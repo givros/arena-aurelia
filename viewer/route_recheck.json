@@ -1,0 +1,239 @@
+{
+  "timestamp": "2026-10-10T17:48:22.845Z",
+  "sourceHash": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "characterManifestSHA256": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0",
+  "layoutHashes": {
+    "street_life_layout.json": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+    "district_life_layout.json": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+    "civic_court_layout.json": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144",
+    "arena_interior_life_layout.json": "0d855926706173df6b39468f2d4fbeaabca19c30a756057740ec3ab097a8207c",
+    "master_spine_life_layout.json": "ceab70ff3bd669b13750aed2a079e61164a957474e96d709efe58f0742bcb716",
+    "master_world_layout.json": "4e828fd14f5f1599c516018f3ebfc9b48aa3ab3a7f55cc9d2f584f16b29b454e",
+    "master_world_boundary.json": "5e029243b17fc3a657dd7b545e0da8fe3840aa4834e3a62ac83e9673293a4ebd",
+    "world_boundary_geometry.json": "adcb8f7e7911b41885b9710c02ff836d685bde2372755ecda19b8ed863a81f97",
+    "watergate_boundary_revision.json": "367d83c8b0a23010f215a69cd976dd2bcb1ac08a379fbbcbb8ee04c340708075"
+  },
+  "boundaryResults": [
+    {
+      "id": "QuayGate_North_West",
+      "status": "failed",
+      "position": [
+        -198.5,
+        0.2000000029802323,
+        -421.47999999999956
+      ],
+      "reachedOutsideTarget": false,
+      "grounded": true,
+      "collisions": 46,
+      "barrier": "WATERGATE_BANK/QuayGate_North_West/Closed latch",
+      "expectedBarrierContains": "WATERGATE_BANK/QuayGate_North_West",
+      "clampClearance": 13.520000000000437,
+      "jumpTrials": [
+        {
+          "phase": 0,
+          "status": "failed",
+          "highestFoot": 2.1974999710917476,
+          "position": [
+            -198.5,
+            0.20000000298023224,
+            -431.875
+          ],
+          "reachedOutsideTarget": true,
+          "barrier": "WATERGATE_BANK/QuayGate_North_West/Continuous rail1"
+        },
+        {
+          "phase": 15,
+          "status": "failed",
+          "highestFoot": 2.1974999710917476,
+          "position": [
+            -198.5,
+            0.20000000298023224,
+            -431.875
+          ],
+          "reachedOutsideTarget": true,
+          "barrier": "WATERGATE_BANK/QuayGate_North_West/Continuous rail1"
+        },
+        {
+          "phase": 30,
+          "status": "failed",
+          "highestFoot": 2.1974999710917476,
+          "position": [
+            -198.5,
+            0.20000000298023224,
+            -431.875
+          ],
+          "reachedOutsideTarget": true,
+          "barrier": "WATERGATE_BANK/QuayGate_North_West/Continuous rail1"
+        }
+      ],
+      "screenshot": "../renders/runtime_boundary_QuayGate_North_West.png"
+    },
+    {
+      "id": "QuayGate_North_East",
+      "status": "passed",
+      "position": [
+        -159,
+        0.5649999976158141,
+        -421.61999999999955
+      ],
+      "reachedOutsideTarget": false,
+      "grounded": true,
+      "collisions": 46,
+      "barrier": "WATERGATE_BANK/QuayGate_North_East/Closed pedestrian leaf",
+      "expectedBarrierContains": "WATERGATE_BANK/QuayGate_North_East",
+      "clampClearance": 13.38000000000045,
+      "jumpTrials": [
+        {
+          "phase": 0,
+          "status": "passed",
+          "highestFoot": 1.4274999976158143,
+          "position": [
+            -159,
+            1.2129166642824818,
+            -421.625
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_North_East/Closed pedestrian leaf"
+        },
+        {
+          "phase": 15,
+          "status": "passed",
+          "highestFoot": 1.4274999976158143,
+          "position": [
+            -159,
+            1.3733333309491473,
+            -421.625
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_North_East/Continuous rail1"
+        },
+        {
+          "phase": 30,
+          "status": "passed",
+          "highestFoot": 1.4274999976158143,
+          "position": [
+            -159,
+            0.5649999976158142,
+            -421.625
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_North_East/Closed pedestrian leaf"
+        }
+      ],
+      "screenshot": "../renders/runtime_boundary_QuayGate_North_East.png"
+    },
+    {
+      "id": "QuayGate_South_West",
+      "status": "passed",
+      "position": [
+        -198.5,
+        0.2000000029802323,
+        225.1799999999995
+      ],
+      "reachedOutsideTarget": false,
+      "grounded": true,
+      "collisions": 46,
+      "barrier": "WATERGATE_BANK/QuayGate_South_West/Closed pedestrian leaf",
+      "expectedBarrierContains": "WATERGATE_BANK/QuayGate_South_West",
+      "clampClearance": 9.820000000000505,
+      "jumpTrials": [
+        {
+          "phase": 0,
+          "status": "passed",
+          "highestFoot": 1.0625000029802327,
+          "position": [
+            -198.5,
+            0.8479166696469003,
+            225.125
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_South_West/Closed pedestrian leaf"
+        },
+        {
+          "phase": 15,
+          "status": "passed",
+          "highestFoot": 1.0625000029802327,
+          "position": [
+            -198.5,
+            1.0083333363135658,
+            225.125
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_South_West/Closed pedestrian leaf"
+        },
+        {
+          "phase": 30,
+          "status": "passed",
+          "highestFoot": 1.0625000029802327,
+          "position": [
+            -198.5,
+            0.20000000298023224,
+            225.125
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_South_West/Closed pedestrian leaf"
+        }
+      ],
+      "screenshot": "../renders/runtime_boundary_QuayGate_South_West.png"
+    },
+    {
+      "id": "QuayGate_South_East",
+      "status": "passed",
+      "position": [
+        -159,
+        0.2000000029802323,
+        225.1799999999995
+      ],
+      "reachedOutsideTarget": false,
+      "grounded": true,
+      "collisions": 46,
+      "barrier": "WATERGATE_BANK/QuayGate_South_East/Closed pedestrian leaf",
+      "expectedBarrierContains": "WATERGATE_BANK/QuayGate_South_East",
+      "clampClearance": 9.820000000000505,
+      "jumpTrials": [
+        {
+          "phase": 0,
+          "status": "passed",
+          "highestFoot": 1.0625000029802327,
+          "position": [
+            -159,
+            0.8479166696469003,
+            225.125
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_South_East/Closed pedestrian leaf"
+        },
+        {
+          "phase": 15,
+          "status": "passed",
+          "highestFoot": 1.0625000029802327,
+          "position": [
+            -159,
+            1.0083333363135658,
+            225.125
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_South_East/Closed pedestrian leaf"
+        },
+        {
+          "phase": 30,
+          "status": "passed",
+          "highestFoot": 1.0625000029802327,
+          "position": [
+            -159,
+            0.20000000298023224,
+            225.125
+          ],
+          "reachedOutsideTarget": false,
+          "barrier": "WATERGATE_BANK/QuayGate_South_East/Closed pedestrian leaf"
+        }
+      ],
+      "screenshot": "../renders/runtime_boundary_QuayGate_South_East.png"
+    }
+  ],
+  "streetLayoutRevision": "street-life-1",
+  "streetLayoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+  "scope": "Production source scene and actual fixed-step first-person controller; each route starts once, then moves continuously with body collision and gravity, without destination teleport. Includes all nine arena/civic regressions, both district layouts and any additional authored interior actor loops.",
+  "results": [],
+  "errors": []
+}

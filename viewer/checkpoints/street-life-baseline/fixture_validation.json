@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-10-10T13:30:27.982Z",
+  "scope": "Isolated synthetic architecture fixture; does not validate the final source environment.",
+  "results": [
+    {
+      "name": "wall stops walking",
+      "passed": true,
+      "position": [
+        0,
+        1.72,
+        -3.4701400000000056
+      ],
+      "collisions": 66
+    },
+    {
+      "name": "real stepped staircase ascent",
+      "passed": true,
+      "position": [
+        7,
+        3.96,
+        -9.760000000000002
+      ]
+    },
+    {
+      "name": "layered floor ray stays under roof",
+      "passed": true,
+      "position": [
+        0,
+        1.72,
+        4
+      ]
+    },
+    {
+      "name": "source map bounds stop the body before the edge",
+      "passed": true,
+      "foot": [
+        13.68,
+        5.551115123125783e-17,
+        10
+      ]
+    },
+    {
+      "name": "actual WebGPU backend",
+      "passed": true
+    },
+    {
+      "name": "disposal stops and releases listeners",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "backend": "webgpu"
+}

@@ -1,0 +1,184 @@
+{
+  "workshops": [
+    {
+      "id": "Workshop_0",
+      "center": [
+        -62,
+        -117
+      ],
+      "rotation": 3.141592653589793,
+      "full_projection": [
+        18.6,
+        9.8
+      ]
+    },
+    {
+      "id": "Workshop_1",
+      "center": [
+        62,
+        -117
+      ],
+      "rotation": 3.141592653589793,
+      "full_projection": [
+        18.6,
+        9.8
+      ]
+    }
+  ],
+  "goods_racks": [
+    {
+      "parent": "Stall_00",
+      "center": [
+        -114.3153532995459,
+        -55.500000000000014
+      ],
+      "rotation": 2.0943951023931957
+    },
+    {
+      "parent": "Stall_02",
+      "center": [
+        -66.00000000000006,
+        -96.12881982007268
+      ],
+      "rotation": 2.617993877991494
+    },
+    {
+      "parent": "Stall_04",
+      "center": [
+        40.79024325749303,
+        -105.56727330876205
+      ],
+      "rotation": 3.4557519189487724
+    },
+    {
+      "parent": "Stall_06",
+      "center": [
+        93.33809511662425,
+        -78.4888527117068
+      ],
+      "rotation": 3.9269908169872414
+    },
+    {
+      "parent": "Stall_08",
+      "center": [
+        -105.35891039679561,
+        -89.80256121069152
+      ],
+      "rotation": 2.356194490192345
+    },
+    {
+      "parent": "Stall_10",
+      "center": [
+        -46.043532161867184,
+        -120.7841775694845
+      ],
+      "rotation": 2.827433388230814
+    },
+    {
+      "parent": "Stall_12",
+      "center": [
+        74.50000000000001,
+        -109.9852262806237
+      ],
+      "rotation": 3.6651914291880923
+    },
+    {
+      "parent": "Stall_14",
+      "center": [
+        -132.0,
+        -65.0
+      ],
+      "rotation": 1.5707963267948966
+    },
+    {
+      "parent": "Stall_16",
+      "center": [
+        -132.0,
+        -21.0
+      ],
+      "rotation": 1.5707963267948966
+    },
+    {
+      "parent": "Stall_18",
+      "center": [
+        -132.0,
+        23.0
+      ],
+      "rotation": 1.5707963267948966
+    },
+    {
+      "parent": "Stall_20",
+      "center": [
+        -132.0,
+        67.0
+      ],
+      "rotation": 1.5707963267948966
+    },
+    {
+      "parent": "Stall_22",
+      "center": [
+        132.0,
+        -43.0
+      ],
+      "rotation": -1.5707963267948966
+    },
+    {
+      "parent": "Stall_24",
+      "center": [
+        132.0,
+        1.0000000000000002
+      ],
+      "rotation": -1.5707963267948966
+    },
+    {
+      "parent": "Stall_26",
+      "center": [
+        132.0,
+        45.0
+      ],
+      "rotation": -1.5707963267948966
+    }
+  ],
+  "foreground_cypresses": [
+    [
+      -85,
+      -115,
+      0
+    ],
+    [
+      85,
+      -115,
+      0
+    ],
+    [
+      -100,
+      -100,
+      0
+    ],
+    [
+      100,
+      -100,
+      0
+    ]
+  ],
+  "existing_human_anchors_checked": 288,
+  "full_projection_conflicts": [],
+  "protected_route_ellipse": [
+    119,
+    96
+  ],
+  "temple_threshold": {
+    "name": "TEMPLE/Cella intermediate threshold",
+    "center": [
+      10,
+      156.45,
+      12.36
+    ],
+    "full_dimensions": [
+      9,
+      0.7,
+      0.2
+    ],
+    "top": 12.46
+  }
+}

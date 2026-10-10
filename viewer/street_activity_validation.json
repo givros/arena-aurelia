@@ -1,0 +1,976 @@
+{
+  "timestamp": "2026-10-10T16:26:26.153Z",
+  "status": "passed",
+  "sourceHash": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "manifestSHA256": "740c4b06ec047280e5bf9669a7e01f77ca86c82a47ba068608f572e8892ac966",
+  "characterManifestSHA256": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0",
+  "layoutHashes": {
+    "street_life_layout.json": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+    "district_life_layout.json": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+    "civic_court_layout.json": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144",
+    "arena_interior_life_layout.json": "0d855926706173df6b39468f2d4fbeaabca19c30a756057740ec3ab097a8207c",
+    "master_spine_life_layout.json": "ceab70ff3bd669b13750aed2a079e61164a957474e96d709efe58f0742bcb716",
+    "master_world_layout.json": "4e828fd14f5f1599c516018f3ebfc9b48aa3ab3a7f55cc9d2f584f16b29b454e",
+    "master_world_boundary.json": "5e029243b17fc3a657dd7b545e0da8fe3840aa4834e3a62ac83e9673293a4ebd",
+    "world_boundary_geometry.json": "adcb8f7e7911b41885b9710c02ff836d685bde2372755ecda19b8ed863a81f97",
+    "watergate_boundary_revision.json": "367d83c8b0a23010f215a69cd976dd2bcb1ac08a379fbbcbb8ee04c340708075"
+  },
+  "scope": "Production canonical actors and actual pedestrian update; input-driven waiting preserves authored path geometry. Two simulated minutes test lane progress without rendering overhead.",
+  "tests": [
+    {
+      "name": "Multiple independently animated pedestrians, vendors and staff exist",
+      "status": "passed",
+      "detail": {
+        "walking": 142,
+        "stationaryActors": 22
+      }
+    },
+    {
+      "name": "Approaching pedestrian waits before reaching the player",
+      "status": "passed",
+      "detail": {
+        "actor": "street_walker_001",
+        "start": [
+          -56.95,
+          0.015,
+          95.7
+        ],
+        "stop": [
+          -56.55566666666671,
+          0.015,
+          95.7
+        ],
+        "personalSpace": 0.9056666666667041,
+        "reason": "player",
+        "idleWeight": 1
+      }
+    },
+    {
+      "name": "Waiting uses the bundled Idle animation",
+      "status": "passed",
+      "detail": {
+        "weight": 1
+      }
+    },
+    {
+      "name": "Pedestrian resumes walking after the player leaves",
+      "status": "passed",
+      "detail": {
+        "actor": "street_walker_001",
+        "displacement": 1.6899999999998272,
+        "reason": ""
+      }
+    },
+    {
+      "name": "Every walking actor advances along its authored lane",
+      "status": "passed",
+      "detail": {
+        "minimumDisplacement": 3.6000138888604147,
+        "actors": [
+          {
+            "id": "street_walker_000",
+            "maxDisplacement": 11.980010428744004,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_001",
+            "maxDisplacement": 13.156054865270997,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_002",
+            "maxDisplacement": 11.663461395357047,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_003",
+            "maxDisplacement": 11.366736743799029,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_004",
+            "maxDisplacement": 11.979979069397995,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_005",
+            "maxDisplacement": 11.763470138505427,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_006",
+            "maxDisplacement": 11.663487129879114,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_007",
+            "maxDisplacement": 11.366571218492906,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_008",
+            "maxDisplacement": 11.979997036724667,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_009",
+            "maxDisplacement": 11.754452175385202,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_010",
+            "maxDisplacement": 11.664093316607744,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_011",
+            "maxDisplacement": 11.370680286179475,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_012",
+            "maxDisplacement": 11.982631543905416,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_013",
+            "maxDisplacement": 11.761927472250353,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_014",
+            "maxDisplacement": 11.663487129879156,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_015",
+            "maxDisplacement": 11.355058818100286,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_016",
+            "maxDisplacement": 11.979981684531573,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_017",
+            "maxDisplacement": 11.754457687629348,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_018",
+            "maxDisplacement": 11.66347818452839,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_019",
+            "maxDisplacement": 11.370602141276551,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_020",
+            "maxDisplacement": 11.980010428744357,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_021",
+            "maxDisplacement": 11.763447695021172,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_022",
+            "maxDisplacement": 11.663461395356011,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_023",
+            "maxDisplacement": 11.37060214127659,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_024",
+            "maxDisplacement": 11.979979069397418,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_025",
+            "maxDisplacement": 11.763470138498665,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_026",
+            "maxDisplacement": 11.980010428743986,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_027",
+            "maxDisplacement": 11.763447695021172,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_028",
+            "maxDisplacement": 11.663461395357047,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_029",
+            "maxDisplacement": 11.36672158742091,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_030",
+            "maxDisplacement": 11.97997906939796,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_031",
+            "maxDisplacement": 11.763470138505427,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_00_0",
+            "maxDisplacement": 12.106725634770232,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_00_1",
+            "maxDisplacement": 13.507487553797423,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_00_2",
+            "maxDisplacement": 14.889040487762896,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_01_0",
+            "maxDisplacement": 12.106737813718594,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_01_1",
+            "maxDisplacement": 13.507474998848728,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_01_2",
+            "maxDisplacement": 14.889043202630349,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_02_0",
+            "maxDisplacement": 12.106731627245097,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_02_1",
+            "maxDisplacement": 13.509120740628118,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_02_2",
+            "maxDisplacement": 14.887598591475262,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_03_0",
+            "maxDisplacement": 12.106731627245097,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_03_1",
+            "maxDisplacement": 13.507495886496425,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_03_2",
+            "maxDisplacement": 14.889030042793097,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_04_0",
+            "maxDisplacement": 12.106731627245097,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_04_1",
+            "maxDisplacement": 12.106731627245097,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_05_0",
+            "maxDisplacement": 12.106731627245097,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_05_1",
+            "maxDisplacement": 12.106731627245097,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_06_0",
+            "maxDisplacement": 12.106740069027211,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_06_1",
+            "maxDisplacement": 12.106740068995542,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_07_0",
+            "maxDisplacement": 4.562988979403612,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_07_1",
+            "maxDisplacement": 4.56298897940361,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_08_0",
+            "maxDisplacement": 6.467013806973054,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_08_1",
+            "maxDisplacement": 6.467013806974379,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_09_0",
+            "maxDisplacement": 4.539879498213285,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_09_1",
+            "maxDisplacement": 4.539879498213256,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_10_0",
+            "maxDisplacement": 4.541079336743653,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_10_1",
+            "maxDisplacement": 4.54080430516755,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_11_0",
+            "maxDisplacement": 5.523928314869516,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_11_1",
+            "maxDisplacement": 5.523928314869516,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_12_0",
+            "maxDisplacement": 5.526090246283536,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_12_1",
+            "maxDisplacement": 5.526465205828148,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_13_0",
+            "maxDisplacement": 5.9334187444839115,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_13_1",
+            "maxDisplacement": 5.933418744483895,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_14_0",
+            "maxDisplacement": 5.933418744483906,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_14_1",
+            "maxDisplacement": 5.933418744483913,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_15_0",
+            "maxDisplacement": 4.5554329866701595,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_15_1",
+            "maxDisplacement": 4.555432986669975,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_16_0",
+            "maxDisplacement": 5.849053034934092,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_16_1",
+            "maxDisplacement": 5.84905303493412,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_17_0",
+            "maxDisplacement": 6.211360894475503,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_17_1",
+            "maxDisplacement": 6.211108813708567,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_18_0",
+            "maxDisplacement": 6.211444924907026,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_18_1",
+            "maxDisplacement": 6.211444924907027,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_19_0",
+            "maxDisplacement": 6.302722968170405,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_19_1",
+            "maxDisplacement": 6.302722968170407,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_20_0",
+            "maxDisplacement": 6.745674158804367,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_20_1",
+            "maxDisplacement": 6.746086596193486,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_21_0",
+            "maxDisplacement": 6.745968680111793,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_DistrictLoop_21_1",
+            "maxDisplacement": 6.745968680111677,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_GalleryWalk_0_0",
+            "maxDisplacement": 22.66315029818305,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_GalleryWalk_0_1",
+            "maxDisplacement": 22.86827149419457,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_GalleryWalk_1_0",
+            "maxDisplacement": 24.357735252226508,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_GalleryWalk_1_1",
+            "maxDisplacement": 24.264006036657083,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_GalleryWalk_2_0",
+            "maxDisplacement": 29.58581154152083,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_GalleryWalk_2_1",
+            "maxDisplacement": 29.51882710513375,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_BackstagePorters_0",
+            "maxDisplacement": 3.6000138888604147,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_BackstagePorters_1",
+            "maxDisplacement": 3.6000138888604147,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_MainAvenueFlow_0",
+            "maxDisplacement": 55.424700803889245,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_MainAvenueFlow_1",
+            "maxDisplacement": 34.6707882409913,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_MainAvenueFlow_2",
+            "maxDisplacement": 46.25360848589781,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_MainAvenueFlow_3",
+            "maxDisplacement": 55.424700803889245,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_MainAvenueFlow_4",
+            "maxDisplacement": 34.6720427520269,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_MainAvenueFlow_5",
+            "maxDisplacement": 46.25360848589781,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_west_0_0",
+            "maxDisplacement": 103.8493708842932,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_west_0_1",
+            "maxDisplacement": 104.36568486637717,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_east_0_0",
+            "maxDisplacement": 104.21198990995832,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_east_0_1",
+            "maxDisplacement": 63.47698438247768,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_east_0_2",
+            "maxDisplacement": 103.84383380956287,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_courts_0_0",
+            "maxDisplacement": 104.48376169898368,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_courts_0_1",
+            "maxDisplacement": 104.43770489338635,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_courts_1_0",
+            "maxDisplacement": 58.39959097295559,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_courts_1_1",
+            "maxDisplacement": 58.403466488961556,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_courts_2_0",
+            "maxDisplacement": 20.89159078158227,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_southern_courts_2_1",
+            "maxDisplacement": 20.900615268703188,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_quay_0_0",
+            "maxDisplacement": 103.99548659323514,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_quay_0_1",
+            "maxDisplacement": 92.98696129087665,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_quay_0_2",
+            "maxDisplacement": 104.21240726801182,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_quay_1_0",
+            "maxDisplacement": 103.21422228178334,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_quay_1_1",
+            "maxDisplacement": 89.57730687311776,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_quay_1_2",
+            "maxDisplacement": 103.99832000608487,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_eastern_trades_0_0",
+            "maxDisplacement": 100.815290603652,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_eastern_trades_0_1",
+            "maxDisplacement": 100.44700293855793,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_eastern_trades_0_2",
+            "maxDisplacement": 98.70236183992438,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_eastern_trades_0_3",
+            "maxDisplacement": 104.10844370685828,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_eastern_lanes_0_0",
+            "maxDisplacement": 101.52372913842478,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_eastern_lanes_0_1",
+            "maxDisplacement": 102.12236469588537,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_eastern_lanes_0_2",
+            "maxDisplacement": 104.05469013046525,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_eastern_lanes_0_3",
+            "maxDisplacement": 103.38817335677759,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_aqueduct_courts_0_0",
+            "maxDisplacement": 102.77440127833881,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_aqueduct_courts_0_1",
+            "maxDisplacement": 64.06021812031933,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_aqueduct_courts_0_2",
+            "maxDisplacement": 93.29081614345353,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_civic_0_0",
+            "maxDisplacement": 101.92985017040314,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_civic_0_1",
+            "maxDisplacement": 71.36415286777937,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_western_civic_0_2",
+            "maxDisplacement": 91.86801222808343,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_temple_residential_0_0",
+            "maxDisplacement": 14.193032464515296,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_temple_residential_0_1",
+            "maxDisplacement": 14.228552376016593,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_temple_residential_1_0",
+            "maxDisplacement": 94.53589592443646,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_temple_residential_1_1",
+            "maxDisplacement": 100.71928848817645,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_archive_quarter_0_0",
+            "maxDisplacement": 101.87932103753703,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_archive_quarter_0_1",
+            "maxDisplacement": 81.01423666887217,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_archive_quarter_0_2",
+            "maxDisplacement": 102.598092464246,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_upper_courts_0_0",
+            "maxDisplacement": 87.14209854104317,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_upper_courts_0_1",
+            "maxDisplacement": 87.29391717564492,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_upper_courts_1_0",
+            "maxDisplacement": 102.68795199272768,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_upper_courts_1_1",
+            "maxDisplacement": 103.43195822540761,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_northern_hillside_0_0",
+            "maxDisplacement": 103.45632408219592,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_QuarterWalk_northern_hillside_0_1",
+            "maxDisplacement": 103.08555926066619,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_CivicCourtGardenLoop_0",
+            "maxDisplacement": 13.711143303736971,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_CivicCourtGardenLoop_1",
+            "maxDisplacement": 10.390225407908742,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_CivicCourtGardenLoop_2",
+            "maxDisplacement": 13.711143303736904,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "district_CivicCourtGardenLoop_3",
+            "maxDisplacement": 10.39022540790832,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Personal-space waiting does not produce a persistent jam",
+      "status": "passed",
+      "detail": {
+        "simulatedSeconds": 120,
+        "longestWaitSeconds": 0,
+        "minimumMovingPairSpacing": 1.5856556326202322
+      }
+    },
+    {
+      "name": "Walking tunics retain authored palette variety",
+      "status": "passed",
+      "detail": {
+        "uniqueColors": [
+          "b28b56",
+          "798477",
+          "9f4939",
+          "c39b79",
+          "baab91",
+          "c8b88d",
+          "6d3158",
+          "9a8a73"
+        ]
+      }
+    },
+    {
+      "name": "Stationary vendors and staff stay at their authored positions",
+      "status": "passed",
+      "detail": {
+        "count": 22
+      }
+    }
+  ],
+  "errors": [],
+  "executedSourceHash": "3a82b97b8e0ddab16cae6be46c661bf91d52eb4f657b61e7c9ada5f6a03ffaa8",
+  "executedManifestSHA256": "a741279e8470e203e1a28468a8e9d77529e8377f3359099bc05e5173cd109eec",
+  "sourceRevisionEvidence": "watergate_boundary_revision_validation.json",
+  "sourceRevisionScope": "All previous instance transforms/collision semantics, full geometry attribute/index bytes, materials, textures, cameras, navigation routes, destinations, authored population and all character GLBs. Only four physical watergate-bank closures and their metadata were added.",
+  "sourceRevisionChain": [
+    {
+      "from": "3a82b97b8e0ddab16cae6be46c661bf91d52eb4f657b61e7c9ada5f6a03ffaa8",
+      "to": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+      "evidence": "camera_only_revision_validation.json"
+    },
+    {
+      "from": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+      "to": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+      "evidence": "watergate_boundary_revision_validation.json",
+      "scope": "All previous instance transforms/collision semantics, full geometry attribute/index bytes, materials, textures, cameras, navigation routes, destinations, authored population and all character GLBs. Only four physical watergate-bank closures and their metadata were added."
+    }
+  ]
+}

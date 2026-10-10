@@ -1,0 +1,551 @@
+{
+  "status": "passed",
+  "scope": "Paired original and merged full character geometry in the actual production WebGPU renderer at native DPR, 4x MSAA, original 4096 PCF shadows; all static roles, palette variants, all four clips of all animated prototypes, and stone override.",
+  "threshold": {
+    "meanRGBErrorMax": 0.025,
+    "fractionPixelsOver2Max": 0.001,
+    "pixelUnits": "8-bit RGB"
+  },
+  "results": [
+    {
+      "image": "animated-citizen_Idle_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "d0d55f5d854ec90bb9c0f03d2bb694c84646a49fb9aeb61955c984eedd0a7676",
+      "mergedSHA256": "d0d55f5d854ec90bb9c0f03d2bb694c84646a49fb9aeb61955c984eedd0a7676",
+      "status": "passed"
+    },
+    {
+      "image": "animated-citizen_Idle_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "4a9520ebf0c014b139c9fe6e13be88be6b906c7bf12081701555368de3d1e7c5",
+      "mergedSHA256": "4a9520ebf0c014b139c9fe6e13be88be6b906c7bf12081701555368de3d1e7c5",
+      "status": "passed"
+    },
+    {
+      "image": "animated-citizen_Jump_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "31424c488b8398ff707d3f147ec86c31af3ad540b9d9773ad0fc43ae4e092df7",
+      "mergedSHA256": "31424c488b8398ff707d3f147ec86c31af3ad540b9d9773ad0fc43ae4e092df7",
+      "status": "passed"
+    },
+    {
+      "image": "animated-citizen_Jump_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "81f262c11d6dcc9988edc8e8b89827169d7960519d6b51c63e1f786f90d51c34",
+      "mergedSHA256": "81f262c11d6dcc9988edc8e8b89827169d7960519d6b51c63e1f786f90d51c34",
+      "status": "passed"
+    },
+    {
+      "image": "animated-citizen_Run_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "02a32a8381533c48957a58792841c00d7b12b05b528fa2b96da9dec6ea23ba8b",
+      "mergedSHA256": "02a32a8381533c48957a58792841c00d7b12b05b528fa2b96da9dec6ea23ba8b",
+      "status": "passed"
+    },
+    {
+      "image": "animated-citizen_Run_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "831e3abdb827201f1ce1647e197cb6bac1e064337cba59bd8599f6a9483abc03",
+      "mergedSHA256": "831e3abdb827201f1ce1647e197cb6bac1e064337cba59bd8599f6a9483abc03",
+      "status": "passed"
+    },
+    {
+      "image": "animated-citizen_Walk_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "42087ea9014c48736e1798ac38542e2d2b8ba170141a04baf19858d48a7c7b08",
+      "mergedSHA256": "42087ea9014c48736e1798ac38542e2d2b8ba170141a04baf19858d48a7c7b08",
+      "status": "passed"
+    },
+    {
+      "image": "animated-citizen_Walk_rear",
+      "meanRGBError": 3.6666666666666666e-06,
+      "maximumChannelError": 6,
+      "pixelsOver2": 1,
+      "fractionPixelsOver2": 1e-06,
+      "originalSHA256": "a29da2e1e2118831f169d9f3acb602ba1ed59974a775ff394776608ce81885c6",
+      "mergedSHA256": "a9b3958a4f3a9a0f79bd5a6f237320e174b9dc69184ea4ea3727d2274bf8969f",
+      "status": "passed"
+    },
+    {
+      "image": "animated-merchant_Idle_front",
+      "meanRGBError": 3.3333333333333335e-07,
+      "maximumChannelError": 1,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "dedc26e732b30f6bdb8c9e744ad1c6014b4ef5964e8b5fe2ce8ec93130e198eb",
+      "mergedSHA256": "16867f10ef11280f669712cfad9e9d6d6cd167cfdef0b2755f80ac81be11f6ef",
+      "status": "passed"
+    },
+    {
+      "image": "animated-merchant_Idle_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "ec21172514a25426770d1237ac502489abeec3eccbb3b10157783eddccac039a",
+      "mergedSHA256": "ec21172514a25426770d1237ac502489abeec3eccbb3b10157783eddccac039a",
+      "status": "passed"
+    },
+    {
+      "image": "animated-merchant_Jump_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "acc1d57d5b5019eda26283360e6a2008ee7a5bbea82642e7d47facf52a645025",
+      "mergedSHA256": "acc1d57d5b5019eda26283360e6a2008ee7a5bbea82642e7d47facf52a645025",
+      "status": "passed"
+    },
+    {
+      "image": "animated-merchant_Jump_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "0302d4104a79b22fe4e52a0e2c974730a8342eeb17cd5a4b54033cdb4df40e8d",
+      "mergedSHA256": "0302d4104a79b22fe4e52a0e2c974730a8342eeb17cd5a4b54033cdb4df40e8d",
+      "status": "passed"
+    },
+    {
+      "image": "animated-merchant_Run_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "5fe7b6a451edb47ad06646a083ee1e5600799fc5b7e7b064faba5d2e212627b2",
+      "mergedSHA256": "5fe7b6a451edb47ad06646a083ee1e5600799fc5b7e7b064faba5d2e212627b2",
+      "status": "passed"
+    },
+    {
+      "image": "animated-merchant_Run_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "e37d265dace7fd2f0a36b029da3fa3cf835e56aad0f1c982c7c610fabcbe9a71",
+      "mergedSHA256": "e37d265dace7fd2f0a36b029da3fa3cf835e56aad0f1c982c7c610fabcbe9a71",
+      "status": "passed"
+    },
+    {
+      "image": "animated-merchant_Walk_front",
+      "meanRGBError": 3.633333333333333e-05,
+      "maximumChannelError": 46,
+      "pixelsOver2": 1,
+      "fractionPixelsOver2": 1e-06,
+      "originalSHA256": "f1a75bbb0a376d2ad969a14909ed6c7722a92ffac23378ca3dd93437dc354e96",
+      "mergedSHA256": "1e18322559fc5146f876e65bfaa184d8c0febbc74c10631e5e5802296728196b",
+      "status": "passed"
+    },
+    {
+      "image": "animated-merchant_Walk_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "63cca2beb78c15415d8093f7bba2eb68fd090a9f37b729c0d08a73f60d4e3528",
+      "mergedSHA256": "63cca2beb78c15415d8093f7bba2eb68fd090a9f37b729c0d08a73f60d4e3528",
+      "status": "passed"
+    },
+    {
+      "image": "animated-porter_Idle_front",
+      "meanRGBError": 1.633333333333333e-05,
+      "maximumChannelError": 17,
+      "pixelsOver2": 1,
+      "fractionPixelsOver2": 1e-06,
+      "originalSHA256": "2d4b769c5a885e57dc50cafc7bfab882fec199bed3a5d46950862a083faf550c",
+      "mergedSHA256": "9e59017beaadfb0a78f19f6d5f774718896d0e0c8639cb9c7404a9c6c297b75c",
+      "status": "passed"
+    },
+    {
+      "image": "animated-porter_Idle_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "ed02f0ca154d570eca6380ea0cf471dc5e8904cf17f64739c9ec81e360900242",
+      "mergedSHA256": "ed02f0ca154d570eca6380ea0cf471dc5e8904cf17f64739c9ec81e360900242",
+      "status": "passed"
+    },
+    {
+      "image": "animated-porter_Jump_front",
+      "meanRGBError": 3.3333333333333335e-07,
+      "maximumChannelError": 1,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "d9f48fc73c10f95a15f4fd944ac7148f1f38c18d13d2b14917eea23ecb173d1b",
+      "mergedSHA256": "a366b5ff03b64b881f1d42eff9c40ca090d0b553193f0339feffea79eccad795",
+      "status": "passed"
+    },
+    {
+      "image": "animated-porter_Jump_rear",
+      "meanRGBError": 5.333333333333334e-06,
+      "maximumChannelError": 9,
+      "pixelsOver2": 1,
+      "fractionPixelsOver2": 1e-06,
+      "originalSHA256": "e77fb9690dab44a7926cd3972c648c9db2668432d6d292b07d02081b7da23c93",
+      "mergedSHA256": "cda291ad84ef588508716fd99977d1775ff19efa8ad569cad2f3f5c81c35798d",
+      "status": "passed"
+    },
+    {
+      "image": "animated-porter_Run_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "773b0168dd238abe6870f4647b0cdaa783b651ea08a3b9127761392c3c2900d4",
+      "mergedSHA256": "773b0168dd238abe6870f4647b0cdaa783b651ea08a3b9127761392c3c2900d4",
+      "status": "passed"
+    },
+    {
+      "image": "animated-porter_Run_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "e1ab119677d7757ce4dca0c2770121b073aa1b800c1c28f001b58f77d6d41928",
+      "mergedSHA256": "e1ab119677d7757ce4dca0c2770121b073aa1b800c1c28f001b58f77d6d41928",
+      "status": "passed"
+    },
+    {
+      "image": "animated-porter_Walk_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "0fdcf7a8ec653dbe7054bbe051d4256dce388414beb9f9aab05cab19905886d9",
+      "mergedSHA256": "0fdcf7a8ec653dbe7054bbe051d4256dce388414beb9f9aab05cab19905886d9",
+      "status": "passed"
+    },
+    {
+      "image": "animated-porter_Walk_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "e9a65d84256f04ad525fd5c744a7a55a64c5d7082d2821cfa5979c2f1aa35b12",
+      "mergedSHA256": "e9a65d84256f04ad525fd5c744a7a55a64c5d7082d2821cfa5979c2f1aa35b12",
+      "status": "passed"
+    },
+    {
+      "image": "static_0_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "906428c32c3008f4bc8955465595d112c7136f3bd35acc11f9f495a64ce060c1",
+      "mergedSHA256": "906428c32c3008f4bc8955465595d112c7136f3bd35acc11f9f495a64ce060c1",
+      "status": "passed"
+    },
+    {
+      "image": "static_0_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "65cbf9d3c1accd0e8638466851f1e2e78b740158bb72992899993bd46315e360",
+      "mergedSHA256": "65cbf9d3c1accd0e8638466851f1e2e78b740158bb72992899993bd46315e360",
+      "status": "passed"
+    },
+    {
+      "image": "static_10_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "cbd406d98a7c73b4a99a9dd7b8cf36df443589a98b2d634d83aff9c038c26fa4",
+      "mergedSHA256": "cbd406d98a7c73b4a99a9dd7b8cf36df443589a98b2d634d83aff9c038c26fa4",
+      "status": "passed"
+    },
+    {
+      "image": "static_10_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "0322f8fa819f15d3505145d157011be3d4574b4711495d5f22a8f48e806e79d8",
+      "mergedSHA256": "0322f8fa819f15d3505145d157011be3d4574b4711495d5f22a8f48e806e79d8",
+      "status": "passed"
+    },
+    {
+      "image": "static_11_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "9c57ec31085f03846c2eeca0964429fdc27fed7977d1b72b4426e207afda496a",
+      "mergedSHA256": "9c57ec31085f03846c2eeca0964429fdc27fed7977d1b72b4426e207afda496a",
+      "status": "passed"
+    },
+    {
+      "image": "static_11_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "0f94a832fd8f1040f382c4005614964d5bda1859aa64cfd4e1bd2ea4cd6ebac4",
+      "mergedSHA256": "0f94a832fd8f1040f382c4005614964d5bda1859aa64cfd4e1bd2ea4cd6ebac4",
+      "status": "passed"
+    },
+    {
+      "image": "static_12_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "90007772c4ce2e5423c77e907a646023dc1ebe3ea54c482f0debb6b3b9007033",
+      "mergedSHA256": "90007772c4ce2e5423c77e907a646023dc1ebe3ea54c482f0debb6b3b9007033",
+      "status": "passed"
+    },
+    {
+      "image": "static_12_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "df7cdc8d0cb7b7760614b374a04d2f03d783f37d6bbf2ec7c83459d4d708b768",
+      "mergedSHA256": "df7cdc8d0cb7b7760614b374a04d2f03d783f37d6bbf2ec7c83459d4d708b768",
+      "status": "passed"
+    },
+    {
+      "image": "static_13_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "4973f6447f86b832f8863991b1c9f691511fd4fa0ff4f1f7b2a98d5f3853f22a",
+      "mergedSHA256": "4973f6447f86b832f8863991b1c9f691511fd4fa0ff4f1f7b2a98d5f3853f22a",
+      "status": "passed"
+    },
+    {
+      "image": "static_13_rear",
+      "meanRGBError": 9e-06,
+      "maximumChannelError": 18,
+      "pixelsOver2": 1,
+      "fractionPixelsOver2": 1e-06,
+      "originalSHA256": "36af7635fc84c8359804b0eeb2c1c9c04a864a93807d7f29f8fb12a591ebb8dd",
+      "mergedSHA256": "b1a0b008da302242bd380b27c62a159345f3852e424aec9d0177b2ce39ae3f2f",
+      "status": "passed"
+    },
+    {
+      "image": "static_1_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "93049820ccb6ec4802961ce5b37d8d6cc8af8a00ad5a24f67dc0c84accb2a82d",
+      "mergedSHA256": "93049820ccb6ec4802961ce5b37d8d6cc8af8a00ad5a24f67dc0c84accb2a82d",
+      "status": "passed"
+    },
+    {
+      "image": "static_1_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "fcdbbc5dfd69d2965fd3e11d1c371674e363579ace80596353049ce9ccb9fbea",
+      "mergedSHA256": "fcdbbc5dfd69d2965fd3e11d1c371674e363579ace80596353049ce9ccb9fbea",
+      "status": "passed"
+    },
+    {
+      "image": "static_2_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "22cd53e19f13a8510948217adff7ff29321597359e54dffce4e6583127b398c2",
+      "mergedSHA256": "22cd53e19f13a8510948217adff7ff29321597359e54dffce4e6583127b398c2",
+      "status": "passed"
+    },
+    {
+      "image": "static_2_rear",
+      "meanRGBError": 3.3333333333333333e-06,
+      "maximumChannelError": 5,
+      "pixelsOver2": 1,
+      "fractionPixelsOver2": 1e-06,
+      "originalSHA256": "4b83def8db775be287e7736119eee938183c03cdfd924d7a4ac7e8f0e1bcbc06",
+      "mergedSHA256": "0ac19b9f95db9dd78338a0cd33040cbebe1ce102e8b22eb2c69810ce63785acc",
+      "status": "passed"
+    },
+    {
+      "image": "static_3_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "3c770a3f1d19f08ff0da333c1379d78f2bdd9066e9d77ce81f350eab3e4aa5f6",
+      "mergedSHA256": "3c770a3f1d19f08ff0da333c1379d78f2bdd9066e9d77ce81f350eab3e4aa5f6",
+      "status": "passed"
+    },
+    {
+      "image": "static_3_rear",
+      "meanRGBError": 1e-05,
+      "maximumChannelError": 15,
+      "pixelsOver2": 1,
+      "fractionPixelsOver2": 1e-06,
+      "originalSHA256": "4d8f2d1e8205a3508357f985a0cb394f08e64c965aed559af9eba4dcc016b27c",
+      "mergedSHA256": "79fb60cfe648d0bdd0b92a49f019bd175f22402936ae2e358e954163c763b5dc",
+      "status": "passed"
+    },
+    {
+      "image": "static_4_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "fe9e5d168e695b21c0d5c2ad794775c607483e2fa82dd7e0db7969218e9ca52f",
+      "mergedSHA256": "fe9e5d168e695b21c0d5c2ad794775c607483e2fa82dd7e0db7969218e9ca52f",
+      "status": "passed"
+    },
+    {
+      "image": "static_4_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "3cc67cd5bcf095c1804eb9cd5d5ba5d7495ce18c0b44b1f759b003f1e04ff516",
+      "mergedSHA256": "3cc67cd5bcf095c1804eb9cd5d5ba5d7495ce18c0b44b1f759b003f1e04ff516",
+      "status": "passed"
+    },
+    {
+      "image": "static_5_front",
+      "meanRGBError": 3.3333333333333335e-07,
+      "maximumChannelError": 1,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "d10433a47c968219eccd50633293544840b4e78656ef200d9998da7ff96b683d",
+      "mergedSHA256": "678e9b27c78826047d3848e7cabb4afa1e05e5beffb931ea9089778f76e36ab9",
+      "status": "passed"
+    },
+    {
+      "image": "static_5_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "23a758a64376dfb3fe8fe126f306e72c0eff8d3d99627665e89bc04bf9dc0469",
+      "mergedSHA256": "23a758a64376dfb3fe8fe126f306e72c0eff8d3d99627665e89bc04bf9dc0469",
+      "status": "passed"
+    },
+    {
+      "image": "static_6_front",
+      "meanRGBError": 3.3333333333333335e-07,
+      "maximumChannelError": 1,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "5c53b0733dd1ed4c59eafc7f13d57ffc0a4b5c2544b4cfd315a34842295c67c6",
+      "mergedSHA256": "0c3b7fe44db90d33604532b844dc20a521c7854b759843ed404f4c0222be4b8d",
+      "status": "passed"
+    },
+    {
+      "image": "static_6_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "9818d6e40c6aecdc2695ac4beb9c0caa3a88ea696b0c5bd672e5241f5d1dc70f",
+      "mergedSHA256": "9818d6e40c6aecdc2695ac4beb9c0caa3a88ea696b0c5bd672e5241f5d1dc70f",
+      "status": "passed"
+    },
+    {
+      "image": "static_7_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "8f3bd5de2fe849ecc85fc9765fc6a3cef663d50330269db0551fb751818eb82e",
+      "mergedSHA256": "8f3bd5de2fe849ecc85fc9765fc6a3cef663d50330269db0551fb751818eb82e",
+      "status": "passed"
+    },
+    {
+      "image": "static_7_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "f455ed6586228e58f49a74bbe5507ab407959453e951c438b632a8a2f09ad526",
+      "mergedSHA256": "f455ed6586228e58f49a74bbe5507ab407959453e951c438b632a8a2f09ad526",
+      "status": "passed"
+    },
+    {
+      "image": "static_8_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "30f90c20a3b1d67e08af613d9b1ef14731b75c19400da27445a2685988a7a4d4",
+      "mergedSHA256": "30f90c20a3b1d67e08af613d9b1ef14731b75c19400da27445a2685988a7a4d4",
+      "status": "passed"
+    },
+    {
+      "image": "static_8_rear",
+      "meanRGBError": 1.2333333333333333e-05,
+      "maximumChannelError": 12,
+      "pixelsOver2": 2,
+      "fractionPixelsOver2": 2e-06,
+      "originalSHA256": "1fe3ac0c9ccc0a10485b2de7a5ce4ac83026c15791b01e7f26c0f1551eac1306",
+      "mergedSHA256": "dff3151a641bf9b79c53be2c9a16abf4341b1ae95359d8fe860d47cd62a1a322",
+      "status": "passed"
+    },
+    {
+      "image": "static_9_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "4444569614a09b663c8f33b99f54d4e4da503ccd1bf3edf3bbae7448a5a612e3",
+      "mergedSHA256": "4444569614a09b663c8f33b99f54d4e4da503ccd1bf3edf3bbae7448a5a612e3",
+      "status": "passed"
+    },
+    {
+      "image": "static_9_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "63dc6a1d638ee1e0a8fd4a1c6eec6636ae80f5b519200a01f53f17ddee8ca7a2",
+      "mergedSHA256": "63dc6a1d638ee1e0a8fd4a1c6eec6636ae80f5b519200a01f53f17ddee8ca7a2",
+      "status": "passed"
+    },
+    {
+      "image": "stone_front",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "5971509aa19cd48870361300e3497dad2b52faddf979ce34e5887ce1849bad50",
+      "mergedSHA256": "5971509aa19cd48870361300e3497dad2b52faddf979ce34e5887ce1849bad50",
+      "status": "passed"
+    },
+    {
+      "image": "stone_rear",
+      "meanRGBError": 0.0,
+      "maximumChannelError": 0,
+      "pixelsOver2": 0,
+      "fractionPixelsOver2": 0.0,
+      "originalSHA256": "55dc408e2f7bcb2702cc31a3e8d73c8bcd077119ef55a639ff8645f01a21e771",
+      "mergedSHA256": "55dc408e2f7bcb2702cc31a3e8d73c8bcd077119ef55a639ff8645f01a21e771",
+      "status": "passed"
+    }
+  ]
+}

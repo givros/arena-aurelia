@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "kind": "animation-fbx",
+  "source_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\run.fbx",
+  "asset_sha256": "f22cbc10251a047fba36861190be19250450437399befc992db723c6b0080b82",
+  "export_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_export.json",
+  "export_report_sha256": "012ab598fc3bce0297d9f878aeae8e5ce6b82c5b54bdf45dc481b3947abe28f7",
+  "action_name": "Run",
+  "blender_version": "5.1.2",
+  "details": {
+    "objects": [
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ]
+    ],
+    "action_name_requested": "Run",
+    "action_name_imported": "CharacterRig|Run",
+    "frame_range": [
+      1,
+      20
+    ],
+    "fps": 30.0,
+    "bone_count": 49,
+    "pose_matrix_max_delta": 2.62334942817688e-05,
+    "worst_pose_delta": {
+      "frame": 18,
+      "bone": "f_index.02.R",
+      "delta": 2.62334942817688e-05
+    },
+    "raw_texture_contract": {}
+  },
+  "failures": {}
+}

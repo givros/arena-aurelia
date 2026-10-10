@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-10T19:00:19.823Z",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "build": {
+    "index-Cj9FlUBs.css": "828f2211e57f5636f17e63e33aadb05973cb00497c61b63cf43d7fa0319fc55b",
+    "index-DY3Q2IzG.js": "5f0e8d6ee7a772e889fe3ff5b15a4d2d1cdf9d9dba295d5e7132d1212584237c"
+  },
+  "moduleSHA256": "b10604716cce00f2b100a059faa2d214afe4e0d40225ea9a433db3c736ce5efe",
+  "scope": "Actual full production world resize,fullscreen,source views/day-night,program create/destroy trace with shader code identity and live cluster storage/compute identities.",
+  "phase": "views_complete",
+  "events": [],
+  "snapshots": [
+    {
+      "phase": "before_resize",
+      "time": 342105.2000000477,
+      "programs": 2997,
+      "calls": 204,
+      "viewport": [
+        1440,
+        1080
+      ],
+      "nativeFramebuffer": [
+        1440,
+        1080
+      ],
+      "grid": [
+        45,
+        34
+      ],
+      "activeCount": 36720,
+      "capacityClusters": 195840,
+      "capacityBytes": 50135040,
+      "computeID": 1116,
+      "storageID": 1111,
+      "gridReallocations": 1
+    },
+    {
+      "phase": "settled_1600_1000",
+      "time": 342530.40000003576,
+      "programs": 2997,
+      "calls": 225,
+      "viewport": [
+        1600,
+        1000
+      ],
+      "nativeFramebuffer": [
+        1600,
+        1000
+      ],
+      "grid": [
+        50,
+        32
+      ],
+      "activeCount": 38400,
+      "capacityClusters": 195840,
+      "capacityBytes": 50135040,
+      "computeID": 1116,
+      "storageID": 1111,
+      "gridReallocations": 1,
+      "wallMs": 376
+    },
+    {
+      "phase": "settled_1440_1080",
+      "time": 342917,
+      "programs": 2997,
+      "calls": 246,
+      "viewport": [
+        1440,
+        1080
+      ],
+      "nativeFramebuffer": [
+        1440,
+        1080
+      ],
+      "grid": [
+        45,
+        34
+      ],
+      "activeCount": 36720,
+      "capacityClusters": 195840,
+      "capacityBytes": 50135040,
+      "computeID": 1116,
+      "storageID": 1111,
+      "gridReallocations": 1,
+      "wallMs": 293
+    },
+    {
+      "phase": "fullscreen_return",
+      "time": 344908.2000000477,
+      "programs": 2997,
+      "calls": 363,
+      "viewport": [
+        1440,
+        1080
+      ],
+      "nativeFramebuffer": [
+        1440,
+        1080
+      ],
+      "grid": [
+        45,
+        34
+      ],
+      "activeCount": 36720,
+      "capacityClusters": 195840,
+      "capacityBytes": 50135040,
+      "computeID": 1116,
+      "storageID": 1111,
+      "gridReallocations": 1
+    },
+    {
+      "phase": "views_complete",
+      "time": 352832.40000003576,
+      "programs": 2997,
+      "calls": 936,
+      "viewport": [
+        1440,
+        1080
+      ],
+      "nativeFramebuffer": [
+        1440,
+        1080
+      ],
+      "grid": [
+        45,
+        34
+      ],
+      "activeCount": 36720,
+      "capacityClusters": 195840,
+      "capacityBytes": 50135040,
+      "computeID": 1116,
+      "storageID": 1111,
+      "gridReallocations": 1
+    }
+  ],
+  "errors": []
+}

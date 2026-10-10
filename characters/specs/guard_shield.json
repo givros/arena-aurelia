@@ -1,0 +1,69 @@
+{
+  "garment_id": "guard_shield",
+  "object_name": "GuardShield",
+  "mesh_name": "GuardShieldMesh",
+  "garment_type": "Deep red rectangular curved scutum",
+  "garment_slot": "guard_shield",
+  "construction_strategy": "rigid_closed",
+  "reference_images": [
+    "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\references\\arena-primary.png"
+  ],
+  "reference_assets": [
+    {
+      "original_path": "C:\\Users\\limou\\AppData\\Local\\Temp\\codex-clipboard-618db799-bf8a-4459-92d1-01ea1dde98ce.png",
+      "copied_path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\references\\arena-primary.png",
+      "sha256": "F5F3E63ECD19205FDA0D3366D3F1B9CFB3A7201876194BCFDA2F014797820AC1"
+    }
+  ],
+  "image_interpretation": {
+    "primary_view": "elevated arena district",
+    "available_views": [
+      "aerial oblique"
+    ],
+    "body_coverage": [
+      "Deep red rectangular curved scutum"
+    ],
+    "start_landmarks": [
+      "body fitted local anatomical coordinates"
+    ],
+    "end_landmarks": [
+      "role appropriate silhouette"
+    ],
+    "fit": "rigid",
+    "silhouette_by_view": {
+      "front": "Deep red rectangular curved scutum",
+      "back": "Plain symmetric continuation"
+    },
+    "openings": [],
+    "visible_details": [
+      "Earth coloured clothing, bronze/red guard group, crowd diversity"
+    ],
+    "symmetry": "symmetric",
+    "colors": [
+      "#83302A"
+    ],
+    "material_appearance": "Matte stylized low polygon materials",
+    "direct_under": "CharacterBase",
+    "direct_above": "None",
+    "visible_evidence": [
+      "Reference shows dense spectators, red and bronze guards and warm neutral citizens; user explicitly requests role clothing and accessories"
+    ],
+    "assumptions": [
+      "Character-scale seam and fastening details cannot be resolved in the aerial reference; use plain garments and explicitly requested role accessories."
+    ],
+    "confidence": "medium"
+  },
+  "material": {
+    "name": "GuardShieldMaterial",
+    "color": "#83302A",
+    "roughness": 0.56,
+    "metallic": 0
+  },
+  "visibility_property": "show_guard_shield",
+  "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+  "max_influences": 4,
+  "open_surface": false,
+  "thickness": 0,
+  "builder_script": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\scripts\\character_garment_builder.py",
+  "geometry_method": "Deterministic body-derived surface shell and measured cross-section or rigid accessory geometry"
+}

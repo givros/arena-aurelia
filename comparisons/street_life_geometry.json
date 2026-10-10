@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "stalls": 84,
+    "shop_houses": 20,
+    "vendors": 104,
+    "static_patrons": 940,
+    "roaming_routes": 26
+  },
+  "created_mesh_objects": 998,
+  "retired_objects": 424,
+  "actual_projection_violations": [],
+  "source_saved": false
+}

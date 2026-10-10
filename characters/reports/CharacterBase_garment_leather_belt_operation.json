@@ -1,0 +1,73 @@
+{
+  "after_blend_sha256": "531269D3310F347B7D4D690E5440B10DA3A546E3B98AC56DD0607B87FA702F68",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_leather_belt_after.json",
+  "after_semantic_digest": "66E9A935EFC3B14A5B21877D9B872C901F714534E132E85081A532428C105B2A",
+  "allowed_scopes": [
+    "garment:leather_belt"
+  ],
+  "before_blend_sha256": "F6C44BF464EA3AB02F4E9DB0D047E0F9241C2B0E82873528CB0C2F503F5F56C6",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_leather_belt_before.json",
+  "before_semantic_digest": "B8A0929DF323EEC4E7DFFAE366A87309CE1A5C87AD9021318C3AC1719767B2CA",
+  "changed_scopes": [
+    "garment:leather_belt"
+  ],
+  "changes": [
+    {
+      "after": "FEDC1B4D4A5B86DEEF74B62F1257A5AFEEF079BDE2B503B3E78CBA8EFF7B8097",
+      "allowed": true,
+      "before": "3EEEA78DEACE0035C64394A9D69C32AF6019246DD65D644955EC9EB1910C8D01",
+      "change": "modified",
+      "members": [
+        {
+          "after": "8B3D7FE55E542416088FBC4E9BB056A22C7988428FF477FB7C3C9FEDEEB4D8B5",
+          "before": "D5A7FDBBCB6252A607938D8491B1C8F29A8BF3875CAAE0352FD42D4313F2ED3B",
+          "change": "modified",
+          "member": "object:LeatherBelt:geometry"
+        },
+        {
+          "after": "563E36D1784E802BE0E0DCCD6E8A30915397E13B9A294F024F03C03493BE0ADF",
+          "before": "7815A1708AA94EBE0D75009F03DB992A58DAF8E4B171C625A319153B89614EED",
+          "change": "modified",
+          "member": "object:LeatherBelt:metadata"
+        },
+        {
+          "after": "D2DF8462A10676DF1C5FE316F73E2C8989527BA28D46EE5CAB96EA8E4E74EE5C",
+          "before": "35B866CD15873EC5E3F40BA023ECF542765B248A0D9E47D72FC0A9BC87660DDB",
+          "change": "modified",
+          "member": "object:LeatherBelt:transform_and_parent"
+        },
+        {
+          "after": "68E6386F89E6AE021F99AEA8E22EE3D871303B4CC363BFE83C584739C7C2B859",
+          "before": "B64FB4162775C74C4AA1300AADEA2201B50970AAA25F276E356A3BA7C2750899",
+          "change": "modified",
+          "member": "object:LeatherBelt:uv_and_attributes"
+        },
+        {
+          "after": "BB9341EFAB7D263F12EA630BAC31FFD9BDF1FA4F3883A2FA5D2AA060B4274531",
+          "before": "D52D1A223391D603D2E0601A0C16A5DF96ECECABA28233E1A51103EDFDE5B3DA",
+          "change": "modified",
+          "member": "object:LeatherBelt:weights"
+        }
+      ],
+      "scope": "garment:leather_belt"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "animations",
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:gladiator_sword",
+    "garment:guard_shield",
+    "garment:guard_spear",
+    "garment:hair_cap",
+    "garment:roman_helmet",
+    "garment:roman_sandals",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "violations": []
+}

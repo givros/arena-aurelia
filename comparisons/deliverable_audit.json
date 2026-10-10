@@ -1,0 +1,642 @@
+{
+  "schema": "roman-arena.independent-deliverable-audit/v1",
+  "timestamp": "2026-10-10T13:55:14.650716+00:00",
+  "scope": "Read-only file, hash and evidence review; no new GPU rendering or character geometry tests; supplemental neutral GLB reexport separately authorized by root.",
+  "status": "passed",
+  "sourceSHA256": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+  "requiredFiles": [
+    {
+      "path": "Aurelia_Arena.blend",
+      "exists": true,
+      "bytes": 36914011
+    },
+    {
+      "path": "scene_spec.json",
+      "exists": true,
+      "bytes": 12555
+    },
+    {
+      "path": "semantic_layout.png",
+      "exists": true,
+      "bytes": 85112
+    },
+    {
+      "path": "region_graph.json",
+      "exists": true,
+      "bytes": 2388
+    },
+    {
+      "path": "scene_connections.json",
+      "exists": true,
+      "bytes": 1073
+    },
+    {
+      "path": "asset_registry.json",
+      "exists": true,
+      "bytes": 982085
+    },
+    {
+      "path": "animation_manifest.json",
+      "exists": true,
+      "bytes": 1897
+    },
+    {
+      "path": "validation_report.md",
+      "exists": true,
+      "bytes": 8539
+    },
+    {
+      "path": "viewer/package.json",
+      "exists": true,
+      "bytes": 429
+    },
+    {
+      "path": "viewer/package-lock.json",
+      "exists": true,
+      "bytes": 39995
+    },
+    {
+      "path": "viewer/dist/index.html",
+      "exists": true,
+      "bytes": 764
+    },
+    {
+      "path": "viewer/render_profile.json",
+      "exists": true,
+      "bytes": 4493
+    },
+    {
+      "path": "viewer/runtime_validation.json",
+      "exists": true,
+      "bytes": 28420
+    },
+    {
+      "path": "source_reopen_validation.json",
+      "exists": true,
+      "bytes": 4334
+    },
+    {
+      "path": "source_transfer_validation.json",
+      "exists": true,
+      "bytes": 524
+    },
+    {
+      "path": "characters/asset_registry.json",
+      "exists": true,
+      "bytes": 18812
+    },
+    {
+      "path": "characters/animation_manifest.json",
+      "exists": true,
+      "bytes": 72324
+    }
+  ],
+  "checks": [
+    {
+      "name": "source_reopen_validation.json source identity",
+      "status": "passed",
+      "evidence": {
+        "recorded": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+        "actual": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+      }
+    },
+    {
+      "name": "source_transfer_validation.json source identity",
+      "status": "passed",
+      "evidence": {
+        "recorded": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+        "actual": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+      }
+    },
+    {
+      "name": "viewer/source_validation.json source identity",
+      "status": "passed",
+      "evidence": {
+        "recorded": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+        "actual": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+      }
+    },
+    {
+      "name": "asset_registry.json source identity",
+      "status": "passed",
+      "evidence": {
+        "recorded": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+        "actual": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+      }
+    },
+    {
+      "name": "characters/population-source-qc.json source identity",
+      "status": "passed",
+      "evidence": {
+        "recorded": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+        "actual": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+      }
+    },
+    {
+      "name": "characters/standing-ground-qc.json source identity",
+      "status": "passed",
+      "evidence": {
+        "recorded": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+        "actual": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+      }
+    },
+    {
+      "name": "viewer/public/assets/environment.json source identity",
+      "status": "passed",
+      "evidence": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+    },
+    {
+      "name": "viewer/dist/assets/environment.json source identity",
+      "status": "passed",
+      "evidence": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+    },
+    {
+      "name": "Source/runtime architecture binary identical",
+      "status": "passed",
+      "evidence": "1fd532a133e9703abddb84f26f78e4f588f774cb46d621877088266d006c4d09"
+    },
+    {
+      "name": "viewer/public/assets/characters/citizen.glb exact identity",
+      "status": "passed",
+      "evidence": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb"
+    },
+    {
+      "name": "viewer/dist/assets/characters/citizen.glb exact identity",
+      "status": "passed",
+      "evidence": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb"
+    },
+    {
+      "name": "viewer/public/assets/characters/merchant.glb exact identity",
+      "status": "passed",
+      "evidence": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26"
+    },
+    {
+      "name": "viewer/dist/assets/characters/merchant.glb exact identity",
+      "status": "passed",
+      "evidence": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26"
+    },
+    {
+      "name": "viewer/public/assets/characters/worker.glb exact identity",
+      "status": "passed",
+      "evidence": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d"
+    },
+    {
+      "name": "viewer/dist/assets/characters/worker.glb exact identity",
+      "status": "passed",
+      "evidence": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d"
+    },
+    {
+      "name": "viewer/public/assets/characters/noble.glb exact identity",
+      "status": "passed",
+      "evidence": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae"
+    },
+    {
+      "name": "viewer/dist/assets/characters/noble.glb exact identity",
+      "status": "passed",
+      "evidence": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae"
+    },
+    {
+      "name": "viewer/public/assets/characters/seated-spectator.glb exact identity",
+      "status": "passed",
+      "evidence": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551"
+    },
+    {
+      "name": "viewer/dist/assets/characters/seated-spectator.glb exact identity",
+      "status": "passed",
+      "evidence": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551"
+    },
+    {
+      "name": "viewer/public/assets/characters/guard.glb exact identity",
+      "status": "passed",
+      "evidence": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9"
+    },
+    {
+      "name": "viewer/dist/assets/characters/guard.glb exact identity",
+      "status": "passed",
+      "evidence": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9"
+    },
+    {
+      "name": "viewer/public/assets/characters/gladiator.glb exact identity",
+      "status": "passed",
+      "evidence": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4"
+    },
+    {
+      "name": "viewer/dist/assets/characters/gladiator.glb exact identity",
+      "status": "passed",
+      "evidence": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4"
+    },
+    {
+      "name": "viewer/public/assets/characters/animated-citizen.glb exact identity",
+      "status": "passed",
+      "evidence": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4"
+    },
+    {
+      "name": "viewer/dist/assets/characters/animated-citizen.glb exact identity",
+      "status": "passed",
+      "evidence": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4"
+    },
+    {
+      "name": "viewer/public/assets/characters/crowd_manifest.json exact identity",
+      "status": "passed",
+      "evidence": "452b5fdfa341fd614e85d858ec9df8e6d7fba58283ea9f7bb176bfde461c890f"
+    },
+    {
+      "name": "viewer/dist/assets/characters/crowd_manifest.json exact identity",
+      "status": "passed",
+      "evidence": "452b5fdfa341fd614e85d858ec9df8e6d7fba58283ea9f7bb176bfde461c890f"
+    },
+    {
+      "name": "characters\\CharacterBase.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "characters\\runtime\\animated-citizen.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "characters\\runtime\\citizen.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "characters\\runtime\\gladiator.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "characters\\runtime\\guard.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "characters\\runtime\\merchant.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "characters\\runtime\\noble.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "characters\\runtime\\seated-spectator.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "characters\\runtime\\worker.glb uncompressed",
+      "status": "passed",
+      "evidence": []
+    },
+    {
+      "name": "Nine actual traversal routes pass",
+      "status": "passed",
+      "evidence": [
+        {
+          "id": "ceremonial",
+          "status": "passed"
+        },
+        {
+          "id": "northeast_stands",
+          "status": "passed"
+        },
+        {
+          "id": "upper_stairs",
+          "status": "passed"
+        },
+        {
+          "id": "vip",
+          "status": "passed"
+        },
+        {
+          "id": "hypogeum",
+          "status": "passed"
+        },
+        {
+          "id": "river_bridge",
+          "status": "passed"
+        },
+        {
+          "id": "temple",
+          "status": "passed"
+        },
+        {
+          "id": "northeast_descent",
+          "status": "passed"
+        },
+        {
+          "id": "hypogeum_exit",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "name": "Exact full character geometry and placements",
+      "status": "passed",
+      "evidence": {
+        "source": 61689244,
+        "runtimeAuthoredAssets": 61689244,
+        "identical": true
+      }
+    },
+    {
+      "name": "All human and statue support contacts",
+      "status": "passed",
+      "evidence": {
+        "seated": 12000,
+        "standing": 314,
+        "statues": 26
+      }
+    },
+    {
+      "name": "Shared semantic region definitions agree",
+      "status": "passed",
+      "evidence": {
+        "id": "REG_HYPOGEUM",
+        "name": "The Hypogeum",
+        "color": "#5c6178",
+        "bounds": [
+          -43,
+          -33,
+          51,
+          33
+        ],
+        "floorZ": -5.6
+      }
+    },
+    {
+      "name": "Production build newer than source edits",
+      "status": "passed",
+      "evidence": "Production dist modified after all viewer source files"
+    },
+    {
+      "name": "Final runtime source identity",
+      "status": "passed",
+      "evidence": {
+        "actual": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+        "recorded": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580"
+      }
+    },
+    {
+      "name": "Final runtime render profile identity",
+      "status": "passed",
+      "evidence": {
+        "actual": "3eac181e978cb376fa1f914503679cb8c4ba5a6678c540200812d58d6a490314",
+        "recorded": "3eac181e978cb376fa1f914503679cb8c4ba5a6678c540200812d58d6a490314"
+      }
+    },
+    {
+      "name": "Final runtime validation all checks pass",
+      "status": "passed",
+      "evidence": {
+        "status": "passed",
+        "checks": 20,
+        "backend": "webgpu",
+        "adapterClass": "hardware",
+        "characters": {
+          "count": 12322,
+          "animated": 8,
+          "triangles": 61689244
+        },
+        "quality": {
+          "nativeDPR": true,
+          "MSAA": 4,
+          "shadows": 4096,
+          "compression": false,
+          "geometryReduction": false
+        },
+        "timestamp": "2026-10-10T13:50:22.146Z"
+      }
+    },
+    {
+      "name": "Final required deliverables present",
+      "status": "passed",
+      "evidence": {
+        "requiredFiles": 17,
+        "missing": []
+      }
+    },
+    {
+      "name": "Validation report reflects final evidence",
+      "status": "passed",
+      "evidence": {
+        "sha256": "c7fde56858b58a2ff01f154c54e139049df411c121af124c6b0ac93dc094e8dd",
+        "bytes": 8539,
+        "evidenceTerms": [
+          "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+          "12,000",
+          "61,689,244",
+          "2,840,811",
+          "33.3",
+          "33.4",
+          "322 other human instances"
+        ],
+        "missingTerms": [],
+        "populationArithmetic": {
+          "seated": 12000,
+          "otherHumanInstances": 322,
+          "total": 12322
+        }
+      }
+    },
+    {
+      "name": "Final source reopen includes all ten pass3 renders",
+      "status": "passed",
+      "evidence": {
+        "reopenReportSHA256": "ff4f4a5e575f44877039e8e763be4652a373b150c3dbc83574c634618f0fba3e",
+        "renderPaths": [
+          "renders/pass3_approach.png",
+          "renders/pass3_facade.png",
+          "renders/pass3_floor.png",
+          "renders/pass3_hypogeum.png",
+          "renders/pass3_market.png",
+          "renders/pass3_reference.png",
+          "renders/pass3_reverse.png",
+          "renders/pass3_seating.png",
+          "renders/pass3_top.png",
+          "renders/pass3_vip.png"
+        ]
+      }
+    }
+  ],
+  "renderPasses": [
+    {
+      "pass": 1,
+      "renderCount": 10,
+      "nineViewSheet": true
+    },
+    {
+      "pass": 2,
+      "renderCount": 10,
+      "nineViewSheet": true
+    },
+    {
+      "pass": 3,
+      "renderCount": 10,
+      "nineViewSheet": true
+    }
+  ],
+  "pending": [],
+  "issues": [],
+  "renderProfileSHA256": "3eac181e978cb376fa1f914503679cb8c4ba5a6678c540200812d58d6a490314",
+  "recordedRuntimeSourceSHA256": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+  "supplementalNeutralGLBUncompressed": true,
+  "finalRuntimeEvidence": {
+    "reportSHA256": "79590111fc351083b48fb05c5a4b70865b835a42927b0f2a7a9c62febacbd3e0",
+    "status": "passed",
+    "timestamp": "2026-10-10T13:50:22.146Z",
+    "checks": 20,
+    "source": {
+      "manifestSHA256": "651d977d06e49f36aa61a4eb9ea885116411fca26c2e7060ce53510670325b66",
+      "binarySHA256": "1fd532a133e9703abddb84f26f78e4f588f774cb46d621877088266d006c4d09",
+      "blendSHA256": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+      "characterManifestSHA256": "452b5fdfa341fd614e85d858ec9df8e6d7fba58283ea9f7bb176bfde461c890f",
+      "characterAssets": [
+        {
+          "asset": "characters/seated-spectator.glb",
+          "count": 12000,
+          "trianglesPerInstance": 5002,
+          "bytes": 325968,
+          "sha256": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+          "animations": []
+        },
+        {
+          "asset": "characters/gladiator.glb",
+          "count": 38,
+          "trianglesPerInstance": 5878,
+          "bytes": 376616,
+          "sha256": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4",
+          "animations": []
+        },
+        {
+          "asset": "characters/guard.glb",
+          "count": 24,
+          "trianglesPerInstance": 5890,
+          "bytes": 376876,
+          "sha256": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9",
+          "animations": []
+        },
+        {
+          "asset": "characters/merchant.glb",
+          "count": 28,
+          "trianglesPerInstance": 5002,
+          "bytes": 325888,
+          "sha256": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26",
+          "animations": []
+        },
+        {
+          "asset": "characters/noble.glb",
+          "count": 8,
+          "trianglesPerInstance": 5002,
+          "bytes": 325852,
+          "sha256": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae",
+          "animations": []
+        },
+        {
+          "asset": "characters/citizen.glb",
+          "count": 200,
+          "trianglesPerInstance": 5002,
+          "bytes": 325872,
+          "sha256": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb",
+          "animations": []
+        },
+        {
+          "asset": "characters/worker.glb",
+          "count": 16,
+          "trianglesPerInstance": 5002,
+          "bytes": 325860,
+          "sha256": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d",
+          "animations": []
+        },
+        {
+          "asset": "characters/animated-citizen.glb",
+          "count": 8,
+          "trianglesPerInstance": 5002,
+          "bytes": 821928,
+          "sha256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+          "animations": [
+            "Idle",
+            "Jump",
+            "Run",
+            "Walk"
+          ]
+        }
+      ]
+    },
+    "performance": {
+      "warmupSeconds": 3,
+      "samplingSeconds": 12,
+      "frameIntervalMs": {
+        "p50": 33.30000000000291,
+        "p95": 33.400000000001455,
+        "samples": 393
+      },
+      "cpuCallbackMs": {
+        "p50": 7,
+        "p95": 8.300000011920929,
+        "samples": 393
+      },
+      "gpuExecutionMs": null,
+      "render": {
+        "calls": 3918,
+        "frameCalls": 3,
+        "drawCalls": 854,
+        "triangles": 128465039,
+        "points": 0,
+        "lines": 0,
+        "timestamp": 0
+      },
+      "rendererReportedAllocationBytes": 523086224,
+      "otherViews": [
+        {
+          "name": "plaza",
+          "samplingSeconds": 8,
+          "frameIntervalMs": {
+            "p50": 33.30000000000291,
+            "p95": 33.400000000001455,
+            "samples": 269
+          },
+          "cpuCallbackMs": {
+            "p50": 6.5,
+            "p95": 7.599999964237213,
+            "samples": 269
+          },
+          "render": {
+            "calls": 4926,
+            "frameCalls": 3,
+            "drawCalls": 833,
+            "triangles": 128389731,
+            "points": 0,
+            "lines": 0,
+            "timestamp": 0
+          }
+        },
+        {
+          "name": "hypogeum",
+          "samplingSeconds": 8,
+          "frameIntervalMs": {
+            "p50": 16.69999999999709,
+            "p95": 33.39999999999418,
+            "samples": 391
+          },
+          "cpuCallbackMs": {
+            "p50": 5.899999976158142,
+            "p95": 7.5,
+            "samples": 391
+          },
+          "render": {
+            "calls": 6378,
+            "frameCalls": 3,
+            "drawCalls": 700,
+            "triangles": 106185445,
+            "points": 0,
+            "lines": 0,
+            "timestamp": 0
+          }
+        }
+      ]
+    }
+  }
+}

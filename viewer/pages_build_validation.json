@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "scope": "Clean input reconstruction, locked dependency install, TypeScript check and production build at /arena-aurelia/. No installed packages or environment.bin copied from the working viewer.",
+  "base": "/arena-aurelia/",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "siteBytes": 166784332,
+  "publicAssets": 32,
+  "reconstructedGeometrySHA256": "792a5dc7304bba72121d31590aad09a945ffe252268b1dfa5337c240b2011756",
+  "build": {
+    "index-Cj9FlUBs.css": "828f2211e57f5636f17e63e33aadb05973cb00497c61b63cf43d7fa0319fc55b",
+    "index-PzJzv0u6.js": "b8cbaf4e864b1961251171feb7fce69abc9a563cac9ed38b9ae106f0eb31e9b2"
+  },
+  "workflowSHA256": "8c142c7db5907c796e0d513b2c0a80a7979cac412ecf42f84011032e10813468"
+}

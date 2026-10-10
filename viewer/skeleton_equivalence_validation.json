@@ -1,0 +1,212 @@
+{
+  "schema": "roman-arena.skeleton-equivalence/v1",
+  "timestamp": "2026-10-10T16:43:52.815Z",
+  "passed": true,
+  "scope": "Read-only CPU in-memory equivalence experiment; runtime source and asset files unchanged. Each actor retains its own independent Skeleton; only its own5 skinned submeshes share that Skeleton.",
+  "threeVersion": "186",
+  "implementation": "SkeletonUtils.clone followed by assigning equivalent per-actor mesh.skeleton references; each mesh bindMatrix, geometry, material, tracks, phase and hierarchy remain unchanged.",
+  "assets": [
+    {
+      "asset": "public/assets/characters/animated-citizen.glb",
+      "sha256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+      "skinnedMeshes": 5,
+      "uniqueSkeletonsBefore": 5,
+      "uniqueSkeletonsAfter": 1,
+      "joints": 49,
+      "identicalBoneObjectReferences": true,
+      "identicalInverseBindMatrices": true,
+      "maxBoneMatrixArrayDelta": 0,
+      "maxDeformedVertexDelta": 0,
+      "maxNodeWorldMatrixDelta": 0,
+      "verticesCompared": 159936,
+      "clips": [
+        {
+          "name": "Idle",
+          "durationSeconds": 8.366666793823242,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Jump",
+          "durationSeconds": 1.9333332777023315,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            1.9333332777023315
+          ]
+        },
+        {
+          "name": "Run",
+          "durationSeconds": 0.6666666865348816,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            0.6666666865348816
+          ]
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 1.0666667222976685,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            1.0666667222976685
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "public/assets/characters/animated-merchant.glb",
+      "sha256": "792ddd4e2722d251469b38a6a417d90c00a26829bba159b06a79839f24b50dc2",
+      "skinnedMeshes": 5,
+      "uniqueSkeletonsBefore": 5,
+      "uniqueSkeletonsAfter": 1,
+      "joints": 49,
+      "identicalBoneObjectReferences": true,
+      "identicalInverseBindMatrices": true,
+      "maxBoneMatrixArrayDelta": 0,
+      "maxDeformedVertexDelta": 0,
+      "maxNodeWorldMatrixDelta": 0,
+      "verticesCompared": 159936,
+      "clips": [
+        {
+          "name": "Idle",
+          "durationSeconds": 8.366666793823242,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Jump",
+          "durationSeconds": 1.9333332777023315,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            1.9333332777023315
+          ]
+        },
+        {
+          "name": "Run",
+          "durationSeconds": 0.6666666865348816,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            0.6666666865348816
+          ]
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 1.0666667222976685,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            1.0666667222976685
+          ]
+        }
+      ],
+      "passed": true
+    },
+    {
+      "asset": "public/assets/characters/animated-porter.glb",
+      "sha256": "2aa2b977d3d787c62f24df0eae9dd0e1520db886f64aa38c877477c3ed2b43a1",
+      "skinnedMeshes": 5,
+      "uniqueSkeletonsBefore": 5,
+      "uniqueSkeletonsAfter": 1,
+      "joints": 49,
+      "identicalBoneObjectReferences": true,
+      "identicalInverseBindMatrices": true,
+      "maxBoneMatrixArrayDelta": 0,
+      "maxDeformedVertexDelta": 0,
+      "maxNodeWorldMatrixDelta": 0,
+      "verticesCompared": 159936,
+      "clips": [
+        {
+          "name": "Idle",
+          "durationSeconds": 8.366666793823242,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            2
+          ]
+        },
+        {
+          "name": "Jump",
+          "durationSeconds": 1.9333332777023315,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            1.9333332777023315
+          ]
+        },
+        {
+          "name": "Run",
+          "durationSeconds": 0.6666666865348816,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            0.6666666865348816
+          ]
+        },
+        {
+          "name": "Walk",
+          "durationSeconds": 1.0666667222976685,
+          "sampleTimesSeconds": [
+            0,
+            0.37,
+            1,
+            1.0666667222976685
+          ]
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "totalVerticesCompared": 479808,
+  "populationOpportunity": {
+    "actors": 164,
+    "uniqueSkeletonsBefore": 820,
+    "uniqueSkeletonsAfter": 164,
+    "jointMatricesBefore": 40180,
+    "jointMatricesAfter": 8036
+  },
+  "performanceInterpretation": "No renderer/frame-time or GPU measurements are included. Installed Skinning.js caches skeleton.update once per Skeleton per frame. Per-draw uniform upload deduplication is not asserted.",
+  "referenceLedger": [
+    {
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/debug-profile-checklists.md",
+      "read": true
+    },
+    {
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/checklists/performance-profile.md",
+      "read": true
+    },
+    {
+      "path": "C:/Users/limou/.agents/skills/threejs-debug-profiler/references/checklists/scene-debugging.md",
+      "read": true
+    },
+    {
+      "path": "C:/Users/limou/.codex/skills/givros-environment-builder/references/threejs-viewer.md",
+      "read": true
+    },
+    {
+      "path": "C:/Users/limou/.codex/skills/givros-environment-builder/references/webgpu-pipeline.md",
+      "read": true
+    }
+  ]
+}

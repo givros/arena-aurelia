@@ -1,0 +1,274 @@
+{
+  "status": "passed",
+  "timestamp": "2026-10-10T19:12:37.289Z",
+  "scope": "CPU-only lifecycle, source-token preservation, actual 53-light texture/Z-range equivalence, integer indexing and Float32 arithmetic reference checks. Does not claim GPU image equivalence or actual GPU storage reclamation.",
+  "threeRevision": "186",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "environmentManifestSHA256": "740c4b06ec047280e5bf9669a7e01f77ca86c82a47ba068608f572e8892ac966",
+  "moduleSHA256": "47a0d97ea564d4e1068b6b33b2be7429430e97f4fbf5f9e27804718dbf9266eb",
+  "pinnedOriginalSHA256": "b1fb1034d84a3c3a6a68e416a58b3fb16817d8e9f903e67d4d1b9f72e8ae2d80",
+  "unchangedMethods": [
+    "type",
+    "customCacheKey",
+    "updateLightsTexture",
+    "updateBefore",
+    "setLights",
+    "getBuiltinLights",
+    "getBlock",
+    "getTile",
+    "getClusterLightCount",
+    "getLightData",
+    "setupLights",
+    "getBufferFitSize",
+    "setSize"
+  ],
+  "kernelChangedOnlyByDeclaredUniformSubstitutions": true,
+  "parameters": {
+    "maxLights": 64,
+    "tileSize": 32,
+    "zSlices": 24,
+    "maxLightsPerCluster": 64,
+    "actualPointLights": 53
+  },
+  "identityRecords": [
+    {
+      "width": 1440,
+      "height": 1080,
+      "grid": [
+        45,
+        34,
+        24
+      ],
+      "activeCount": 36720,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1600,
+      "height": 1080,
+      "grid": [
+        50,
+        34,
+        24
+      ],
+      "activeCount": 40800,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1440,
+      "height": 1080,
+      "grid": [
+        45,
+        34,
+        24
+      ],
+      "activeCount": 36720,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "grid": [
+        60,
+        34,
+        24
+      ],
+      "activeCount": 48960,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 3840,
+      "height": 2160,
+      "grid": [
+        120,
+        68,
+        24
+      ],
+      "activeCount": 195840,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1080,
+      "height": 1920,
+      "grid": [
+        34,
+        60,
+        24
+      ],
+      "activeCount": 48960,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    },
+    {
+      "width": 1017,
+      "height": 733,
+      "grid": [
+        32,
+        23,
+        24
+      ],
+      "activeCount": 17664,
+      "reservedCount": 195840,
+      "bufferBytes": 50135040,
+      "stableIdentities": true,
+      "cacheKeys": {
+        "compute": 2218914828094685,
+        "light": 5557822855846496,
+        "fragment": 2827329987102345
+      }
+    }
+  ],
+  "growth": {
+    "size": [
+      4096,
+      2160
+    ],
+    "bufferBytes": 100270080,
+    "computeDisposeEvents": 1,
+    "storageDisposeEvents": 1,
+    "shrinkingReusesGrownAllocation": true,
+    "gpuStorageReclamationVerified": false,
+    "geometricCapacityDoubled": true,
+    "adjacentLargerSizeReusesAllocation": [
+      4128,
+      2160
+    ],
+    "storageAllocationCaveat": "Installed r186 does not reclaim standalone storage allocations from BufferAttribute.dispose events; above-capacity growth retains prior GPU allocation until renderer teardown."
+  },
+  "arithmetic": {
+    "arithmeticComparisons": 885,
+    "clusterIndicesCompared": 634560,
+    "maxFloat32Delta": 0,
+    "boundsCompared": 3584,
+    "lightMembershipComparisons": 189952,
+    "textureValuesCompared": 2048,
+    "zRangeValuesCompared": 384
+  },
+  "cameraRecords": [
+    {
+      "name": "reference",
+      "lights": 53,
+      "textureAndZSliceValuesExact": true
+    },
+    {
+      "name": "street_district_gallery",
+      "lights": 53,
+      "textureAndZSliceValuesExact": true
+    },
+    {
+      "name": "street_district_civic_court",
+      "lights": 53,
+      "textureAndZSliceValuesExact": true
+    },
+    {
+      "name": "district_entire_world",
+      "lights": 53,
+      "textureAndZSliceValuesExact": true
+    }
+  ],
+  "limitations": [
+    "CPU Float32 reference arithmetic is not proof of GPU compiler division/constant-folding behavior. Actual storage-list and pixel comparisons remain required.",
+    "Dispose events are observed; standalone storage GPU-buffer reclamation must be verified separately.",
+    "Only active clusters dispatch or index the reserved storage. Capacity growth can recreate shaders; resize stability is bounded to allocated capacity."
+  ],
+  "pinnedAddonSHA256": "b1fb1034d84a3c3a6a68e416a58b3fb16817d8e9f903e67d4d1b9f72e8ae2d80",
+  "sizeLimits": {
+    "defaultBytes": 134217728,
+    "preDeviceSetSizeSupported": true,
+    "unsupportedInitialSizePreservesEmptyState": true,
+    "unsupportedExistingSizePreservesGridState": true,
+    "deviceMinimumOfStorageBindingAndBufferLimitsEnforced": true,
+    "rejectedSize": [
+      16384,
+      16384
+    ]
+  },
+  "numericBufferCount": {
+    "storageRecords": [
+      {
+        "label": "initial reserve",
+        "bufferCount": 3133440,
+        "bufferCountType": "number",
+        "arrayType": "Int32Array",
+        "arrayLength": 12533760,
+        "byteLength": 50135040,
+        "allValuesZero": true
+      },
+      {
+        "label": "geometric growth",
+        "bufferCount": 6266880,
+        "bufferCountType": "number",
+        "arrayType": "Int32Array",
+        "arrayLength": 25067520,
+        "byteLength": 100270080,
+        "allValuesZero": true
+      }
+    ],
+    "sameInt32StorageObjectCompared": true,
+    "installedWGSLBuilderSHA256": "f742b3fe5d2a9396c0aadff8c9ba0489a2ce8dc833b199abc95a4b683dd74ed3",
+    "declarationRecords": [
+      {
+        "stage": "compute",
+        "exactDeclarationMatch": true,
+        "declaration": "\nstruct lightIndexesStruct {\n\tvalue : array< vec4<i32> >\n};\n@binding( 0 ) @group( 0 )\nvar<storage, read_write> lightIndexes : lightIndexesStruct;",
+        "declarationSHA256": "aa17c95930686dab08b1cf0345d04e46101a4125a75d681ee1f59e9323af3fbd",
+        "historicalTypedArrayCoercions": 1,
+        "numericCountTypedArrayCoercions": 0,
+        "oneCallHistoricalMs": 163.8518999999999,
+        "oneCallNumericMs": 0.07480000000009568
+      },
+      {
+        "stage": "fragment",
+        "exactDeclarationMatch": true,
+        "declaration": "\nstruct lightIndexesStruct {\n\tvalue : array< vec4<i32> >\n};\n@binding( 0 ) @group( 0 )\nvar<storage, read> lightIndexes : lightIndexesStruct;",
+        "declarationSHA256": "0bbb338bdd33a49164398099fe76385a1ddfc118a9e5bb3cb3c5159ed988e569",
+        "historicalTypedArrayCoercions": 1,
+        "numericCountTypedArrayCoercions": 0,
+        "oneCallHistoricalMs": 164.72770000000014,
+        "oneCallNumericMs": 0.07190000000014152
+      }
+    ],
+    "totalHistoricalCoercions": 2,
+    "timingScope": "Two single CPU declaration calls per arm, one compute and one fragment. Diagnostic only; not a statistically sampled benchmark or end-to-end startup measurement."
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "revision": "watergate-bank-gates-1",
+  "coordinateSystem": "blender_xyz_z_up",
+  "beforeSourceSHA256": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+  "protectedAuthorityHashes": {
+    "master_world_layout.json": "4e828fd14f5f1599c516018f3ebfc9b48aa3ab3a7f55cc9d2f584f16b29b454e",
+    "master_world_boundary.json": "5e029243b17fc3a657dd7b545e0da8fe3840aa4834e3a62ac83e9673293a4ebd",
+    "street_life_layout.json": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+    "district_life_layout.json": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+    "civic_court_layout.json": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144",
+    "arena_interior_life_layout.json": "0d855926706173df6b39468f2d4fbeaabca19c30a756057740ec3ab097a8207c",
+    "master_spine_life_layout.json": "ceab70ff3bd669b13750aed2a079e61164a957474e96d709efe58f0742bcb716",
+    "district_review_views.json": "7523777a6f3d99dd0cbe5d5084dd149008413a3475bfc83b4263b2d1f81f7c83",
+    "characters/runtime/crowd_manifest.json": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0"
+  },
+  "purpose": "Close supported quay-cap bypasses at the two open river arches.",
+  "gates": [
+    {
+      "id": "QuayGate_North_West",
+      "center": [
+        -199.0,
+        421.95,
+        0.2
+      ],
+      "xExtent": [
+        -201.2,
+        -197.4
+      ],
+      "height": 2.75,
+      "depth": 0.18,
+      "lowerSolidLeafHeight": 1.65,
+      "supports": [
+        {
+          "position": [
+            -200.0,
+            421.95001220703125,
+            0.20000004768371582
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "sourceObject": "River_quay_walls/stone"
+        },
+        {
+          "position": [
+            -198.0,
+            421.95001220703125,
+            0.20000004768371582
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "sourceObject": "River_quay_walls/stone"
+        }
+      ],
+      "physicalState": "closed",
+      "testPath": {
+        "id": "QuayGate_North_West",
+        "start": [
+          -198.5,
+          417.0,
+          1.92
+        ],
+        "towards": [
+          -198.5,
+          432.0,
+          1.92
+        ],
+        "expectedBarrierContains": "WATERGATE_BANK/QuayGate_North_West"
+      }
+    },
+    {
+      "id": "QuayGate_North_East",
+      "center": [
+        -159.0,
+        421.95,
+        0.2
+      ],
+      "xExtent": [
+        -160.6,
+        -156.8
+      ],
+      "height": 2.75,
+      "depth": 0.18,
+      "lowerSolidLeafHeight": 1.65,
+      "supports": [
+        {
+          "position": [
+            -160.0,
+            421.95001220703125,
+            0.20000004768371582
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "sourceObject": "River_quay_walls/stone"
+        },
+        {
+          "position": [
+            -158.0,
+            421.95001220703125,
+            0.20000004768371582
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "sourceObject": "River_quay_walls/stone"
+        }
+      ],
+      "physicalState": "closed",
+      "testPath": {
+        "id": "QuayGate_North_East",
+        "start": [
+          -159.0,
+          417.0,
+          1.92
+        ],
+        "towards": [
+          -159.0,
+          432.0,
+          1.92
+        ],
+        "expectedBarrierContains": "WATERGATE_BANK/QuayGate_North_East"
+      }
+    },
+    {
+      "id": "QuayGate_South_West",
+      "center": [
+        -199.0,
+        -225.55,
+        0.2
+      ],
+      "xExtent": [
+        -201.2,
+        -197.4
+      ],
+      "height": 2.75,
+      "depth": 0.18,
+      "lowerSolidLeafHeight": 1.65,
+      "supports": [
+        {
+          "position": [
+            -200.0,
+            -225.5500030517578,
+            0.20000016689300537
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "sourceObject": "River_quay_walls/stone"
+        },
+        {
+          "position": [
+            -198.0,
+            -225.5500030517578,
+            0.20000004768371582
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "sourceObject": "River_quay_walls/stone"
+        }
+      ],
+      "physicalState": "closed",
+      "testPath": {
+        "id": "QuayGate_South_West",
+        "start": [
+          -198.5,
+          -220.0,
+          1.92
+        ],
+        "towards": [
+          -198.5,
+          -233.0,
+          1.92
+        ],
+        "expectedBarrierContains": "WATERGATE_BANK/QuayGate_South_West"
+      }
+    },
+    {
+      "id": "QuayGate_South_East",
+      "center": [
+        -159.0,
+        -225.55,
+        0.2
+      ],
+      "xExtent": [
+        -160.6,
+        -156.8
+      ],
+      "height": 2.75,
+      "depth": 0.18,
+      "lowerSolidLeafHeight": 1.65,
+      "supports": [
+        {
+          "position": [
+            -160.0,
+            -225.5500030517578,
+            0.20000016689300537
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "sourceObject": "River_quay_walls/stone"
+        },
+        {
+          "position": [
+            -158.0,
+            -225.5500030517578,
+            0.20000004768371582
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            0.9999999403953552
+          ],
+          "sourceObject": "River_quay_walls/stone"
+        }
+      ],
+      "physicalState": "closed",
+      "testPath": {
+        "id": "QuayGate_South_East",
+        "start": [
+          -159.0,
+          -220.0,
+          1.92
+        ],
+        "towards": [
+          -159.0,
+          -233.0,
+          1.92
+        ],
+        "expectedBarrierContains": "WATERGATE_BANK/QuayGate_South_East"
+      }
+    }
+  ],
+  "structuralLogic": "Frame feet rest on the existing quay cap. Short fixed iron wings tie the closed leaf to the masonry side and cover the cap edge. The lower iron-clad leaf blocks walking and jumping; the upper grille remains visibly open.",
+  "scope": "Four local pedestrian barriers only. Existing water arches and surfaces, city gates, terrain, people, camera poses and frozen layouts remain unchanged.",
+  "nominalWaterCorridorX": [
+    -197,
+    -160
+  ],
+  "bankGateFreeWaterBandX": [
+    -197,
+    -160.6
+  ],
+  "waterwayScope": "The existing water surfaces, arched masonry and central pier remain unchanged. The east bank barrier projects 0.6m into the nominal channel; the main river arches stay broadly open. The water band also contains the pre-existing central pier, so it is not one uninterrupted boating opening."
+}

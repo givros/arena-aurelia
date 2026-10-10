@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "working_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "working_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "package_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\animation_package_report.json",
+  "package_report_sha256": "39dada2d0d398736c829ba635d4a82e41506b4ba6aada8f11d08f0f2881186f9",
+  "standalone_animation_package": true,
+  "reads_source_fbx_at_runtime": false,
+  "selected_clips": [
+    "idle",
+    "walk",
+    "run",
+    "jump"
+  ],
+  "selected_actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "animation_library": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "saved_in_neutral_t_pose": true,
+  "active_action": null,
+  "neutral_t_pose_delta": 0.0,
+  "bones": 49,
+  "fps": 30,
+  "basis_matrix_max_delta": 4.172325134277344e-07,
+  "evaluated_pose_matrix_max_delta": 1.963973045349121e-05,
+  "rest_matrix_max_delta": 1.4472752809524536e-05,
+  "actions": [
+    {
+      "action": "Idle",
+      "frame_start": 1,
+      "frame_end": 251,
+      "source_fbx_sha256": "502883ff97e83724e25f14372177b5407d8120cbb2a0acc5a7bda0b4f5a21376",
+      "rest_matrix_max_delta": 1.4472752809524536e-05,
+      "basis_matrix_max_delta": 2.980232238769531e-07,
+      "evaluated_pose_matrix_max_delta": 1.7210841178894043e-05,
+      "constraint_influence_peak": 0.0
+    },
+    {
+      "action": "Walk",
+      "frame_start": 1,
+      "frame_end": 32,
+      "source_fbx_sha256": "202c6c7e2e640193f61754516f13e258123dfd57d171fa8b98fd495913e42ef2",
+      "rest_matrix_max_delta": 1.4472752809524536e-05,
+      "basis_matrix_max_delta": 2.682209014892578e-07,
+      "evaluated_pose_matrix_max_delta": 1.800060272216797e-05,
+      "constraint_influence_peak": 0.0
+    },
+    {
+      "action": "Run",
+      "frame_start": 1,
+      "frame_end": 20,
+      "source_fbx_sha256": "8238a6dd1892b8cc5328f623fcbf9773e75aeedee29db09b2e96a09723207088",
+      "rest_matrix_max_delta": 1.4472752809524536e-05,
+      "basis_matrix_max_delta": 4.172325134277344e-07,
+      "evaluated_pose_matrix_max_delta": 1.963973045349121e-05,
+      "constraint_influence_peak": 0.0
+    },
+    {
+      "action": "Jump",
+      "frame_start": 1,
+      "frame_end": 58,
+      "source_fbx_sha256": "967c37db7cfd69d382b64f382dc2f0ff012bf930feea36f6d3c0e756c95cc737",
+      "rest_matrix_max_delta": 1.4472752809524536e-05,
+      "basis_matrix_max_delta": 3.129243850708008e-07,
+      "evaluated_pose_matrix_max_delta": 1.9563362002372742e-05,
+      "constraint_influence_peak": 0.0
+    }
+  ]
+}

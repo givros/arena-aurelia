@@ -1,0 +1,261 @@
+{
+  "views": [
+    {
+      "name": "wardrobe_front",
+      "center": [
+        0,
+        0,
+        0.57
+      ],
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "ortho_scale": 2.2,
+      "visible": [
+        "CharacterBase",
+        "BronzeArmor",
+        "GladiatorSword",
+        "GuardShield",
+        "GuardSpear",
+        "HairCap",
+        "LeatherBelt",
+        "RomanHelmet",
+        "RomanSandals",
+        "RomanTunic"
+      ]
+    },
+    {
+      "name": "wardrobe_back",
+      "center": [
+        0,
+        0,
+        0.57
+      ],
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "ortho_scale": 2.2,
+      "visible": [
+        "CharacterBase",
+        "BronzeArmor",
+        "GladiatorSword",
+        "GuardShield",
+        "GuardSpear",
+        "HairCap",
+        "LeatherBelt",
+        "RomanHelmet",
+        "RomanSandals",
+        "RomanTunic"
+      ]
+    },
+    {
+      "name": "wardrobe_side",
+      "center": [
+        0,
+        0,
+        0.57
+      ],
+      "direction": [
+        1,
+        0,
+        0
+      ],
+      "ortho_scale": 2.2,
+      "visible": [
+        "CharacterBase",
+        "BronzeArmor",
+        "GladiatorSword",
+        "GuardShield",
+        "GuardSpear",
+        "HairCap",
+        "LeatherBelt",
+        "RomanHelmet",
+        "RomanSandals",
+        "RomanTunic"
+      ]
+    },
+    {
+      "name": "wardrobe_three_quarter",
+      "center": [
+        0,
+        0,
+        0.57
+      ],
+      "direction": [
+        1,
+        -1,
+        0.35
+      ],
+      "ortho_scale": 2.2,
+      "visible": [
+        "CharacterBase",
+        "BronzeArmor",
+        "GladiatorSword",
+        "GuardShield",
+        "GuardSpear",
+        "HairCap",
+        "LeatherBelt",
+        "RomanHelmet",
+        "RomanSandals",
+        "RomanTunic"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_bronze_armor",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "BronzeArmor"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_gladiator_sword",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "GladiatorSword"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_guard_shield",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "GuardShield"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_guard_spear",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "GuardSpear"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_hair_cap",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "HairCap"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_leather_belt",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "LeatherBelt"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_roman_helmet",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "RomanHelmet"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_roman_sandals",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "RomanSandals"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_roman_tunic",
+      "center": [
+        0,
+        0,
+        0.6
+      ],
+      "direction": [
+        1,
+        -1,
+        0.2
+      ],
+      "ortho_scale": 2.0,
+      "visible": [
+        "RomanTunic"
+      ]
+    }
+  ]
+}

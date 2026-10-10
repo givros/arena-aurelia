@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "checks": {
+    "garment-validation.json": true,
+    "CharacterBase_animation_validation.json": true,
+    "CharacterBase_animation_workflow.json": true,
+    "CharacterBase_animation_qc.json": true,
+    "reports/CharacterBase_export_workflow.json": true,
+    "runtime-validation.json": true,
+    "garment-qc.json": true
+  },
+  "canonical_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "canonical_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "base_source": "blender-lowpoly-character exact bundled CharacterBase; created once",
+  "base_contract": {
+    "vertices": 1596,
+    "triangles": 3134,
+    "bones": 49,
+    "constraints": 7
+  },
+  "roles": [
+    "citizen",
+    "merchant",
+    "worker",
+    "noble",
+    "seated-spectator",
+    "guard",
+    "gladiator"
+  ],
+  "animations": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "visual_qc": [
+    "roman-roles-qc.png",
+    "seated-spectator-qc.png",
+    "guard-qc.png"
+  ],
+  "assumptions": [
+    "The aerial reference cannot resolve seams or facial details. Plain earth-color tunics and explicitly requested Roman role accessories are used.",
+    "Crowd clothing color variation is applied to runtime derived assets while the base signatures are preserved."
+  ],
+  "source_unchanged_by_runtime_exports": true
+}

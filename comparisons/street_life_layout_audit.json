@@ -1,0 +1,1165 @@
+{
+  "layout_sha256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+  "source_geometry_validation": {
+    "stage": "geometry",
+    "protectedArenaComponents": 8346,
+    "protectedArenaChanges": [],
+    "sourceSHA256": "434b07926a339b82a0d811738c448a9e135bf66d21a6d4d55e090cf6330165e9",
+    "result": {
+      "counts": {
+        "stalls": 84,
+        "shop_houses": 20,
+        "vendors": 104,
+        "static_patrons": 940,
+        "roaming_routes": 26
+      },
+      "created_mesh_objects": 998,
+      "retired_objects": 424,
+      "actual_projection_violations": [],
+      "source_saved": false
+    }
+  },
+  "scope": "Exact authored 2D full-projection relationships; route centerlines sampled at0.20m. Source geometry projection check is separately recorded by root integration. Runtime swept-body traversal is separate.",
+  "counts": {
+    "stalls": 84,
+    "shop_houses": 20,
+    "vendors": 104,
+    "static_patrons": 1051,
+    "roaming_routes": 26,
+    "entry_gathering_patrons": 111
+  },
+  "unintended_projection_overlaps": [],
+  "neighbor_relations": [
+    {
+      "a": "EventStall_000",
+      "b": "EventStall_001",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_000",
+      "b": "EventStall_013",
+      "full_projection_gap": 4.4485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_001",
+      "b": "EventStall_002",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_001",
+      "b": "EventStall_014",
+      "full_projection_gap": 4.4485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_002",
+      "b": "EventStall_015",
+      "full_projection_gap": 4.4657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_003",
+      "b": "EventStall_004",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_003",
+      "b": "EventStall_016",
+      "full_projection_gap": 4.4657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_004",
+      "b": "EventStall_005",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_004",
+      "b": "EventStall_017",
+      "full_projection_gap": 4.4657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_006",
+      "b": "EventStall_007",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_006",
+      "b": "EventStall_019",
+      "full_projection_gap": 4.4485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_007",
+      "b": "EventStall_008",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_007",
+      "b": "EventStall_020",
+      "full_projection_gap": 4.4657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_008",
+      "b": "EventStall_021",
+      "full_projection_gap": 4.4657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_009",
+      "b": "EventStall_010",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_009",
+      "b": "EventStall_022",
+      "full_projection_gap": 4.4657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_010",
+      "b": "EventStall_011",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_010",
+      "b": "EventStall_023",
+      "full_projection_gap": 4.4485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_012",
+      "b": "EventStall_013",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_012",
+      "b": "EventStall_024",
+      "full_projection_gap": 4.4657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_013",
+      "b": "EventStall_014",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_013",
+      "b": "EventStall_025",
+      "full_projection_gap": 4.4485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_014",
+      "b": "EventStall_015",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_014",
+      "b": "EventStall_026",
+      "full_projection_gap": 4.4485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_016",
+      "b": "EventStall_017",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_017",
+      "b": "ShopHouse_05",
+      "full_projection_gap": 0.8,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_017",
+      "b": "EventStall_027",
+      "full_projection_gap": 4.5,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_018",
+      "b": "EventStall_019",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_018",
+      "b": "EventStall_028",
+      "full_projection_gap": 4.4999,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_019",
+      "b": "EventStall_020",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_019",
+      "b": "EventStall_029",
+      "full_projection_gap": 4.4996,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_020",
+      "b": "EventStall_021",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_020",
+      "b": "EventStall_030",
+      "full_projection_gap": 4.4996,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_022",
+      "b": "EventStall_023",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_023",
+      "b": "ShopHouse_15",
+      "full_projection_gap": 0.787,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_023",
+      "b": "EventStall_031",
+      "full_projection_gap": 4.4657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_024",
+      "b": "EventStall_025",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_025",
+      "b": "ShopHouse_02",
+      "full_projection_gap": 4.7505,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_025",
+      "b": "EventStall_026",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_026",
+      "b": "ShopHouse_02",
+      "full_projection_gap": 4.7328,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_027",
+      "b": "ShopHouse_04",
+      "full_projection_gap": 1.75,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_027",
+      "b": "ShopHouse_05",
+      "full_projection_gap": 0.8,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_028",
+      "b": "EventStall_029",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_029",
+      "b": "ShopHouse_12",
+      "full_projection_gap": 4.7505,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_029",
+      "b": "EventStall_030",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_030",
+      "b": "ShopHouse_12",
+      "full_projection_gap": 4.7361,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_031",
+      "b": "ShopHouse_14",
+      "full_projection_gap": 1.7376,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_031",
+      "b": "ShopHouse_15",
+      "full_projection_gap": 0.787,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_032",
+      "b": "EventStall_033",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_033",
+      "b": "EventStall_034",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_033",
+      "b": "EventStall_035",
+      "full_projection_gap": 4.9485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_034",
+      "b": "EventStall_036",
+      "full_projection_gap": 4.9485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_035",
+      "b": "EventStall_036",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_036",
+      "b": "EventStall_037",
+      "full_projection_gap": 4.9828,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_038",
+      "b": "EventStall_040",
+      "full_projection_gap": 4.9485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_039",
+      "b": "EventStall_040",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_039",
+      "b": "EventStall_042",
+      "full_projection_gap": 4.9657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_040",
+      "b": "EventStall_043",
+      "full_projection_gap": 4.9485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_041",
+      "b": "EventStall_042",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_042",
+      "b": "EventStall_043",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_044",
+      "b": "EventStall_045",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_045",
+      "b": "EventStall_046",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_045",
+      "b": "EventStall_047",
+      "full_projection_gap": 4.9657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_046",
+      "b": "EventStall_048",
+      "full_projection_gap": 4.9657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_047",
+      "b": "EventStall_048",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_048",
+      "b": "EventStall_049",
+      "full_projection_gap": 4.9827,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_050",
+      "b": "EventStall_052",
+      "full_projection_gap": 4.9657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_051",
+      "b": "EventStall_052",
+      "full_projection_gap": 2.787,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_051",
+      "b": "EventStall_054",
+      "full_projection_gap": 4.9485,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_052",
+      "b": "EventStall_055",
+      "full_projection_gap": 4.9657,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_053",
+      "b": "EventStall_054",
+      "full_projection_gap": 2.7869,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_054",
+      "b": "EventStall_055",
+      "full_projection_gap": 2.7483,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_056",
+      "b": "EventStall_058",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_056",
+      "b": "EventStall_076",
+      "full_projection_gap": 4.4999,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_057",
+      "b": "EventStall_059",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_057",
+      "b": "EventStall_077",
+      "full_projection_gap": 4.5,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_058",
+      "b": "EventStall_060",
+      "full_projection_gap": 2.7612,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_058",
+      "b": "EventStall_078",
+      "full_projection_gap": 4.4999,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_059",
+      "b": "EventStall_061",
+      "full_projection_gap": 2.7612,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_059",
+      "b": "EventStall_079",
+      "full_projection_gap": 4.4996,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_060",
+      "b": "EventStall_062",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_060",
+      "b": "EventStall_080",
+      "full_projection_gap": 4.4996,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_061",
+      "b": "EventStall_063",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_061",
+      "b": "EventStall_081",
+      "full_projection_gap": 4.4999,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_062",
+      "b": "EventStall_064",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_062",
+      "b": "EventStall_082",
+      "full_projection_gap": 4.5,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_063",
+      "b": "EventStall_065",
+      "full_projection_gap": 2.7612,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_063",
+      "b": "EventStall_083",
+      "full_projection_gap": 4.4999,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_066",
+      "b": "EventStall_068",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_067",
+      "b": "EventStall_069",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_068",
+      "b": "EventStall_070",
+      "full_projection_gap": 2.7612,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_069",
+      "b": "EventStall_071",
+      "full_projection_gap": 2.7612,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_070",
+      "b": "EventStall_072",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_071",
+      "b": "EventStall_073",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_072",
+      "b": "EventStall_074",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_073",
+      "b": "EventStall_075",
+      "full_projection_gap": 2.7612,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_076",
+      "b": "ShopHouse_06",
+      "full_projection_gap": 1.748,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_076",
+      "b": "EventStall_078",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_077",
+      "b": "ShopHouse_16",
+      "full_projection_gap": 1.75,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_077",
+      "b": "EventStall_079",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_078",
+      "b": "ShopHouse_06",
+      "full_projection_gap": 1.7456,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_078",
+      "b": "EventStall_080",
+      "full_projection_gap": 2.7612,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_079",
+      "b": "ShopHouse_16",
+      "full_projection_gap": 1.7157,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_079",
+      "b": "EventStall_081",
+      "full_projection_gap": 2.7612,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_080",
+      "b": "ShopHouse_07",
+      "full_projection_gap": 2.97,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_080",
+      "b": "EventStall_082",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_081",
+      "b": "ShopHouse_17",
+      "full_projection_gap": 2.9708,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_081",
+      "b": "EventStall_083",
+      "full_projection_gap": 2.7741,
+      "relationship": "public passage"
+    },
+    {
+      "a": "EventStall_082",
+      "b": "ShopHouse_07",
+      "full_projection_gap": 1.75,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "EventStall_083",
+      "b": "ShopHouse_17",
+      "full_projection_gap": 1.7328,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "ShopHouse_00",
+      "b": "ShopHouse_01",
+      "full_projection_gap": 4.0,
+      "relationship": "public passage"
+    },
+    {
+      "a": "ShopHouse_02",
+      "b": "ShopHouse_03",
+      "full_projection_gap": 1.0,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "ShopHouse_03",
+      "b": "Workshop_0",
+      "full_projection_gap": 4.1,
+      "relationship": "public passage"
+    },
+    {
+      "a": "ShopHouse_04",
+      "b": "ShopHouse_05",
+      "full_projection_gap": 2.0,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "ShopHouse_10",
+      "b": "ShopHouse_11",
+      "full_projection_gap": 4.0,
+      "relationship": "public passage"
+    },
+    {
+      "a": "ShopHouse_12",
+      "b": "ShopHouse_13",
+      "full_projection_gap": 1.0,
+      "relationship": "reserved private/service separation"
+    },
+    {
+      "a": "ShopHouse_13",
+      "b": "Workshop_1",
+      "full_projection_gap": 4.1,
+      "relationship": "public passage"
+    },
+    {
+      "a": "ShopHouse_14",
+      "b": "ShopHouse_15",
+      "full_projection_gap": 2.0,
+      "relationship": "reserved private/service separation"
+    }
+  ],
+  "routes": [
+    {
+      "id": "MarketLoop_00",
+      "declared_width": 2.674,
+      "minimum_obstacle_distance": 1.33668,
+      "limiting_point": [
+        -34.176453333333335,
+        -94.28306041666667
+      ],
+      "limiting_object": "EventStall_001",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_02",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33742,
+      "limiting_point": [
+        -45.45,
+        -94.13333333333334
+      ],
+      "limiting_object": "EventStall_001",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_03",
+      "declared_width": 2.676,
+      "minimum_obstacle_distance": 1.33729,
+      "limiting_point": [
+        -80.73755,
+        -94.12297361702127
+      ],
+      "limiting_object": "EventStall_004",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_05",
+      "declared_width": 2.602,
+      "minimum_obstacle_distance": 1.29944,
+      "limiting_point": [
+        -92.02354666666666,
+        -87.71693958333333
+      ],
+      "limiting_object": "EventStall_004",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_06",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33712,
+      "limiting_point": [
+        34.16315,
+        -87.72302808510639
+      ],
+      "limiting_object": "EventStall_007",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_08",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33712,
+      "limiting_point": [
+        45.43685,
+        -87.72302808510639
+      ],
+      "limiting_object": "EventStall_007",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_09",
+      "declared_width": 2.602,
+      "minimum_obstacle_distance": 1.29944,
+      "limiting_point": [
+        80.77645333333334,
+        -94.28306041666667
+      ],
+      "limiting_object": "EventStall_010",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_11",
+      "declared_width": 2.676,
+      "minimum_obstacle_distance": 1.33729,
+      "limiting_point": [
+        92.06245,
+        -87.87702638297873
+      ],
+      "limiting_object": "EventStall_010",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_12",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33742,
+      "limiting_point": [
+        -22.75,
+        -105.13333333333334
+      ],
+      "limiting_object": "EventStall_013",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_14",
+      "declared_width": 2.602,
+      "minimum_obstacle_distance": 1.29944,
+      "limiting_point": [
+        -45.57645333333333,
+        -98.71693958333333
+      ],
+      "limiting_object": "EventStall_015",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_16",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33712,
+      "limiting_point": [
+        -80.76315,
+        -105.27697191489361
+      ],
+      "limiting_object": "EventStall_017",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_17",
+      "declared_width": 2.676,
+      "minimum_obstacle_distance": 1.33729,
+      "limiting_point": [
+        22.73755,
+        -98.87702638297873
+      ],
+      "limiting_object": "EventStall_019",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_19",
+      "declared_width": 2.602,
+      "minimum_obstacle_distance": 1.29944,
+      "limiting_point": [
+        34.02354666666667,
+        -105.28306041666667
+      ],
+      "limiting_object": "EventStall_019",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_21",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33742,
+      "limiting_point": [
+        80.75,
+        -98.86666666666666
+      ],
+      "limiting_object": "EventStall_023",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_22",
+      "declared_width": 2.602,
+      "minimum_obstacle_distance": 1.29944,
+      "limiting_point": [
+        -22.776453333333333,
+        -109.71693958333333
+      ],
+      "limiting_object": "EventStall_025",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_24",
+      "declared_width": 2.676,
+      "minimum_obstacle_distance": 1.33729,
+      "limiting_point": [
+        -34.06245,
+        -116.12297361702127
+      ],
+      "limiting_object": "EventStall_025",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_25",
+      "declared_width": 2.676,
+      "minimum_obstacle_distance": 1.33729,
+      "limiting_point": [
+        22.73755,
+        -109.87702638297873
+      ],
+      "limiting_object": "EventStall_029",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_27",
+      "declared_width": 2.602,
+      "minimum_obstacle_distance": 1.29944,
+      "limiting_point": [
+        34.02354666666667,
+        -116.28306041666667
+      ],
+      "limiting_object": "EventStall_029",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_28",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33742,
+      "limiting_point": [
+        -81.75,
+        -81.13333333333334
+      ],
+      "limiting_object": "EventStall_033",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_30",
+      "declared_width": 2.674,
+      "minimum_obstacle_distance": 1.33668,
+      "limiting_point": [
+        -93.02354666666666,
+        -81.28306041666667
+      ],
+      "limiting_object": "EventStall_033",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_31",
+      "declared_width": 2.674,
+      "minimum_obstacle_distance": 1.33668,
+      "limiting_point": [
+        -93.17645333333334,
+        -69.78306041666667
+      ],
+      "limiting_object": "EventStall_036",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_33",
+      "declared_width": 2.9,
+      "minimum_obstacle_distance": 1.45,
+      "limiting_point": [
+        -102.96379310344827,
+        -59.7
+      ],
+      "limiting_object": "EventStall_037",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_34",
+      "declared_width": 2.9,
+      "minimum_obstacle_distance": 1.45,
+      "limiting_point": [
+        -104.53755,
+        51.87702638297873
+      ],
+      "limiting_object": "EventStall_038",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_35",
+      "declared_width": 2.602,
+      "minimum_obstacle_distance": 1.29944,
+      "limiting_point": [
+        -93.17645333333334,
+        69.78306041666667
+      ],
+      "limiting_object": "EventStall_040",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_37",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33712,
+      "limiting_point": [
+        -81.76315,
+        74.72302808510639
+      ],
+      "limiting_object": "EventStall_042",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "MarketLoop_39",
+      "declared_width": 2.677,
+      "minimum_obstacle_distance": 1.33712,
+      "limiting_point": [
+        -93.03685,
+        74.72302808510639
+      ],
+      "limiting_object": "EventStall_042",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "FacadeAmbulatory",
+      "declared_width": 3.0,
+      "minimum_obstacle_distance": 1.57501,
+      "limiting_point": [
+        -22.5,
+        -87.89999999999999
+      ],
+      "limiting_object": "EventStall_000",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "CeremonialApproach",
+      "declared_width": 6,
+      "minimum_obstacle_distance": 6.0,
+      "limiting_point": [
+        0.0,
+        -153.4
+      ],
+      "limiting_object": "ShopHouse_00",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "EastEntrance",
+      "declared_width": 6,
+      "minimum_obstacle_distance": 17.07414,
+      "limiting_point": [
+        110.8,
+        0.0
+      ],
+      "limiting_object": "EventStall_065",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "WestEntrance",
+      "declared_width": 6,
+      "minimum_obstacle_distance": 17.07414,
+      "limiting_point": [
+        -110.8,
+        0.0
+      ],
+      "limiting_object": "EventStall_064",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "NorthEntrance",
+      "declared_width": 6,
+      "minimum_obstacle_distance": 71.70881,
+      "limiting_point": [
+        0.0,
+        83.0
+      ],
+      "limiting_object": "EventStall_041",
+      "market_projection_clearance_pass": true
+    },
+    {
+      "id": "CityToMarketToFacade",
+      "declared_width": 2.7,
+      "minimum_obstacle_distance": 1.37491,
+      "limiting_point": [
+        34.1,
+        -105.11333333333333
+      ],
+      "limiting_object": "EventStall_020",
+      "market_projection_clearance_pass": true
+    }
+  ],
+  "minimum_independent_route_segment_gap": [
+    1.5312534704666265,
+    "MarketLoop_14",
+    "MarketLoop_24"
+  ],
+  "minimum_human_center_spacing": [
+    0.901262195201821,
+    "StreetPatron_0785",
+    "StreetPatron_0874"
+  ],
+  "new_parcels_inside_reserved_arcade": [],
+  "ground_levels": {
+    "plaza": 0,
+    "existing_market_court_tops": 0.07,
+    "shop_floor_top": 0.18,
+    "preserved_workshop_floor_top": 0.52
+  },
+  "protected_arena_components": 8346,
+  "protected_arena_changes": [],
+  "source_entry_population_validation": {
+    "passed": true,
+    "added": 103,
+    "alreadyPresent": 0,
+    "groups": 19,
+    "rejected": [
+      {
+        "id": "street_EntryGathering_00_01",
+        "reason": "uneven_sandal_support"
+      },
+      {
+        "id": "street_EntryGathering_03_02",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_05_03",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_07_03",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_07_04",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_12_02",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_16_01",
+        "reason": "animated_route_clearance"
+      },
+      {
+        "id": "street_EntryGathering_18_00",
+        "reason": "animated_route_clearance"
+      }
+    ],
+    "centralAxisClearWidth": 6,
+    "minimumActorCenterSeparation": 1.0,
+    "sourceAndRuntimePositionsIdentical": true,
+    "meshGroundAndTwoFootChecks": true,
+    "sourceInstancesVisible": true,
+    "layoutSHA256": "12e0f77c4fa734265dece8cc25f58da54b344c6bd1b9da8e1d9bef818f9022dd",
+    "crowdManifestSHA256": "8aa81a3dd81a84316283087b1028ef23df64f47ff32444ee9ceb473b759e9046",
+    "sourceSaveResponsibility": "Caller",
+    "totalPopulation": 13265,
+    "characterTriangleInstances": 66425490
+  }
+}

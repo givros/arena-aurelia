@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "preservedComponents": 35755,
+  "changedExistingComponents": [],
+  "newComponents": 68,
+  "sourceSHA256": "dece421077aae5f76b8cc5cabdd490ebe5951083a15134a2c14451f27e938fc0",
+  "result": {
+    "passed": true,
+    "layoutSHA256": "80fd14854372845e0c8fedcacb31a9c85a47e8495ff2c8fe3ca9022701e3a0cd",
+    "createdMeshObjects": 68,
+    "parts": 40,
+    "sharedColumnMeshUsers": 23,
+    "actualProjectionViolations": [],
+    "existingGeometryModified": false,
+    "sourceSaved": false,
+    "seatedAnchors": 4,
+    "lights": 2
+  }
+}

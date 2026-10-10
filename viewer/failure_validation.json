@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-10-10T18:09:45.873Z",
+  "results": [
+    {
+      "name": "Missing WebGPU stops loading with recovery action",
+      "status": "passed",
+      "scope": "Safe mocked capability/resource failure",
+      "message": "This world needs WebGPU. Open the localhost link in a current Chrome or Edge browser with hardware acceleration enabled."
+    },
+    {
+      "name": "Unavailable adapter stops loading",
+      "status": "passed",
+      "scope": "Safe mocked capability/resource failure",
+      "message": "No WebGPU graphics adapter is available. Enable hardware acceleration and reload."
+    },
+    {
+      "name": "Missing source resource stops loading",
+      "status": "passed",
+      "scope": "Safe mocked capability/resource failure",
+      "message": "The district layout could not be loaded (404)."
+    }
+  ]
+}

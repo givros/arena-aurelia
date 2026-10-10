@@ -1,0 +1,56 @@
+{
+  "schema": "roman-arena.bundle-cpu-regression/v1",
+  "timestamp": "2026-10-10T17:08:01.528Z",
+  "passed": true,
+  "threeRevision": "186",
+  "bundleModuleSHA256": "5f248d44d24ca1aa142ad554ac1b6432fb42e90ae2b09f022b7dee99b9c2d15e",
+  "scope": "CPU tests of installed Observer/Renderer methods and actual transpiled project bundle adapter; no renderer initialization, browser, GPU calls, shader execution or visual assertions.",
+  "emissiveRegression": {
+    "initial": 2,
+    "unchangedBundleRefresh": 1,
+    "enum": {
+      "NONE": 0,
+      "SHARED": 1,
+      "FULL": 2
+    },
+    "emissiveExcluded": true
+  },
+  "nestedOwnership": {
+    "original": {
+      "expected": [
+        "mainFirst",
+        "mainSecond"
+      ],
+      "recorded": [
+        "mainFirst"
+      ],
+      "ownerRestored": true
+    },
+    "fixed": {
+      "expected": [
+        "mainFirst",
+        "mainSecond"
+      ],
+      "recorded": [
+        "mainFirst",
+        "mainSecond"
+      ],
+      "ownerRestored": true
+    },
+    "exceptionFinallyRestoresOwner": true
+  },
+  "membership": {
+    "opaqueIncluded": true,
+    "emissiveExcluded": true,
+    "transparentExcluded": true,
+    "skinnedExcluded": true,
+    "maxWorldTransformDelta": 1.3322676295501878e-15
+  },
+  "disabledControl": {
+    "passed": true,
+    "groupStaticFlags": [
+      false
+    ]
+  },
+  "limits": "GPU image, shadow membership, camera motion and day/night comparisons remain required. Pipeline/bind-group resource replacement is not exercised here."
+}

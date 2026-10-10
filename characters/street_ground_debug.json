@@ -1,0 +1,173 @@
+[
+  {
+    "name": "PLAZA/Foundation",
+    "collision": "solid",
+    "bounds": [
+      [
+        -148.0,
+        -126.0,
+        -0.699999988079071
+      ],
+      [
+        148.0,
+        126.0,
+        0.0
+      ]
+    ],
+    "vertices": 1028,
+    "faces": 1026,
+    "modifiers": [],
+    "data": {
+      "hit": null,
+      "normal": null,
+      "face": null,
+      "distance": null
+    },
+    "evaluated": {
+      "hit": null,
+      "normal": null,
+      "face": null,
+      "distance": null
+    }
+  },
+  {
+    "name": "Block_courtyard_boundaries/bank",
+    "collision": "solid",
+    "bounds": [
+      [
+        -297.5,
+        -148.1999969482422,
+        0.0
+      ],
+      [
+        326.5,
+        414.79998779296875,
+        1.600000023841858
+      ]
+    ],
+    "vertices": 1888,
+    "faces": 1416,
+    "modifiers": [],
+    "data": {
+      "hit": null,
+      "normal": null,
+      "face": null,
+      "distance": null
+    },
+    "evaluated": {
+      "hit": null,
+      "normal": null,
+      "face": null,
+      "distance": null
+    }
+  },
+  {
+    "name": "Block_courtyard_boundaries/stone",
+    "collision": "solid",
+    "bounds": [
+      [
+        -297.5,
+        -168.0,
+        0.0
+      ],
+      [
+        326.5,
+        414.54998779296875,
+        1.399999976158142
+      ]
+    ],
+    "vertices": 2320,
+    "faces": 1740,
+    "modifiers": [],
+    "data": {
+      "hit": null,
+      "normal": null,
+      "face": null,
+      "distance": null
+    },
+    "evaluated": {
+      "hit": null,
+      "normal": null,
+      "face": null,
+      "distance": null
+    }
+  },
+  {
+    "name": "District_ground/ground",
+    "collision": "walkable",
+    "bounds": [
+      [
+        -320.0,
+        -240.0,
+        -0.03500000014901161
+      ],
+      [
+        360.0,
+        440.0,
+        -0.03500000014901161
+      ]
+    ],
+    "vertices": 1356,
+    "faces": 339,
+    "modifiers": [],
+    "data": {
+      "hit": [
+        -103.58741760253906,
+        -95.65384674072266,
+        -0.0350000262260437
+      ],
+      "normal": [
+        1.8606538532139894e-10,
+        0.0,
+        -1.0
+      ],
+      "face": 242,
+      "distance": 0.3850000202655792
+    },
+    "evaluated": {
+      "hit": [
+        -103.58741760253906,
+        -95.65384674072266,
+        -0.0350000262260437
+      ],
+      "normal": [
+        1.8606538532139894e-10,
+        0.0,
+        -1.0
+      ],
+      "face": 242,
+      "distance": 0.3850000202655792
+    }
+  },
+  {
+    "name": "District_routes/road",
+    "collision": "walkable",
+    "bounds": [
+      [
+        -231.5,
+        -239.5,
+        -0.03099999949336052
+      ],
+      [
+        259.0,
+        370.0,
+        0.039000000804662704
+      ]
+    ],
+    "vertices": 80,
+    "faces": 60,
+    "modifiers": [],
+    "data": {
+      "hit": null,
+      "normal": null,
+      "face": null,
+      "distance": null
+    },
+    "evaluated": {
+      "hit": null,
+      "normal": null,
+      "face": null,
+      "distance": null
+    }
+  }
+]

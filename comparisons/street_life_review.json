@@ -1,0 +1,397 @@
+{
+  "request": "Enrich the whole arena city, including unseen districts, with narrow populated commercial streets, coherent irregular quarters and natural-looking physical world boundaries.",
+  "reference": "references/primary_reference.png",
+  "before": "renders/pass3_reference.png",
+  "observedBefore": [
+    "Individual stalls sit far apart on a broad paved ellipse, making the district read as an empty exhibition ground.",
+    "The first belt of buildings is too distant to enclose pedestrian streets around the main landmark.",
+    "A thin, regularly spaced line of exterior characters does not read as groups buying, waiting, talking or carrying goods.",
+    "Canopies, storage, carts and people do not overlap in depth as they do in the reference foreground."
+  ],
+  "preservedComposition": [
+    "The arena footprint, facade, seating bowl, imperial box and service circulation.",
+    "The elevated comparison camera and the left canal / bridge, rear temple and right aqueduct landmark order.",
+    "A clear ceremonial entry axis and continuous access to the exterior arcades."
+  ],
+  "revisionCriteria": [
+    "Close retail frontages and clustered multi-row event markets with actual narrow passages.",
+    "Goods and workspaces arranged around retail activities rather than uniformly scattered objects.",
+    "Denser crowds concentrated around stalls, queues and social groups, with moving merchants and porters.",
+    "Corresponding elevated views and full-size eye-height views, followed by actual first-person traversal."
+  ],
+  "status": "Completed source and final WebGPU visual review; accepted with the documented visual and performance limits.",
+  "layoutCheckpoint": {
+    "evidence": [
+      "renders/street_life_layout_reference.png",
+      "renders/street_life_layout_street_market_lane.png"
+    ],
+    "observations": [
+      "Market passages now read as human-scale enclosed lanes between complete counters and canopies.",
+      "Arena geometry and the main entrance axis remain visible.",
+      "The aerial stall roof pattern remains too regular and bilateral compared with the reference; additional grouped overhead cloth and profile variation are required before completion."
+    ],
+    "accepted": [
+      "Compressed market footprints and connected walking reservations",
+      "Eye-height stall depth and inventory"
+    ],
+    "correctionRequested": [
+      "Grouped high shade cloth, varied awning silhouettes and hanging merchandise within existing reservations"
+    ]
+  },
+  "streetCheckpoint": {
+    "sourceSHA256": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+    "evidence": [
+      "renders/street_life_final_reference.png",
+      "renders/street_life_final_street_market_lane.png",
+      "renders/street_life_final_street_shop_approach.png",
+      "renders/street_life_final_street_west_souk.png"
+    ],
+    "observations": [
+      "Grouped shade cloth, deep counters and merchandise enclose the southern and side market passages at human scale.",
+      "Entrance gatherings are visible from the elevated camera, with the central procession route still open.",
+      "The built arena and relative bridge, temple and aqueduct placement are preserved."
+    ],
+    "remainingDifferences": [
+      "Several stall runs and standing-character silhouettes remain more regular than the supplied reference.",
+      "The distant city still lacks the continuous street activity now present at the arena edge."
+    ],
+    "scopeCorrection": "User explicitly requested the atmosphere across the complete project, not concentrated in the front. Extend commercial street life to rear arena, residential/civic streets, temple and river precincts, and check arena circulation."
+  },
+  "worldCompositionCheckpoint": {
+    "primaryReference": "references/primary_reference.png",
+    "continuationAid": "references/expanded_city_concept.png",
+    "userFeedback": "references/empty_outer_ward_feedback.png",
+    "evidence": [
+      "renders/district_life_master_geometry_district_entire_world.png",
+      "renders/district_life_master_geometry_district_feedback_southern_ward.png",
+      "renders/district_life_terrain_refined_district_entire_world.png"
+    ],
+    "observations": [
+      "The same oval arena, seating bowl, VIP axis and bridge/temple/aqueduct composition remain legible.",
+      "Relocated complete houses follow curved streets and enclose the previously empty southern outer ward.",
+      "An irregular wall and real portal structures define the city; river and landscape continue beyond it.",
+      "The first whole-world view still has excessive bare paving between the arena and the eastern/civic quarters. Additional complete commercial blocks and linked narrow passages are required.",
+      "The first exterior terrain showed abrupt per-face color patches and a steep river trench; the second pass replaces these with continuous mapped soil and a broad river valley."
+    ],
+    "corrections": [
+      "Fill accidental inner-quarter voids with complete shop courts and connected street frontage.",
+      "Reserve explicit connections between all quarter spines before adding people.",
+      "Move the southern gate camera out of the relocated house before accepting its evidence.",
+      "Use the latest subtle isotropic soil texture in the final saved source and export."
+    ],
+    "remainingLimits": [
+      "The architecture is stylized and modular; the illustration has greater ornament and material richness.",
+      "Outer hills and villas extend the view beyond closed city gates rather than expanding the walkable city indefinitely."
+    ]
+  },
+  "finalDistrictCheckpoint": {
+    "sourceSHA256": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+    "reviewedAtUTC": "2026-10-10T16:42:56.581423+00:00",
+    "status": "Source composition and thirteen regional eye-height views accepted; final runtime delta and readability reviewed separately below.",
+    "rootApproval": "approved with documented limits",
+    "primaryReference": "references/primary_reference.png",
+    "reportedGapReference": "references/empty_outer_ward_feedback.png",
+    "continuationAid": {
+      "file": "references/expanded_city_concept.png",
+      "scope": "Creative adjacency guide for areas outside the primary image; not a delivered environment render."
+    },
+    "referenceHashes": {
+      "references/primary_reference.png": "f5f3e63ecd19205fda0d3366d3f1b9cfb3a7201876194bcfda2f014797820ac1",
+      "references/empty_outer_ward_feedback.png": "c1c5211a97bcaeafb5f8ca471860cd0c46e8cf979c6fbbc457668aa8b6010ffa",
+      "references/expanded_city_concept.png": "33192d54d28d29086f45a5ed741ffb722ee80c8f39ae06f1844fb8c03544079d"
+    },
+    "renderRecord": {
+      "file": "comparisons/district_render_final_cameras.json",
+      "sha256": "2c645c0459a0dd3623e889cfd13ce130a080f994d56f4932cfe7382c3e34b41f"
+    },
+    "cameraAuthority": {
+      "file": "district_review_views.json",
+      "sha256": "7523777a6f3d99dd0cbe5d5084dd149008413a3475bfc83b4263b2d1f81f7c83"
+    },
+    "cameraOnlyIntegration": {
+      "file": "comparisons/district_review_camera_integration.json",
+      "sha256": "345e62989a3f901b7e9b7cf1006667edc227ba989b14e26e8f0c4182198a16a7",
+      "preservedNonCameraObjects": 38300
+    },
+    "visualReview": {
+      "requiredEyeViews": 13,
+      "inspectedEyeViews": 13,
+      "allEyeViewsInspected": true,
+      "geometryOrAuthorityChangedByThisReview": false,
+      "scope": "Saved-source visual comparison; collision, ground support, animation and runtime readability are verified separately."
+    },
+    "aerialEvidence": [
+      {
+        "view": "reference",
+        "evidence": "renders/district_life_final_reference.png",
+        "imageSHA256": "736a7595a886020b6bc826be81f478df0ec203b1961f64f4e625c40903908f2e",
+        "inspected": true
+      },
+      {
+        "view": "district_feedback_southern_ward",
+        "evidence": "renders/district_life_final_district_feedback_southern_ward.png",
+        "imageSHA256": "ec22396fcfb9b6a0740a5bd5df2bd91f5981f58a24b94cf4a0aa7569c5b132bf",
+        "inspected": true
+      },
+      {
+        "view": "district_entire_world",
+        "evidence": "renders/district_life_final_district_entire_world.png",
+        "imageSHA256": "a195009b6ac2d3762b37460676907ca16eab6e0a325792482a7fe2580d8a3470",
+        "inspected": true
+      },
+      {
+        "view": "district_civic_court_aerial",
+        "evidence": "renders/district_life_final_district_civic_court_aerial.png",
+        "imageSHA256": "c737b67a9031befe79fdb063a77072243754add043f8a150883904e5065e4836",
+        "inspected": true
+      }
+    ],
+    "observationsByView": [
+      {
+        "view": "street_district_rear_precinct",
+        "evidence": "renders/district_life_final_street_district_rear_precinct.png",
+        "imageSHA256": "8016f1a9695ec0827ed3f8f4a04fcebe155036f279f16566f0c3de84f0b4f89d",
+        "inspected": true,
+        "observations": [
+          "An enclosed commercial lane presents complete counters, supported awnings, talking groups and a walker, with temple and aqueduct in depth.",
+          "Shaded shop interiors and repeated plaster and clothing remain simpler than the primary reference."
+        ]
+      },
+      {
+        "view": "street_district_temple_civic",
+        "evidence": "renders/district_life_final_street_district_temple_civic.png",
+        "imageSHA256": "934be9267553aecbb76765d76cf2ae52e29bc880ce2b1713d37a7310846231f2",
+        "inspected": true,
+        "observations": [
+          "The view follows a broad civic court beside a substantial arcade, trees, shops and a walking resident.",
+          "This is a wider civic space rather than a narrow market alley."
+        ]
+      },
+      {
+        "view": "street_district_east_quay",
+        "evidence": "renders/district_life_final_street_district_east_quay.png",
+        "imageSHA256": "ef866321126047ef73e84cb30ff0447475f83d4f7ecccf7f8dfb12e60d67800d",
+        "inspected": true,
+        "observations": [
+          "Supported shops and patrons occupy the near quay apron; foreground walkers and a porter connect it to opposite-bank roofs.",
+          "The retaining wall hides most water from this eye-height position; the paved apron remains broad."
+        ]
+      },
+      {
+        "view": "street_district_eastern_trades",
+        "evidence": "renders/district_life_final_street_district_eastern_trades.png",
+        "imageSHA256": "e9fd97b4237685974533f3eb08a4c76e53afcdebd372c0a6e828c56fa80e4cc0",
+        "inspected": true,
+        "observations": [
+          "Trading counters, modeled bread and produce, crates and baskets frame a court with a basket porter and small social groups.",
+          "Open paving between these activity nodes remains broader and cleaner than the primary illustration."
+        ]
+      },
+      {
+        "view": "street_district_eastern_backstreets",
+        "evidence": "renders/district_life_final_street_district_eastern_backstreets.png",
+        "imageSHA256": "0c280768332b8823f191bd8b9397a0d480f78ab4930737ddc3e290ba22393c0d",
+        "inspected": true,
+        "observations": [
+          "Close complete houses, wall returns and a bend form a narrower inhabited passage with a porter, walkers and groups in the next court.",
+          "Recessed windows, wall thickness and cast shadows remain readable at human scale."
+        ]
+      },
+      {
+        "view": "street_district_aqueduct_ward",
+        "evidence": "renders/district_life_final_street_district_aqueduct_ward.png",
+        "imageSHA256": "6be13596135ac250eab46ac71d3ba81878dcfe7268256b07459e17885ef8e9ed",
+        "inspected": true,
+        "observations": [
+          "A massive supported aqueduct pier anchors a trading node with foreground social groups, a walking porter and shops across the passage.",
+          "The open space under and beside the aqueduct is a broad trading court."
+        ]
+      },
+      {
+        "view": "street_district_north_insulae",
+        "evidence": "renders/district_life_final_street_district_north_insulae.png",
+        "imageSHA256": "e587705c339c04add23bd69bd5467912437b9d70a40ee373cb2f2ea3318248dc",
+        "inspected": true,
+        "observations": [
+          "Occupied shop and portico frontage follows a curved street with residents and porters visible through successive openings.",
+          "A dark irregular paving join is conspicuous along the curved street overlay; no visible unsupported geometry or blocking gap was identified in this image."
+        ]
+      },
+      {
+        "view": "street_district_upper_city",
+        "evidence": "renders/district_life_final_street_district_upper_city.png",
+        "imageSHA256": "24390671295e42c1a6c0fa6c5803bc80b75ae32c4d3f39f6594d58f3498bd99c",
+        "inspected": true,
+        "observations": [
+          "A tower, complete surrounding houses, shops, trees and the aqueduct give the upper quarter identifiable boundaries and foreground pedestrian activity.",
+          "The center of this court retains substantial open paving and the modular house family is visibly repeated."
+        ]
+      },
+      {
+        "view": "street_district_south_residential",
+        "evidence": "renders/district_life_final_street_district_south_residential.png",
+        "imageSHA256": "28c31a0b5efc935e27911d44f95d342d932cbb2f82a7d6c6f2dc6b1c04d59fd3",
+        "inspected": true,
+        "observations": [
+          "Continuous two-storey shop frontage, awnings, goods and residents now occupy the southern backing ward, with walkers along the street.",
+          "The opposing frontage is separated by a relatively wide street."
+        ]
+      },
+      {
+        "view": "street_district_west_quay",
+        "evidence": "renders/district_life_final_street_district_west_quay.png",
+        "imageSHA256": "d9affda92f89e7a92f73b978f9c01b95ee4dff6e3eee75e37e5e650a01ed45d8",
+        "inspected": true,
+        "observations": [
+          "The west-bank inland market approach contains goods, conversation groups, walkers, a brazier and the physical west gate in depth.",
+          "This camera demonstrates the market and gate approach, not a direct river view."
+        ]
+      },
+      {
+        "view": "street_district_civic_court",
+        "evidence": "renders/district_life_final_street_district_civic_court.png",
+        "imageSHA256": "b695143231bd99d4da996289a318f6287dc6c39f2c95918b7ee570e7c3010d53",
+        "inspected": true,
+        "observations": [
+          "Supported columns, stone beams, visible roof rafters, a fountain basin, planted beds, seated residents and walkers make a distinct public garden room beneath the aqueduct.",
+          "The retained tree grove and roofed edges give the former inner-east gap a purposeful local use."
+        ]
+      },
+      {
+        "view": "street_district_gallery",
+        "evidence": "renders/district_life_final_street_district_gallery.png",
+        "imageSHA256": "0fa15b000e2f77c9748eeb3c4f7493c3fc60ad469f6028df74eb798584cadffe",
+        "inspected": true,
+        "observations": [
+          "Deep repeated piers and arches establish the curved interior gallery, with one walker and a mounted torch visible.",
+          "This Blender source view is underlit: much of the floor and ceiling are nearly black and the walker is mostly a silhouette. Runtime readability needs separate confirmation; this image alone does not establish a clearly readable interior."
+        ]
+      },
+      {
+        "view": "street_district_backstage",
+        "evidence": "renders/district_life_final_street_district_backstage.png",
+        "imageSHA256": "e9e4633863b34f2b099f1835130abacd035278ce4e7b1d8062b2278be4f06054",
+        "inspected": true,
+        "observations": [
+          "Warm local light reveals an arched junction, supported ceiling beams, connected doorways and a foreground arena worker.",
+          "Secondary doorways and distant rooms remain dark; this image shows a service junction rather than all preparation-room contents."
+        ]
+      }
+    ],
+    "correctedGaps": [
+      "The specifically reported southern bare platform now has complete house and shop backing, occupied streets and courtyard blocks behind the first market belt.",
+      "Complete houses follow curved quarter streets instead of the original regular grid, with commercial and resident activity extending to both river banks, rear arena, civic, northern, upper and southern quarters.",
+      "Added shop courts, frontage and the civic peristyle give several former inter-quarter gaps a defined purpose; some broad paved intervals remain.",
+      "An irregular physical city wall, gatehouses, river portals and continuous exterior terrain replace the exposed rectangular city-ground edge in the reviewed whole-world composition.",
+      "Ten regional cameras now follow inhabited lanes instead of looking directly into dark shop fronts; source support and headroom are recorded separately."
+    ],
+    "preservedComposition": [
+      "The monumental oval arena remains the primary landmark, with real multi-level arched facade, stepped occupied seating, central sand floor and the VIP axis legible in the matching aerial view.",
+      "The left canal and bridge, rear temple and right aqueduct retain their relative positions.",
+      "Core arena circulation and the existing street population were protected during the district extension; the final camera revision changed no non-camera objects."
+    ],
+    "remainingLimits": [
+      "The result is a stylized, modular interpretation: facade ornament, statuary density, canopy detail and material wear are substantially simpler than the primary illustration.",
+      "Repeated house, awning and character families remain visible; standing groups and seating crowds are more regular than the reference.",
+      "Narrower enclosed commercial lanes coexist with broad civic, quay and inter-quarter paved spaces. This review does not claim all open paving was eliminated.",
+      "The north street overlay has a visible dark paving join.",
+      "The saved-source gallery render is underlit, and secondary backstage openings are dark. Final runtime interior readability requires separate evidence.",
+      "Outer hills, villas and river continuation extend the view beyond closed physical city gates; they are not an indefinitely explorable city expansion.",
+      "Most residents are static visual occupants. Moving actors provide ambient activity on authored routes; trading and conversation are staged rather than simulated systems."
+    ],
+    "separateValidation": {
+      "source": "source_reopen_validation.json",
+      "population": "characters/district_life_population_validation.json",
+      "runtimeRoutes": "viewer/route_validation.json",
+      "runtimePresentation": "viewer/runtime_validation.json",
+      "note": "These are independent reports, not assertions inferred from still images. Root must bind the final runtime checks and approve the complete result."
+    }
+  },
+  "finalRuntimeCheckpoint": {
+    "status": "passed",
+    "reviewedAtUTC": "2026-10-10T19:20:23.097256+00:00",
+    "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+    "backend": "webgpu",
+    "runtimeReportSHA256": "f6fc5b7f19ab903bd11a2a960703e7835728514e9bfa0bce6e1ae53acc5a2c54",
+    "performanceReportSHA256": "4f4f6497378e65be843c540ebf65fb518b70c35324e080c0ea6ed81166c36d7a",
+    "primaryReference": {
+      "file": "references/primary_reference.png",
+      "sha256": "f5f3e63ecd19205fda0d3366d3f1b9cfb3a7201876194bcfda2f014797820ac1"
+    },
+    "stableGridEvidence": {
+      "file": "viewer/stable_grid_validation.json",
+      "sha256": "140fe9dee5a2378719f7c90807ec6d8f7788f9dd9ae52218cb1aa40e84f5c9a5"
+    },
+    "requestedFogRevision": {
+      "nearMeters": 1200,
+      "farMeters": 4500,
+      "scope": "Same linear fog and day/night colors; substantially clearer city and distant-only haze."
+    },
+    "sourceBridge": {
+      "file": "viewer/watergate_boundary_revision_validation.json",
+      "sha256": "16de6e70a36ff423f0a2e3aeb38eeb2c13ad08c2ece6a0cb79640746cab4ed61",
+      "scope": "All previous material instances, complete geometry, cameras, routes and population are unchanged; only the four quay gates and their metadata are added."
+    },
+    "inspectedViews": [
+      {
+        "file": "renders/viewer_reference_raw.png",
+        "sha256": "41cd8ee3691bf53e88dfb75cdd4cadfb61de74d879b07336b7000499ce0b7186",
+        "observation": "The oval arena, stepped seating, imperial axis, warm stone and red canopy hierarchy remain intact. The left river/bridge, rear temple and right aqueduct maintain the reference composition. Materials and ornament remain simpler than the illustration."
+      },
+      {
+        "file": "renders/viewer_street_district_rear_precinct_raw.png",
+        "sha256": "1ec46872c89ba16ca99555c471b987375cf6e323016993003b585bf5b35c4653",
+        "observation": "Close supported shop fronts, goods, resident groups and walkers occupy a rear commercial street, extending the activity beyond the front of the arena."
+      },
+      {
+        "file": "renders/viewer_street_district_gallery_raw.png",
+        "sha256": "c356d71528153a76b8464bac3e72f657a239166511c8968d8f410e8e516d44b9",
+        "observation": "The runtime gallery has a readable floor, repeated masonry, a curved passage and a full walking character. Hemisphere fill makes this view clearer than the dark Blender gallery render."
+      },
+      {
+        "file": "renders/viewer_street_district_backstage_raw.png",
+        "sha256": "71968416bb7cd5465b71148544297747af46573942fd31e7fa8f9af851e8fc75",
+        "observation": "Connected arched service openings, ceiling beams, floor and porters are readable. The lighting and wall finish are comparatively simple and flat."
+      },
+      {
+        "file": "renders/viewer_street_district_civic_court_raw.png",
+        "sha256": "f9f1de6a0dd024221de6e7c2904cfda26b5d87a4d04f4687949e4302518bdd4d",
+        "observation": "The former eastern void now contains a structurally complete portico, fountain garden and resident activity, with the aqueduct establishing its setting."
+      },
+      {
+        "file": "renders/viewer_district_entire_world_raw.png",
+        "sha256": "a82bfb5fd029d067eb5c93024cb38d0f2af801af79fe79f223c741af35f33782",
+        "observation": "The irregular physical enclosure, varied quarter orientations and continuing river/terrain are visible. The requested lighter fog keeps the city readable from the broad overview while retaining a distant landscape haze."
+      },
+      {
+        "file": "renders/viewer_night_raw.png",
+        "sha256": "f8cdadf1d143a2312f3709b8904cf7da233f5b4abe86aa9e656bbdd5fdaf212a",
+        "observation": "At night the arena silhouette, seating, floor and surrounding street edges remain readable, with warm braziers and entrances. This is stylized lighting rather than the reference image's global illumination."
+      },
+      {
+        "file": "renders/runtime_boundary_QuayGate_North_West_raw.png",
+        "sha256": "40f190e60f2445f03db42fff88bb01492d5ad8104e6197528f9134ef73f54afc",
+        "observation": "The supported iron leaf and upper grille visibly close the quay path beside the river arch. The corresponding current-controller walking and jumping checks pass."
+      }
+    ],
+    "movementEvidence": {
+      "file": "viewer/route_validation.json",
+      "sha256": "3a4512573c99a6509505e1983428d59268246c7a1ecb8b28c92210ed3bef60aa",
+      "routes": 118,
+      "physicalBoundaries": 14,
+      "source": "Fresh execution on the final source and corrected controller."
+    },
+    "resolvedReadabilityConcern": "The final WebGPU gallery and backstage captures establish navigable floor/doorway visibility; the historical Blender source render remains correctly described as underlit.",
+    "remainingLimits": [
+      "The result is a stylized, modular interpretation: facade ornament, statuary density, canopy detail and material wear are substantially simpler than the primary illustration.",
+      "Repeated house, awning and character families remain visible; standing groups and seating crowds are more regular than the reference.",
+      "Narrower enclosed commercial lanes coexist with broad civic, quay and inter-quarter paved spaces. This review does not claim all open paving was eliminated.",
+      "The north street overlay has a visible dark paving join.",
+      "The saved-source gallery render is underlit, and secondary backstage openings are dark. Final runtime readability has been verified separately.",
+      "Outer hills, villas and river continuation extend the view beyond closed physical city gates; they are not an indefinitely explorable city expansion.",
+      "Most residents are static visual occupants. Moving actors provide ambient activity on authored routes; trading and conversation are staged rather than simulated systems.",
+      "The complete geometry remains expensive. Frame pacing and startup measurements are documented under shared-GPU conditions; a locked 60 fps is not claimed."
+    ],
+    "historicalImagePolicy": "Earlier images retain their actual source hashes. No source633ad render is relabeled as a source408daf image."
+  }
+}

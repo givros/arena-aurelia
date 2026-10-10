@@ -1,0 +1,55 @@
+{
+  "after_blend_sha256": "84D97ECDBE720B50E6486B6BB9E0AE2612CB167D1B5E95C55E5BC977A73CD922",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_guard_shield_after.json",
+  "after_semantic_digest": "786FF5A1A789B82113562CE9069F13C1E8F02169CC87B6342A2923C7DD83ADE6",
+  "allowed_scopes": [
+    "garment:guard_shield"
+  ],
+  "before_blend_sha256": "CB536DB2809E9996D046B23EEF460CE382A1160A90B12A8D8642A52A6CB8C169",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_guard_shield_before.json",
+  "before_semantic_digest": "93F412871072C31A4D3B39E44CB5416625952479F380C9D14C363CB95C6C5390",
+  "changed_scopes": [
+    "garment:guard_shield"
+  ],
+  "changes": [
+    {
+      "after": "43F1438DD1C2CFB5539E20E9D46795E7CA845566BFC3AED878839AB688CDA35C",
+      "allowed": true,
+      "before": "69984AA9E625DE510CEBC65588AE61D35D1D19B8D90FFE54E8E50BBBA282F9FB",
+      "change": "modified",
+      "members": [
+        {
+          "after": "C47BD1DF55F3FA94281C6A3C0F23658BB1D79366DA3FADEB62BC9BE0BDF879B0",
+          "before": "2E87FB33D98321BD928828403CFA1A42997467685C77BD93CC64331E5A21C382",
+          "change": "modified",
+          "member": "object:GuardShield:metadata"
+        },
+        {
+          "after": "20620E6B9DE929A42D0E8971FF815C46C6D6550EF8C5A460D5224F87E7363E46",
+          "before": "665EDAB925C13C3B2655EAD6271FF464DE66A05267A0A682F0A42641A79BBE9A",
+          "change": "modified",
+          "member": "object:GuardShield:transform_and_parent"
+        }
+      ],
+      "scope": "garment:guard_shield"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "animations",
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:gladiator_sword",
+    "garment:guard_spear",
+    "garment:hair_cap",
+    "garment:leather_belt",
+    "garment:roman_helmet",
+    "garment:roman_sandals",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "violations": []
+}

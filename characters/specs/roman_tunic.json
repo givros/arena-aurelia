@@ -1,0 +1,71 @@
+{
+  "garment_id": "roman_tunic",
+  "object_name": "RomanTunic",
+  "mesh_name": "RomanTunicMesh",
+  "garment_type": "Loose short sleeved Roman tunic with a knee-length flared hem",
+  "garment_slot": "roman_tunic",
+  "construction_strategy": "cross_section",
+  "reference_images": [
+    "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\references\\arena-primary.png"
+  ],
+  "reference_assets": [
+    {
+      "original_path": "C:\\Users\\limou\\AppData\\Local\\Temp\\codex-clipboard-618db799-bf8a-4459-92d1-01ea1dde98ce.png",
+      "copied_path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\references\\arena-primary.png",
+      "sha256": "F5F3E63ECD19205FDA0D3366D3F1B9CFB3A7201876194BCFDA2F014797820AC1"
+    }
+  ],
+  "image_interpretation": {
+    "primary_view": "elevated arena district",
+    "available_views": [
+      "aerial oblique"
+    ],
+    "body_coverage": [
+      "Loose short sleeved Roman tunic with a knee-length flared hem"
+    ],
+    "start_landmarks": [
+      "body fitted local anatomical coordinates"
+    ],
+    "end_landmarks": [
+      "role appropriate silhouette"
+    ],
+    "fit": "loose",
+    "silhouette_by_view": {
+      "front": "Loose short sleeved Roman tunic with a knee-length flared hem",
+      "back": "Plain symmetric continuation"
+    },
+    "openings": [
+      "neck, sleeve and hem openings"
+    ],
+    "visible_details": [
+      "Earth coloured clothing, bronze/red guard group, crowd diversity"
+    ],
+    "symmetry": "symmetric",
+    "colors": [
+      "#C8B88D"
+    ],
+    "material_appearance": "Matte stylized low polygon materials",
+    "direct_under": "CharacterBase",
+    "direct_above": "None",
+    "visible_evidence": [
+      "Reference shows dense spectators, red and bronze guards and warm neutral citizens; user explicitly requests role clothing and accessories"
+    ],
+    "assumptions": [
+      "Character-scale seam and fastening details cannot be resolved in the aerial reference; use plain garments and explicitly requested role accessories."
+    ],
+    "confidence": "medium"
+  },
+  "material": {
+    "name": "RomanTunicMaterial",
+    "color": "#C8B88D",
+    "roughness": 0.83,
+    "metallic": 0
+  },
+  "visibility_property": "show_roman_tunic",
+  "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+  "max_influences": 4,
+  "open_surface": true,
+  "thickness": 0.002,
+  "builder_script": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\scripts\\character_garment_builder.py",
+  "geometry_method": "Deterministic body-derived surface shell and measured cross-section or rigid accessory geometry"
+}

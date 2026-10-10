@@ -1,0 +1,443 @@
+{
+  "passed": true,
+  "working_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "working_blend_sha256_before": "cf504bb0ec05f706619c4031b5e2e602f649465d7cc6d067d62aac3c6da9eee1",
+  "working_blend_sha256_after": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "saved_in_place": true,
+  "atomic_save": {
+    "strategy": "save-copy-and-os.replace",
+    "pending_removed": true,
+    "saved_in_place": true
+  },
+  "selected_clips": [
+    "idle",
+    "walk",
+    "run",
+    "jump"
+  ],
+  "selected_actions": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "active_action_after_save": null,
+  "neutral_t_pose_delta": 0.0,
+  "bones": 49,
+  "fps": 30,
+  "animation_revision_before": 1,
+  "animation_revision_after": 2,
+  "animation_library_before": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "animation_library_after": [
+    "Idle",
+    "Walk",
+    "Run",
+    "Jump"
+  ],
+  "rig_rotation_mode_before": "QUATERNION",
+  "rig_rotation_mode_after": "QUATERNION",
+  "pose_rotation_modes_before": {
+    "pelvis": "QUATERNION",
+    "spine1": "QUATERNION",
+    "spine2": "QUATERNION",
+    "spine3": "QUATERNION",
+    "spine4": "QUATERNION",
+    "spine5": "QUATERNION",
+    "head": "QUATERNION",
+    "shoulder.L": "QUATERNION",
+    "upper_arm.L": "QUATERNION",
+    "forearm.L": "QUATERNION",
+    "hand.L": "QUATERNION",
+    "palm.01.L": "QUATERNION",
+    "f_index.01.L": "QUATERNION",
+    "f_index.02.L": "QUATERNION",
+    "f_index.03.L": "QUATERNION",
+    "thumb.01.L": "QUATERNION",
+    "thumb.02.L": "QUATERNION",
+    "thumb.03.L": "QUATERNION",
+    "palm.04.L": "QUATERNION",
+    "f_pinky.01.L": "QUATERNION",
+    "f_pinky.02.L": "QUATERNION",
+    "f_pinky.03.L": "QUATERNION",
+    "shoulder.R": "QUATERNION",
+    "upper_arm.R": "QUATERNION",
+    "forearm.R": "QUATERNION",
+    "hand.R": "QUATERNION",
+    "palm.01.R": "QUATERNION",
+    "f_index.01.R": "QUATERNION",
+    "f_index.02.R": "QUATERNION",
+    "f_index.03.R": "QUATERNION",
+    "thumb.01.R": "QUATERNION",
+    "thumb.02.R": "QUATERNION",
+    "thumb.03.R": "QUATERNION",
+    "palm.04.R": "QUATERNION",
+    "f_pinky.01.R": "QUATERNION",
+    "f_pinky.02.R": "QUATERNION",
+    "f_pinky.03.R": "QUATERNION",
+    "thigh.L": "QUATERNION",
+    "shin.L": "QUATERNION",
+    "foot.L": "QUATERNION",
+    "toe.L": "QUATERNION",
+    "thigh.R": "QUATERNION",
+    "shin.R": "QUATERNION",
+    "foot.R": "QUATERNION",
+    "toe.R": "QUATERNION",
+    "IKPole.L": "QUATERNION",
+    "IkTarget.L": "QUATERNION",
+    "IKPole.R": "QUATERNION",
+    "IkTarget.R": "QUATERNION"
+  },
+  "pose_rotation_modes_after": {
+    "pelvis": "QUATERNION",
+    "spine1": "QUATERNION",
+    "spine2": "QUATERNION",
+    "spine3": "QUATERNION",
+    "spine4": "QUATERNION",
+    "spine5": "QUATERNION",
+    "head": "QUATERNION",
+    "shoulder.L": "QUATERNION",
+    "upper_arm.L": "QUATERNION",
+    "forearm.L": "QUATERNION",
+    "hand.L": "QUATERNION",
+    "palm.01.L": "QUATERNION",
+    "f_index.01.L": "QUATERNION",
+    "f_index.02.L": "QUATERNION",
+    "f_index.03.L": "QUATERNION",
+    "thumb.01.L": "QUATERNION",
+    "thumb.02.L": "QUATERNION",
+    "thumb.03.L": "QUATERNION",
+    "palm.04.L": "QUATERNION",
+    "f_pinky.01.L": "QUATERNION",
+    "f_pinky.02.L": "QUATERNION",
+    "f_pinky.03.L": "QUATERNION",
+    "shoulder.R": "QUATERNION",
+    "upper_arm.R": "QUATERNION",
+    "forearm.R": "QUATERNION",
+    "hand.R": "QUATERNION",
+    "palm.01.R": "QUATERNION",
+    "f_index.01.R": "QUATERNION",
+    "f_index.02.R": "QUATERNION",
+    "f_index.03.R": "QUATERNION",
+    "thumb.01.R": "QUATERNION",
+    "thumb.02.R": "QUATERNION",
+    "thumb.03.R": "QUATERNION",
+    "palm.04.R": "QUATERNION",
+    "f_pinky.01.R": "QUATERNION",
+    "f_pinky.02.R": "QUATERNION",
+    "f_pinky.03.R": "QUATERNION",
+    "thigh.L": "QUATERNION",
+    "shin.L": "QUATERNION",
+    "foot.L": "QUATERNION",
+    "toe.L": "QUATERNION",
+    "thigh.R": "QUATERNION",
+    "shin.R": "QUATERNION",
+    "foot.R": "QUATERNION",
+    "toe.R": "QUATERNION",
+    "IKPole.L": "QUATERNION",
+    "IkTarget.L": "QUATERNION",
+    "IKPole.R": "QUATERNION",
+    "IkTarget.R": "QUATERNION"
+  },
+  "bone_behavior_changes": [],
+  "scene_integrity_before": {
+    "objects": [
+      [
+        "BronzeArmor",
+        "MESH"
+      ],
+      [
+        "CharacterBase",
+        "MESH"
+      ],
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ],
+      [
+        "GladiatorSword",
+        "MESH"
+      ],
+      [
+        "GuardShield",
+        "MESH"
+      ],
+      [
+        "GuardSpear",
+        "MESH"
+      ],
+      [
+        "HairCap",
+        "MESH"
+      ],
+      [
+        "LeatherBelt",
+        "MESH"
+      ],
+      [
+        "RomanHelmet",
+        "MESH"
+      ],
+      [
+        "RomanSandals",
+        "MESH"
+      ],
+      [
+        "RomanTunic",
+        "MESH"
+      ]
+    ],
+    "meshes": {
+      "BronzeArmor": "1115e36b2f584ebb834bbe02fde336ca50995ce09ef667a790ad012cd260b54c",
+      "CharacterBase": "20053e4d7ea355413a50dea99aa9e3291bdd71cf2937ee8c281028c5187e6250",
+      "GladiatorSword": "a7b34f2016bcf8299cfbb13187dba431d3070eb26c9a9451dd56d174492d109c",
+      "GuardShield": "40ff240e5cf81e38c9619391314013155d8c50af810586a89d4f09f933ccb95c",
+      "GuardSpear": "8ef3d95a3925b5370531426a3d1cc91dfda11c8a0b094b6c86f972870b1f4eff",
+      "HairCap": "61a8b1cb5acc819de0e9c57b95213dadb931a0f5637d2582d7b9b24ecaeb7356",
+      "LeatherBelt": "a58bc5411fd9fc9ab912b17a01fb36fe51f3e080c9ae3d567e808258f95591a9",
+      "RomanHelmet": "9877f4f7f740f6d4e626c8c82c8cab882515d16606b8e9c8e6838f0710d78568",
+      "RomanSandals": "8003d7f2c4fccdede58654939e2296dd1423cba72655b2453cf8ab1d3d7ec6c6",
+      "RomanTunic": "3e98d465cfcf6cc28760e4f318fdec11487f49d03cde339587269548cb38f4c3"
+    },
+    "armature_rest": "e60ff1ca4f7acf254831687aa767ee5b7e11a85d4b4672a9ad61057f70666ef7"
+  },
+  "scene_integrity_after": {
+    "objects": [
+      [
+        "BronzeArmor",
+        "MESH"
+      ],
+      [
+        "CharacterBase",
+        "MESH"
+      ],
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ],
+      [
+        "GladiatorSword",
+        "MESH"
+      ],
+      [
+        "GuardShield",
+        "MESH"
+      ],
+      [
+        "GuardSpear",
+        "MESH"
+      ],
+      [
+        "HairCap",
+        "MESH"
+      ],
+      [
+        "LeatherBelt",
+        "MESH"
+      ],
+      [
+        "RomanHelmet",
+        "MESH"
+      ],
+      [
+        "RomanSandals",
+        "MESH"
+      ],
+      [
+        "RomanTunic",
+        "MESH"
+      ]
+    ],
+    "meshes": {
+      "BronzeArmor": "1115e36b2f584ebb834bbe02fde336ca50995ce09ef667a790ad012cd260b54c",
+      "CharacterBase": "20053e4d7ea355413a50dea99aa9e3291bdd71cf2937ee8c281028c5187e6250",
+      "GladiatorSword": "a7b34f2016bcf8299cfbb13187dba431d3070eb26c9a9451dd56d174492d109c",
+      "GuardShield": "40ff240e5cf81e38c9619391314013155d8c50af810586a89d4f09f933ccb95c",
+      "GuardSpear": "8ef3d95a3925b5370531426a3d1cc91dfda11c8a0b094b6c86f972870b1f4eff",
+      "HairCap": "61a8b1cb5acc819de0e9c57b95213dadb931a0f5637d2582d7b9b24ecaeb7356",
+      "LeatherBelt": "a58bc5411fd9fc9ab912b17a01fb36fe51f3e080c9ae3d567e808258f95591a9",
+      "RomanHelmet": "9877f4f7f740f6d4e626c8c82c8cab882515d16606b8e9c8e6838f0710d78568",
+      "RomanSandals": "8003d7f2c4fccdede58654939e2296dd1423cba72655b2453cf8ab1d3d7ec6c6",
+      "RomanTunic": "3e98d465cfcf6cc28760e4f318fdec11487f49d03cde339587269548cb38f4c3"
+    },
+    "armature_rest": "e60ff1ca4f7acf254831687aa767ee5b7e11a85d4b4672a9ad61057f70666ef7"
+  },
+  "core_integrity_before": {
+    "objects": [
+      [
+        "BronzeArmor",
+        "MESH"
+      ],
+      [
+        "CharacterBase",
+        "MESH"
+      ],
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ],
+      [
+        "GladiatorSword",
+        "MESH"
+      ],
+      [
+        "GuardShield",
+        "MESH"
+      ],
+      [
+        "GuardSpear",
+        "MESH"
+      ],
+      [
+        "HairCap",
+        "MESH"
+      ],
+      [
+        "LeatherBelt",
+        "MESH"
+      ],
+      [
+        "RomanHelmet",
+        "MESH"
+      ],
+      [
+        "RomanSandals",
+        "MESH"
+      ],
+      [
+        "RomanTunic",
+        "MESH"
+      ]
+    ],
+    "meshes": {
+      "BronzeArmor": "1115e36b2f584ebb834bbe02fde336ca50995ce09ef667a790ad012cd260b54c",
+      "CharacterBase": "20053e4d7ea355413a50dea99aa9e3291bdd71cf2937ee8c281028c5187e6250",
+      "GladiatorSword": "a7b34f2016bcf8299cfbb13187dba431d3070eb26c9a9451dd56d174492d109c",
+      "GuardShield": "40ff240e5cf81e38c9619391314013155d8c50af810586a89d4f09f933ccb95c",
+      "GuardSpear": "8ef3d95a3925b5370531426a3d1cc91dfda11c8a0b094b6c86f972870b1f4eff",
+      "HairCap": "61a8b1cb5acc819de0e9c57b95213dadb931a0f5637d2582d7b9b24ecaeb7356",
+      "LeatherBelt": "a58bc5411fd9fc9ab912b17a01fb36fe51f3e080c9ae3d567e808258f95591a9",
+      "RomanHelmet": "9877f4f7f740f6d4e626c8c82c8cab882515d16606b8e9c8e6838f0710d78568",
+      "RomanSandals": "8003d7f2c4fccdede58654939e2296dd1423cba72655b2453cf8ab1d3d7ec6c6",
+      "RomanTunic": "3e98d465cfcf6cc28760e4f318fdec11487f49d03cde339587269548cb38f4c3"
+    },
+    "armature_rest": "e60ff1ca4f7acf254831687aa767ee5b7e11a85d4b4672a9ad61057f70666ef7"
+  },
+  "core_integrity_after": {
+    "objects": [
+      [
+        "BronzeArmor",
+        "MESH"
+      ],
+      [
+        "CharacterBase",
+        "MESH"
+      ],
+      [
+        "CharacterRig",
+        "ARMATURE"
+      ],
+      [
+        "GladiatorSword",
+        "MESH"
+      ],
+      [
+        "GuardShield",
+        "MESH"
+      ],
+      [
+        "GuardSpear",
+        "MESH"
+      ],
+      [
+        "HairCap",
+        "MESH"
+      ],
+      [
+        "LeatherBelt",
+        "MESH"
+      ],
+      [
+        "RomanHelmet",
+        "MESH"
+      ],
+      [
+        "RomanSandals",
+        "MESH"
+      ],
+      [
+        "RomanTunic",
+        "MESH"
+      ]
+    ],
+    "meshes": {
+      "BronzeArmor": "1115e36b2f584ebb834bbe02fde336ca50995ce09ef667a790ad012cd260b54c",
+      "CharacterBase": "20053e4d7ea355413a50dea99aa9e3291bdd71cf2937ee8c281028c5187e6250",
+      "GladiatorSword": "a7b34f2016bcf8299cfbb13187dba431d3070eb26c9a9451dd56d174492d109c",
+      "GuardShield": "40ff240e5cf81e38c9619391314013155d8c50af810586a89d4f09f933ccb95c",
+      "GuardSpear": "8ef3d95a3925b5370531426a3d1cc91dfda11c8a0b094b6c86f972870b1f4eff",
+      "HairCap": "61a8b1cb5acc819de0e9c57b95213dadb931a0f5637d2582d7b9b24ecaeb7356",
+      "LeatherBelt": "a58bc5411fd9fc9ab912b17a01fb36fe51f3e080c9ae3d567e808258f95591a9",
+      "RomanHelmet": "9877f4f7f740f6d4e626c8c82c8cab882515d16606b8e9c8e6838f0710d78568",
+      "RomanSandals": "8003d7f2c4fccdede58654939e2296dd1423cba72655b2453cf8ab1d3d7ec6c6",
+      "RomanTunic": "3e98d465cfcf6cc28760e4f318fdec11487f49d03cde339587269548cb38f4c3"
+    },
+    "armature_rest": "e60ff1ca4f7acf254831687aa767ee5b7e11a85d4b4672a9ad61057f70666ef7"
+  },
+  "action_signatures_before": {
+    "Idle": "c411c3fd34a040ea9192aebf7c3e134bb9607178ac19f7f2a6e25891bc2ee8d2",
+    "Jump": "335913ad190abaabd7f1dcf533ebee9c5f591f6a0ffc93f11e8c0a3790bafed1",
+    "Run": "e17ded658484bb1a947d3d59f8cd555c2e8e5e30c7dfd9f5ed0ad4431936e9d0",
+    "Walk": "45839e5713621b8f9b151c6043e74ba44105501841095885ffce746afd5b4ca3"
+  },
+  "action_signatures_after": {
+    "Idle": "6f7aa54071897fa035aab470b673bf153a2313bf764adcff1fccbc69066afb75",
+    "Jump": "aea14bd1dd99d598543c60b7f686f5801200dd9dac8102565d40907ddbb90f92",
+    "Run": "d7a774c80cd838799bd8e59aa794565b47e32f1952fcb78650a681f8002aace9",
+    "Walk": "372b9fd6ed30a6d3e44972ac81de474c3f9295b796ca41a210d0b2422838d424"
+  },
+  "protected_action_signatures_before": {},
+  "protected_action_signatures_after": {},
+  "actions": [
+    {
+      "action": "Idle",
+      "source_fbx": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\idle.fbx",
+      "source_fbx_sha256": "502883ff97e83724e25f14372177b5407d8120cbb2a0acc5a7bda0b4f5a21376",
+      "frame_start": 1,
+      "frame_end": 251,
+      "rest_matrix_max_delta": 1.4472752809524536e-05,
+      "constraints_disabled_by_action": 7
+    },
+    {
+      "action": "Walk",
+      "source_fbx": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\walk.fbx",
+      "source_fbx_sha256": "202c6c7e2e640193f61754516f13e258123dfd57d171fa8b98fd495913e42ef2",
+      "frame_start": 1,
+      "frame_end": 32,
+      "rest_matrix_max_delta": 1.4472752809524536e-05,
+      "constraints_disabled_by_action": 7
+    },
+    {
+      "action": "Run",
+      "source_fbx": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\run.fbx",
+      "source_fbx_sha256": "8238a6dd1892b8cc5328f623fcbf9773e75aeedee29db09b2e96a09723207088",
+      "frame_start": 1,
+      "frame_end": 20,
+      "rest_matrix_max_delta": 1.4472752809524536e-05,
+      "constraints_disabled_by_action": 7
+    },
+    {
+      "action": "Jump",
+      "source_fbx": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\anim\\jump.fbx",
+      "source_fbx_sha256": "967c37db7cfd69d382b64f382dc2f0ff012bf930feea36f6d3c0e756c95cc737",
+      "frame_start": 1,
+      "frame_end": 58,
+      "rest_matrix_max_delta": 1.4472752809524536e-05,
+      "constraints_disabled_by_action": 7
+    }
+  ]
+}

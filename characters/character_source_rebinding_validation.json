@@ -1,0 +1,75 @@
+{
+  "schema": "roman-arena.character-source-rebinding/v1",
+  "passed": true,
+  "beforeSourceSHA256": "633ad8544a1be92ecb72a904fc7cd75c21cac051d9705f80bca86cd64a49d2b8",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "change": "Four physical bank grilles added; existing population and character assets preserved.",
+  "preservationReport": "../comparisons/watergate_boundary_integration.json",
+  "protectedExistingObjects": 40069,
+  "changedExistingComponents": [],
+  "method": "All four character audits reopened the final saved Blender scene read-only. Each complete resulting JSON fact set was canonically hashed and compared with the pre-grille result, excluding only sourceSHA256, source path, and optional render image paths. No character observation changed.",
+  "excludedReportMetadata": [
+    "sourceSHA256",
+    "source",
+    "images"
+  ],
+  "reports": {
+    "population-source-qc.json": {
+      "passed": true,
+      "beforeFactsSHA256": "148067dd5ee7bb6486dc250be9ca44e4fbd765cd79b7fb22662dab754ac6259a",
+      "currentFactsSHA256": "148067dd5ee7bb6486dc250be9ca44e4fbd765cd79b7fb22662dab754ac6259a",
+      "identicalFacts": true
+    },
+    "district_life_source_qc.json": {
+      "passed": true,
+      "beforeFactsSHA256": "3754fb245efbed1b574c416169d5fcca77055d80ff2652a2727e05b1c588d1d9",
+      "currentFactsSHA256": "3754fb245efbed1b574c416169d5fcca77055d80ff2652a2727e05b1c588d1d9",
+      "identicalFacts": true
+    },
+    "standing-ground-qc.json": {
+      "passed": true,
+      "beforeFactsSHA256": "f6af67ce2058a607c586b4ae8aed289587c259127f39c95f638fdb2e37b077d4",
+      "currentFactsSHA256": "f6af67ce2058a607c586b4ae8aed289587c259127f39c95f638fdb2e37b077d4",
+      "identicalFacts": true
+    },
+    "street_activity_qc.json": {
+      "passed": true,
+      "beforeFactsSHA256": "021394ecf65b6c026a12551834957f8b4fc408e210e15fde27e71ad81adac36b",
+      "currentFactsSHA256": "021394ecf65b6c026a12551834957f8b4fc408e210e15fde27e71ad81adac36b",
+      "identicalFacts": true
+    }
+  },
+  "crowdManifestSHA256": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0",
+  "manifestUnchanged": true,
+  "runtimeAssetSHA256": {
+    "animated-citizen.glb": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+    "animated-merchant.glb": "792ddd4e2722d251469b38a6a417d90c00a26829bba159b06a79839f24b50dc2",
+    "animated-porter.glb": "2aa2b977d3d787c62f24df0eae9dd0e1520db886f64aa38c877477c3ed2b43a1",
+    "citizen-idle-0.glb": "6d80cb361e3857d301c9efa7e0c281dd88700ad4060d82adf043127d3b607d8b",
+    "citizen-idle-1.glb": "c2f8681ec7c6f14d2508da41750126b3f8bebe859a40aa49c75a34c801e5b361",
+    "citizen-idle-2.glb": "e327e0cef41dd67a3bbb42a64763a73b1d8234bd86feb282b6efc8fc0e8aa2f7",
+    "citizen-idle-3.glb": "05d124028f8a413d04f39dbe390038703049720f7ce58963c3b1d9e64fb4db1f",
+    "citizen.glb": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb",
+    "gladiator.glb": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4",
+    "guard.glb": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9",
+    "merchant.glb": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26",
+    "noble.glb": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae",
+    "seated-spectator.glb": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+    "worker.glb": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d"
+  },
+  "all14RuntimeAssetsUnchanged": true,
+  "counts": {
+    "total": 15688,
+    "static": 15524,
+    "animated": 164,
+    "walking": 142,
+    "idle": 22,
+    "carriers": 65,
+    "humanTriangleInstances": 78613716,
+    "arenaSeatContacts": 12000,
+    "otherStaticFootContacts": 3524,
+    "stoneStatues": 26
+  },
+  "historicalGenerationReportPreserved": "district_life_population_validation.json",
+  "sourceWrittenByTheseAudits": false
+}

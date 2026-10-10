@@ -1,0 +1,83 @@
+{
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_components_after.json",
+  "allowed_scopes": [
+    "skin_material"
+  ],
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_components_before.json",
+  "canonical_path_unchanged": true,
+  "changed_scopes": [
+    "skin_material"
+  ],
+  "color": "#B78361",
+  "commands": [
+    [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+      "--python",
+      "C:\\Users\\limou\\.codex\\skills\\blender-lowpoly-character\\scripts\\core\\inspect_character_components.py",
+      "--",
+      "--report",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_components_before.json"
+    ],
+    [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+      "--python",
+      "C:\\Users\\limou\\.codex\\skills\\blender-lowpoly-character\\scripts\\appearance\\set_skin_color.py",
+      "--",
+      "--working-blend",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+      "--expected-sha256",
+      "04524F258AB5E1002CB168380438CCD5F4374D7FF46B4632F16685E4DDAE1271",
+      "--color",
+      "#B78361",
+      "--report",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_skin_color_update.json"
+    ],
+    [
+      "C:\\Program Files\\Blender Foundation\\Blender 5.1\\blender.exe",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--python-exit-code",
+      "1",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+      "--python",
+      "C:\\Users\\limou\\.codex\\skills\\blender-lowpoly-character\\scripts\\core\\inspect_character_components.py",
+      "--",
+      "--report",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_components_after.json"
+    ],
+    [
+      "C:\\Python313\\python.exe",
+      "C:\\Users\\limou\\.codex\\skills\\blender-lowpoly-character\\scripts\\core\\compare_component_manifests.py",
+      "--before",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_components_before.json",
+      "--after",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_components_after.json",
+      "--allow",
+      "skin_material",
+      "--report",
+      "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_component_comparison.json"
+    ]
+  ],
+  "component_comparison": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_component_comparison.json",
+  "no_op": false,
+  "passed": true,
+  "saved_in_place": true,
+  "schema": "codex.blender.skin-color-workflow/v1",
+  "skin_update_report": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase_skin_color_update.json",
+  "working_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "working_blend_sha256_after": "B3C7C59930EF869EB21FDBC3B7DCCE2E8DC8525BCE1CA26963786C2DB16F7733",
+  "working_blend_sha256_before": "04524F258AB5E1002CB168380438CCD5F4374D7FF46B4632F16685E4DDAE1271"
+}

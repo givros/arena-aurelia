@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "removedHelpers": [
+    {
+      "name": "Icosphere",
+      "triangles": 80,
+      "reason": "Blender GLB importer bone display shape; absent from authored glTF nodes"
+    }
+  ],
+  "sourceInstanceCount": 12322,
+  "previousCountIncludingImporterHelpers": 61689884,
+  "authoredCharacterTriangleInstances": 61689244,
+  "runtimeCharacterTriangleInstances": 61689244,
+  "identical": true,
+  "removedTriangleInstances": 640,
+  "crowdManifestSHA256": "62220392947dbda746a930baef6060af4db555b2c7060b93dde3aea022fb7d68",
+  "authoredBodyGarmentAndRigRestGeometryUnchanged": true,
+  "sourceSaveResponsibility": "Caller"
+}

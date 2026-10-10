@@ -1,0 +1,2844 @@
+{
+  "passed": true,
+  "boundarySHA256": "5e029243b17fc3a657dd7b545e0da8fe3840aa4834e3a62ac83e9673293a4ebd",
+  "retiredObjects": [],
+  "wallSpans": 34,
+  "watchtowers": 16,
+  "closedGates": {
+    "Porta_Spectaculorum": {
+      "center": [
+        0,
+        -229
+      ],
+      "rotation": -0.04995839572194276
+    },
+    "Porta_Orientalis": {
+      "center": [
+        341.0,
+        -9.999999999999996
+      ],
+      "rotation": 1.5707963267948966
+    },
+    "Porta_Pontis": {
+      "center": [
+        -310,
+        116
+      ],
+      "rotation": -1.4940244355251187
+    },
+    "Porta_Collina": {
+      "center": [
+        56,
+        422
+      ],
+      "rotation": -3.0711213090109974
+    }
+  },
+  "riverGates": 2,
+  "continuousOuterTerrain": true,
+  "groveTrees": [
+    {
+      "position": [
+        134.56337800960458,
+        -349.7803101472671,
+        23.0299072265625
+      ],
+      "scale": 0.8941428124169603,
+      "prefix": "OUTER_GROVE/0_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        139.94373237549928,
+        -364.641457017032,
+        24.530242919921875
+      ],
+      "scale": 0.8686541294061387,
+      "prefix": "OUTER_GROVE/0_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        126.59515142898263,
+        -372.6004309783299,
+        26.056884765625
+      ],
+      "scale": 1.2096356438639337,
+      "prefix": "OUTER_GROVE/0_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        129.09461749876692,
+        -355.03791985792066,
+        23.924285888671875
+      ],
+      "scale": 1.1652720652119104,
+      "prefix": "OUTER_GROVE/0_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        145.499563231169,
+        -354.54860795915147,
+        23.10198974609375
+      ],
+      "scale": 0.9060975886326054,
+      "prefix": "OUTER_GROVE/0_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -408.29565582397674,
+        89.61819454155433,
+        37.554351806640625
+      ],
+      "scale": 1.2662734638183444,
+      "prefix": "OUTER_GROVE/1_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -433.0250759378417,
+        85.01129818776975,
+        42.220672607421875
+      ],
+      "scale": 1.2288697638385853,
+      "prefix": "OUTER_GROVE/1_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -406.7858712118981,
+        79.7433805054085,
+        34.746124267578125
+      ],
+      "scale": 0.9824052318653251,
+      "prefix": "OUTER_GROVE/1_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -430.5440279288134,
+        96.20266135766244,
+        44.52099609375
+      ],
+      "scale": 1.1075956338261166,
+      "prefix": "OUTER_GROVE/1_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -424.5131199848282,
+        77.93285428376261,
+        38.514007568359375
+      ],
+      "scale": 1.2146784609475862,
+      "prefix": "OUTER_GROVE/1_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -417.0248810873049,
+        78.08203224450958,
+        36.83837890625
+      ],
+      "scale": 1.0846816697539023,
+      "prefix": "OUTER_GROVE/1_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        59.896219419158484,
+        -275.8690758538666,
+        13.8702392578125
+      ],
+      "scale": 1.1681427351027136,
+      "prefix": "OUTER_GROVE/2_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        61.067910287941245,
+        -265.01550443248567,
+        11.698883056640625
+      ],
+      "scale": 0.9732460458168928,
+      "prefix": "OUTER_GROVE/2_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        44.228320995807245,
+        -270.3321652684115,
+        13.15875244140625
+      ],
+      "scale": 1.1080382209721227,
+      "prefix": "OUTER_GROVE/2_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -341.66003888530315,
+        417.62917009367067,
+        13.67523193359375
+      ],
+      "scale": 1.1032212434097355,
+      "prefix": "OUTER_GROVE/3_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -334.9029432468658,
+        416.45632055795437,
+        13.38177490234375
+      ],
+      "scale": 0.9492789898726002,
+      "prefix": "OUTER_GROVE/3_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -336.3426101484563,
+        425.0762276434963,
+        13.456268310546875
+      ],
+      "scale": 1.2790561307137218,
+      "prefix": "OUTER_GROVE/3_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -342.3518680940228,
+        413.53773567915164,
+        13.750030517578125
+      ],
+      "scale": 0.9505673372469977,
+      "prefix": "OUTER_GROVE/3_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -355.7425049006606,
+        430.20547902892747,
+        14.238677978515625
+      ],
+      "scale": 0.8908077549182294,
+      "prefix": "OUTER_GROVE/3_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -338.8159576176936,
+        434.47799814955147,
+        13.687469482421875
+      ],
+      "scale": 1.273547769661283,
+      "prefix": "OUTER_GROVE/3_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -334.22439524546843,
+        426.2658522232452,
+        13.384765625
+      ],
+      "scale": 0.9628434222041039,
+      "prefix": "OUTER_GROVE/3_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -335.89415215049416,
+        433.9462062214415,
+        13.5975341796875
+      ],
+      "scale": 0.9936241307279422,
+      "prefix": "OUTER_GROVE/3_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -343.55387451066304,
+        370.38369652550745,
+        15.000701904296875
+      ],
+      "scale": 0.8396063284788202,
+      "prefix": "OUTER_GROVE/4_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -351.4994330124151,
+        379.8553262762322,
+        15.453857421875
+      ],
+      "scale": 1.1572986225558937,
+      "prefix": "OUTER_GROVE/4_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -364.0021427883461,
+        364.3813977667169,
+        17.7864990234375
+      ],
+      "scale": 1.0775572939693425,
+      "prefix": "OUTER_GROVE/4_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -351.57456821194546,
+        374.6890277468775,
+        15.677825927734375
+      ],
+      "scale": 0.9273971996512502,
+      "prefix": "OUTER_GROVE/4_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -372.6937247515298,
+        368.4586331924717,
+        18.7022705078125
+      ],
+      "scale": 0.9823976422383369,
+      "prefix": "OUTER_GROVE/4_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -23.714251361282084,
+        -287.22433545098585,
+        17.9617919921875
+      ],
+      "scale": 1.1083046767298306,
+      "prefix": "OUTER_GROVE/6_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -3.345241598132624,
+        -294.08986696471294,
+        18.330291748046875
+      ],
+      "scale": 1.2362181738074,
+      "prefix": "OUTER_GROVE/6_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -17.82304395236869,
+        -295.94121389839444,
+        19.180389404296875
+      ],
+      "scale": 1.0932407017313446,
+      "prefix": "OUTER_GROVE/6_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -15.479288001117219,
+        -310.0565261060208,
+        21.113983154296875
+      ],
+      "scale": 0.904266709935535,
+      "prefix": "OUTER_GROVE/6_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -23.115999780414775,
+        -291.6036291842181,
+        18.684906005859375
+      ],
+      "scale": 1.2907365148332794,
+      "prefix": "OUTER_GROVE/6_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -10.09243887881961,
+        -309.16701660982295,
+        20.799835205078125
+      ],
+      "scale": 1.2836734458667654,
+      "prefix": "OUTER_GROVE/6_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -243.96983514741072,
+        548.6383826488689,
+        21.19970703125
+      ],
+      "scale": 0.8298662122583504,
+      "prefix": "OUTER_GROVE/7_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -276.15906669360504,
+        551.3636739395332,
+        34.3492431640625
+      ],
+      "scale": 1.2069297181903766,
+      "prefix": "OUTER_GROVE/7_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -272.94565501207995,
+        526.4834828944805,
+        24.383758544921875
+      ],
+      "scale": 1.1996093252010307,
+      "prefix": "OUTER_GROVE/7_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -258.30267537010064,
+        521.8601305350107,
+        17.606689453125
+      ],
+      "scale": 1.1747300292609992,
+      "prefix": "OUTER_GROVE/7_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -244.9150249007159,
+        528.1674600211951,
+        14.22314453125
+      ],
+      "scale": 0.8715011271927855,
+      "prefix": "OUTER_GROVE/7_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -359.0450395689247,
+        431.0728705127331,
+        14.379730224609375
+      ],
+      "scale": 1.094325835042541,
+      "prefix": "OUTER_GROVE/8_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -366.6969628397454,
+        445.3231075262934,
+        14.642303466796875
+      ],
+      "scale": 1.2382516093609506,
+      "prefix": "OUTER_GROVE/8_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -384.9140305513058,
+        440.8096564540954,
+        15.3494873046875
+      ],
+      "scale": 0.9738669051156602,
+      "prefix": "OUTER_GROVE/8_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -364.59672512488135,
+        433.1139936421312,
+        14.60284423828125
+      ],
+      "scale": 0.8350462277654044,
+      "prefix": "OUTER_GROVE/8_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -355.3183372846506,
+        435.2470471808157,
+        14.206207275390625
+      ],
+      "scale": 0.9401782192288768,
+      "prefix": "OUTER_GROVE/8_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -362.4681231190831,
+        444.10658584222847,
+        14.5267333984375
+      ],
+      "scale": 1.1605763038480637,
+      "prefix": "OUTER_GROVE/8_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -385.58681107901356,
+        461.2069597813401,
+        15.0782470703125
+      ],
+      "scale": 1.126997672506485,
+      "prefix": "OUTER_GROVE/8_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -360.0573116098985,
+        456.8488133686361,
+        14.864593505859375
+      ],
+      "scale": 1.282585140175693,
+      "prefix": "OUTER_GROVE/8_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -247.3963385348438,
+        -340.1274836541299,
+        0.97698974609375
+      ],
+      "scale": 1.0691717198018549,
+      "prefix": "OUTER_GROVE/9_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -248.2385709215585,
+        -365.26971266583877,
+        0.260955810546875
+      ],
+      "scale": 1.2236794393767103,
+      "prefix": "OUTER_GROVE/9_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -246.11342645495932,
+        -362.0842853210622,
+        0.024017333984375
+      ],
+      "scale": 1.0909458857459573,
+      "prefix": "OUTER_GROVE/9_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -266.8708481972491,
+        -367.96553646596044,
+        2.72882080078125
+      ],
+      "scale": 1.05810195635686,
+      "prefix": "OUTER_GROVE/9_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -249.94071758770122,
+        -342.70661804214063,
+        1.232696533203125
+      ],
+      "scale": 1.2704226966586813,
+      "prefix": "OUTER_GROVE/9_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -248.22326900205573,
+        -341.9088456684158,
+        1.010498046875
+      ],
+      "scale": 1.1648848409256785,
+      "prefix": "OUTER_GROVE/9_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        440.4332489416055,
+        213.1280772203997,
+        65.74209594726562
+      ],
+      "scale": 1.2342893731677687,
+      "prefix": "OUTER_GROVE/10_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        427.0304889137335,
+        221.74662043207687,
+        62.29571533203125
+      ],
+      "scale": 1.0620835702487852,
+      "prefix": "OUTER_GROVE/10_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        426.5946397253906,
+        201.380569940302,
+        60.750701904296875
+      ],
+      "scale": 0.9312850466245405,
+      "prefix": "OUTER_GROVE/10_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        418.3075914347435,
+        199.8272129895741,
+        58.00199890136719
+      ],
+      "scale": 0.841009408265544,
+      "prefix": "OUTER_GROVE/10_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        430.0223745155966,
+        217.49266135157526,
+        63.02650451660156
+      ],
+      "scale": 1.118401181338154,
+      "prefix": "OUTER_GROVE/10_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        444.67218412703545,
+        198.27889573020786,
+        65.56239318847656
+      ],
+      "scale": 0.9880567639729032,
+      "prefix": "OUTER_GROVE/10_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        447.4017735975648,
+        201.66706601369143,
+        66.58935546875
+      ],
+      "scale": 0.91785852283602,
+      "prefix": "OUTER_GROVE/10_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -139.325464443028,
+        -327.5295744864682,
+        1.317138671875
+      ],
+      "scale": 1.025033066339067,
+      "prefix": "OUTER_GROVE/11_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -149.918436340229,
+        -327.2003915925777,
+        0.106048583984375
+      ],
+      "scale": 1.1520035319667181,
+      "prefix": "OUTER_GROVE/11_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -144.9690626077476,
+        -299.48095916529263,
+        0.16259765625
+      ],
+      "scale": 1.1726093135318336,
+      "prefix": "OUTER_GROVE/11_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -151.47216279978502,
+        -314.0111814757515,
+        -0.71478271484375
+      ],
+      "scale": 1.2731051641644435,
+      "prefix": "OUTER_GROVE/11_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -148.57172560860138,
+        -316.10781411421084,
+        -0.126953125
+      ],
+      "scale": 1.0702461307880982,
+      "prefix": "OUTER_GROVE/11_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -148.97758834436425,
+        -312.6178904202498,
+        -0.297698974609375
+      ],
+      "scale": 1.0504363197702604,
+      "prefix": "OUTER_GROVE/11_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        309.5904166313665,
+        349.96952818222866,
+        3.519012451171875
+      ],
+      "scale": 1.2795276821101393,
+      "prefix": "OUTER_GROVE/12_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        16.77567935654519,
+        -360.95508048871375,
+        26.22637939453125
+      ],
+      "scale": 1.1645857206510266,
+      "prefix": "OUTER_GROVE/13_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        19.985351370049642,
+        -389.97781015818856,
+        30.135040283203125
+      ],
+      "scale": 1.1850234478773118,
+      "prefix": "OUTER_GROVE/13_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -4.599886466936372,
+        -375.37192504596214,
+        27.33966064453125
+      ],
+      "scale": 1.1323995397180857,
+      "prefix": "OUTER_GROVE/13_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        1.2515333781154343,
+        -361.22035765831265,
+        25.986785888671875
+      ],
+      "scale": 0.8841126408228055,
+      "prefix": "OUTER_GROVE/13_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        4.706590942201494,
+        -359.2330100735197,
+        25.84649658203125
+      ],
+      "scale": 1.1943008422605768,
+      "prefix": "OUTER_GROVE/13_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        3.375276232511771,
+        -390.5405806675994,
+        29.58734130859375
+      ],
+      "scale": 0.9302613035064796,
+      "prefix": "OUTER_GROVE/13_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        24.229711402612296,
+        -385.0097723280236,
+        29.533599853515625
+      ],
+      "scale": 0.9730459368175703,
+      "prefix": "OUTER_GROVE/13_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -0.2231899188875719,
+        -374.7652512328028,
+        27.40460205078125
+      ],
+      "scale": 1.0528440357752233,
+      "prefix": "OUTER_GROVE/13_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -414.90654784639685,
+        -159.04845185352818,
+        18.53656005859375
+      ],
+      "scale": 1.2337947132636686,
+      "prefix": "OUTER_GROVE/14_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -399.2522929642997,
+        -161.36794478353988,
+        18.655059814453125
+      ],
+      "scale": 1.15423449344576,
+      "prefix": "OUTER_GROVE/14_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -413.559256178431,
+        -164.21146715496772,
+        19.05316162109375
+      ],
+      "scale": 1.1132718230671137,
+      "prefix": "OUTER_GROVE/14_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -417.03297669479537,
+        -145.17077048630085,
+        17.478790283203125
+      ],
+      "scale": 1.2575308844186144,
+      "prefix": "OUTER_GROVE/14_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -429.0327864409929,
+        -140.85386988316841,
+        17.443572998046875
+      ],
+      "scale": 1.1644425803319138,
+      "prefix": "OUTER_GROVE/14_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -420.0662397760779,
+        -165.82917481825757,
+        19.199951171875
+      ],
+      "scale": 0.850672991491719,
+      "prefix": "OUTER_GROVE/14_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -420.12655589540776,
+        -158.3508012925279,
+        18.502593994140625
+      ],
+      "scale": 1.0485650927746286,
+      "prefix": "OUTER_GROVE/14_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -402.5716317399364,
+        -161.25495873151053,
+        18.660919189453125
+      ],
+      "scale": 1.2408106073561125,
+      "prefix": "OUTER_GROVE/14_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -411.27539346829195,
+        -69.46927390502813,
+        21.420806884765625
+      ],
+      "scale": 1.1522740596053394,
+      "prefix": "OUTER_GROVE/15_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -418.8420257120938,
+        -89.84592029509338,
+        19.2279052734375
+      ],
+      "scale": 1.216123086533614,
+      "prefix": "OUTER_GROVE/15_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -391.60562909706084,
+        -68.90532941247241,
+        20.329132080078125
+      ],
+      "scale": 0.821692271650335,
+      "prefix": "OUTER_GROVE/15_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -405.0220835075491,
+        -78.73836792066527,
+        19.927001953125
+      ],
+      "scale": 0.8868590112861111,
+      "prefix": "OUTER_GROVE/15_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -399.1616716847717,
+        -68.45411448704333,
+        20.89801025390625
+      ],
+      "scale": 1.2051193182364597,
+      "prefix": "OUTER_GROVE/15_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -408.80927869799723,
+        -58.596895643440476,
+        22.610931396484375
+      ],
+      "scale": 1.0479957742934312,
+      "prefix": "OUTER_GROVE/15_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -412.0874348171766,
+        -85.28226994461556,
+        19.4749755859375
+      ],
+      "scale": 0.9634669852642124,
+      "prefix": "OUTER_GROVE/15_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -398.7887846091203,
+        -66.20637674743907,
+        21.1644287109375
+      ],
+      "scale": 1.2435426749203815,
+      "prefix": "OUTER_GROVE/15_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -197.0851203158277,
+        554.2589316418241,
+        1.805938720703125
+      ],
+      "scale": 1.0805081336291935,
+      "prefix": "OUTER_GROVE/16_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -192.0585648832105,
+        533.3133251728361,
+        -1.56976318359375
+      ],
+      "scale": 1.1940666565648503,
+      "prefix": "OUTER_GROVE/16_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -192.92121932642877,
+        532.6509645371344,
+        -1.15716552734375
+      ],
+      "scale": 1.181300862341583,
+      "prefix": "OUTER_GROVE/16_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -338.60200997255174,
+        441.3979546694685,
+        13.895751953125
+      ],
+      "scale": 0.9751269362371522,
+      "prefix": "OUTER_GROVE/17_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -346.0146296900451,
+        437.3120592731206,
+        13.92694091796875
+      ],
+      "scale": 1.1695499510976815,
+      "prefix": "OUTER_GROVE/17_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -321.114584791649,
+        434.9076416013482,
+        12.985687255859375
+      ],
+      "scale": 0.9309666277915601,
+      "prefix": "OUTER_GROVE/17_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        67.92222491311628,
+        -337.6026767317966,
+        23.2352294921875
+      ],
+      "scale": 1.0450319391315401,
+      "prefix": "OUTER_GROVE/18_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        78.58312470799453,
+        -336.4037513638974,
+        22.916107177734375
+      ],
+      "scale": 0.874183186410971,
+      "prefix": "OUTER_GROVE/18_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        86.08696866763555,
+        -350.60861798431097,
+        24.797119140625
+      ],
+      "scale": 0.8707379673183555,
+      "prefix": "OUTER_GROVE/18_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        66.68395521237576,
+        -338.65059676125384,
+        23.397857666015625
+      ],
+      "scale": 0.9084931187868935,
+      "prefix": "OUTER_GROVE/18_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        70.31773658180833,
+        -350.26786835368557,
+        25.0045166015625
+      ],
+      "scale": 1.2757071828175621,
+      "prefix": "OUTER_GROVE/18_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -113.81152100849573,
+        451.5739185853849,
+        3.712890625
+      ],
+      "scale": 1.0298631516130652,
+      "prefix": "OUTER_GROVE/19_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -136.01593150326494,
+        458.4975306807356,
+        0.0556640625
+      ],
+      "scale": 1.1379356636208415,
+      "prefix": "OUTER_GROVE/19_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -134.89559065517685,
+        477.58518039688676,
+        0.030120849609375
+      ],
+      "scale": 1.1387129918468695,
+      "prefix": "OUTER_GROVE/19_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -113.02882988289196,
+        474.0903884593843,
+        4.64825439453125
+      ],
+      "scale": 1.0406221209596895,
+      "prefix": "OUTER_GROVE/19_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -34.78092950899453,
+        545.0125286495266,
+        50.4322509765625
+      ],
+      "scale": 1.1131832444779484,
+      "prefix": "OUTER_GROVE/20_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -9.498548882362627,
+        560.8372247010088,
+        71.97090148925781
+      ],
+      "scale": 0.852904345140739,
+      "prefix": "OUTER_GROVE/20_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -12.19536526877782,
+        552.592766710324,
+        69.27017211914062
+      ],
+      "scale": 0.9595935551518073,
+      "prefix": "OUTER_GROVE/20_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -20.974075430636425,
+        550.5006107105947,
+        62.173187255859375
+      ],
+      "scale": 1.2356985973063968,
+      "prefix": "OUTER_GROVE/20_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        376.5946135413193,
+        66.71275067885105,
+        30.206756591796875
+      ],
+      "scale": 1.0935694049965516,
+      "prefix": "OUTER_GROVE/21_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        358.2508784156921,
+        60.758059005669566,
+        10.47894287109375
+      ],
+      "scale": 0.8731418522764852,
+      "prefix": "OUTER_GROVE/21_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        380.41964837391833,
+        46.41132307239569,
+        29.2781982421875
+      ],
+      "scale": 0.9667734816932068,
+      "prefix": "OUTER_GROVE/21_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        391.2044431243547,
+        75.6468288344009,
+        37.88116455078125
+      ],
+      "scale": 0.887855679770276,
+      "prefix": "OUTER_GROVE/21_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -347.04263349436224,
+        353.8609583824519,
+        16.06854248046875
+      ],
+      "scale": 0.9197171865526389,
+      "prefix": "OUTER_GROVE/22_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -325.3214906899623,
+        329.7602390578852,
+        8.867401123046875
+      ],
+      "scale": 1.1191459657933596,
+      "prefix": "OUTER_GROVE/22_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -344.8321571475682,
+        347.011311499552,
+        16.087799072265625
+      ],
+      "scale": 0.8283166126888468,
+      "prefix": "OUTER_GROVE/22_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -345.65731433219435,
+        338.5216794894533,
+        16.637786865234375
+      ],
+      "scale": 1.1507113712577177,
+      "prefix": "OUTER_GROVE/22_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -323.01364670731067,
+        347.9924512457582,
+        9.629150390625
+      ],
+      "scale": 0.8669838319493751,
+      "prefix": "OUTER_GROVE/22_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -337.8320844188249,
+        355.6868482630973,
+        14.8414306640625
+      ],
+      "scale": 1.129728204746356,
+      "prefix": "OUTER_GROVE/22_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -347.013290620758,
+        352.0268784491624,
+        16.146026611328125
+      ],
+      "scale": 1.0372189460162435,
+      "prefix": "OUTER_GROVE/22_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        365.8599992600644,
+        415.48541857723353,
+        41.393890380859375
+      ],
+      "scale": 1.0276684927213875,
+      "prefix": "OUTER_GROVE/23_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        374.2769977231675,
+        406.2704592672058,
+        40.439910888671875
+      ],
+      "scale": 0.8886982771202951,
+      "prefix": "OUTER_GROVE/23_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        368.51889318453306,
+        405.86537808444257,
+        40.744598388671875
+      ],
+      "scale": 1.1528850850074055,
+      "prefix": "OUTER_GROVE/23_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        372.909871957249,
+        433.6877644599715,
+        41.01416015625
+      ],
+      "scale": 1.1515392956899688,
+      "prefix": "OUTER_GROVE/23_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        368.77266086875244,
+        424.83790939504,
+        41.3809814453125
+      ],
+      "scale": 1.1141617496436085,
+      "prefix": "OUTER_GROVE/23_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        386.0862129852691,
+        413.61352320765394,
+        39.874359130859375
+      ],
+      "scale": 0.8653219421121281,
+      "prefix": "OUTER_GROVE/23_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        394.64617598134527,
+        422.92941327053455,
+        39.08740234375
+      ],
+      "scale": 1.2490787030872494,
+      "prefix": "OUTER_GROVE/23_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -78.39897804404399,
+        477.60395495453434,
+        20.941436767578125
+      ],
+      "scale": 1.1564244830757926,
+      "prefix": "OUTER_GROVE/24_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -49.925468736673515,
+        484.22426640138383,
+        36.476043701171875
+      ],
+      "scale": 1.1955058609523415,
+      "prefix": "OUTER_GROVE/24_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -73.03327273320892,
+        484.81158784700517,
+        23.644439697265625
+      ],
+      "scale": 0.9176249740496363,
+      "prefix": "OUTER_GROVE/24_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -62.29564035803033,
+        463.8377883159767,
+        27.367706298828125
+      ],
+      "scale": 1.2651581562472862,
+      "prefix": "OUTER_GROVE/24_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -62.99310078404892,
+        483.6845036664475,
+        29.4306640625
+      ],
+      "scale": 1.1908078064743535,
+      "prefix": "OUTER_GROVE/24_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -58.050786237259246,
+        476.23810890606615,
+        31.644500732421875
+      ],
+      "scale": 1.2871989383500595,
+      "prefix": "OUTER_GROVE/24_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -346.891853098895,
+        203.80829365992417,
+        21.5113525390625
+      ],
+      "scale": 1.0106567338390537,
+      "prefix": "OUTER_GROVE/25_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -345.57575352073025,
+        210.18365282027088,
+        20.884490966796875
+      ],
+      "scale": 0.915464629022292,
+      "prefix": "OUTER_GROVE/25_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -340.3593867749815,
+        206.4602134483759,
+        16.516387939453125
+      ],
+      "scale": 1.167206029934804,
+      "prefix": "OUTER_GROVE/25_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -363.06638653615755,
+        200.47752278884488,
+        28.557281494140625
+      ],
+      "scale": 0.8955358591793905,
+      "prefix": "OUTER_GROVE/25_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -354.89394936821776,
+        214.87766025351698,
+        25.394439697265625
+      ],
+      "scale": 1.2291543247094823,
+      "prefix": "OUTER_GROVE/25_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -340.6888542046217,
+        201.20786245493827,
+        16.29571533203125
+      ],
+      "scale": 0.937371078740482,
+      "prefix": "OUTER_GROVE/25_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -362.33021712714566,
+        193.73306571151429,
+        28.87054443359375
+      ],
+      "scale": 1.0970047474964568,
+      "prefix": "OUTER_GROVE/25_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -358.42755047702013,
+        192.26853530711134,
+        27.876007080078125
+      ],
+      "scale": 1.1664629354571232,
+      "prefix": "OUTER_GROVE/25_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        363.5048155875361,
+        441.6390257671213,
+        42.08929443359375
+      ],
+      "scale": 1.120436497748979,
+      "prefix": "OUTER_GROVE/26_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        384.11684851059624,
+        429.4014534800136,
+        39.911468505859375
+      ],
+      "scale": 1.025697636128449,
+      "prefix": "OUTER_GROVE/26_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        382.8411735295702,
+        438.1378889303913,
+        39.846771240234375
+      ],
+      "scale": 1.1487686943621371,
+      "prefix": "OUTER_GROVE/26_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        364.04975091604723,
+        437.69612180352016,
+        42.00054931640625
+      ],
+      "scale": 1.2195801815950293,
+      "prefix": "OUTER_GROVE/26_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        386.79119640156364,
+        455.29681382820405,
+        38.757232666015625
+      ],
+      "scale": 1.054354714786964,
+      "prefix": "OUTER_GROVE/26_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        376.9876775922137,
+        436.49141638970116,
+        40.53369140625
+      ],
+      "scale": 0.9177778974686067,
+      "prefix": "OUTER_GROVE/26_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        364.5423719849661,
+        437.1192923614496,
+        41.93719482421875
+      ],
+      "scale": 0.9674095729331359,
+      "prefix": "OUTER_GROVE/26_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        388.61842545490964,
+        453.65799614255735,
+        38.55511474609375
+      ],
+      "scale": 0.9798418308153938,
+      "prefix": "OUTER_GROVE/26_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        375.4267901448385,
+        -132.62624669531553,
+        9.33685302734375
+      ],
+      "scale": 0.96170175298673,
+      "prefix": "OUTER_GROVE/27_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        354.8040697098751,
+        -131.0066618123678,
+        7.777435302734375
+      ],
+      "scale": 1.007937426584804,
+      "prefix": "OUTER_GROVE/27_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        376.3911042961389,
+        -130.6225188481057,
+        9.420501708984375
+      ],
+      "scale": 0.9723127081029882,
+      "prefix": "OUTER_GROVE/27_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        369.92811484624093,
+        -106.17116885166001,
+        9.8707275390625
+      ],
+      "scale": 1.2297558885830462,
+      "prefix": "OUTER_GROVE/27_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        201.1113412205059,
+        493.8237168764815,
+        76.3857421875
+      ],
+      "scale": 1.171344949633937,
+      "prefix": "OUTER_GROVE/28_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        205.5258610034202,
+        484.2969613174946,
+        71.12710571289062
+      ],
+      "scale": 0.9659331147093017,
+      "prefix": "OUTER_GROVE/28_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        226.6852453963446,
+        483.5620039422709,
+        70.451904296875
+      ],
+      "scale": 1.0477044700006681,
+      "prefix": "OUTER_GROVE/28_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        211.47117673940622,
+        501.2972582560682,
+        80.69279479980469
+      ],
+      "scale": 1.1389578939540144,
+      "prefix": "OUTER_GROVE/28_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        202.53676795955806,
+        470.9404628398393,
+        63.60646057128906
+      ],
+      "scale": 1.0846172748618403,
+      "prefix": "OUTER_GROVE/28_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        225.13817238646055,
+        474.288867596967,
+        65.50633239746094
+      ],
+      "scale": 1.165221051372531,
+      "prefix": "OUTER_GROVE/28_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        218.18672605649647,
+        487.3874039567282,
+        72.85952758789062
+      ],
+      "scale": 1.1838659910407872,
+      "prefix": "OUTER_GROVE/28_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        203.78966873811322,
+        478.29472593747624,
+        67.71308898925781
+      ],
+      "scale": 0.8295083514263871,
+      "prefix": "OUTER_GROVE/28_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -285.25721784605287,
+        -328.40304516544074,
+        12.11151123046875
+      ],
+      "scale": 1.1010010511236832,
+      "prefix": "OUTER_GROVE/29_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -285.80933346256205,
+        -319.6982266716247,
+        13.03424072265625
+      ],
+      "scale": 0.8321437431808528,
+      "prefix": "OUTER_GROVE/29_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -300.18166829223435,
+        -335.7402004247742,
+        17.3095703125
+      ],
+      "scale": 0.9811195397685286,
+      "prefix": "OUTER_GROVE/29_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -304.91270168182,
+        -340.4267305853724,
+        18.7366943359375
+      ],
+      "scale": 1.2475926730751288,
+      "prefix": "OUTER_GROVE/29_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -298.05846212060675,
+        -318.26383696207483,
+        17.952301025390625
+      ],
+      "scale": 0.976411761515128,
+      "prefix": "OUTER_GROVE/29_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -310.5197063434324,
+        -337.31329333486747,
+        21.35723876953125
+      ],
+      "scale": 1.1731110264597813,
+      "prefix": "OUTER_GROVE/29_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -86.96869564243991,
+        565.809457132727,
+        3.73345947265625
+      ],
+      "scale": 1.2005403651600943,
+      "prefix": "OUTER_GROVE/30_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -55.58601089886757,
+        544.7277442932415,
+        31.215423583984375
+      ],
+      "scale": 0.9857634595766982,
+      "prefix": "OUTER_GROVE/30_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -64.13905288229782,
+        557.8786313392359,
+        20.8145751953125
+      ],
+      "scale": 0.9985941619691245,
+      "prefix": "OUTER_GROVE/30_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -88.1132481888545,
+        543.8748833523608,
+        6.7054443359375
+      ],
+      "scale": 1.1709866758718803,
+      "prefix": "OUTER_GROVE/30_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -61.1717528393719,
+        545.6591400336282,
+        25.953277587890625
+      ],
+      "scale": 1.0338033707586505,
+      "prefix": "OUTER_GROVE/30_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -56.98355539347848,
+        544.5429457893305,
+        29.965576171875
+      ],
+      "scale": 1.2267930183458793,
+      "prefix": "OUTER_GROVE/30_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        301.22180336037036,
+        -283.9732624596115,
+        8.2879638671875
+      ],
+      "scale": 0.9944692104076975,
+      "prefix": "OUTER_GROVE/31_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        323.43364165796487,
+        -296.26957082218127,
+        10.47259521484375
+      ],
+      "scale": 0.8412595323863725,
+      "prefix": "OUTER_GROVE/31_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        312.6096837683215,
+        -283.79729733980133,
+        8.240264892578125
+      ],
+      "scale": 0.8478835562537198,
+      "prefix": "OUTER_GROVE/31_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        326.77328389007346,
+        -282.6788594827014,
+        8.095306396484375
+      ],
+      "scale": 0.9842194433420856,
+      "prefix": "OUTER_GROVE/31_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        317.73369140760485,
+        -288.26207200483174,
+        8.98492431640625
+      ],
+      "scale": 0.9816888785183839,
+      "prefix": "OUTER_GROVE/31_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        301.4670182750956,
+        -295.5513226559158,
+        10.22601318359375
+      ],
+      "scale": 1.1502367506991744,
+      "prefix": "OUTER_GROVE/31_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        321.2513484184046,
+        -271.2444088580688,
+        6.49072265625
+      ],
+      "scale": 0.8522365870877885,
+      "prefix": "OUTER_GROVE/31_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        398.91882127939635,
+        75.9011431763406,
+        40.588134765625
+      ],
+      "scale": 1.044266374829951,
+      "prefix": "OUTER_GROVE/32_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        381.1011198090666,
+        77.10239373232284,
+        34.59130859375
+      ],
+      "scale": 0.9871260042146842,
+      "prefix": "OUTER_GROVE/32_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        397.95215418774586,
+        48.36495537864257,
+        35.8094482421875
+      ],
+      "scale": 1.1684150364042547,
+      "prefix": "OUTER_GROVE/32_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        405.05924164972737,
+        66.28302686947644,
+        41.267791748046875
+      ],
+      "scale": 1.1853889078763533,
+      "prefix": "OUTER_GROVE/32_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        397.14049179824644,
+        53.96710864856253,
+        36.56414794921875
+      ],
+      "scale": 1.0772580313276277,
+      "prefix": "OUTER_GROVE/32_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        401.4876461080453,
+        60.45323930575873,
+        39.1036376953125
+      ],
+      "scale": 0.9786266228761522,
+      "prefix": "OUTER_GROVE/32_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        382.11528777736777,
+        59.97063296374709,
+        32.61041259765625
+      ],
+      "scale": 1.0951636211328757,
+      "prefix": "OUTER_GROVE/32_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        392.528214473654,
+        63.60118577856346,
+        36.64288330078125
+      ],
+      "scale": 1.2054159407798224,
+      "prefix": "OUTER_GROVE/32_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -444.4246329783337,
+        50.49754050109047,
+        35.0283203125
+      ],
+      "scale": 1.1334986232939401,
+      "prefix": "OUTER_GROVE/33_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -423.3224756992607,
+        68.33150274598611,
+        35.734375
+      ],
+      "scale": 1.094167320053836,
+      "prefix": "OUTER_GROVE/33_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -431.3233715945745,
+        58.792857923602234,
+        34.91461181640625
+      ],
+      "scale": 0.990107186679797,
+      "prefix": "OUTER_GROVE/33_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -443.3206014355676,
+        55.482918287054595,
+        36.13702392578125
+      ],
+      "scale": 0.8522124866534653,
+      "prefix": "OUTER_GROVE/33_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -439.31260157443944,
+        71.46465999187645,
+        39.74041748046875
+      ],
+      "scale": 0.9051419757947265,
+      "prefix": "OUTER_GROVE/33_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -427.7281624222421,
+        61.27276827258365,
+        34.861785888671875
+      ],
+      "scale": 1.159603808757115,
+      "prefix": "OUTER_GROVE/33_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -428.6228043495319,
+        65.76802009631308,
+        36.184661865234375
+      ],
+      "scale": 0.8621389247492464,
+      "prefix": "OUTER_GROVE/33_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -144.78869740022313,
+        -273.8316348153445,
+        -0.3095703125
+      ],
+      "scale": 1.0991074056283674,
+      "prefix": "OUTER_GROVE/34_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        31.969571601529264,
+        -331.076760188195,
+        22.637603759765625
+      ],
+      "scale": 1.1330578748225473,
+      "prefix": "OUTER_GROVE/35_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        12.43753031522747,
+        -335.8319456856538,
+        23.41119384765625
+      ],
+      "scale": 1.1713291931342105,
+      "prefix": "OUTER_GROVE/35_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        10.320676532949646,
+        -316.124806317616,
+        21.065185546875
+      ],
+      "scale": 0.9612119426033034,
+      "prefix": "OUTER_GROVE/35_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        16.9805648091491,
+        -322.34814391868616,
+        21.713348388671875
+      ],
+      "scale": 0.9927606394113496,
+      "prefix": "OUTER_GROVE/35_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        434.1193839854207,
+        36.912196773091935,
+        43.752410888671875
+      ],
+      "scale": 1.2999870252745969,
+      "prefix": "OUTER_GROVE/36_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        433.8793046112832,
+        31.705870767215444,
+        42.290374755859375
+      ],
+      "scale": 1.0324416092382998,
+      "prefix": "OUTER_GROVE/36_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        455.59407047336407,
+        37.72721012260267,
+        49.14002990722656
+      ],
+      "scale": 1.1370447597784046,
+      "prefix": "OUTER_GROVE/36_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        451.93384768201946,
+        20.47345260487748,
+        43.093719482421875
+      ],
+      "scale": 0.9964780141221147,
+      "prefix": "OUTER_GROVE/36_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        426.6268228259291,
+        30.00209121425179,
+        40.0078125
+      ],
+      "scale": 0.8629057064768042,
+      "prefix": "OUTER_GROVE/36_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        426.7417215105836,
+        23.531089159609948,
+        38.3963623046875
+      ],
+      "scale": 1.060760247214515,
+      "prefix": "OUTER_GROVE/36_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        439.0171957115575,
+        34.101102034358334,
+        44.22782897949219
+      ],
+      "scale": 1.035220775323355,
+      "prefix": "OUTER_GROVE/36_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        426.20268255609,
+        34.76319923169227,
+        41.0894775390625
+      ],
+      "scale": 1.0472568893623788,
+      "prefix": "OUTER_GROVE/36_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        227.5166402478085,
+        512.1825381184426,
+        85.84127807617188
+      ],
+      "scale": 1.1966171662769718,
+      "prefix": "OUTER_GROVE/37_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        252.8955967074674,
+        506.80639431123524,
+        79.98246765136719
+      ],
+      "scale": 1.006622148051377,
+      "prefix": "OUTER_GROVE/37_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        252.68968881147813,
+        521.2232621521201,
+        86.85647583007812
+      ],
+      "scale": 1.033215367829197,
+      "prefix": "OUTER_GROVE/37_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        232.69838967216344,
+        519.0215541696583,
+        88.73757934570312
+      ],
+      "scale": 1.1517711296523008,
+      "prefix": "OUTER_GROVE/37_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        240.98250639721354,
+        502.1425277100112,
+        79.33375549316406
+      ],
+      "scale": 1.0273583540582987,
+      "prefix": "OUTER_GROVE/37_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        253.29632488137352,
+        515.5537376798092,
+        84.15069580078125
+      ],
+      "scale": 1.0070277328831372,
+      "prefix": "OUTER_GROVE/37_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        240.2847993054947,
+        505.4937167593581,
+        81.16523742675781
+      ],
+      "scale": 0.9353320997755671,
+      "prefix": "OUTER_GROVE/37_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -109.38691377557542,
+        -369.7290162619215,
+        11.94268798828125
+      ],
+      "scale": 0.9949605968888842,
+      "prefix": "OUTER_GROVE/38_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -80.65283131152492,
+        -377.8315470395993,
+        20.616851806640625
+      ],
+      "scale": 1.1389557719216195,
+      "prefix": "OUTER_GROVE/38_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -81.62691771651485,
+        -361.7005996315262,
+        19.284698486328125
+      ],
+      "scale": 1.0699526689292083,
+      "prefix": "OUTER_GROVE/38_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -82.98491888106281,
+        -373.1496528954478,
+        19.702484130859375
+      ],
+      "scale": 1.2672274849678389,
+      "prefix": "OUTER_GROVE/38_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -85.23716181932662,
+        -369.16747522470536,
+        18.85357666015625
+      ],
+      "scale": 1.1169194628289225,
+      "prefix": "OUTER_GROVE/38_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -101.24702713649086,
+        -351.61343309860416,
+        12.9637451171875
+      ],
+      "scale": 0.9958218188536303,
+      "prefix": "OUTER_GROVE/38_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -89.01291421116389,
+        -356.06303210188935,
+        16.89105224609375
+      ],
+      "scale": 0.8979998877096005,
+      "prefix": "OUTER_GROVE/38_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -81.67190959242697,
+        -347.6407518996709,
+        18.221435546875
+      ],
+      "scale": 1.1100035037228027,
+      "prefix": "OUTER_GROVE/38_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -300.1027773227017,
+        -293.53579272630697,
+        20.06414794921875
+      ],
+      "scale": 0.8603818543242456,
+      "prefix": "OUTER_GROVE/39_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -313.7310346583904,
+        -312.1109878906232,
+        24.488189697265625
+      ],
+      "scale": 1.0276880560222226,
+      "prefix": "OUTER_GROVE/39_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -316.73801265115117,
+        -319.96203599479173,
+        25.203765869140625
+      ],
+      "scale": 1.0098871528546145,
+      "prefix": "OUTER_GROVE/39_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -316.1242963389822,
+        -303.62634979407227,
+        25.665863037109375
+      ],
+      "scale": 1.0870803077677356,
+      "prefix": "OUTER_GROVE/39_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -305.34159472783017,
+        -307.3138697735315,
+        21.510650634765625
+      ],
+      "scale": 0.9066817151208371,
+      "prefix": "OUTER_GROVE/39_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -323.2658068070612,
+        -307.3972014782573,
+        28.0045166015625
+      ],
+      "scale": 0.8786537442208842,
+      "prefix": "OUTER_GROVE/39_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -329.2429511641486,
+        -325.2105260319927,
+        29.274169921875
+      ],
+      "scale": 0.9369912278386682,
+      "prefix": "OUTER_GROVE/39_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        316.4950425908859,
+        -198.53172640951107,
+        8.737091064453125
+      ],
+      "scale": 1.0217317709459266,
+      "prefix": "OUTER_GROVE/40_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        322.14904333641,
+        -222.36842903021923,
+        6.32476806640625
+      ],
+      "scale": 1.062029770766307,
+      "prefix": "OUTER_GROVE/40_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        296.70134334405685,
+        -197.09626529031596,
+        7.9801025390625
+      ],
+      "scale": 1.258011825129223,
+      "prefix": "OUTER_GROVE/40_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        310.71416795531417,
+        -228.93936243325925,
+        6.394256591796875
+      ],
+      "scale": 0.9314845931023775,
+      "prefix": "OUTER_GROVE/40_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        316.8268010571802,
+        -197.1018818000265,
+        8.826690673828125
+      ],
+      "scale": 1.0458625954877736,
+      "prefix": "OUTER_GROVE/40_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        298.52229824768875,
+        -212.7759893387995,
+        8.55133056640625
+      ],
+      "scale": 1.2665653387336868,
+      "prefix": "OUTER_GROVE/40_5/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        302.19713722732774,
+        -204.19509798642702,
+        8.8800048828125
+      ],
+      "scale": 1.1038104974863368,
+      "prefix": "OUTER_GROVE/40_6/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        313.8042209798847,
+        -215.5843774895001,
+        7.39080810546875
+      ],
+      "scale": 1.0707430692499549,
+      "prefix": "OUTER_GROVE/40_7/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -220.02216141913294,
+        564.7810331707396,
+        14.330841064453125
+      ],
+      "scale": 0.9164787319379137,
+      "prefix": "OUTER_GROVE/41_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -211.09306572132363,
+        554.219677021118,
+        6.735626220703125
+      ],
+      "scale": 1.1252335854931235,
+      "prefix": "OUTER_GROVE/41_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -224.14441850875306,
+        553.344004530958,
+        12.731475830078125
+      ],
+      "scale": 1.261485095369334,
+      "prefix": "OUTER_GROVE/41_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        -228.42550638062542,
+        542.801335441833,
+        11.678009033203125
+      ],
+      "scale": 1.2342858068681966,
+      "prefix": "OUTER_GROVE/41_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        73.06275966868441,
+        434.07329813235805,
+        5.16595458984375
+      ],
+      "scale": 1.068297388097482,
+      "prefix": "OUTER_GROVE/42_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        117.53247450987767,
+        -280.831555332169,
+        14.129486083984375
+      ],
+      "scale": 0.8365978400997913,
+      "prefix": "OUTER_GROVE/43_0/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        111.33841395838448,
+        -283.2089138942661,
+        14.492431640625
+      ],
+      "scale": 1.0981292591858542,
+      "prefix": "OUTER_GROVE/43_1/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        123.79885929641515,
+        -294.4780239286616,
+        15.7371826171875
+      ],
+      "scale": 1.0896471556865488,
+      "prefix": "OUTER_GROVE/43_2/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        124.69162525239989,
+        -295.84827695449434,
+        15.900360107421875
+      ],
+      "scale": 0.8973908664524441,
+      "prefix": "OUTER_GROVE/43_3/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    },
+    {
+      "position": [
+        118.45911067462775,
+        -287.5489154813191,
+        14.9501953125
+      ],
+      "scale": 0.8789096974164471,
+      "prefix": "OUTER_GROVE/43_4/",
+      "support": "LANDSCAPE/Continuous outer hills"
+    }
+  ],
+  "completeOuterVillas": [
+    {
+      "position": [
+        46.452181849014664,
+        -293.71437714863157,
+        18.478033447265624
+      ],
+      "rotation": 0.12047302646923974,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 15.050115966796875,
+      "terrainSupportHeights": [
+        18.328033447265625,
+        15.990692138671875,
+        17.739166259765625,
+        15.400115966796875,
+        16.856475830078125
+      ]
+    },
+    {
+      "position": [
+        340.478268909151,
+        -233.9478022302284,
+        5.596746826171875
+      ],
+      "rotation": 0.8102723487803384,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 4.23648681640625,
+      "terrainSupportHeights": [
+        4.67645263671875,
+        5.1976318359375,
+        4.58648681640625,
+        5.446746826171875,
+        4.8509521484375
+      ]
+    },
+    {
+      "position": [
+        -383.2491089636865,
+        409.5886026089802,
+        18.048406982421874
+      ],
+      "rotation": 4.017320725648569,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 15.523565673828125,
+      "terrainSupportHeights": [
+        16.230133056640625,
+        15.873565673828125,
+        17.898406982421875,
+        17.550079345703125,
+        16.85577392578125
+      ]
+    },
+    {
+      "position": [
+        -362.03533886461685,
+        -193.01388252391632,
+        24.99930419921875
+      ],
+      "rotation": -0.9072953369521235,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 21.299871826171874,
+      "terrainSupportHeights": [
+        22.99798583984375,
+        21.649871826171875,
+        24.84930419921875,
+        23.629974365234375,
+        23.341217041015625
+      ]
+    },
+    {
+      "position": [
+        175.81385046134653,
+        -329.1084638467094,
+        20.131048583984374
+      ],
+      "rotation": 0.39719852764027674,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 16.482611083984374,
+      "terrainSupportHeights": [
+        19.981048583984375,
+        18.337799072265625,
+        18.53857421875,
+        16.832611083984375,
+        18.4248046875
+      ]
+    },
+    {
+      "position": [
+        367.78557839912116,
+        -120.43925932184229,
+        10.076666259765625
+      ],
+      "rotation": 1.0510845343902997,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 7.461614990234375,
+      "terrainSupportHeights": [
+        9.251312255859375,
+        7.811614990234375,
+        9.926666259765625,
+        9.11541748046875,
+        9.3414306640625
+      ]
+    },
+    {
+      "position": [
+        343.07827769617387,
+        436.9514133326726,
+        45.37718811035156
+      ],
+      "rotation": 2.361807429769107,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 42.71280517578125,
+      "terrainSupportHeights": [
+        43.06280517578125,
+        43.562652587890625,
+        44.863861083984375,
+        45.22718811035156,
+        44.181854248046875
+      ]
+    },
+    {
+      "position": [
+        -397.78329048408494,
+        -21.583253345812366,
+        25.255499267578124
+      ],
+      "rotation": -1.2973122872273386,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 23.45322265625,
+      "terrainSupportHeights": [
+        25.105499267578125,
+        24.152374267578125,
+        24.53497314453125,
+        23.80322265625,
+        24.510955810546875
+      ]
+    },
+    {
+      "position": [
+        -22.824607768547143,
+        -272.9112635198996,
+        17.012060546875
+      ],
+      "rotation": -0.06281035265410084,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 12.45401611328125,
+      "terrainSupportHeights": [
+        16.862060546875,
+        12.894989013671875,
+        16.56500244140625,
+        12.80401611328125,
+        15.335906982421875
+      ]
+    },
+    {
+      "position": [
+        268.55295872889405,
+        -258.6339044503944,
+        8.048193359375
+      ],
+      "rotation": 0.6563674983031411,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 6.444952392578125,
+      "terrainSupportHeights": [
+        7.6529541015625,
+        7.898193359375,
+        6.794952392578125,
+        7.46710205078125,
+        7.312835693359375
+      ]
+    },
+    {
+      "position": [
+        -330.6688413956796,
+        454.71227010376634,
+        16.13626708984375
+      ],
+      "rotation": 3.878073368053954,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 13.565985107421875,
+      "terrainSupportHeights": [
+        15.98626708984375,
+        14.449005126953125,
+        14.714111328125,
+        13.915985107421875,
+        14.745452880859375
+      ]
+    },
+    {
+      "position": [
+        -421.6812480869399,
+        177.5695882608661,
+        48.04434814453125
+      ],
+      "rotation": 4.5076315903427595,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 42.57913818359375,
+      "terrainSupportHeights": [
+        45.666229248046875,
+        42.92913818359375,
+        47.89434814453125,
+        45.23631286621094,
+        45.52000427246094
+      ]
+    },
+    {
+      "position": [
+        -351.16717394606815,
+        -114.14218488791323,
+        13.705938720703125
+      ],
+      "rotation": -1.0442217880881994,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 9.671759033203125,
+      "terrainSupportHeights": [
+        13.555938720703125,
+        12.2958984375,
+        13.285186767578125,
+        10.021759033203125,
+        12.64971923828125
+      ]
+    },
+    {
+      "position": [
+        90.35721422828637,
+        -313.0668208365251,
+        20.83170166015625
+      ],
+      "rotation": 0.22052837102736778,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 17.320562744140624,
+      "terrainSupportHeights": [
+        20.68170166015625,
+        18.4617919921875,
+        19.840576171875,
+        17.670562744140625,
+        19.17620849609375
+      ]
+    },
+    {
+      "position": [
+        385.44163701807736,
+        -218.46798172662793,
+        5.46866455078125
+      ],
+      "rotation": 0.895874003355358,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 3.988226318359375,
+      "terrainSupportHeights": [
+        4.338226318359375,
+        4.735137939453125,
+        4.70538330078125,
+        5.31866455078125,
+        4.68719482421875
+      ]
+    },
+    {
+      "position": [
+        367.5590353662143,
+        366.2545616128235,
+        37.864508056640624
+      ],
+      "rotation": 2.21531576517508,
+      "terrace": [
+        15.720000457763671,
+        15.099999618530273
+      ],
+      "foundationBase": 34.08365478515625,
+      "terrainSupportHeights": [
+        36.237701416015625,
+        34.43365478515625,
+        37.714508056640625,
+        36.118927001953125,
+        36.1043701171875
+      ]
+    }
+  ],
+  "caveat": "Outer hills and villas are visual world continuation beyond the physically enclosed playable city."
+}

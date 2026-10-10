@@ -1,0 +1,1517 @@
+{
+  "revision": "civic-court-1",
+  "coordinateSystem": "blender_xyz_z_up",
+  "districtLayoutSHA256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+  "parts": [
+    {
+      "id": "CivicWestRoof",
+      "kind": "roof",
+      "center": [
+        151.5,
+        127.85
+      ],
+      "dimensions": [
+        6.5,
+        31.3
+      ],
+      "polygon": [
+        [
+          148.25,
+          112.19999999999999
+        ],
+        [
+          154.75,
+          112.19999999999999
+        ],
+        [
+          154.75,
+          143.5
+        ],
+        [
+          148.25,
+          143.5
+        ]
+      ],
+      "groundZ": -0.035,
+      "axis": "y"
+    },
+    {
+      "id": "CivicNorthRoof",
+      "kind": "roof",
+      "center": [
+        169.8,
+        141.75
+      ],
+      "dimensions": [
+        30.1,
+        6.5
+      ],
+      "polygon": [
+        [
+          154.75,
+          138.5
+        ],
+        [
+          184.85000000000002,
+          138.5
+        ],
+        [
+          184.85000000000002,
+          145.0
+        ],
+        [
+          154.75,
+          145.0
+        ]
+      ],
+      "groundZ": -0.035,
+      "axis": "x"
+    },
+    {
+      "id": "CivicSouthRoof",
+      "kind": "roof",
+      "center": [
+        157.1,
+        115.35
+      ],
+      "dimensions": [
+        4.7,
+        6.3
+      ],
+      "polygon": [
+        [
+          154.75,
+          112.19999999999999
+        ],
+        [
+          159.45,
+          112.19999999999999
+        ],
+        [
+          159.45,
+          118.5
+        ],
+        [
+          154.75,
+          118.5
+        ]
+      ],
+      "groundZ": -0.035,
+      "axis": "x"
+    },
+    {
+      "id": "CivicWestPaving",
+      "kind": "paving",
+      "center": [
+        151.5,
+        127.85
+      ],
+      "dimensions": [
+        6,
+        30.8
+      ],
+      "polygon": [
+        [
+          148.5,
+          112.44999999999999
+        ],
+        [
+          154.5,
+          112.44999999999999
+        ],
+        [
+          154.5,
+          143.25
+        ],
+        [
+          148.5,
+          143.25
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicNorthPaving",
+      "kind": "paving",
+      "center": [
+        169.8,
+        141.75
+      ],
+      "dimensions": [
+        29.6,
+        6
+      ],
+      "polygon": [
+        [
+          155.0,
+          138.75
+        ],
+        [
+          184.60000000000002,
+          138.75
+        ],
+        [
+          184.60000000000002,
+          144.75
+        ],
+        [
+          155.0,
+          144.75
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicSouthPaving",
+      "kind": "paving",
+      "center": [
+        157.1,
+        115.35
+      ],
+      "dimensions": [
+        4.2,
+        5.8
+      ],
+      "polygon": [
+        [
+          155.0,
+          112.44999999999999
+        ],
+        [
+          159.2,
+          112.44999999999999
+        ],
+        [
+          159.2,
+          118.25
+        ],
+        [
+          155.0,
+          118.25
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_06",
+      "kind": "column",
+      "center": [
+        149.05,
+        112.85
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          148.55,
+          112.35
+        ],
+        [
+          149.55,
+          112.35
+        ],
+        [
+          149.55,
+          113.35
+        ],
+        [
+          148.55,
+          113.35
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_07",
+      "kind": "column",
+      "center": [
+        149.05,
+        118.6
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          148.55,
+          118.1
+        ],
+        [
+          149.55,
+          118.1
+        ],
+        [
+          149.55,
+          119.1
+        ],
+        [
+          148.55,
+          119.1
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_08",
+      "kind": "column",
+      "center": [
+        149.05,
+        124.35
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          148.55,
+          123.85
+        ],
+        [
+          149.55,
+          123.85
+        ],
+        [
+          149.55,
+          124.85
+        ],
+        [
+          148.55,
+          124.85
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_09",
+      "kind": "column",
+      "center": [
+        149.05,
+        130.1
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          148.55,
+          129.6
+        ],
+        [
+          149.55,
+          129.6
+        ],
+        [
+          149.55,
+          130.6
+        ],
+        [
+          148.55,
+          130.6
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_10",
+      "kind": "column",
+      "center": [
+        149.05,
+        135.85
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          148.55,
+          135.35
+        ],
+        [
+          149.55,
+          135.35
+        ],
+        [
+          149.55,
+          136.35
+        ],
+        [
+          148.55,
+          136.35
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_11",
+      "kind": "column",
+      "center": [
+        149.05,
+        141.6
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          148.55,
+          141.1
+        ],
+        [
+          149.55,
+          141.1
+        ],
+        [
+          149.55,
+          142.1
+        ],
+        [
+          148.55,
+          142.1
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_12",
+      "kind": "column",
+      "center": [
+        153.95,
+        112.85
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          153.45,
+          112.35
+        ],
+        [
+          154.45,
+          112.35
+        ],
+        [
+          154.45,
+          113.35
+        ],
+        [
+          153.45,
+          113.35
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_13",
+      "kind": "column",
+      "center": [
+        153.95,
+        118.6
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          153.45,
+          118.1
+        ],
+        [
+          154.45,
+          118.1
+        ],
+        [
+          154.45,
+          119.1
+        ],
+        [
+          153.45,
+          119.1
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_14",
+      "kind": "column",
+      "center": [
+        153.95,
+        124.35
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          153.45,
+          123.85
+        ],
+        [
+          154.45,
+          123.85
+        ],
+        [
+          154.45,
+          124.85
+        ],
+        [
+          153.45,
+          124.85
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_15",
+      "kind": "column",
+      "center": [
+        153.95,
+        130.1
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          153.45,
+          129.6
+        ],
+        [
+          154.45,
+          129.6
+        ],
+        [
+          154.45,
+          130.6
+        ],
+        [
+          153.45,
+          130.6
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_16",
+      "kind": "column",
+      "center": [
+        153.95,
+        135.85
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          153.45,
+          135.35
+        ],
+        [
+          154.45,
+          135.35
+        ],
+        [
+          154.45,
+          136.35
+        ],
+        [
+          153.45,
+          136.35
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_17",
+      "kind": "column",
+      "center": [
+        158.65,
+        139.3
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          158.15,
+          138.8
+        ],
+        [
+          159.15,
+          138.8
+        ],
+        [
+          159.15,
+          139.8
+        ],
+        [
+          158.15,
+          139.8
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_18",
+      "kind": "column",
+      "center": [
+        164.45,
+        139.3
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          163.95,
+          138.8
+        ],
+        [
+          164.95,
+          138.8
+        ],
+        [
+          164.95,
+          139.8
+        ],
+        [
+          163.95,
+          139.8
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_19",
+      "kind": "column",
+      "center": [
+        170.25,
+        139.3
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          169.75,
+          138.8
+        ],
+        [
+          170.75,
+          138.8
+        ],
+        [
+          170.75,
+          139.8
+        ],
+        [
+          169.75,
+          139.8
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_20",
+      "kind": "column",
+      "center": [
+        176.05,
+        139.3
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          175.55,
+          138.8
+        ],
+        [
+          176.55,
+          138.8
+        ],
+        [
+          176.55,
+          139.8
+        ],
+        [
+          175.55,
+          139.8
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_21",
+      "kind": "column",
+      "center": [
+        181.85,
+        139.3
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          181.35,
+          138.8
+        ],
+        [
+          182.35,
+          138.8
+        ],
+        [
+          182.35,
+          139.8
+        ],
+        [
+          181.35,
+          139.8
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_22",
+      "kind": "column",
+      "center": [
+        158.65,
+        144.2
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          158.15,
+          143.7
+        ],
+        [
+          159.15,
+          143.7
+        ],
+        [
+          159.15,
+          144.7
+        ],
+        [
+          158.15,
+          144.7
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_23",
+      "kind": "column",
+      "center": [
+        164.45,
+        144.2
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          163.95,
+          143.7
+        ],
+        [
+          164.95,
+          143.7
+        ],
+        [
+          164.95,
+          144.7
+        ],
+        [
+          163.95,
+          144.7
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_24",
+      "kind": "column",
+      "center": [
+        170.25,
+        144.2
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          169.75,
+          143.7
+        ],
+        [
+          170.75,
+          143.7
+        ],
+        [
+          170.75,
+          144.7
+        ],
+        [
+          169.75,
+          144.7
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_25",
+      "kind": "column",
+      "center": [
+        176.05,
+        144.2
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          175.55,
+          143.7
+        ],
+        [
+          176.55,
+          143.7
+        ],
+        [
+          176.55,
+          144.7
+        ],
+        [
+          175.55,
+          144.7
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicColumn_26",
+      "kind": "column",
+      "center": [
+        181.85,
+        144.2
+      ],
+      "dimensions": [
+        1.0,
+        1.0
+      ],
+      "polygon": [
+        [
+          181.35,
+          143.7
+        ],
+        [
+          182.35,
+          143.7
+        ],
+        [
+          182.35,
+          144.7
+        ],
+        [
+          181.35,
+          144.7
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicSouthColumn_A",
+      "kind": "column",
+      "center": [
+        158.65,
+        112.85
+      ],
+      "dimensions": [
+        1,
+        1
+      ],
+      "polygon": [
+        [
+          158.15,
+          112.35
+        ],
+        [
+          159.15,
+          112.35
+        ],
+        [
+          159.15,
+          113.35
+        ],
+        [
+          158.15,
+          113.35
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicSouthColumn_B",
+      "kind": "column",
+      "center": [
+        158.65,
+        117.85
+      ],
+      "dimensions": [
+        1,
+        1
+      ],
+      "polygon": [
+        [
+          158.15,
+          117.35
+        ],
+        [
+          159.15,
+          117.35
+        ],
+        [
+          159.15,
+          118.35
+        ],
+        [
+          158.15,
+          118.35
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicWestWall_A",
+      "kind": "wall",
+      "center": [
+        148.48,
+        121.1
+      ],
+      "dimensions": [
+        0.32,
+        18.0
+      ],
+      "polygon": [
+        [
+          148.32,
+          112.1
+        ],
+        [
+          148.64,
+          112.1
+        ],
+        [
+          148.64,
+          130.1
+        ],
+        [
+          148.32,
+          130.1
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicWestWall_B",
+      "kind": "wall",
+      "center": [
+        148.48,
+        139.95
+      ],
+      "dimensions": [
+        0.32,
+        7.9
+      ],
+      "polygon": [
+        [
+          148.32,
+          136.0
+        ],
+        [
+          148.64,
+          136.0
+        ],
+        [
+          148.64,
+          143.89999999999998
+        ],
+        [
+          148.32,
+          143.89999999999998
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicNorthWall_A",
+      "kind": "wall",
+      "center": [
+        164.5,
+        145.02
+      ],
+      "dimensions": [
+        24,
+        0.32
+      ],
+      "polygon": [
+        [
+          152.5,
+          144.86
+        ],
+        [
+          176.5,
+          144.86
+        ],
+        [
+          176.5,
+          145.18
+        ],
+        [
+          152.5,
+          145.18
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicNorthWall_B",
+      "kind": "wall",
+      "center": [
+        183.3,
+        145.02
+      ],
+      "dimensions": [
+        3,
+        0.32
+      ],
+      "polygon": [
+        [
+          181.8,
+          144.86
+        ],
+        [
+          184.8,
+          144.86
+        ],
+        [
+          184.8,
+          145.18
+        ],
+        [
+          181.8,
+          145.18
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicReflectingBasin",
+      "kind": "basin",
+      "center": [
+        159.7,
+        128.75
+      ],
+      "dimensions": [
+        4.8,
+        8.0
+      ],
+      "polygon": [
+        [
+          157.29999999999998,
+          124.75
+        ],
+        [
+          162.1,
+          124.75
+        ],
+        [
+          162.1,
+          132.75
+        ],
+        [
+          157.29999999999998,
+          132.75
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicHerbBed_A",
+      "kind": "bed",
+      "center": [
+        171.7,
+        136.45
+      ],
+      "dimensions": [
+        8.0,
+        1.7
+      ],
+      "polygon": [
+        [
+          167.7,
+          135.6
+        ],
+        [
+          175.7,
+          135.6
+        ],
+        [
+          175.7,
+          137.29999999999998
+        ],
+        [
+          167.7,
+          137.29999999999998
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicHerbBed_B",
+      "kind": "bed",
+      "center": [
+        180.1,
+        136.45
+      ],
+      "dimensions": [
+        2.8,
+        1.7
+      ],
+      "polygon": [
+        [
+          178.7,
+          135.6
+        ],
+        [
+          181.5,
+          135.6
+        ],
+        [
+          181.5,
+          137.29999999999998
+        ],
+        [
+          178.7,
+          137.29999999999998
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicBench_0",
+      "kind": "bench",
+      "center": [
+        167.15,
+        138.0
+      ],
+      "dimensions": [
+        2.6,
+        1.0
+      ],
+      "polygon": [
+        [
+          165.85,
+          137.5
+        ],
+        [
+          168.45000000000002,
+          137.5
+        ],
+        [
+          168.45000000000002,
+          138.5
+        ],
+        [
+          165.85,
+          138.5
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicBench_1",
+      "kind": "bench",
+      "center": [
+        176.65,
+        138.0
+      ],
+      "dimensions": [
+        2.6,
+        1.0
+      ],
+      "polygon": [
+        [
+          175.35,
+          137.5
+        ],
+        [
+          177.95000000000002,
+          137.5
+        ],
+        [
+          177.95000000000002,
+          138.5
+        ],
+        [
+          175.35,
+          138.5
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicLamp_0",
+      "kind": "lamp",
+      "center": [
+        155.6,
+        114.5
+      ],
+      "dimensions": [
+        0.65,
+        0.65
+      ],
+      "polygon": [
+        [
+          155.275,
+          114.175
+        ],
+        [
+          155.92499999999998,
+          114.175
+        ],
+        [
+          155.92499999999998,
+          114.825
+        ],
+        [
+          155.275,
+          114.825
+        ]
+      ],
+      "groundZ": -0.035
+    },
+    {
+      "id": "CivicLamp_1",
+      "kind": "lamp",
+      "center": [
+        181.1,
+        139.9
+      ],
+      "dimensions": [
+        0.65,
+        0.65
+      ],
+      "polygon": [
+        [
+          180.775,
+          139.57500000000002
+        ],
+        [
+          181.42499999999998,
+          139.57500000000002
+        ],
+        [
+          181.42499999999998,
+          140.225
+        ],
+        [
+          180.775,
+          140.225
+        ]
+      ],
+      "groundZ": -0.035
+    }
+  ],
+  "anchors": [
+    {
+      "id": "CivicBench_0-0.6",
+      "position": [
+        166.55,
+        137.92,
+        -0.035
+      ],
+      "facing": 0,
+      "activity": "resting",
+      "role": "seated-citizen",
+      "zone": "civic_court",
+      "groupId": "CivicBench_0",
+      "seatTop": 0.405,
+      "feetZ": -0.035,
+      "benchId": "CivicBench_0"
+    },
+    {
+      "id": "CivicBench_00.6",
+      "position": [
+        167.75,
+        137.92,
+        -0.035
+      ],
+      "facing": 0,
+      "activity": "resting",
+      "role": "seated-citizen",
+      "zone": "civic_court",
+      "groupId": "CivicBench_0",
+      "seatTop": 0.405,
+      "feetZ": -0.035,
+      "benchId": "CivicBench_0"
+    },
+    {
+      "id": "CivicBench_1-0.6",
+      "position": [
+        176.05,
+        137.92,
+        -0.035
+      ],
+      "facing": 0,
+      "activity": "resting",
+      "role": "seated-citizen",
+      "zone": "civic_court",
+      "groupId": "CivicBench_1",
+      "seatTop": 0.405,
+      "feetZ": -0.035,
+      "benchId": "CivicBench_1"
+    },
+    {
+      "id": "CivicBench_10.6",
+      "position": [
+        177.25,
+        137.92,
+        -0.035
+      ],
+      "facing": 0,
+      "activity": "resting",
+      "role": "seated-citizen",
+      "zone": "civic_court",
+      "groupId": "CivicBench_1",
+      "seatTop": 0.405,
+      "feetZ": -0.035,
+      "benchId": "CivicBench_1"
+    },
+    {
+      "id": "CivicGardenResident_0",
+      "position": [
+        155.8,
+        119.6,
+        -0.035
+      ],
+      "facing": -0.7,
+      "activity": "gardening",
+      "role": "worker",
+      "zone": "civic_court",
+      "groupId": "CivicGardenGroup_0"
+    },
+    {
+      "id": "CivicGardenResident_1",
+      "position": [
+        157.1,
+        119.7,
+        -0.035
+      ],
+      "facing": 0.7,
+      "activity": "conversation",
+      "role": "citizen",
+      "zone": "civic_court",
+      "groupId": "CivicGardenGroup_0"
+    },
+    {
+      "id": "CivicGardenResident_2",
+      "position": [
+        157.0,
+        116.0,
+        0
+      ],
+      "facing": 2.4,
+      "activity": "gardening",
+      "role": "worker",
+      "zone": "civic_court",
+      "groupId": "CivicGardenGroup_1"
+    },
+    {
+      "id": "CivicGardenResident_3",
+      "position": [
+        178.8,
+        137.8,
+        -0.035
+      ],
+      "facing": -0.8,
+      "activity": "conversation",
+      "role": "citizen",
+      "zone": "civic_court",
+      "groupId": "CivicGardenGroup_1"
+    },
+    {
+      "id": "CivicGardenResident_4",
+      "position": [
+        179.9,
+        138.15,
+        -0.035
+      ],
+      "facing": 2.1,
+      "activity": "conversation",
+      "role": "citizen",
+      "zone": "civic_court",
+      "groupId": "CivicGardenGroup_2"
+    },
+    {
+      "id": "CivicGardenResident_5",
+      "position": [
+        164.7,
+        136.8,
+        -0.035
+      ],
+      "facing": -0.6,
+      "activity": "conversation",
+      "role": "citizen",
+      "zone": "civic_court",
+      "groupId": "CivicGardenGroup_2"
+    }
+  ],
+  "routes": [
+    {
+      "id": "CivicCourtGardenLoop",
+      "label": "Fountain garden circuit",
+      "zone": "civic_court",
+      "width": 1.2,
+      "clearWidth": 1.2,
+      "closed": true,
+      "points": [
+        [
+          155.8,
+          122,
+          -0.035
+        ],
+        [
+          163.6,
+          122,
+          -0.035
+        ],
+        [
+          163.6,
+          135.1,
+          -0.035
+        ],
+        [
+          155.8,
+          135.1,
+          -0.035
+        ],
+        [
+          155.8,
+          122,
+          -0.035
+        ]
+      ]
+    }
+  ],
+  "clear_routes": [
+    {
+      "id": "CivicCourtPublicTour",
+      "label": "Eastern garden and covered peristyle",
+      "width": 3.0,
+      "clearWidth": 3.0,
+      "zone": "civic_court",
+      "points": [
+        [
+          143.65,
+          132.975,
+          -0.035
+        ],
+        [
+          151.5,
+          132.975,
+          -0.035
+        ],
+        [
+          151.5,
+          141.75,
+          -0.035
+        ],
+        [
+          179.0,
+          141.75,
+          -0.035
+        ],
+        [
+          179.0,
+          149.0,
+          -0.035
+        ]
+      ],
+      "closed": false
+    }
+  ],
+  "animatedActorCount": 4,
+  "cameras": {
+    "street_district_civic_court": {
+      "position": [
+        151.5,
+        120,
+        1.72
+      ],
+      "target": [
+        161,
+        134,
+        2.1
+      ],
+      "lens": 28
+    },
+    "district_civic_court_aerial": {
+      "position": [
+        207,
+        73,
+        61
+      ],
+      "target": [
+        163,
+        130,
+        2.5
+      ],
+      "lens": 44
+    }
+  },
+  "destinations": [
+    {
+      "id": "street_district_civic_court",
+      "label": "Eastern fountain garden",
+      "position": [
+        151.5,
+        120,
+        1.72
+      ],
+      "lookAt": [
+        161,
+        134,
+        2.1
+      ]
+    }
+  ],
+  "audit": {
+    "failures": [],
+    "sourceObstacleSHA256": "7d544751b4385bafb6da69b020ceb4936554bc8edeea31a88e47e8047c8c3772"
+  }
+}

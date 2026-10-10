@@ -1,0 +1,91 @@
+{
+  "workshops": [
+    {
+      "id": "Workshop_0",
+      "center": [
+        -62,
+        -117
+      ],
+      "full_projection": [
+        18.6,
+        9.8
+      ]
+    },
+    {
+      "id": "Workshop_1",
+      "center": [
+        62,
+        -117
+      ],
+      "full_projection": [
+        18.6,
+        9.8
+      ]
+    }
+  ],
+  "houses": [
+    {
+      "id": "ForegroundHouse_0",
+      "template": "SouthEast_01",
+      "center": [
+        -114,
+        -147
+      ],
+      "ground_support_z": -0.035,
+      "source_min_z": 0.0,
+      "full_projection": [
+        18.1199951171875,
+        18.860000610351562
+      ],
+      "source_component_count": 7
+    },
+    {
+      "id": "ForegroundHouse_1",
+      "template": "SouthEast_02",
+      "center": [
+        116,
+        -145
+      ],
+      "ground_support_z": -0.035,
+      "source_min_z": 0.0,
+      "full_projection": [
+        16.1199951171875,
+        14.919998168945312
+      ],
+      "source_component_count": 7
+    },
+    {
+      "id": "ForegroundHouse_2",
+      "template": "North_00_04",
+      "center": [
+        -116,
+        -174
+      ],
+      "ground_support_z": -0.035,
+      "source_min_z": 0.0,
+      "full_projection": [
+        16.661598205566406,
+        27.96160888671875
+      ],
+      "source_component_count": 7
+    },
+    {
+      "id": "ForegroundHouse_3",
+      "template": "North_00_01",
+      "center": [
+        141,
+        -181
+      ],
+      "ground_support_z": -0.035,
+      "source_min_z": 0.0,
+      "full_projection": [
+        19.0216064453125,
+        20.29119873046875
+      ],
+      "source_component_count": 7
+    }
+  ],
+  "ground_human_anchors_checked": 288,
+  "clearance_conflicts": [],
+  "projection_method": "Full evaluated object bounding corners with0.25\u20130.30m clearance margins; SAT against occupied rectangles."
+}

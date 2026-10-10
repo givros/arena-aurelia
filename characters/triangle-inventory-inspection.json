@@ -1,0 +1,129 @@
+{
+  "source": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\Aurelia_Arena.blend",
+  "sourceSHA256": "aaf803e95c28c4e0777c2c494c89f6c1bdf87caacd533f8cd6dbddc0fcd0db10",
+  "meshes": [
+    {
+      "name": "CharacterBase",
+      "data": "CharacterMesh",
+      "triangles": 3134,
+      "hideRender": false,
+      "hideViewport": false,
+      "hideSet": false,
+      "collections": [
+        "CharacterLibrary/animated-citizen"
+      ],
+      "customShapeFor": []
+    },
+    {
+      "name": "Icosphere",
+      "data": "Icosphere",
+      "triangles": 80,
+      "hideRender": false,
+      "hideViewport": false,
+      "hideSet": false,
+      "collections": [
+        "CharacterLibrary/animated-citizen"
+      ],
+      "customShapeFor": [
+        "pelvis",
+        "spine1",
+        "spine2",
+        "spine3",
+        "spine4",
+        "spine5",
+        "head",
+        "shoulder.L",
+        "upper_arm.L",
+        "forearm.L",
+        "hand.L",
+        "palm.01.L",
+        "f_index.01.L",
+        "f_index.02.L",
+        "f_index.03.L",
+        "thumb.01.L",
+        "thumb.02.L",
+        "thumb.03.L",
+        "palm.04.L",
+        "f_pinky.01.L",
+        "f_pinky.02.L",
+        "f_pinky.03.L",
+        "shoulder.R",
+        "upper_arm.R",
+        "forearm.R",
+        "hand.R",
+        "palm.01.R",
+        "f_index.01.R",
+        "f_index.02.R",
+        "f_index.03.R",
+        "thumb.01.R",
+        "thumb.02.R",
+        "thumb.03.R",
+        "palm.04.R",
+        "f_pinky.01.R",
+        "f_pinky.02.R",
+        "f_pinky.03.R",
+        "thigh.L",
+        "shin.L",
+        "foot.L",
+        "toe.L",
+        "thigh.R",
+        "shin.R",
+        "foot.R",
+        "toe.R",
+        "IKPole.L",
+        "IkTarget.L",
+        "IKPole.R",
+        "IkTarget.R"
+      ]
+    },
+    {
+      "name": "RomanSandals",
+      "data": "RomanSandalsMesh",
+      "triangles": 352,
+      "hideRender": false,
+      "hideViewport": false,
+      "hideSet": false,
+      "collections": [
+        "CharacterLibrary/animated-citizen"
+      ],
+      "customShapeFor": []
+    },
+    {
+      "name": "HairCap",
+      "data": "HairCapMesh",
+      "triangles": 252,
+      "hideRender": false,
+      "hideViewport": false,
+      "hideSet": false,
+      "collections": [
+        "CharacterLibrary/animated-citizen"
+      ],
+      "customShapeFor": []
+    },
+    {
+      "name": "RomanTunic",
+      "data": "RomanTunicMesh",
+      "triangles": 1104,
+      "hideRender": false,
+      "hideViewport": false,
+      "hideSet": false,
+      "collections": [
+        "CharacterLibrary/animated-citizen"
+      ],
+      "customShapeFor": []
+    },
+    {
+      "name": "LeatherBelt",
+      "data": "LeatherBeltMesh",
+      "triangles": 160,
+      "hideRender": false,
+      "hideViewport": false,
+      "hideSet": false,
+      "collections": [
+        "CharacterLibrary/animated-citizen"
+      ],
+      "customShapeFor": []
+    }
+  ],
+  "sourceUnchanged": true
+}

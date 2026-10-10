@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "previousSourceSHA256": "4a5967915e43ee3327c615fccf357c7450173a4eccc24c937ad369137ab6b205",
+  "sourceSHA256": "57114b08846701acd53d26a1bd5220282aa501af93a21ee44c9264308477c9ab",
+  "finalSourceSHA256": "57114b08846701acd53d26a1bd5220282aa501af93a21ee44c9264308477c9ab",
+  "sourceFilesIdentical": true,
+  "architectureObjectsPreserved": 14680,
+  "architectureFingerprintChanges": [],
+  "previousPopulation": 6322,
+  "population": {
+    "instanceCount": 12322,
+    "sharedVariantCollections": 27,
+    "importedAssetCollections": 8,
+    "evaluatedTriangleInstances": 61689884,
+    "sourceCollection": "Population",
+    "allCharactersFullBase": true,
+    "sourcePatrolTransformKeyframes": true,
+    "sourceWalkClipCyclic": true,
+    "sourceInstancesExcludedFromEnvironmentTransfer": true,
+    "runtimeManifestRequired": true
+  },
+  "newSeatedAssetSHA256": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+  "newCrowdManifestSHA256": "65a5a5376d2844c1eaa6b6007c8dd046804b1af7b0bb924678b19a7aacc3c6b1"
+}

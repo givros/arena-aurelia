@@ -1,0 +1,284 @@
+{
+  "timestamp": "2026-10-10T14:45:14.699Z",
+  "status": "passed",
+  "sourceHash": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+  "manifestSHA256": "8aee27f8c4cfa7c579902c6be9f61038a3a4b540d38b4dc9639a6d201b03bba5",
+  "scope": "Production canonical actors and actual pedestrian update; input-driven waiting preserves authored path geometry. Two simulated minutes test lane progress without rendering overhead.",
+  "tests": [
+    {
+      "name": "Multiple independently animated pedestrians and vendors exist",
+      "status": "passed",
+      "detail": {
+        "walking": 32,
+        "stationaryVendors": 8
+      }
+    },
+    {
+      "name": "Approaching pedestrian waits before reaching the player",
+      "status": "passed",
+      "detail": {
+        "actor": "street_walker_001",
+        "start": [
+          -56.95,
+          0.015,
+          95.7
+        ],
+        "stop": [
+          -56.55566666666671,
+          0.015,
+          95.7
+        ],
+        "personalSpace": 0.9056666666667041,
+        "reason": "player",
+        "idleWeight": 1
+      }
+    },
+    {
+      "name": "Waiting uses the bundled Idle animation",
+      "status": "passed",
+      "detail": {
+        "weight": 1
+      }
+    },
+    {
+      "name": "Pedestrian resumes walking after the player leaves",
+      "status": "passed",
+      "detail": {
+        "actor": "street_walker_001",
+        "displacement": 1.6899999999998272,
+        "reason": ""
+      }
+    },
+    {
+      "name": "Every walking actor advances along its authored lane",
+      "status": "passed",
+      "detail": {
+        "minimumDisplacement": 11.355058818100286,
+        "actors": [
+          {
+            "id": "street_walker_000",
+            "maxDisplacement": 11.980010428744004,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_001",
+            "maxDisplacement": 13.156054865270997,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_002",
+            "maxDisplacement": 11.663461395357047,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_003",
+            "maxDisplacement": 11.366736743799029,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_004",
+            "maxDisplacement": 11.979979069397995,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_005",
+            "maxDisplacement": 11.763470138505427,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_006",
+            "maxDisplacement": 11.663487129879114,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_007",
+            "maxDisplacement": 11.366571218492906,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_008",
+            "maxDisplacement": 11.979997036724667,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_009",
+            "maxDisplacement": 11.754452175385202,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_010",
+            "maxDisplacement": 11.664093316607744,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_011",
+            "maxDisplacement": 11.370680286179475,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_012",
+            "maxDisplacement": 11.982631543905416,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_013",
+            "maxDisplacement": 11.761927472250353,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_014",
+            "maxDisplacement": 11.663487129879156,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_015",
+            "maxDisplacement": 11.355058818100286,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_016",
+            "maxDisplacement": 11.979981684531573,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_017",
+            "maxDisplacement": 11.754457687629348,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_018",
+            "maxDisplacement": 11.66347818452839,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_019",
+            "maxDisplacement": 11.370602141276551,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_020",
+            "maxDisplacement": 11.980010428744357,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_021",
+            "maxDisplacement": 11.763447695021172,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_022",
+            "maxDisplacement": 11.663461395356011,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_023",
+            "maxDisplacement": 11.37060214127659,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_024",
+            "maxDisplacement": 11.979979069397418,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_025",
+            "maxDisplacement": 11.763470138498665,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_026",
+            "maxDisplacement": 11.980010428743986,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_027",
+            "maxDisplacement": 11.763447695021172,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_028",
+            "maxDisplacement": 11.663461395357047,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_029",
+            "maxDisplacement": 11.36672158742091,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_030",
+            "maxDisplacement": 11.97997906939796,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          },
+          {
+            "id": "street_walker_031",
+            "maxDisplacement": 11.763470138505427,
+            "waitReason": "",
+            "stoppedSeconds": 0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Personal-space waiting does not produce a persistent jam",
+      "status": "passed",
+      "detail": {
+        "simulatedSeconds": 120,
+        "longestWaitSeconds": 0,
+        "minimumMovingPairSpacing": 1.5856556326202322
+      }
+    },
+    {
+      "name": "Walking tunics retain authored palette variety",
+      "status": "passed",
+      "detail": {
+        "uniqueColors": [
+          "b28b56",
+          "798477",
+          "9f4939",
+          "c39b79",
+          "baab91"
+        ]
+      }
+    },
+    {
+      "name": "Fixed vendors stay at their authored counters",
+      "status": "passed",
+      "detail": {
+        "count": 8
+      }
+    }
+  ],
+  "errors": []
+}

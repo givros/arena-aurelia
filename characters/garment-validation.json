@@ -1,0 +1,1853 @@
+{
+  "file": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "file_sha256": "3AF7AE6D2DAC7FA45FC26D1A9AAF68BDFD9488C420A6535A5B06DC6F4A868EAD",
+  "garment_names": [
+    "BronzeArmor",
+    "GladiatorSword",
+    "GuardShield",
+    "GuardSpear",
+    "HairCap",
+    "LeatherBelt",
+    "RomanHelmet",
+    "RomanSandals",
+    "RomanTunic"
+  ],
+  "garment_discovery": {
+    "mode": "auto",
+    "marker_property": "codex_clothing",
+    "marker_value": true,
+    "requested_names": null,
+    "discovered_names": [
+      "BronzeArmor",
+      "GladiatorSword",
+      "GuardShield",
+      "GuardSpear",
+      "HairCap",
+      "LeatherBelt",
+      "RomanHelmet",
+      "RomanSandals",
+      "RomanTunic"
+    ],
+    "resolved_names": [
+      "BronzeArmor",
+      "GladiatorSword",
+      "GuardShield",
+      "GuardSpear",
+      "HairCap",
+      "LeatherBelt",
+      "RomanHelmet",
+      "RomanSandals",
+      "RomanTunic"
+    ]
+  },
+  "exact_character_contract": {
+    "mesh_signature": "E9BA39BFE5446C997403367F3A31B46F8D63332FF6868FAD5C2DD76E858B22C1",
+    "uv_signature": "B10303DB81DAB9CFE83EC9B73A7687E3058E5BCC47E92784D1EC839939E6F596",
+    "weight_signature": "C9C79CFB57491D8648036084D3C2957A8AD08AB79A5E64B718BE7D8FBEAE1790",
+    "rig_signature": "3F8A6A796F956DC8B058FB6BFD9A5813B62ECE2B6807D6C93B6E0FDB808A3E64",
+    "transform_signature": "8654EF34F3003EF139CD205230E778ED1F5A6B14B80937D8FE35FBADBA5D8DD2",
+    "vertices": 1596,
+    "edges": 3169,
+    "faces": 1588,
+    "loops": 6310,
+    "triangles": 3134,
+    "uv_layers": 1,
+    "vertex_groups": 47,
+    "bones": 49,
+    "constraints": 7,
+    "mesh_parent": "CharacterRig",
+    "object_names": [
+      "CharacterBase",
+      "CharacterRig"
+    ],
+    "mesh_data_name": "CharacterMesh",
+    "armature_data_name": "CharacterSkeleton",
+    "shape_keys": null,
+    "materials": [
+      "CharacterMaterial"
+    ],
+    "modifiers": [
+      [
+        "Armature",
+        "ARMATURE",
+        "CharacterRig"
+      ]
+    ],
+    "armature_modifiers": [
+      [
+        "Armature",
+        "CharacterRig"
+      ]
+    ]
+  },
+  "rest_pose": true,
+  "garments": {
+    "BronzeArmor": {
+      "mesh": "BronzeArmorMesh",
+      "vertices": 133,
+      "faces": 102,
+      "triangles": 204,
+      "flat_faces": 102,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 4,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 4,
+        "minimum_deform_weight_sum": 0.9999999678693712,
+        "maximum_deform_weight_sum": 1.000000037252903
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "BronzeArmorMaterial"
+      ],
+      "material_texture_contracts": {
+        "BronzeArmorMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Garment Thickness",
+          "SOLIDIFY",
+          null
+        ],
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [
+        0.0020000000949949026
+      ],
+      "custom_properties": {
+        "garment_type": "Bronze torso cuirass for explicitly requested guards and gladiators",
+        "garment_slot": "bronze_armor",
+        "concept_color": "#9D783E",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "cross_section",
+        "open_surface": true
+      },
+      "property_contract_errors": [],
+      "normal_orientation": {
+        "faces": 102,
+        "minimum_dot": 0.9271105043590069,
+        "non_positive_faces": 0
+      },
+      "closed_mesh": null,
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_bronze_armor\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_bronze_armor\"]"
+        }
+      },
+      "visibility_property": "show_bronze_armor",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    },
+    "GladiatorSword": {
+      "mesh": "GladiatorSwordMesh",
+      "vertices": 36,
+      "faces": 24,
+      "triangles": 60,
+      "flat_faces": 24,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 1,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 1,
+        "minimum_deform_weight_sum": 1.0,
+        "maximum_deform_weight_sum": 1.0
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "GladiatorSwordMaterial"
+      ],
+      "material_texture_contracts": {
+        "GladiatorSwordMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [],
+      "custom_properties": {
+        "garment_type": "Short gladiator sword",
+        "garment_slot": "gladiator_sword",
+        "concept_color": "#A8A99D",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "rigid_closed",
+        "open_surface": false
+      },
+      "property_contract_errors": [],
+      "normal_orientation": null,
+      "closed_mesh": {
+        "component_count": 3,
+        "components": [
+          {
+            "index": 0,
+            "faces": 6,
+            "edges": 12,
+            "vertices": 8,
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "inconsistent_orientation_edges": [],
+            "signed_volume": 0.0001522526339006921
+          },
+          {
+            "index": 1,
+            "faces": 6,
+            "edges": 12,
+            "vertices": 8,
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "inconsistent_orientation_edges": [],
+            "signed_volume": 7.419815907875699e-05
+          },
+          {
+            "index": 2,
+            "faces": 12,
+            "edges": 30,
+            "vertices": 20,
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "inconsistent_orientation_edges": [],
+            "signed_volume": 2.8311944333836436e-05
+          }
+        ],
+        "loose_vertices": []
+      },
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_gladiator_sword\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_gladiator_sword\"]"
+        }
+      },
+      "visibility_property": "show_gladiator_sword",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    },
+    "GuardShield": {
+      "mesh": "GuardShieldMesh",
+      "vertices": 16,
+      "faces": 12,
+      "triangles": 24,
+      "flat_faces": 12,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 1,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 1,
+        "minimum_deform_weight_sum": 1.0,
+        "maximum_deform_weight_sum": 1.0
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "GuardShieldMaterial"
+      ],
+      "material_texture_contracts": {
+        "GuardShieldMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [],
+      "custom_properties": {
+        "garment_type": "Deep red rectangular curved scutum",
+        "garment_slot": "guard_shield",
+        "concept_color": "#83302A",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "rigid_closed",
+        "open_surface": false
+      },
+      "property_contract_errors": [],
+      "normal_orientation": null,
+      "closed_mesh": {
+        "component_count": 2,
+        "components": [
+          {
+            "index": 0,
+            "faces": 6,
+            "edges": 12,
+            "vertices": 8,
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "inconsistent_orientation_edges": [],
+            "signed_volume": 0.0023217972678442798
+          },
+          {
+            "index": 1,
+            "faces": 6,
+            "edges": 12,
+            "vertices": 8,
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "inconsistent_orientation_edges": [],
+            "signed_volume": 5.5293707797924675e-05
+          }
+        ],
+        "loose_vertices": []
+      },
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_guard_shield\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_guard_shield\"]"
+        }
+      },
+      "visibility_property": "show_guard_shield",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    },
+    "GuardSpear": {
+      "mesh": "GuardSpearMesh",
+      "vertices": 40,
+      "faces": 24,
+      "triangles": 72,
+      "flat_faces": 24,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 1,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 1,
+        "minimum_deform_weight_sum": 1.0,
+        "maximum_deform_weight_sum": 1.0
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "GuardSpearMaterial"
+      ],
+      "material_texture_contracts": {
+        "GuardSpearMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [],
+      "custom_properties": {
+        "garment_type": "Long spear carried by a guard",
+        "garment_slot": "guard_spear",
+        "concept_color": "#766044",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "rigid_closed",
+        "open_surface": false
+      },
+      "property_contract_errors": [],
+      "normal_orientation": null,
+      "closed_mesh": {
+        "component_count": 2,
+        "components": [
+          {
+            "index": 0,
+            "faces": 12,
+            "edges": 30,
+            "vertices": 20,
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "inconsistent_orientation_edges": [],
+            "signed_volume": 0.00018144796558772225
+          },
+          {
+            "index": 1,
+            "faces": 12,
+            "edges": 30,
+            "vertices": 20,
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "inconsistent_orientation_edges": [],
+            "signed_volume": 8.783016528468576e-05
+          }
+        ],
+        "loose_vertices": []
+      },
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_guard_spear\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_guard_spear\"]"
+        }
+      },
+      "visibility_property": "show_guard_spear",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    },
+    "HairCap": {
+      "mesh": "HairCapMesh",
+      "vertices": 64,
+      "faces": 49,
+      "triangles": 110,
+      "flat_faces": 49,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 1,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 1,
+        "minimum_deform_weight_sum": 1.0,
+        "maximum_deform_weight_sum": 1.0
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "HairCapMaterial"
+      ],
+      "material_texture_contracts": {
+        "HairCapMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Garment Thickness",
+          "SOLIDIFY",
+          null
+        ],
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [
+        0.0020000000949949026
+      ],
+      "custom_properties": {
+        "garment_type": "Simple close cropped dark hair",
+        "garment_slot": "hair_cap",
+        "concept_color": "#362A20",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "cross_section",
+        "open_surface": true
+      },
+      "property_contract_errors": [],
+      "normal_orientation": {
+        "faces": 49,
+        "minimum_dot": 0.8777739778161049,
+        "non_positive_faces": 0
+      },
+      "closed_mesh": null,
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_hair_cap\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_hair_cap\"]"
+        }
+      },
+      "visibility_property": "show_hair_cap",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    },
+    "LeatherBelt": {
+      "mesh": "LeatherBeltMesh",
+      "vertices": 40,
+      "faces": 20,
+      "triangles": 40,
+      "flat_faces": 20,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 4,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 4,
+        "minimum_deform_weight_sum": 0.999999962747097,
+        "maximum_deform_weight_sum": 1.000000037252903
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "LeatherBeltMaterial"
+      ],
+      "material_texture_contracts": {
+        "LeatherBeltMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Garment Thickness",
+          "SOLIDIFY",
+          null
+        ],
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [
+        0.0020000000949949026
+      ],
+      "custom_properties": {
+        "garment_type": "Plain leather waist belt",
+        "garment_slot": "leather_belt",
+        "concept_color": "#533620",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "cross_section",
+        "open_surface": true
+      },
+      "property_contract_errors": [],
+      "normal_orientation": {
+        "faces": 20,
+        "minimum_dot": 0.8221358209848404,
+        "non_positive_faces": 0
+      },
+      "closed_mesh": null,
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_leather_belt\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_leather_belt\"]"
+        }
+      },
+      "visibility_property": "show_leather_belt",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    },
+    "RomanHelmet": {
+      "mesh": "RomanHelmetMesh",
+      "vertices": 64,
+      "faces": 49,
+      "triangles": 110,
+      "flat_faces": 49,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 1,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 1,
+        "minimum_deform_weight_sum": 1.0,
+        "maximum_deform_weight_sum": 1.0
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "RomanHelmetMaterial"
+      ],
+      "material_texture_contracts": {
+        "RomanHelmetMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Garment Thickness",
+          "SOLIDIFY",
+          null
+        ],
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [
+        0.0020000000949949026
+      ],
+      "custom_properties": {
+        "garment_type": "Open-faced bronze helmet",
+        "garment_slot": "roman_helmet",
+        "concept_color": "#A28A52",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "cross_section",
+        "open_surface": true
+      },
+      "property_contract_errors": [],
+      "normal_orientation": {
+        "faces": 49,
+        "minimum_dot": 0.730793684720993,
+        "non_positive_faces": 0
+      },
+      "closed_mesh": null,
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_roman_helmet\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_roman_helmet\"]"
+        }
+      },
+      "visibility_property": "show_roman_helmet",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    },
+    "RomanSandals": {
+      "mesh": "RomanSandalsMesh",
+      "vertices": 90,
+      "faces": 74,
+      "triangles": 148,
+      "flat_faces": 74,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 3,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 3,
+        "minimum_deform_weight_sum": 0.9999999701976776,
+        "maximum_deform_weight_sum": 1.0000000330473995
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "RomanSandalsMaterial"
+      ],
+      "material_texture_contracts": {
+        "RomanSandalsMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Garment Thickness",
+          "SOLIDIFY",
+          null
+        ],
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [
+        0.0020000000949949026
+      ],
+      "custom_properties": {
+        "garment_type": "Simple leather foot covering",
+        "garment_slot": "roman_sandals",
+        "concept_color": "#56402A",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "cross_section",
+        "open_surface": true
+      },
+      "property_contract_errors": [],
+      "normal_orientation": {
+        "faces": 74,
+        "minimum_dot": 0.9538413397967815,
+        "non_positive_faces": 0
+      },
+      "closed_mesh": null,
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_roman_sandals\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_roman_sandals\"]"
+        }
+      },
+      "visibility_property": "show_roman_sandals",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    },
+    "RomanTunic": {
+      "mesh": "RomanTunicMesh",
+      "vertices": 274,
+      "faces": 252,
+      "triangles": 504,
+      "flat_faces": 252,
+      "finite_coordinates": true,
+      "unweighted_vertices": [],
+      "non_normalized_vertices": [],
+      "maximum_influences": 4,
+      "degenerate_faces": [],
+      "invalid_normals": [],
+      "deform_weight_contract": {
+        "deform_bones": [
+          "IKPole.L",
+          "IKPole.R",
+          "f_index.01.L",
+          "f_index.01.R",
+          "f_index.02.L",
+          "f_index.02.R",
+          "f_index.03.L",
+          "f_index.03.R",
+          "f_pinky.01.L",
+          "f_pinky.01.R",
+          "f_pinky.02.L",
+          "f_pinky.02.R",
+          "f_pinky.03.L",
+          "f_pinky.03.R",
+          "foot.L",
+          "foot.R",
+          "forearm.L",
+          "forearm.R",
+          "hand.L",
+          "hand.R",
+          "head",
+          "palm.01.L",
+          "palm.01.R",
+          "palm.04.L",
+          "palm.04.R",
+          "pelvis",
+          "shin.L",
+          "shin.R",
+          "shoulder.L",
+          "shoulder.R",
+          "spine1",
+          "spine2",
+          "spine3",
+          "spine4",
+          "spine5",
+          "thigh.L",
+          "thigh.R",
+          "thumb.01.L",
+          "thumb.01.R",
+          "thumb.02.L",
+          "thumb.02.R",
+          "thumb.03.L",
+          "thumb.03.R",
+          "toe.L",
+          "toe.R",
+          "upper_arm.L",
+          "upper_arm.R"
+        ],
+        "invalid_weight_groups": {},
+        "invalid_weight_values": [],
+        "vertices_without_deform_weights": [],
+        "maximum_deform_influences": 4,
+        "minimum_deform_weight_sum": 0.999999962747097,
+        "maximum_deform_weight_sum": 1.0000000335276127
+      },
+      "parent": "CharacterRig",
+      "collections": [
+        "Clothing"
+      ],
+      "materials": [
+        "RomanTunicMaterial"
+      ],
+      "material_texture_contracts": {
+        "RomanTunicMaterial": {
+          "uses_textures": false,
+          "roles": {
+            "base_color": [],
+            "metallic_roughness": [],
+            "normal": [],
+            "occlusion": [],
+            "emission": [],
+            "alpha": []
+          },
+          "images": {},
+          "errors": []
+        }
+      },
+      "uv_contract": {
+        "required": false,
+        "layers": [],
+        "active": null,
+        "active_render": null,
+        "textured_polygons": 0,
+        "textured_triangles": 0,
+        "finite": true,
+        "inside_unit_square": true,
+        "bounds": null,
+        "degenerate_textured_triangles": [],
+        "generated_rim_degenerate_allowed": false,
+        "errors": []
+      },
+      "modifiers": [
+        [
+          "Garment Thickness",
+          "SOLIDIFY",
+          null
+        ],
+        [
+          "Armature",
+          "ARMATURE",
+          "CharacterRig"
+        ]
+      ],
+      "solidify_thicknesses": [
+        0.0020000000949949026
+      ],
+      "custom_properties": {
+        "garment_type": "Loose short sleeved Roman tunic with a knee-length flared hem",
+        "garment_slot": "roman_tunic",
+        "concept_color": "#C8B88D",
+        "layering": "CharacterBase < tunic < belt and armor; hair < helmet; held accessories outside body",
+        "construction_strategy": "cross_section",
+        "open_surface": true
+      },
+      "property_contract_errors": [],
+      "normal_orientation": {
+        "faces": 252,
+        "minimum_dot": 0.757209675386548,
+        "non_positive_faces": 0
+      },
+      "closed_mesh": null,
+      "visibility_drivers": {
+        "hide_render": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_roman_tunic\"]"
+        },
+        "hide_viewport": {
+          "curve_valid": true,
+          "driver_valid": true,
+          "type": "SCRIPTED",
+          "expression": "1.0-visible",
+          "target": "CharacterRig",
+          "data_path": "[\"show_roman_tunic\"]"
+        }
+      },
+      "visibility_property": "show_roman_tunic",
+      "visibility_test": [
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        },
+        {
+          "visible": false,
+          "hide_viewport": true,
+          "hide_render": true
+        },
+        {
+          "visible": true,
+          "hide_viewport": false,
+          "hide_render": false
+        }
+      ]
+    }
+  },
+  "layer_manifest": {
+    "check_count": 9,
+    "valid_check_count": 9,
+    "covered_outer": [
+      "BronzeArmor",
+      "GladiatorSword",
+      "GuardShield",
+      "GuardSpear",
+      "HairCap",
+      "LeatherBelt",
+      "RomanHelmet",
+      "RomanSandals",
+      "RomanTunic"
+    ],
+    "missing_outer": [],
+    "errors": [],
+    "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\layer-checks.json",
+    "sha256": "6A314B6465F626162A06F369EE1CFE9C484C830887705DA79B4D83006E3E28FE"
+  },
+  "layer_checks": [
+    {
+      "check": {
+        "outer": "BronzeArmor",
+        "inner": "RomanTunic",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 266,
+        "minimum_signed_clearance": 0.008393001306103542,
+        "minimum_absolute_distance": 0.008736877702176571,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    },
+    {
+      "check": {
+        "outer": "GladiatorSword",
+        "inner": "CharacterBase",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 36,
+        "minimum_signed_clearance": 0.003841932862997055,
+        "minimum_absolute_distance": 0.02286873757839203,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    },
+    {
+      "check": {
+        "outer": "GuardShield",
+        "inner": "CharacterBase",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 16,
+        "minimum_signed_clearance": 0.04320417030248791,
+        "minimum_absolute_distance": 0.04335995018482208,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    },
+    {
+      "check": {
+        "outer": "GuardSpear",
+        "inner": "CharacterBase",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 40,
+        "minimum_signed_clearance": 0.013510528253391385,
+        "minimum_absolute_distance": 0.014339696615934372,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    },
+    {
+      "check": {
+        "outer": "HairCap",
+        "inner": "CharacterBase",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 128,
+        "minimum_signed_clearance": 0.00440479107783176,
+        "minimum_absolute_distance": 0.005802665837109089,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    },
+    {
+      "check": {
+        "outer": "LeatherBelt",
+        "inner": "RomanTunic",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 80,
+        "minimum_signed_clearance": 0.004581488712574355,
+        "minimum_absolute_distance": 0.004589983727782965,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    },
+    {
+      "check": {
+        "outer": "RomanHelmet",
+        "inner": "HairCap",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 128,
+        "minimum_signed_clearance": 0.0042488789185881615,
+        "minimum_absolute_distance": 0.009115477092564106,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    },
+    {
+      "check": {
+        "outer": "RomanSandals",
+        "inner": "CharacterBase",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 180,
+        "minimum_signed_clearance": 0.002477348691172665,
+        "minimum_absolute_distance": 0.003688722848892212,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    },
+    {
+      "check": {
+        "outer": "RomanTunic",
+        "inner": "CharacterBase",
+        "kind": "surface",
+        "minimum_clearance": 0.0008
+      },
+      "result": {
+        "samples": 548,
+        "minimum_signed_clearance": 0.006385346860042773,
+        "minimum_absolute_distance": 0.0067223659716546535,
+        "non_positive_samples": 0,
+        "triangle_intersections": 0,
+        "bounds": {}
+      }
+    }
+  ],
+  "failures": {},
+  "passed": true
+}

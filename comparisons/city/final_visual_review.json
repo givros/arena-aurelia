@@ -1,0 +1,54 @@
+{
+  "source_sha256": "96ab28c79d123256e9b6ba3f9dea2025f18369c1256d9a6d0e37f1129aaf5580",
+  "primary_reference": "references/primary_reference.png",
+  "reviewed_final_views": [
+    "renders/pass3_reference.png",
+    "renders/pass3_top.png",
+    "renders/pass3_approach.png",
+    "renders/pass3_facade.png",
+    "renders/pass3_market.png",
+    "renders/pass3_reverse.png"
+  ],
+  "source_modified_by_review": false,
+  "confirmed": [
+    "True oval arena and complete stepped seating remain readable from reference and top cameras.",
+    "Bridge, elevated temple, and aqueduct preserve the requested left-center-right background arrangement.",
+    "Eastern arena service ramp no longer exposes the blue background through its side gaps.",
+    "Relocated workshops are grounded and complete, with supported canopies, stocked shelves, pottery, barrels and neighboring carts.",
+    "Close facade views show real arch thickness and interior circulation beyond the facade."
+  ],
+  "remaining_visual_limitations": [
+    "The paved plaza remains more open and its smaller stalls more regularly separated than the clustered reference marketplace.",
+    "Repeated house families and organized parcels remain apparent in the background city.",
+    "Smooth pale portal, cornice and plinth surfaces are less carved and weathered than the reference stonework.",
+    "The nearest large workshop is unstaffed in the market still; most market people remain at smaller stalls behind it.",
+    "From the reverse camera, southern terrain reads as a broad muted band rather than a distinct distant hill and city silhouette."
+  ],
+  "structural_audit": {
+    "bridge_samples": 536,
+    "temple_samples": 561,
+    "all_passed": true,
+    "city_mesh_objects": 1766,
+    "unique_meshes": 119
+  },
+  "registry_sync": {
+    "residential_buildings": 159,
+    "landmarks_separate": [
+      "Temple_of_Concordia",
+      "Basilica_Aemilia",
+      "Basilica_Mercatoria",
+      "Tower_of_the_Watch",
+      "Civic_Archive_Tower"
+    ],
+    "workshop_centers": [
+      [
+        -62,
+        -117
+      ],
+      [
+        62,
+        -117
+      ]
+    ]
+  }
+}

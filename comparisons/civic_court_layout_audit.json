@@ -1,0 +1,27 @@
+{
+  "layoutSHA256": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144",
+  "districtLayoutSHA256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+  "plannedComponentConflicts": [],
+  "routes": [
+    {
+      "id": "CivicCourtGardenLoop",
+      "minimumProjectionGap": [
+        1.3500000000000227,
+        "CivicColumn_14"
+      ],
+      "declaredWidth": 1.2,
+      "passed": true
+    },
+    {
+      "id": "CivicCourtPublicTour",
+      "minimumProjectionGap": [
+        1.9499999999999884,
+        "CivicColumn_17"
+      ],
+      "declaredWidth": 3.0,
+      "passed": true
+    }
+  ],
+  "roofProjectionConflicts": [],
+  "scope": "Full new component footprints against preserved source pedestrian hulls, current district full parcels, all district actors, master-spine and public paths; full nearby crown bounds separately checked. Actual geometry integration verified in civic_court_geometry_audit.json."
+}

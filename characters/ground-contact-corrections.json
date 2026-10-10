@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "changes": [
+    {
+      "id": "merchant_014",
+      "oldZ": 0,
+      "newZ": -0.03584,
+      "measuredGapBefore": 0.03583685393095948,
+      "sourceAndRuntimeUpdated": true
+    },
+    {
+      "id": "merchant_020",
+      "oldZ": 0,
+      "newZ": -0.03584,
+      "measuredGapBefore": 0.035836857656249776,
+      "sourceAndRuntimeUpdated": true
+    },
+    {
+      "id": "merchant_021",
+      "oldZ": 0,
+      "newZ": -0.03584,
+      "measuredGapBefore": 0.035836857656249776,
+      "sourceAndRuntimeUpdated": true
+    },
+    {
+      "id": "merchant_027",
+      "oldZ": 0,
+      "newZ": -0.03584,
+      "measuredGapBefore": 0.035836861381540075,
+      "sourceAndRuntimeUpdated": true
+    },
+    {
+      "id": "statue_hero_-1",
+      "oldZ": 5.4,
+      "newZ": 5.3482,
+      "measuredGapBefore": 0.051795005798339844,
+      "sourceAndRuntimeUpdated": true
+    },
+    {
+      "id": "statue_hero_1",
+      "oldZ": 5.4,
+      "newZ": 5.3482,
+      "measuredGapBefore": 0.051795005798339844,
+      "sourceAndRuntimeUpdated": true
+    }
+  ],
+  "sourceAndRuntimePositionsIdentical": true,
+  "crowdManifestSHA256": "ae5caa74d346d1112e226858038f436bfa41142e4a69bf0cd42cfc1961318289",
+  "sourceSaveResponsibility": "Caller"
+}

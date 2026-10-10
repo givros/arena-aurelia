@@ -1,0 +1,273 @@
+{
+  "shade_groups": [
+    {
+      "id": "CourtShade_00",
+      "anchors": [
+        {
+          "stall": "EventStall_000",
+          "position": [
+            -25.08076,
+            -88.57648,
+            6.4
+          ]
+        },
+        {
+          "stall": "EventStall_002",
+          "position": [
+            -54.49975,
+            -88.55,
+            6.95
+          ]
+        },
+        {
+          "stall": "EventStall_014",
+          "position": [
+            -43.08004,
+            -104.47632,
+            6.1
+          ]
+        }
+      ],
+      "minimum_cloth_z": 4.95,
+      "collision": "none",
+      "objects": 5
+    },
+    {
+      "id": "CourtShade_01",
+      "anchors": [
+        {
+          "stall": "EventStall_003",
+          "position": [
+            -71.71008,
+            -88.53682,
+            6.15
+          ]
+        },
+        {
+          "stall": "EventStall_005",
+          "position": [
+            -101.08004,
+            -88.52368,
+            7.05
+          ]
+        },
+        {
+          "stall": "EventStall_017",
+          "position": [
+            -89.69975,
+            -104.45,
+            6.4
+          ]
+        },
+        {
+          "stall": "EventStall_016",
+          "position": [
+            -71.71008,
+            -104.46318,
+            5.9
+          ]
+        }
+      ],
+      "minimum_cloth_z": 5.07,
+      "collision": "none",
+      "objects": 5
+    },
+    {
+      "id": "CourtShade_02",
+      "anchors": [
+        {
+          "stall": "EventStall_006",
+          "position": [
+            25.11008,
+            -88.53682,
+            6.3
+          ]
+        },
+        {
+          "stall": "EventStall_008",
+          "position": [
+            54.48992,
+            -88.53682,
+            6.9
+          ]
+        },
+        {
+          "stall": "EventStall_020",
+          "position": [
+            43.08004,
+            -104.47632,
+            6.0
+          ]
+        }
+      ],
+      "minimum_cloth_z": 5.19,
+      "collision": "none",
+      "objects": 5
+    },
+    {
+      "id": "CourtShade_03",
+      "anchors": [
+        {
+          "stall": "EventStall_009",
+          "position": [
+            71.68076,
+            -88.57648,
+            6.75
+          ]
+        },
+        {
+          "stall": "EventStall_011",
+          "position": [
+            101.10952,
+            -88.56322,
+            6.2
+          ]
+        },
+        {
+          "stall": "EventStall_031",
+          "position": [
+            89.68992,
+            -115.46318,
+            7.1
+          ]
+        },
+        {
+          "stall": "EventStall_022",
+          "position": [
+            71.70025,
+            -104.45,
+            6.2
+          ]
+        }
+      ],
+      "minimum_cloth_z": 4.95,
+      "collision": "none",
+      "objects": 5
+    },
+    {
+      "id": "CourtShade_04",
+      "anchors": [
+        {
+          "stall": "EventStall_056",
+          "position": [
+            -111.56322,
+            -70.30952,
+            6.5
+          ]
+        },
+        {
+          "stall": "EventStall_078",
+          "position": [
+            -127.46318,
+            -52.31008,
+            6.1
+          ]
+        },
+        {
+          "stall": "EventStall_060",
+          "position": [
+            -111.52368,
+            -40.91996,
+            7.0
+          ]
+        }
+      ],
+      "minimum_cloth_z": 5.07,
+      "collision": "none",
+      "objects": 5
+    },
+    {
+      "id": "CourtShade_05",
+      "anchors": [
+        {
+          "stall": "EventStall_045",
+          "position": [
+            84.08076,
+            -80.42352,
+            6.15
+          ]
+        },
+        {
+          "stall": "EventStall_046",
+          "position": [
+            102.08992,
+            -80.46318,
+            6.95
+          ]
+        },
+        {
+          "stall": "EventStall_057",
+          "position": [
+            116.45,
+            -63.70025,
+            6.3
+          ]
+        },
+        {
+          "stall": "EventStall_048",
+          "position": [
+            95.49048,
+            -64.06322,
+            6.45
+          ]
+        }
+      ],
+      "minimum_cloth_z": 5.19,
+      "collision": "none",
+      "objects": 5
+    }
+  ],
+  "folded_roof_components": 12,
+  "recolored_components": 29,
+  "hanging_rug_assemblies": 12,
+  "footprints_changed": false,
+  "population_anchors_changed": false,
+  "minimum_requested_headroom": 3.3,
+  "source_saved": false,
+  "loading_carts": [
+    {
+      "id": "WorkshopCart_W",
+      "position": [
+        -62.0,
+        -117.75,
+        0.58
+      ],
+      "rotation": 3.141592653589793,
+      "source": "complete existing HandcartFamily",
+      "anchor_conflicts": []
+    },
+    {
+      "id": "WorkshopCart_E",
+      "position": [
+        62.0,
+        -117.75,
+        0.58
+      ],
+      "rotation": 3.141592653589793,
+      "source": "complete existing HandcartFamily",
+      "anchor_conflicts": []
+    },
+    {
+      "id": "InventoryCart_ShopHouse_03",
+      "position": [
+        -49.0,
+        -137.1,
+        0.24
+      ],
+      "rotation": 3.141592653589793,
+      "source": "complete existing HandcartFamily",
+      "anchor_conflicts": []
+    },
+    {
+      "id": "InventoryCart_ShopHouse_12",
+      "position": [
+        35.0,
+        -132.1,
+        0.24
+      ],
+      "rotation": 3.141592653589793,
+      "source": "complete existing HandcartFamily",
+      "anchor_conflicts": []
+    }
+  ]
+}

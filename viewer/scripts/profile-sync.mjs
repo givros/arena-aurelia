@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import assert from 'node:assert/strict';
+const manifest=JSON.parse(fs.readFileSync('public/assets/environment.json'));
+const audit=JSON.parse(fs.readFileSync('source_validation.json'));
+assert.equal(audit.status,'passed');assert.equal(audit.sourceHash,manifest.sourceHash);
+const sha=file=>crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
+assert.equal(audit.manifestSHA256,sha('public/assets/environment.json'));
+assert.equal(audit.characters.manifestSHA256,sha('public/assets/'+manifest.navigation.crowdManifest));
+const crowd=JSON.parse(fs.readFileSync('public/assets/'+manifest.navigation.crowdManifest));
+const profile=JSON.parse(fs.readFileSync('render_profile.json'));
+Object.assign(profile.source,{blendSHA256:manifest.sourceHash,manifestSHA256:audit.manifestSHA256,binarySHA256:audit.binarySHA256,characterManifestSHA256:audit.characters.manifestSHA256});
+Object.assign(profile.simulation,{movingActors:crowd.npcs.filter(actor=>actor.path?.length>1).length,fixedAnimatedStaff:crowd.npcs.filter(actor=>!actor.path?.length).length,characterDerivedInstances:audit.characters.count,livingPeople:audit.characters.count-26,statues:26,canonicalFullTriangleInstances:audit.characters.triangles,regions:audit.characters.regions});
+delete profile.simulation.fixedAnimatedVendors;
+fs.writeFileSync('render_profile.json',JSON.stringify(profile,null,2)+'\n');
+console.log(JSON.stringify({source:manifest.sourceHash,people:profile.simulation.characterDerivedInstances,moving:profile.simulation.movingActors,stationaryAnimated:profile.simulation.fixedAnimatedStaff,profileSHA256:crypto.createHash('sha256').update(fs.readFileSync('render_profile.json')).digest('hex')}));

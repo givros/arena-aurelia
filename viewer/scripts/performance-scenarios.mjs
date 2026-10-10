@@ -1,0 +1,21 @@
+import {observeHost} from './host-observation.mjs';
+import fs from 'node:fs';import path from 'node:path';
+export async function profileScenarios({page,cdp,label='final',initial,seconds=18}){
+const trace=[],errors=[],warnings=[];const browser=page.context().browser();const hostObservations=[await observeHost(browser,'before paired scenarios')];
+const percentile=list=>{const a=list.filter(Number.isFinite).sort((a,b)=>a-b),p=n=>a[Math.min(a.length-1,Math.floor(a.length*n))]??null;return {samples:a.length,p50:p(.5),p95:p(.95),p99:p(.99),max:a.at(-1)??null,mean:a.length?a.reduce((s,n)=>s+n,0)/a.length:null,over50ms:a.filter(x=>x>50).length,over100ms:a.filter(x=>x>100).length};};
+cdp.on('Tracing.dataCollected',e=>trace.push(...e.value));await cdp.send('Tracing.start',{categories:'devtools.timeline,v8,disabled-by-default-v8.gc',transferMode:'ReportEvents'});
+const scenarios=[];
+for(const name of ['reference','market_still','market_walking','aerial_orbit','walking_daynight']){
+ await page.evaluate(name=>{const w=window.__arena;cancelAnimationFrame(window.__profileMotion);w.nav.keys.clear();w.setHour(15);w.nav.collisions=0;if(name==='reference'||name==='aerial_orbit')w.view('reference');else w.nav.walk([34.1,1.735,107.5],[34.1,1.8,80.65]);window.__profileStarted=performance.now();window.__profileTravel=0;let prior=w.nav.foot.clone(),toward=true;const motion=()=>{const t=(performance.now()-window.__profileStarted)/1000;if(name.includes('walking')){const n=w.nav;if(toward&&n.foot.z<82)toward=false;if(!toward&&n.foot.z>107)toward=true;n.yaw=toward?0:Math.PI;n.pitch=0;n.keys.add('KeyW');n.paused=false;window.__profileTravel+=n.foot.distanceTo(prior);prior.copy(n.foot);}if(name==='aerial_orbit'){const radius=275;w.camera.position.set(Math.sin(t*.075+.14)*radius,155,Math.cos(t*.075+.14)*radius);w.nav.orbit.update();}if(name==='walking_daynight'){w.atmosphere.cycling=false;w.atmosphere.hour=15+(t%24)/24*10;}window.__profileMotion=requestAnimationFrame(motion);};motion();},name);
+ await page.waitForTimeout(3500);await page.evaluate(()=>{const w=window.__arena;for(const a of w.characters.instances){a.object.position.fromArray(a.e.position||a.e.path[0]);a.object.rotation.y=a.e.rotationY||0;a.pathIndex=a.e.pathIndex??1;a.waiting=false;a.waitReason='';a.dwell=a.stoppedSeconds=0;a.idle?.stop();a.walk.reset().setEffectiveWeight(1).play();a.mixer.setTime(a.e.animationPhase||0);}w.clearPerformance();});const started=await page.evaluate(()=>performance.now());await page.waitForTimeout(seconds*1000);
+ const data=await page.evaluate(()=>{const w=window.__arena;return {stats:w.stats(),travel:window.__profileTravel,clock:performance.now(),position:w.nav.foot.toArray()};});
+ const phases=Object.fromEntries(Object.entries(data.stats.profiling.samples).map(([key,values])=>[key,percentile(key==='frame'?values.slice(1):values)]));
+ const report={name,sampleSeconds:(data.clock-started)/1000,phases,gpuRenderMs:percentile(data.stats.profiling.gpuRenderMs),longTasks:data.stats.profiling.longTasks,heap:data.stats.profiling.heap,render:data.stats.render,memory:data.stats.memory,travelMeters:data.travel,position:data.position,collisions:data.stats.navigation.collisions,raw:data.stats.profiling};scenarios.push(report);fs.mkdirSync('performance',{recursive:true});fs.writeFileSync(`performance/${label}_partial.json`,JSON.stringify({initial,scenarios,errors,warnings},null,2));console.log(JSON.stringify({...report,raw:undefined,longTasks:report.longTasks.length}));
+ await page.screenshot({path:path.resolve(`../renders/performance_${label}_${name}.png`)});
+}
+await page.evaluate(()=>{cancelAnimationFrame(window.__profileMotion);window.__arena.nav.keys.clear();});
+const complete=new Promise(resolve=>cdp.once('Tracing.tracingComplete',resolve));await cdp.send('Tracing.end');await complete;
+const gc=trace.filter(e=>/GC|GarbageCollect/.test(e.name));const gcDurations=gc.filter(e=>e.ph==='X'&&e.dur).map(e=>({name:e.name,durationMs:e.dur/1000,thread:e.tid}));
+
+fs.writeFileSync(`performance/${label}_gc_trace.json`,JSON.stringify(gc));hostObservations.push(await observeHost(browser,'after paired scenarios'));return {scenarios,hostObservations,gc:{events:gc.length,durationEvents:gcDurations,note:'Nested/concurrent GC phase durations are not summed as exclusive pauses.'}};
+}

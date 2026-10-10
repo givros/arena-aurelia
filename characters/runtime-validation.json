@@ -1,0 +1,357 @@
+{
+  "passed": true,
+  "reimports": [
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\animated-citizen.glb",
+      "sha256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 80,
+      "clips": [
+        "Idle",
+        "Jump",
+        "Run",
+        "Walk"
+      ],
+      "bones": 49,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.2628089189529419,
+          -0.26306796073913574,
+          -0.004496239125728607
+        ],
+        [
+          0.29093268513679504,
+          0.15788458287715912,
+          1.8167883157730103
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\animated-merchant.glb",
+      "sha256": "792ddd4e2722d251469b38a6a417d90c00a26829bba159b06a79839f24b50dc2",
+      "passed": true,
+      "mesh_count": 10,
+      "triangles": 5742,
+      "authoredGltfTriangles": 5742,
+      "importerOnlyDisplayHelperTrianglesExcluded": 80,
+      "clips": [
+        "Idle",
+        "Jump",
+        "Run",
+        "Walk"
+      ],
+      "bones": 49,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.28105422854423523,
+          -0.4795478284358978,
+          -0.004496239125728607
+        ],
+        [
+          0.29093268513679504,
+          0.15788458287715912,
+          1.8167883157730103
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\animated-porter.glb",
+      "sha256": "2aa2b977d3d787c62f24df0eae9dd0e1520db886f64aa38c877477c3ed2b43a1",
+      "passed": true,
+      "mesh_count": 9,
+      "triangles": 6682,
+      "authoredGltfTriangles": 6682,
+      "importerOnlyDisplayHelperTrianglesExcluded": 80,
+      "clips": [
+        "Idle",
+        "Jump",
+        "Run",
+        "Walk"
+      ],
+      "bones": 49,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.2628089189529419,
+          -0.26306796073913574,
+          -0.004496239125728607
+        ],
+        [
+          0.29093268513679504,
+          0.4527563154697418,
+          1.8167883157730103
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\citizen-idle-0.glb",
+      "sha256": "6d80cb361e3857d301c9efa7e0c281dd88700ad4060d82adf043127d3b607d8b",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.2630053758621216,
+          -0.26306527853012085,
+          0.0
+        ],
+        [
+          0.2907131314277649,
+          0.15709280967712402,
+          1.821634292602539
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\citizen-idle-1.glb",
+      "sha256": "c2f8681ec7c6f14d2508da41750126b3f8bebe859a40aa49c75a34c801e5b361",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.2650020122528076,
+          -0.4780271649360657,
+          0.0
+        ],
+        [
+          0.28913387656211853,
+          0.15328270196914673,
+          1.8203034400939941
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\citizen-idle-2.glb",
+      "sha256": "e327e0cef41dd67a3bbb42a64763a73b1d8234bd86feb282b6efc8fc0e8aa2f7",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.26872754096984863,
+          -0.4886722266674042,
+          0.0
+        ],
+        [
+          0.2858773171901703,
+          0.14942973852157593,
+          1.8205561637878418
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\citizen-idle-3.glb",
+      "sha256": "05d124028f8a413d04f39dbe390038703049720f7ce58963c3b1d9e64fb4db1f",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.2667352557182312,
+          -0.5914222002029419,
+          0.0
+        ],
+        [
+          0.28637510538101196,
+          0.14936232566833496,
+          1.8216731548309326
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\citizen.glb",
+      "sha256": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.3266257047653198,
+          -0.18298257887363434,
+          0.0
+        ],
+        [
+          0.3266257047653198,
+          0.17290247976779938,
+          1.8379008769989014
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\gladiator.glb",
+      "sha256": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4",
+      "passed": true,
+      "mesh_count": 9,
+      "triangles": 5878,
+      "authoredGltfTriangles": 5878,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.44485563039779663,
+          -0.19565995037555695,
+          0.0
+        ],
+        [
+          0.5697668790817261,
+          0.17290247976779938,
+          1.8652865886688232
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\guard.glb",
+      "sha256": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9",
+      "passed": true,
+      "mesh_count": 9,
+      "triangles": 5890,
+      "authoredGltfTriangles": 5890,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.42677822709083557,
+          -0.19565995037555695,
+          0.0
+        ],
+        [
+          0.5697668790817261,
+          0.17290247976779938,
+          2.6700398921966553
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\merchant.glb",
+      "sha256": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.3266257047653198,
+          -0.18298257887363434,
+          0.0
+        ],
+        [
+          0.3266257047653198,
+          0.17290247976779938,
+          1.8379008769989014
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\noble.glb",
+      "sha256": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.3266257047653198,
+          -0.18298257887363434,
+          0.0
+        ],
+        [
+          0.3266257047653198,
+          0.17290247976779938,
+          1.8379008769989014
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\seated-spectator.glb",
+      "sha256": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.2682296931743622,
+          -0.602431058883667,
+          0.0
+        ],
+        [
+          0.2682296931743622,
+          0.1645164042711258,
+          1.4080724716186523
+        ]
+      ]
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\worker.glb",
+      "sha256": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d",
+      "passed": true,
+      "mesh_count": 5,
+      "triangles": 5002,
+      "authoredGltfTriangles": 5002,
+      "importerOnlyDisplayHelperTrianglesExcluded": 0,
+      "clips": [],
+      "bones": 0,
+      "finite_vertices": true,
+      "bounds_blender": [
+        [
+          -0.3266257047653198,
+          -0.18298257887363434,
+          0.0
+        ],
+        [
+          0.3266257047653198,
+          0.17290247976779938,
+          1.8379008769989014
+        ]
+      ]
+    }
+  ],
+  "source_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead"
+}

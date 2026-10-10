@@ -1,0 +1,4184 @@
+{
+  "revision": "master-organic-quarters-1",
+  "changed_existing_objects": [
+    "East_00_00/iron",
+    "East_00_00/plaster",
+    "East_00_00/shadow",
+    "East_00_00/stone",
+    "East_00_00/tile",
+    "East_00_00/tileLight",
+    "East_00_00/wood",
+    "East_00_01/iron",
+    "East_00_01/plasterPale",
+    "East_00_01/shadow",
+    "East_00_01/stone",
+    "East_00_01/tile",
+    "East_00_01/tileLight",
+    "East_00_01/wood",
+    "East_00_02/iron",
+    "East_00_02/plasterPale",
+    "East_00_02/plasterWarm",
+    "East_00_02/shadow",
+    "East_00_02/stone",
+    "East_00_02/wood",
+    "East_00_02/woodLight",
+    "East_00_03/iron",
+    "East_00_03/plaster",
+    "East_00_03/shadow",
+    "East_00_03/stone",
+    "East_00_03/tile",
+    "East_00_03/tileLight",
+    "East_00_03/wood",
+    "East_01_00/iron",
+    "East_01_00/plasterWarm",
+    "East_01_00/shadow",
+    "East_01_00/stone",
+    "East_01_00/tile",
+    "East_01_00/tileLight",
+    "East_01_00/wood",
+    "East_01_01/iron",
+    "East_01_01/plaster",
+    "East_01_01/shadow",
+    "East_01_01/stone",
+    "East_01_01/tile",
+    "East_01_01/tileLight",
+    "East_01_01/wood",
+    "East_01_02/iron",
+    "East_01_02/marble",
+    "East_01_02/marbleLight",
+    "East_01_02/plasterPale",
+    "East_01_02/shadow",
+    "East_01_02/stone",
+    "East_01_02/tile",
+    "East_01_02/tileLight",
+    "East_01_02/wood",
+    "East_01_03/iron",
+    "East_01_03/plasterWarm",
+    "East_01_03/shadow",
+    "East_01_03/stone",
+    "East_01_03/tile",
+    "East_01_03/tileLight",
+    "East_01_03/wood",
+    "East_02_00/iron",
+    "East_02_00/plasterPale",
+    "East_02_00/shadow",
+    "East_02_00/stone",
+    "East_02_00/tile",
+    "East_02_00/tileLight",
+    "East_02_00/wood",
+    "East_02_01/iron",
+    "East_02_01/plasterPale",
+    "East_02_01/plasterWarm",
+    "East_02_01/shadow",
+    "East_02_01/stone",
+    "East_02_01/wood",
+    "East_02_01/woodLight",
+    "East_02_02/iron",
+    "East_02_02/plaster",
+    "East_02_02/shadow",
+    "East_02_02/stone",
+    "East_02_02/tile",
+    "East_02_02/tileLight",
+    "East_02_02/wood",
+    "East_02_03/iron",
+    "East_02_03/plasterPale",
+    "East_02_03/shadow",
+    "East_02_03/stone",
+    "East_02_03/tile",
+    "East_02_03/tileLight",
+    "East_02_03/wood",
+    "East_03_00/iron",
+    "East_03_00/plaster",
+    "East_03_00/shadow",
+    "East_03_00/stone",
+    "East_03_00/tile",
+    "East_03_00/tileLight",
+    "East_03_00/wood",
+    "East_03_01/iron",
+    "East_03_01/marble",
+    "East_03_01/marbleLight",
+    "East_03_01/plasterPale",
+    "East_03_01/shadow",
+    "East_03_01/stone",
+    "East_03_01/tile",
+    "East_03_01/tileLight",
+    "East_03_01/wood",
+    "East_03_02/iron",
+    "East_03_02/plasterWarm",
+    "East_03_02/shadow",
+    "East_03_02/stone",
+    "East_03_02/tile",
+    "East_03_02/tileLight",
+    "East_03_02/wood",
+    "East_03_03/iron",
+    "East_03_03/plaster",
+    "East_03_03/shadow",
+    "East_03_03/stone",
+    "East_03_03/tile",
+    "East_03_03/tileLight",
+    "East_03_03/wood",
+    "East_04_00/iron",
+    "East_04_00/plasterPale",
+    "East_04_00/plasterWarm",
+    "East_04_00/shadow",
+    "East_04_00/stone",
+    "East_04_00/wood",
+    "East_04_00/woodLight",
+    "East_04_01/iron",
+    "East_04_01/plaster",
+    "East_04_01/shadow",
+    "East_04_01/stone",
+    "East_04_01/tile",
+    "East_04_01/tileLight",
+    "East_04_01/wood",
+    "East_04_02/iron",
+    "East_04_02/plasterPale",
+    "East_04_02/shadow",
+    "East_04_02/stone",
+    "East_04_02/tile",
+    "East_04_02/tileLight",
+    "East_04_02/wood",
+    "East_04_03/iron",
+    "East_04_03/plasterPale",
+    "East_04_03/plasterWarm",
+    "East_04_03/shadow",
+    "East_04_03/stone",
+    "East_04_03/wood",
+    "East_04_03/woodLight",
+    "East_05_00/iron",
+    "East_05_00/marble",
+    "East_05_00/marbleLight",
+    "East_05_00/plasterPale",
+    "East_05_00/shadow",
+    "East_05_00/stone",
+    "East_05_00/tile",
+    "East_05_00/tileLight",
+    "East_05_00/wood",
+    "East_05_01/iron",
+    "East_05_01/plasterWarm",
+    "East_05_01/shadow",
+    "East_05_01/stone",
+    "East_05_01/tile",
+    "East_05_01/tileLight",
+    "East_05_01/wood",
+    "East_05_02/iron",
+    "East_05_02/plaster",
+    "East_05_02/shadow",
+    "East_05_02/stone",
+    "East_05_02/tile",
+    "East_05_02/tileLight",
+    "East_05_02/wood",
+    "East_05_03/iron",
+    "East_05_03/marble",
+    "East_05_03/marbleLight",
+    "East_05_03/plasterPale",
+    "East_05_03/shadow",
+    "East_05_03/stone",
+    "East_05_03/tile",
+    "East_05_03/tileLight",
+    "East_05_03/wood",
+    "East_06_00/iron",
+    "East_06_00/plaster",
+    "East_06_00/shadow",
+    "East_06_00/stone",
+    "East_06_00/tile",
+    "East_06_00/tileLight",
+    "East_06_00/wood",
+    "East_06_01/iron",
+    "East_06_01/plasterPale",
+    "East_06_01/shadow",
+    "East_06_01/stone",
+    "East_06_01/tile",
+    "East_06_01/tileLight",
+    "East_06_01/wood",
+    "East_06_02/iron",
+    "East_06_02/plasterPale",
+    "East_06_02/plasterWarm",
+    "East_06_02/shadow",
+    "East_06_02/stone",
+    "East_06_02/wood",
+    "East_06_02/woodLight",
+    "East_06_03/iron",
+    "East_06_03/plaster",
+    "East_06_03/shadow",
+    "East_06_03/stone",
+    "East_06_03/tile",
+    "East_06_03/tileLight",
+    "East_06_03/wood",
+    "East_07_00/iron",
+    "East_07_00/plasterWarm",
+    "East_07_00/shadow",
+    "East_07_00/stone",
+    "East_07_00/tile",
+    "East_07_00/tileLight",
+    "East_07_00/wood",
+    "East_07_01/iron",
+    "East_07_01/plaster",
+    "East_07_01/shadow",
+    "East_07_01/stone",
+    "East_07_01/tile",
+    "East_07_01/tileLight",
+    "East_07_01/wood",
+    "East_07_02/iron",
+    "East_07_02/marble",
+    "East_07_02/marbleLight",
+    "East_07_02/plasterPale",
+    "East_07_02/shadow",
+    "East_07_02/stone",
+    "East_07_02/tile",
+    "East_07_02/tileLight",
+    "East_07_02/wood",
+    "East_07_03/iron",
+    "East_07_03/plasterWarm",
+    "East_07_03/shadow",
+    "East_07_03/stone",
+    "East_07_03/tile",
+    "East_07_03/tileLight",
+    "East_07_03/wood",
+    "ForegroundHouse_0/City/iron",
+    "ForegroundHouse_0/City/plaster",
+    "ForegroundHouse_0/City/shadow",
+    "ForegroundHouse_0/City/stone",
+    "ForegroundHouse_0/City/tile",
+    "ForegroundHouse_0/City/tileLight",
+    "ForegroundHouse_0/City/wood",
+    "ForegroundHouse_1/City/iron",
+    "ForegroundHouse_1/City/plasterWarm",
+    "ForegroundHouse_1/City/shadow",
+    "ForegroundHouse_1/City/stone",
+    "ForegroundHouse_1/City/tile",
+    "ForegroundHouse_1/City/tileLight",
+    "ForegroundHouse_1/City/wood",
+    "ForegroundHouse_2/City/iron",
+    "ForegroundHouse_2/City/plasterPale",
+    "ForegroundHouse_2/City/plasterWarm",
+    "ForegroundHouse_2/City/shadow",
+    "ForegroundHouse_2/City/stone",
+    "ForegroundHouse_2/City/wood",
+    "ForegroundHouse_2/City/woodLight",
+    "ForegroundHouse_3/City/iron",
+    "ForegroundHouse_3/City/plasterWarm",
+    "ForegroundHouse_3/City/shadow",
+    "ForegroundHouse_3/City/stone",
+    "ForegroundHouse_3/City/tile",
+    "ForegroundHouse_3/City/tileLight",
+    "ForegroundHouse_3/City/wood",
+    "North_00_00/iron",
+    "North_00_00/plaster",
+    "North_00_00/shadow",
+    "North_00_00/stone",
+    "North_00_00/tile",
+    "North_00_00/tileLight",
+    "North_00_00/wood",
+    "North_00_01/iron",
+    "North_00_01/plasterWarm",
+    "North_00_01/shadow",
+    "North_00_01/stone",
+    "North_00_01/tile",
+    "North_00_01/tileLight",
+    "North_00_01/wood",
+    "North_00_02/iron",
+    "North_00_02/plasterPale",
+    "North_00_02/shadow",
+    "North_00_02/stone",
+    "North_00_02/tile",
+    "North_00_02/tileLight",
+    "North_00_02/wood",
+    "North_00_03/iron",
+    "North_00_03/plaster",
+    "North_00_03/shadow",
+    "North_00_03/stone",
+    "North_00_03/tile",
+    "North_00_03/tileLight",
+    "North_00_03/wood",
+    "North_00_04/iron",
+    "North_00_04/plasterPale",
+    "North_00_04/plasterWarm",
+    "North_00_04/shadow",
+    "North_00_04/stone",
+    "North_00_04/wood",
+    "North_00_04/woodLight",
+    "North_00_05/iron",
+    "North_00_05/marble",
+    "North_00_05/marbleLight",
+    "North_00_05/plasterPale",
+    "North_00_05/shadow",
+    "North_00_05/stone",
+    "North_00_05/tile",
+    "North_00_05/tileLight",
+    "North_00_05/wood",
+    "North_00_06/iron",
+    "North_00_06/plaster",
+    "North_00_06/shadow",
+    "North_00_06/stone",
+    "North_00_06/tile",
+    "North_00_06/tileLight",
+    "North_00_06/wood",
+    "North_00_07/iron",
+    "North_00_07/plasterWarm",
+    "North_00_07/shadow",
+    "North_00_07/stone",
+    "North_00_07/tile",
+    "North_00_07/tileLight",
+    "North_00_07/wood",
+    "North_00_08/iron",
+    "North_00_08/plasterPale",
+    "North_00_08/shadow",
+    "North_00_08/stone",
+    "North_00_08/tile",
+    "North_00_08/tileLight",
+    "North_00_08/wood",
+    "North_00_12/iron",
+    "North_00_12/plaster",
+    "North_00_12/shadow",
+    "North_00_12/stone",
+    "North_00_12/tile",
+    "North_00_12/tileLight",
+    "North_00_12/wood",
+    "North_00_13/iron",
+    "North_00_13/plasterWarm",
+    "North_00_13/shadow",
+    "North_00_13/stone",
+    "North_00_13/tile",
+    "North_00_13/tileLight",
+    "North_00_13/wood",
+    "North_00_14/iron",
+    "North_00_14/plasterPale",
+    "North_00_14/shadow",
+    "North_00_14/stone",
+    "North_00_14/tile",
+    "North_00_14/tileLight",
+    "North_00_14/wood",
+    "North_00_15/iron",
+    "North_00_15/plaster",
+    "North_00_15/shadow",
+    "North_00_15/stone",
+    "North_00_15/tile",
+    "North_00_15/tileLight",
+    "North_00_15/wood",
+    "North_01_01/iron",
+    "North_01_01/plasterPale",
+    "North_01_01/plasterWarm",
+    "North_01_01/shadow",
+    "North_01_01/stone",
+    "North_01_01/wood",
+    "North_01_01/woodLight",
+    "North_01_02/iron",
+    "North_01_02/marble",
+    "North_01_02/marbleLight",
+    "North_01_02/plasterPale",
+    "North_01_02/shadow",
+    "North_01_02/stone",
+    "North_01_02/tile",
+    "North_01_02/tileLight",
+    "North_01_02/wood",
+    "North_01_03/iron",
+    "North_01_03/plaster",
+    "North_01_03/shadow",
+    "North_01_03/stone",
+    "North_01_03/tile",
+    "North_01_03/tileLight",
+    "North_01_03/wood",
+    "North_01_04/iron",
+    "North_01_04/plasterWarm",
+    "North_01_04/shadow",
+    "North_01_04/stone",
+    "North_01_04/tile",
+    "North_01_04/tileLight",
+    "North_01_04/wood",
+    "North_01_05/iron",
+    "North_01_05/plasterPale",
+    "North_01_05/shadow",
+    "North_01_05/stone",
+    "North_01_05/tile",
+    "North_01_05/tileLight",
+    "North_01_05/wood",
+    "North_01_06/iron",
+    "North_01_06/plaster",
+    "North_01_06/shadow",
+    "North_01_06/stone",
+    "North_01_06/tile",
+    "North_01_06/tileLight",
+    "North_01_06/wood",
+    "North_01_07/iron",
+    "North_01_07/plasterPale",
+    "North_01_07/plasterWarm",
+    "North_01_07/shadow",
+    "North_01_07/stone",
+    "North_01_07/wood",
+    "North_01_07/woodLight",
+    "North_01_08/iron",
+    "North_01_08/marble",
+    "North_01_08/marbleLight",
+    "North_01_08/plasterPale",
+    "North_01_08/shadow",
+    "North_01_08/stone",
+    "North_01_08/tile",
+    "North_01_08/tileLight",
+    "North_01_08/wood",
+    "North_01_09/iron",
+    "North_01_09/plaster",
+    "North_01_09/shadow",
+    "North_01_09/stone",
+    "North_01_09/tile",
+    "North_01_09/tileLight",
+    "North_01_09/wood",
+    "North_01_10/iron",
+    "North_01_10/plasterWarm",
+    "North_01_10/shadow",
+    "North_01_10/stone",
+    "North_01_10/tile",
+    "North_01_10/tileLight",
+    "North_01_10/wood",
+    "North_01_11/iron",
+    "North_01_11/plasterPale",
+    "North_01_11/shadow",
+    "North_01_11/stone",
+    "North_01_11/tile",
+    "North_01_11/tileLight",
+    "North_01_11/wood",
+    "North_01_12/iron",
+    "North_01_12/plaster",
+    "North_01_12/shadow",
+    "North_01_12/stone",
+    "North_01_12/tile",
+    "North_01_12/tileLight",
+    "North_01_12/wood",
+    "North_01_13/iron",
+    "North_01_13/plasterPale",
+    "North_01_13/plasterWarm",
+    "North_01_13/shadow",
+    "North_01_13/stone",
+    "North_01_13/wood",
+    "North_01_13/woodLight",
+    "North_01_14/iron",
+    "North_01_14/marble",
+    "North_01_14/marbleLight",
+    "North_01_14/plasterPale",
+    "North_01_14/shadow",
+    "North_01_14/stone",
+    "North_01_14/tile",
+    "North_01_14/tileLight",
+    "North_01_14/wood",
+    "North_01_15/iron",
+    "North_01_15/plaster",
+    "North_01_15/shadow",
+    "North_01_15/stone",
+    "North_01_15/tile",
+    "North_01_15/tileLight",
+    "North_01_15/wood",
+    "North_02_00/iron",
+    "North_02_00/plaster",
+    "North_02_00/shadow",
+    "North_02_00/stone",
+    "North_02_00/tile",
+    "North_02_00/tileLight",
+    "North_02_00/wood",
+    "North_02_01/iron",
+    "North_02_01/plasterWarm",
+    "North_02_01/shadow",
+    "North_02_01/stone",
+    "North_02_01/tile",
+    "North_02_01/tileLight",
+    "North_02_01/wood",
+    "North_02_02/iron",
+    "North_02_02/plasterPale",
+    "North_02_02/shadow",
+    "North_02_02/stone",
+    "North_02_02/tile",
+    "North_02_02/tileLight",
+    "North_02_02/wood",
+    "North_02_03/iron",
+    "North_02_03/plaster",
+    "North_02_03/shadow",
+    "North_02_03/stone",
+    "North_02_03/tile",
+    "North_02_03/tileLight",
+    "North_02_03/wood",
+    "North_02_04/iron",
+    "North_02_04/plasterPale",
+    "North_02_04/plasterWarm",
+    "North_02_04/shadow",
+    "North_02_04/stone",
+    "North_02_04/wood",
+    "North_02_04/woodLight",
+    "North_02_05/iron",
+    "North_02_05/marble",
+    "North_02_05/marbleLight",
+    "North_02_05/plasterPale",
+    "North_02_05/shadow",
+    "North_02_05/stone",
+    "North_02_05/tile",
+    "North_02_05/tileLight",
+    "North_02_05/wood",
+    "North_02_06/iron",
+    "North_02_06/plaster",
+    "North_02_06/shadow",
+    "North_02_06/stone",
+    "North_02_06/tile",
+    "North_02_06/tileLight",
+    "North_02_06/wood",
+    "North_02_07/iron",
+    "North_02_07/plasterWarm",
+    "North_02_07/shadow",
+    "North_02_07/stone",
+    "North_02_07/tile",
+    "North_02_07/tileLight",
+    "North_02_07/wood",
+    "North_02_08/iron",
+    "North_02_08/plasterPale",
+    "North_02_08/shadow",
+    "North_02_08/stone",
+    "North_02_08/tile",
+    "North_02_08/tileLight",
+    "North_02_08/wood",
+    "North_02_09/iron",
+    "North_02_09/plaster",
+    "North_02_09/shadow",
+    "North_02_09/stone",
+    "North_02_09/tile",
+    "North_02_09/tileLight",
+    "North_02_09/wood",
+    "North_02_10/iron",
+    "North_02_10/plasterPale",
+    "North_02_10/plasterWarm",
+    "North_02_10/shadow",
+    "North_02_10/stone",
+    "North_02_10/wood",
+    "North_02_10/woodLight",
+    "North_02_11/iron",
+    "North_02_11/marble",
+    "North_02_11/marbleLight",
+    "North_02_11/plasterPale",
+    "North_02_11/shadow",
+    "North_02_11/stone",
+    "North_02_11/tile",
+    "North_02_11/tileLight",
+    "North_02_11/wood",
+    "North_02_12/iron",
+    "North_02_12/plaster",
+    "North_02_12/shadow",
+    "North_02_12/stone",
+    "North_02_12/tile",
+    "North_02_12/tileLight",
+    "North_02_12/wood",
+    "North_02_13/iron",
+    "North_02_13/plasterWarm",
+    "North_02_13/shadow",
+    "North_02_13/stone",
+    "North_02_13/tile",
+    "North_02_13/tileLight",
+    "North_02_13/wood",
+    "North_02_14/iron",
+    "North_02_14/plasterPale",
+    "North_02_14/shadow",
+    "North_02_14/stone",
+    "North_02_14/tile",
+    "North_02_14/tileLight",
+    "North_02_14/wood",
+    "North_02_15/iron",
+    "North_02_15/plaster",
+    "North_02_15/shadow",
+    "North_02_15/stone",
+    "North_02_15/tile",
+    "North_02_15/tileLight",
+    "North_02_15/wood",
+    "North_03_00/iron",
+    "North_03_00/plaster",
+    "North_03_00/shadow",
+    "North_03_00/stone",
+    "North_03_00/tile",
+    "North_03_00/tileLight",
+    "North_03_00/wood",
+    "North_03_01/iron",
+    "North_03_01/plasterPale",
+    "North_03_01/plasterWarm",
+    "North_03_01/shadow",
+    "North_03_01/stone",
+    "North_03_01/wood",
+    "North_03_01/woodLight",
+    "North_03_02/iron",
+    "North_03_02/marble",
+    "North_03_02/marbleLight",
+    "North_03_02/plasterPale",
+    "North_03_02/shadow",
+    "North_03_02/stone",
+    "North_03_02/tile",
+    "North_03_02/tileLight",
+    "North_03_02/wood",
+    "North_03_03/iron",
+    "North_03_03/plaster",
+    "North_03_03/shadow",
+    "North_03_03/stone",
+    "North_03_03/tile",
+    "North_03_03/tileLight",
+    "North_03_03/wood",
+    "North_03_04/iron",
+    "North_03_04/plasterWarm",
+    "North_03_04/shadow",
+    "North_03_04/stone",
+    "North_03_04/tile",
+    "North_03_04/tileLight",
+    "North_03_04/wood",
+    "North_03_05/iron",
+    "North_03_05/plasterPale",
+    "North_03_05/shadow",
+    "North_03_05/stone",
+    "North_03_05/tile",
+    "North_03_05/tileLight",
+    "North_03_05/wood",
+    "North_03_06/iron",
+    "North_03_06/plaster",
+    "North_03_06/shadow",
+    "North_03_06/stone",
+    "North_03_06/tile",
+    "North_03_06/tileLight",
+    "North_03_06/wood",
+    "North_03_07/iron",
+    "North_03_07/plasterPale",
+    "North_03_07/plasterWarm",
+    "North_03_07/shadow",
+    "North_03_07/stone",
+    "North_03_07/wood",
+    "North_03_07/woodLight",
+    "North_03_08/iron",
+    "North_03_08/marble",
+    "North_03_08/marbleLight",
+    "North_03_08/plasterPale",
+    "North_03_08/shadow",
+    "North_03_08/stone",
+    "North_03_08/tile",
+    "North_03_08/tileLight",
+    "North_03_08/wood",
+    "North_03_09/iron",
+    "North_03_09/plaster",
+    "North_03_09/shadow",
+    "North_03_09/stone",
+    "North_03_09/tile",
+    "North_03_09/tileLight",
+    "North_03_09/wood",
+    "North_03_11/iron",
+    "North_03_11/plasterPale",
+    "North_03_11/shadow",
+    "North_03_11/stone",
+    "North_03_11/tile",
+    "North_03_11/tileLight",
+    "North_03_11/wood",
+    "North_03_12/iron",
+    "North_03_12/plaster",
+    "North_03_12/shadow",
+    "North_03_12/stone",
+    "North_03_12/tile",
+    "North_03_12/tileLight",
+    "North_03_12/wood",
+    "North_03_13/iron",
+    "North_03_13/plasterPale",
+    "North_03_13/plasterWarm",
+    "North_03_13/shadow",
+    "North_03_13/stone",
+    "North_03_13/wood",
+    "North_03_13/woodLight",
+    "North_03_14/iron",
+    "North_03_14/marble",
+    "North_03_14/marbleLight",
+    "North_03_14/plasterPale",
+    "North_03_14/shadow",
+    "North_03_14/stone",
+    "North_03_14/tile",
+    "North_03_14/tileLight",
+    "North_03_14/wood",
+    "North_03_15/iron",
+    "North_03_15/plaster",
+    "North_03_15/shadow",
+    "North_03_15/stone",
+    "North_03_15/tile",
+    "North_03_15/tileLight",
+    "North_03_15/wood",
+    "North_04_00/iron",
+    "North_04_00/plaster",
+    "North_04_00/shadow",
+    "North_04_00/stone",
+    "North_04_00/tile",
+    "North_04_00/tileLight",
+    "North_04_00/wood",
+    "North_04_01/iron",
+    "North_04_01/plasterWarm",
+    "North_04_01/shadow",
+    "North_04_01/stone",
+    "North_04_01/tile",
+    "North_04_01/tileLight",
+    "North_04_01/wood",
+    "North_04_02/iron",
+    "North_04_02/plasterPale",
+    "North_04_02/shadow",
+    "North_04_02/stone",
+    "North_04_02/tile",
+    "North_04_02/tileLight",
+    "North_04_02/wood",
+    "North_04_03/iron",
+    "North_04_03/plaster",
+    "North_04_03/shadow",
+    "North_04_03/stone",
+    "North_04_03/tile",
+    "North_04_03/tileLight",
+    "North_04_03/wood",
+    "North_04_04/iron",
+    "North_04_04/plasterPale",
+    "North_04_04/plasterWarm",
+    "North_04_04/shadow",
+    "North_04_04/stone",
+    "North_04_04/wood",
+    "North_04_04/woodLight",
+    "North_04_05/iron",
+    "North_04_05/marble",
+    "North_04_05/marbleLight",
+    "North_04_05/plasterPale",
+    "North_04_05/shadow",
+    "North_04_05/stone",
+    "North_04_05/tile",
+    "North_04_05/tileLight",
+    "North_04_05/wood",
+    "North_04_06/iron",
+    "North_04_06/plaster",
+    "North_04_06/shadow",
+    "North_04_06/stone",
+    "North_04_06/tile",
+    "North_04_06/tileLight",
+    "North_04_06/wood",
+    "North_04_07/iron",
+    "North_04_07/plasterWarm",
+    "North_04_07/shadow",
+    "North_04_07/stone",
+    "North_04_07/tile",
+    "North_04_07/tileLight",
+    "North_04_07/wood",
+    "North_04_08/iron",
+    "North_04_08/plasterPale",
+    "North_04_08/shadow",
+    "North_04_08/stone",
+    "North_04_08/tile",
+    "North_04_08/tileLight",
+    "North_04_08/wood",
+    "North_04_09/iron",
+    "North_04_09/plaster",
+    "North_04_09/shadow",
+    "North_04_09/stone",
+    "North_04_09/tile",
+    "North_04_09/tileLight",
+    "North_04_09/wood",
+    "North_04_10/iron",
+    "North_04_10/plasterPale",
+    "North_04_10/plasterWarm",
+    "North_04_10/shadow",
+    "North_04_10/stone",
+    "North_04_10/wood",
+    "North_04_10/woodLight",
+    "North_04_11/iron",
+    "North_04_11/marble",
+    "North_04_11/marbleLight",
+    "North_04_11/plasterPale",
+    "North_04_11/shadow",
+    "North_04_11/stone",
+    "North_04_11/tile",
+    "North_04_11/tileLight",
+    "North_04_11/wood",
+    "North_04_12/iron",
+    "North_04_12/plaster",
+    "North_04_12/shadow",
+    "North_04_12/stone",
+    "North_04_12/tile",
+    "North_04_12/tileLight",
+    "North_04_12/wood",
+    "North_04_13/iron",
+    "North_04_13/plasterWarm",
+    "North_04_13/shadow",
+    "North_04_13/stone",
+    "North_04_13/tile",
+    "North_04_13/tileLight",
+    "North_04_13/wood",
+    "North_04_14/iron",
+    "North_04_14/plasterPale",
+    "North_04_14/shadow",
+    "North_04_14/stone",
+    "North_04_14/tile",
+    "North_04_14/tileLight",
+    "North_04_14/wood",
+    "North_04_15/iron",
+    "North_04_15/plaster",
+    "North_04_15/shadow",
+    "North_04_15/stone",
+    "North_04_15/tile",
+    "North_04_15/tileLight",
+    "North_04_15/wood",
+    "North_05_00/iron",
+    "North_05_00/plaster",
+    "North_05_00/shadow",
+    "North_05_00/stone",
+    "North_05_00/tile",
+    "North_05_00/tileLight",
+    "North_05_00/wood",
+    "North_05_01/iron",
+    "North_05_01/plasterPale",
+    "North_05_01/plasterWarm",
+    "North_05_01/shadow",
+    "North_05_01/stone",
+    "North_05_01/wood",
+    "North_05_01/woodLight",
+    "North_05_02/iron",
+    "North_05_02/marble",
+    "North_05_02/marbleLight",
+    "North_05_02/plasterPale",
+    "North_05_02/shadow",
+    "North_05_02/stone",
+    "North_05_02/tile",
+    "North_05_02/tileLight",
+    "North_05_02/wood",
+    "North_05_03/iron",
+    "North_05_03/plaster",
+    "North_05_03/shadow",
+    "North_05_03/stone",
+    "North_05_03/tile",
+    "North_05_03/tileLight",
+    "North_05_03/wood",
+    "North_05_04/iron",
+    "North_05_04/plasterWarm",
+    "North_05_04/shadow",
+    "North_05_04/stone",
+    "North_05_04/tile",
+    "North_05_04/tileLight",
+    "North_05_04/wood",
+    "North_05_05/iron",
+    "North_05_05/plasterPale",
+    "North_05_05/shadow",
+    "North_05_05/stone",
+    "North_05_05/tile",
+    "North_05_05/tileLight",
+    "North_05_05/wood",
+    "North_05_06/iron",
+    "North_05_06/plaster",
+    "North_05_06/shadow",
+    "North_05_06/stone",
+    "North_05_06/tile",
+    "North_05_06/tileLight",
+    "North_05_06/wood",
+    "North_05_07/iron",
+    "North_05_07/plasterPale",
+    "North_05_07/plasterWarm",
+    "North_05_07/shadow",
+    "North_05_07/stone",
+    "North_05_07/wood",
+    "North_05_07/woodLight",
+    "North_05_08/iron",
+    "North_05_08/marble",
+    "North_05_08/marbleLight",
+    "North_05_08/plasterPale",
+    "North_05_08/shadow",
+    "North_05_08/stone",
+    "North_05_08/tile",
+    "North_05_08/tileLight",
+    "North_05_08/wood",
+    "North_05_09/iron",
+    "North_05_09/plaster",
+    "North_05_09/shadow",
+    "North_05_09/stone",
+    "North_05_09/tile",
+    "North_05_09/tileLight",
+    "North_05_09/wood",
+    "North_05_10/iron",
+    "North_05_10/plasterWarm",
+    "North_05_10/shadow",
+    "North_05_10/stone",
+    "North_05_10/tile",
+    "North_05_10/tileLight",
+    "North_05_10/wood",
+    "North_05_11/iron",
+    "North_05_11/plasterPale",
+    "North_05_11/shadow",
+    "North_05_11/stone",
+    "North_05_11/tile",
+    "North_05_11/tileLight",
+    "North_05_11/wood",
+    "North_05_12/iron",
+    "North_05_12/plaster",
+    "North_05_12/shadow",
+    "North_05_12/stone",
+    "North_05_12/tile",
+    "North_05_12/tileLight",
+    "North_05_12/wood",
+    "North_05_13/iron",
+    "North_05_13/plasterPale",
+    "North_05_13/plasterWarm",
+    "North_05_13/shadow",
+    "North_05_13/stone",
+    "North_05_13/wood",
+    "North_05_13/woodLight",
+    "North_05_14/iron",
+    "North_05_14/marble",
+    "North_05_14/marbleLight",
+    "North_05_14/plasterPale",
+    "North_05_14/shadow",
+    "North_05_14/stone",
+    "North_05_14/tile",
+    "North_05_14/tileLight",
+    "North_05_14/wood",
+    "North_05_15/iron",
+    "North_05_15/plaster",
+    "North_05_15/shadow",
+    "North_05_15/stone",
+    "North_05_15/tile",
+    "North_05_15/tileLight",
+    "North_05_15/wood",
+    "Precinct_01/iron",
+    "Precinct_01/plasterWarm",
+    "Precinct_01/shadow",
+    "Precinct_01/stone",
+    "Precinct_01/tile",
+    "Precinct_01/tileLight",
+    "Precinct_01/wood",
+    "Precinct_02/iron",
+    "Precinct_02/plasterPale",
+    "Precinct_02/shadow",
+    "Precinct_02/stone",
+    "Precinct_02/tile",
+    "Precinct_02/tileLight",
+    "Precinct_02/wood",
+    "Precinct_06/iron",
+    "Precinct_06/plasterPale",
+    "Precinct_06/plasterWarm",
+    "Precinct_06/shadow",
+    "Precinct_06/stone",
+    "Precinct_06/wood",
+    "Precinct_06/woodLight",
+    "Precinct_07/iron",
+    "Precinct_07/plasterWarm",
+    "Precinct_07/shadow",
+    "Precinct_07/stone",
+    "Precinct_07/tile",
+    "Precinct_07/tileLight",
+    "Precinct_07/wood",
+    "Precinct_08/iron",
+    "Precinct_08/plasterPale",
+    "Precinct_08/shadow",
+    "Precinct_08/stone",
+    "Precinct_08/tile",
+    "Precinct_08/tileLight",
+    "Precinct_08/wood",
+    "Precinct_09/iron",
+    "Precinct_09/plaster",
+    "Precinct_09/shadow",
+    "Precinct_09/stone",
+    "Precinct_09/tile",
+    "Precinct_09/tileLight",
+    "Precinct_09/wood",
+    "SouthEast_01/iron",
+    "SouthEast_01/plaster",
+    "SouthEast_01/shadow",
+    "SouthEast_01/stone",
+    "SouthEast_01/tile",
+    "SouthEast_01/tileLight",
+    "SouthEast_01/wood",
+    "SouthEast_02/iron",
+    "SouthEast_02/plasterWarm",
+    "SouthEast_02/shadow",
+    "SouthEast_02/stone",
+    "SouthEast_02/tile",
+    "SouthEast_02/tileLight",
+    "SouthEast_02/wood",
+    "SouthWest_01/iron",
+    "SouthWest_01/plasterWarm",
+    "SouthWest_01/shadow",
+    "SouthWest_01/stone",
+    "SouthWest_01/tile",
+    "SouthWest_01/tileLight",
+    "SouthWest_01/wood",
+    "SouthWest_02/iron",
+    "SouthWest_02/plaster",
+    "SouthWest_02/shadow",
+    "SouthWest_02/stone",
+    "SouthWest_02/tile",
+    "SouthWest_02/tileLight",
+    "SouthWest_02/wood",
+    "Tree_000/bark",
+    "Tree_000/leaf",
+    "Tree_000/leafDark",
+    "Tree_001/bark",
+    "Tree_001/leaf",
+    "Tree_001/leafDark",
+    "Tree_002/bark",
+    "Tree_002/leaf",
+    "Tree_002/leafDark",
+    "Tree_003/bark",
+    "Tree_003/leaf",
+    "Tree_003/leafDark",
+    "Tree_004/bark",
+    "Tree_004/leaf",
+    "Tree_004/leafDark",
+    "Tree_005/bark",
+    "Tree_005/leaf",
+    "Tree_005/leafDark",
+    "Tree_006/bark",
+    "Tree_006/leaf",
+    "Tree_006/leafDark",
+    "Tree_007/bark",
+    "Tree_007/leaf",
+    "Tree_007/leafDark",
+    "Tree_008/bark",
+    "Tree_008/leaf",
+    "Tree_008/leafDark",
+    "Tree_009/bark",
+    "Tree_009/leaf",
+    "Tree_009/leafDark",
+    "Tree_010/bark",
+    "Tree_010/leaf",
+    "Tree_010/leafDark",
+    "Tree_011/bark",
+    "Tree_011/leaf",
+    "Tree_011/leafDark",
+    "Tree_012/bark",
+    "Tree_012/leaf",
+    "Tree_012/leafDark",
+    "Tree_013/bark",
+    "Tree_013/leaf",
+    "Tree_013/leafDark",
+    "Tree_014/bark",
+    "Tree_014/leaf",
+    "Tree_014/leafDark",
+    "Tree_015/bark",
+    "Tree_015/leaf",
+    "Tree_015/leafDark",
+    "Tree_016/bark",
+    "Tree_016/leaf",
+    "Tree_016/leafDark",
+    "Tree_017/bark",
+    "Tree_017/leaf",
+    "Tree_017/leafDark",
+    "Tree_018/bark",
+    "Tree_018/leaf",
+    "Tree_018/leafDark",
+    "Tree_019/bark",
+    "Tree_019/leaf",
+    "Tree_019/leafDark",
+    "Tree_020/bark",
+    "Tree_020/leaf",
+    "Tree_020/leafDark",
+    "Tree_021/bark",
+    "Tree_021/leaf",
+    "Tree_021/leafDark",
+    "Tree_022/bark",
+    "Tree_022/leaf",
+    "Tree_022/leafDark",
+    "Tree_023/bark",
+    "Tree_023/leaf",
+    "Tree_023/leafDark",
+    "Tree_024/bark",
+    "Tree_024/leaf",
+    "Tree_024/leafDark",
+    "Tree_025/bark",
+    "Tree_025/leaf",
+    "Tree_025/leafDark",
+    "Tree_026/bark",
+    "Tree_026/leaf",
+    "Tree_026/leafDark",
+    "Tree_027/bark",
+    "Tree_027/leaf",
+    "Tree_027/leafDark",
+    "Tree_028/bark",
+    "Tree_028/leaf",
+    "Tree_028/leafDark",
+    "Tree_029/bark",
+    "Tree_029/leaf",
+    "Tree_029/leafDark",
+    "Tree_030/bark",
+    "Tree_030/leaf",
+    "Tree_030/leafDark",
+    "Tree_031/bark",
+    "Tree_031/leaf",
+    "Tree_031/leafDark",
+    "Tree_032/bark",
+    "Tree_032/leaf",
+    "Tree_032/leafDark",
+    "Tree_033/bark",
+    "Tree_033/leaf",
+    "Tree_033/leafDark",
+    "Tree_034/bark",
+    "Tree_034/leaf",
+    "Tree_034/leafDark",
+    "Tree_035/bark",
+    "Tree_035/leaf",
+    "Tree_035/leafDark",
+    "Tree_036/bark",
+    "Tree_036/leaf",
+    "Tree_036/leafDark",
+    "Tree_037/bark",
+    "Tree_037/leaf",
+    "Tree_037/leafDark",
+    "Tree_038/bark",
+    "Tree_038/leaf",
+    "Tree_038/leafDark",
+    "Tree_039/bark",
+    "Tree_039/leaf",
+    "Tree_039/leafDark",
+    "Tree_040/bark",
+    "Tree_040/leaf",
+    "Tree_040/leafDark",
+    "Tree_041/bark",
+    "Tree_041/leaf",
+    "Tree_041/leafDark",
+    "Tree_042/bark",
+    "Tree_042/leaf",
+    "Tree_042/leafDark",
+    "Tree_043/bark",
+    "Tree_043/leaf",
+    "Tree_043/leafDark",
+    "Tree_044/bark",
+    "Tree_044/leaf",
+    "Tree_044/leafDark",
+    "Tree_045/bark",
+    "Tree_045/leaf",
+    "Tree_045/leafDark",
+    "Tree_046/bark",
+    "Tree_046/leaf",
+    "Tree_046/leafDark",
+    "Tree_047/bark",
+    "Tree_047/leaf",
+    "Tree_047/leafDark",
+    "Tree_048/bark",
+    "Tree_048/leaf",
+    "Tree_048/leafDark",
+    "Tree_049/bark",
+    "Tree_049/leaf",
+    "Tree_049/leafDark",
+    "Tree_050/bark",
+    "Tree_050/leaf",
+    "Tree_050/leafDark",
+    "Tree_051/bark",
+    "Tree_051/leaf",
+    "Tree_051/leafDark",
+    "Tree_052/bark",
+    "Tree_052/leaf",
+    "Tree_052/leafDark",
+    "Tree_053/bark",
+    "Tree_053/leaf",
+    "Tree_053/leafDark",
+    "Tree_054/bark",
+    "Tree_054/leaf",
+    "Tree_054/leafDark",
+    "Tree_055/bark",
+    "Tree_055/leaf",
+    "Tree_055/leafDark",
+    "Tree_056/bark",
+    "Tree_056/leaf",
+    "Tree_056/leafDark",
+    "Tree_057/bark",
+    "Tree_057/leaf",
+    "Tree_057/leafDark",
+    "Tree_058/bark",
+    "Tree_058/leaf",
+    "Tree_058/leafDark",
+    "Tree_059/bark",
+    "Tree_059/leaf",
+    "Tree_059/leafDark",
+    "Tree_060/bark",
+    "Tree_060/leaf",
+    "Tree_060/leafDark",
+    "Tree_061/bark",
+    "Tree_061/leaf",
+    "Tree_061/leafDark",
+    "Tree_062/bark",
+    "Tree_062/leaf",
+    "Tree_062/leafDark",
+    "Tree_063/bark",
+    "Tree_063/leaf",
+    "Tree_063/leafDark",
+    "Tree_064/bark",
+    "Tree_064/leaf",
+    "Tree_064/leafDark",
+    "Tree_065/bark",
+    "Tree_065/leaf",
+    "Tree_065/leafDark",
+    "Tree_066/bark",
+    "Tree_066/leaf",
+    "Tree_066/leafDark",
+    "Tree_067/bark",
+    "Tree_067/leaf",
+    "Tree_067/leafDark",
+    "Tree_068/bark",
+    "Tree_068/leaf",
+    "Tree_068/leafDark",
+    "Tree_069/bark",
+    "Tree_069/leaf",
+    "Tree_069/leafDark",
+    "Tree_070/bark",
+    "Tree_070/leaf",
+    "Tree_070/leafDark",
+    "Tree_071/bark",
+    "Tree_071/leaf",
+    "Tree_071/leafDark",
+    "Tree_072/bark",
+    "Tree_072/leaf",
+    "Tree_072/leafDark",
+    "Tree_073/bark",
+    "Tree_073/leaf",
+    "Tree_073/leafDark",
+    "Tree_074/bark",
+    "Tree_074/leaf",
+    "Tree_074/leafDark",
+    "Tree_075/bark",
+    "Tree_075/leaf",
+    "Tree_075/leafDark",
+    "Tree_076/bark",
+    "Tree_076/leaf",
+    "Tree_076/leafDark",
+    "Tree_077/bark",
+    "Tree_077/leaf",
+    "Tree_077/leafDark",
+    "Tree_078/bark",
+    "Tree_078/leaf",
+    "Tree_078/leafDark",
+    "Tree_079/bark",
+    "Tree_079/leaf",
+    "Tree_079/leafDark",
+    "Tree_080/bark",
+    "Tree_080/leaf",
+    "Tree_080/leafDark",
+    "Tree_081/bark",
+    "Tree_081/leaf",
+    "Tree_081/leafDark",
+    "Tree_082/bark",
+    "Tree_082/leaf",
+    "Tree_082/leafDark",
+    "Tree_083/bark",
+    "Tree_083/leaf",
+    "Tree_083/leafDark",
+    "Tree_084/bark",
+    "Tree_084/leaf",
+    "Tree_084/leafDark",
+    "Tree_085/bark",
+    "Tree_085/leaf",
+    "Tree_085/leafDark",
+    "Tree_086/bark",
+    "Tree_086/leaf",
+    "Tree_086/leafDark",
+    "Tree_087/bark",
+    "Tree_087/leaf",
+    "Tree_087/leafDark",
+    "Tree_088/bark",
+    "Tree_088/leaf",
+    "Tree_088/leafDark",
+    "Tree_089/bark",
+    "Tree_089/leaf",
+    "Tree_089/leafDark",
+    "Tree_090/bark",
+    "Tree_090/leaf",
+    "Tree_090/leafDark",
+    "Tree_091/bark",
+    "Tree_091/leaf",
+    "Tree_091/leafDark",
+    "Tree_092/bark",
+    "Tree_092/leaf",
+    "Tree_092/leafDark",
+    "Tree_093/bark",
+    "Tree_093/leaf",
+    "Tree_093/leafDark",
+    "Tree_094/bark",
+    "Tree_094/leaf",
+    "Tree_094/leafDark",
+    "Tree_095/bark",
+    "Tree_095/leaf",
+    "Tree_095/leafDark",
+    "Tree_096/bark",
+    "Tree_096/leaf",
+    "Tree_096/leafDark",
+    "Tree_097/bark",
+    "Tree_097/leaf",
+    "Tree_097/leafDark",
+    "Tree_098/bark",
+    "Tree_098/leaf",
+    "Tree_098/leafDark",
+    "Tree_099/bark",
+    "Tree_099/leaf",
+    "Tree_099/leafDark",
+    "Tree_100/bark",
+    "Tree_100/leaf",
+    "Tree_100/leafDark",
+    "Tree_101/bark",
+    "Tree_101/leaf",
+    "Tree_101/leafDark",
+    "Tree_102/bark",
+    "Tree_102/leaf",
+    "Tree_102/leafDark",
+    "Tree_103/bark",
+    "Tree_103/leaf",
+    "Tree_103/leafDark",
+    "Tree_104/bark",
+    "Tree_104/leaf",
+    "Tree_104/leafDark",
+    "Tree_105/bark",
+    "Tree_105/leaf",
+    "Tree_105/leafDark",
+    "Tree_106/bark",
+    "Tree_106/leaf",
+    "Tree_106/leafDark",
+    "Tree_107/bark",
+    "Tree_107/leaf",
+    "Tree_107/leafDark",
+    "Tree_108/bark",
+    "Tree_108/leaf",
+    "Tree_108/leafDark",
+    "Tree_109/bark",
+    "Tree_109/leaf",
+    "Tree_109/leafDark",
+    "Tree_110/bark",
+    "Tree_110/leaf",
+    "Tree_110/leafDark",
+    "Tree_111/bark",
+    "Tree_111/leaf",
+    "Tree_111/leafDark",
+    "Tree_112/bark",
+    "Tree_112/leaf",
+    "Tree_112/leafDark",
+    "Tree_113/bark",
+    "Tree_113/leaf",
+    "Tree_113/leafDark",
+    "Tree_114/bark",
+    "Tree_114/leaf",
+    "Tree_114/leafDark",
+    "Tree_115/bark",
+    "Tree_115/leaf",
+    "Tree_115/leafDark",
+    "Tree_116/bark",
+    "Tree_116/leaf",
+    "Tree_116/leafDark",
+    "Tree_117/bark",
+    "Tree_117/leaf",
+    "Tree_117/leafDark",
+    "Tree_118/bark",
+    "Tree_118/leaf",
+    "Tree_118/leafDark",
+    "Tree_119/bark",
+    "Tree_119/leaf",
+    "Tree_119/leafDark",
+    "Tree_120/bark",
+    "Tree_120/leaf",
+    "Tree_120/leafDark",
+    "Tree_121/bark",
+    "Tree_121/leaf",
+    "Tree_121/leafDark",
+    "Tree_122/bark",
+    "Tree_122/leaf",
+    "Tree_122/leafDark",
+    "Tree_123/bark",
+    "Tree_123/leaf",
+    "Tree_123/leafDark",
+    "Tree_124/bark",
+    "Tree_124/leaf",
+    "Tree_124/leafDark",
+    "Tree_125/bark",
+    "Tree_125/leaf",
+    "Tree_125/leafDark",
+    "Tree_126/bark",
+    "Tree_126/leaf",
+    "Tree_126/leafDark",
+    "Tree_127/bark",
+    "Tree_127/leaf",
+    "Tree_127/leafDark",
+    "Tree_128/bark",
+    "Tree_128/leaf",
+    "Tree_128/leafDark",
+    "Tree_129/bark",
+    "Tree_129/leaf",
+    "Tree_129/leafDark",
+    "Tree_130/bark",
+    "Tree_130/leaf",
+    "Tree_130/leafDark",
+    "Tree_131/bark",
+    "Tree_131/leaf",
+    "Tree_131/leafDark",
+    "Tree_132/bark",
+    "Tree_132/leaf",
+    "Tree_132/leafDark",
+    "Tree_133/bark",
+    "Tree_133/leaf",
+    "Tree_133/leafDark",
+    "Tree_134/bark",
+    "Tree_134/leaf",
+    "Tree_134/leafDark",
+    "Tree_135/bark",
+    "Tree_135/leaf",
+    "Tree_135/leafDark",
+    "Tree_136/bark",
+    "Tree_136/leaf",
+    "Tree_136/leafDark",
+    "Tree_137/bark",
+    "Tree_137/leaf",
+    "Tree_137/leafDark",
+    "Tree_138/bark",
+    "Tree_138/leaf",
+    "Tree_138/leafDark",
+    "Tree_139/bark",
+    "Tree_139/leaf",
+    "Tree_139/leafDark",
+    "Tree_140/bark",
+    "Tree_140/leaf",
+    "Tree_140/leafDark",
+    "Tree_141/bark",
+    "Tree_141/leaf",
+    "Tree_141/leafDark",
+    "Tree_142/bark",
+    "Tree_142/leaf",
+    "Tree_142/leafDark",
+    "Tree_143/bark",
+    "Tree_143/leaf",
+    "Tree_143/leafDark",
+    "Tree_144/bark",
+    "Tree_144/leaf",
+    "Tree_144/leafDark",
+    "Tree_145/bark",
+    "Tree_145/leaf",
+    "Tree_145/leafDark",
+    "Tree_146/bark",
+    "Tree_146/leaf",
+    "Tree_146/leafDark",
+    "Tree_147/bark",
+    "Tree_147/leaf",
+    "Tree_147/leafDark",
+    "Tree_148/bark",
+    "Tree_148/leaf",
+    "Tree_148/leafDark",
+    "Tree_149/bark",
+    "Tree_149/leaf",
+    "Tree_149/leafDark",
+    "Tree_150/bark",
+    "Tree_150/leaf",
+    "Tree_150/leafDark",
+    "Tree_151/bark",
+    "Tree_151/leaf",
+    "Tree_151/leafDark",
+    "Tree_152/bark",
+    "Tree_152/leaf",
+    "Tree_152/leafDark",
+    "Tree_153/bark",
+    "Tree_153/leaf",
+    "Tree_153/leafDark",
+    "Tree_154/bark",
+    "Tree_154/leaf",
+    "Tree_154/leafDark",
+    "Tree_155/bark",
+    "Tree_155/leaf",
+    "Tree_155/leafDark",
+    "Tree_156/bark",
+    "Tree_156/leaf",
+    "Tree_156/leafDark",
+    "Tree_157/bark",
+    "Tree_157/leaf",
+    "Tree_157/leafDark",
+    "Tree_158/bark",
+    "Tree_158/leaf",
+    "Tree_158/leafDark",
+    "Tree_159/bark",
+    "Tree_159/leaf",
+    "Tree_159/leafDark",
+    "Tree_160/bark",
+    "Tree_160/leaf",
+    "Tree_160/leafDark",
+    "Tree_161/bark",
+    "Tree_161/leaf",
+    "Tree_161/leafDark",
+    "Tree_162/bark",
+    "Tree_162/leaf",
+    "Tree_162/leafDark",
+    "Tree_163/bark",
+    "Tree_163/leaf",
+    "Tree_163/leafDark",
+    "Tree_164/bark",
+    "Tree_164/leaf",
+    "Tree_164/leafDark",
+    "Tree_165/bark",
+    "Tree_165/leaf",
+    "Tree_165/leafDark",
+    "Tree_166/bark",
+    "Tree_166/leaf",
+    "Tree_166/leafDark",
+    "Tree_167/bark",
+    "Tree_167/leaf",
+    "Tree_167/leafDark",
+    "Tree_168/bark",
+    "Tree_168/leaf",
+    "Tree_168/leafDark",
+    "Tree_169/bark",
+    "Tree_169/leaf",
+    "Tree_169/leafDark",
+    "Tree_170/bark",
+    "Tree_170/leaf",
+    "Tree_170/leafDark",
+    "Tree_171/bark",
+    "Tree_171/leaf",
+    "Tree_171/leafDark",
+    "Tree_172/bark",
+    "Tree_172/leaf",
+    "Tree_172/leafDark",
+    "Tree_173/bark",
+    "Tree_173/leaf",
+    "Tree_173/leafDark",
+    "Tree_174/bark",
+    "Tree_174/leaf",
+    "Tree_174/leafDark",
+    "Tree_175/bark",
+    "Tree_175/leaf",
+    "Tree_175/leafDark",
+    "Tree_176/bark",
+    "Tree_176/leaf",
+    "Tree_176/leafDark",
+    "Tree_177/bark",
+    "Tree_177/leaf",
+    "Tree_177/leafDark",
+    "Tree_178/bark",
+    "Tree_178/leaf",
+    "Tree_178/leafDark",
+    "Tree_179/bark",
+    "Tree_179/leaf",
+    "Tree_179/leafDark",
+    "West_00_00/iron",
+    "West_00_00/plaster",
+    "West_00_00/shadow",
+    "West_00_00/stone",
+    "West_00_00/tile",
+    "West_00_00/tileLight",
+    "West_00_00/wood",
+    "West_00_01/iron",
+    "West_00_01/plaster",
+    "West_00_01/shadow",
+    "West_00_01/stone",
+    "West_00_01/tile",
+    "West_00_01/tileLight",
+    "West_00_01/wood",
+    "West_01_00/iron",
+    "West_01_00/plasterWarm",
+    "West_01_00/shadow",
+    "West_01_00/stone",
+    "West_01_00/tile",
+    "West_01_00/tileLight",
+    "West_01_00/wood",
+    "West_01_01/iron",
+    "West_01_01/plasterPale",
+    "West_01_01/plasterWarm",
+    "West_01_01/shadow",
+    "West_01_01/stone",
+    "West_01_01/wood",
+    "West_01_01/woodLight",
+    "West_02_00/iron",
+    "West_02_00/plasterPale",
+    "West_02_00/shadow",
+    "West_02_00/stone",
+    "West_02_00/tile",
+    "West_02_00/tileLight",
+    "West_02_00/wood",
+    "West_02_01/iron",
+    "West_02_01/marble",
+    "West_02_01/marbleLight",
+    "West_02_01/plasterPale",
+    "West_02_01/shadow",
+    "West_02_01/stone",
+    "West_02_01/tile",
+    "West_02_01/tileLight",
+    "West_02_01/wood",
+    "West_03_00/iron",
+    "West_03_00/plaster",
+    "West_03_00/shadow",
+    "West_03_00/stone",
+    "West_03_00/tile",
+    "West_03_00/tileLight",
+    "West_03_00/wood",
+    "West_03_01/iron",
+    "West_03_01/plaster",
+    "West_03_01/shadow",
+    "West_03_01/stone",
+    "West_03_01/tile",
+    "West_03_01/tileLight",
+    "West_03_01/wood",
+    "West_04_00/iron",
+    "West_04_00/plasterPale",
+    "West_04_00/plasterWarm",
+    "West_04_00/shadow",
+    "West_04_00/stone",
+    "West_04_00/wood",
+    "West_04_00/woodLight",
+    "West_04_01/iron",
+    "West_04_01/plasterWarm",
+    "West_04_01/shadow",
+    "West_04_01/stone",
+    "West_04_01/tile",
+    "West_04_01/tileLight",
+    "West_04_01/wood",
+    "West_05_00/iron",
+    "West_05_00/marble",
+    "West_05_00/marbleLight",
+    "West_05_00/plasterPale",
+    "West_05_00/shadow",
+    "West_05_00/stone",
+    "West_05_00/tile",
+    "West_05_00/tileLight",
+    "West_05_00/wood",
+    "West_05_01/iron",
+    "West_05_01/plasterPale",
+    "West_05_01/shadow",
+    "West_05_01/stone",
+    "West_05_01/tile",
+    "West_05_01/tileLight",
+    "West_05_01/wood",
+    "West_06_00/iron",
+    "West_06_00/plaster",
+    "West_06_00/shadow",
+    "West_06_00/stone",
+    "West_06_00/tile",
+    "West_06_00/tileLight",
+    "West_06_00/wood",
+    "West_06_01/iron",
+    "West_06_01/plaster",
+    "West_06_01/shadow",
+    "West_06_01/stone",
+    "West_06_01/tile",
+    "West_06_01/tileLight",
+    "West_06_01/wood",
+    "West_07_00/iron",
+    "West_07_00/plasterWarm",
+    "West_07_00/shadow",
+    "West_07_00/stone",
+    "West_07_00/tile",
+    "West_07_00/tileLight",
+    "West_07_00/wood",
+    "West_07_01/iron",
+    "West_07_01/plasterPale",
+    "West_07_01/plasterWarm",
+    "West_07_01/shadow",
+    "West_07_01/stone",
+    "West_07_01/wood",
+    "West_07_01/woodLight",
+    "West_08_00/iron",
+    "West_08_00/plasterPale",
+    "West_08_00/shadow",
+    "West_08_00/stone",
+    "West_08_00/tile",
+    "West_08_00/tileLight",
+    "West_08_00/wood",
+    "West_08_01/iron",
+    "West_08_01/marble",
+    "West_08_01/marbleLight",
+    "West_08_01/plasterPale",
+    "West_08_01/shadow",
+    "West_08_01/stone",
+    "West_08_01/tile",
+    "West_08_01/tileLight",
+    "West_08_01/wood",
+    "West_09_00/iron",
+    "West_09_00/plaster",
+    "West_09_00/shadow",
+    "West_09_00/stone",
+    "West_09_00/tile",
+    "West_09_00/tileLight",
+    "West_09_00/wood",
+    "West_09_01/iron",
+    "West_09_01/plaster",
+    "West_09_01/shadow",
+    "West_09_01/stone",
+    "West_09_01/tile",
+    "West_09_01/tileLight",
+    "West_09_01/wood",
+    "West_10_00/iron",
+    "West_10_00/plasterPale",
+    "West_10_00/plasterWarm",
+    "West_10_00/shadow",
+    "West_10_00/stone",
+    "West_10_00/wood",
+    "West_10_00/woodLight",
+    "West_10_01/iron",
+    "West_10_01/plasterWarm",
+    "West_10_01/shadow",
+    "West_10_01/stone",
+    "West_10_01/tile",
+    "West_10_01/tileLight",
+    "West_10_01/wood"
+  ],
+  "retired_objects": [
+    "Block_courtyard_boundaries/bank",
+    "Block_courtyard_boundaries/stone",
+    "Block_courtyard_boundaries/ground",
+    "District_routes/road"
+  ],
+  "new_objects": [
+    "Preserved_ceremonial_approaches/road",
+    "Courtyard_Precinct_01/bank",
+    "Courtyard_Precinct_01/stone",
+    "Courtyard_Precinct_01/ground",
+    "Courtyard_East_01_02/bank",
+    "Courtyard_East_01_02/stone",
+    "Courtyard_East_01_02/ground",
+    "Courtyard_North_05_15/bank",
+    "Courtyard_North_05_15/stone",
+    "Courtyard_North_05_15/ground",
+    "Courtyard_North_05_13/bank",
+    "Courtyard_North_05_13/stone",
+    "Courtyard_North_05_13/ground",
+    "Courtyard_East_06_00/bank",
+    "Courtyard_East_06_00/stone",
+    "Courtyard_East_06_00/ground",
+    "Courtyard_North_03_15/bank",
+    "Courtyard_North_03_15/stone",
+    "Courtyard_North_03_15/ground",
+    "Courtyard_North_02_09/bank",
+    "Courtyard_North_02_09/stone",
+    "Courtyard_North_02_09/ground",
+    "Courtyard_North_03_14/bank",
+    "Courtyard_North_03_14/stone",
+    "Courtyard_North_03_14/ground",
+    "Courtyard_North_01_02/bank",
+    "Courtyard_North_01_02/stone",
+    "Courtyard_North_01_02/ground",
+    "Courtyard_East_00_00/bank",
+    "Courtyard_East_00_00/stone",
+    "Courtyard_East_00_00/ground",
+    "Courtyard_East_01_00/bank",
+    "Courtyard_East_01_00/stone",
+    "Courtyard_East_01_00/ground",
+    "Courtyard_North_04_08/bank",
+    "Courtyard_North_04_08/stone",
+    "Courtyard_North_04_08/ground",
+    "Courtyard_West_03_00/bank",
+    "Courtyard_West_03_00/stone",
+    "Courtyard_West_03_00/ground",
+    "Courtyard_North_00_13/bank",
+    "Courtyard_North_00_13/stone",
+    "Courtyard_North_00_13/ground",
+    "Courtyard_North_01_01/bank",
+    "Courtyard_North_01_01/stone",
+    "Courtyard_North_01_01/ground",
+    "Courtyard_Precinct_08/bank",
+    "Courtyard_Precinct_08/stone",
+    "Courtyard_Precinct_08/ground",
+    "Courtyard_West_01_00/bank",
+    "Courtyard_West_01_00/stone",
+    "Courtyard_West_01_00/ground",
+    "Courtyard_North_00_08/bank",
+    "Courtyard_North_00_08/stone",
+    "Courtyard_North_00_08/ground",
+    "Courtyard_North_02_14/bank",
+    "Courtyard_North_02_14/stone",
+    "Courtyard_North_02_14/ground",
+    "Courtyard_East_04_02/bank",
+    "Courtyard_East_04_02/stone",
+    "Courtyard_East_04_02/ground",
+    "Courtyard_North_02_12/bank",
+    "Courtyard_North_02_12/stone",
+    "Courtyard_North_02_12/ground",
+    "Courtyard_North_03_05/bank",
+    "Courtyard_North_03_05/stone",
+    "Courtyard_North_03_05/ground",
+    "Courtyard_North_00_12/bank",
+    "Courtyard_North_00_12/stone",
+    "Courtyard_North_00_12/ground",
+    "Courtyard_East_02_03/bank",
+    "Courtyard_East_02_03/stone",
+    "Courtyard_East_02_03/ground",
+    "Courtyard_East_04_01/bank",
+    "Courtyard_East_04_01/stone",
+    "Courtyard_East_04_01/ground",
+    "Courtyard_North_00_03/bank",
+    "Courtyard_North_00_03/stone",
+    "Courtyard_North_00_03/ground",
+    "Courtyard_North_00_06/bank",
+    "Courtyard_North_00_06/stone",
+    "Courtyard_North_00_06/ground",
+    "Courtyard_East_06_03/bank",
+    "Courtyard_East_06_03/stone",
+    "Courtyard_East_06_03/ground",
+    "Courtyard_North_05_07/bank",
+    "Courtyard_North_05_07/stone",
+    "Courtyard_North_05_07/ground",
+    "Courtyard_North_00_07/bank",
+    "Courtyard_North_00_07/stone",
+    "Courtyard_North_00_07/ground",
+    "Courtyard_North_01_03/bank",
+    "Courtyard_North_01_03/stone",
+    "Courtyard_North_01_03/ground",
+    "Courtyard_ForegroundHouse_1/bank",
+    "Courtyard_ForegroundHouse_1/stone",
+    "Courtyard_ForegroundHouse_1/ground",
+    "Courtyard_North_02_01/bank",
+    "Courtyard_North_02_01/stone",
+    "Courtyard_North_02_01/ground",
+    "Courtyard_ForegroundHouse_0/bank",
+    "Courtyard_ForegroundHouse_0/stone",
+    "Courtyard_ForegroundHouse_0/ground",
+    "Courtyard_North_05_14/bank",
+    "Courtyard_North_05_14/stone",
+    "Courtyard_North_05_14/ground",
+    "Courtyard_North_02_06/bank",
+    "Courtyard_North_02_06/stone",
+    "Courtyard_North_02_06/ground",
+    "Courtyard_North_03_04/bank",
+    "Courtyard_North_03_04/stone",
+    "Courtyard_North_03_04/ground",
+    "Courtyard_North_04_02/bank",
+    "Courtyard_North_04_02/stone",
+    "Courtyard_North_04_02/ground",
+    "Courtyard_SouthWest_02/bank",
+    "Courtyard_SouthWest_02/stone",
+    "Courtyard_SouthWest_02/ground",
+    "Courtyard_Precinct_09/bank",
+    "Courtyard_Precinct_09/stone",
+    "Courtyard_Precinct_09/ground",
+    "Courtyard_West_01_01/bank",
+    "Courtyard_West_01_01/stone",
+    "Courtyard_West_01_01/ground",
+    "Courtyard_ForegroundHouse_2/bank",
+    "Courtyard_ForegroundHouse_2/stone",
+    "Courtyard_ForegroundHouse_2/ground",
+    "Courtyard_West_05_01/bank",
+    "Courtyard_West_05_01/stone",
+    "Courtyard_West_05_01/ground",
+    "Courtyard_North_00_00/bank",
+    "Courtyard_North_00_00/stone",
+    "Courtyard_North_00_00/ground",
+    "Courtyard_West_03_01/bank",
+    "Courtyard_West_03_01/stone",
+    "Courtyard_West_03_01/ground",
+    "Courtyard_North_05_09/bank",
+    "Courtyard_North_05_09/stone",
+    "Courtyard_North_05_09/ground",
+    "Courtyard_North_03_07/bank",
+    "Courtyard_North_03_07/stone",
+    "Courtyard_North_03_07/ground",
+    "Courtyard_East_00_02/bank",
+    "Courtyard_East_00_02/stone",
+    "Courtyard_East_00_02/ground",
+    "Courtyard_SouthWest_01/bank",
+    "Courtyard_SouthWest_01/stone",
+    "Courtyard_SouthWest_01/ground",
+    "Courtyard_East_02_02/bank",
+    "Courtyard_East_02_02/stone",
+    "Courtyard_East_02_02/ground",
+    "Courtyard_North_05_11/bank",
+    "Courtyard_North_05_11/stone",
+    "Courtyard_North_05_11/ground",
+    "Courtyard_North_05_01/bank",
+    "Courtyard_North_05_01/stone",
+    "Courtyard_North_05_01/ground",
+    "Courtyard_North_04_04/bank",
+    "Courtyard_North_04_04/stone",
+    "Courtyard_North_04_04/ground",
+    "Courtyard_North_05_10/bank",
+    "Courtyard_North_05_10/stone",
+    "Courtyard_North_05_10/ground",
+    "Courtyard_West_00_00/bank",
+    "Courtyard_West_00_00/stone",
+    "Courtyard_West_00_00/ground",
+    "Courtyard_North_02_08/bank",
+    "Courtyard_North_02_08/stone",
+    "Courtyard_North_02_08/ground",
+    "Courtyard_Precinct_07/bank",
+    "Courtyard_Precinct_07/stone",
+    "Courtyard_Precinct_07/ground",
+    "Courtyard_North_04_14/bank",
+    "Courtyard_North_04_14/stone",
+    "Courtyard_North_04_14/ground",
+    "Courtyard_West_09_01/bank",
+    "Courtyard_West_09_01/stone",
+    "Courtyard_West_09_01/ground",
+    "Courtyard_North_03_03/bank",
+    "Courtyard_North_03_03/stone",
+    "Courtyard_North_03_03/ground",
+    "Courtyard_North_03_02/bank",
+    "Courtyard_North_03_02/stone",
+    "Courtyard_North_03_02/ground",
+    "Courtyard_North_02_00/bank",
+    "Courtyard_North_02_00/stone",
+    "Courtyard_North_02_00/ground",
+    "Courtyard_North_01_08/bank",
+    "Courtyard_North_01_08/stone",
+    "Courtyard_North_01_08/ground",
+    "Courtyard_North_01_05/bank",
+    "Courtyard_North_01_05/stone",
+    "Courtyard_North_01_05/ground",
+    "Courtyard_North_02_10/bank",
+    "Courtyard_North_02_10/stone",
+    "Courtyard_North_02_10/ground",
+    "Courtyard_West_02_01/bank",
+    "Courtyard_West_02_01/stone",
+    "Courtyard_West_02_01/ground",
+    "Courtyard_West_08_01/bank",
+    "Courtyard_West_08_01/stone",
+    "Courtyard_West_08_01/ground",
+    "Courtyard_North_05_12/bank",
+    "Courtyard_North_05_12/stone",
+    "Courtyard_North_05_12/ground",
+    "Courtyard_East_07_03/bank",
+    "Courtyard_East_07_03/stone",
+    "Courtyard_East_07_03/ground",
+    "Courtyard_North_03_13/bank",
+    "Courtyard_North_03_13/stone",
+    "Courtyard_North_03_13/ground",
+    "Courtyard_West_07_00/bank",
+    "Courtyard_West_07_00/stone",
+    "Courtyard_West_07_00/ground",
+    "Courtyard_North_05_06/bank",
+    "Courtyard_North_05_06/stone",
+    "Courtyard_North_05_06/ground",
+    "Courtyard_East_05_03/bank",
+    "Courtyard_East_05_03/stone",
+    "Courtyard_East_05_03/ground",
+    "Courtyard_East_05_02/bank",
+    "Courtyard_East_05_02/stone",
+    "Courtyard_East_05_02/ground",
+    "Courtyard_North_00_04/bank",
+    "Courtyard_North_00_04/stone",
+    "Courtyard_North_00_04/ground",
+    "Courtyard_East_03_00/bank",
+    "Courtyard_East_03_00/stone",
+    "Courtyard_East_03_00/ground",
+    "Courtyard_North_04_09/bank",
+    "Courtyard_North_04_09/stone",
+    "Courtyard_North_04_09/ground",
+    "Courtyard_North_05_03/bank",
+    "Courtyard_North_05_03/stone",
+    "Courtyard_North_05_03/ground",
+    "Courtyard_East_03_03/bank",
+    "Courtyard_East_03_03/stone",
+    "Courtyard_East_03_03/ground",
+    "Courtyard_East_01_01/bank",
+    "Courtyard_East_01_01/stone",
+    "Courtyard_East_01_01/ground",
+    "Courtyard_North_05_04/bank",
+    "Courtyard_North_05_04/stone",
+    "Courtyard_North_05_04/ground",
+    "Courtyard_North_05_00/bank",
+    "Courtyard_North_05_00/stone",
+    "Courtyard_North_05_00/ground",
+    "Courtyard_North_01_10/bank",
+    "Courtyard_North_01_10/stone",
+    "Courtyard_North_01_10/ground",
+    "Courtyard_North_03_01/bank",
+    "Courtyard_North_03_01/stone",
+    "Courtyard_North_03_01/ground",
+    "Courtyard_North_04_10/bank",
+    "Courtyard_North_04_10/stone",
+    "Courtyard_North_04_10/ground",
+    "Courtyard_East_07_02/bank",
+    "Courtyard_East_07_02/stone",
+    "Courtyard_East_07_02/ground",
+    "Courtyard_North_01_15/bank",
+    "Courtyard_North_01_15/stone",
+    "Courtyard_North_01_15/ground",
+    "Courtyard_East_00_03/bank",
+    "Courtyard_East_00_03/stone",
+    "Courtyard_East_00_03/ground",
+    "Courtyard_SouthEast_01/bank",
+    "Courtyard_SouthEast_01/stone",
+    "Courtyard_SouthEast_01/ground",
+    "Courtyard_North_05_08/bank",
+    "Courtyard_North_05_08/stone",
+    "Courtyard_North_05_08/ground",
+    "Courtyard_East_07_00/bank",
+    "Courtyard_East_07_00/stone",
+    "Courtyard_East_07_00/ground",
+    "Courtyard_North_03_06/bank",
+    "Courtyard_North_03_06/stone",
+    "Courtyard_North_03_06/ground",
+    "Courtyard_North_01_07/bank",
+    "Courtyard_North_01_07/stone",
+    "Courtyard_North_01_07/ground",
+    "Courtyard_North_04_06/bank",
+    "Courtyard_North_04_06/stone",
+    "Courtyard_North_04_06/ground",
+    "Courtyard_North_01_04/bank",
+    "Courtyard_North_01_04/stone",
+    "Courtyard_North_01_04/ground",
+    "Courtyard_North_04_00/bank",
+    "Courtyard_North_04_00/stone",
+    "Courtyard_North_04_00/ground",
+    "Courtyard_West_02_00/bank",
+    "Courtyard_West_02_00/stone",
+    "Courtyard_West_02_00/ground",
+    "Courtyard_West_10_01/bank",
+    "Courtyard_West_10_01/stone",
+    "Courtyard_West_10_01/ground",
+    "Courtyard_ForegroundHouse_3/bank",
+    "Courtyard_ForegroundHouse_3/stone",
+    "Courtyard_ForegroundHouse_3/ground",
+    "Courtyard_East_00_01/bank",
+    "Courtyard_East_00_01/stone",
+    "Courtyard_East_00_01/ground",
+    "Courtyard_North_04_12/bank",
+    "Courtyard_North_04_12/stone",
+    "Courtyard_North_04_12/ground",
+    "Courtyard_North_03_12/bank",
+    "Courtyard_North_03_12/stone",
+    "Courtyard_North_03_12/ground",
+    "Courtyard_North_01_13/bank",
+    "Courtyard_North_01_13/stone",
+    "Courtyard_North_01_13/ground",
+    "Courtyard_East_06_01/bank",
+    "Courtyard_East_06_01/stone",
+    "Courtyard_East_06_01/ground",
+    "Courtyard_North_00_15/bank",
+    "Courtyard_North_00_15/stone",
+    "Courtyard_North_00_15/ground",
+    "Courtyard_West_08_00/bank",
+    "Courtyard_West_08_00/stone",
+    "Courtyard_West_08_00/ground",
+    "Courtyard_West_06_00/bank",
+    "Courtyard_West_06_00/stone",
+    "Courtyard_West_06_00/ground",
+    "Courtyard_North_05_02/bank",
+    "Courtyard_North_05_02/stone",
+    "Courtyard_North_05_02/ground",
+    "Courtyard_North_02_11/bank",
+    "Courtyard_North_02_11/stone",
+    "Courtyard_North_02_11/ground",
+    "Courtyard_West_04_00/bank",
+    "Courtyard_West_04_00/stone",
+    "Courtyard_West_04_00/ground",
+    "Courtyard_East_07_01/bank",
+    "Courtyard_East_07_01/stone",
+    "Courtyard_East_07_01/ground",
+    "Courtyard_East_01_03/bank",
+    "Courtyard_East_01_03/stone",
+    "Courtyard_East_01_03/ground",
+    "Courtyard_North_00_01/bank",
+    "Courtyard_North_00_01/stone",
+    "Courtyard_North_00_01/ground",
+    "Courtyard_North_04_03/bank",
+    "Courtyard_North_04_03/stone",
+    "Courtyard_North_04_03/ground",
+    "Courtyard_North_01_06/bank",
+    "Courtyard_North_01_06/stone",
+    "Courtyard_North_01_06/ground",
+    "Courtyard_East_04_03/bank",
+    "Courtyard_East_04_03/stone",
+    "Courtyard_East_04_03/ground",
+    "Courtyard_West_05_00/bank",
+    "Courtyard_West_05_00/stone",
+    "Courtyard_West_05_00/ground",
+    "Courtyard_North_04_11/bank",
+    "Courtyard_North_04_11/stone",
+    "Courtyard_North_04_11/ground",
+    "Courtyard_East_03_02/bank",
+    "Courtyard_East_03_02/stone",
+    "Courtyard_East_03_02/ground",
+    "Courtyard_North_03_00/bank",
+    "Courtyard_North_03_00/stone",
+    "Courtyard_North_03_00/ground",
+    "Courtyard_North_02_15/bank",
+    "Courtyard_North_02_15/stone",
+    "Courtyard_North_02_15/ground",
+    "Courtyard_East_03_01/bank",
+    "Courtyard_East_03_01/stone",
+    "Courtyard_East_03_01/ground",
+    "Courtyard_North_02_03/bank",
+    "Courtyard_North_02_03/stone",
+    "Courtyard_North_02_03/ground",
+    "Courtyard_East_04_00/bank",
+    "Courtyard_East_04_00/stone",
+    "Courtyard_East_04_00/ground",
+    "Courtyard_East_06_02/bank",
+    "Courtyard_East_06_02/stone",
+    "Courtyard_East_06_02/ground",
+    "Courtyard_North_00_05/bank",
+    "Courtyard_North_00_05/stone",
+    "Courtyard_North_00_05/ground",
+    "Courtyard_North_01_14/bank",
+    "Courtyard_North_01_14/stone",
+    "Courtyard_North_01_14/ground",
+    "Courtyard_East_05_00/bank",
+    "Courtyard_East_05_00/stone",
+    "Courtyard_East_05_00/ground",
+    "Courtyard_West_06_01/bank",
+    "Courtyard_West_06_01/stone",
+    "Courtyard_West_06_01/ground",
+    "Courtyard_West_09_00/bank",
+    "Courtyard_West_09_00/stone",
+    "Courtyard_West_09_00/ground",
+    "Courtyard_West_00_01/bank",
+    "Courtyard_West_00_01/stone",
+    "Courtyard_West_00_01/ground",
+    "Courtyard_North_01_12/bank",
+    "Courtyard_North_01_12/stone",
+    "Courtyard_North_01_12/ground",
+    "Organic_city_streets/road"
+  ],
+  "house_count": 159,
+  "tree_count": 180,
+  "courtyard_count": 132,
+  "preserved_original_approach_components": 2,
+  "projection_errors": [],
+  "house_shared_meshes_preserved": true,
+  "houses": [
+    {
+      "id": "Precinct_02",
+      "components": 7,
+      "sourceCenter": [
+        -134,
+        156
+      ],
+      "center": [
+        -12.5995,
+        -177.77113
+      ],
+      "rotationDelta": -4.5997152
+    },
+    {
+      "id": "Precinct_01",
+      "components": 7,
+      "sourceCenter": [
+        -113,
+        120
+      ],
+      "center": [
+        -110.25658,
+        -204.96219
+      ],
+      "rotationDelta": 3.2407112
+    },
+    {
+      "id": "East_01_02",
+      "components": 9,
+      "sourceCenter": [
+        278,
+        -119
+      ],
+      "center": [
+        -251.92096,
+        -176.443
+      ],
+      "rotationDelta": 0.2096079
+    },
+    {
+      "id": "North_05_15",
+      "components": 7,
+      "sourceCenter": [
+        311,
+        399
+      ],
+      "center": [
+        -220.96617,
+        -166.07727
+      ],
+      "rotationDelta": 1.780277
+    },
+    {
+      "id": "North_05_13",
+      "components": 7,
+      "sourceCenter": [
+        229,
+        399
+      ],
+      "center": [
+        144.55248,
+        -107.26268
+      ],
+      "rotationDelta": -2.5235013
+    },
+    {
+      "id": "East_06_00",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        95
+      ],
+      "center": [
+        169.08516,
+        -135.08329
+      ],
+      "rotationDelta": 2.1985836
+    },
+    {
+      "id": "North_03_15",
+      "components": 7,
+      "sourceCenter": [
+        311,
+        325
+      ],
+      "center": [
+        204.5595,
+        -144.30948
+      ],
+      "rotationDelta": -2.6018248
+    },
+    {
+      "id": "North_02_09",
+      "components": 7,
+      "sourceCenter": [
+        89,
+        286
+      ],
+      "center": [
+        224.73603,
+        -170.74775
+      ],
+      "rotationDelta": 3.68258
+    },
+    {
+      "id": "North_03_14",
+      "components": 9,
+      "sourceCenter": [
+        278,
+        325
+      ],
+      "center": [
+        163.16399,
+        215.58412
+      ],
+      "rotationDelta": -2.7771573
+    },
+    {
+      "id": "North_01_02",
+      "components": 9,
+      "sourceCenter": [
+        -86,
+        247
+      ],
+      "center": [
+        177.35676,
+        188.93153
+      ],
+      "rotationDelta": 0.3685139
+    },
+    {
+      "id": "East_00_00",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        -157
+      ],
+      "center": [
+        -129.23054,
+        209.64357
+      ],
+      "rotationDelta": -0.6077967
+    },
+    {
+      "id": "North_00_14",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        208
+      ],
+      "center": [
+        -100.71361,
+        194.25082
+      ],
+      "rotationDelta": 4.1011413
+    },
+    {
+      "id": "East_01_00",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        -119
+      ],
+      "center": [
+        -35.91923,
+        217.28765
+      ],
+      "rotationDelta": -0.2349376
+    },
+    {
+      "id": "North_04_08",
+      "components": 7,
+      "sourceCenter": [
+        64,
+        362
+      ],
+      "center": [
+        -5.99248,
+        213.84112
+      ],
+      "rotationDelta": 4.4716873
+    },
+    {
+      "id": "North_00_02",
+      "components": 7,
+      "sourceCenter": [
+        -86,
+        208
+      ],
+      "center": [
+        61.02863,
+        260.15426
+      ],
+      "rotationDelta": 1.1758369
+    },
+    {
+      "id": "North_01_11",
+      "components": 7,
+      "sourceCenter": [
+        139,
+        247
+      ],
+      "center": [
+        89.9159,
+        251.84633
+      ],
+      "rotationDelta": 1.1588634
+    },
+    {
+      "id": "West_03_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        -34
+      ],
+      "center": [
+        -136.04936,
+        304.28292
+      ],
+      "rotationDelta": 3.2382115
+    },
+    {
+      "id": "North_00_13",
+      "components": 7,
+      "sourceCenter": [
+        229,
+        208
+      ],
+      "center": [
+        -104.95388,
+        310.95369
+      ],
+      "rotationDelta": 4.8047412
+    },
+    {
+      "id": "North_03_11",
+      "components": 7,
+      "sourceCenter": [
+        139,
+        325
+      ],
+      "center": [
+        94.39489,
+        403.86795
+      ],
+      "rotationDelta": -2.9064008
+    },
+    {
+      "id": "North_01_01",
+      "components": 7,
+      "sourceCenter": [
+        -111,
+        247
+      ],
+      "center": [
+        105.77505,
+        372.30405
+      ],
+      "rotationDelta": 0.2358113
+    },
+    {
+      "id": "Precinct_08",
+      "components": 7,
+      "sourceCenter": [
+        148,
+        144
+      ],
+      "center": [
+        -92.08776,
+        -203.72478
+      ],
+      "rotationDelta": 1.64227
+    },
+    {
+      "id": "West_01_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        -122
+      ],
+      "center": [
+        -257.13548,
+        -148.61913
+      ],
+      "rotationDelta": 3.3454046
+    },
+    {
+      "id": "North_00_08",
+      "components": 7,
+      "sourceCenter": [
+        64,
+        208
+      ],
+      "center": [
+        -226.3154,
+        -148.98112
+      ],
+      "rotationDelta": 4.9187326
+    },
+    {
+      "id": "North_02_07",
+      "components": 7,
+      "sourceCenter": [
+        39,
+        286
+      ],
+      "center": [
+        185.1483,
+        -116.98557
+      ],
+      "rotationDelta": 4.0185178
+    },
+    {
+      "id": "North_02_14",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        286
+      ],
+      "center": [
+        219.98051,
+        -136.72686
+      ],
+      "rotationDelta": 0.5911817
+    },
+    {
+      "id": "East_04_02",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        8
+      ],
+      "center": [
+        245.38323,
+        -155.3346
+      ],
+      "rotationDelta": 2.2355737
+    },
+    {
+      "id": "North_02_12",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        286
+      ],
+      "center": [
+        203.76851,
+        199.99058
+      ],
+      "rotationDelta": 3.7412215
+    },
+    {
+      "id": "North_03_05",
+      "components": 7,
+      "sourceCenter": [
+        -11,
+        325
+      ],
+      "center": [
+        -114.78708,
+        225.15934
+      ],
+      "rotationDelta": -2.2380308
+    },
+    {
+      "id": "North_03_08",
+      "components": 9,
+      "sourceCenter": [
+        64,
+        325
+      ],
+      "center": [
+        -27.82546,
+        243.08204
+      ],
+      "rotationDelta": -1.9999019
+    },
+    {
+      "id": "East_02_00",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        -75
+      ],
+      "center": [
+        68.38522,
+        276.66424
+      ],
+      "rotationDelta": -0.5616321
+    },
+    {
+      "id": "North_00_12",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        208
+      ],
+      "center": [
+        -136.21928,
+        333.25077
+      ],
+      "rotationDelta": 1.541684
+    },
+    {
+      "id": "Precinct_06",
+      "components": 7,
+      "sourceCenter": [
+        57,
+        189
+      ],
+      "center": [
+        -105.5872,
+        330.7598
+      ],
+      "rotationDelta": 4.6930989
+    },
+    {
+      "id": "East_02_03",
+      "components": 7,
+      "sourceCenter": [
+        313,
+        -75
+      ],
+      "center": [
+        122.99298,
+        379.42954
+      ],
+      "rotationDelta": 1.7643898
+    },
+    {
+      "id": "East_04_01",
+      "components": 7,
+      "sourceCenter": [
+        230,
+        8
+      ],
+      "center": [
+        -264.82071,
+        -126.19976
+      ],
+      "rotationDelta": 0.2402884
+    },
+    {
+      "id": "North_00_03",
+      "components": 7,
+      "sourceCenter": [
+        -61,
+        208
+      ],
+      "center": [
+        200.03696,
+        -94.90557
+      ],
+      "rotationDelta": 4.3478593
+    },
+    {
+      "id": "North_00_06",
+      "components": 7,
+      "sourceCenter": [
+        14,
+        208
+      ],
+      "center": [
+        260.62046,
+        -142.10901
+      ],
+      "rotationDelta": 3.9820289
+    },
+    {
+      "id": "East_06_03",
+      "components": 7,
+      "sourceCenter": [
+        313,
+        95
+      ],
+      "center": [
+        220.49956,
+        215.52681
+      ],
+      "rotationDelta": 2.4691778
+    },
+    {
+      "id": "North_05_07",
+      "components": 7,
+      "sourceCenter": [
+        39,
+        399
+      ],
+      "center": [
+        -8.59627,
+        269.73855
+      ],
+      "rotationDelta": -2.4952399
+    },
+    {
+      "id": "North_00_07",
+      "components": 7,
+      "sourceCenter": [
+        39,
+        208
+      ],
+      "center": [
+        87.86634,
+        292.63183
+      ],
+      "rotationDelta": 0.4709195
+    },
+    {
+      "id": "North_01_03",
+      "components": 7,
+      "sourceCenter": [
+        -61,
+        247
+      ],
+      "center": [
+        -136.0239,
+        351.14324
+      ],
+      "rotationDelta": -1.600712
+    },
+    {
+      "id": "SouthEast_02",
+      "components": 7,
+      "sourceCenter": [
+        205,
+        -190
+      ],
+      "center": [
+        113.78747,
+        405.01445
+      ],
+      "rotationDelta": 0.2085485
+    },
+    {
+      "id": "ForegroundHouse_1",
+      "components": 7,
+      "sourceCenter": [
+        116,
+        -145
+      ],
+      "center": [
+        -75.6714,
+        -202.49763
+      ],
+      "rotationDelta": 3.1810686
+    },
+    {
+      "id": "North_02_01",
+      "components": 7,
+      "sourceCenter": [
+        -111,
+        286
+      ],
+      "center": [
+        -265.98454,
+        -103.8429
+      ],
+      "rotationDelta": 1.6778534
+    },
+    {
+      "id": "ForegroundHouse_0",
+      "components": 7,
+      "sourceCenter": [
+        -114,
+        -147
+      ],
+      "center": [
+        -231.8197,
+        -130.40072
+      ],
+      "rotationDelta": 4.9553861
+    },
+    {
+      "id": "North_05_14",
+      "components": 9,
+      "sourceCenter": [
+        278,
+        399
+      ],
+      "center": [
+        206.20247,
+        -69.89901
+      ],
+      "rotationDelta": 1.3246235
+    },
+    {
+      "id": "North_02_06",
+      "components": 7,
+      "sourceCenter": [
+        14,
+        286
+      ],
+      "center": [
+        272.97075,
+        -126.45335
+      ],
+      "rotationDelta": 4.1090251
+    },
+    {
+      "id": "North_03_04",
+      "components": 7,
+      "sourceCenter": [
+        -36,
+        325
+      ],
+      "center": [
+        -98.94069,
+        240.48652
+      ],
+      "rotationDelta": -2.4629209
+    },
+    {
+      "id": "North_04_02",
+      "components": 7,
+      "sourceCenter": [
+        -86,
+        362
+      ],
+      "center": [
+        -88.32188,
+        210.68835
+      ],
+      "rotationDelta": 3.9980326
+    },
+    {
+      "id": "SouthWest_02",
+      "components": 7,
+      "sourceCenter": [
+        -135,
+        -199
+      ],
+      "center": [
+        -129.53585,
+        372.63093
+      ],
+      "rotationDelta": 1.2317294
+    },
+    {
+      "id": "North_04_13",
+      "components": 7,
+      "sourceCenter": [
+        229,
+        362
+      ],
+      "center": [
+        -32.73591,
+        -153.5351
+      ],
+      "rotationDelta": 0.1392748
+    },
+    {
+      "id": "Precinct_09",
+      "components": 7,
+      "sourceCenter": [
+        146,
+        109
+      ],
+      "center": [
+        30.28867,
+        -159.44292
+      ],
+      "rotationDelta": -1.7522119
+    },
+    {
+      "id": "North_02_02",
+      "components": 7,
+      "sourceCenter": [
+        -86,
+        286
+      ],
+      "center": [
+        -57.48637,
+        -205.30102
+      ],
+      "rotationDelta": 3.1491549
+    },
+    {
+      "id": "West_01_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        -122
+      ],
+      "center": [
+        -271.2138,
+        -79.10284
+      ],
+      "rotationDelta": 3.0502103
+    },
+    {
+      "id": "ForegroundHouse_2",
+      "components": 7,
+      "sourceCenter": [
+        -116,
+        -174
+      ],
+      "center": [
+        -231.3088,
+        -109.90295
+      ],
+      "rotationDelta": 4.9157969
+    },
+    {
+      "id": "West_05_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        54
+      ],
+      "center": [
+        212.34962,
+        -46.40571
+      ],
+      "rotationDelta": 5.9948584
+    },
+    {
+      "id": "North_00_00",
+      "components": 7,
+      "sourceCenter": [
+        -135,
+        208
+      ],
+      "center": [
+        283.24242,
+        -109.01639
+      ],
+      "rotationDelta": 4.2545006
+    },
+    {
+      "id": "North_02_13",
+      "components": 7,
+      "sourceCenter": [
+        229,
+        286
+      ],
+      "center": [
+        -54.75353,
+        -157.44867
+      ],
+      "rotationDelta": 0.204547
+    },
+    {
+      "id": "West_03_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        -34
+      ],
+      "center": [
+        -265.90634,
+        -56.93501
+      ],
+      "rotationDelta": 2.9861012
+    },
+    {
+      "id": "North_05_09",
+      "components": 7,
+      "sourceCenter": [
+        89,
+        399
+      ],
+      "center": [
+        235.35682,
+        -121.38453
+      ],
+      "rotationDelta": -2.311842
+    },
+    {
+      "id": "North_03_07",
+      "components": 7,
+      "sourceCenter": [
+        39,
+        325
+      ],
+      "center": [
+        292.72247,
+        -90.4439
+      ],
+      "rotationDelta": 1.2792166
+    },
+    {
+      "id": "East_00_02",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        -157
+      ],
+      "center": [
+        -78.37912,
+        -157.80885
+      ],
+      "rotationDelta": -1.2749478
+    },
+    {
+      "id": "North_03_09",
+      "components": 7,
+      "sourceCenter": [
+        89,
+        325
+      ],
+      "center": [
+        50.48348,
+        -160.40776
+      ],
+      "rotationDelta": -3.3974324
+    },
+    {
+      "id": "SouthWest_01",
+      "components": 7,
+      "sourceCenter": [
+        -137,
+        -160
+      ],
+      "center": [
+        -39.47814,
+        -202.46757
+      ],
+      "rotationDelta": 4.6495426
+    },
+    {
+      "id": "East_02_02",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        -75
+      ],
+      "center": [
+        -262.35664,
+        -36.06233
+      ],
+      "rotationDelta": -0.2164445
+    },
+    {
+      "id": "North_05_11",
+      "components": 7,
+      "sourceCenter": [
+        139,
+        399
+      ],
+      "center": [
+        166.39328,
+        -90.8489
+      ],
+      "rotationDelta": -2.0311233
+    },
+    {
+      "id": "North_05_01",
+      "components": 7,
+      "sourceCenter": [
+        -111,
+        399
+      ],
+      "center": [
+        297.78055,
+        -70.89671
+      ],
+      "rotationDelta": 1.3403464
+    },
+    {
+      "id": "North_04_04",
+      "components": 7,
+      "sourceCenter": [
+        -36,
+        362
+      ],
+      "center": [
+        239.09372,
+        230.23725
+      ],
+      "rotationDelta": 3.6999845
+    },
+    {
+      "id": "North_05_10",
+      "components": 7,
+      "sourceCenter": [
+        114,
+        399
+      ],
+      "center": [
+        -73.51554,
+        224.14334
+      ],
+      "rotationDelta": 0.7150489
+    },
+    {
+      "id": "West_00_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        -165
+      ],
+      "center": [
+        -99.03297,
+        -167.7149
+      ],
+      "rotationDelta": 1.9361905
+    },
+    {
+      "id": "North_02_08",
+      "components": 7,
+      "sourceCenter": [
+        64,
+        286
+      ],
+      "center": [
+        66.56825,
+        -166.09963
+      ],
+      "rotationDelta": -0.1971888
+    },
+    {
+      "id": "Precinct_07",
+      "components": 7,
+      "sourceCenter": [
+        123,
+        128
+      ],
+      "center": [
+        -20.89968,
+        -203.75298
+      ],
+      "rotationDelta": 1.5172714
+    },
+    {
+      "id": "North_04_14",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        362
+      ],
+      "center": [
+        -255.31077,
+        -17.27264
+      ],
+      "rotationDelta": 1.3707272
+    },
+    {
+      "id": "West_09_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        287
+      ],
+      "center": [
+        222.01219,
+        -26.88437
+      ],
+      "rotationDelta": 5.856955
+    },
+    {
+      "id": "North_03_03",
+      "components": 7,
+      "sourceCenter": [
+        -61,
+        325
+      ],
+      "center": [
+        300.06132,
+        -52.01701
+      ],
+      "rotationDelta": 1.3305846
+    },
+    {
+      "id": "North_04_05",
+      "components": 9,
+      "sourceCenter": [
+        -11,
+        362
+      ],
+      "center": [
+        -56.77654,
+        245.03655
+      ],
+      "rotationDelta": 4.2349908
+    },
+    {
+      "id": "North_03_02",
+      "components": 9,
+      "sourceCenter": [
+        -86,
+        325
+      ],
+      "center": [
+        152.15015,
+        381.61721
+      ],
+      "rotationDelta": -0.105814
+    },
+    {
+      "id": "North_02_00",
+      "components": 7,
+      "sourceCenter": [
+        -135,
+        286
+      ],
+      "center": [
+        -117.52597,
+        -175.58735
+      ],
+      "rotationDelta": 0.3638
+    },
+    {
+      "id": "North_01_08",
+      "components": 9,
+      "sourceCenter": [
+        64,
+        247
+      ],
+      "center": [
+        -236.74572,
+        -85.92414
+      ],
+      "rotationDelta": 1.5042781
+    },
+    {
+      "id": "North_01_05",
+      "components": 7,
+      "sourceCenter": [
+        -11,
+        247
+      ],
+      "center": [
+        172.5186,
+        -75.19295
+      ],
+      "rotationDelta": -1.8998302
+    },
+    {
+      "id": "North_02_10",
+      "components": 7,
+      "sourceCenter": [
+        114,
+        286
+      ],
+      "center": [
+        246.65142,
+        -103.08341
+      ],
+      "rotationDelta": 1.005152
+    },
+    {
+      "id": "West_02_01",
+      "components": 9,
+      "sourceCenter": [
+        -284,
+        -77
+      ],
+      "center": [
+        195.56481,
+        237.33146
+      ],
+      "rotationDelta": 2.4686348
+    },
+    {
+      "id": "West_08_01",
+      "components": 9,
+      "sourceCenter": [
+        -284,
+        244
+      ],
+      "center": [
+        -46.60694,
+        273.73908
+      ],
+      "rotationDelta": 6.1727438
+    },
+    {
+      "id": "North_05_12",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        399
+      ],
+      "center": [
+        110.15977,
+        268.29861
+      ],
+      "rotationDelta": 0.438272
+    },
+    {
+      "id": "East_07_03",
+      "components": 7,
+      "sourceCenter": [
+        313,
+        130
+      ],
+      "center": [
+        176.83542,
+        378.16896
+      ],
+      "rotationDelta": 1.4624599
+    },
+    {
+      "id": "North_03_13",
+      "components": 7,
+      "sourceCenter": [
+        229,
+        325
+      ],
+      "center": [
+        -230.11928,
+        -63.06715
+      ],
+      "rotationDelta": 1.4156905
+    },
+    {
+      "id": "West_07_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        198
+      ],
+      "center": [
+        229.85917,
+        -5.69491
+      ],
+      "rotationDelta": 5.8013371
+    },
+    {
+      "id": "North_05_06",
+      "components": 7,
+      "sourceCenter": [
+        14,
+        399
+      ],
+      "center": [
+        305.28505,
+        -30.91819
+      ],
+      "rotationDelta": 1.363947
+    },
+    {
+      "id": "East_05_03",
+      "components": 9,
+      "sourceCenter": [
+        313,
+        50
+      ],
+      "center": [
+        220.57831,
+        259.28392
+      ],
+      "rotationDelta": -1.0103768
+    },
+    {
+      "id": "East_05_02",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        50
+      ],
+      "center": [
+        -53.51818,
+        310.57655
+      ],
+      "rotationDelta": 3.6261052
+    },
+    {
+      "id": "North_00_04",
+      "components": 7,
+      "sourceCenter": [
+        -36,
+        208
+      ],
+      "center": [
+        11.21404,
+        237.76164
+      ],
+      "rotationDelta": 3.7910035
+    },
+    {
+      "id": "East_03_00",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        -34
+      ],
+      "center": [
+        135.34786,
+        286.26083
+      ],
+      "rotationDelta": 2.4346162
+    },
+    {
+      "id": "North_04_09",
+      "components": 7,
+      "sourceCenter": [
+        89,
+        362
+      ],
+      "center": [
+        87.64186,
+        -166.59877
+      ],
+      "rotationDelta": -0.1211982
+    },
+    {
+      "id": "North_05_03",
+      "components": 7,
+      "sourceCenter": [
+        -61,
+        399
+      ],
+      "center": [
+        -255.35804,
+        1.69599
+      ],
+      "rotationDelta": -1.5673898
+    },
+    {
+      "id": "North_01_09",
+      "components": 7,
+      "sourceCenter": [
+        89,
+        247
+      ],
+      "center": [
+        242.77659,
+        12.47345
+      ],
+      "rotationDelta": 0.9708289
+    },
+    {
+      "id": "East_03_03",
+      "components": 7,
+      "sourceCenter": [
+        313,
+        -34
+      ],
+      "center": [
+        255.18651,
+        273.80631
+      ],
+      "rotationDelta": -1.5850251
+    },
+    {
+      "id": "East_01_01",
+      "components": 7,
+      "sourceCenter": [
+        230,
+        -119
+      ],
+      "center": [
+        -66.41592,
+        334.99719
+      ],
+      "rotationDelta": 3.668878
+    },
+    {
+      "id": "North_05_04",
+      "components": 7,
+      "sourceCenter": [
+        -36,
+        399
+      ],
+      "center": [
+        25.16392,
+        256.14702
+      ],
+      "rotationDelta": 0.8800726
+    },
+    {
+      "id": "North_05_00",
+      "components": 7,
+      "sourceCenter": [
+        -135,
+        399
+      ],
+      "center": [
+        115.8835,
+        -174.47643
+      ],
+      "rotationDelta": -3.5978832
+    },
+    {
+      "id": "North_01_10",
+      "components": 7,
+      "sourceCenter": [
+        114,
+        247
+      ],
+      "center": [
+        -230.79905,
+        -41.3588
+      ],
+      "rotationDelta": 1.345927
+    },
+    {
+      "id": "North_03_01",
+      "components": 7,
+      "sourceCenter": [
+        -111,
+        325
+      ],
+      "center": [
+        174.28414,
+        -54.75584
+      ],
+      "rotationDelta": -1.7866652
+    },
+    {
+      "id": "North_04_10",
+      "components": 7,
+      "sourceCenter": [
+        114,
+        362
+      ],
+      "center": [
+        255.28756,
+        28.56455
+      ],
+      "rotationDelta": 4.2431992
+    },
+    {
+      "id": "East_07_02",
+      "components": 9,
+      "sourceCenter": [
+        278,
+        130
+      ],
+      "center": [
+        288.67905,
+        257.37301
+      ],
+      "rotationDelta": -2.2377861
+    },
+    {
+      "id": "North_04_01",
+      "components": 7,
+      "sourceCenter": [
+        -111,
+        362
+      ],
+      "center": [
+        39.2321,
+        275.50234
+      ],
+      "rotationDelta": 4.1982941
+    },
+    {
+      "id": "North_01_15",
+      "components": 7,
+      "sourceCenter": [
+        311,
+        247
+      ],
+      "center": [
+        -256.57372,
+        20.86079
+      ],
+      "rotationDelta": -1.4490271
+    },
+    {
+      "id": "West_07_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        198
+      ],
+      "center": [
+        -220.60505,
+        -20.68304
+      ],
+      "rotationDelta": 6.1093243
+    },
+    {
+      "id": "East_00_03",
+      "components": 7,
+      "sourceCenter": [
+        313,
+        -157
+      ],
+      "center": [
+        180.56216,
+        -35.05206
+      ],
+      "rotationDelta": -0.3027673
+    },
+    {
+      "id": "SouthEast_01",
+      "components": 7,
+      "sourceCenter": [
+        169,
+        -185
+      ],
+      "center": [
+        258.41858,
+        50.58721
+      ],
+      "rotationDelta": 4.3948704
+    },
+    {
+      "id": "North_05_08",
+      "components": 9,
+      "sourceCenter": [
+        64,
+        399
+      ],
+      "center": [
+        260.34001,
+        -82.42284
+      ],
+      "rotationDelta": -1.8735772
+    },
+    {
+      "id": "East_07_00",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        130
+      ],
+      "center": [
+        310.44592,
+        231.39984
+      ],
+      "rotationDelta": -2.6231528
+    },
+    {
+      "id": "North_03_06",
+      "components": 7,
+      "sourceCenter": [
+        14,
+        325
+      ],
+      "center": [
+        48.97429,
+        303.1376
+      ],
+      "rotationDelta": 1.5770352
+    },
+    {
+      "id": "North_01_07",
+      "components": 7,
+      "sourceCenter": [
+        39,
+        247
+      ],
+      "center": [
+        156.28453,
+        309.52503
+      ],
+      "rotationDelta": 0.7506246
+    },
+    {
+      "id": "North_04_07",
+      "components": 7,
+      "sourceCenter": [
+        39,
+        362
+      ],
+      "center": [
+        15.62574,
+        -205.53159
+      ],
+      "rotationDelta": 3.2107531
+    },
+    {
+      "id": "West_10_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        329
+      ],
+      "center": [
+        -218.94492,
+        4.47485
+      ],
+      "rotationDelta": 6.3006435
+    },
+    {
+      "id": "North_04_06",
+      "components": 7,
+      "sourceCenter": [
+        14,
+        362
+      ],
+      "center": [
+        189.423,
+        -14.76049
+      ],
+      "rotationDelta": 1.1519069
+    },
+    {
+      "id": "North_01_04",
+      "components": 7,
+      "sourceCenter": [
+        -36,
+        247
+      ],
+      "center": [
+        264.43338,
+        73.52213
+      ],
+      "rotationDelta": 1.478029
+    },
+    {
+      "id": "North_04_00",
+      "components": 7,
+      "sourceCenter": [
+        -135,
+        362
+      ],
+      "center": [
+        264.78418,
+        -58.94688
+      ],
+      "rotationDelta": 1.3410184
+    },
+    {
+      "id": "West_02_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        -77
+      ],
+      "center": [
+        -80.27564,
+        359.28608
+      ],
+      "rotationDelta": 6.4753217
+    },
+    {
+      "id": "West_10_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        329
+      ],
+      "center": [
+        42.67999,
+        330.49412
+      ],
+      "rotationDelta": 6.5565254
+    },
+    {
+      "id": "North_05_05",
+      "components": 7,
+      "sourceCenter": [
+        -11,
+        399
+      ],
+      "center": [
+        35.47073,
+        -205.37698
+      ],
+      "rotationDelta": -0.0417191
+    },
+    {
+      "id": "ForegroundHouse_3",
+      "components": 7,
+      "sourceCenter": [
+        141,
+        -181
+      ],
+      "center": [
+        -226.07781,
+        27.48898
+      ],
+      "rotationDelta": 4.8492254
+    },
+    {
+      "id": "East_00_01",
+      "components": 7,
+      "sourceCenter": [
+        230,
+        -157
+      ],
+      "center": [
+        198.32269,
+        1.66543
+      ],
+      "rotationDelta": -0.4660484
+    },
+    {
+      "id": "East_05_01",
+      "components": 7,
+      "sourceCenter": [
+        230,
+        50
+      ],
+      "center": [
+        263.50147,
+        99.20293
+      ],
+      "rotationDelta": 3.3376405
+    },
+    {
+      "id": "North_04_12",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        362
+      ],
+      "center": [
+        269.03281,
+        -41.47496
+      ],
+      "rotationDelta": 1.3349087
+    },
+    {
+      "id": "North_03_12",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        325
+      ],
+      "center": [
+        34.01241,
+        356.88445
+      ],
+      "rotationDelta": 2.0696963
+    },
+    {
+      "id": "North_01_13",
+      "components": 7,
+      "sourceCenter": [
+        229,
+        247
+      ],
+      "center": [
+        171.75756,
+        322.70404
+      ],
+      "rotationDelta": 0.6429925
+    },
+    {
+      "id": "East_06_01",
+      "components": 7,
+      "sourceCenter": [
+        230,
+        95
+      ],
+      "center": [
+        -260.09454,
+        41.27039
+      ],
+      "rotationDelta": 0.3546921
+    },
+    {
+      "id": "North_00_15",
+      "components": 7,
+      "sourceCenter": [
+        311,
+        208
+      ],
+      "center": [
+        -229.30335,
+        52.18452
+      ],
+      "rotationDelta": 5.0638003
+    },
+    {
+      "id": "West_08_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        244
+      ],
+      "center": [
+        207.13849,
+        18.10848
+      ],
+      "rotationDelta": 2.5971318
+    },
+    {
+      "id": "West_04_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        11
+      ],
+      "center": [
+        255.60457,
+        125.18308
+      ],
+      "rotationDelta": 6.6751504
+    },
+    {
+      "id": "West_06_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        151
+      ],
+      "center": [
+        272.68107,
+        -21.17093
+      ],
+      "rotationDelta": 2.9396708
+    },
+    {
+      "id": "North_05_02",
+      "components": 9,
+      "sourceCenter": [
+        -86,
+        399
+      ],
+      "center": [
+        -267.27314,
+        61.15078
+      ],
+      "rotationDelta": -1.2446712
+    },
+    {
+      "id": "North_02_11",
+      "components": 9,
+      "sourceCenter": [
+        139,
+        286
+      ],
+      "center": [
+        219.3824,
+        35.55569
+      ],
+      "rotationDelta": 0.9889493
+    },
+    {
+      "id": "North_02_04",
+      "components": 7,
+      "sourceCenter": [
+        -36,
+        286
+      ],
+      "center": [
+        274.95011,
+        -1.64691
+      ],
+      "rotationDelta": 1.3972469
+    },
+    {
+      "id": "West_04_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        11
+      ],
+      "center": [
+        191.42276,
+        333.43527
+      ],
+      "rotationDelta": 5.1864224
+    },
+    {
+      "id": "East_07_01",
+      "components": 7,
+      "sourceCenter": [
+        230,
+        130
+      ],
+      "center": [
+        134.5568,
+        339.46054
+      ],
+      "rotationDelta": -0.8335915
+    },
+    {
+      "id": "East_01_03",
+      "components": 7,
+      "sourceCenter": [
+        313,
+        -119
+      ],
+      "center": [
+        -241.34248,
+        81.4311
+      ],
+      "rotationDelta": 3.360591
+    },
+    {
+      "id": "North_00_01",
+      "components": 7,
+      "sourceCenter": [
+        -111,
+        208
+      ],
+      "center": [
+        312.60402,
+        23.49201
+      ],
+      "rotationDelta": 4.5973481
+    },
+    {
+      "id": "North_04_15",
+      "components": 7,
+      "sourceCenter": [
+        311,
+        362
+      ],
+      "center": [
+        314.82547,
+        49.2075
+      ],
+      "rotationDelta": 4.8770051
+    },
+    {
+      "id": "North_04_03",
+      "components": 7,
+      "sourceCenter": [
+        -61,
+        362
+      ],
+      "center": [
+        307.59465,
+        74.8516
+      ],
+      "rotationDelta": 5.0502477
+    },
+    {
+      "id": "North_01_06",
+      "components": 7,
+      "sourceCenter": [
+        14,
+        247
+      ],
+      "center": [
+        300.02305,
+        99.39457
+      ],
+      "rotationDelta": 1.8259782
+    },
+    {
+      "id": "East_04_03",
+      "components": 7,
+      "sourceCenter": [
+        313,
+        8
+      ],
+      "center": [
+        296.89733,
+        122.97103
+      ],
+      "rotationDelta": 3.387597
+    },
+    {
+      "id": "West_05_00",
+      "components": 9,
+      "sourceCenter": [
+        -249,
+        54
+      ],
+      "center": [
+        -273.76942,
+        126.85461
+      ],
+      "rotationDelta": 2.8975838
+    },
+    {
+      "id": "North_04_11",
+      "components": 9,
+      "sourceCenter": [
+        139,
+        362
+      ],
+      "center": [
+        286.60511,
+        212.31168
+      ],
+      "rotationDelta": 2.0498863
+    },
+    {
+      "id": "North_02_05",
+      "components": 9,
+      "sourceCenter": [
+        -11,
+        286
+      ],
+      "center": [
+        -58.90747,
+        386.17407
+      ],
+      "rotationDelta": 3.2562288
+    },
+    {
+      "id": "East_03_02",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        -34
+      ],
+      "center": [
+        -240.62796,
+        129.34431
+      ],
+      "rotationDelta": 2.8102798
+    },
+    {
+      "id": "North_03_00",
+      "components": 7,
+      "sourceCenter": [
+        -135,
+        325
+      ],
+      "center": [
+        -231.21671,
+        154.11124
+      ],
+      "rotationDelta": 1.3784233
+    },
+    {
+      "id": "East_02_01",
+      "components": 7,
+      "sourceCenter": [
+        230,
+        -75
+      ],
+      "center": [
+        -32.81338,
+        382.55018
+      ],
+      "rotationDelta": 1.5479488
+    },
+    {
+      "id": "North_02_15",
+      "components": 7,
+      "sourceCenter": [
+        311,
+        286
+      ],
+      "center": [
+        -227.38662,
+        179.31894
+      ],
+      "rotationDelta": 4.6213758
+    },
+    {
+      "id": "East_03_01",
+      "components": 9,
+      "sourceCenter": [
+        230,
+        -34
+      ],
+      "center": [
+        -262.49304,
+        165.56172
+      ],
+      "rotationDelta": -0.1782457
+    },
+    {
+      "id": "North_02_03",
+      "components": 7,
+      "sourceCenter": [
+        -61,
+        286
+      ],
+      "center": [
+        -227.9286,
+        207.264
+      ],
+      "rotationDelta": 4.8704537
+    },
+    {
+      "id": "East_04_00",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        8
+      ],
+      "center": [
+        -231.04529,
+        232.54536
+      ],
+      "rotationDelta": 3.3882907
+    },
+    {
+      "id": "East_06_02",
+      "components": 7,
+      "sourceCenter": [
+        278,
+        95
+      ],
+      "center": [
+        -235.06606,
+        255.01584
+      ],
+      "rotationDelta": 3.2913839
+    },
+    {
+      "id": "North_00_05",
+      "components": 9,
+      "sourceCenter": [
+        -11,
+        208
+      ],
+      "center": [
+        230.76237,
+        102.98804
+      ],
+      "rotationDelta": 1.8637729
+    },
+    {
+      "id": "North_01_14",
+      "components": 9,
+      "sourceCenter": [
+        278,
+        247
+      ],
+      "center": [
+        -8.4676,
+        360.23971
+      ],
+      "rotationDelta": -0.7698947
+    },
+    {
+      "id": "East_05_00",
+      "components": 9,
+      "sourceCenter": [
+        183,
+        50
+      ],
+      "center": [
+        -262.7281,
+        212.86991
+      ],
+      "rotationDelta": 0.2526234
+    },
+    {
+      "id": "West_06_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        151
+      ],
+      "center": [
+        -271.20419,
+        241.69446
+      ],
+      "rotationDelta": 3.2902499
+    },
+    {
+      "id": "West_09_00",
+      "components": 7,
+      "sourceCenter": [
+        -249,
+        287
+      ],
+      "center": [
+        -274.84147,
+        269.60288
+      ],
+      "rotationDelta": 3.2182432
+    },
+    {
+      "id": "West_00_01",
+      "components": 7,
+      "sourceCenter": [
+        -284,
+        -165
+      ],
+      "center": [
+        -273.42141,
+        300.8828
+      ],
+      "rotationDelta": 2.9645723
+    },
+    {
+      "id": "North_01_12",
+      "components": 7,
+      "sourceCenter": [
+        183,
+        247
+      ],
+      "center": [
+        -265.1401,
+        328.97661
+      ],
+      "rotationDelta": -1.8868406
+    }
+  ],
+  "layout_sha256": "4e828fd14f5f1599c516018f3ebfc9b48aa3ab3a7f55cc9d2f584f16b29b454e"
+}

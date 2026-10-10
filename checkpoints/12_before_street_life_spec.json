@@ -1,0 +1,672 @@
+{
+  "name": "Aurelia \u2014 The Arena District",
+  "seed": 71664,
+  "units": "meters",
+  "axes": {
+    "horizontal": [
+      "X east",
+      "Y north"
+    ],
+    "vertical": "Z up",
+    "runtime": "x,z,-y"
+  },
+  "reference": "references/primary_reference.png",
+  "bounds": {
+    "x": [
+      -320,
+      360
+    ],
+    "y": [
+      -240,
+      440
+    ]
+  },
+  "arena": {
+    "center": [
+      0,
+      0
+    ],
+    "outerRadii": [
+      106,
+      83
+    ],
+    "floorRadii": [
+      70,
+      47
+    ],
+    "height": 34.3,
+    "facadeBays": 64,
+    "arcadeLevels": 2,
+    "arcadeDepth": 3.2,
+    "seatingRows": 24,
+    "seatingSectors": 16,
+    "radialAisleWidth": 2.6,
+    "ground": 0,
+    "sand": 0.4,
+    "hypogeum": -5.6,
+    "vipCenter": [
+      0,
+      59,
+      18.72
+    ],
+    "verticalRefinement": 1.3,
+    "seatingPopulation": 12000
+  },
+  "plaza": {
+    "radii": [
+      133,
+      110
+    ],
+    "clearCircumferentialRouteRadii": [
+      114,
+      91
+    ],
+    "streetWidth": 7.2,
+    "approach": [
+      [
+        0,
+        -180
+      ],
+      [
+        0,
+        -115
+      ],
+      [
+        0,
+        -83
+      ]
+    ]
+  },
+  "regions": [
+    {
+      "id": "REG_ARENA",
+      "name": "The Sands",
+      "color": "#d8b379",
+      "center": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "REG_CAVEA",
+      "name": "The Stands",
+      "color": "#a77853",
+      "radii": [
+        [
+          72,
+          49
+        ],
+        [
+          100,
+          77
+        ]
+      ]
+    },
+    {
+      "id": "REG_VIP",
+      "name": "Imperial Loggia",
+      "color": "#9d2530",
+      "center": [
+        0,
+        59
+      ]
+    },
+    {
+      "id": "REG_HYPOGEUM",
+      "name": "The Hypogeum",
+      "color": "#5c6178",
+      "bounds": [
+        -43,
+        -33,
+        51,
+        33
+      ],
+      "floorZ": -5.6
+    },
+    {
+      "id": "REG_MARKET",
+      "name": "Festival Market",
+      "color": "#be7644",
+      "center": [
+        0,
+        -108
+      ]
+    },
+    {
+      "id": "REG_CITY",
+      "name": "Aurelia",
+      "color": "#c7bca1",
+      "center": [
+        0,
+        155
+      ]
+    },
+    {
+      "id": "REG_RIVER",
+      "name": "River Quay",
+      "color": "#517c89",
+      "bounds": [
+        -197,
+        -220,
+        -160,
+        330
+      ]
+    },
+    {
+      "id": "REG_AQUEDUCT",
+      "name": "East Aqueduct",
+      "color": "#9b9686",
+      "center": [
+        190,
+        170
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "id": "PATH_MAIN",
+      "name": "Ceremonial approach",
+      "points": [
+        [
+          0,
+          -145,
+          0
+        ],
+        [
+          0,
+          -106,
+          0
+        ],
+        [
+          0,
+          -81,
+          0
+        ],
+        [
+          0,
+          -56,
+          0
+        ],
+        [
+          0,
+          -41,
+          0.4
+        ]
+      ],
+      "width": 6
+    },
+    {
+      "id": "PATH_CONCOURSE",
+      "name": "Lower ambulatory",
+      "ellipse": [
+        100.1,
+        77.1
+      ],
+      "height": 0,
+      "width": 5.4
+    },
+    {
+      "id": "PATH_SPECTATOR",
+      "name": "Stair to upper terraces",
+      "angles": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "width": 2.6,
+      "entryAnglesDegrees": [
+        45,
+        225
+      ],
+      "upperAisles": 16
+    },
+    {
+      "id": "PATH_SERVICE",
+      "name": "Gladiator service ramp",
+      "points": [
+        [
+          70,
+          0,
+          0.4
+        ],
+        [
+          62,
+          0,
+          0.4
+        ],
+        [
+          47,
+          0,
+          -5.6
+        ],
+        [
+          22,
+          0,
+          -5.6
+        ]
+      ],
+      "width": 5
+    }
+  ],
+  "viewer": {
+    "eyeHeight": 1.72,
+    "radius": 0.32,
+    "stepHeight": 0.38,
+    "walkSpeed": 4.2,
+    "sprintSpeed": 7.5,
+    "fov": 67,
+    "spawn": [
+      0,
+      -119,
+      1.72
+    ]
+  },
+  "cameras": {
+    "reference": {
+      "position": [
+        38,
+        -266,
+        163
+      ],
+      "target": [
+        0,
+        -5,
+        8
+      ],
+      "lens": 41.5
+    },
+    "top": {
+      "position": [
+        0,
+        0,
+        330
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ]
+    },
+    "approach": {
+      "position": [
+        7,
+        -116,
+        1.72
+      ],
+      "target": [
+        0,
+        -65,
+        15
+      ]
+    }
+  },
+  "interpretation": [
+    "The supplied single image defines the visible composition. Hidden circulation and hypogeum are authored functional continuations, not observed historical reconstructions.",
+    "Two deep exterior arcades, 64 bays each, a 24-row stepped cavea, 16 radial aisles, and a north axial imperial loggia preserve the reference silhouette.",
+    "The river, bridge, temple and aqueduct remain background anchors. Nearby streets, market and arena are explorable; distant hills are scenery.",
+    "All humans including statuary are derived from the bundled validated CharacterBase. Crowd variants reuse exact geometry; no billboard crowds."
+  ],
+  "city": {
+    "building_count": 159,
+    "tree_count": 180,
+    "temple": {
+      "center": [
+        10,
+        166
+      ],
+      "footprint": [
+        56,
+        45
+      ],
+      "height": 39.6,
+      "portico_walkable": true,
+      "stair_start": [
+        10,
+        112.2,
+        0
+      ],
+      "stair_end": [
+        10,
+        145.8,
+        12.0
+      ],
+      "stair_rise": 0.25,
+      "stair_run": 0.65,
+      "upper_stair_run": 0.8,
+      "raised_precinct": 8
+    },
+    "bridge": {
+      "center": [
+        -180,
+        105
+      ],
+      "deck_z": 6.05,
+      "width": 13,
+      "length": 65,
+      "open_arches": 3,
+      "approach_ramps": [
+        [
+          -232.5,
+          -212.5
+        ],
+        [
+          -147.5,
+          -127.5
+        ]
+      ],
+      "approach_run": 20,
+      "approach_rise": 6.05
+    },
+    "aqueduct": {
+      "y": 170,
+      "x_range": [
+        66,
+        338
+      ],
+      "height": 37.18,
+      "open_arches": 16
+    },
+    "civic_landmarks": [
+      {
+        "id": "Basilica_Aemilia",
+        "center": [
+          -86,
+          169
+        ],
+        "footprint": [
+          61.2,
+          21.2
+        ],
+        "height": 19.9
+      },
+      {
+        "id": "Basilica_Mercatoria",
+        "center": [
+          112,
+          215
+        ],
+        "footprint": [
+          61.2,
+          22.2
+        ],
+        "height": 19.9
+      },
+      {
+        "id": "Tower_of_the_Watch",
+        "center": [
+          -135,
+          247
+        ],
+        "footprint": [
+          15,
+          15
+        ],
+        "height": 34.7
+      },
+      {
+        "id": "Civic_Archive_Tower",
+        "center": [
+          114,
+          325
+        ],
+        "footprint": [
+          15,
+          15
+        ],
+        "height": 35.7
+      }
+    ],
+    "protected_arena_plaza": {
+      "rx": 128,
+      "ry": 105
+    },
+    "collections": [
+      "City_Architecture",
+      "City_Infrastructure",
+      "City_Landscape"
+    ]
+  },
+  "foreground": {
+    "workshops": [
+      {
+        "id": "Workshop_0",
+        "center": [
+          -62,
+          -117
+        ],
+        "full_projection": [
+          18.6,
+          9.8
+        ]
+      },
+      {
+        "id": "Workshop_1",
+        "center": [
+          62,
+          -117
+        ],
+        "full_projection": [
+          18.6,
+          9.8
+        ]
+      }
+    ],
+    "houses": [
+      {
+        "id": "ForegroundHouse_0",
+        "template": "SouthEast_01",
+        "center": [
+          -114,
+          -147
+        ],
+        "ground_support_z": -0.035,
+        "source_min_z": 0.0,
+        "full_projection": [
+          18.1199951171875,
+          18.860000610351562
+        ],
+        "source_component_count": 7
+      },
+      {
+        "id": "ForegroundHouse_1",
+        "template": "SouthEast_02",
+        "center": [
+          116,
+          -145
+        ],
+        "ground_support_z": -0.035,
+        "source_min_z": 0.0,
+        "full_projection": [
+          16.1199951171875,
+          14.919998168945312
+        ],
+        "source_component_count": 7
+      },
+      {
+        "id": "ForegroundHouse_2",
+        "template": "North_00_04",
+        "center": [
+          -116,
+          -174
+        ],
+        "ground_support_z": -0.035,
+        "source_min_z": 0.0,
+        "full_projection": [
+          16.661598205566406,
+          27.96160888671875
+        ],
+        "source_component_count": 7
+      },
+      {
+        "id": "ForegroundHouse_3",
+        "template": "North_00_01",
+        "center": [
+          141,
+          -181
+        ],
+        "ground_support_z": -0.035,
+        "source_min_z": 0.0,
+        "full_projection": [
+          19.0216064453125,
+          20.29119873046875
+        ],
+        "source_component_count": 7
+      }
+    ],
+    "ground_human_anchors_checked": 288,
+    "clearance_conflicts": [],
+    "projection_method": "Full evaluated object bounding corners with0.25\u20130.30m clearance margins; SAT against occupied rectangles."
+  },
+  "sceneryBeyondBounds": {
+    "southHills": [
+      -500,
+      -660,
+      560,
+      -239
+    ],
+    "collision": "none"
+  },
+  "verifiedCounts": {
+    "sceneObjects": 27858,
+    "meshObjects": 15494,
+    "materials": 122,
+    "cameras": 10,
+    "pointLights": 31,
+    "characterInstances": 12322,
+    "characterTriangleInstances": 61689244,
+    "actions": 12
+  },
+  "finalCameras": {
+    "reference": {
+      "position": [
+        38.0,
+        -266.0,
+        163.0
+      ],
+      "rotationEuler": [
+        1.0394896268844604,
+        5.665766078521983e-09,
+        0.1445780098438263
+      ],
+      "lens": 41.5
+    },
+    "top": {
+      "position": [
+        0.0,
+        0.0,
+        330.0
+      ],
+      "rotationEuler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 38.0
+    },
+    "approach": {
+      "position": [
+        7.0,
+        -116.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.8232653141021729,
+        2.615347050038963e-09,
+        0.13640260696411133
+      ],
+      "lens": 38.0
+    },
+    "floor": {
+      "position": [
+        30.0,
+        -25.0,
+        2.119999885559082
+      ],
+      "rotationEuler": [
+        1.7793852090835571,
+        7.577601657260402e-09,
+        0.34302395582199097
+      ],
+      "lens": 24.0
+    },
+    "facade": {
+      "position": [
+        39.0,
+        -89.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        2.0175750255584717,
+        9.254536337266472e-08,
+        1.212025761604309
+      ],
+      "lens": 24.0
+    },
+    "seating": {
+      "position": [
+        68.0999984741211,
+        -51.79999923706055,
+        29.299999237060547
+      ],
+      "rotationEuler": [
+        1.3713321685791016,
+        2.158547118824572e-08,
+        0.7452505826950073
+      ],
+      "lens": 30.0
+    },
+    "hypogeum": {
+      "position": [
+        20.0,
+        -11.0,
+        -3.880000114440918
+      ],
+      "rotationEuler": [
+        1.5779961347579956,
+        -3.783274848956353e-08,
+        0.9272952675819397
+      ],
+      "lens": 24.0
+    },
+    "market": {
+      "position": [
+        42.0,
+        -127.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.6368876695632935,
+        1.5023035260242068e-08,
+        -1.1071490049362183
+      ],
+      "lens": 30.0
+    },
+    "reverse": {
+      "position": [
+        0.0,
+        133.0,
+        85.0
+      ],
+      "rotationEuler": [
+        1.0573368072509766,
+        7.61496252721372e-08,
+        3.141592502593994
+      ],
+      "lens": 36.0
+    },
+    "vip": {
+      "position": [
+        7.0,
+        54.0,
+        20.440000534057617
+      ],
+      "rotationEuler": [
+        1.7172229290008545,
+        -2.3654557423924416e-08,
+        0.7853981852531433
+      ],
+      "lens": 28.0
+    }
+  }
+}

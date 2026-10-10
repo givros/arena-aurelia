@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-10T19:07:54.522Z",
+  "ownedNode": 50948,
+  "result": {
+    "result": {
+      "type": "object",
+      "value": {
+        "at": 338544.10000002384,
+        "loading": "Preparing the district's shadows... 78%",
+        "ready": false
+      }
+    }
+  }
+}

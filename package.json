@@ -1,0 +1,15 @@
+{
+  "name": "arena-aurelia",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/repository-assets.mjs restore && npm ci --prefix viewer",
+    "dev": "node scripts/repository-assets.mjs restore --runtime && npm --prefix viewer run dev",
+    "build": "node scripts/repository-assets.mjs restore --runtime && npm --prefix viewer run build",
+    "preview": "npm --prefix viewer run preview",
+    "restore:assets": "node scripts/repository-assets.mjs restore",
+    "pack:assets": "node scripts/repository-assets.mjs pack"
+  },
+  "engines": { "node": ">=22.12.0" }
+}

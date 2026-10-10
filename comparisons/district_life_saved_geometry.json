@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "layoutSHA256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+  "assembliesTested": 275,
+  "camerasTested": 13,
+  "failures": [],
+  "reviewCameraAuthoritySHA256": "7523777a6f3d99dd0cbe5d5084dd149008413a3475bfc83b4263b2d1f81f7c83",
+  "uniqueDistrictMeshes": 496,
+  "fullMeshInstances": 2442,
+  "sourceUnchanged": true
+}

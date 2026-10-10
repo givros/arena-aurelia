@@ -1,0 +1,3404 @@
+{
+  "status": "failed",
+  "timestamp": "2026-10-10T18:44:36.237Z",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "moduleSHA256": "4d06b1626f3df7f05d434596ba2830a746170a98d7a301292051c7221ca57266",
+  "pinnedAddonSHA256": "b1fb1034d84a3c3a6a68e416a58b3fb16817d8e9f903e67d4d1b9f72e8ae2d80",
+  "scope": "Actual WebGPU paired full clustered-light index-buffer comparison and image captures. 53 finite PBR lights, full native sizes through4K, two cameras, day/night,4096PCF shadows,4MSAA, no source geometry changes.",
+  "comparisons": [
+    {
+      "id": "0_800_600_above_day",
+      "status": "failed",
+      "original": {
+        "id": "0_800_600_above_day",
+        "arm": "original",
+        "durationMs": 288.10000002384186,
+        "lights": 53,
+        "activeBytes": 2918400,
+        "allocationBytes": 2918400,
+        "activeSHA256": "cb73f5e0c244c47eeba3b7614146352986a7487fd86a80c8eacc022bdcac0073",
+        "grid": [
+          25,
+          19
+        ],
+        "count": 11400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36329,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 2918400,
+          "textures": 7,
+          "texturesSize": 139981184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 142961245
+        },
+        "eventCount": 11,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "0_800_600_above_day",
+        "arm": "stable",
+        "durationMs": 679.1999999880791,
+        "lights": 53,
+        "activeBytes": 2918400,
+        "allocationBytes": 50135040,
+        "activeSHA256": "417395335e88a78d539d5e10a463e403a5af5cf503c5acd2cbce24d227245938",
+        "grid": [
+          25,
+          19
+        ],
+        "count": 11400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 139981184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 190178739
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "1_800_600_above_night",
+      "status": "failed",
+      "original": {
+        "id": "1_800_600_above_night",
+        "arm": "original",
+        "durationMs": 5.899999976158142,
+        "lights": 53,
+        "activeBytes": 2918400,
+        "allocationBytes": 2918400,
+        "activeSHA256": "cb73f5e0c244c47eeba3b7614146352986a7487fd86a80c8eacc022bdcac0073",
+        "grid": [
+          25,
+          19
+        ],
+        "count": 11400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36329,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 2918400,
+          "textures": 7,
+          "texturesSize": 139981184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 142961245
+        },
+        "eventCount": 11,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "1_800_600_above_night",
+        "arm": "stable",
+        "durationMs": 10.100000023841858,
+        "lights": 53,
+        "activeBytes": 2918400,
+        "allocationBytes": 50135040,
+        "activeSHA256": "417395335e88a78d539d5e10a463e403a5af5cf503c5acd2cbce24d227245938",
+        "grid": [
+          25,
+          19
+        ],
+        "count": 11400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 139981184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 190178739
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "2_800_600_ground_day",
+      "status": "failed",
+      "original": {
+        "id": "2_800_600_ground_day",
+        "arm": "original",
+        "durationMs": 6.599999964237213,
+        "lights": 53,
+        "activeBytes": 2918400,
+        "allocationBytes": 2918400,
+        "activeSHA256": "af51f10424a146836990b49ced41c7ad77b7d549ff62869ac1da05214f7db885",
+        "grid": [
+          25,
+          19
+        ],
+        "count": 11400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36329,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 2918400,
+          "textures": 7,
+          "texturesSize": 139981184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 142961245
+        },
+        "eventCount": 11,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "2_800_600_ground_day",
+        "arm": "stable",
+        "durationMs": 6.399999976158142,
+        "lights": 53,
+        "activeBytes": 2918400,
+        "allocationBytes": 50135040,
+        "activeSHA256": "417395335e88a78d539d5e10a463e403a5af5cf503c5acd2cbce24d227245938",
+        "grid": [
+          25,
+          19
+        ],
+        "count": 11400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 139981184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 190178739
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "3_800_600_ground_night",
+      "status": "failed",
+      "original": {
+        "id": "3_800_600_ground_night",
+        "arm": "original",
+        "durationMs": 5.599999964237213,
+        "lights": 53,
+        "activeBytes": 2918400,
+        "allocationBytes": 2918400,
+        "activeSHA256": "af51f10424a146836990b49ced41c7ad77b7d549ff62869ac1da05214f7db885",
+        "grid": [
+          25,
+          19
+        ],
+        "count": 11400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36329,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 2918400,
+          "textures": 7,
+          "texturesSize": 139981184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 142961245
+        },
+        "eventCount": 11,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "3_800_600_ground_night",
+        "arm": "stable",
+        "durationMs": 7.399999976158142,
+        "lights": 53,
+        "activeBytes": 2918400,
+        "allocationBytes": 50135040,
+        "activeSHA256": "417395335e88a78d539d5e10a463e403a5af5cf503c5acd2cbce24d227245938",
+        "grid": [
+          25,
+          19
+        ],
+        "count": 11400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 139981184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 190178739
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "4_1440_1080_above_day",
+      "status": "failed",
+      "original": {
+        "id": "4_1440_1080_above_day",
+        "arm": "original",
+        "durationMs": 191,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 9400320,
+        "activeSHA256": "23b65879b75990035f25f7294629ed58639e1254b3a5d862ad24e482e4692632",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36365,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 2,
+          "storageAttributesSize": 12318720,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 165264001
+        },
+        "eventCount": 15,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "4_1440_1080_above_day",
+        "arm": "stable",
+        "durationMs": 26.19999998807907,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 50135040,
+        "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203081139
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "5_1440_1080_above_night",
+      "status": "failed",
+      "original": {
+        "id": "5_1440_1080_above_night",
+        "arm": "original",
+        "durationMs": 8.799999952316284,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 9400320,
+        "activeSHA256": "23b65879b75990035f25f7294629ed58639e1254b3a5d862ad24e482e4692632",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36365,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 2,
+          "storageAttributesSize": 12318720,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 165264001
+        },
+        "eventCount": 15,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "5_1440_1080_above_night",
+        "arm": "stable",
+        "durationMs": 10.199999988079071,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 50135040,
+        "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203081139
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "6_1440_1080_ground_day",
+      "status": "failed",
+      "original": {
+        "id": "6_1440_1080_ground_day",
+        "arm": "original",
+        "durationMs": 9.699999988079071,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 9400320,
+        "activeSHA256": "65ed63ba9152cd55985d67e8b3a0673947e0f8507ca0fe168798f61e3ba62360",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36365,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 2,
+          "storageAttributesSize": 12318720,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 165264001
+        },
+        "eventCount": 15,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "6_1440_1080_ground_day",
+        "arm": "stable",
+        "durationMs": 7.199999988079071,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 50135040,
+        "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203081139
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "7_1440_1080_ground_night",
+      "status": "failed",
+      "original": {
+        "id": "7_1440_1080_ground_night",
+        "arm": "original",
+        "durationMs": 13.299999952316284,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 9400320,
+        "activeSHA256": "65ed63ba9152cd55985d67e8b3a0673947e0f8507ca0fe168798f61e3ba62360",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36365,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 2,
+          "storageAttributesSize": 12318720,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 165264001
+        },
+        "eventCount": 15,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "7_1440_1080_ground_night",
+        "arm": "stable",
+        "durationMs": 5.799999952316284,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 50135040,
+        "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203081139
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "8_1600_1000_above_day",
+      "status": "failed",
+      "original": {
+        "id": "8_1600_1000_above_day",
+        "arm": "original",
+        "durationMs": 203.10000002384186,
+        "lights": 53,
+        "activeBytes": 9830400,
+        "allocationBytes": 9830400,
+        "activeSHA256": "17219e0f2542aba1eeb11e7d1c3f9e9a786eafcd63487c8737c6f0b65edaac6f",
+        "grid": [
+          50,
+          32
+        ],
+        "count": 38400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36305,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 3,
+          "storageAttributesSize": 22149120,
+          "textures": 7,
+          "texturesSize": 153421184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 175631941
+        },
+        "eventCount": 19,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "8_1600_1000_above_day",
+        "arm": "stable",
+        "durationMs": 12.900000035762787,
+        "lights": 53,
+        "activeBytes": 9830400,
+        "allocationBytes": 50135040,
+        "activeSHA256": "5a1ab105edf82b94a3058aab0d797706bf162edc925a1ce55d9ae44e7ab25098",
+        "grid": [
+          50,
+          32
+        ],
+        "count": 38400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 153421184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203618739
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "9_1600_1000_above_night",
+      "status": "failed",
+      "original": {
+        "id": "9_1600_1000_above_night",
+        "arm": "original",
+        "durationMs": 6.199999988079071,
+        "lights": 53,
+        "activeBytes": 9830400,
+        "allocationBytes": 9830400,
+        "activeSHA256": "17219e0f2542aba1eeb11e7d1c3f9e9a786eafcd63487c8737c6f0b65edaac6f",
+        "grid": [
+          50,
+          32
+        ],
+        "count": 38400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36305,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 3,
+          "storageAttributesSize": 22149120,
+          "textures": 7,
+          "texturesSize": 153421184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 175631941
+        },
+        "eventCount": 19,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "9_1600_1000_above_night",
+        "arm": "stable",
+        "durationMs": 3.599999964237213,
+        "lights": 53,
+        "activeBytes": 9830400,
+        "allocationBytes": 50135040,
+        "activeSHA256": "5a1ab105edf82b94a3058aab0d797706bf162edc925a1ce55d9ae44e7ab25098",
+        "grid": [
+          50,
+          32
+        ],
+        "count": 38400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 153421184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203618739
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "10_1600_1000_ground_day",
+      "status": "failed",
+      "original": {
+        "id": "10_1600_1000_ground_day",
+        "arm": "original",
+        "durationMs": 8.800000011920929,
+        "lights": 53,
+        "activeBytes": 9830400,
+        "allocationBytes": 9830400,
+        "activeSHA256": "9088e8b9c37df79b4167346485e9f44a53b13aaf024bb156c5e44d9c3161b239",
+        "grid": [
+          50,
+          32
+        ],
+        "count": 38400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36305,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 3,
+          "storageAttributesSize": 22149120,
+          "textures": 7,
+          "texturesSize": 153421184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 175631941
+        },
+        "eventCount": 19,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "10_1600_1000_ground_day",
+        "arm": "stable",
+        "durationMs": 18.19999998807907,
+        "lights": 53,
+        "activeBytes": 9830400,
+        "allocationBytes": 50135040,
+        "activeSHA256": "5a1ab105edf82b94a3058aab0d797706bf162edc925a1ce55d9ae44e7ab25098",
+        "grid": [
+          50,
+          32
+        ],
+        "count": 38400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 153421184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203618739
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "11_1600_1000_ground_night",
+      "status": "failed",
+      "original": {
+        "id": "11_1600_1000_ground_night",
+        "arm": "original",
+        "durationMs": 14.699999988079071,
+        "lights": 53,
+        "activeBytes": 9830400,
+        "allocationBytes": 9830400,
+        "activeSHA256": "9088e8b9c37df79b4167346485e9f44a53b13aaf024bb156c5e44d9c3161b239",
+        "grid": [
+          50,
+          32
+        ],
+        "count": 38400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36305,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 3,
+          "storageAttributesSize": 22149120,
+          "textures": 7,
+          "texturesSize": 153421184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 175631941
+        },
+        "eventCount": 19,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "11_1600_1000_ground_night",
+        "arm": "stable",
+        "durationMs": 8.5,
+        "lights": 53,
+        "activeBytes": 9830400,
+        "allocationBytes": 50135040,
+        "activeSHA256": "5a1ab105edf82b94a3058aab0d797706bf162edc925a1ce55d9ae44e7ab25098",
+        "grid": [
+          50,
+          32
+        ],
+        "count": 38400,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 153421184,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203618739
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "12_1440_1080_above_day",
+      "status": "failed",
+      "original": {
+        "id": "12_1440_1080_above_day",
+        "arm": "original",
+        "durationMs": 88.20000004768372,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 9830400,
+        "activeSHA256": "23b65879b75990035f25f7294629ed58639e1254b3a5d862ad24e482e4692632",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36365,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 3,
+          "storageAttributesSize": 22149120,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 175094401
+        },
+        "eventCount": 23,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "12_1440_1080_above_day",
+        "arm": "stable",
+        "durationMs": 16,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 50135040,
+        "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203081139
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "13_1440_1080_above_night",
+      "status": "failed",
+      "original": {
+        "id": "13_1440_1080_above_night",
+        "arm": "original",
+        "durationMs": 11.5,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 9830400,
+        "activeSHA256": "23b65879b75990035f25f7294629ed58639e1254b3a5d862ad24e482e4692632",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36365,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 3,
+          "storageAttributesSize": 22149120,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 175094401
+        },
+        "eventCount": 23,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "13_1440_1080_above_night",
+        "arm": "stable",
+        "durationMs": 4.799999952316284,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 50135040,
+        "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203081139
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "14_1440_1080_ground_day",
+      "status": "failed",
+      "original": {
+        "id": "14_1440_1080_ground_day",
+        "arm": "original",
+        "durationMs": 20.700000047683716,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 9830400,
+        "activeSHA256": "65ed63ba9152cd55985d67e8b3a0673947e0f8507ca0fe168798f61e3ba62360",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36365,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 3,
+          "storageAttributesSize": 22149120,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 175094401
+        },
+        "eventCount": 23,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "14_1440_1080_ground_day",
+        "arm": "stable",
+        "durationMs": 7,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 50135040,
+        "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203081139
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "15_1440_1080_ground_night",
+      "status": "failed",
+      "original": {
+        "id": "15_1440_1080_ground_night",
+        "arm": "original",
+        "durationMs": 16.80000001192093,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 9830400,
+        "activeSHA256": "65ed63ba9152cd55985d67e8b3a0673947e0f8507ca0fe168798f61e3ba62360",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36365,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 3,
+          "storageAttributesSize": 22149120,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 175094401
+        },
+        "eventCount": 23,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "15_1440_1080_ground_night",
+        "arm": "stable",
+        "durationMs": 19.099999964237213,
+        "lights": 53,
+        "activeBytes": 9400320,
+        "allocationBytes": 50135040,
+        "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+        "grid": [
+          45,
+          34
+        ],
+        "count": 36720,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 152883584,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 203081139
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    },
+    {
+      "id": "16_3840_2160_above_night",
+      "status": "failed",
+      "original": {
+        "id": "16_3840_2160_above_night",
+        "arm": "original",
+        "durationMs": 415.19999998807907,
+        "lights": 53,
+        "activeBytes": 50135040,
+        "allocationBytes": 50135040,
+        "activeSHA256": "53d8edd174726a5534d7ce55b187004dd8e39c9fe0a5b4215486e7ea2e13d24d",
+        "grid": [
+          120,
+          68
+        ],
+        "count": 195840,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36368,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 4,
+          "storageAttributesSize": 72284160,
+          "textures": 7,
+          "texturesSize": 233753984,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7296,
+          "total": 306099844
+        },
+        "eventCount": 27,
+        "gridReallocations": null
+      },
+      "stable": {
+        "id": "16_3840_2160_above_night",
+        "arm": "stable",
+        "durationMs": 33.90000003576279,
+        "lights": 53,
+        "activeBytes": 50135040,
+        "allocationBytes": 50135040,
+        "activeSHA256": "37a133ab211d14965213c335707c2144c11d1c66f7557f0858f0892e3800fd09",
+        "grid": [
+          120,
+          68
+        ],
+        "count": 195840,
+        "programs": 7,
+        "stages": {
+          "attributes": 51,
+          "attributesSize": 14436,
+          "geometries": 26,
+          "indexAttributes": 25,
+          "indexAttributesSize": 3600,
+          "indirectStorageAttributes": 0,
+          "indirectStorageAttributesSize": 0,
+          "programs": 7,
+          "programsSize": 36783,
+          "readbackBuffers": 0,
+          "readbackBuffersSize": 0,
+          "renderTargets": 2,
+          "storageAttributes": 1,
+          "storageAttributesSize": 50135040,
+          "textures": 7,
+          "texturesSize": 233753984,
+          "uniformBuffers": 57,
+          "uniformBuffersSize": 7696,
+          "total": 283951539
+        },
+        "eventCount": 11,
+        "gridReallocations": 1
+      }
+    }
+  ],
+  "runs": [
+    {
+      "arm": "original",
+      "tests": [
+        {
+          "id": "0_800_600_above_day",
+          "arm": "original",
+          "durationMs": 288.10000002384186,
+          "lights": 53,
+          "activeBytes": 2918400,
+          "allocationBytes": 2918400,
+          "activeSHA256": "cb73f5e0c244c47eeba3b7614146352986a7487fd86a80c8eacc022bdcac0073",
+          "grid": [
+            25,
+            19
+          ],
+          "count": 11400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36329,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 2918400,
+            "textures": 7,
+            "texturesSize": 139981184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 142961245
+          },
+          "eventCount": 11,
+          "gridReallocations": null
+        },
+        {
+          "id": "1_800_600_above_night",
+          "arm": "original",
+          "durationMs": 5.899999976158142,
+          "lights": 53,
+          "activeBytes": 2918400,
+          "allocationBytes": 2918400,
+          "activeSHA256": "cb73f5e0c244c47eeba3b7614146352986a7487fd86a80c8eacc022bdcac0073",
+          "grid": [
+            25,
+            19
+          ],
+          "count": 11400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36329,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 2918400,
+            "textures": 7,
+            "texturesSize": 139981184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 142961245
+          },
+          "eventCount": 11,
+          "gridReallocations": null
+        },
+        {
+          "id": "2_800_600_ground_day",
+          "arm": "original",
+          "durationMs": 6.599999964237213,
+          "lights": 53,
+          "activeBytes": 2918400,
+          "allocationBytes": 2918400,
+          "activeSHA256": "af51f10424a146836990b49ced41c7ad77b7d549ff62869ac1da05214f7db885",
+          "grid": [
+            25,
+            19
+          ],
+          "count": 11400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36329,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 2918400,
+            "textures": 7,
+            "texturesSize": 139981184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 142961245
+          },
+          "eventCount": 11,
+          "gridReallocations": null
+        },
+        {
+          "id": "3_800_600_ground_night",
+          "arm": "original",
+          "durationMs": 5.599999964237213,
+          "lights": 53,
+          "activeBytes": 2918400,
+          "allocationBytes": 2918400,
+          "activeSHA256": "af51f10424a146836990b49ced41c7ad77b7d549ff62869ac1da05214f7db885",
+          "grid": [
+            25,
+            19
+          ],
+          "count": 11400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36329,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 2918400,
+            "textures": 7,
+            "texturesSize": 139981184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 142961245
+          },
+          "eventCount": 11,
+          "gridReallocations": null
+        },
+        {
+          "id": "4_1440_1080_above_day",
+          "arm": "original",
+          "durationMs": 191,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 9400320,
+          "activeSHA256": "23b65879b75990035f25f7294629ed58639e1254b3a5d862ad24e482e4692632",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36365,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 2,
+            "storageAttributesSize": 12318720,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 165264001
+          },
+          "eventCount": 15,
+          "gridReallocations": null
+        },
+        {
+          "id": "5_1440_1080_above_night",
+          "arm": "original",
+          "durationMs": 8.799999952316284,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 9400320,
+          "activeSHA256": "23b65879b75990035f25f7294629ed58639e1254b3a5d862ad24e482e4692632",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36365,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 2,
+            "storageAttributesSize": 12318720,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 165264001
+          },
+          "eventCount": 15,
+          "gridReallocations": null
+        },
+        {
+          "id": "6_1440_1080_ground_day",
+          "arm": "original",
+          "durationMs": 9.699999988079071,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 9400320,
+          "activeSHA256": "65ed63ba9152cd55985d67e8b3a0673947e0f8507ca0fe168798f61e3ba62360",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36365,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 2,
+            "storageAttributesSize": 12318720,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 165264001
+          },
+          "eventCount": 15,
+          "gridReallocations": null
+        },
+        {
+          "id": "7_1440_1080_ground_night",
+          "arm": "original",
+          "durationMs": 13.299999952316284,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 9400320,
+          "activeSHA256": "65ed63ba9152cd55985d67e8b3a0673947e0f8507ca0fe168798f61e3ba62360",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36365,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 2,
+            "storageAttributesSize": 12318720,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 165264001
+          },
+          "eventCount": 15,
+          "gridReallocations": null
+        },
+        {
+          "id": "8_1600_1000_above_day",
+          "arm": "original",
+          "durationMs": 203.10000002384186,
+          "lights": 53,
+          "activeBytes": 9830400,
+          "allocationBytes": 9830400,
+          "activeSHA256": "17219e0f2542aba1eeb11e7d1c3f9e9a786eafcd63487c8737c6f0b65edaac6f",
+          "grid": [
+            50,
+            32
+          ],
+          "count": 38400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36305,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 3,
+            "storageAttributesSize": 22149120,
+            "textures": 7,
+            "texturesSize": 153421184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 175631941
+          },
+          "eventCount": 19,
+          "gridReallocations": null
+        },
+        {
+          "id": "9_1600_1000_above_night",
+          "arm": "original",
+          "durationMs": 6.199999988079071,
+          "lights": 53,
+          "activeBytes": 9830400,
+          "allocationBytes": 9830400,
+          "activeSHA256": "17219e0f2542aba1eeb11e7d1c3f9e9a786eafcd63487c8737c6f0b65edaac6f",
+          "grid": [
+            50,
+            32
+          ],
+          "count": 38400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36305,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 3,
+            "storageAttributesSize": 22149120,
+            "textures": 7,
+            "texturesSize": 153421184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 175631941
+          },
+          "eventCount": 19,
+          "gridReallocations": null
+        },
+        {
+          "id": "10_1600_1000_ground_day",
+          "arm": "original",
+          "durationMs": 8.800000011920929,
+          "lights": 53,
+          "activeBytes": 9830400,
+          "allocationBytes": 9830400,
+          "activeSHA256": "9088e8b9c37df79b4167346485e9f44a53b13aaf024bb156c5e44d9c3161b239",
+          "grid": [
+            50,
+            32
+          ],
+          "count": 38400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36305,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 3,
+            "storageAttributesSize": 22149120,
+            "textures": 7,
+            "texturesSize": 153421184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 175631941
+          },
+          "eventCount": 19,
+          "gridReallocations": null
+        },
+        {
+          "id": "11_1600_1000_ground_night",
+          "arm": "original",
+          "durationMs": 14.699999988079071,
+          "lights": 53,
+          "activeBytes": 9830400,
+          "allocationBytes": 9830400,
+          "activeSHA256": "9088e8b9c37df79b4167346485e9f44a53b13aaf024bb156c5e44d9c3161b239",
+          "grid": [
+            50,
+            32
+          ],
+          "count": 38400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36305,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 3,
+            "storageAttributesSize": 22149120,
+            "textures": 7,
+            "texturesSize": 153421184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 175631941
+          },
+          "eventCount": 19,
+          "gridReallocations": null
+        },
+        {
+          "id": "12_1440_1080_above_day",
+          "arm": "original",
+          "durationMs": 88.20000004768372,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 9830400,
+          "activeSHA256": "23b65879b75990035f25f7294629ed58639e1254b3a5d862ad24e482e4692632",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36365,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 3,
+            "storageAttributesSize": 22149120,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 175094401
+          },
+          "eventCount": 23,
+          "gridReallocations": null
+        },
+        {
+          "id": "13_1440_1080_above_night",
+          "arm": "original",
+          "durationMs": 11.5,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 9830400,
+          "activeSHA256": "23b65879b75990035f25f7294629ed58639e1254b3a5d862ad24e482e4692632",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36365,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 3,
+            "storageAttributesSize": 22149120,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 175094401
+          },
+          "eventCount": 23,
+          "gridReallocations": null
+        },
+        {
+          "id": "14_1440_1080_ground_day",
+          "arm": "original",
+          "durationMs": 20.700000047683716,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 9830400,
+          "activeSHA256": "65ed63ba9152cd55985d67e8b3a0673947e0f8507ca0fe168798f61e3ba62360",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36365,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 3,
+            "storageAttributesSize": 22149120,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 175094401
+          },
+          "eventCount": 23,
+          "gridReallocations": null
+        },
+        {
+          "id": "15_1440_1080_ground_night",
+          "arm": "original",
+          "durationMs": 16.80000001192093,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 9830400,
+          "activeSHA256": "65ed63ba9152cd55985d67e8b3a0673947e0f8507ca0fe168798f61e3ba62360",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36365,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 3,
+            "storageAttributesSize": 22149120,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 175094401
+          },
+          "eventCount": 23,
+          "gridReallocations": null
+        },
+        {
+          "id": "16_3840_2160_above_night",
+          "arm": "original",
+          "durationMs": 415.19999998807907,
+          "lights": 53,
+          "activeBytes": 50135040,
+          "allocationBytes": 50135040,
+          "activeSHA256": "53d8edd174726a5534d7ce55b187004dd8e39c9fe0a5b4215486e7ea2e13d24d",
+          "grid": [
+            120,
+            68
+          ],
+          "count": 195840,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36368,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 4,
+            "storageAttributesSize": 72284160,
+            "textures": 7,
+            "texturesSize": 233753984,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7296,
+            "total": 306099844
+          },
+          "eventCount": 27,
+          "gridReallocations": null
+        }
+      ],
+      "events": [
+        {
+          "method": "createProgram",
+          "stage": "vertex",
+          "name": "ShadowMaterial",
+          "phase": "0_800_600_above_day",
+          "time": 374.19999998807907,
+          "id": 0
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "ShadowMaterial",
+          "phase": "0_800_600_above_day",
+          "time": 374.19999998807907,
+          "id": 1
+        },
+        {
+          "method": "createProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "0_800_600_above_day",
+          "time": 389.39999997615814,
+          "id": 2
+        },
+        {
+          "method": "createProgram",
+          "stage": "vertex",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 390.69999998807907,
+          "id": 3
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 390.80000001192093,
+          "id": 4
+        },
+        {
+          "method": "createProgram",
+          "stage": "vertex",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 406.80000001192093,
+          "id": 5
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 406.80000001192093,
+          "id": 6
+        },
+        {
+          "method": "createProgram",
+          "stage": "vertex",
+          "name": "outputColorTransform",
+          "phase": "0_800_600_above_day",
+          "time": 429.10000002384186,
+          "id": 7
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "outputColorTransform",
+          "phase": "0_800_600_above_day",
+          "time": 429.10000002384186,
+          "id": 8
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "vertex",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 429.89999997615814,
+          "id": 3
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 429.89999997615814,
+          "id": 4
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "4_1440_1080_above_day",
+          "time": 1016.5,
+          "id": 2
+        },
+        {
+          "method": "createProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "4_1440_1080_above_day",
+          "time": 1039.6000000238419,
+          "id": 9
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "4_1440_1080_above_day",
+          "time": 1063.5,
+          "id": 10
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "4_1440_1080_above_day",
+          "time": 1090.3999999761581,
+          "id": 6
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "8_1600_1000_above_day",
+          "time": 2082.699999988079,
+          "id": 9
+        },
+        {
+          "method": "createProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "8_1600_1000_above_day",
+          "time": 2105.800000011921,
+          "id": 11
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "8_1600_1000_above_day",
+          "time": 2131.899999976158,
+          "id": 12
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "8_1600_1000_above_day",
+          "time": 2161,
+          "id": 10
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "12_1440_1080_above_day",
+          "time": 2934,
+          "id": 11
+        },
+        {
+          "method": "createProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "12_1440_1080_above_day",
+          "time": 2951.399999976158,
+          "id": 13
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "12_1440_1080_above_day",
+          "time": 2983.699999988079,
+          "id": 14
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "12_1440_1080_above_day",
+          "time": 3010.199999988079,
+          "id": 12
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "16_3840_2160_above_night",
+          "time": 3720.100000023842,
+          "id": 13
+        },
+        {
+          "method": "createProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "16_3840_2160_above_night",
+          "time": 3832,
+          "id": 15
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "16_3840_2160_above_night",
+          "time": 3926.399999976158,
+          "id": 16
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "16_3840_2160_above_night",
+          "time": 4018.5,
+          "id": 14
+        }
+      ]
+    },
+    {
+      "arm": "stable",
+      "tests": [
+        {
+          "id": "0_800_600_above_day",
+          "arm": "stable",
+          "durationMs": 679.1999999880791,
+          "lights": 53,
+          "activeBytes": 2918400,
+          "allocationBytes": 50135040,
+          "activeSHA256": "417395335e88a78d539d5e10a463e403a5af5cf503c5acd2cbce24d227245938",
+          "grid": [
+            25,
+            19
+          ],
+          "count": 11400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 139981184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 190178739
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "1_800_600_above_night",
+          "arm": "stable",
+          "durationMs": 10.100000023841858,
+          "lights": 53,
+          "activeBytes": 2918400,
+          "allocationBytes": 50135040,
+          "activeSHA256": "417395335e88a78d539d5e10a463e403a5af5cf503c5acd2cbce24d227245938",
+          "grid": [
+            25,
+            19
+          ],
+          "count": 11400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 139981184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 190178739
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "2_800_600_ground_day",
+          "arm": "stable",
+          "durationMs": 6.399999976158142,
+          "lights": 53,
+          "activeBytes": 2918400,
+          "allocationBytes": 50135040,
+          "activeSHA256": "417395335e88a78d539d5e10a463e403a5af5cf503c5acd2cbce24d227245938",
+          "grid": [
+            25,
+            19
+          ],
+          "count": 11400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 139981184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 190178739
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "3_800_600_ground_night",
+          "arm": "stable",
+          "durationMs": 7.399999976158142,
+          "lights": 53,
+          "activeBytes": 2918400,
+          "allocationBytes": 50135040,
+          "activeSHA256": "417395335e88a78d539d5e10a463e403a5af5cf503c5acd2cbce24d227245938",
+          "grid": [
+            25,
+            19
+          ],
+          "count": 11400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 139981184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 190178739
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "4_1440_1080_above_day",
+          "arm": "stable",
+          "durationMs": 26.19999998807907,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 50135040,
+          "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203081139
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "5_1440_1080_above_night",
+          "arm": "stable",
+          "durationMs": 10.199999988079071,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 50135040,
+          "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203081139
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "6_1440_1080_ground_day",
+          "arm": "stable",
+          "durationMs": 7.199999988079071,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 50135040,
+          "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203081139
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "7_1440_1080_ground_night",
+          "arm": "stable",
+          "durationMs": 5.799999952316284,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 50135040,
+          "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203081139
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "8_1600_1000_above_day",
+          "arm": "stable",
+          "durationMs": 12.900000035762787,
+          "lights": 53,
+          "activeBytes": 9830400,
+          "allocationBytes": 50135040,
+          "activeSHA256": "5a1ab105edf82b94a3058aab0d797706bf162edc925a1ce55d9ae44e7ab25098",
+          "grid": [
+            50,
+            32
+          ],
+          "count": 38400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 153421184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203618739
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "9_1600_1000_above_night",
+          "arm": "stable",
+          "durationMs": 3.599999964237213,
+          "lights": 53,
+          "activeBytes": 9830400,
+          "allocationBytes": 50135040,
+          "activeSHA256": "5a1ab105edf82b94a3058aab0d797706bf162edc925a1ce55d9ae44e7ab25098",
+          "grid": [
+            50,
+            32
+          ],
+          "count": 38400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 153421184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203618739
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "10_1600_1000_ground_day",
+          "arm": "stable",
+          "durationMs": 18.19999998807907,
+          "lights": 53,
+          "activeBytes": 9830400,
+          "allocationBytes": 50135040,
+          "activeSHA256": "5a1ab105edf82b94a3058aab0d797706bf162edc925a1ce55d9ae44e7ab25098",
+          "grid": [
+            50,
+            32
+          ],
+          "count": 38400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 153421184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203618739
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "11_1600_1000_ground_night",
+          "arm": "stable",
+          "durationMs": 8.5,
+          "lights": 53,
+          "activeBytes": 9830400,
+          "allocationBytes": 50135040,
+          "activeSHA256": "5a1ab105edf82b94a3058aab0d797706bf162edc925a1ce55d9ae44e7ab25098",
+          "grid": [
+            50,
+            32
+          ],
+          "count": 38400,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 153421184,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203618739
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "12_1440_1080_above_day",
+          "arm": "stable",
+          "durationMs": 16,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 50135040,
+          "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203081139
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "13_1440_1080_above_night",
+          "arm": "stable",
+          "durationMs": 4.799999952316284,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 50135040,
+          "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203081139
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "14_1440_1080_ground_day",
+          "arm": "stable",
+          "durationMs": 7,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 50135040,
+          "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203081139
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "15_1440_1080_ground_night",
+          "arm": "stable",
+          "durationMs": 19.099999964237213,
+          "lights": 53,
+          "activeBytes": 9400320,
+          "allocationBytes": 50135040,
+          "activeSHA256": "8906428adf04b938dd6ad87bf0ebe671ea1106e7343b83e4df3818fd3c8a0602",
+          "grid": [
+            45,
+            34
+          ],
+          "count": 36720,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 152883584,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 203081139
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        },
+        {
+          "id": "16_3840_2160_above_night",
+          "arm": "stable",
+          "durationMs": 33.90000003576279,
+          "lights": 53,
+          "activeBytes": 50135040,
+          "allocationBytes": 50135040,
+          "activeSHA256": "37a133ab211d14965213c335707c2144c11d1c66f7557f0858f0892e3800fd09",
+          "grid": [
+            120,
+            68
+          ],
+          "count": 195840,
+          "programs": 7,
+          "stages": {
+            "attributes": 51,
+            "attributesSize": 14436,
+            "geometries": 26,
+            "indexAttributes": 25,
+            "indexAttributesSize": 3600,
+            "indirectStorageAttributes": 0,
+            "indirectStorageAttributesSize": 0,
+            "programs": 7,
+            "programsSize": 36783,
+            "readbackBuffers": 0,
+            "readbackBuffersSize": 0,
+            "renderTargets": 2,
+            "storageAttributes": 1,
+            "storageAttributesSize": 50135040,
+            "textures": 7,
+            "texturesSize": 233753984,
+            "uniformBuffers": 57,
+            "uniformBuffersSize": 7696,
+            "total": 283951539
+          },
+          "eventCount": 11,
+          "gridReallocations": 1
+        }
+      ],
+      "events": [
+        {
+          "method": "createProgram",
+          "stage": "vertex",
+          "name": "ShadowMaterial",
+          "phase": "0_800_600_above_day",
+          "time": 352.9000000357628,
+          "id": 0
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "ShadowMaterial",
+          "phase": "0_800_600_above_day",
+          "time": 352.9000000357628,
+          "id": 1
+        },
+        {
+          "method": "createProgram",
+          "stage": "compute",
+          "name": "Update Clustered Lights",
+          "phase": "0_800_600_above_day",
+          "time": 457.60000002384186,
+          "id": 2
+        },
+        {
+          "method": "createProgram",
+          "stage": "vertex",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 459,
+          "id": 3
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 459,
+          "id": 4
+        },
+        {
+          "method": "createProgram",
+          "stage": "vertex",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 548.6000000238419,
+          "id": 5
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 548.6999999880791,
+          "id": 6
+        },
+        {
+          "method": "createProgram",
+          "stage": "vertex",
+          "name": "outputColorTransform",
+          "phase": "0_800_600_above_day",
+          "time": 643.9000000357628,
+          "id": 7
+        },
+        {
+          "method": "createProgram",
+          "stage": "fragment",
+          "name": "outputColorTransform",
+          "phase": "0_800_600_above_day",
+          "time": 643.9000000357628,
+          "id": 8
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "vertex",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 644.6999999880791,
+          "id": 3
+        },
+        {
+          "method": "destroyProgram",
+          "stage": "fragment",
+          "name": "",
+          "phase": "0_800_600_above_day",
+          "time": 644.6999999880791,
+          "id": 4
+        }
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Compute pipeline creation failed (computePipeline_compute_Update Clustered Lights): [Invalid ShaderModule \"compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While validating compute stage ([Invalid ShaderModule \"compute_Update Clustered Lights\"], entryPoint: \"main\").\n - While calling [Device].CreateComputePipeline([ComputePipelineDescriptor \"\"computePipeline_compute_Update Clustered Lights\"\"]).\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: Error while parsing WGSL: :112:16 error: no matching overload for 'operator % (u32, i32)'\n\n4 candidate operators:\n • 'operator % (T  ✓ , T  ✗ ) -> T' where:\n      ✓  'T' is 'abstract-float', 'abstract-int', 'f32', 'i32', 'u32' or 'f16'\n • 'operator % (vecN<T>  ✗ , T  ✓ ) -> vecN<T>' where:\n      ✓  'T' is 'abstract-float', 'abstract-int', 'f32', 'i32', 'u32' or 'f16'\n • 'operator % (T  ✓ , vecN<T>  ✗ ) -> vecN<T>' where:\n      ✓  'T' is 'abstract-float', 'abstract-int', 'f32', 'i32', 'u32' or 'f16'\n • 'operator % (vecN<T>  ✗ , vecN<T>  ✗ ) -> vecN<T>' where:\n      ✗  'T' is 'abstract-float', 'abstract-int', 'f32', 'i32', 'u32' or 'f16'\n\n    nodeVar5 = ( instanceIndex % i32( object.nodeUniform2.x ) );\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\n\n - While calling [Device].CreateShaderModule([ShaderModuleDescriptor \"\"compute_Update Clustered Lights\"\"]).\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer [computePipeline_compute_Update Clustered Lights / compute error] at line 112:16: no matching overload for 'operator % (u32, i32)'\n\n4 candidate operators:\n • 'operator % (T  ✓ , T  ✗ ) -> T' where:\n      ✓  'T' is 'abstract-float', 'abstract-int', 'f32', 'i32', 'u32' or 'f16'\n • 'operator % (vecN<T>  ✗ , T  ✓ ) -> vecN<T>' where:\n      ✓  'T' is 'abstract-float', 'abstract-int', 'f32', 'i32', 'u32' or 'f16'\n • 'operator % (T  ✓ , vecN<T>  ✗ ) -> vecN<T>' where:\n      ✓  'T' is 'abstract-float', 'abstract-int', 'f32', 'i32', 'u32' or 'f16'\n • 'operator % (vecN<T>  ✗ , vecN<T>  ✗ ) -> vecN<T>' where:\n      ✗  'T' is 'abstract-float', 'abstract-int', 'f32', 'i32', 'u32' or 'f16'\n\n  \t\tnodeVar5 = ( instanceIndex % i32( object.nodeUniform2.x ) );\n                 ^"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"] is invalid due to a previous error.\n - While encoding [ComputePassEncoder \"computeGroup_1207\"].SetPipeline([Invalid ComputePipeline \"computePipeline_compute_Update Clustered Lights\"]).\n - While finishing [CommandEncoder \"computeGroup_1207\"].\n"
+    },
+    {
+      "arm": "stable",
+      "message": "THREE.WebGPURenderer: Uncaptured WebGPU GPUValidationError: [Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"] is invalid due to a previous error.\n - While calling [Queue].Submit([[Invalid CommandBuffer from CommandEncoder \"computeGroup_1207\"]])\n"
+    }
+  ]
+}

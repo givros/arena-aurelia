@@ -1,0 +1,220 @@
+{
+  "timestamp": "2026-10-10T14:48:52.163Z",
+  "status": "passed",
+  "sourceHash": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+  "manifestSHA256": "f44a9164b648940fa93cac30de510d454544951205015de6c78bc42e7b73d316",
+  "binarySHA256": "d33d0b4154466028fd877cc983dc01118c946e8ec7fce6baa01d98cd345a673b",
+  "instances": 18820,
+  "uniqueMeshes": 9637,
+  "uniqueVertices": 1967847,
+  "sourceVisibleTriangles": 3256267,
+  "normalMagnitude": {
+    "min": 0.9999998538624163,
+    "max": 1.0000001527264402
+  },
+  "textures": [
+    {
+      "material": "Travertine • weathered warm limestone",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "Travertine • weathered warm limestone",
+      "slot": "bumpMap",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/bank",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/marble",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/stone",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "City/ground",
+      "slot": "map",
+      "file": "paving.png",
+      "bytes": 1381640,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c741d1a980c3716bab84fb371b93084256d33c6e3fcc73b613a520ddab1874f9"
+    },
+    {
+      "material": "Worn plaza slabs",
+      "slot": "map",
+      "file": "paving.png",
+      "bytes": 1381640,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c741d1a980c3716bab84fb371b93084256d33c6e3fcc73b613a520ddab1874f9"
+    },
+    {
+      "material": "Worn plaza slabs",
+      "slot": "bumpMap",
+      "file": "paving.png",
+      "bytes": 1381640,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c741d1a980c3716bab84fb371b93084256d33c6e3fcc73b613a520ddab1874f9"
+    },
+    {
+      "material": "City/road",
+      "slot": "map",
+      "file": "paving.png",
+      "bytes": 1381640,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c741d1a980c3716bab84fb371b93084256d33c6e3fcc73b613a520ddab1874f9"
+    },
+    {
+      "material": "City/Event_stone",
+      "slot": "map",
+      "file": "travertine.png",
+      "bytes": 1463084,
+      "width": 1024,
+      "height": 1024,
+      "sha256": "6224c1243c2911b8bc6558dfe3069327a03bff513d2284c45a09c57d6eccf337"
+    },
+    {
+      "material": "Compacted ochre arena sand",
+      "slot": "map",
+      "file": "arena_sand_atlas.png",
+      "bytes": 19660526,
+      "width": 4096,
+      "height": 4096,
+      "sha256": "96ede16858f3e1e07b1f719eb7267ce8ecc0b15f6c22bd6122f2488af56cd3a7"
+    }
+  ],
+  "characters": {
+    "count": 13265,
+    "animated": 40,
+    "triangles": 66425490,
+    "assets": [
+      {
+        "asset": "characters/seated-spectator.glb",
+        "count": 12000,
+        "trianglesPerInstance": 5002,
+        "bytes": 325968,
+        "sha256": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+        "animations": []
+      },
+      {
+        "asset": "characters/gladiator.glb",
+        "count": 38,
+        "trianglesPerInstance": 5878,
+        "bytes": 376616,
+        "sha256": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4",
+        "animations": []
+      },
+      {
+        "asset": "characters/guard.glb",
+        "count": 24,
+        "trianglesPerInstance": 5890,
+        "bytes": 376876,
+        "sha256": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9",
+        "animations": []
+      },
+      {
+        "asset": "characters/noble.glb",
+        "count": 8,
+        "trianglesPerInstance": 5002,
+        "bytes": 325852,
+        "sha256": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae",
+        "animations": []
+      },
+      {
+        "asset": "characters/citizen.glb",
+        "count": 987,
+        "trianglesPerInstance": 5002,
+        "bytes": 325872,
+        "sha256": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb",
+        "animations": []
+      },
+      {
+        "asset": "characters/worker.glb",
+        "count": 72,
+        "trianglesPerInstance": 5002,
+        "bytes": 325860,
+        "sha256": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d",
+        "animations": []
+      },
+      {
+        "asset": "characters/merchant.glb",
+        "count": 96,
+        "trianglesPerInstance": 5002,
+        "bytes": 325888,
+        "sha256": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26",
+        "animations": []
+      },
+      {
+        "asset": "characters/animated-merchant.glb",
+        "count": 8,
+        "trianglesPerInstance": 5742,
+        "bytes": 879920,
+        "sha256": "792ddd4e2722d251469b38a6a417d90c00a26829bba159b06a79839f24b50dc2",
+        "animations": [
+          "Idle",
+          "Jump",
+          "Run",
+          "Walk"
+        ]
+      },
+      {
+        "asset": "characters/animated-citizen.glb",
+        "count": 24,
+        "trianglesPerInstance": 5002,
+        "bytes": 821928,
+        "sha256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+        "animations": [
+          "Idle",
+          "Jump",
+          "Run",
+          "Walk"
+        ]
+      },
+      {
+        "asset": "characters/animated-porter.glb",
+        "count": 8,
+        "trianglesPerInstance": 6682,
+        "bytes": 946628,
+        "sha256": "2aa2b977d3d787c62f24df0eae9dd0e1520db886f64aa38c877477c3ed2b43a1",
+        "animations": [
+          "Idle",
+          "Jump",
+          "Run",
+          "Walk"
+        ]
+      }
+    ],
+    "manifestSHA256": "8aa81a3dd81a84316283087b1028ef23df64f47ff32444ee9ceb473b759e9046"
+  },
+  "issues": []
+}

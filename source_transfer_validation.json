@@ -1,0 +1,11 @@
+{
+  "source": "Aurelia_Arena.blend",
+  "sourceHash": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "meshInstances": 25332,
+  "uniqueMaterialMeshes": 10851,
+  "visibleTriangles": 6690777,
+  "invalidNormalsRepaired": 0,
+  "binaryBytes": 116050676,
+  "preservation": "Full evaluated positions, corner normals, UVs, triangles, transforms and portable material assignments; no compression, LOD or decimation.",
+  "binarySHA256": "792a5dc7304bba72121d31590aad09a945ffe252268b1dfa5337c240b2011756"
+}

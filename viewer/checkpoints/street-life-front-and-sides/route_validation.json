@@ -1,0 +1,4475 @@
+{
+  "timestamp": "2026-10-10T14:44:05.354Z",
+  "sourceHash": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+  "streetLayoutRevision": "street-life-1",
+  "scope": "Production source scene and actual fixed-step first-person controller; each route starts once, then moves continuously with body collision and gravity, without destination teleport.",
+  "results": [
+    {
+      "id": "FacadeAmbulatory",
+      "name": "District · FacadeAmbulatory",
+      "declaredClearWidth": 3,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            107.86991,
+            -4.17075
+          ],
+          "reached": true,
+          "foot": [
+            107.87529651489788,
+            0,
+            -3.998055657541978
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            107.47995,
+            -8.33146
+          ],
+          "reached": true,
+          "foot": [
+            107.48916280158768,
+            5.551115123125783e-17,
+            -8.230478220973623
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            106.83106,
+            -12.47209
+          ],
+          "reached": true,
+          "foot": [
+            106.85671982822389,
+            0,
+            -12.30670697871563
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            105.92481,
+            -16.58268
+          ],
+          "reached": true,
+          "foot": [
+            105.95171435310768,
+            5.551115123125783e-17,
+            -16.459232124938076
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            104.76338,
+            -20.65332
+          ],
+          "reached": true,
+          "foot": [
+            104.79314488686283,
+            5.551115123125783e-17,
+            -20.548268293998618
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            103.34956,
+            -24.6742
+          ],
+          "reached": true,
+          "foot": [
+            103.38958106158242,
+            0,
+            -24.559815201161033
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            101.68676,
+            -28.63564
+          ],
+          "reached": true,
+          "foot": [
+            101.7512274780142,
+            5.551115123125783e-17,
+            -28.481332450289127
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            99.77899,
+            -32.52809
+          ],
+          "reached": true,
+          "foot": [
+            99.83452989348518,
+            5.551115123125783e-17,
+            -32.41412984774814
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            97.63084,
+            -36.34218
+          ],
+          "reached": true,
+          "foot": [
+            97.69394637618568,
+            5.551115123125783e-17,
+            -36.22969366001313
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            95.2475,
+            -40.06872
+          ],
+          "reached": true,
+          "foot": [
+            95.34277055534018,
+            5.551115123125783e-17,
+            -39.91921900339679
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            92.63469,
+            -43.69873
+          ],
+          "reached": true,
+          "foot": [
+            92.72179915704113,
+            0,
+            -43.57715680074913
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            89.79872,
+            -47.22347
+          ],
+          "reached": true,
+          "foot": [
+            89.90713323223305,
+            0,
+            -47.08823295083814
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            86.74641,
+            -50.63444
+          ],
+          "reached": true,
+          "foot": [
+            86.82980894929894,
+            5.551115123125783e-17,
+            -50.54086966176839
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            83.48513,
+            -53.92343
+          ],
+          "reached": true,
+          "foot": [
+            83.57790723774174,
+            0,
+            -53.82960197960311
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            80.02272,
+            -57.08251
+          ],
+          "reached": true,
+          "foot": [
+            80.07347385593671,
+            5.551115123125783e-17,
+            -57.03607148241929
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            76.36753,
+            -60.10408
+          ],
+          "reached": true,
+          "foot": [
+            76.41459576073042,
+            0,
+            -60.06511606519132
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            72.52837,
+            -62.98085
+          ],
+          "reached": true,
+          "foot": [
+            72.61509543010224,
+            0,
+            -62.9157821693775
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            68.51447,
+            -65.70589
+          ],
+          "reached": true,
+          "foot": [
+            68.58459787320362,
+            0,
+            -65.65817427187376
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            64.33552,
+            -68.27264
+          ],
+          "reached": true,
+          "foot": [
+            64.43261031187264,
+            5.551115123125783e-17,
+            -68.21290014573069
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            60.00159,
+            -70.67492
+          ],
+          "reached": true,
+          "foot": [
+            60.06196710867756,
+            5.551115123125783e-17,
+            -70.6413725030704
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            55.5231,
+            -72.90693
+          ],
+          "reached": true,
+          "foot": [
+            55.58830404799314,
+            0,
+            -72.87438365831959
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            50.91085,
+            -74.96331
+          ],
+          "reached": true,
+          "foot": [
+            51.02289706017832,
+            0,
+            -74.91327037307632
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            46.17595,
+            -76.83909
+          ],
+          "reached": true,
+          "foot": [
+            46.26007555411004,
+            0,
+            -76.80566470337112
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            41.32981,
+            -78.52976
+          ],
+          "reached": true,
+          "foot": [
+            41.422343446805435,
+            0,
+            -78.49740140213804
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            36.3841,
+            -80.03125
+          ],
+          "reached": true,
+          "foot": [
+            36.51951726837413,
+            0,
+            -79.99002341192123
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            31.35075,
+            -81.33993
+          ],
+          "reached": true,
+          "foot": [
+            31.439894642434844,
+            5.551115123125783e-17,
+            -81.31664844486963
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            26.24186,
+            -82.45266
+          ],
+          "reached": true,
+          "foot": [
+            26.310951607416982,
+            5.551115123125783e-17,
+            -82.43756028062771
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            21.06975,
+            -83.36675
+          ],
+          "reached": true,
+          "foot": [
+            21.141560599540348,
+            5.551115123125783e-17,
+            -83.35401901275073
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            15.84689,
+            -84.08
+          ],
+          "reached": true,
+          "foot": [
+            15.940227119802271,
+            5.551115123125783e-17,
+            -84.06720204154213
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10.58585,
+            -84.5907
+          ],
+          "reached": true,
+          "foot": [
+            10.7151410002388,
+            5.551115123125783e-17,
+            -84.57805920665325
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            5.29931,
+            -84.89761
+          ],
+          "reached": true,
+          "foot": [
+            5.474255792026534,
+            5.551115123125783e-17,
+            -84.88728765673775
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            -85
+          ],
+          "reached": true,
+          "foot": [
+            0.10039473820503277,
+            0,
+            -84.9979329197202
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -5.29931,
+            -84.89761
+          ],
+          "reached": true,
+          "foot": [
+            -5.1486993681981135,
+            0,
+            -84.90040824528485
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -10.58585,
+            -84.5907
+          ],
+          "reached": true,
+          "foot": [
+            -10.515000635037296,
+            5.551115123125783e-17,
+            -84.59473568596643
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -15.84689,
+            -84.08
+          ],
+          "reached": true,
+          "foot": [
+            -15.740705862059315,
+            5.551115123125783e-17,
+            -84.09025091882829
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -21.06975,
+            -83.36675
+          ],
+          "reached": true,
+          "foot": [
+            -20.942979844566445,
+            0,
+            -83.38396102726156
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -26.24186,
+            -82.45266
+          ],
+          "reached": true,
+          "foot": [
+            -26.113726133891102,
+            5.551115123125783e-17,
+            -82.47518007926841
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -31.35075,
+            -81.33993
+          ],
+          "reached": true,
+          "foot": [
+            -31.244558729943403,
+            5.551115123125783e-17,
+            -81.36294949558211
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -36.3841,
+            -80.03125
+          ],
+          "reached": true,
+          "foot": [
+            -36.326728364169924,
+            5.551115123125783e-17,
+            -80.04611548594147
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -41.32981,
+            -78.52976
+          ],
+          "reached": true,
+          "foot": [
+            -41.23140492933007,
+            5.551115123125783e-17,
+            -78.55958503177364
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -46.17595,
+            -76.83909
+          ],
+          "reached": true,
+          "foot": [
+            -46.071752550003296,
+            5.551115123125783e-17,
+            -76.87534635776004
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -50.91085,
+            -74.96331
+          ],
+          "reached": true,
+          "foot": [
+            -50.838169980861935,
+            0,
+            -74.99202751199695
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -55.5231,
+            -72.90693
+          ],
+          "reached": true,
+          "foot": [
+            -55.406175370860794,
+            5.551115123125783e-17,
+            -72.95896903843034
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -60.00159,
+            -70.67492
+          ],
+          "reached": true,
+          "foot": [
+            -59.88362171658041,
+            5.551115123125783e-17,
+            -70.73355352190273
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -64.33552,
+            -68.27264
+          ],
+          "reached": true,
+          "foot": [
+            -64.25955724766311,
+            5.551115123125783e-17,
+            -68.31463057401716
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -68.51447,
+            -65.70589
+          ],
+          "reached": true,
+          "foot": [
+            -68.41560063300575,
+            0,
+            -65.76650805358139
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -72.52837,
+            -62.98085
+          ],
+          "reached": true,
+          "foot": [
+            -72.45189176911266,
+            0,
+            -63.03265018152845
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -76.36753,
+            -60.10408
+          ],
+          "reached": true,
+          "foot": [
+            -76.25569260990876,
+            5.551115123125783e-17,
+            -60.18772502195774
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -80.02272,
+            -57.08251
+          ],
+          "reached": true,
+          "foot": [
+            -79.92094888490978,
+            5.551115123125783e-17,
+            -57.16640139835056
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -83.48513,
+            -53.92343
+          ],
+          "reached": true,
+          "foot": [
+            -83.4342868116875,
+            5.551115123125783e-17,
+            -53.9696911186621
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -86.74641,
+            -50.63444
+          ],
+          "reached": true,
+          "foot": [
+            -86.69325749234461,
+            0,
+            -50.6879636615724
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -89.79872,
+            -47.22347
+          ],
+          "reached": true,
+          "foot": [
+            -89.69686942153308,
+            5.551115123125783e-17,
+            -47.33709580699535
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -92.63469,
+            -43.69873
+          ],
+          "reached": true,
+          "foot": [
+            -92.52388583237686,
+            5.551115123125783e-17,
+            -43.83595624782042
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -95.2475,
+            -40.06872
+          ],
+          "reached": true,
+          "foot": [
+            -95.16039494789621,
+            0,
+            -40.189201569509535
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -97.63084,
+            -36.34218
+          ],
+          "reached": true,
+          "foot": [
+            -97.59196503342052,
+            0,
+            -36.40271679875126
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -99.77899,
+            -32.52809
+          ],
+          "reached": true,
+          "foot": [
+            -99.7424932662515,
+            5.551115123125783e-17,
+            -32.592749171618856
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -101.68676,
+            -28.63564
+          ],
+          "reached": true,
+          "foot": [
+            -101.6166637231832,
+            0,
+            -28.77830490038296
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -103.34956,
+            -24.6742
+          ],
+          "reached": true,
+          "foot": [
+            -103.31845971348226,
+            0,
+            -24.747856363631445
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -104.76338,
+            -20.65332
+          ],
+          "reached": true,
+          "foot": [
+            -104.73276226137322,
+            5.551115123125783e-17,
+            -20.74008287913544
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -105.92481,
+            -16.58268
+          ],
+          "reached": true,
+          "foot": [
+            -105.9041589571848,
+            5.551115123125783e-17,
+            -16.65470287465094
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -106.83106,
+            -12.47209
+          ],
+          "reached": true,
+          "foot": [
+            -106.79664021778896,
+            5.551115123125783e-17,
+            -12.627408224458275
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -107.47995,
+            -8.33146
+          ],
+          "reached": true,
+          "foot": [
+            -107.46424907816248,
+            5.551115123125783e-17,
+            -8.430171227390929
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -107.86991,
+            -4.17075
+          ],
+          "reached": true,
+          "foot": [
+            -107.85533826422348,
+            5.551115123125783e-17,
+            -4.32375256284317
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -108,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            -107.99745290791851,
+            5.551115123125783e-17,
+            -0.07612929470280529
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -107.86991,
+            4.17075
+          ],
+          "reached": true,
+          "foot": [
+            -107.87362612598228,
+            5.551115123125783e-17,
+            4.047011732241983
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -107.47995,
+            8.33146
+          ],
+          "reached": true,
+          "foot": [
+            -107.49619085223169,
+            5.551115123125783e-17,
+            8.154707876570187
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -106.83106,
+            12.47209
+          ],
+          "reached": true,
+          "foot": [
+            -106.84907514071182,
+            -5.551115123125783e-17,
+            12.355153240564848
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -105.92481,
+            16.58268
+          ],
+          "reached": true,
+          "foot": [
+            -105.94133798602822,
+            0,
+            16.50708210050538
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -104.76338,
+            20.65332
+          ],
+          "reached": true,
+          "foot": [
+            -104.77986519789056,
+            5.551115123125783e-17,
+            20.59529454146479
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -103.34956,
+            24.6742
+          ],
+          "reached": true,
+          "foot": [
+            -103.37352134488177,
+            0,
+            24.605867688423274
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -101.68676,
+            28.63564
+          ],
+          "reached": true,
+          "foot": [
+            -101.73253388038829,
+            0,
+            28.526283500728848
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -99.77899,
+            32.52809
+          ],
+          "reached": true,
+          "foot": [
+            -99.81328528321399,
+            0,
+            32.457836606340464
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -97.63084,
+            36.34218
+          ],
+          "reached": true,
+          "foot": [
+            -97.67025584243137,
+            5.551115123125783e-17,
+            36.27202719097821
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -95.2475,
+            40.06872
+          ],
+          "reached": true,
+          "foot": [
+            -95.31680980013695,
+            5.551115123125783e-17,
+            39.96010483739631
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -92.63469,
+            43.69873
+          ],
+          "reached": true,
+          "foot": [
+            -92.69368392835284,
+            0,
+            43.61649795914579
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -89.79872,
+            47.22347
+          ],
+          "reached": true,
+          "foot": [
+            -89.87699113547868,
+            5.551115123125783e-17,
+            47.12594830222946
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -86.74641,
+            50.63444
+          ],
+          "reached": true,
+          "foot": [
+            -86.79776335233967,
+            5.551115123125783e-17,
+            50.57688748737079
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -83.48513,
+            53.92343
+          ],
+          "reached": true,
+          "foot": [
+            -83.54408970302282,
+            0,
+            53.86386676685242
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -80.02272,
+            57.08251
+          ],
+          "reached": true,
+          "foot": [
+            -80.13027449017918,
+            5.551115123125783e-17,
+            56.984201795748504
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -76.36753,
+            60.10408
+          ],
+          "reached": true,
+          "foot": [
+            -76.4737109867835,
+            0,
+            60.01604007402672
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -72.52837,
+            62.98085
+          ],
+          "reached": true,
+          "foot": [
+            -72.57646476002657,
+            0,
+            62.944708175404415
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -68.51447,
+            65.70589
+          ],
+          "reached": true,
+          "foot": [
+            -68.64812565559714,
+            0,
+            65.61503622278173
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -64.33552,
+            68.27264
+          ],
+          "reached": true,
+          "foot": [
+            -64.3914617138962,
+            5.551115123125783e-17,
+            68.23816643064833
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -60.00159,
+            70.67492
+          ],
+          "reached": true,
+          "foot": [
+            -60.129094471289406,
+            5.551115123125783e-17,
+            70.6041441332385
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -55.5231,
+            72.90693
+          ],
+          "reached": true,
+          "foot": [
+            -55.65687642734808,
+            0,
+            72.84004792532032
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -50.91085,
+            74.96331
+          ],
+          "reached": true,
+          "foot": [
+            -50.97869748308109,
+            0,
+            74.93295661071872
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -46.17595,
+            76.83909
+          ],
+          "reached": true,
+          "foot": [
+            -46.33133722471679,
+            0,
+            76.77741930456081
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -41.32981,
+            78.52976
+          ],
+          "reached": true,
+          "foot": [
+            -41.49460801246436,
+            0,
+            78.47202118327583
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -36.3841,
+            80.03125
+          ],
+          "reached": true,
+          "foot": [
+            -36.47312692558584,
+            0,
+            80.0040876616377
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -31.35075,
+            81.33993
+          ],
+          "reached": true,
+          "foot": [
+            -31.51398676315041,
+            0,
+            81.29736019645735
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -26.24186,
+            82.45266
+          ],
+          "reached": true,
+          "foot": [
+            -26.385672629690642,
+            0,
+            82.42114582928812
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -22.5,
+            84.3
+          ],
+          "reached": true,
+          "foot": [
+            -22.55949019840251,
+            0,
+            84.2712344764891
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -22.5,
+            94.3
+          ],
+          "reached": true,
+          "foot": [
+            -22.500913160957786,
+            0,
+            94.14606073980607
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            22.5,
+            94.3
+          ],
+          "reached": true,
+          "foot": [
+            22.373824280113553,
+            5.551115123125783e-17,
+            94.29956837771482
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            22.5,
+            84.3
+          ],
+          "reached": true,
+          "foot": [
+            22.498418263346448,
+            5.551115123125783e-17,
+            84.42535441713314
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            26.24186,
+            82.45266
+          ],
+          "reached": true,
+          "foot": [
+            26.14771628901046,
+            0,
+            82.50227123643486
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            31.35075,
+            81.33993
+          ],
+          "reached": true,
+          "foot": [
+            31.271420673585943,
+            5.551115123125783e-17,
+            81.35765192003194
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            36.3841,
+            80.03125
+          ],
+          "reached": true,
+          "foot": [
+            36.23219434494549,
+            5.551115123125783e-17,
+            80.07065946413108
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            41.32981,
+            78.52976
+          ],
+          "reached": true,
+          "foot": [
+            41.257619915412455,
+            0,
+            78.55158150836465
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            46.17595,
+            76.83909
+          ],
+          "reached": true,
+          "foot": [
+            46.09762589886035,
+            5.551115123125783e-17,
+            76.86636132091485
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            50.91085,
+            74.96331
+          ],
+          "reached": true,
+          "foot": [
+            50.747380360129775,
+            5.551115123125783e-17,
+            75.02794258463508
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            55.5231,
+            72.90693
+          ],
+          "reached": true,
+          "foot": [
+            55.431221099727544,
+            0,
+            72.94773564154424
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            60.00159,
+            70.67492
+          ],
+          "reached": true,
+          "foot": [
+            59.9081929697874,
+            0,
+            70.72136575433032
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            64.33552,
+            68.27264
+          ],
+          "reached": true,
+          "foot": [
+            64.28354479044832,
+            0,
+            68.30138714999532
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            68.51447,
+            65.70589
+          ],
+          "reached": true,
+          "foot": [
+            68.43894747931857,
+            5.551115123125783e-17,
+            65.75221993434782
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            72.52837,
+            62.98085
+          ],
+          "reached": true,
+          "foot": [
+            72.47453966069779,
+            5.551115123125783e-17,
+            63.01733040356393
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            76.36753,
+            60.10408
+          ],
+          "reached": true,
+          "foot": [
+            76.27758181792059,
+            0,
+            60.171391129723915
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            80.02272,
+            57.08251
+          ],
+          "reached": true,
+          "foot": [
+            79.94201690137281,
+            5.551115123125783e-17,
+            57.14907157031871
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            83.48513,
+            53.92343
+          ],
+          "reached": true,
+          "foot": [
+            83.3620145806574,
+            5.551115123125783e-17,
+            54.0355139791235
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            86.74641,
+            50.63444
+          ],
+          "reached": true,
+          "foot": [
+            86.62433508182025,
+            0,
+            50.757116512724224
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            89.79872,
+            47.22347
+          ],
+          "reached": true,
+          "foot": [
+            89.71512346663053,
+            0,
+            47.316527586345345
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            92.63469,
+            43.69873
+          ],
+          "reached": true,
+          "foot": [
+            92.54117524294605,
+            0,
+            43.81460934663952
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            95.2475,
+            40.06872
+          ],
+          "reached": true,
+          "foot": [
+            95.17649720459964,
+            5.551115123125783e-17,
+            40.16699668101493
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            97.63084,
+            36.34218
+          ],
+          "reached": true,
+          "foot": [
+            97.539267389576,
+            0,
+            36.484885594560886
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            99.77899,
+            32.52809
+          ],
+          "reached": true,
+          "foot": [
+            99.6944042708513,
+            5.551115123125783e-17,
+            32.677522987326476
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            101.68676,
+            28.63564
+          ],
+          "reached": true,
+          "foot": [
+            101.62872972746595,
+            5.551115123125783e-17,
+            28.753365749409976
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            103.34956,
+            24.6742
+          ],
+          "reached": true,
+          "foot": [
+            103.28065164173404,
+            0,
+            24.837544764078682
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            104.76338,
+            20.65332
+          ],
+          "reached": true,
+          "foot": [
+            104.74194693296188,
+            5.551115123125783e-17,
+            20.713803614123307
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            105.92481,
+            16.58268
+          ],
+          "reached": true,
+          "foot": [
+            105.87742744250741,
+            0,
+            16.74816255466743
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            106.83106,
+            12.47209
+          ],
+          "reached": true,
+          "foot": [
+            106.80251930602459,
+            0,
+            12.600065997925498
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            107.47995,
+            8.33146
+          ],
+          "reached": true,
+          "foot": [
+            107.46866069211659,
+            5.551115123125783e-17,
+            8.40259584868853
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            107.86991,
+            4.17075
+          ],
+          "reached": true,
+          "foot": [
+            107.85803288909553,
+            5.551115123125783e-17,
+            4.296014022860659
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            108,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            107.99427425837246,
+            0,
+            0.17326454110730205
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0,
+      "validatedAt": "2026-10-10T14:48:18.302Z"
+    },
+    {
+      "id": "ceremonial",
+      "name": "Plaza through southern arcades and tunnel onto sand",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            0,
+            91
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            0,
+            91.125
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            77
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            7.216449395365721e-17,
+            77.125
+          ],
+          "support": "CONCOURSE/Annular floor",
+          "lastHit": "CONCOURSE/Annular floor",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            58
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            5.551115123125783e-17,
+            58.125
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            40
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            0.4000000059604645,
+            40.125
+          ],
+          "support": "SANDS/Deck_0_-21",
+          "lastHit": "SANDS/Deck_0_-21",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "northeast_stands",
+      "name": "Arena sand through northeast radial stairs to upper terrace",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            51.9,
+            -35.637
+          ],
+          "reached": true,
+          "foot": [
+            51.808504678942,
+            7.006457787056775,
+            -35.545504678941995
+          ],
+          "support": "STAIRS/Lower2/19",
+          "lastHit": "STAIRS/Lower2/19",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            62,
+            -45.737
+          ],
+          "reached": true,
+          "foot": [
+            61.884776310850384,
+            20.087707927127667,
+            -45.62177631085038
+          ],
+          "support": "STAIRS/Cavea2/42",
+          "lastHit": "STAIRS/Cavea2/42",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            72.5,
+            -56.237
+          ],
+          "reached": true,
+          "foot": [
+            72.40298968100036,
+            31.355999940872152,
+            -56.13998968100036
+          ],
+          "support": "FACADE/Continuous cornice.003",
+          "lastHit": "FACADE/Continuous cornice.003",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "upper_stairs",
+      "name": "Northeast cavea staircase from lower landing to upper promenade",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            62,
+            -45.737
+          ],
+          "reached": true,
+          "foot": [
+            61.899494936611745,
+            20.087707927127667,
+            -45.63649493661175
+          ],
+          "support": "STAIRS/Cavea2/42",
+          "lastHit": "STAIRS/Cavea2/42",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            72.5,
+            -56.237
+          ],
+          "reached": true,
+          "foot": [
+            72.41770830676172,
+            31.355999940872152,
+            -56.15470830676173
+          ],
+          "support": "FACADE/Continuous cornice.003",
+          "lastHit": "FACADE/Continuous cornice.003",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "vip",
+      "name": "Middle seating into imperial loggia through side passage",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            17,
+            -59
+          ],
+          "reached": true,
+          "foot": [
+            17.125,
+            16.199248952388782,
+            -59
+          ],
+          "support": "CAVEA/Sector03/Row09",
+          "lastHit": "CAVEA/Sector03/Row09",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            15,
+            -59
+          ],
+          "reached": true,
+          "foot": [
+            15.125,
+            15.73994443681505,
+            -59
+          ],
+          "support": "CAVEA/Sector03/Row09",
+          "lastHit": "CAVEA/Sector03/Row09",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -59
+          ],
+          "reached": true,
+          "foot": [
+            10.125,
+            18.719999924898147,
+            -59
+          ],
+          "support": "VIP/Side access bridge.001",
+          "lastHit": "VIP/Side access bridge.001",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            0,
+            -59
+          ],
+          "reached": true,
+          "foot": [
+            0.125,
+            18.72000075161457,
+            -59
+          ],
+          "support": "VIP/Loggia floor",
+          "lastHit": "VIP/Loggia floor",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "hypogeum",
+      "name": "Arena service ramp into hypogeum and preparation passage",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            64,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            64.125,
+            0.4000000059604645,
+            0
+          ],
+          "support": "SANDS/Deck_32_0",
+          "lastHit": "SANDS/Deck_32_0",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            46,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            46.125,
+            -5.29679991146028,
+            0
+          ],
+          "support": "HYPOGEUM/Gladiator ramp",
+          "lastHit": "HYPOGEUM/Gladiator ramp",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            33,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            33.125,
+            -5.600000083446503,
+            0
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            20,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            20.125,
+            -5.600000083446503,
+            0
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            12,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            12.125,
+            -5.600000083446503,
+            0
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            12,
+            -14
+          ],
+          "reached": true,
+          "foot": [
+            12.001121009108822,
+            -5.600000083446503,
+            -13.87444697981207
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            7,
+            -17
+          ],
+          "reached": true,
+          "foot": [
+            7.125066079427637,
+            -5.600000083446503,
+            -16.921837391743544
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            7,
+            -23
+          ],
+          "reached": true,
+          "foot": [
+            7.001634423775726,
+            -5.600000083446503,
+            -22.920567642920254
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "river_bridge",
+      "name": "West quay across the real bridge ramps and deck into the city",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -212.5,
+            -105
+          ],
+          "reached": true,
+          "foot": [
+            -212.625,
+            6.050000190734863,
+            -105
+          ],
+          "support": "Pons_Caelius/stone",
+          "lastHit": "Pons_Caelius/stone",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -180,
+            -105
+          ],
+          "reached": true,
+          "foot": [
+            -180.125,
+            6.050000190734863,
+            -105
+          ],
+          "support": "Pons_Caelius/road",
+          "lastHit": "Pons_Caelius/road",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -147.5,
+            -105
+          ],
+          "reached": true,
+          "foot": [
+            -147.625,
+            6.050000190734863,
+            -105
+          ],
+          "support": "Pons_Caelius/road",
+          "lastHit": "Pons_Caelius/road",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -126,
+            -105
+          ],
+          "reached": true,
+          "foot": [
+            -126.125,
+            -0.035000000149011556,
+            -105
+          ],
+          "support": "District_ground/ground",
+          "lastHit": "District_ground/ground",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "temple",
+      "name": "City avenue up temple stairs into its colonnaded portico",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            10,
+            -133
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            8.25,
+            -132.875
+          ],
+          "support": "Temple_of_Concordia/stone",
+          "lastHit": "Temple_of_Concordia/stone",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -145.8
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            12,
+            -145.625
+          ],
+          "support": "Temple_of_Concordia/stone",
+          "lastHit": "Temple_of_Concordia/stone",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -150
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            12.260000228881836,
+            -149.875
+          ],
+          "support": "Temple_of_Concordia/marble",
+          "lastHit": "Temple_of_Concordia/marble",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -154
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            12.260000228881836,
+            -153.875
+          ],
+          "support": "Temple_of_Concordia/marble",
+          "lastHit": "Temple_of_Concordia/marble",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            10,
+            -158
+          ],
+          "reached": true,
+          "foot": [
+            10,
+            12.65999984741211,
+            -157.875
+          ],
+          "support": "Temple_of_Concordia/marble",
+          "lastHit": "Temple_of_Concordia/marble",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "northeast_descent",
+      "name": "Upper promenade down radial stairs onto the arena sand",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            62,
+            -45.737
+          ],
+          "reached": true,
+          "foot": [
+            62.07017497749834,
+            22.013958639403143,
+            -45.80717497749834
+          ],
+          "lastHit": "STAIRS/Cavea2/45",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            51.9,
+            -35.637
+          ],
+          "reached": true,
+          "foot": [
+            51.993903345589956,
+            8.87104160318771,
+            -35.73090334558996
+          ],
+          "lastHit": "STAIRS/Cavea2/6",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            43.5,
+            -27.237
+          ],
+          "reached": true,
+          "foot": [
+            43.59701031899964,
+            0.7383332874377573,
+            -27.33401031899964
+          ],
+          "support": "SANDS/Deck_21_13",
+          "lastHit": "SANDS/Deck_21_13",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "hypogeum_exit",
+      "name": "Preparation passage back through service ramp to the arena",
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            7,
+            -17
+          ],
+          "reached": true,
+          "foot": [
+            7,
+            -5.600000083446503,
+            -17.125
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            12,
+            -14
+          ],
+          "reached": true,
+          "foot": [
+            11.875990248029256,
+            -5.600000083446503,
+            -14.077506094981716
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            12,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            11.999312458506832,
+            -5.600000083446503,
+            -0.07804926150409376
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            46,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            45.87422320818543,
+            -5.558725502519129,
+            -0.00028872315312748455
+          ],
+          "support": "HYPOGEUM/Continuous foundation",
+          "lastHit": "HYPOGEUM/Continuous foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            64,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            63.874223142545475,
+            0.4000000059604645,
+            -0.00003225745110599982
+          ],
+          "support": "HYPOGEUM/Gladiator ramp",
+          "lastHit": "HYPOGEUM/Gladiator ramp",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            66,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            65.87422314010924,
+            0.4000000059604645,
+            -0.00003225745110599982
+          ],
+          "support": "SANDS/Deck_32_0",
+          "lastHit": "SANDS/Deck_32_0",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_00",
+      "name": "SouthWest · MarketLoop_00",
+      "declaredClearWidth": 2.674,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -22.68778,
+            95.74585
+          ],
+          "reached": true,
+          "foot": [
+            -22.81278400531732,
+            5.551115123125783e-17,
+            95.74484993665114
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -22.61258,
+            86.34615
+          ],
+          "reached": true,
+          "foot": [
+            -22.615792180471477,
+            5.551115123125783e-17,
+            86.49694778421984
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -34.11222,
+            86.25415
+          ],
+          "reached": true,
+          "foot": [
+            -33.98825623586756,
+            5.551115123125783e-17,
+            86.25676804168454
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -34.18742,
+            95.65385
+          ],
+          "reached": true,
+          "foot": [
+            -34.184258696838434,
+            5.551115123125783e-17,
+            95.50469121585196
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_02",
+      "name": "SouthWest · MarketLoop_02",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -45.45,
+            95.7
+          ],
+          "reached": true,
+          "foot": [
+            -45.575,
+            0,
+            95.7
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -45.45,
+            86.3
+          ],
+          "reached": true,
+          "foot": [
+            -45.45200555513382,
+            0,
+            86.45081774606321
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -56.95,
+            86.3
+          ],
+          "reached": true,
+          "foot": [
+            -56.82602713343393,
+            0,
+            86.30162613648825
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -56.95,
+            95.7
+          ],
+          "reached": true,
+          "foot": [
+            -56.94803220351971,
+            0,
+            95.55082149407876
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_03",
+      "name": "SouthWest · MarketLoop_03",
+      "declaredClearWidth": 2.676,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -69.23125,
+            95.67696
+          ],
+          "reached": true,
+          "foot": [
+            -69.35624100049118,
+            5.551115123125783e-17,
+            95.67745996834951
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -69.26885,
+            86.27704
+          ],
+          "reached": true,
+          "foot": [
+            -69.27025209488704,
+            5.551115123125783e-17,
+            86.42785965762688
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -80.76875,
+            86.32304
+          ],
+          "reached": true,
+          "foot": [
+            -80.64477949066605,
+            5.551115123125783e-17,
+            86.32417010816296
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -80.73115,
+            95.72296
+          ],
+          "reached": true,
+          "foot": [
+            -80.72977910114193,
+            1.1102230246251565e-16,
+            95.57377956295757
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_05",
+      "name": "SouthWest · MarketLoop_05",
+      "declaredClearWidth": 2.602,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -92.08778,
+            95.74585
+          ],
+          "reached": true,
+          "foot": [
+            -92.21278400531796,
+            5.551115123125783e-17,
+            95.74484993665112
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -92.01258,
+            86.34615
+          ],
+          "reached": true,
+          "foot": [
+            -92.0157921804715,
+            5.551115123125783e-17,
+            86.49694778421983
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -103.51222,
+            86.25415
+          ],
+          "reached": true,
+          "foot": [
+            -103.38825623586796,
+            5.551115123125783e-17,
+            86.25676804168452
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -103.58742,
+            95.65385
+          ],
+          "reached": true,
+          "foot": [
+            -103.58425869683843,
+            -0.03500000014901161,
+            95.50469121585195
+          ],
+          "support": "District_ground/ground",
+          "lastHit": "District_ground/ground",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_06",
+      "name": "SouthEast · MarketLoop_06",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            34.13115,
+            95.72296
+          ],
+          "reached": true,
+          "foot": [
+            34.006158999509466,
+            5.551115123125783e-17,
+            95.72246003165048
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            34.16875,
+            86.32304
+          ],
+          "reached": true,
+          "foot": [
+            34.16614140175862,
+            0,
+            86.4738436145332
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            22.66885,
+            86.27704
+          ],
+          "reached": true,
+          "foot": [
+            22.792807501695933,
+            0,
+            86.27916182883166
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            22.63125,
+            95.67696
+          ],
+          "reached": true,
+          "foot": [
+            22.63381428954781,
+            5.551115123125783e-17,
+            95.52779530402628
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_08",
+      "name": "SouthEast · MarketLoop_08",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            56.96875,
+            95.67696
+          ],
+          "reached": true,
+          "foot": [
+            56.84375899950947,
+            5.551115123125783e-17,
+            95.67745996834951
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            56.93115,
+            86.27704
+          ],
+          "reached": true,
+          "foot": [
+            56.92974790511296,
+            5.551115123125783e-17,
+            86.42785965762688
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            45.43125,
+            86.32304
+          ],
+          "reached": true,
+          "foot": [
+            45.55522050933395,
+            0,
+            86.32417010816296
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            45.46885,
+            95.72296
+          ],
+          "reached": true,
+          "foot": [
+            45.470220898858074,
+            5.551115123125783e-17,
+            95.57377956295757
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_09",
+      "name": "SouthEast · MarketLoop_09",
+      "declaredClearWidth": 2.602,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            80.78742,
+            95.65385
+          ],
+          "reached": true,
+          "foot": [
+            80.66241599468204,
+            5.551115123125783e-17,
+            95.65485006334889
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            80.71222,
+            86.25415
+          ],
+          "reached": true,
+          "foot": [
+            80.71142091782502,
+            5.551115123125783e-17,
+            86.40497987412466
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            69.21258,
+            86.34615
+          ],
+          "reached": true,
+          "foot": [
+            69.33656978556353,
+            0,
+            86.346784351195
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            69.28778,
+            95.74585
+          ],
+          "reached": true,
+          "foot": [
+            69.28855443456045,
+            5.551115123125783e-17,
+            95.5966597301433
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_11",
+      "name": "SouthEast · MarketLoop_11",
+      "declaredClearWidth": 2.676,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            103.53115,
+            95.72296
+          ],
+          "reached": true,
+          "foot": [
+            103.40615899950882,
+            -0.035000000149011556,
+            95.72246003165048
+          ],
+          "support": "District_ground/ground",
+          "lastHit": "District_ground/ground",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            103.56875,
+            86.32304
+          ],
+          "reached": true,
+          "foot": [
+            103.5661414017586,
+            0,
+            86.4738436145332
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            92.06885,
+            86.27704
+          ],
+          "reached": true,
+          "foot": [
+            92.19280750169553,
+            5.551115123125783e-17,
+            86.27916182883166
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            92.03125,
+            95.67696
+          ],
+          "reached": true,
+          "foot": [
+            92.0338142895478,
+            5.551115123125783e-17,
+            95.52779530402628
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_12",
+      "name": "SouthWest · MarketLoop_12",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -22.75,
+            97.3
+          ],
+          "reached": true,
+          "foot": [
+            -22.625,
+            5.551115123125783e-17,
+            97.3
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -22.75,
+            106.7
+          ],
+          "reached": true,
+          "foot": [
+            -22.74799444486618,
+            5.551115123125783e-17,
+            106.54918225393679
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -11.25,
+            106.7
+          ],
+          "reached": true,
+          "foot": [
+            -11.373972866566326,
+            5.551115123125783e-17,
+            106.69837386351175
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -11.25,
+            97.3
+          ],
+          "reached": true,
+          "foot": [
+            -11.251967796480297,
+            5.551115123125783e-17,
+            97.44917850592124
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_14",
+      "name": "SouthWest · MarketLoop_14",
+      "declaredClearWidth": 2.602,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -45.58742,
+            97.34615
+          ],
+          "reached": true,
+          "foot": [
+            -45.46241599468269,
+            5.551115123125783e-17,
+            97.34514993665113
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -45.51222,
+            106.74585
+          ],
+          "reached": true,
+          "foot": [
+            -45.51142091782502,
+            0.07000000029802322,
+            106.59502012587535
+          ],
+          "support": "DISTRICT/Market court",
+          "lastHit": "DISTRICT/Market court",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -34.01258,
+            106.65385
+          ],
+          "reached": true,
+          "foot": [
+            -34.13656978556352,
+            0.07000000029802322,
+            106.653215648805
+          ],
+          "support": "DISTRICT/Market court",
+          "lastHit": "DISTRICT/Market court",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -34.08778,
+            97.25415
+          ],
+          "reached": true,
+          "foot": [
+            -34.088554434560464,
+            5.551115123125783e-17,
+            97.4033402698567
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_16",
+      "name": "SouthWest · MarketLoop_16",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -80.73115,
+            97.27704
+          ],
+          "reached": true,
+          "foot": [
+            -80.60615899950882,
+            5.551115123125783e-17,
+            97.27753996834952
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -80.76875,
+            106.67696
+          ],
+          "reached": true,
+          "foot": [
+            -80.7661414017586,
+            -0.035000000149011556,
+            106.5261563854668
+          ],
+          "support": "District_ground/ground",
+          "lastHit": "District_ground/ground",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -69.26885,
+            106.72296
+          ],
+          "reached": true,
+          "foot": [
+            -69.39280750169553,
+            5.551115123125783e-17,
+            106.72083817116834
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -69.23125,
+            97.32304
+          ],
+          "reached": true,
+          "foot": [
+            -69.23381428954781,
+            5.551115123125783e-17,
+            97.47220469597372
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_17",
+      "name": "SouthEast · MarketLoop_17",
+      "declaredClearWidth": 2.676,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            11.23125,
+            97.32304
+          ],
+          "reached": true,
+          "foot": [
+            11.356241000490535,
+            5.551115123125783e-17,
+            97.32254003165049
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            11.26885,
+            106.72296
+          ],
+          "reached": true,
+          "foot": [
+            11.270252094887041,
+            5.551115123125783e-17,
+            106.57214034237312
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            22.76875,
+            106.67696
+          ],
+          "reached": true,
+          "foot": [
+            22.64477949066631,
+            0,
+            106.67582989183705
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            22.73115,
+            97.27704
+          ],
+          "reached": true,
+          "foot": [
+            22.729779101141926,
+            5.551115123125783e-17,
+            97.42622043704245
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_19",
+      "name": "SouthEast · MarketLoop_19",
+      "declaredClearWidth": 2.602,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            34.08778,
+            97.25415
+          ],
+          "reached": true,
+          "foot": [
+            34.21278400531732,
+            0,
+            97.25515006334886
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            34.01258,
+            106.65385
+          ],
+          "reached": true,
+          "foot": [
+            34.01579218047148,
+            0.07000000029802328,
+            106.50305221578016
+          ],
+          "support": "DISTRICT/Market court.002",
+          "lastHit": "DISTRICT/Market court.002",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            45.51222,
+            106.74585
+          ],
+          "reached": true,
+          "foot": [
+            45.388256235867296,
+            0.07000000029802322,
+            106.74323195831546
+          ],
+          "support": "DISTRICT/Market court.002",
+          "lastHit": "DISTRICT/Market court.002",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            45.58742,
+            97.34615
+          ],
+          "reached": true,
+          "foot": [
+            45.584258696838425,
+            5.551115123125783e-17,
+            97.49530878414815
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_21",
+      "name": "SouthEast · MarketLoop_21",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            69.25,
+            97.3
+          ],
+          "reached": true,
+          "foot": [
+            69.375,
+            0,
+            97.3
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            69.25,
+            106.7
+          ],
+          "reached": true,
+          "foot": [
+            69.25200555513382,
+            0,
+            106.54918225393679
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            80.75,
+            106.7
+          ],
+          "reached": true,
+          "foot": [
+            80.62602713343328,
+            -0.035000000149011556,
+            106.69837386351173
+          ],
+          "support": "District_ground/ground",
+          "lastHit": "District_ground/ground",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            80.75,
+            97.3
+          ],
+          "reached": true,
+          "foot": [
+            80.7480322035197,
+            0,
+            97.44917850592122
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_22",
+      "name": "SouthWest · MarketLoop_22",
+      "declaredClearWidth": 2.602,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -11.21258,
+            117.65385
+          ],
+          "reached": true,
+          "foot": [
+            -11.337584005317314,
+            5.551115123125783e-17,
+            117.65485006334887
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -11.28778,
+            108.25415
+          ],
+          "reached": true,
+          "foot": [
+            -11.288579082174977,
+            5.551115123125783e-17,
+            108.40497987412465
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -22.78742,
+            108.34615
+          ],
+          "reached": true,
+          "foot": [
+            -22.663430214436474,
+            5.551115123125783e-17,
+            108.346784351195
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -22.71222,
+            117.74585
+          ],
+          "reached": true,
+          "foot": [
+            -22.711445565439536,
+            5.551115123125783e-17,
+            117.5966597301433
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_24",
+      "name": "SouthWest · MarketLoop_24",
+      "declaredClearWidth": 2.676,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -34.06885,
+            117.72296
+          ],
+          "reached": true,
+          "foot": [
+            -34.193841000490536,
+            5.551115123125783e-17,
+            117.72246003165048
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -34.03125,
+            108.32304
+          ],
+          "reached": true,
+          "foot": [
+            -34.03385859824138,
+            0.07000000029802322,
+            108.4738436145332
+          ],
+          "support": "DISTRICT/Market court",
+          "lastHit": "DISTRICT/Market court",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -45.53115,
+            108.27704
+          ],
+          "reached": true,
+          "foot": [
+            -45.40719249830381,
+            0.07000000029802322,
+            108.27916182883166
+          ],
+          "support": "DISTRICT/Market court",
+          "lastHit": "DISTRICT/Market court",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -45.56875,
+            117.67696
+          ],
+          "reached": true,
+          "foot": [
+            -45.56618571045219,
+            5.551115123125783e-17,
+            117.52779530402628
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_25",
+      "name": "SouthEast · MarketLoop_25",
+      "declaredClearWidth": 2.676,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            22.76875,
+            117.67696
+          ],
+          "reached": true,
+          "foot": [
+            22.643758999509465,
+            5.551115123125783e-17,
+            117.67745996834951
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            22.73115,
+            108.27704
+          ],
+          "reached": true,
+          "foot": [
+            22.72974790511296,
+            0,
+            108.42785965762688
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            11.23125,
+            108.32304
+          ],
+          "reached": true,
+          "foot": [
+            11.35522050933369,
+            0,
+            108.32417010816295
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            11.26885,
+            117.72296
+          ],
+          "reached": true,
+          "foot": [
+            11.270220898858074,
+            5.551115123125783e-17,
+            117.57377956295755
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_27",
+      "name": "SouthEast · MarketLoop_27",
+      "declaredClearWidth": 2.602,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            45.51222,
+            117.74585
+          ],
+          "reached": true,
+          "foot": [
+            45.387215994682684,
+            5.551115123125783e-17,
+            117.74484993665114
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            45.58742,
+            108.34615
+          ],
+          "reached": true,
+          "foot": [
+            45.58420781952852,
+            0.07000000029802328,
+            108.49694778421984
+          ],
+          "support": "DISTRICT/Market court.002",
+          "lastHit": "DISTRICT/Market court.002",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            34.08778,
+            108.25415
+          ],
+          "reached": true,
+          "foot": [
+            34.211743764132706,
+            0.07000000029802322,
+            108.25676804168454
+          ],
+          "support": "DISTRICT/Market court.002",
+          "lastHit": "DISTRICT/Market court.002",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            34.01258,
+            117.65385
+          ],
+          "reached": true,
+          "foot": [
+            34.015741303161576,
+            0,
+            117.50469121585185
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_28",
+      "name": "CornerWest · MarketLoop_28",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -70.25,
+            82.7
+          ],
+          "reached": true,
+          "foot": [
+            -70.375,
+            5.551115123125783e-17,
+            82.7
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -70.25,
+            73.3
+          ],
+          "reached": true,
+          "foot": [
+            -70.25200555513382,
+            5.551115123125783e-17,
+            73.45081774606321
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -81.75,
+            73.3
+          ],
+          "reached": true,
+          "foot": [
+            -81.62602713343328,
+            5.551115123125783e-17,
+            73.30162613648827
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -81.75,
+            82.7
+          ],
+          "reached": true,
+          "foot": [
+            -81.7480322035197,
+            0,
+            82.55082149407878
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_30",
+      "name": "CornerWest · MarketLoop_30",
+      "declaredClearWidth": 2.674,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -93.01258,
+            82.65385
+          ],
+          "reached": true,
+          "foot": [
+            -93.13758400531796,
+            5.551115123125783e-17,
+            82.65485006334889
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.08778,
+            73.25415
+          ],
+          "reached": true,
+          "foot": [
+            -93.08857908217497,
+            0,
+            73.40497987412466
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -104.58742,
+            73.34615
+          ],
+          "reached": true,
+          "foot": [
+            -104.46343021443647,
+            5.551115123125783e-17,
+            73.346784351195
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -104.51222,
+            82.74585
+          ],
+          "reached": true,
+          "foot": [
+            -104.51144556543954,
+            5.551115123125783e-17,
+            82.5966597301433
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_31",
+      "name": "CornerWest · MarketLoop_31",
+      "declaredClearWidth": 2.674,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -81.68778,
+            71.24585
+          ],
+          "reached": true,
+          "foot": [
+            -81.81278400531797,
+            0,
+            71.24484993665112
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -81.61258,
+            61.84615
+          ],
+          "reached": true,
+          "foot": [
+            -81.61579218047149,
+            5.551115123125783e-17,
+            61.99694778421983
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.11222,
+            61.75415
+          ],
+          "reached": true,
+          "foot": [
+            -92.98825623586795,
+            5.551115123125783e-17,
+            61.75676804168454
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.18742,
+            71.15385
+          ],
+          "reached": true,
+          "foot": [
+            -93.18425869683844,
+            5.551115123125783e-17,
+            71.00469121585184
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_33",
+      "name": "CornerWest · MarketLoop_33",
+      "declaredClearWidth": 2.9,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -93.05,
+            59.7
+          ],
+          "reached": true,
+          "foot": [
+            -93.175,
+            0,
+            59.7
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.05,
+            50.3
+          ],
+          "reached": true,
+          "foot": [
+            -93.05200555513383,
+            5.551115123125783e-17,
+            50.450817746063734
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -104.55,
+            50.3
+          ],
+          "reached": true,
+          "foot": [
+            -104.4260271334333,
+            0,
+            50.30162613648826
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -104.55,
+            59.7
+          ],
+          "reached": true,
+          "foot": [
+            -104.5480322035197,
+            5.551115123125783e-17,
+            59.55082149407877
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_34",
+      "name": "CornerWest · MarketLoop_34",
+      "declaredClearWidth": 2.9,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -104.56875,
+            -59.67696
+          ],
+          "reached": true,
+          "foot": [
+            -104.44375899950882,
+            5.551115123125783e-17,
+            -59.67745996834952
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -104.53115,
+            -50.27704
+          ],
+          "reached": true,
+          "foot": [
+            -104.52974790511294,
+            0,
+            -50.427859657627415
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.03125,
+            -50.32304
+          ],
+          "reached": true,
+          "foot": [
+            -93.15522050933393,
+            0,
+            -50.32417010816295
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.06885,
+            -59.72296
+          ],
+          "reached": true,
+          "foot": [
+            -93.07022089885807,
+            5.551115123125783e-17,
+            -59.573779562957036
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_35",
+      "name": "CornerWest · MarketLoop_35",
+      "declaredClearWidth": 2.602,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -93.18742,
+            -71.15385
+          ],
+          "reached": true,
+          "foot": [
+            -93.06241599468204,
+            5.551115123125783e-17,
+            -71.15485006334889
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.11222,
+            -61.75415
+          ],
+          "reached": true,
+          "foot": [
+            -93.11142091782501,
+            5.551115123125783e-17,
+            -61.90497987412454
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -81.61258,
+            -61.84615
+          ],
+          "reached": true,
+          "foot": [
+            -81.73656978556352,
+            0,
+            -61.84678435119501
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -81.68778,
+            -71.24585
+          ],
+          "reached": true,
+          "foot": [
+            -81.68855443456046,
+            0,
+            -71.09665973014319
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_37",
+      "name": "CornerWest · MarketLoop_37",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -81.73115,
+            -82.72296
+          ],
+          "reached": true,
+          "foot": [
+            -81.60615899950882,
+            5.551115123125783e-17,
+            -82.72246003165048
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -81.76875,
+            -73.32304
+          ],
+          "reached": true,
+          "foot": [
+            -81.7661414017586,
+            0,
+            -73.4738436145332
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -70.26885,
+            -73.27704
+          ],
+          "reached": true,
+          "foot": [
+            -70.39280750169553,
+            5.551115123125783e-17,
+            -73.27916182883166
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -70.23125,
+            -82.67696
+          ],
+          "reached": true,
+          "foot": [
+            -70.23381428954781,
+            5.551115123125783e-17,
+            -82.52779530402628
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "MarketLoop_39",
+      "name": "CornerWest · MarketLoop_39",
+      "declaredClearWidth": 2.677,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -104.56875,
+            -82.67696
+          ],
+          "reached": true,
+          "foot": [
+            -104.44375899950882,
+            5.551115123125783e-17,
+            -82.67745996834951
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -104.53115,
+            -73.27704
+          ],
+          "reached": true,
+          "foot": [
+            -104.52974790511296,
+            5.551115123125783e-17,
+            -73.42785965762688
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.03125,
+            -73.32304
+          ],
+          "reached": true,
+          "foot": [
+            -93.15522050933394,
+            5.551115123125783e-17,
+            -73.32417010816296
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            -93.06885,
+            -82.72296
+          ],
+          "reached": true,
+          "foot": [
+            -93.07022089885807,
+            0,
+            -82.57377956295757
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "CeremonialApproach",
+      "name": "District · CeremonialApproach",
+      "declaredClearWidth": 6,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            0,
+            83
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            0.25999999433755866,
+            83.125
+          ],
+          "support": "ARENA/Facade stylobate",
+          "lastHit": "ARENA/Facade stylobate",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "EastEntrance",
+      "name": "District · EastEntrance",
+      "declaredClearWidth": 6,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            106,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            106.125,
+            0.2599999943375586,
+            0
+          ],
+          "support": "ARENA/Facade stylobate",
+          "lastHit": "ARENA/Facade stylobate",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "WestEntrance",
+      "name": "District · WestEntrance",
+      "declaredClearWidth": 6,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            -106,
+            0
+          ],
+          "reached": true,
+          "foot": [
+            -106.125,
+            0.2599999943375586,
+            0
+          ],
+          "support": "ARENA/Facade stylobate",
+          "lastHit": "ARENA/Facade stylobate",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "NorthEntrance",
+      "name": "District · NorthEntrance",
+      "declaredClearWidth": 6,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            0,
+            -116
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            1.75,
+            -115.875
+          ],
+          "support": "Temple_of_Concordia/stone",
+          "lastHit": "Temple_of_Concordia/stone",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    },
+    {
+      "id": "CityToMarketToFacade",
+      "name": "District · CityToMarketToFacade",
+      "declaredClearWidth": 2.7,
+      "status": "passed",
+      "samples": [
+        {
+          "target": [
+            0,
+            107.5
+          ],
+          "reached": true,
+          "foot": [
+            0,
+            5.551115123125783e-17,
+            107.625
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            34.1,
+            107.5
+          ],
+          "reached": true,
+          "foot": [
+            33.99977156859392,
+            0.07000000029802322,
+            107.50036740627348
+          ],
+          "support": "DISTRICT/Market court.002",
+          "lastHit": "DISTRICT/Market court.002",
+          "lastObstacle": ""
+        },
+        {
+          "target": [
+            34.1,
+            80.65
+          ],
+          "reached": true,
+          "foot": [
+            34.09962464770463,
+            5.551115123125783e-17,
+            80.75055377397635
+          ],
+          "support": "PLAZA/Foundation",
+          "lastHit": "PLAZA/Foundation",
+          "lastObstacle": ""
+        }
+      ],
+      "collisions": 0
+    }
+  ],
+  "errors": [],
+  "rechecks": [
+    {
+      "timestamp": "2026-10-10T14:48:18.302Z",
+      "ids": [
+        "FacadeAmbulatory"
+      ],
+      "sourceHash": "a286224ac99a1624e246fb71769cebb963f9210a2231eec10622a61d8da52c6b",
+      "streetLayoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f"
+    }
+  ],
+  "streetLayoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+  "status": "passed"
+}

@@ -1,0 +1,7 @@
+import {chromium} from 'playwright';import fs from 'node:fs';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--enable-unsafe-webgpu','--ignore-gpu-blocklist']});const results=[];
+async function check(name,setup,match){const page=await browser.newPage();await setup(page);await page.goto('http://127.0.0.1:4178/?debug=1');await page.waitForFunction(()=>!!window.__arenaFailure,null,{timeout:30000});const message=await page.evaluate(()=>window.__arenaFailure);results.push({name,status:match.test(message)?'passed':'failed',scope:'Safe mocked capability/resource failure',message});await page.close();}
+await check('Missing WebGPU stops loading with recovery action',p=>p.addInitScript(()=>Object.defineProperty(navigator,'gpu',{get:()=>undefined,configurable:true})),/needs WebGPU/);
+await check('Unavailable adapter stops loading',p=>p.addInitScript(()=>Object.defineProperty(navigator,'gpu',{get:()=>({requestAdapter:async()=>null}),configurable:true})),/No WebGPU graphics adapter/);
+await check('Missing source resource stops loading',p=>p.route('**/assets/environment.json',r=>r.fulfill({status:404,body:'missing fixture'})),/layout could not be loaded/);
+fs.writeFileSync('failure_validation.json',JSON.stringify({timestamp:new Date().toISOString(),results},null,2));console.log(JSON.stringify(results));await browser.close();

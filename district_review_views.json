@@ -1,0 +1,460 @@
+{
+  "revision": "district-review-lanes-1",
+  "purpose": "Supplemental street views along actual authored passages; no geometry or population changes.",
+  "coordinateSystem": "blender_xyz_z_up",
+  "districtLayoutSHA256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+  "cameras": {
+    "street_district_rear_precinct": {
+      "position": [
+        -66,
+        106.5357,
+        1.72
+      ],
+      "target": [
+        -44,
+        109.6786,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Rear arena precinct",
+      "sourceRoute": "DistrictAccess_rear_precinct",
+      "routeCenterlineGap": 1.4142135617826459e-05,
+      "solidProjectionGap": [
+        3.3118015076624454,
+        "District_infill_shop_045"
+      ],
+      "nearestSourceActor": [
+        3.4940298238137553,
+        "district_DistrictLoop_07_0"
+      ],
+      "groundZ": 0.0,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "PLAZA/Foundation",
+        "position": [
+          -66.0,
+          106.53569793701172,
+          0.0
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_temple_civic": {
+      "position": [
+        -98.5575,
+        114.92,
+        1.6850000035762787
+      ],
+      "target": [
+        -107.95,
+        135.15,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Temple and civic courts",
+      "sourceRoute": "DistrictAccess_temple_civic",
+      "routeCenterlineGap": 7.852769061254003e-15,
+      "solidProjectionGap": [
+        9.92847139424692,
+        "District_infill_shop_047"
+      ],
+      "nearestSourceActor": [
+        7.4374042789470645,
+        "district_DistrictPatron_0149"
+      ],
+      "groundZ": -0.034999996423721313,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "District_ground/ground",
+        "position": [
+          -98.55750274658203,
+          114.91999816894531,
+          -0.034999996423721313
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_east_quay": {
+      "position": [
+        -133.586,
+        -1.462,
+        1.7399999921023845
+      ],
+      "target": [
+        -155,
+        -8.6,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Arena river quay",
+      "sourceRoute": "DistrictAccess_east_quay",
+      "routeCenterlineGap": 4.736183188981908e-15,
+      "solidProjectionGap": [
+        5.615584523289929,
+        "District_infill_shop_062"
+      ],
+      "nearestSourceActor": [
+        1.413150348865967,
+        "district_DistrictLoop_09_0"
+      ],
+      "groundZ": 0.019999992102384567,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "DISTRICT/Side street",
+        "position": [
+          -133.58599853515625,
+          -1.4620000123977661,
+          0.019999992102384567
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_west_quay": {
+      "position": [
+        -242,
+        104.77,
+        1.6850000035762787
+      ],
+      "target": [
+        -265,
+        100.17,
+        1.9
+      ],
+      "lens": 26,
+      "label": "West bridge ward",
+      "sourceRoute": "DistrictQuarter_western_quay",
+      "routeCenterlineGap": 6.393655190968866e-15,
+      "solidProjectionGap": [
+        9.076560294146912,
+        "District_frontage_151"
+      ],
+      "nearestSourceActor": [
+        2.456013029281409,
+        "district_DistrictLoop_11_0"
+      ],
+      "groundZ": -0.034999996423721313,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "District_ground/ground",
+        "position": [
+          -242.0,
+          104.7699966430664,
+          -0.034999996423721313
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_eastern_trades": {
+      "position": [
+        162.52,
+        13.0475,
+        1.685000033378601
+      ],
+      "target": [
+        190.841,
+        22.15,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Eastern trade streets",
+      "sourceRoute": "DistrictAccess_eastern_trades",
+      "routeCenterlineGap": 7.105640530014534e-15,
+      "solidProjectionGap": [
+        3.7578689231488775,
+        "District_infill_shop_039"
+      ],
+      "nearestSourceActor": [
+        2.6404738628700697,
+        "district_DistrictLoop_14_0"
+      ],
+      "groundZ": -0.034999966621398926,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "District_ground/ground",
+        "position": [
+          162.52000427246094,
+          13.047499656677246,
+          -0.034999966621398926
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_eastern_backstreets": {
+      "position": [
+        207.06,
+        -55.76,
+        1.6850000035762787
+      ],
+      "target": [
+        230.86,
+        -62.56,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Eastern lodging lanes",
+      "sourceRoute": "DistrictAccess_eastern_backstreets",
+      "routeCenterlineGap": 4.5929671008777244e-15,
+      "solidProjectionGap": [
+        2.6408868342407485,
+        "North_05_14/stone"
+      ],
+      "nearestSourceActor": [
+        2.6171218179710336,
+        "district_DistrictLoop_16_0"
+      ],
+      "groundZ": -0.034999996423721313,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "District_ground/ground",
+        "position": [
+          207.05999755859375,
+          -55.7599983215332,
+          -0.034999996423721313
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_aqueduct_ward": {
+      "position": [
+        199.8,
+        142.8,
+        1.6850000035762787
+      ],
+      "target": [
+        199.8,
+        164,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Aqueduct ward",
+      "sourceRoute": "DistrictLoop_03",
+      "routeCenterlineGap": 0.0,
+      "solidProjectionGap": [
+        1.5500000000000114,
+        "District_stall_231"
+      ],
+      "nearestSourceActor": [
+        4.933336486486622,
+        "district_DistrictLoop_03_2"
+      ],
+      "groundZ": -0.034999996423721313,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "District_ground/ground",
+        "position": [
+          199.8000030517578,
+          142.8000030517578,
+          -0.034999996423721313
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_north_insulae": {
+      "position": [
+        -19,
+        227.1136,
+        1.707999975681305
+      ],
+      "target": [
+        -9.85,
+        250.4,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Northern residential streets",
+      "sourceRoute": "DistrictAccess_north_insulae",
+      "routeCenterlineGap": 1.3296449902452813e-05,
+      "solidProjectionGap": [
+        4.213792554220007,
+        "North_03_08/stone"
+      ],
+      "nearestSourceActor": [
+        2.2236069870820265,
+        "district_DistrictPatron_1710"
+      ],
+      "groundZ": -0.012000024318695068,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "Organic_city_streets/road",
+        "position": [
+          -19.0,
+          227.1136016845703,
+          -0.012000024318695068
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_upper_city": {
+      "position": [
+        80.325,
+        359.55,
+        1.685000033378601
+      ],
+      "target": [
+        84.16,
+        341.55,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Upper city courts",
+      "sourceRoute": "DistrictAccess_upper_city",
+      "routeCenterlineGap": 1.289719148609181e-14,
+      "solidProjectionGap": [
+        2.99192183375935,
+        "District_infill_shop_034"
+      ],
+      "nearestSourceActor": [
+        6.584946854098364,
+        "district_Vendor_District_infill_shop_034"
+      ],
+      "groundZ": -0.034999966621398926,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "District_ground/ground",
+        "position": [
+          80.32499694824219,
+          359.54998779296875,
+          -0.034999966621398926
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    },
+    "street_district_south_residential": {
+      "position": [
+        32.47,
+        -181.2625,
+        1.685000033378601
+      ],
+      "target": [
+        56.27,
+        -194.0125,
+        1.9
+      ],
+      "lens": 26,
+      "label": "Southern residential approaches",
+      "sourceRoute": "DistrictAccess_south_residential",
+      "routeCenterlineGap": 5.526434024311606e-15,
+      "solidProjectionGap": [
+        12.921492508839941,
+        "Precinct_09/stone"
+      ],
+      "nearestSourceActor": [
+        2.8306417787667826,
+        "district_DistrictLoop_21_0"
+      ],
+      "groundZ": -0.034999966621398926,
+      "actualSupportPending": false,
+      "actualSourceSupport": {
+        "object": "District_ground/ground",
+        "position": [
+          32.470001220703125,
+          -181.2624969482422,
+          -0.034999966621398926
+        ],
+        "normal": [
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "headroom": {
+        "sampleRays": 9,
+        "radius": 0.32,
+        "minimumClearHeight": 2.05,
+        "hits": []
+      }
+    }
+  },
+  "sourceSHA256": "3a82b97b8e0ddab16cae6be46c661bf91d52eb4f657b61e7c9ada5f6a03ffaa8",
+  "sourceUnchanged": true
+}

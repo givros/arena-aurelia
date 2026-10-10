@@ -1,0 +1,3286 @@
+{
+  "name": "Aurelia \u2014 The Arena District",
+  "seed": 71664,
+  "units": "meters",
+  "axes": {
+    "horizontal": [
+      "X east",
+      "Y north"
+    ],
+    "vertical": "Z up",
+    "runtime": "x,z,-y"
+  },
+  "reference": "references/primary_reference.png",
+  "bounds": {
+    "x": [
+      -320,
+      360
+    ],
+    "y": [
+      -240,
+      440
+    ]
+  },
+  "arena": {
+    "center": [
+      0,
+      0
+    ],
+    "outerRadii": [
+      106,
+      83
+    ],
+    "floorRadii": [
+      70,
+      47
+    ],
+    "height": 34.3,
+    "facadeBays": 64,
+    "arcadeLevels": 2,
+    "arcadeDepth": 3.2,
+    "seatingRows": 24,
+    "seatingSectors": 16,
+    "radialAisleWidth": 2.6,
+    "ground": 0,
+    "sand": 0.4,
+    "hypogeum": -5.6,
+    "vipCenter": [
+      0,
+      59,
+      18.72
+    ],
+    "verticalRefinement": 1.3,
+    "seatingPopulation": 12000
+  },
+  "plaza": {
+    "radii": [
+      133,
+      110
+    ],
+    "clearCircumferentialRouteRadii": [
+      108,
+      85
+    ],
+    "streetWidth": 3,
+    "approach": [
+      [
+        0,
+        -180
+      ],
+      [
+        0,
+        -115
+      ],
+      [
+        0,
+        -83
+      ]
+    ],
+    "circulationNote": "Nominal ellipse with the authored southern forecourt detour around projecting entry piers and statues.",
+    "clearCircumferentialRoute": {
+      "id": "FacadeAmbulatory",
+      "points": [
+        [
+          108.0,
+          0.0,
+          0.02
+        ],
+        [
+          107.86991,
+          4.17075,
+          0.02
+        ],
+        [
+          107.47995,
+          8.33146,
+          0.02
+        ],
+        [
+          106.83106,
+          12.47209,
+          0.02
+        ],
+        [
+          105.92481,
+          16.58268,
+          0.02
+        ],
+        [
+          104.76338,
+          20.65332,
+          0.02
+        ],
+        [
+          103.34956,
+          24.6742,
+          0.02
+        ],
+        [
+          101.68676,
+          28.63564,
+          0.02
+        ],
+        [
+          99.77899,
+          32.52809,
+          0.02
+        ],
+        [
+          97.63084,
+          36.34218,
+          0.02
+        ],
+        [
+          95.2475,
+          40.06872,
+          0.02
+        ],
+        [
+          92.63469,
+          43.69873,
+          0.02
+        ],
+        [
+          89.79872,
+          47.22347,
+          0.02
+        ],
+        [
+          86.74641,
+          50.63444,
+          0.02
+        ],
+        [
+          83.48513,
+          53.92343,
+          0.02
+        ],
+        [
+          80.02272,
+          57.08251,
+          0.02
+        ],
+        [
+          76.36753,
+          60.10408,
+          0.02
+        ],
+        [
+          72.52837,
+          62.98085,
+          0.02
+        ],
+        [
+          68.51447,
+          65.70589,
+          0.02
+        ],
+        [
+          64.33552,
+          68.27264,
+          0.02
+        ],
+        [
+          60.00159,
+          70.67492,
+          0.02
+        ],
+        [
+          55.5231,
+          72.90693,
+          0.02
+        ],
+        [
+          50.91085,
+          74.96331,
+          0.02
+        ],
+        [
+          46.17595,
+          76.83909,
+          0.02
+        ],
+        [
+          41.32981,
+          78.52976,
+          0.02
+        ],
+        [
+          36.3841,
+          80.03125,
+          0.02
+        ],
+        [
+          31.35075,
+          81.33993,
+          0.02
+        ],
+        [
+          26.24186,
+          82.45266,
+          0.02
+        ],
+        [
+          21.06975,
+          83.36675,
+          0.02
+        ],
+        [
+          15.84689,
+          84.08,
+          0.02
+        ],
+        [
+          10.58585,
+          84.5907,
+          0.02
+        ],
+        [
+          5.29931,
+          84.89761,
+          0.02
+        ],
+        [
+          0.0,
+          85.0,
+          0.02
+        ],
+        [
+          -5.29931,
+          84.89761,
+          0.02
+        ],
+        [
+          -10.58585,
+          84.5907,
+          0.02
+        ],
+        [
+          -15.84689,
+          84.08,
+          0.02
+        ],
+        [
+          -21.06975,
+          83.36675,
+          0.02
+        ],
+        [
+          -26.24186,
+          82.45266,
+          0.02
+        ],
+        [
+          -31.35075,
+          81.33993,
+          0.02
+        ],
+        [
+          -36.3841,
+          80.03125,
+          0.02
+        ],
+        [
+          -41.32981,
+          78.52976,
+          0.02
+        ],
+        [
+          -46.17595,
+          76.83909,
+          0.02
+        ],
+        [
+          -50.91085,
+          74.96331,
+          0.02
+        ],
+        [
+          -55.5231,
+          72.90693,
+          0.02
+        ],
+        [
+          -60.00159,
+          70.67492,
+          0.02
+        ],
+        [
+          -64.33552,
+          68.27264,
+          0.02
+        ],
+        [
+          -68.51447,
+          65.70589,
+          0.02
+        ],
+        [
+          -72.52837,
+          62.98085,
+          0.02
+        ],
+        [
+          -76.36753,
+          60.10408,
+          0.02
+        ],
+        [
+          -80.02272,
+          57.08251,
+          0.02
+        ],
+        [
+          -83.48513,
+          53.92343,
+          0.02
+        ],
+        [
+          -86.74641,
+          50.63444,
+          0.02
+        ],
+        [
+          -89.79872,
+          47.22347,
+          0.02
+        ],
+        [
+          -92.63469,
+          43.69873,
+          0.02
+        ],
+        [
+          -95.2475,
+          40.06872,
+          0.02
+        ],
+        [
+          -97.63084,
+          36.34218,
+          0.02
+        ],
+        [
+          -99.77899,
+          32.52809,
+          0.02
+        ],
+        [
+          -101.68676,
+          28.63564,
+          0.02
+        ],
+        [
+          -103.34956,
+          24.6742,
+          0.02
+        ],
+        [
+          -104.76338,
+          20.65332,
+          0.02
+        ],
+        [
+          -105.92481,
+          16.58268,
+          0.02
+        ],
+        [
+          -106.83106,
+          12.47209,
+          0.02
+        ],
+        [
+          -107.47995,
+          8.33146,
+          0.02
+        ],
+        [
+          -107.86991,
+          4.17075,
+          0.02
+        ],
+        [
+          -108.0,
+          0.0,
+          0.02
+        ],
+        [
+          -107.86991,
+          -4.17075,
+          0.02
+        ],
+        [
+          -107.47995,
+          -8.33146,
+          0.02
+        ],
+        [
+          -106.83106,
+          -12.47209,
+          0.02
+        ],
+        [
+          -105.92481,
+          -16.58268,
+          0.02
+        ],
+        [
+          -104.76338,
+          -20.65332,
+          0.02
+        ],
+        [
+          -103.34956,
+          -24.6742,
+          0.02
+        ],
+        [
+          -101.68676,
+          -28.63564,
+          0.02
+        ],
+        [
+          -99.77899,
+          -32.52809,
+          0.02
+        ],
+        [
+          -97.63084,
+          -36.34218,
+          0.02
+        ],
+        [
+          -95.2475,
+          -40.06872,
+          0.02
+        ],
+        [
+          -92.63469,
+          -43.69873,
+          0.02
+        ],
+        [
+          -89.79872,
+          -47.22347,
+          0.02
+        ],
+        [
+          -86.74641,
+          -50.63444,
+          0.02
+        ],
+        [
+          -83.48513,
+          -53.92343,
+          0.02
+        ],
+        [
+          -80.02272,
+          -57.08251,
+          0.02
+        ],
+        [
+          -76.36753,
+          -60.10408,
+          0.02
+        ],
+        [
+          -72.52837,
+          -62.98085,
+          0.02
+        ],
+        [
+          -68.51447,
+          -65.70589,
+          0.02
+        ],
+        [
+          -64.33552,
+          -68.27264,
+          0.02
+        ],
+        [
+          -60.00159,
+          -70.67492,
+          0.02
+        ],
+        [
+          -55.5231,
+          -72.90693,
+          0.02
+        ],
+        [
+          -50.91085,
+          -74.96331,
+          0.02
+        ],
+        [
+          -46.17595,
+          -76.83909,
+          0.02
+        ],
+        [
+          -41.32981,
+          -78.52976,
+          0.02
+        ],
+        [
+          -36.3841,
+          -80.03125,
+          0.02
+        ],
+        [
+          -31.35075,
+          -81.33993,
+          0.02
+        ],
+        [
+          -26.24186,
+          -82.45266,
+          0.02
+        ],
+        [
+          -22.5,
+          -84.3,
+          0.02
+        ],
+        [
+          -22.5,
+          -94.3,
+          0.02
+        ],
+        [
+          22.5,
+          -94.3,
+          0.02
+        ],
+        [
+          22.5,
+          -84.3,
+          0.02
+        ],
+        [
+          26.24186,
+          -82.45266,
+          0.02
+        ],
+        [
+          31.35075,
+          -81.33993,
+          0.02
+        ],
+        [
+          36.3841,
+          -80.03125,
+          0.02
+        ],
+        [
+          41.32981,
+          -78.52976,
+          0.02
+        ],
+        [
+          46.17595,
+          -76.83909,
+          0.02
+        ],
+        [
+          50.91085,
+          -74.96331,
+          0.02
+        ],
+        [
+          55.5231,
+          -72.90693,
+          0.02
+        ],
+        [
+          60.00159,
+          -70.67492,
+          0.02
+        ],
+        [
+          64.33552,
+          -68.27264,
+          0.02
+        ],
+        [
+          68.51447,
+          -65.70589,
+          0.02
+        ],
+        [
+          72.52837,
+          -62.98085,
+          0.02
+        ],
+        [
+          76.36753,
+          -60.10408,
+          0.02
+        ],
+        [
+          80.02272,
+          -57.08251,
+          0.02
+        ],
+        [
+          83.48513,
+          -53.92343,
+          0.02
+        ],
+        [
+          86.74641,
+          -50.63444,
+          0.02
+        ],
+        [
+          89.79872,
+          -47.22347,
+          0.02
+        ],
+        [
+          92.63469,
+          -43.69873,
+          0.02
+        ],
+        [
+          95.2475,
+          -40.06872,
+          0.02
+        ],
+        [
+          97.63084,
+          -36.34218,
+          0.02
+        ],
+        [
+          99.77899,
+          -32.52809,
+          0.02
+        ],
+        [
+          101.68676,
+          -28.63564,
+          0.02
+        ],
+        [
+          103.34956,
+          -24.6742,
+          0.02
+        ],
+        [
+          104.76338,
+          -20.65332,
+          0.02
+        ],
+        [
+          105.92481,
+          -16.58268,
+          0.02
+        ],
+        [
+          106.83106,
+          -12.47209,
+          0.02
+        ],
+        [
+          107.47995,
+          -8.33146,
+          0.02
+        ],
+        [
+          107.86991,
+          -4.17075,
+          0.02
+        ],
+        [
+          108.0,
+          -0.0,
+          0.02
+        ]
+      ],
+      "width": 3.0,
+      "closed": true,
+      "label": "Facade circuit via ceremonial forecourt",
+      "shape": "oval arcs connected by a south monument detour"
+    }
+  },
+  "regions": [
+    {
+      "id": "REG_ARENA",
+      "name": "The Sands",
+      "color": "#d8b379",
+      "center": [
+        0,
+        0
+      ],
+      "scope": "aggregate spatial region; not an exact collision boundary"
+    },
+    {
+      "id": "REG_CAVEA",
+      "name": "The Stands",
+      "color": "#a77853",
+      "radii": [
+        [
+          72,
+          49
+        ],
+        [
+          100,
+          77
+        ]
+      ],
+      "scope": "aggregate spatial region; not an exact collision boundary"
+    },
+    {
+      "id": "REG_VIP",
+      "name": "Imperial Loggia",
+      "color": "#9d2530",
+      "center": [
+        0,
+        59
+      ],
+      "scope": "aggregate spatial region; not an exact collision boundary"
+    },
+    {
+      "id": "REG_HYPOGEUM",
+      "name": "The Hypogeum",
+      "color": "#5c6178",
+      "bounds": [
+        -43,
+        -33,
+        51,
+        33
+      ],
+      "floorZ": -5.6,
+      "scope": "aggregate spatial region; not an exact collision boundary"
+    },
+    {
+      "id": "REG_MARKET",
+      "name": "Festival Market",
+      "color": "#be7644",
+      "center": [
+        0,
+        -108
+      ],
+      "scope": "aggregate spatial region; not an exact collision boundary"
+    },
+    {
+      "id": "REG_CITY",
+      "name": "Aurelia",
+      "color": "#c7bca1",
+      "center": [
+        0,
+        155
+      ],
+      "scope": "aggregate spatial region; not an exact collision boundary"
+    },
+    {
+      "id": "REG_RIVER",
+      "name": "River Quay",
+      "color": "#517c89",
+      "bounds": [
+        -197,
+        -228,
+        -160,
+        424.4
+      ],
+      "scope": "aggregate spatial region; not an exact collision boundary",
+      "boundsScope": "water corridor between the two city watergates; quay activity has district child regions",
+      "continuationAuthority": "master_world_boundary.json"
+    },
+    {
+      "id": "REG_AQUEDUCT",
+      "name": "East Aqueduct",
+      "color": "#9b9686",
+      "center": [
+        190,
+        170
+      ],
+      "scope": "aggregate spatial region; not an exact collision boundary"
+    },
+    {
+      "id": "REG_DISTRICT_REAR_PRECINCT",
+      "name": "Rear arena precinct",
+      "parent": "REG_CITY",
+      "center": [
+        -58,
+        112
+      ],
+      "role": "event refreshments",
+      "source": "district_life_layout.json",
+      "sourceRegion": "rear_precinct",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_TEMPLE_CIVIC",
+      "name": "Temple and civic courts",
+      "parent": "REG_CITY",
+      "center": [
+        -80,
+        145
+      ],
+      "role": "offerings, scribes and civic trade",
+      "source": "district_life_layout.json",
+      "sourceRegion": "temple_civic",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_EAST_QUAY",
+      "name": "Arena river quay",
+      "parent": "REG_CITY",
+      "center": [
+        -146,
+        35
+      ],
+      "role": "river cargo and food",
+      "source": "district_life_layout.json",
+      "sourceRegion": "east_quay",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_WEST_QUAY",
+      "name": "West bridge ward",
+      "parent": "REG_CITY",
+      "center": [
+        -221,
+        65
+      ],
+      "role": "boat cargo, fish and repair",
+      "source": "district_life_layout.json",
+      "sourceRegion": "west_quay",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_EASTERN_TRADES",
+      "name": "Eastern trade streets",
+      "parent": "REG_CITY",
+      "center": [
+        208,
+        10
+      ],
+      "role": "neighborhood workshops",
+      "source": "district_life_layout.json",
+      "sourceRegion": "eastern_trades",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_EASTERN_BACKSTREETS",
+      "name": "Eastern lodging lanes",
+      "parent": "REG_CITY",
+      "center": [
+        232,
+        -66
+      ],
+      "role": "close shops, lodging and neighborhood courts",
+      "source": "district_life_layout.json",
+      "sourceRegion": "eastern_backstreets",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_AQUEDUCT_WARD",
+      "name": "Aqueduct ward",
+      "parent": "REG_CITY",
+      "center": [
+        235,
+        151
+      ],
+      "role": "provisioning and cloth",
+      "source": "district_life_layout.json",
+      "sourceRegion": "aqueduct_ward",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_NORTH_INSULAE",
+      "name": "Northern residential streets",
+      "parent": "REG_CITY",
+      "center": [
+        -30,
+        262
+      ],
+      "role": "domestic trade and neighbors",
+      "source": "district_life_layout.json",
+      "sourceRegion": "north_insulae",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_UPPER_CITY",
+      "name": "Upper city courts",
+      "parent": "REG_CITY",
+      "center": [
+        80,
+        344
+      ],
+      "role": "bread, pottery and textiles",
+      "source": "district_life_layout.json",
+      "sourceRegion": "upper_city",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_DISTRICT_SOUTH_RESIDENTIAL",
+      "name": "Southern residential approaches",
+      "parent": "REG_CITY",
+      "center": [
+        62,
+        -178
+      ],
+      "role": "arrival services and loading",
+      "source": "district_life_layout.json",
+      "sourceRegion": "south_residential",
+      "scope": "activity-area marker; not an exclusive parcel boundary"
+    },
+    {
+      "id": "REG_CIVIC_COURT",
+      "name": "Fountain garden and peristyle",
+      "parent": "REG_CITY",
+      "color": "#64754c",
+      "center": [
+        166.55,
+        128.6
+      ],
+      "roofBounds": [
+        148.25,
+        112.19999999999999,
+        184.85000000000002,
+        145.0
+      ],
+      "source": "civic_court_layout.json",
+      "scope": "public garden and covered portico; passages are authored separately"
+    }
+  ],
+  "routes": [
+    {
+      "id": "PATH_MAIN",
+      "name": "Ceremonial approach",
+      "points": [
+        [
+          0,
+          -145,
+          0
+        ],
+        [
+          0,
+          -106,
+          0
+        ],
+        [
+          0,
+          -81,
+          0
+        ],
+        [
+          0,
+          -56,
+          0
+        ],
+        [
+          0,
+          -41,
+          0.4
+        ]
+      ],
+      "width": 6
+    },
+    {
+      "id": "PATH_CONCOURSE",
+      "name": "Lower ambulatory",
+      "ellipse": [
+        100.1,
+        77.1
+      ],
+      "height": 0,
+      "width": 5.4
+    },
+    {
+      "id": "PATH_SPECTATOR",
+      "name": "Stair to upper terraces",
+      "angles": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "width": 2.6,
+      "entryAnglesDegrees": [
+        45,
+        225
+      ],
+      "upperAisles": 16
+    },
+    {
+      "id": "PATH_SERVICE",
+      "name": "Gladiator service ramp",
+      "points": [
+        [
+          70,
+          0,
+          0.4
+        ],
+        [
+          62,
+          0,
+          0.4
+        ],
+        [
+          47,
+          0,
+          -5.6
+        ],
+        [
+          22,
+          0,
+          -5.6
+        ]
+      ],
+      "width": 5
+    }
+  ],
+  "viewer": {
+    "eyeHeight": 1.72,
+    "radius": 0.32,
+    "stepHeight": 0.38,
+    "walkSpeed": 4.2,
+    "sprintSpeed": 7.5,
+    "fov": 67,
+    "spawn": [
+      0,
+      -119,
+      1.72
+    ]
+  },
+  "cameras": {
+    "reference": {
+      "position": [
+        38,
+        -266,
+        163
+      ],
+      "target": [
+        0,
+        -5,
+        8
+      ],
+      "lens": 41.5
+    },
+    "top": {
+      "position": [
+        0,
+        0,
+        330
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ]
+    },
+    "approach": {
+      "position": [
+        7,
+        -116,
+        1.72
+      ],
+      "target": [
+        0,
+        -65,
+        15
+      ]
+    }
+  },
+  "interpretation": [
+    "The supplied single image defines the visible composition. Hidden circulation and hypogeum are authored functional continuations, not observed historical reconstructions.",
+    "Two deep exterior arcades, 64 bays each, a 24-row stepped cavea, 16 radial aisles, and a north axial imperial loggia preserve the reference silhouette.",
+    "The river, bridge, temple and aqueduct remain background anchors. Nearby streets, market and arena are explorable; distant hills are scenery.",
+    "All humans including statuary are derived from the bundled validated CharacterBase. Crowd variants reuse exact geometry; no billboard crowds."
+  ],
+  "city": {
+    "building_count": 269,
+    "tree_count": 180,
+    "temple": {
+      "center": [
+        10,
+        166
+      ],
+      "footprint": [
+        56,
+        45
+      ],
+      "height": 39.6,
+      "portico_walkable": true,
+      "stair_start": [
+        10,
+        112.2,
+        0
+      ],
+      "stair_end": [
+        10,
+        145.8,
+        12.0
+      ],
+      "stair_rise": 0.25,
+      "stair_run": 0.65,
+      "upper_stair_run": 0.8,
+      "raised_precinct": 8
+    },
+    "bridge": {
+      "center": [
+        -180,
+        105
+      ],
+      "deck_z": 6.05,
+      "width": 13,
+      "length": 65,
+      "open_arches": 3,
+      "approach_ramps": [
+        [
+          -232.5,
+          -212.5
+        ],
+        [
+          -147.5,
+          -127.5
+        ]
+      ],
+      "approach_run": 20,
+      "approach_rise": 6.05
+    },
+    "aqueduct": {
+      "y": 170,
+      "x_range": [
+        66,
+        338
+      ],
+      "height": 37.18,
+      "open_arches": 16
+    },
+    "civic_landmarks": [
+      {
+        "id": "Basilica_Aemilia",
+        "center": [
+          -86,
+          169
+        ],
+        "footprint": [
+          61.2,
+          21.2
+        ],
+        "height": 19.9
+      },
+      {
+        "id": "Basilica_Mercatoria",
+        "center": [
+          112,
+          215
+        ],
+        "footprint": [
+          61.2,
+          22.2
+        ],
+        "height": 19.9
+      },
+      {
+        "id": "Tower_of_the_Watch",
+        "center": [
+          -135,
+          247
+        ],
+        "footprint": [
+          15,
+          15
+        ],
+        "height": 34.7
+      },
+      {
+        "id": "Civic_Archive_Tower",
+        "center": [
+          114,
+          325
+        ],
+        "footprint": [
+          15,
+          15
+        ],
+        "height": 35.7
+      }
+    ],
+    "collections": [
+      "City_Architecture",
+      "City_Infrastructure",
+      "City_Landscape"
+    ],
+    "originalResidentialAssemblies": 159,
+    "layout": "master_world_layout.json",
+    "cityGridRetired": true,
+    "organicStreetSpines": 12,
+    "courtyardCount": 132,
+    "protectedCirculation": {
+      "facadeAmbulatory": {
+        "id": "FacadeAmbulatory",
+        "points": [
+          [
+            108.0,
+            0.0,
+            0.02
+          ],
+          [
+            107.86991,
+            4.17075,
+            0.02
+          ],
+          [
+            107.47995,
+            8.33146,
+            0.02
+          ],
+          [
+            106.83106,
+            12.47209,
+            0.02
+          ],
+          [
+            105.92481,
+            16.58268,
+            0.02
+          ],
+          [
+            104.76338,
+            20.65332,
+            0.02
+          ],
+          [
+            103.34956,
+            24.6742,
+            0.02
+          ],
+          [
+            101.68676,
+            28.63564,
+            0.02
+          ],
+          [
+            99.77899,
+            32.52809,
+            0.02
+          ],
+          [
+            97.63084,
+            36.34218,
+            0.02
+          ],
+          [
+            95.2475,
+            40.06872,
+            0.02
+          ],
+          [
+            92.63469,
+            43.69873,
+            0.02
+          ],
+          [
+            89.79872,
+            47.22347,
+            0.02
+          ],
+          [
+            86.74641,
+            50.63444,
+            0.02
+          ],
+          [
+            83.48513,
+            53.92343,
+            0.02
+          ],
+          [
+            80.02272,
+            57.08251,
+            0.02
+          ],
+          [
+            76.36753,
+            60.10408,
+            0.02
+          ],
+          [
+            72.52837,
+            62.98085,
+            0.02
+          ],
+          [
+            68.51447,
+            65.70589,
+            0.02
+          ],
+          [
+            64.33552,
+            68.27264,
+            0.02
+          ],
+          [
+            60.00159,
+            70.67492,
+            0.02
+          ],
+          [
+            55.5231,
+            72.90693,
+            0.02
+          ],
+          [
+            50.91085,
+            74.96331,
+            0.02
+          ],
+          [
+            46.17595,
+            76.83909,
+            0.02
+          ],
+          [
+            41.32981,
+            78.52976,
+            0.02
+          ],
+          [
+            36.3841,
+            80.03125,
+            0.02
+          ],
+          [
+            31.35075,
+            81.33993,
+            0.02
+          ],
+          [
+            26.24186,
+            82.45266,
+            0.02
+          ],
+          [
+            21.06975,
+            83.36675,
+            0.02
+          ],
+          [
+            15.84689,
+            84.08,
+            0.02
+          ],
+          [
+            10.58585,
+            84.5907,
+            0.02
+          ],
+          [
+            5.29931,
+            84.89761,
+            0.02
+          ],
+          [
+            0.0,
+            85.0,
+            0.02
+          ],
+          [
+            -5.29931,
+            84.89761,
+            0.02
+          ],
+          [
+            -10.58585,
+            84.5907,
+            0.02
+          ],
+          [
+            -15.84689,
+            84.08,
+            0.02
+          ],
+          [
+            -21.06975,
+            83.36675,
+            0.02
+          ],
+          [
+            -26.24186,
+            82.45266,
+            0.02
+          ],
+          [
+            -31.35075,
+            81.33993,
+            0.02
+          ],
+          [
+            -36.3841,
+            80.03125,
+            0.02
+          ],
+          [
+            -41.32981,
+            78.52976,
+            0.02
+          ],
+          [
+            -46.17595,
+            76.83909,
+            0.02
+          ],
+          [
+            -50.91085,
+            74.96331,
+            0.02
+          ],
+          [
+            -55.5231,
+            72.90693,
+            0.02
+          ],
+          [
+            -60.00159,
+            70.67492,
+            0.02
+          ],
+          [
+            -64.33552,
+            68.27264,
+            0.02
+          ],
+          [
+            -68.51447,
+            65.70589,
+            0.02
+          ],
+          [
+            -72.52837,
+            62.98085,
+            0.02
+          ],
+          [
+            -76.36753,
+            60.10408,
+            0.02
+          ],
+          [
+            -80.02272,
+            57.08251,
+            0.02
+          ],
+          [
+            -83.48513,
+            53.92343,
+            0.02
+          ],
+          [
+            -86.74641,
+            50.63444,
+            0.02
+          ],
+          [
+            -89.79872,
+            47.22347,
+            0.02
+          ],
+          [
+            -92.63469,
+            43.69873,
+            0.02
+          ],
+          [
+            -95.2475,
+            40.06872,
+            0.02
+          ],
+          [
+            -97.63084,
+            36.34218,
+            0.02
+          ],
+          [
+            -99.77899,
+            32.52809,
+            0.02
+          ],
+          [
+            -101.68676,
+            28.63564,
+            0.02
+          ],
+          [
+            -103.34956,
+            24.6742,
+            0.02
+          ],
+          [
+            -104.76338,
+            20.65332,
+            0.02
+          ],
+          [
+            -105.92481,
+            16.58268,
+            0.02
+          ],
+          [
+            -106.83106,
+            12.47209,
+            0.02
+          ],
+          [
+            -107.47995,
+            8.33146,
+            0.02
+          ],
+          [
+            -107.86991,
+            4.17075,
+            0.02
+          ],
+          [
+            -108.0,
+            0.0,
+            0.02
+          ],
+          [
+            -107.86991,
+            -4.17075,
+            0.02
+          ],
+          [
+            -107.47995,
+            -8.33146,
+            0.02
+          ],
+          [
+            -106.83106,
+            -12.47209,
+            0.02
+          ],
+          [
+            -105.92481,
+            -16.58268,
+            0.02
+          ],
+          [
+            -104.76338,
+            -20.65332,
+            0.02
+          ],
+          [
+            -103.34956,
+            -24.6742,
+            0.02
+          ],
+          [
+            -101.68676,
+            -28.63564,
+            0.02
+          ],
+          [
+            -99.77899,
+            -32.52809,
+            0.02
+          ],
+          [
+            -97.63084,
+            -36.34218,
+            0.02
+          ],
+          [
+            -95.2475,
+            -40.06872,
+            0.02
+          ],
+          [
+            -92.63469,
+            -43.69873,
+            0.02
+          ],
+          [
+            -89.79872,
+            -47.22347,
+            0.02
+          ],
+          [
+            -86.74641,
+            -50.63444,
+            0.02
+          ],
+          [
+            -83.48513,
+            -53.92343,
+            0.02
+          ],
+          [
+            -80.02272,
+            -57.08251,
+            0.02
+          ],
+          [
+            -76.36753,
+            -60.10408,
+            0.02
+          ],
+          [
+            -72.52837,
+            -62.98085,
+            0.02
+          ],
+          [
+            -68.51447,
+            -65.70589,
+            0.02
+          ],
+          [
+            -64.33552,
+            -68.27264,
+            0.02
+          ],
+          [
+            -60.00159,
+            -70.67492,
+            0.02
+          ],
+          [
+            -55.5231,
+            -72.90693,
+            0.02
+          ],
+          [
+            -50.91085,
+            -74.96331,
+            0.02
+          ],
+          [
+            -46.17595,
+            -76.83909,
+            0.02
+          ],
+          [
+            -41.32981,
+            -78.52976,
+            0.02
+          ],
+          [
+            -36.3841,
+            -80.03125,
+            0.02
+          ],
+          [
+            -31.35075,
+            -81.33993,
+            0.02
+          ],
+          [
+            -26.24186,
+            -82.45266,
+            0.02
+          ],
+          [
+            -22.5,
+            -84.3,
+            0.02
+          ],
+          [
+            -22.5,
+            -94.3,
+            0.02
+          ],
+          [
+            22.5,
+            -94.3,
+            0.02
+          ],
+          [
+            22.5,
+            -84.3,
+            0.02
+          ],
+          [
+            26.24186,
+            -82.45266,
+            0.02
+          ],
+          [
+            31.35075,
+            -81.33993,
+            0.02
+          ],
+          [
+            36.3841,
+            -80.03125,
+            0.02
+          ],
+          [
+            41.32981,
+            -78.52976,
+            0.02
+          ],
+          [
+            46.17595,
+            -76.83909,
+            0.02
+          ],
+          [
+            50.91085,
+            -74.96331,
+            0.02
+          ],
+          [
+            55.5231,
+            -72.90693,
+            0.02
+          ],
+          [
+            60.00159,
+            -70.67492,
+            0.02
+          ],
+          [
+            64.33552,
+            -68.27264,
+            0.02
+          ],
+          [
+            68.51447,
+            -65.70589,
+            0.02
+          ],
+          [
+            72.52837,
+            -62.98085,
+            0.02
+          ],
+          [
+            76.36753,
+            -60.10408,
+            0.02
+          ],
+          [
+            80.02272,
+            -57.08251,
+            0.02
+          ],
+          [
+            83.48513,
+            -53.92343,
+            0.02
+          ],
+          [
+            86.74641,
+            -50.63444,
+            0.02
+          ],
+          [
+            89.79872,
+            -47.22347,
+            0.02
+          ],
+          [
+            92.63469,
+            -43.69873,
+            0.02
+          ],
+          [
+            95.2475,
+            -40.06872,
+            0.02
+          ],
+          [
+            97.63084,
+            -36.34218,
+            0.02
+          ],
+          [
+            99.77899,
+            -32.52809,
+            0.02
+          ],
+          [
+            101.68676,
+            -28.63564,
+            0.02
+          ],
+          [
+            103.34956,
+            -24.6742,
+            0.02
+          ],
+          [
+            104.76338,
+            -20.65332,
+            0.02
+          ],
+          [
+            105.92481,
+            -16.58268,
+            0.02
+          ],
+          [
+            106.83106,
+            -12.47209,
+            0.02
+          ],
+          [
+            107.47995,
+            -8.33146,
+            0.02
+          ],
+          [
+            107.86991,
+            -4.17075,
+            0.02
+          ],
+          [
+            108.0,
+            -0.0,
+            0.02
+          ]
+        ],
+        "width": 3.0,
+        "closed": true,
+        "label": "Facade circuit via ceremonial forecourt",
+        "shape": "oval arcs connected by a south monument detour"
+      },
+      "ceremonialAxisWidth": 6,
+      "quarterConnections": "district_life_layout.json and master_world_layout.json"
+    },
+    "addedCommercialAssemblies": 110
+  },
+  "foreground": {
+    "workshops": [
+      {
+        "id": "Workshop_0",
+        "center": [
+          -62,
+          -117
+        ],
+        "full_projection": [
+          18.6,
+          9.8
+        ]
+      },
+      {
+        "id": "Workshop_1",
+        "center": [
+          62,
+          -117
+        ],
+        "full_projection": [
+          18.6,
+          9.8
+        ]
+      }
+    ],
+    "houses": [
+      {
+        "id": "ForegroundHouse_0",
+        "template": "SouthEast_01",
+        "center": [
+          -231.8197,
+          -130.40072
+        ],
+        "ground_support_z": -0.035,
+        "source_min_z": 0.0,
+        "source_component_count": 7,
+        "originalCenter": [
+          -114,
+          -147
+        ],
+        "rotation": 4.9553861,
+        "quarter": "western_quay",
+        "full_dimensions": [
+          17,
+          17
+        ],
+        "projection_envelope": [
+          19.12,
+          20.6
+        ],
+        "polygon": [
+          [
+            -244.11736,
+            -123.5999
+          ],
+          [
+            -239.51684,
+            -142.15817
+          ],
+          [
+            -219.52204,
+            -137.20155
+          ],
+          [
+            -224.12256,
+            -118.64327
+          ]
+        ],
+        "placementAuthority": "master_world_layout.json"
+      },
+      {
+        "id": "ForegroundHouse_1",
+        "template": "SouthEast_02",
+        "center": [
+          -75.6714,
+          -202.49763
+        ],
+        "ground_support_z": -0.035,
+        "source_min_z": 0.0,
+        "source_component_count": 7,
+        "originalCenter": [
+          116,
+          -145
+        ],
+        "rotation": 3.1810686,
+        "quarter": "southern_courts",
+        "full_dimensions": [
+          15,
+          13
+        ],
+        "projection_envelope": [
+          17.12,
+          16.6
+        ],
+        "polygon": [
+          [
+            -67.44564,
+            -193.86627
+          ],
+          [
+            -84.5523,
+            -194.54192
+          ],
+          [
+            -83.89717,
+            -211.129
+          ],
+          [
+            -66.79051,
+            -210.45334
+          ]
+        ],
+        "placementAuthority": "master_world_layout.json"
+      },
+      {
+        "id": "ForegroundHouse_2",
+        "template": "North_00_04",
+        "center": [
+          -231.3088,
+          -109.90295
+        ],
+        "ground_support_z": -0.035,
+        "source_min_z": 0.0,
+        "source_component_count": 7,
+        "originalCenter": [
+          -116,
+          -174
+        ],
+        "rotation": 4.9157969,
+        "quarter": "western_quay",
+        "full_dimensions": [
+          15.34,
+          24.48
+        ],
+        "projection_envelope": [
+          17.6616,
+          30.92
+        ],
+        "polygon": [
+          [
+            -248.23397,
+            -104.37726
+          ],
+          [
+            -244.66619,
+            -121.67473
+          ],
+          [
+            -214.38363,
+            -115.42864
+          ],
+          [
+            -217.95141,
+            -98.13116
+          ]
+        ],
+        "placementAuthority": "master_world_layout.json"
+      },
+      {
+        "id": "ForegroundHouse_3",
+        "template": "North_00_01",
+        "center": [
+          -226.07781,
+          27.48898
+        ],
+        "ground_support_z": -0.035,
+        "source_min_z": 0.0,
+        "source_component_count": 7,
+        "originalCenter": [
+          141,
+          -181
+        ],
+        "rotation": 4.8492254,
+        "quarter": "western_quay",
+        "full_dimensions": [
+          17.7,
+          17.68
+        ],
+        "projection_envelope": [
+          20.0216,
+          22.216
+        ],
+        "polygon": [
+          [
+            -238.44756,
+            35.89097
+          ],
+          [
+            -235.71641,
+            16.05651
+          ],
+          [
+            -213.70807,
+            19.08699
+          ],
+          [
+            -216.43922,
+            38.92145
+          ]
+        ],
+        "placementAuthority": "master_world_layout.json"
+      }
+    ],
+    "ground_human_anchors_checked": 288,
+    "clearance_conflicts": [],
+    "projection_method": "Current rotated reserved envelopes from master_world_layout.json; historical construction checks do not define current placement.",
+    "placementNote": "Legacy ForegroundHouse IDs are preserved; their complete assemblies now occupy organic city quarters."
+  },
+  "sceneryBeyondBounds": {
+    "layout": "master_world_boundary.json",
+    "geometryAudit": "comparisons/world_boundary_geometry.json",
+    "scope": "Outer hills and villas are visual world continuation beyond the physically enclosed playable city.",
+    "playableBoundary": "Physical irregular walls and four closed city gates inside the rectangular safety envelope."
+  },
+  "verifiedCounts": {
+    "sceneObjects": 38480,
+    "meshObjects": 22706,
+    "materials": 205,
+    "cameras": 32,
+    "pointLights": 53,
+    "characterInstances": 15688,
+    "characterTriangleInstances": 78613716,
+    "actions": 330
+  },
+  "finalCameras": {
+    "street_market_lane": {
+      "position": [
+        34.0,
+        -107.5999984741211,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.5876623392105103,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "street_west_souk": {
+      "position": [
+        -119.5,
+        -61.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.581972360610962,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "street_shop_approach": {
+      "position": [
+        0.0,
+        -154.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.6220015287399292,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "reference": {
+      "position": [
+        38.0,
+        -266.0,
+        163.0
+      ],
+      "rotationEuler": [
+        1.0394896268844604,
+        5.665766078521983e-09,
+        0.1445780098438263
+      ],
+      "lens": 41.5
+    },
+    "top": {
+      "position": [
+        0.0,
+        0.0,
+        330.0
+      ],
+      "rotationEuler": [
+        0.0,
+        -0.0,
+        0.0
+      ],
+      "lens": 38.0
+    },
+    "approach": {
+      "position": [
+        7.0,
+        -116.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.8232653141021729,
+        2.615347050038963e-09,
+        0.13640260696411133
+      ],
+      "lens": 38.0
+    },
+    "floor": {
+      "position": [
+        30.0,
+        -25.0,
+        2.119999885559082
+      ],
+      "rotationEuler": [
+        1.7793852090835571,
+        7.577601657260402e-09,
+        0.34302395582199097
+      ],
+      "lens": 24.0
+    },
+    "facade": {
+      "position": [
+        39.0,
+        -89.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        2.0175750255584717,
+        9.254536337266472e-08,
+        1.212025761604309
+      ],
+      "lens": 24.0
+    },
+    "seating": {
+      "position": [
+        68.0999984741211,
+        -51.79999923706055,
+        29.299999237060547
+      ],
+      "rotationEuler": [
+        1.3713321685791016,
+        2.158547118824572e-08,
+        0.7452505826950073
+      ],
+      "lens": 30.0
+    },
+    "hypogeum": {
+      "position": [
+        20.0,
+        -11.0,
+        -3.880000114440918
+      ],
+      "rotationEuler": [
+        1.5779961347579956,
+        -3.783274848956353e-08,
+        0.9272952675819397
+      ],
+      "lens": 24.0
+    },
+    "market": {
+      "position": [
+        34.0,
+        -107.5999984741211,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.5876623392105103,
+        -0.0,
+        0.0
+      ],
+      "lens": 28.0
+    },
+    "reverse": {
+      "position": [
+        0.0,
+        133.0,
+        85.0
+      ],
+      "rotationEuler": [
+        1.0573368072509766,
+        7.61496252721372e-08,
+        3.141592502593994
+      ],
+      "lens": 36.0
+    },
+    "vip": {
+      "position": [
+        7.0,
+        54.0,
+        20.440000534057617
+      ],
+      "rotationEuler": [
+        1.7172229290008545,
+        -2.3654557423924416e-08,
+        0.7853981852531433
+      ],
+      "lens": 28.0
+    },
+    "district_feedback_southern_ward": {
+      "position": [
+        240.0,
+        150.0,
+        165.0
+      ],
+      "rotationEuler": [
+        1.041627287864685,
+        -5.685421911039157e-08,
+        2.195431709289551
+      ],
+      "lens": 39.20000076293945
+    },
+    "district_entire_world": {
+      "position": [
+        460.0,
+        -510.0,
+        520.0
+      ],
+      "rotationEuler": [
+        0.9803828001022339,
+        -5.810108505421852e-10,
+        0.6461188793182373
+      ],
+      "lens": 36.0
+    },
+    "district_south_gate": {
+      "position": [
+        0.0,
+        -207.0,
+        1.684999942779541
+      ],
+      "rotationEuler": [
+        -1.399094581604004,
+        3.141592502593994,
+        1.4936981429514162e-08
+      ],
+      "lens": 25.0
+    },
+    "street_district_rear_precinct": {
+      "position": [
+        -66.0,
+        106.53569793701172,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.578895926475525,
+        -2.4640236517825542e-08,
+        -1.4288973808288574
+      ],
+      "lens": 26.0
+    },
+    "street_district_temple_civic": {
+      "position": [
+        -98.55750274658203,
+        114.91999816894531,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5804353952407837,
+        1.6189739326932795e-08,
+        0.4346701204776764
+      ],
+      "lens": 26.0
+    },
+    "street_district_east_quay": {
+      "position": [
+        -133.58599853515625,
+        -1.4620000123977661,
+        1.7400000095367432
+      ],
+      "rotationEuler": [
+        1.577884554862976,
+        1.0474446554553651e-07,
+        1.8925468921661377
+      ],
+      "lens": 26.0
+    },
+    "street_district_eastern_trades": {
+      "position": [
+        162.52000427246094,
+        13.047499656677246,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5780235528945923,
+        2.8270662255636125e-08,
+        -1.2598196268081665
+      ],
+      "lens": 26.0
+    },
+    "street_district_eastern_backstreets": {
+      "position": [
+        207.05999755859375,
+        -55.7599983215332,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.579482078552246,
+        -7.319975026121028e-08,
+        -1.8490961790084839
+      ],
+      "lens": 26.0
+    },
+    "street_district_aqueduct_ward": {
+      "position": [
+        199.8000030517578,
+        142.8000030517578,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5809375047683716,
+        -0.0,
+        0.0
+      ],
+      "lens": 26.0
+    },
+    "street_district_north_insulae": {
+      "position": [
+        -19.0,
+        227.1136016845703,
+        1.7079999446868896
+      ],
+      "rotationEuler": [
+        1.5784705877304077,
+        -2.3233415191725726e-09,
+        -0.3743997812271118
+      ],
+      "lens": 26.0
+    },
+    "street_district_upper_city": {
+      "position": [
+        80.32499694824219,
+        359.54998779296875,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5824780464172363,
+        -1.618013056869927e-09,
+        -2.931675434112549
+      ],
+      "lens": 26.0
+    },
+    "street_district_south_residential": {
+      "position": [
+        32.470001220703125,
+        -181.2624969482422,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5787591934204102,
+        5.0963038233931e-08,
+        -2.062605619430542
+      ],
+      "lens": 26.0
+    },
+    "district_aerial_north": {
+      "position": [
+        -135.0,
+        400.0,
+        230.0
+      ],
+      "rotationEuler": [
+        0.9606481194496155,
+        7.116868516732211e-08,
+        -2.7187387943267822
+      ],
+      "lens": 43.0
+    },
+    "district_aerial_reverse": {
+      "position": [
+        315.0,
+        280.0,
+        225.0
+      ],
+      "rotationEuler": [
+        1.058740258216858,
+        7.965004300558576e-08,
+        2.0512022972106934
+      ],
+      "lens": 42.0
+    },
+    "street_district_civic_court": {
+      "position": [
+        151.5,
+        120.0,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.5932526588439941,
+        -5.2651270010528606e-08,
+        -0.5961991548538208
+      ],
+      "lens": 28.0
+    },
+    "district_civic_court_aerial": {
+      "position": [
+        207.0,
+        73.0,
+        61.0
+      ],
+      "rotationEuler": [
+        0.8885272145271301,
+        2.02092262924225e-08,
+        0.657389223575592
+      ],
+      "lens": 44.0
+    },
+    "street_district_west_quay": {
+      "position": [
+        -242.0,
+        104.7699966430664,
+        1.6850000619888306
+      ],
+      "rotationEuler": [
+        1.5799624919891357,
+        -2.8958517805932615e-09,
+        1.768191933631897
+      ],
+      "lens": 26.0
+    },
+    "street_district_gallery": {
+      "position": [
+        71.13490295410156,
+        54.871498107910156,
+        1.7200000286102295
+      ],
+      "rotationEuler": [
+        1.577755093574524,
+        1.7503525739925863e-08,
+        1.0442627668380737
+      ],
+      "lens": 25.0
+    },
+    "street_district_backstage": {
+      "position": [
+        -30.0,
+        2.0,
+        -3.880000114440918
+      ],
+      "rotationEuler": [
+        1.5763435363769531,
+        -1.3890357308810053e-07,
+        -2.5535900592803955
+      ],
+      "lens": 25.0
+    }
+  },
+  "regionMetadata": {
+    "aggregateRegions": 8,
+    "districtAreas": 10,
+    "civicCourts": 1,
+    "coordinateSystem": "blender_xyz_z_up",
+    "scope": "Nested semantic areas may overlap; use authored route and parcel authorities for traversal."
+  },
+  "streetLife": {
+    "revision": "street-life-1",
+    "layout": "street_life_layout.json",
+    "counts": {
+      "stalls": 84,
+      "shop_houses": 20,
+      "vendors": 104,
+      "static_patrons": 1051,
+      "roaming_routes": 26,
+      "entry_gathering_patrons": 111
+    },
+    "population": {
+      "layout": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\street_life_layout.json",
+      "layoutSHA256": "a5d927dc047bdf76a452bff79e44abfeca78844951707f7fa59b05ac23cc500f",
+      "staticAdded": 1139,
+      "animatedAdded": 40,
+      "rejectedAnchors": [],
+      "selectedWalkingRoutes": [
+        "MarketLoop_00",
+        "MarketLoop_02",
+        "MarketLoop_03",
+        "MarketLoop_05",
+        "MarketLoop_06",
+        "MarketLoop_08",
+        "MarketLoop_09",
+        "MarketLoop_11",
+        "MarketLoop_12",
+        "MarketLoop_14",
+        "MarketLoop_16",
+        "MarketLoop_17",
+        "MarketLoop_19",
+        "MarketLoop_21",
+        "MarketLoop_22",
+        "MarketLoop_24",
+        "MarketLoop_25",
+        "MarketLoop_27",
+        "MarketLoop_28",
+        "MarketLoop_30",
+        "MarketLoop_31",
+        "MarketLoop_33",
+        "MarketLoop_34",
+        "MarketLoop_35",
+        "MarketLoop_37",
+        "MarketLoop_39"
+      ],
+      "minimumIndependentRouteGap": 1.4,
+      "protectedStaticCount": 12086,
+      "fullCharacterGeometry": true,
+      "activityCounts": {
+        "queue": 33,
+        "conversation": 350,
+        "customer": 604,
+        "porter": 64,
+        "produce": 14,
+        "bread": 12,
+        "cloth": 13,
+        "cookshop": 14,
+        "loading": 12,
+        "pottery": 13,
+        "shopkeeper": 18,
+        "itinerant_merchant": 8,
+        "passerby": 16,
+        "active_vendor": 8
+      },
+      "staticGeometryUnchanged": true,
+      "canonicalAssetsUnchanged": true,
+      "behavior": "Purposeful static market groups plus independently phased real bundled Walk actors on clear closed loops",
+      "entryGatherings": 103,
+      "generationLayoutSHA256": "12e0f77c4fa734265dece8cc25f58da54b344c6bd1b9da8e1d9bef818f9022dd",
+      "layoutRevisionScope": "FacadeAmbulatory navigation metadata only; placement and motion paths unchanged"
+    },
+    "clearance": {
+      "facade_walkway_width": 3,
+      "main_axis_width": 6,
+      "minimum_roaming_width": 2.5,
+      "static_center_spacing": 0.83,
+      "static_to_roaming_centerline": 0.86,
+      "independent_route_segment_spacing": 1.4
+    }
+  },
+  "districtLife": {
+    "revision": "district-life-organic-2",
+    "layout": "district_life_layout.json",
+    "layoutSHA256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96",
+    "regions": {
+      "rear_precinct": {
+        "label": "Rear arena precinct",
+        "center": [
+          -58,
+          112
+        ],
+        "role": "event refreshments"
+      },
+      "temple_civic": {
+        "label": "Temple and civic courts",
+        "center": [
+          -80,
+          145
+        ],
+        "role": "offerings, scribes and civic trade"
+      },
+      "east_quay": {
+        "label": "Arena river quay",
+        "center": [
+          -146,
+          35
+        ],
+        "role": "river cargo and food"
+      },
+      "west_quay": {
+        "label": "West bridge ward",
+        "center": [
+          -221,
+          65
+        ],
+        "role": "boat cargo, fish and repair"
+      },
+      "eastern_trades": {
+        "label": "Eastern trade streets",
+        "center": [
+          208,
+          10
+        ],
+        "role": "neighborhood workshops"
+      },
+      "eastern_backstreets": {
+        "label": "Eastern lodging lanes",
+        "center": [
+          232,
+          -66
+        ],
+        "role": "close shops, lodging and neighborhood courts"
+      },
+      "aqueduct_ward": {
+        "label": "Aqueduct ward",
+        "center": [
+          235,
+          151
+        ],
+        "role": "provisioning and cloth"
+      },
+      "north_insulae": {
+        "label": "Northern residential streets",
+        "center": [
+          -30,
+          262
+        ],
+        "role": "domestic trade and neighbors"
+      },
+      "upper_city": {
+        "label": "Upper city courts",
+        "center": [
+          80,
+          344
+        ],
+        "role": "bread, pottery and textiles"
+      },
+      "south_residential": {
+        "label": "Southern residential approaches",
+        "center": [
+          62,
+          -178
+        ],
+        "role": "arrival services and loading"
+      }
+    },
+    "counts": {
+      "commercial_assemblies": 235,
+      "stalls_and_cargo": 81,
+      "shopfronts": 64,
+      "complete_infill_shops": 90,
+      "vendors": 235,
+      "static_patrons": 2012,
+      "seated": 40,
+      "routes": 22,
+      "access_routes": 31,
+      "benches": 20,
+      "supported_lights": 20
+    },
+    "coverage": {
+      "rear_precinct": {
+        "assemblies": 15,
+        "patrons": 128,
+        "loops": 2
+      },
+      "temple_civic": {
+        "assemblies": 9,
+        "patrons": 101,
+        "loops": 2
+      },
+      "east_quay": {
+        "assemblies": 11,
+        "patrons": 125,
+        "loops": 2
+      },
+      "west_quay": {
+        "assemblies": 38,
+        "patrons": 334,
+        "loops": 2
+      },
+      "eastern_trades": {
+        "assemblies": 22,
+        "patrons": 254,
+        "loops": 2
+      },
+      "eastern_backstreets": {
+        "assemblies": 23,
+        "patrons": 198,
+        "loops": 2
+      },
+      "aqueduct_ward": {
+        "assemblies": 21,
+        "patrons": 157,
+        "loops": 4
+      },
+      "north_insulae": {
+        "assemblies": 28,
+        "patrons": 248,
+        "loops": 2
+      },
+      "upper_city": {
+        "assemblies": 50,
+        "patrons": 323,
+        "loops": 2
+      },
+      "south_residential": {
+        "assemblies": 18,
+        "patrons": 144,
+        "loops": 2
+      }
+    },
+    "population": {
+      "layouts": [
+        {
+          "path": "district_life_layout.json",
+          "sha256": "c9a1dc13452c0828ce613f65f3cc64ad96c4f45aeedf520113d830c94d73df96"
+        },
+        {
+          "path": "arena_interior_life_layout.json",
+          "sha256": "0d855926706173df6b39468f2d4fbeaabca19c30a756057740ec3ab097a8207c"
+        },
+        {
+          "path": "master_spine_life_layout.json",
+          "sha256": "ceab70ff3bd669b13750aed2a079e61164a957474e96d709efe58f0742bcb716"
+        },
+        {
+          "path": "civic_court_layout.json",
+          "sha256": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144"
+        }
+      ],
+      "staticAdded": 2299,
+      "animatedAdded": 124,
+      "seatedAdded": 44,
+      "walkingAdded": 110,
+      "fixedIdleAdded": 14,
+      "protectedInstances": 13265,
+      "zoneCounts": {
+        "district_south_residential": 166,
+        "district_west_quay": 376,
+        "district_eastern_backstreets": 225,
+        "district_aqueduct_ward": 188,
+        "district_north_insulae": 280,
+        "district_upper_city": 377,
+        "district_eastern_trades": 280,
+        "district_rear_precinct": 148,
+        "district_temple_civic": 115,
+        "district_east_quay": 140,
+        "district_arena_lower_gallery": 38,
+        "district_arena_upper_gallery": 8,
+        "district_arena_backstage": 10,
+        "district_city_gate_porta_spectaculorum": 2,
+        "district_city_gate_porta_orientalis": 2,
+        "district_city_gate_porta_pontis": 2,
+        "district_city_gate_porta_collina": 2,
+        "district_civic_court": 14,
+        "district_arrival_avenue": 6,
+        "district_quarter_southern_west": 2,
+        "district_quarter_southern_east": 3,
+        "district_quarter_southern_courts": 6,
+        "district_quarter_western_quay": 6,
+        "district_quarter_eastern_trades": 4,
+        "district_quarter_eastern_lanes": 4,
+        "district_quarter_aqueduct_courts": 3,
+        "district_quarter_western_civic": 3,
+        "district_quarter_temple_residential": 4,
+        "district_quarter_archive_quarter": 3,
+        "district_quarter_upper_courts": 4,
+        "district_quarter_northern_hillside": 2
+      },
+      "activityCounts": {
+        "bread": 41,
+        "produce": 39,
+        "cookshop": 40,
+        "cloth": 42,
+        "pottery": 37,
+        "cargo": 26,
+        "conversation": 779,
+        "customer": 768,
+        "porter": 40,
+        "resting": 44,
+        "resident": 446,
+        "watch": 4,
+        "steward": 5,
+        "gate_watch": 8,
+        "gardening": 2,
+        "walking": 61,
+        "hawker": 29,
+        "active_vendor": 10,
+        "preparing_supplies": 2
+      },
+      "regionCoverage": {
+        "district_aqueduct_ward": {
+          "static": 177,
+          "walking": 10,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "pottery": 5,
+            "cookshop": 4,
+            "cargo": 5,
+            "produce": 1,
+            "cloth": 2,
+            "bread": 3,
+            "conversation": 48,
+            "customer": 72,
+            "resting": 4,
+            "resident": 33,
+            "walking": 5,
+            "porter": 3,
+            "hawker": 2,
+            "active_vendor": 1
+          }
+        },
+        "district_arena_backstage": {
+          "static": 6,
+          "walking": 2,
+          "fixedIdle": 2,
+          "seated": 0,
+          "activities": {
+            "conversation": 6,
+            "porter": 2,
+            "preparing_supplies": 2
+          }
+        },
+        "district_arena_lower_gallery": {
+          "static": 30,
+          "walking": 6,
+          "fixedIdle": 2,
+          "seated": 0,
+          "activities": {
+            "conversation": 27,
+            "steward": 5,
+            "walking": 3,
+            "porter": 3
+          }
+        },
+        "district_arena_upper_gallery": {
+          "static": 8,
+          "walking": 0,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "conversation": 8
+          }
+        },
+        "district_arrival_avenue": {
+          "static": 0,
+          "walking": 6,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 4,
+            "hawker": 2
+          }
+        },
+        "district_city_gate_porta_collina": {
+          "static": 2,
+          "walking": 0,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "gate_watch": 2
+          }
+        },
+        "district_city_gate_porta_orientalis": {
+          "static": 2,
+          "walking": 0,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "gate_watch": 2
+          }
+        },
+        "district_city_gate_porta_pontis": {
+          "static": 2,
+          "walking": 0,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "gate_watch": 2
+          }
+        },
+        "district_city_gate_porta_spectaculorum": {
+          "static": 2,
+          "walking": 0,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "gate_watch": 2
+          }
+        },
+        "district_civic_court": {
+          "static": 10,
+          "walking": 4,
+          "fixedIdle": 0,
+          "seated": 4,
+          "activities": {
+            "resting": 4,
+            "gardening": 2,
+            "conversation": 4,
+            "walking": 2,
+            "hawker": 1,
+            "porter": 1
+          }
+        },
+        "district_east_quay": {
+          "static": 135,
+          "walking": 4,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "cookshop": 2,
+            "pottery": 2,
+            "produce": 2,
+            "bread": 3,
+            "cloth": 1,
+            "customer": 60,
+            "conversation": 60,
+            "resting": 4,
+            "watch": 1,
+            "walking": 2,
+            "porter": 1,
+            "hawker": 1,
+            "active_vendor": 1
+          }
+        },
+        "district_eastern_backstreets": {
+          "static": 220,
+          "walking": 4,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "cloth": 6,
+            "produce": 2,
+            "bread": 2,
+            "pottery": 3,
+            "cookshop": 4,
+            "cargo": 5,
+            "conversation": 64,
+            "customer": 67,
+            "porter": 9,
+            "resting": 4,
+            "resident": 55,
+            "walking": 2,
+            "hawker": 1,
+            "active_vendor": 1
+          }
+        },
+        "district_eastern_trades": {
+          "static": 275,
+          "walking": 4,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "bread": 6,
+            "cloth": 3,
+            "pottery": 4,
+            "produce": 4,
+            "cookshop": 1,
+            "cargo": 3,
+            "conversation": 89,
+            "customer": 91,
+            "porter": 5,
+            "resting": 4,
+            "resident": 66,
+            "walking": 2,
+            "hawker": 1,
+            "active_vendor": 1
+          }
+        },
+        "district_north_insulae": {
+          "static": 275,
+          "walking": 4,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "produce": 7,
+            "cookshop": 6,
+            "cloth": 5,
+            "pottery": 4,
+            "cargo": 1,
+            "bread": 4,
+            "conversation": 89,
+            "customer": 92,
+            "resting": 4,
+            "resident": 63,
+            "walking": 2,
+            "porter": 1,
+            "hawker": 1,
+            "active_vendor": 1
+          }
+        },
+        "district_quarter_aqueduct_courts": {
+          "static": 0,
+          "walking": 3,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "hawker": 1,
+            "walking": 2
+          }
+        },
+        "district_quarter_archive_quarter": {
+          "static": 0,
+          "walking": 3,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 2,
+            "hawker": 1
+          }
+        },
+        "district_quarter_eastern_lanes": {
+          "static": 0,
+          "walking": 4,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 3,
+            "hawker": 1
+          }
+        },
+        "district_quarter_eastern_trades": {
+          "static": 0,
+          "walking": 4,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 3,
+            "hawker": 1
+          }
+        },
+        "district_quarter_northern_hillside": {
+          "static": 0,
+          "walking": 2,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 1,
+            "hawker": 1
+          }
+        },
+        "district_quarter_southern_courts": {
+          "static": 0,
+          "walking": 6,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 4,
+            "hawker": 2
+          }
+        },
+        "district_quarter_southern_east": {
+          "static": 0,
+          "walking": 3,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 2,
+            "hawker": 1
+          }
+        },
+        "district_quarter_southern_west": {
+          "static": 0,
+          "walking": 2,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 1,
+            "hawker": 1
+          }
+        },
+        "district_quarter_temple_residential": {
+          "static": 0,
+          "walking": 4,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "hawker": 2,
+            "walking": 2
+          }
+        },
+        "district_quarter_upper_courts": {
+          "static": 0,
+          "walking": 4,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "walking": 3,
+            "hawker": 1
+          }
+        },
+        "district_quarter_western_civic": {
+          "static": 0,
+          "walking": 3,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "hawker": 1,
+            "walking": 2
+          }
+        },
+        "district_quarter_western_quay": {
+          "static": 0,
+          "walking": 6,
+          "fixedIdle": 0,
+          "seated": 0,
+          "activities": {
+            "porter": 2,
+            "walking": 3,
+            "hawker": 1
+          }
+        },
+        "district_rear_precinct": {
+          "static": 142,
+          "walking": 5,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "bread": 3,
+            "cookshop": 2,
+            "cloth": 4,
+            "pottery": 3,
+            "produce": 2,
+            "conversation": 58,
+            "customer": 66,
+            "resting": 4,
+            "walking": 3,
+            "hawker": 1,
+            "porter": 1,
+            "active_vendor": 1
+          }
+        },
+        "district_south_residential": {
+          "static": 161,
+          "walking": 4,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "bread": 3,
+            "produce": 4,
+            "cookshop": 3,
+            "cloth": 4,
+            "pottery": 3,
+            "conversation": 47,
+            "customer": 40,
+            "resting": 4,
+            "resident": 53,
+            "walking": 2,
+            "hawker": 1,
+            "porter": 1,
+            "active_vendor": 1
+          }
+        },
+        "district_temple_civic": {
+          "static": 109,
+          "walking": 5,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "pottery": 3,
+            "produce": 1,
+            "cloth": 2,
+            "cookshop": 2,
+            "customer": 51,
+            "conversation": 44,
+            "resting": 4,
+            "watch": 2,
+            "porter": 1,
+            "walking": 2,
+            "hawker": 2,
+            "active_vendor": 1
+          }
+        },
+        "district_upper_city": {
+          "static": 372,
+          "walking": 4,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "cookshop": 12,
+            "produce": 12,
+            "bread": 10,
+            "cloth": 10,
+            "pottery": 3,
+            "cargo": 2,
+            "conversation": 134,
+            "customer": 120,
+            "resting": 4,
+            "resident": 65,
+            "walking": 2,
+            "hawker": 1,
+            "porter": 1,
+            "active_vendor": 1
+          }
+        },
+        "district_west_quay": {
+          "static": 371,
+          "walking": 4,
+          "fixedIdle": 1,
+          "seated": 4,
+          "activities": {
+            "cloth": 5,
+            "cookshop": 4,
+            "pottery": 7,
+            "cargo": 10,
+            "bread": 7,
+            "produce": 4,
+            "conversation": 101,
+            "customer": 109,
+            "porter": 9,
+            "resting": 4,
+            "resident": 111,
+            "watch": 1,
+            "walking": 2,
+            "hawker": 1,
+            "active_vendor": 1
+          }
+        }
+      },
+      "previousPopulationFingerprint": "fb30173057a4e3848d94c066dc1fd343754497d2561c5bd016ff00df126beb40",
+      "fullCanonicalGeometry": true,
+      "oldPlacementsPreserved": true
+    },
+    "feedbackReference": "references/empty_outer_ward_feedback.png",
+    "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a"
+  },
+  "worldBoundary": {
+    "layout": "master_world_boundary.json",
+    "layoutSHA256": "5e029243b17fc3a657dd7b545e0da8fe3840aa4834e3a62ac83e9673293a4ebd",
+    "wallHeight": 8.5,
+    "closedGates": [
+      "Porta_Spectaculorum",
+      "Porta_Orientalis",
+      "Porta_Pontis",
+      "Porta_Collina"
+    ],
+    "watergates": 2,
+    "continuousOuterTerrain": true,
+    "groveTrees": 248,
+    "outerVillas": 16,
+    "scope": "Outer hills and villas are visual world continuation beyond the physically enclosed playable city.",
+    "quayPedestrianGates": {
+      "authority": "watergate_boundary_revision.json",
+      "authoritySHA256": "367d83c8b0a23010f215a69cd976dd2bcb1ac08a379fbbcbb8ee04c340708075",
+      "count": 4,
+      "purpose": "Supported visible iron gates close pedestrian quay-cap passages beside both river arches while retaining the central water corridor."
+    }
+  },
+  "referenceContinuation": {
+    "concept": "references/expanded_city_concept.png",
+    "provenance": "references/expanded_city_concept.json",
+    "role": "Layout aid for the unseen city; the primary user image still governs the arena."
+  },
+  "civicCourt": {
+    "layout": "civic_court_layout.json",
+    "layoutSHA256": "f675f292ca779964a70530655c2e19bd1960a078b7bf18c07f1374ccc5f9a144",
+    "parts": 40,
+    "role": "Fountain garden, planted beds, resting benches and complete L-shaped roofed porticoes enclose the eastern civic void."
+  },
+  "streetReviewCameras": {
+    "authority": "district_review_views.json",
+    "sha256": "7523777a6f3d99dd0cbe5d5084dd149008413a3475bfc83b4263b2d1f81f7c83"
+  }
+}

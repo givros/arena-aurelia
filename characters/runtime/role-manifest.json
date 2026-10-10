@@ -1,0 +1,232 @@
+{
+  "passed": true,
+  "source_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "source_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "roles": [
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\citizen.glb",
+      "role": "citizen",
+      "pose": "standing",
+      "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+      "scale_from_exact_base": 1.7118713409650586,
+      "bounds_blender": [
+        [
+          -0.3266257047653198,
+          -0.18298257887363434,
+          0.0
+        ],
+        [
+          0.3266257047653198,
+          0.17290247976779938,
+          1.8379008769989014
+        ]
+      ],
+      "triangles": 5002,
+      "source_base_triangles": 3134,
+      "instancing": "Merge geometries per material, preserve GLTF root transforms; standing height about 1.8m; forward is +Z in glTF.",
+      "parts": [
+        "CharacterBase",
+        "RomanTunic",
+        "LeatherBelt",
+        "HairCap",
+        "RomanSandals"
+      ],
+      "feet_ground_origin": true,
+      "compressed": false
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\merchant.glb",
+      "role": "merchant",
+      "pose": "standing",
+      "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+      "scale_from_exact_base": 1.7118713409650586,
+      "bounds_blender": [
+        [
+          -0.3266257047653198,
+          -0.18298257887363434,
+          0.0
+        ],
+        [
+          0.3266257047653198,
+          0.17290247976779938,
+          1.8379008769989014
+        ]
+      ],
+      "triangles": 5002,
+      "source_base_triangles": 3134,
+      "instancing": "Merge geometries per material, preserve GLTF root transforms; standing height about 1.8m; forward is +Z in glTF.",
+      "parts": [
+        "CharacterBase",
+        "RomanTunic",
+        "LeatherBelt",
+        "HairCap",
+        "RomanSandals"
+      ],
+      "feet_ground_origin": true,
+      "compressed": false
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\worker.glb",
+      "role": "worker",
+      "pose": "standing",
+      "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+      "scale_from_exact_base": 1.7118713409650586,
+      "bounds_blender": [
+        [
+          -0.3266257047653198,
+          -0.18298257887363434,
+          0.0
+        ],
+        [
+          0.3266257047653198,
+          0.17290247976779938,
+          1.8379008769989014
+        ]
+      ],
+      "triangles": 5002,
+      "source_base_triangles": 3134,
+      "instancing": "Merge geometries per material, preserve GLTF root transforms; standing height about 1.8m; forward is +Z in glTF.",
+      "parts": [
+        "CharacterBase",
+        "RomanTunic",
+        "LeatherBelt",
+        "HairCap",
+        "RomanSandals"
+      ],
+      "feet_ground_origin": true,
+      "compressed": false
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\noble.glb",
+      "role": "noble",
+      "pose": "standing",
+      "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+      "scale_from_exact_base": 1.7118713409650586,
+      "bounds_blender": [
+        [
+          -0.3266257047653198,
+          -0.18298257887363434,
+          0.0
+        ],
+        [
+          0.3266257047653198,
+          0.17290247976779938,
+          1.8379008769989014
+        ]
+      ],
+      "triangles": 5002,
+      "source_base_triangles": 3134,
+      "instancing": "Merge geometries per material, preserve GLTF root transforms; standing height about 1.8m; forward is +Z in glTF.",
+      "parts": [
+        "CharacterBase",
+        "RomanTunic",
+        "LeatherBelt",
+        "HairCap",
+        "RomanSandals"
+      ],
+      "feet_ground_origin": true,
+      "compressed": false
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\seated-spectator.glb",
+      "role": "seated-spectator",
+      "pose": "seated",
+      "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+      "scale_from_exact_base": 1.7118713409650586,
+      "bounds_blender": [
+        [
+          -0.2682296931743622,
+          -0.602431058883667,
+          0.0
+        ],
+        [
+          0.2682296931743622,
+          0.1645164042711258,
+          1.4080724716186523
+        ]
+      ],
+      "triangles": 5002,
+      "source_base_triangles": 3134,
+      "instancing": "Merge geometries per material, preserve GLTF root transforms; standing height about 1.8m; forward is +Z in glTF.",
+      "parts": [
+        "CharacterBase",
+        "RomanTunic",
+        "LeatherBelt",
+        "HairCap",
+        "RomanSandals"
+      ],
+      "feet_ground_origin": true,
+      "compressed": false
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\guard.glb",
+      "role": "guard",
+      "pose": "standing",
+      "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+      "scale_from_exact_base": 1.7118713409650586,
+      "bounds_blender": [
+        [
+          -0.42677822709083557,
+          -0.19565995037555695,
+          0.0
+        ],
+        [
+          0.5697668790817261,
+          0.17290247976779938,
+          2.6700398921966553
+        ]
+      ],
+      "triangles": 5890,
+      "source_base_triangles": 3134,
+      "instancing": "Merge geometries per material, preserve GLTF root transforms; standing height about 1.8m; forward is +Z in glTF.",
+      "parts": [
+        "CharacterBase",
+        "RomanTunic",
+        "LeatherBelt",
+        "HairCap",
+        "RomanSandals",
+        "BronzeArmor",
+        "RomanHelmet",
+        "GuardShield",
+        "GuardSpear"
+      ],
+      "feet_ground_origin": true,
+      "compressed": false
+    },
+    {
+      "asset": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\gladiator.glb",
+      "role": "gladiator",
+      "pose": "standing",
+      "source_blend_sha256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+      "scale_from_exact_base": 1.7118713409650586,
+      "bounds_blender": [
+        [
+          -0.44485563039779663,
+          -0.19565995037555695,
+          0.0
+        ],
+        [
+          0.5697668790817261,
+          0.17290247976779938,
+          1.8652865886688232
+        ]
+      ],
+      "triangles": 5878,
+      "source_base_triangles": 3134,
+      "instancing": "Merge geometries per material, preserve GLTF root transforms; standing height about 1.8m; forward is +Z in glTF.",
+      "parts": [
+        "CharacterBase",
+        "RomanTunic",
+        "LeatherBelt",
+        "HairCap",
+        "RomanSandals",
+        "BronzeArmor",
+        "RomanHelmet",
+        "GuardShield",
+        "GladiatorSword"
+      ],
+      "feet_ground_origin": true,
+      "compressed": false
+    }
+  ]
+}

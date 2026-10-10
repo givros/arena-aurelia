@@ -1,0 +1,67 @@
+{
+  "after_blend_sha256": "CB536DB2809E9996D046B23EEF460CE382A1160A90B12A8D8642A52A6CB8C169",
+  "after_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_gladiator_sword_after.json",
+  "after_semantic_digest": "93F412871072C31A4D3B39E44CB5416625952479F380C9D14C363CB95C6C5390",
+  "allowed_scopes": [
+    "garment:gladiator_sword"
+  ],
+  "before_blend_sha256": "F1CA4C9210296F34D18A7AA78BC8B08A09B3BCDFC295C6C7F703ACB79DB7FAB5",
+  "before_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\reports\\CharacterBase_garment_gladiator_sword_before.json",
+  "before_semantic_digest": "0C345D93F232C57BFB951AFB617B77A978358419E2B54C56BF33228FC89FC521",
+  "changed_scopes": [
+    "garment:gladiator_sword"
+  ],
+  "changes": [
+    {
+      "after": "E8B602D421E4A2E2BA8811EFF65D9BE256C85F1224CA9B8DA46420B65FB02DAF",
+      "allowed": true,
+      "before": "6FA9399AC91F3E635D577679FD26D62127F106CF6EA06A2E72CD7D2459658F33",
+      "change": "modified",
+      "members": [
+        {
+          "after": "9F2A9192F680DE57A5DE95F1FCC1E39E28FAD11A4047535D105743E657D781CB",
+          "before": "614CD5CED4745C5C427DFB0F221BC11548427ECDC373329EFDC76F2C81F53ACA",
+          "change": "modified",
+          "member": "object:GladiatorSword:geometry"
+        },
+        {
+          "after": "C720281AA82665A9860FFACB103030088D818A2815AE6B5DB1E381E315BE64E6",
+          "before": "CAEB729C0BC7FB305D90B80D9E4B0E21A9527E8AC31D059FAB7B7E688126759E",
+          "change": "modified",
+          "member": "object:GladiatorSword:metadata"
+        },
+        {
+          "after": "5B0E9D2C09698B0A38B19BF901D07575545E54B9F436A343E5468A782F36C84C",
+          "before": "68EBAA6B4E9073E4C5DE06EAF9A8A5D2B3F594AFAD98E33534C39558A5891158",
+          "change": "modified",
+          "member": "object:GladiatorSword:transform_and_parent"
+        },
+        {
+          "after": "0E1AF998048025838FD3F94903AD14CEA8506D237A6ECB5A5DEEC0346A482D5A",
+          "before": "281071037C1F734B8D7B5B7EBF4C20C32A54BF195697F26FD216B98A9F139F2D",
+          "change": "modified",
+          "member": "object:GladiatorSword:uv_and_attributes"
+        }
+      ],
+      "scope": "garment:gladiator_sword"
+    }
+  ],
+  "passed": true,
+  "schema": "codex.blender.component-comparison/v1",
+  "unchanged_scopes": [
+    "animations",
+    "body_geometry",
+    "garment:bronze_armor",
+    "garment:guard_shield",
+    "garment:guard_spear",
+    "garment:hair_cap",
+    "garment:leather_belt",
+    "garment:roman_helmet",
+    "garment:roman_sandals",
+    "garment:roman_tunic",
+    "other_objects",
+    "rig_rest",
+    "skin_material"
+  ],
+  "violations": []
+}

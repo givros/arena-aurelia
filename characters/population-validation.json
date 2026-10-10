@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\runtime\\crowd_manifest.json",
+  "counts": {
+    "seating_lower": 3435,
+    "seating_middle": 4003,
+    "seating_upper": 4562,
+    "arena_training": 6,
+    "gladiator_preparation": 6,
+    "gate_guard": 24,
+    "market_vendor": 28,
+    "imperial_loggia": 8,
+    "plaza_crowd": 200,
+    "facade_statue": 24,
+    "ceremonial_statue": 2,
+    "hypogeum_work": 16,
+    "plaza_patrol": 8
+  },
+  "sourcePopulation": {
+    "instanceCount": 12322,
+    "sharedVariantCollections": 27,
+    "importedAssetCollections": 8,
+    "evaluatedTriangleInstances": 61689244,
+    "sourceCollection": "Population",
+    "allCharactersFullBase": true,
+    "sourcePatrolTransformKeyframes": true,
+    "sourceWalkClipCyclic": true,
+    "sourceInstancesExcludedFromEnvironmentTransfer": true,
+    "runtimeManifestRequired": true,
+    "triangleCounting": "Authored character meshes only; importer-only bone display helpers excluded",
+    "importerDisplayHelperTriangleInstancesRemoved": 640,
+    "animatedNormalizationScale": 1.7118713409650586
+  },
+  "source_runtime_positions_identical": true,
+  "canonicalCharacterSHA256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "assetHashes": {
+    "seated-spectator": "ad2f7dcb305c15c17aa0932d242f6f1b4dd4924b226137621010aaf16c52b551",
+    "gladiator": "de2c7f1f429ba45b25856d7dd387ff69fba8fa06c8c37e6fb1638ea6dba4fbc4",
+    "guard": "2bd6bf94a7877dcbdb54042b9d38b383c42366e737dcf5593fac3e38769cd2b9",
+    "merchant": "2ed280a8d623afe174603d23eb7ec806f40ca3cff2269e108671f9ebbd469f26",
+    "noble": "5c5818093ddbd551377e07eee9688fc2ed2da2b5bea14a1ea58fe4c5a406d7ae",
+    "citizen": "6e5aae07e4a034ea37ff6fe2e9f3742d754a135f34f4ac79af99675961392cfb",
+    "worker": "a4ac3696e7e0d868975f34e7deada13a13f3d86bc7a2c9dfb55dde78bd20e03d",
+    "animated-citizen": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4"
+  },
+  "placement_contract": {
+    "seated_pelvis_radius_offset": 0.68,
+    "bench_radius_offset": 0.64,
+    "bench_top_above_tread": 0.43,
+    "seated_butt_above_origin": 0.43974,
+    "seating_height_scale": 1.3,
+    "feet_z_relative_tread": -0.01,
+    "spectator_spacing": 0.72,
+    "seated_pose": "Compact arms held alongside the torso; forearms toward lap"
+  }
+}

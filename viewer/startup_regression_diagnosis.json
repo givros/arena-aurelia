@@ -1,0 +1,55 @@
+{
+  "status": "diagnosed_and_corrected",
+  "scope": "Owned headless test only; no user browser control.",
+  "sourceSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+  "rejectedModuleSHA256": "b10604716cce00f2b100a059faa2d214afe4e0d40225ea9a433db3c736ce5efe",
+  "rejectedBuild": {
+    "index-Cj9FlUBs.css": "828f2211e57f5636f17e63e33aadb05973cb00497c61b63cf43d7fa0319fc55b",
+    "index-DY3Q2IzG.js": "5f0e8d6ee7a772e889fe3ff5b15a4d2d1cdf9d9dba295d5e7132d1212584237c"
+  },
+  "observations": {
+    "coldUninstrumentedMs": 341045.7,
+    "reloadWithLateDiagnosticMs": 354500.3,
+    "progress": [
+      {
+        "elapsedMs": 157117.6,
+        "text": "Preparing the complete district...77%"
+      },
+      {
+        "elapsedMs": 242485.1,
+        "text": "Preparing the district's shadows...53%"
+      }
+    ],
+    "cpuSample": {
+      "file": "performance/startup_cpu_observation.json",
+      "getUniformsSamples": 2922,
+      "totalSamples": 3778
+    },
+    "liveUniform": {
+      "name": "lightIndexes",
+      "type": "storageBuffer",
+      "nodeType": "ivec4",
+      "bufferCountType": "Int32Array",
+      "bufferCountScalarLength": 12533760,
+      "compressedRaw": "performance/startup_uniform_observation.json.gz",
+      "rawSHA256": "880d72dd322a21b971eb33135ef5d69fed69937560011ed9e7237f74430a3cd6",
+      "rawBytes": 402509393
+    },
+    "hostSample": {
+      "seconds": 2,
+      "rendererCPUSeconds": 1.546875,
+      "gpuProcessCPUSeconds": 0.78125,
+      "owned3DPercent": 1.1763,
+      "uncontrolledBrowser3DPercent": 2.3843
+    }
+  },
+  "cause": "Pinned attributeArray forwards its TypedArray argument as StorageBufferNode.bufferCount. WGSLNodeBuilder.getUniforms evaluates bufferCount > 0 before the storage-type guard, stringifying every integer for each shader. Increasing reserved capacity magnified this pre-existing addon/helper mismatch.",
+  "correction": "Pass a numeric ivec4 element count to public attributeArray. The same Int32 zeroed allocation, storage declaration, kernel and light results are retained.",
+  "measurementCaveat": "Cold341.05s startup was uninstrumented. The reload had a late3s CPU profile and one paused uniform snapshot;354.50s is diagnostic rather than a clean benchmark.",
+  "finalEvidence": [
+    "stable_grid_cpu_validation.json",
+    "stable_grid_gpu_validation.json",
+    "stable_grid_pixel_validation.json",
+    "stable_grid_validation.json"
+  ]
+}

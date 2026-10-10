@@ -1,0 +1,506 @@
+{
+  "profileVersion": 6,
+  "name": "Arena Aurelia desktop WebGPU",
+  "versions": {
+    "three": "0.186.1",
+    "threeTypes": "0.183.1",
+    "typescript": "5.9.3",
+    "vite": "7.3.1"
+  },
+  "backend": {
+    "required": "WebGPU",
+    "fallback": false,
+    "checks": [
+      "secure context",
+      "navigator.gpu",
+      "adapter acquisition",
+      "actual renderer.backend.isWebGPUBackend",
+      "device loss"
+    ]
+  },
+  "source": {
+    "manifest": "public/assets/environment.json",
+    "binary": "public/assets/environment.bin",
+    "coordinateTransform": "Blender [x,y,z] to Three [x,z,-y]",
+    "units": "meters",
+    "precision": "Float32 source vertex positions/normals/UVs; Uint32 indices; full transforms",
+    "blendSHA256": "408daf3279785df7cdb0e62c3aae854c1524b406f307f5576891f8e1530f4d6a",
+    "manifestSHA256": "740c4b06ec047280e5bf9669a7e01f77ca86c82a47ba068608f572e8892ac966",
+    "binarySHA256": "792a5dc7304bba72121d31590aad09a945ffe252268b1dfa5337c240b2011756",
+    "characterManifestSHA256": "94d1df300f7fbad2e7ef4f20b9fcccb0803966a06fba8069da678b2b612e50d0"
+  },
+  "quality": {
+    "pixelRatio": "native devicePixelRatio",
+    "antialiasing": "4x hardware MSAA",
+    "shadowResolution": [
+      4096,
+      4096
+    ],
+    "shadowAlgorithm": "PCFShadowMap",
+    "compression": "none",
+    "geometrySimplification": false,
+    "automaticQualityReduction": false,
+    "textures": "source resolution, base color sRGB, data maps linear, anisotropy 8",
+    "shadowBias": -0.00035,
+    "normalBiasMeters": 0.06
+  },
+  "passes": [
+    {
+      "ownership": "GPU screen/depth cluster lists for every authored finite point light",
+      "resolution": "32 px tiles, 24 depth slices",
+      "name": "Cluster light assignment"
+    },
+    {
+      "name": "simulation",
+      "ownership": "single bounded frame update for navigation, day/night, actors"
+    },
+    {
+      "name": "direct shadows",
+      "contributors": "every complete visible source mesh including instances and characters",
+      "resolution": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "name": "Forward+ clustered PBR",
+      "output": "scene-linear radiance",
+      "resolution": "native full drawing buffer"
+    },
+    {
+      "name": "output",
+      "toneMapping": "ACESFilmic",
+      "exposure": 0.94,
+      "outputColor": "sRGB",
+      "applications": 1
+    }
+  ],
+  "lighting": {
+    "direct": "single sun + readable moon fill; full-detail sun shadows",
+    "indirectDiffuse": "hemisphere sky/ground fill",
+    "localized": "Source-authored finite point lights evaluated by a local stable-grid implementation of the pinned Three.js0.186.1 ClusteredLighting algorithm; exact GPU index-buffer and pixel equivalence validated.",
+    "bakedContributions": false,
+    "reflections": "material BRDF; no planar or ray-traced reflection pass",
+    "timeCycleSeconds": 1080,
+    "clusters": {
+      "capacity": "At least 64 lights and never lower than the entire authored light count; no list truncation",
+      "depthSlices": 24,
+      "tilePixels": 32
+    },
+    "fog": {
+      "nearMeters": 1200,
+      "farMeters": 4500,
+      "dayColor": "#c1c6c5",
+      "type": "linear"
+    },
+    "fill": {
+      "dayHemisphere": 0.94,
+      "daySun": "up to 3.2",
+      "nightHemisphere": 1.12,
+      "nightMoon": 0.77
+    },
+    "shadowFocus": "Walking: player position. Aerial: inspected orbit target. Full source contributors and original 4096 resolution are retained.",
+    "sky": {
+      "radiusMeters": 5000,
+      "angularGradientPreserved": true,
+      "purpose": "Encloses the complete authored outer terrain from every permitted broad orbit"
+    },
+    "stableClusterGrid": {
+      "module": "src/stable-clustered-lighting.js",
+      "reservedNativeViewport": [
+        3840,
+        2160
+      ],
+      "reservedClusters": 195840,
+      "reservedBytes": 50135040,
+      "activePointLights": 53,
+      "tilePixels": 32,
+      "depthSlices": 24,
+      "capacityPerCluster": 64,
+      "resize": "Uniform grid dimensions and dynamic active dispatch count; same compute/storage/node identities within reserve.",
+      "growth": "Geometric capacity growth above reserve, checked against actual device storage/max-buffer limits. No resolution or light clamp. Prior standalone allocations may remain until renderer teardown.",
+      "evidence": "stable_grid_validation.json",
+      "storageAllocation": "Numeric ivec4 element count; identical zeroed Int32 allocation without TypedArray bufferCount coercion during shader declarations."
+    }
+  },
+  "temporal": {
+    "TAA": false,
+    "historyBuffers": false,
+    "animationDtMaxSeconds": 0.05
+  },
+  "cache": {
+    "persistentLightingCache": "not used",
+    "geometrySharing": "Exact source geometry, large repeated groups instanced; smaller components merged by material within 150m cells; unchanged spectators shared in eight angular instance groups",
+    "collision": "prototype triangle BVH with exact transformed instances and spatial hash; separate from beauty geometry",
+    "shaderPreparation": {
+      "scope": "Every complete source main and direct-shadow pipeline, including off-camera content, prepared before exploration.",
+      "shadowBatchSize": 64,
+      "runtimeFlags": "Original visibility and frustum-culling flags restored before readiness.",
+      "invalidation": "Ordinary renderer camera/light/material updates remain active. No cached shadow or render-command reuse.",
+      "progress": "Main and shadow preparation have distinct progress phases; shadow batches yield to the loading UI."
+    },
+    "characterPrimitives": "Exactly compatible full primitive attributes and indices concatenated; original linear RGB baked into vertex colors on a cloned otherwise-identical material. No welding, normal reconstruction, triangle loss, texture compression or LOD. Tintable tunics and uniform stone overrides stay separate.",
+    "skeletons": "Identical bone-reference/inverse-matrix skeleton wrappers consolidated only within one actor; actor bones and animation mixers remain independent.",
+    "rejectedExperiment": "Static WebGPU command bundles failed pixel-equivalence checks and are absent from the production renderer; no private engine adapter is applied."
+  },
+  "navigation": {
+    "eyeHeightMeters": 1.72,
+    "bodyHeightMeters": 1.84,
+    "radiusMeters": 0.32,
+    "stepHeightMeters": 0.38,
+    "walkSpeedMetersPerSecond": 4.2,
+    "runSpeedMetersPerSecond": 7.5,
+    "walkingFovDegrees": 67,
+    "controls": [
+      "WASD",
+      "ZQSD",
+      "mouse look",
+      "Shift run",
+      "Space jump",
+      "M aerial/walk",
+      "Escape pause"
+    ],
+    "support": "Layer-aware five-sample footprint support using downward exact-triangle rays; grounded-only stair stepping, with airborne landing limited to the current foot height plus 1 cm tolerance.",
+    "blocking": "multiheight, body-width swept rays with axis sliding",
+    "bounds": "Physical authored walls, closed gates and bank grilles form the visible boundary. Source-authored XZ bounds are the final fallback beyond the enclosure.",
+    "aerial": {
+      "maximumOrbitDistanceMeters": 850,
+      "maximumPolarAngleDegrees": 85,
+      "minimumCameraHeightMeters": 1.5,
+      "panning": "Horizontal plane with target XZ clamped to source navigation bounds",
+      "authoredInspectionViews": "Exact source camera viewpoints, including underground rooms, are preserved separately from free orbit safeguards",
+      "surfaceClearanceMeters": 2,
+      "surfaceClearance": "Actual upward-facing source triangles at five camera-footprint samples, with cached probes during stationary views; authored source inspection views bypass the constraint."
+    },
+    "cameraFarPlaneMeters": 6500,
+    "airborneStepCorrectnessEvidence": "navigation_airborne_validation.json"
+  },
+  "validation": {
+    "scope": "desktop only",
+    "sourceHashes": "recorded by scripts/validate.mjs after final source export",
+    "status": "Resolved profile; final evidence and hashes in runtime_validation.json and source_validation.json",
+    "reproducibleInstall": "npm ci --ignore-scripts --no-audit --no-fund passed on Node 22.15.0 / npm 10.9.2",
+    "performance": "Actual WebGPU frame/CPU/GPU-render timings, source/build hashes and before/after scenarios are recorded in performance_optimization.json."
+  },
+  "simulation": {
+    "movingActors": 142,
+    "canonicalFullTriangleInstances": 78613716,
+    "locomotion": "Exact authored 3D polylines, constant speed across sampled waypoints, independent source animation phases",
+    "interaction": "Walking actors wait on their lane within 0.9m of the player and 0.64m of another actor, crossfading authored Walk and Idle clips; no solid crowd walls",
+    "sourceTiming": "Player and pedestrian waits affect runtime timing only; route geometry and complete source GLB meshes remain unchanged",
+    "materialVariation": "Authored palette tint on RomanTunic material only, shared by asset and color",
+    "staticCharacterBatching": "Full canonical geometry instanced by role/material and 64 m district cells; seating uses paired radial sectors. Standard camera/light frustum culling retains all visible geometry and shadow contributors.",
+    "fixedAnimatedStaff": 22,
+    "regions": {
+      "seating_lower": {
+        "total": 3435,
+        "static": 3435,
+        "animated": 0,
+        "walking": 0
+      },
+      "seating_middle": {
+        "total": 4003,
+        "static": 4003,
+        "animated": 0,
+        "walking": 0
+      },
+      "seating_upper": {
+        "total": 4562,
+        "static": 4562,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_city_gate_porta_collina": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_city_gate_porta_orientalis": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_city_gate_porta_pontis": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_city_gate_porta_spectaculorum": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "district_civic_court": {
+        "total": 14,
+        "static": 10,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_south_residential": {
+        "total": 166,
+        "static": 161,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_west_quay": {
+        "total": 376,
+        "static": 371,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_eastern_backstreets": {
+        "total": 225,
+        "static": 220,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_aqueduct_ward": {
+        "total": 188,
+        "static": 177,
+        "animated": 11,
+        "walking": 10
+      },
+      "district_north_insulae": {
+        "total": 280,
+        "static": 275,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_upper_city": {
+        "total": 377,
+        "static": 372,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_eastern_trades": {
+        "total": 280,
+        "static": 275,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_rear_precinct": {
+        "total": 148,
+        "static": 142,
+        "animated": 6,
+        "walking": 5
+      },
+      "district_temple_civic": {
+        "total": 115,
+        "static": 109,
+        "animated": 6,
+        "walking": 5
+      },
+      "district_east_quay": {
+        "total": 140,
+        "static": 135,
+        "animated": 5,
+        "walking": 4
+      },
+      "district_arena_lower_gallery": {
+        "total": 38,
+        "static": 30,
+        "animated": 8,
+        "walking": 6
+      },
+      "district_arena_backstage": {
+        "total": 10,
+        "static": 6,
+        "animated": 4,
+        "walking": 2
+      },
+      "district_arena_upper_gallery": {
+        "total": 8,
+        "static": 8,
+        "animated": 0,
+        "walking": 0
+      },
+      "arena_training": {
+        "total": 6,
+        "static": 6,
+        "animated": 0,
+        "walking": 0
+      },
+      "gladiator_preparation": {
+        "total": 6,
+        "static": 6,
+        "animated": 0,
+        "walking": 0
+      },
+      "gate_guard": {
+        "total": 24,
+        "static": 24,
+        "animated": 0,
+        "walking": 0
+      },
+      "imperial_loggia": {
+        "total": 8,
+        "static": 8,
+        "animated": 0,
+        "walking": 0
+      },
+      "facade_statue": {
+        "total": 24,
+        "static": 24,
+        "animated": 0,
+        "walking": 0
+      },
+      "ceremonial_statue": {
+        "total": 2,
+        "static": 2,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_entry_gathering": {
+        "total": 103,
+        "static": 103,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_customer": {
+        "total": 604,
+        "static": 604,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_conversation": {
+        "total": 280,
+        "static": 280,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_porter": {
+        "total": 64,
+        "static": 56,
+        "animated": 8,
+        "walking": 8
+      },
+      "street_vendor": {
+        "total": 96,
+        "static": 96,
+        "animated": 0,
+        "walking": 0
+      },
+      "hypogeum_work": {
+        "total": 16,
+        "static": 16,
+        "animated": 0,
+        "walking": 0
+      },
+      "street_itinerant_merchant": {
+        "total": 8,
+        "static": 0,
+        "animated": 8,
+        "walking": 8
+      },
+      "street_passerby": {
+        "total": 16,
+        "static": 0,
+        "animated": 16,
+        "walking": 16
+      },
+      "street_active_vendor": {
+        "total": 8,
+        "static": 0,
+        "animated": 8,
+        "walking": 0
+      },
+      "district_arrival_avenue": {
+        "total": 6,
+        "static": 0,
+        "animated": 6,
+        "walking": 6
+      },
+      "district_quarter_southern_west": {
+        "total": 2,
+        "static": 0,
+        "animated": 2,
+        "walking": 2
+      },
+      "district_quarter_southern_east": {
+        "total": 3,
+        "static": 0,
+        "animated": 3,
+        "walking": 3
+      },
+      "district_quarter_southern_courts": {
+        "total": 6,
+        "static": 0,
+        "animated": 6,
+        "walking": 6
+      },
+      "district_quarter_western_quay": {
+        "total": 6,
+        "static": 0,
+        "animated": 6,
+        "walking": 6
+      },
+      "district_quarter_eastern_trades": {
+        "total": 4,
+        "static": 0,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_quarter_eastern_lanes": {
+        "total": 4,
+        "static": 0,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_quarter_aqueduct_courts": {
+        "total": 3,
+        "static": 0,
+        "animated": 3,
+        "walking": 3
+      },
+      "district_quarter_western_civic": {
+        "total": 3,
+        "static": 0,
+        "animated": 3,
+        "walking": 3
+      },
+      "district_quarter_temple_residential": {
+        "total": 4,
+        "static": 0,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_quarter_archive_quarter": {
+        "total": 3,
+        "static": 0,
+        "animated": 3,
+        "walking": 3
+      },
+      "district_quarter_upper_courts": {
+        "total": 4,
+        "static": 0,
+        "animated": 4,
+        "walking": 4
+      },
+      "district_quarter_northern_hillside": {
+        "total": 2,
+        "static": 0,
+        "animated": 2,
+        "walking": 2
+      }
+    },
+    "characterDerivedInstances": 15688,
+    "livingPeople": 15662,
+    "statues": 26
+  },
+  "requestedFogChange": {
+    "beforeMeters": [
+      420,
+      1350
+    ],
+    "afterMeters": [
+      1200,
+      4500
+    ],
+    "reason": "Explicit user request to disable or strongly reduce fog. Day/night fog colors, sky and camera far plane unchanged.",
+    "pairedPerformance": "Both final measured arms use1200/4500."
+  }
+}

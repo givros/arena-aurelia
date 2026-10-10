@@ -1,0 +1,126 @@
+{
+  "passed": true,
+  "canonicalUnchanged": true,
+  "canonicalSHA256": "3af7ae6d2dac7fa45fc26d1a9aaf68bdfd9488c420a6535a5b06dc6f4a868ead",
+  "animatedSourceUnchanged": true,
+  "sourceAnimatedAssetSHA256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+  "fullCanonicalBodyPreserved": true,
+  "assets": [
+    {
+      "id": "citizen-idle-0",
+      "path": "runtime/citizen-idle-0.glb",
+      "sha256": "6d80cb361e3857d301c9efa7e0c281dd88700ad4060d82adf043127d3b607d8b",
+      "pose": "Relaxed Idle",
+      "basePose": "Bundled Idle frame 8",
+      "editorialPoseOnlyArmRotations": [],
+      "clip": "Idle",
+      "importedFPS": 24,
+      "frame": 8,
+      "triangles": 5002,
+      "bodyTriangles": 3134,
+      "shoeSoleGaps": [
+        0.0,
+        0.0009132730774581432
+      ],
+      "heightMeters": 1.821634292602539,
+      "sourceAnimatedAssetSHA256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+      "meshSimplification": false,
+      "compression": "none"
+    },
+    {
+      "id": "citizen-idle-1",
+      "path": "runtime/citizen-idle-1.glb",
+      "sha256": "c2f8681ec7c6f14d2508da41750126b3f8bebe859a40aa49c75a34c801e5b361",
+      "pose": "Conversational right hand",
+      "basePose": "Bundled Idle frame 38",
+      "editorialPoseOnlyArmRotations": [
+        [
+          "forearm.R",
+          -76
+        ]
+      ],
+      "clip": "Idle",
+      "importedFPS": 24,
+      "frame": 38,
+      "triangles": 5002,
+      "bodyTriangles": 3134,
+      "shoeSoleGaps": [
+        0.0,
+        0.0008819345384836197
+      ],
+      "heightMeters": 1.8203034400939941,
+      "sourceAnimatedAssetSHA256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+      "meshSimplification": false,
+      "compression": "none"
+    },
+    {
+      "id": "citizen-idle-2",
+      "path": "runtime/citizen-idle-2.glb",
+      "sha256": "e327e0cef41dd67a3bbb42a64763a73b1d8234bd86feb282b6efc8fc0e8aa2f7",
+      "pose": "Both hands forward at waist",
+      "basePose": "Bundled Idle frame 78",
+      "editorialPoseOnlyArmRotations": [
+        [
+          "forearm.R",
+          -65
+        ],
+        [
+          "forearm.L",
+          -70
+        ]
+      ],
+      "clip": "Idle",
+      "importedFPS": 24,
+      "frame": 78,
+      "triangles": 5002,
+      "bodyTriangles": 3134,
+      "shoeSoleGaps": [
+        0.0,
+        0.0008066394366323948
+      ],
+      "heightMeters": 1.8205561637878418,
+      "sourceAnimatedAssetSHA256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+      "meshSimplification": false,
+      "compression": "none"
+    },
+    {
+      "id": "citizen-idle-3",
+      "path": "runtime/citizen-idle-3.glb",
+      "sha256": "05d124028f8a413d04f39dbe390038703049720f7ce58963c3b1d9e64fb4db1f",
+      "pose": "Open left-hand explanation",
+      "basePose": "Bundled Idle frame 122",
+      "editorialPoseOnlyArmRotations": [
+        [
+          "upper_arm.L",
+          -22
+        ],
+        [
+          "forearm.L",
+          -80
+        ],
+        [
+          "forearm.R",
+          -38
+        ]
+      ],
+      "clip": "Idle",
+      "importedFPS": 24,
+      "frame": 122,
+      "triangles": 5002,
+      "bodyTriangles": 3134,
+      "shoeSoleGaps": [
+        0.0,
+        0.000822966918349266
+      ],
+      "heightMeters": 1.8216731548309326,
+      "sourceAnimatedAssetSHA256": "217275030d997f8f99989a1e08f08dd270aa831f0c3088f52fc103b862d039b4",
+      "meshSimplification": false,
+      "compression": "none"
+    }
+  ],
+  "visualQC": {
+    "path": "ambient_pose_qc.png",
+    "inspected": true,
+    "notes": "Complete bodies, coherent Roman tunics, relaxed and conversational forearm gestures, grounded soles; front view foreshortens forward gestures"
+  }
+}

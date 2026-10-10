@@ -1,0 +1,427 @@
+{
+  "status": "ok",
+  "input_blend": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\CharacterBase.blend",
+  "input_blend_sha256": "3AF7AE6D2DAC7FA45FC26D1A9AAF68BDFD9488C420A6535A5B06DC6F4A868EAD",
+  "blend_validation": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-validation.json",
+  "blend_validation_sha256": "4B378F2C2A7F2FD777A9352A027CA6DB04F3C03DD5A82F01ADE55674F1C448F5",
+  "garments": [
+    "BronzeArmor",
+    "GladiatorSword",
+    "GuardShield",
+    "GuardSpear",
+    "HairCap",
+    "LeatherBelt",
+    "RomanHelmet",
+    "RomanSandals",
+    "RomanTunic"
+  ],
+  "garment_names": [
+    "BronzeArmor",
+    "GladiatorSword",
+    "GuardShield",
+    "GuardSpear",
+    "HairCap",
+    "LeatherBelt",
+    "RomanHelmet",
+    "RomanSandals",
+    "RomanTunic"
+  ],
+  "garment_discovery": {
+    "mode": "auto",
+    "marker_property": "codex_clothing",
+    "marker_value": true,
+    "requested_names": null,
+    "discovered_names": [
+      "BronzeArmor",
+      "GladiatorSword",
+      "GuardShield",
+      "GuardSpear",
+      "HairCap",
+      "LeatherBelt",
+      "RomanHelmet",
+      "RomanSandals",
+      "RomanTunic"
+    ],
+    "resolved_names": [
+      "BronzeArmor",
+      "GladiatorSword",
+      "GuardShield",
+      "GuardSpear",
+      "HairCap",
+      "LeatherBelt",
+      "RomanHelmet",
+      "RomanSandals",
+      "RomanTunic"
+    ]
+  },
+  "camera_manifest": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\camera-manifest.json",
+  "camera_manifest_sha256": "65CB371084DF6B997370A7346482944D59E93A2C376120299424363E83FD6D23",
+  "custom_view_count": 13,
+  "custom_views": [
+    {
+      "name": "wardrobe_front",
+      "visible": [
+        "CharacterBase",
+        "BronzeArmor",
+        "GladiatorSword",
+        "GuardShield",
+        "GuardSpear",
+        "HairCap",
+        "LeatherBelt",
+        "RomanHelmet",
+        "RomanSandals",
+        "RomanTunic"
+      ]
+    },
+    {
+      "name": "wardrobe_back",
+      "visible": [
+        "CharacterBase",
+        "BronzeArmor",
+        "GladiatorSword",
+        "GuardShield",
+        "GuardSpear",
+        "HairCap",
+        "LeatherBelt",
+        "RomanHelmet",
+        "RomanSandals",
+        "RomanTunic"
+      ]
+    },
+    {
+      "name": "wardrobe_side",
+      "visible": [
+        "CharacterBase",
+        "BronzeArmor",
+        "GladiatorSword",
+        "GuardShield",
+        "GuardSpear",
+        "HairCap",
+        "LeatherBelt",
+        "RomanHelmet",
+        "RomanSandals",
+        "RomanTunic"
+      ]
+    },
+    {
+      "name": "wardrobe_three_quarter",
+      "visible": [
+        "CharacterBase",
+        "BronzeArmor",
+        "GladiatorSword",
+        "GuardShield",
+        "GuardSpear",
+        "HairCap",
+        "LeatherBelt",
+        "RomanHelmet",
+        "RomanSandals",
+        "RomanTunic"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_bronze_armor",
+      "visible": [
+        "BronzeArmor"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_gladiator_sword",
+      "visible": [
+        "GladiatorSword"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_guard_shield",
+      "visible": [
+        "GuardShield"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_guard_spear",
+      "visible": [
+        "GuardSpear"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_hair_cap",
+      "visible": [
+        "HairCap"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_leather_belt",
+      "visible": [
+        "LeatherBelt"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_roman_helmet",
+      "visible": [
+        "RomanHelmet"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_roman_sandals",
+      "visible": [
+        "RomanSandals"
+      ]
+    },
+    {
+      "name": "wardrobe_isolated_roman_tunic",
+      "visible": [
+        "RomanTunic"
+      ]
+    }
+  ],
+  "garment_view_coverage": {
+    "BronzeArmor": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_bronze_armor"
+      ]
+    },
+    "GladiatorSword": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_gladiator_sword"
+      ]
+    },
+    "GuardShield": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_guard_shield"
+      ]
+    },
+    "GuardSpear": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_guard_spear"
+      ]
+    },
+    "HairCap": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_hair_cap"
+      ]
+    },
+    "LeatherBelt": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_leather_belt"
+      ]
+    },
+    "RomanHelmet": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_roman_helmet"
+      ]
+    },
+    "RomanSandals": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_roman_sandals"
+      ]
+    },
+    "RomanTunic": {
+      "covered": true,
+      "custom_view_count": 5,
+      "custom_views": [
+        "wardrobe_front",
+        "wardrobe_back",
+        "wardrobe_side",
+        "wardrobe_three_quarter",
+        "wardrobe_isolated_roman_tunic"
+      ]
+    }
+  },
+  "images": [
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_front.png",
+      "sha256": "2A4551315C4D07EA9B46290B01DBDE728B8BB7BC8357AF38DF55DAA080FE8CF3"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_back.png",
+      "sha256": "FBEC791D15FD0CA0E809036089BE1E58000019B6E2CDAD6E43D25FCDA4F4EC80"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_left.png",
+      "sha256": "3E9E64D5E969DFAE323FF7D93C296ABDA56483BFE9418F8DF4691B0F37DC5C2C"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_right.png",
+      "sha256": "25857E9104292A90183346ED3ACBD0F8D0EE8141D5902E0725D4DB966492759D"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_front_three_quarter.png",
+      "sha256": "A7F1ECE77DD5F2C0A3E414575AF9BDDE1D6E432E82D4A126A82C6F8EE5C9C0F9"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_back_three_quarter.png",
+      "sha256": "4D89CC56D733C26882DF860683EDDF4D093EF411842290C2493F452EA09918EA"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_BronzeArmor_isolated_front.png",
+      "sha256": "110A6FF4462DB348DEA9E5B6F88BB7C3DED299D0E8492868324690890883E6EF"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_BronzeArmor_isolated_back.png",
+      "sha256": "5143106F6EF16589C5DF352B0261566F0A9D88FAABDE310350B2CB3208594B9D"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_GladiatorSword_isolated_front.png",
+      "sha256": "F8337C2A3234B916CF5E066D28F3AF870EA6AA6144A1F9BB6C1D2DFA47C1CF45"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_GladiatorSword_isolated_back.png",
+      "sha256": "5DFF88C534073132943F74C7F83412FF25F428BD1929832EF64C6305D0E0A1CB"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_GuardShield_isolated_front.png",
+      "sha256": "2B34075F9B20BDF523191407513BB4702C8C394C9C214C8D4B7937646DADDC44"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_GuardShield_isolated_back.png",
+      "sha256": "D2FE4A828F6B5A872EF173C8F7D7A3B51991182A49E8EE8103298D8DDF9B3296"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_GuardSpear_isolated_front.png",
+      "sha256": "6A58423F8279FC70582B4E2512340E94E2D0E07FDEA405612FC2E4C7A16C4B0E"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_GuardSpear_isolated_back.png",
+      "sha256": "62C74D0007DD4C0503B3F3403376F29C7032BD5A3AAD9C15E232B7E42AE2419C"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_HairCap_isolated_front.png",
+      "sha256": "5A0616DDC3B486B5C7C74978B37097F471AF50E2EBB1188BB6E353C0B914F1F7"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_HairCap_isolated_back.png",
+      "sha256": "91E0F5A51C12FD02C7FEC8C290E445C03F22DECECB57CCD5F2D8D886A38DFBC4"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_LeatherBelt_isolated_front.png",
+      "sha256": "BF69853C57D22813853A0E90434F9358870EADED893FCEED55717888A7F1E361"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_LeatherBelt_isolated_back.png",
+      "sha256": "CEFD547BADA4C0111EAE74B48CCEE4DED9592251148D7843C7FF020FDC996DBE"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_RomanHelmet_isolated_front.png",
+      "sha256": "77D9E5AD7735961B14DFE7E39664D9B7D883362F23C0A2E8677D090D9685C50F"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_RomanHelmet_isolated_back.png",
+      "sha256": "8616F11AD15DE72E11F4633D0ABE2CA99AB759189F13B6A057E17EF6C02CE472"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_RomanSandals_isolated_front.png",
+      "sha256": "C6A4B36DEFDBCFECDA6F0F216BCE3C7D8A6DAE8CFE0603772B43746F40674FEC"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_RomanSandals_isolated_back.png",
+      "sha256": "364E78F1E649FD0CA1DC216C29FF5BA3EEC2010B63A5E2E9145F2283CCA868EA"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_RomanTunic_isolated_front.png",
+      "sha256": "93D33FBF8C7551C8183A825D3146FA4DB24C48A2EEE7908B4613940280FF2DF4"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_RomanTunic_isolated_back.png",
+      "sha256": "5F652A0B0BC0A298C0AAACCA4510FEADF37E99F13AFC86C3BBC753ECE719C1C5"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_front.png",
+      "sha256": "9B0E9081709CF6D1AE96BC40DCDE5082BFEEE3CED4BC7B932D70B49D3B710B7A"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_back.png",
+      "sha256": "20FA15B168679213AF4F283A13F4A3BD3DE0E9A628025D634D080C3ED9B33637"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_side.png",
+      "sha256": "E97551F7802D5DAD8C4B4DB751ABC245A260612FB318097A5961F6093AE603C5"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_three_quarter.png",
+      "sha256": "91ED2187D03B42571D5F447023DA48CF7E9C9164133A1E4C0FE04B7700AE17BA"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_bronze_armor.png",
+      "sha256": "DFA43A648EB8A38357491692F001E663BE63A841CD4B61DDD9E6D0AF72A98EDE"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_gladiator_sword.png",
+      "sha256": "8E4E148503BA6030CE5661B8BE05A18B3FD153782709BBFF33B6591173F79E30"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_guard_shield.png",
+      "sha256": "FAEC548B67DD1FE45B59DC9734991D1936A70B58D8980A0C3D1A3B8116A1F3B9"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_guard_spear.png",
+      "sha256": "55B1EA26F9BB1F18DD8D911D367C18D512C8FC976E4A25C329349ECFCBEAC393"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_hair_cap.png",
+      "sha256": "E267CF6B07D2FCF3C2485CA5BDB475981ABB36BB7D64C556A62EECA6616BD6BF"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_leather_belt.png",
+      "sha256": "A15B9F03B3F7893FA48AACC9E011E47C1F2DADAACCDF598B9315DEAEAF223D2A"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_roman_helmet.png",
+      "sha256": "77868E17EEB3DBAB982CFDE280AE5045A497F07F0C58FB177A534813F397DE1E"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_roman_sandals.png",
+      "sha256": "63176BEB7639DB6169BFE337C945763DA0FD445A1B0316E05C0204B763BB599D"
+    },
+    {
+      "path": "E:\\Dev\\underwater-colony\\artifacts\\roman-arena\\characters\\garment-qc\\roman_wardrobe_isolated_roman_tunic.png",
+      "sha256": "22D57EC6C05FB615E971F5576BA388E523F4EB8BDFBF1F93CBB70D5E3A464E67"
+    }
+  ]
+}
